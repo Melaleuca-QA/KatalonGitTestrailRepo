@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9801'</initValue>
+      <name>run_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>test_case</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>test_case2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <name>ProductStore_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/Home'</initValue>
+      <name>BusinessCenter_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
+      <name>sku117_rul</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

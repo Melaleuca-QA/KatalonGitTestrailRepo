@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>001.Log in page is secure (https in the url)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cdbf89e-fb74-4033-9d6a-394fc6e5238b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>563f4b6a-a725-4f5f-992f-b77abae965b9</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
