@@ -34,6 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Compan
 WebUI.setText(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/input__js-search-input'), '117')
 
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+def act
 
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/div_                ,                      _a6d0c1'))
 
@@ -42,6 +43,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Melaleuca The Wellness Comp
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span__fa fa-search'))
 
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/img__product-card__img'))
+
+WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/div_                ,                      _a6d0c1'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/input__js-search-input'), '觀適健')
+
+WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span__fa fa-search'))
 
 WebUI.click(findTestObject('Object Repository/Page_/a_ (10)'))
 
