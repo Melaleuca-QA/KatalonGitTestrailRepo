@@ -73,4 +73,8 @@ WebUI.click(findTestObject('Object Repository/Page_/button__1_2_3_4_5_6_7'))
 WebUI.click(findTestObject('Object Repository/Page_/a_ (11)'))
 
 WebUI.closeBrowser()
+GlobalVariable.test_case = '245322'
+GlobalVariable.test_case = '245323'
+GlobalVariable.test_case = '245324'
+GlobalVariable.test_case = '245325'
 
