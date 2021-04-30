@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/_Web/011.Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>23d71a47-7627-4b16-95e5-ed19926f3525</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_Web/020.Add configurable SKU via Quick Shop</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
