@@ -50,7 +50,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Melaleuca The Wellness Comp
 
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span__fa fa-search'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (10)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (10)'))
 
 WebUI.closeBrowser()
 
