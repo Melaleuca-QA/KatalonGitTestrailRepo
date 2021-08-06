@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>004.Check Cant Access Your Account</name>
+   <name>013. Search for SKU by number</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>471a0508-ea5b-46e7-a6bf-f6862d1f31b3</testCaseGuid>
+   <testCaseGuid>bae560a4-f38b-4477-8b76-a4cf011cc981</testCaseGuid>
 </TestCaseEntity>

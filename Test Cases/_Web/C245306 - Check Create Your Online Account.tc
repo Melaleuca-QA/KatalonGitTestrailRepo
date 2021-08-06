@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>002.Firefox</name>
+   <name>C245306 - Check Create Your Online Account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b8585b79-08b5-402d-8365-64a1df50500f</testCaseGuid>
+   <testCaseGuid>9002b2db-365a-4aef-a24c-7b048d28d016</testCaseGuid>
 </TestCaseEntity>

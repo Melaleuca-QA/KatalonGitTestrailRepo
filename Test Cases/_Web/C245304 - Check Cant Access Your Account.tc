@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>005.Check Create Your Online Account</name>
+   <name>C245304 - Check Cant Access Your Account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9002b2db-365a-4aef-a24c-7b048d28d016</testCaseGuid>
+   <testCaseGuid>471a0508-ea5b-46e7-a6bf-f6862d1f31b3</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>011.Go to Contact Melaleuca</name>
+   <name>C245298 - Log in page is secure (https in the url)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b015ebe8-394a-4510-9b2d-2b4ceaa3e42b</testCaseGuid>
+   <testCaseGuid>51219c14-b73e-42f5-98b5-ef22639fd224</testCaseGuid>
 </TestCaseEntity>
