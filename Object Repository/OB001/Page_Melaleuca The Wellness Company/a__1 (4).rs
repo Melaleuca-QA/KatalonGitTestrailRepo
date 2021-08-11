@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__1 (4)</name>
+   <tag></tag>
+   <elementGuidId>336b8b54-b946-4d9f-9fa3-ffb8cd209ee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005151,2005150,2005196,2005209,2005210,2005211,2005212,2005247,2005248,2005205,2005206,2005207,2005230,2005204,2005203,2005202,2005201,2005200,2005199,2005198');return false;&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.prod-ofr-right-container__skip-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>prod-ofr-right-container__skip-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005151,2005150,2005196,2005209,2005210,2005211,2005212,2005247,2005248,2005205,2005206,2005207,2005230,2005204,2005203,2005202,2005201,2005200,2005199,2005198');return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>暫不考慮，謝謝。</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dvOfferAddedSection&quot;)/div[@class=&quot;prod-ofr-right-container__skip txt-bld&quot;]/a[@class=&quot;prod-ofr-right-container__skip-link&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005151,2005150,2005196,2005209,2005210,2005211,2005212,2005247,2005248,2005205,2005206,2005207,2005230,2005204,2005203,2005202,2005201,2005200,2005199,2005198');return false;&quot;]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dvOfferAddedSection']/div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'暫不考慮，謝謝。')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='節省更多'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品目錄/月刊/價目表'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='暫不考慮，謝謝。']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div[3]/a</value>
+   </webElementXpaths>
+</WebElementEntity>

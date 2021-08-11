@@ -37,7 +37,7 @@ def add_results(String id, String request) {
 	
 	def httpheader = new ArrayList<TestObjectProperty>()
 	httpheader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS, 'application/json'))
-	httpheader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS, 'Basic SmlsbExpbkBNZWxhbGV1Y2EuY29tOnEvUTZjdUpBUmZJaGFxT09hSHl3LTlCendodVgxZmt4aFBwNGZGOWdq'))
+	httpheader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS, 'Basic c3RhbmxleWNoZW5nQG1lbGFsZXVjYS5jb206TTV3Wk91OGdkYTg5cFFucW1rRmUtR1NyUDVhRjRrVHJKb3JkN2RKZ2Q='))
 	ro.setHttpHeaderProperties(httpheader)		
 	//println httpheader		
 	WebUI.comment('body = ' + request)
@@ -58,7 +58,7 @@ def cases2 = GlobalVariable.test_case2
 println id
 println cases
 println cases2
-
+/*
 if (GlobalVariable.test_case2 != '') {
     request = (((('{"results":[{"case_id":' + cases) + ',"status_id":1,"assignedto_id":78, "comment":"Katalon"}, {"case_id":') + 
     cases2) + ',"status_id":1, "assignedto_id":78, "comment":"Katalon"}]}')

@@ -3,15 +3,15 @@
    <description></description>
    <name>span_ (10)</name>
    <tag></tag>
-   <elementGuidId>ee59c48c-7c8d-44a9-8161-5454ef615120</elementGuidId>
+   <elementGuidId>13d8324e-2f55-442f-ba10-d01286c3944e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='btnRemove']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#btnRemove</value>
+         <key>XPATH</key>
+         <value>(//a[@id='ctl01_btn']/span[2])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,97 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btnRemove ng-binding</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnRemove</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>RemoveItemFromCart(Item,$event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-hide</name>
-      <type>Main</type>
-      <value>Item.RemoveDeleteButton</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:;</value>
+      <value>btnTxt</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> 刪除</value>
+      <value>立即瀏覽</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myCartListv2&quot;)/div[2]/table[@class=&quot;MiniCartTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;remove divBodyColumn miniCartStyle&quot;]/span[@id=&quot;btnRemove&quot;]</value>
+      <value>id(&quot;rightContainer&quot;)/div[@class=&quot;pageContainer contentContainer&quot;]/div[@class=&quot;contentDisplay&quot;]/div[1]/div[3]/div[1]/div[2]/div[@class=&quot;btn blue24&quot;]/div[1]/a[@id=&quot;ctl01_btn&quot;]/span[@class=&quot;btnTxt&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//span[@id='btnRemove']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='myCartListv2']/div[2]/table/tbody/tr/td[8]/span</value>
+      <value>(//a[@id='ctl01_btn']/span[2])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$2,380'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='立即瀏覽'])[3]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$1,020'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='事業管理工具'])[2]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='寶維適CV'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='年度進貨資料申報表'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='金穗潔膚霸'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='立即查詢'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[8]/span</value>
+      <value>//div[2]/div[2]/div/a/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

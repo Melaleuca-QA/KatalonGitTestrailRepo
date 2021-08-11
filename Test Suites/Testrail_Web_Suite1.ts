@@ -15,7 +15,7 @@
       <guid>67175025-76b7-44ca-bc09-3401fd1a27ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Web/C245298 - Log in page is secure (https in the url)</testCaseId>
+      <testCaseId>Test Cases/_Web/C245298 - Log in page is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2de2d19a-efb3-4fdb-ba5e-657ac66e6eee</guid>
@@ -42,15 +42,9 @@
       <testCaseId>Test Cases/_Web/C245312 - Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>23d71a47-7627-4b16-95e5-ed19926f3525</guid>
+      <guid>eb151fc4-f868-4425-ab94-0528ca993b47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Web/039. My Account -- Cancellation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8ca2c66b-ffab-4617-8e48-92653e95e16a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_Web/049. Business Center -- MORE</testCaseId>
+      <testCaseId>Test Cases/_Web/C245426 - Sign up for MORE with customer</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

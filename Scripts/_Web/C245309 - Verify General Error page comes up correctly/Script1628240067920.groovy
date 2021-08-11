@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_ Email  _UserName (9) (1) (1) (1)'), 'tw1')
+WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (9) (1) (1) (1)'), 'tw1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input__Password (9) (1) (1) (1)'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (9) (1) (1) (1)'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_/button_ (11) (1) (1) (1)'))
+WebUI.click(findTestObject('OB001/Page_/button_ (11) (1) (1) (1)'))
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
@@ -33,7 +33,7 @@ WebUI.waitForPageLoad(2)
 
 GlobalVariable.test_case = '245309'
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (9)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
 
 WebUI.waitForPageLoad(2)
 
@@ -51,7 +51,7 @@ WebUI.waitForPageLoad(2)
 
 GlobalVariable.test_case = '245310'
 
-WebUI.click(findTestObject('Object Repository/Page_/a__1 (2)'))
+WebUI.click(findTestObject('OB001/Page_/a__1 (2)'))
 
 WebUI.waitForPageLoad(2)
 
@@ -63,7 +63,7 @@ println(bc_url)
 
 WebUI.verifyEqual(bc_url, GlobalVariable.BusinessCenter_url)
 
-WebUI.click(findTestObject('Object Repository/Page_/a__1_2 (1)'))
+WebUI.click(findTestObject('OB001/Page_/a__1_2 (1)'))
 
 WebUI.closeBrowser()
 

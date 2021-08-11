@@ -54,4 +54,8 @@ WebUI.click(findTestObject('Object Repository/Page_/a_here'))
 WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/a__1_2 (3)'))
 
 WebUI.closeBrowser()
+
 GlobalVariable.test_case = '245357'
+
+WebUI.callTestCase(findTestCase('Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+

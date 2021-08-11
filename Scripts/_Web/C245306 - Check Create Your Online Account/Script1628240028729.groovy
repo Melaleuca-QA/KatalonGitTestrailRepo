@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (8)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (8)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__EmailAddress (1)'), 'jilllin@melaleuca.com')
+WebUI.setText(findTestObject('OB001/Page_/input__EmailAddress (1)'), 'jilllin@melaleuca.com')
 
-WebUI.click(findTestObject('Object Repository/Page_/button_ (8)'))
+WebUI.click(findTestObject('OB001/Page_/button_ (8)'))
 
 WebUI.delay(2)
 

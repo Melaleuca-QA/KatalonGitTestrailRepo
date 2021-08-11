@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_ Email  _UserName (9) (1) (1)'), 'tw1')
+WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (9) (1) (1)'), 'tw1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input__Password (9) (1) (1)'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (9) (1) (1)'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_/button_ (11) (1) (1)'))
+WebUI.click(findTestObject('OB001/Page_/button_ (11) (1) (1)'))
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
