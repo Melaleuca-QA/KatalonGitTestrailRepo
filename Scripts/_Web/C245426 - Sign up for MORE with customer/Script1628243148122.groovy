@@ -21,31 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/button_ (14)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (14)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_ Email  _UserName (16)'), 'high01')
+WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (16)'), 'high01')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input__Password (16)'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (16)'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_/button_ (22)'))
+WebUI.click(findTestObject('OB001/Page_/button_ (22)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/div_ (11)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_ (11)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (17)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (17)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (18)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (18)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span_ (12)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_ (12)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/span_ (9)'))
+WebUI.click(findTestObject('OB001/Page_/span_ (9)'))
 
 WebUI.switchToWindowTitle('MORE')
 
-WebUI.click(findTestObject('Object Repository/Page_MORE/a_ (2) (1)'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_ (2) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_MORE/a__1 (2) (1)'))
+WebUI.click(findTestObject('OB001/Page_MORE/a__1 (2) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_MORE/a__1_2 (2) (1)'))
+WebUI.click(findTestObject('OB001/Page_MORE/a__1_2 (2) (1)'))
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/more/OrgViewer.aspx?sid=undefined')
 
@@ -53,13 +53,7 @@ WebUI.closeBrowser()
 
 GlobalVariable.test_case = '245426'
 
-WebUI.callTestCase(findTestCase('Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 GlobalVariable.test_case = '245427'
 
-WebUI.callTestCase(findTestCase('Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 GlobalVariable.test_case = '245428'
-
-WebUI.callTestCase(findTestCase('Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
