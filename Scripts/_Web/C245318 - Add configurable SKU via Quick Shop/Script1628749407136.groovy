@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
 WebUI.setText(findTestObject('Object Repository/OB001/Page_/input_ Email  _UserName (15)'), GlobalVariable.input_username)
 

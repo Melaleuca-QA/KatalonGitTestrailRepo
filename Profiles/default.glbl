@@ -44,4 +44,9 @@
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>input_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/'</initValue>
+      <name>url_uatwweb</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
