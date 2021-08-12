@@ -6,12 +6,12 @@
    <elementGuidId>2c9433dc-cf82-46b5-b106-bf82878a07a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='ctl01_btn']/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.btnTxt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl01_btn']/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

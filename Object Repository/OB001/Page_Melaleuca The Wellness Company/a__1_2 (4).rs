@@ -3,15 +3,15 @@
    <description></description>
    <name>a__1_2 (4)</name>
    <tag></tag>
-   <elementGuidId>6d118079-1f4d-4bcd-8ccd-2216ecb972c2</elementGuidId>
+   <elementGuidId>4697033c-d752-41a2-a230-bcfd101cf6f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'超值套組')]</value>
+         <value>//a[contains(text(),'線上申請會籍')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column.clear-border > div.menu-header.double-width > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,90 +28,76 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/ProductStore/content/category?c=119</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>manual_cm_re</name>
-      <type>Main</type>
-      <value>20190701-_-c119</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-aid</name>
-      <type>Main</type>
-      <value>20190701|@|c119|@|@</value>
+      <value>/BusinessCenter/NewEnrollment.aspx</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>超值套組</value>
+      <value>線上申請會籍</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[7]/a[1]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/div[@class=&quot;menu-header double-width&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'超值套組')]</value>
+      <value>//a[contains(text(),'線上申請會籍')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='細緻肌膚護理'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[9]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='抗痘保養'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='網路限定優惠'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='顯示所有產品'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='申請會籍'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[4]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='超值套組']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='線上申請會籍']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/ProductStore/content/category?c=119')]</value>
+      <value>//a[contains(@href, '/BusinessCenter/NewEnrollment.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/a</value>
+      <value>//div[8]/div/div/div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

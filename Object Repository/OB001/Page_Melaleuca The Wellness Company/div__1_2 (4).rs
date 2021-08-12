@@ -3,15 +3,15 @@
    <description></description>
    <name>div__1_2 (4)</name>
    <tag></tag>
-   <elementGuidId>0bb3b4c7-502a-4729-bf30-1990dc688087</elementGuidId>
+   <elementGuidId>5844bba9-1642-4848-bab3-9ff1e1a845f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
+         <value>//div[@id='dvInviteConfirmation']/div/div[4]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.cart-close-wrapper</value>
+         <value>div.button.pure-button-green.ng-scope.ng-binding.copyInvitationLink</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,90 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart-close-wrapper</value>
+      <value>button pure-button-green ng-scope ng-binding copyInvitationLink</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
-      <type>Main</type>
-      <value>$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);</value>
+      <value>copyToClipboard()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> 關閉</value>
+      <value>複製</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mycart&quot;)/div[@class=&quot;cart-close-wrapper&quot;]</value>
+      <value>id(&quot;dvInviteConfirmation&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer invitationLink&quot;]/div[@class=&quot;button pure-button-green ng-scope ng-binding copyInvitationLink&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mycart']/div[5]</value>
+      <value>//div[@id='dvInviteConfirmation']/div/div[4]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='結帳'])[2]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='邀請連結'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$2,900'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hkole21'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[2]/preceding::div[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hkole21'])[2]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品中心'])[1]/preceding::div[11]</value>
+      <value>//*/text()[normalize-space(.)='複製']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[5]</value>
+      <value>//div[4]/div/div[4]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

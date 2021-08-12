@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/'</initValue>
+      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
       <name>url_uatwweb</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

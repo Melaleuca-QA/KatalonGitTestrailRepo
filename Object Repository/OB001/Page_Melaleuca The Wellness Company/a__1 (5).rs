@@ -3,15 +3,15 @@
    <description></description>
    <name>a__1 (5)</name>
    <tag></tag>
-   <elementGuidId>224b25f1-20cc-4b27-b38c-eabb5188e2f1</elementGuidId>
+   <elementGuidId>618ee133-baae-45ca-a584-4e0cf9178d1d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=''])[2]</value>
+         <value>(//a[@onclick=''])[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.nav-sub-item.is-visible.is-preview</value>
+         <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,21 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-sub-item is-visible is-preview</value>
+      <value>nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-self-id</name>
       <type>Main</type>
-      <value>875</value>
+      <value>1210</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-parent-id</name>
       <type>Main</type>
-      <value>841</value>
+      <value>1209</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>身體防護系列</value>
+      <value>申請會籍</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <type>Main</type>
       <value>
                                 
-                                身體防護系列
+                                申請會籍
                             </value>
    </webElementProperties>
    <webElementProperties>
@@ -80,41 +80,34 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[@onclick=''])[2]</value>
+      <value>(//a[@onclick=''])[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='關於美樂家'])[1]/following::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='身體防護系列']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='申請會籍']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, 'javascript:void(0)')])[2]</value>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//a[8]</value>
    </webElementXpaths>
 </WebElementEntity>
