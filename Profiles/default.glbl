@@ -36,6 +36,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
+      <name>url_uatwweb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'tw3'</initValue>
       <name>input_username</name>
    </GlobalVariableEntity>
@@ -43,5 +48,15 @@
       <description></description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>input_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'high01'</initValue>
+      <name>input_username2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>input_password2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
