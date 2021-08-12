@@ -37,9 +37,9 @@ WebUI.click(findTestObject('Object Repository/OB002/Page_/a__1'))
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_/div__link startEnrollmentLink'))
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__txtNewEnrolleeFirstName'), 'tw3ole2')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__txtNewEnrolleeFirstName'), 'tw3ole3')
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__txtEmailAddress'), 'tw3ole2@melaleuca.com')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__txtEmailAddress'), 'tw3ole3@melaleuca.com')
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_/label_'))
 
