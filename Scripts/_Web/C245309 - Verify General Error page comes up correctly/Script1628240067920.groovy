@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
 
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (9) (1) (1) (1)'), 'tw1')
+WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (9) (1) (1) (1)'), 'tw3')
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (9) (1) (1) (1)'), '8SQVv/p9jVScEs4/2CZsLw==')
 

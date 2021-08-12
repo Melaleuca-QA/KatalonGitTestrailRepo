@@ -21,17 +21,17 @@ WebUI.callTestCase(findTestCase('_Web/Log in --tw1'), [:], FailureHandling.STOP_
 
 WebUI.switchToWindowTitle('Melaleuca: The Wellness Company')
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span_ (9)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_ (9)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/a_ (12)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (12)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/span_ (6)'))
+WebUI.click(findTestObject('OB001/Page_/span_ (6)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span__1 (1)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__1 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (13)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a__1 (3)'))
+WebUI.click(findTestObject('OB001/Page_/a__1 (3)'))
 
 WebUI.closeBrowser()
 

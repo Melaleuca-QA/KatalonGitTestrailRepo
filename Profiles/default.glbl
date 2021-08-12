@@ -34,4 +34,14 @@
       <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
       <name>sku117_rul</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tw3'</initValue>
+      <name>input_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>input_password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

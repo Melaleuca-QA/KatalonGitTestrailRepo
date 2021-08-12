@@ -21,43 +21,43 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/button_ (8)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (8)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_ Email  _UserName (12)'), 'tw1')
+WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (12)'), 'tw1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input__Password (12)'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (12)'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_/button_ (16)'))
+WebUI.click(findTestObject('OB001/Page_/button_ (16)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/span_ (8)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_ (8)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Melaleuca The Wellness Company/a_ (11)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (11)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/span_ (5)'))
+WebUI.click(findTestObject('OB001/Page_/span_ (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1 (4)'))
+WebUI.click(findTestObject('OB001/Page_/button__1 (4)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__AddressToEdit.ShipToName (2)'), 'hsipaddress')
+WebUI.setText(findTestObject('OB001/Page_/input__AddressToEdit.ShipToName (2)'), 'hsipaddress')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_/select_ (2)'), '基隆市', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_ (2)'), '基隆市', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_/select__1 (2)'), '仁愛區', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select__1 (2)'), '仁愛區', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__AddressToEdit.AddressLine1 (2)'), 'hsipaddressdd')
+WebUI.setText(findTestObject('OB001/Page_/input__AddressToEdit.AddressLine1 (2)'), 'hsipaddressdd')
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB001/Page_/button__1_2 (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1_2_3 (2)'))
+WebUI.click(findTestObject('OB001/Page_/button__1_2_3 (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__AddressToEdit.AddressLine1 (2)'), 'hsipaddressdd222')
+WebUI.setText(findTestObject('OB001/Page_/input__AddressToEdit.AddressLine1 (2)'), 'hsipaddressdd222')
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB001/Page_/button__1_2 (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB001/Page_/button__1_2 (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/button__1_2_3_4 (2)'))
+WebUI.click(findTestObject('OB001/Page_/button__1_2_3_4 (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a_ (12)'))
+WebUI.click(findTestObject('OB001/Page_/a_ (12)'))
 
 WebUI.closeBrowser()
 GlobalVariable.test_case = '245366'

@@ -6,12 +6,12 @@
    <elementGuidId>a2c1c4ee-f877-41fe-a99f-6deddd565519</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column > ul.menu-sub-column > li > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'事業管理工具')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column > ul.menu-sub-column > li > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

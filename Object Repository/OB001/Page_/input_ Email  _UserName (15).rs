@@ -6,12 +6,12 @@
    <elementGuidId>b26020a5-7dc4-4ff5-92de-057517ef4338</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#UserName</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='UserName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#UserName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,14 +38,14 @@
       <value>txtbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>UserName</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -59,7 +59,7 @@
       <value>return TrapEnterKey(event,'submitLoginForm()');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -73,7 +73,7 @@
       <value>id(&quot;UserName&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
