@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>027. Place an order --Shipping</name>
+   <name>C245322 - Verify the order checkout is secure - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>01bc76b6-e986-4218-837f-3d7c23967c27</testCaseGuid>
+   <testCaseGuid>86758faf-9646-4f31-a361-033c5f72d78e</testCaseGuid>
 </TestCaseEntity>
