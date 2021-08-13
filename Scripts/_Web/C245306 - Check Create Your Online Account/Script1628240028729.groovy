@@ -31,5 +31,6 @@ WebUI.delay(2)
 
 WebUI.closeBrowser()
 
+'Check \'Create Your Online Account\''
 GlobalVariable.test_case = '245306'
 

@@ -31,6 +31,7 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
 WebUI.waitForPageLoad(2)
 
+'Verify General Error page comes up correctly'
 GlobalVariable.test_case = '245309'
 
 WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
@@ -49,6 +50,7 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
 WebUI.waitForPageLoad(2)
 
+'Verify ProductStore link works'
 GlobalVariable.test_case = '245310'
 
 WebUI.click(findTestObject('OB001/Page_/a__1 (2)'))
@@ -67,5 +69,6 @@ WebUI.click(findTestObject('OB001/Page_/a__1_2 (1)'))
 
 WebUI.closeBrowser()
 
+'Verify BusinessCenter link works'
 GlobalVariable.test_case = '245311'
 

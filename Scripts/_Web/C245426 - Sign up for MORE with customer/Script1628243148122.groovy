@@ -49,9 +49,12 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/more/OrgViewer.aspx?sid=undef
 
 WebUI.closeBrowser()
 
+'Sign up for M.O.R.E. with customer who doesn\'t have it'
 GlobalVariable.test_case = '245426'
 
+'Click every link with a live customer'
 GlobalVariable.test_case = '245427'
 
+'Click on Org Browser with a live customer'
 GlobalVariable.test_case = '245428'
 

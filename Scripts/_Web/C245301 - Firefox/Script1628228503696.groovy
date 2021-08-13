@@ -45,5 +45,6 @@ WebUI.click(findTestObject('OB001/Page_/a_ (1)'))
 
 WebUI.closeBrowser()
 
+'Firefox'
 GlobalVariable.test_case = '245301'
 

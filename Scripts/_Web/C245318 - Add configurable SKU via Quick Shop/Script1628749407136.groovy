@@ -61,5 +61,6 @@ WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca/a_'))
 
 WebUI.closeBrowser()
 
+'Add configurable SKU via Quick Shop'
 GlobalVariable.test_case = '245318'
 

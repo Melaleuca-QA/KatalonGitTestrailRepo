@@ -53,11 +53,15 @@ WebUI.click(findTestObject('OB001/Page_/a_ (6)'))
 
 WebUI.closeBrowser()
 
+'Log in page is secure (https in the url)'
 GlobalVariable.test_case = '245298'
 
+'Chrome 30 and higher'
 GlobalVariable.test_case = '245302'
 
+'Log in to Website'
 GlobalVariable.test_case = '245307'
 
+'Log out of Website'
 GlobalVariable.test_case = '245308'
 
