@@ -15,6 +15,6 @@
       <guid>70282c90-258d-4105-b842-a8764d51c8ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_Web/C245301 - Firefox</testCaseId>
+      <testCaseId>Test Cases/TW/_Web/C245301 - Firefox</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
