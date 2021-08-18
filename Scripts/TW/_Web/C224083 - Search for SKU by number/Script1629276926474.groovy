@@ -52,8 +52,12 @@ WebUI.click(findTestObject('OB001/Page_/a_ (10)'))
 WebUI.closeBrowser()
 
 'Search for SKU by number'
-def C224083
+''
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for SKU by name'
-def C224084
+''
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

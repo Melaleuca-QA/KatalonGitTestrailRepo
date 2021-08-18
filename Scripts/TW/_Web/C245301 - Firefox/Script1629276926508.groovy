@@ -48,3 +48,5 @@ WebUI.closeBrowser()
 'Firefox'
 GlobalVariable.test_case = '245301'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+

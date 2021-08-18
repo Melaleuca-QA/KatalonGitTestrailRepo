@@ -36,3 +36,5 @@ WebUI.closeBrowser()
 'Check \'Can\'t Access Your Account\''
 GlobalVariable.test_case = '245304'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+

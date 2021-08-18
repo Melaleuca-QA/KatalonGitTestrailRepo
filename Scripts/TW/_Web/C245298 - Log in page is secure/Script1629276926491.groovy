@@ -56,12 +56,20 @@ WebUI.closeBrowser()
 'Log in page is secure (https in the url)'
 GlobalVariable.test_case = '245298'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Chrome 30 and higher'
 GlobalVariable.test_case = '245302'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Log in to Website'
 GlobalVariable.test_case = '245307'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Log out of Website'
 GlobalVariable.test_case = '245308'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
