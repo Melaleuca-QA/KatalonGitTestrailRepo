@@ -59,4 +59,14 @@
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>input_password2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hk1'</initValue>
+      <name>input_username3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>input_password3</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
