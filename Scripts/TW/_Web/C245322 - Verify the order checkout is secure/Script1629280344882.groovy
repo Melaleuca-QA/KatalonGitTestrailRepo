@@ -82,12 +82,20 @@ WebUI.closeBrowser()
 'Verify the order checkout is secure (https in the url)'
 GlobalVariable.test_case = '245322'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Add a new address'
 GlobalVariable.test_case = '245323'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Edit an existing address'
 GlobalVariable.test_case = '245324'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Delete an existing address'
 GlobalVariable.test_case = '245325'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

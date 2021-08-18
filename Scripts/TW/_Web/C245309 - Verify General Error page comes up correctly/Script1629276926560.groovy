@@ -34,6 +34,8 @@ WebUI.waitForPageLoad(2)
 'Verify General Error page comes up correctly'
 GlobalVariable.test_case = '245309'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
 
 WebUI.waitForPageLoad(2)
@@ -53,6 +55,8 @@ WebUI.waitForPageLoad(2)
 'Verify ProductStore link works'
 GlobalVariable.test_case = '245310'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('OB001/Page_/a__1 (2)'))
 
 WebUI.waitForPageLoad(2)
@@ -71,4 +75,6 @@ WebUI.closeBrowser()
 
 'Verify BusinessCenter link works'
 GlobalVariable.test_case = '245311'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

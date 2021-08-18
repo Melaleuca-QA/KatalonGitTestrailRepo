@@ -49,5 +49,8 @@ WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness 
 
 WebUI.closeBrowser()
 
+'Place a quick shop order'
 GlobalVariable.test_case = '245357'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

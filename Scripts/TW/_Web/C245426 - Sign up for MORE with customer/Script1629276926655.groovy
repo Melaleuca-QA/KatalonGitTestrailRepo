@@ -52,9 +52,15 @@ WebUI.closeBrowser()
 'Sign up for M.O.R.E. with customer who doesn\'t have it'
 GlobalVariable.test_case = '245426'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Click every link with a live customer'
 GlobalVariable.test_case = '245427'
 
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Click on Org Browser with a live customer'
 GlobalVariable.test_case = '245428'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
