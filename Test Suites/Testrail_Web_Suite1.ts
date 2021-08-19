@@ -12,13 +12,19 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1c828a90-3672-4430-99ae-f8818a303a7f</testSuiteGuid>
    <testCaseLink>
+      <guid>69420781-a0c7-42ba-9f00-61b41856ac81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C224083 - Search for SKU by number</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>67175025-76b7-44ca-bc09-3401fd1a27ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/C245298 - Log in page is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2de2d19a-efb3-4fdb-ba5e-657ac66e6eee</guid>
+      <guid>0728e21b-b8b3-4455-868a-352e6d9de579</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/C245304 - Check Cant Access Your Account</testCaseId>
@@ -36,13 +42,19 @@
       <testCaseId>Test Cases/TW/_Web/C245309 - Verify General Error page comes up correctly</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cee4af92-896b-4751-9a0a-588a192363fb</guid>
+      <guid>60f0669e-f87a-41b2-86cf-8410f1da7bcb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/C245312 - Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb151fc4-f868-4425-ab94-0528ca993b47</guid>
+      <guid>6c1f8523-68d1-4363-815f-16807c6607d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C245322 - Verify the order checkout is secure</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f27f77ee-9a83-484a-952e-2285ceeb1a61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/C245426 - Sign up for MORE with customer</testCaseId>
