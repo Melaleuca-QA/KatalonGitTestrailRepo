@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ (1)</name>
+   <name>button__1_2</name>
    <tag></tag>
-   <elementGuidId>9caedb19-89f3-4f14-bbaa-2d847f79783c</elementGuidId>
+   <elementGuidId>21f7780b-6ddf-4bd1-8b7a-c0d64b01d1ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='simplePageContent']/form/div/div[4]/div/div[2]</value>
+         <value>//button[@id='btnCheckout']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.rightSide</value>
+         <value>#btnCheckout</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,70 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>rightSide</value>
+      <value>pure-button pure-button-green</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnCheckout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>window.location = '/ProductStore/Cart';</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            送貨地址選項
-            寄貨說明
-            
-                
-            
-            電話號碼
-            
-                
-            
-            
-            
-                
-                設定為我的預設送貨地址
-            
-        </value>
+      <value>結帳</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;simplePageContent&quot;)/form[1]/div[@class=&quot;addressEdit&quot;]/div[@class=&quot;addressEdit&quot;]/div[@class=&quot;addressFields&quot;]/div[@class=&quot;rightSide&quot;]</value>
+      <value>id(&quot;btnCheckout&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnCheckout']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div[2]</value>
+      <value>//div[@id='toolContainer']/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Required field'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='加入購物車'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地址'])[2]/following::div[3]</value>
+      <value>//*/text()[normalize-space(.)='結帳']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div[4]/div/div[2]</value>
+      <value>//div[2]/div[2]/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

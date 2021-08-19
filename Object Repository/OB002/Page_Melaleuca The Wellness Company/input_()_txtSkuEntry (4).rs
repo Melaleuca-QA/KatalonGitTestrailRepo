@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ (1)</name>
+   <name>input_()_txtSkuEntry (4)</name>
    <tag></tag>
-   <elementGuidId>9caedb19-89f3-4f14-bbaa-2d847f79783c</elementGuidId>
+   <elementGuidId>fa75bc6c-6180-4c2a-98b9-dd4167cc53f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='simplePageContent']/form/div/div[4]/div/div[2]</value>
+         <value>//input[@id='txtSkuEntry']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.rightSide</value>
+         <value>#txtSkuEntry</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,70 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txtSkuEntry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>加入購物車</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>rightSide</value>
+      <value>cartInputBox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>onkeypress</name>
       <type>Main</type>
-      <value>
-            送貨地址選項
-            寄貨說明
-            
-                
-            
-            電話號碼
-            
-                
-            
-            
-            
-                
-                設定為我的預設送貨地址
-            
-        </value>
+      <value>return txtSkuEntry_OnKeyUp(this,event);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;simplePageContent&quot;)/form[1]/div[@class=&quot;addressEdit&quot;]/div[@class=&quot;addressEdit&quot;]/div[@class=&quot;addressFields&quot;]/div[@class=&quot;rightSide&quot;]</value>
+      <value>id(&quot;txtSkuEntry&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='txtSkuEntry']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Required field'])[1]/following::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地址'])[2]/following::div[3]</value>
+      <value>//div[@id='mycart']/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div[4]/div/div[2]</value>
+      <value>//div/input</value>
    </webElementXpaths>
 </WebElementEntity>
