@@ -19,48 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_/input_ Email  _UserName (15)'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_Email_UserName (4)'), 'tw3')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB001/Page_/input__Password (15)'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB002/Page_/input__Password (4)'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/button_ (20)'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_/button_ (6)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/span_()_fa fa-caret-down (2)'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button_(0)'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/input_ ()_txtSkuEntry (5)'), '1210.2')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (4)'), '1210.2')
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_ (13)'))
+WebUI.sendKeys(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (4)'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/input_ ()_txtSkuEntry (5)'), '2000.2')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (4)'), '2000.2')
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_ (13)'))
+WebUI.sendKeys(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (4)'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button__1_2'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/div_ (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/a__1 (5)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a__1'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button_ (4)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/img'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div__1'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/img_1'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div__1_2'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button__1 (5)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button__1'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1 (6)'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/span_()_fa fa-caret-down'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/a__1_2'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button__1_2'))
-
-WebUI.click(findTestObject('Object Repository/OB001/Page_/button_'))
-
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca/a_'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/a__1_2_3'))
 
 WebUI.closeBrowser()
-
-'Add configurable SKU via Quick Shop'
-GlobalVariable.test_case = '245318'
 

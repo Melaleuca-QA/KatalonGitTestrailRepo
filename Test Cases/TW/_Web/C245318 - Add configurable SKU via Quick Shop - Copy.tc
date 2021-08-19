@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case 111</name>
+   <name>C245318 - Add configurable SKU via Quick Shop - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>91c699c5-f782-4d80-9de7-260039b13ef1</testCaseGuid>
+   <testCaseGuid>6c916395-1fd9-449d-9f1c-899fb837fdee</testCaseGuid>
 </TestCaseEntity>
