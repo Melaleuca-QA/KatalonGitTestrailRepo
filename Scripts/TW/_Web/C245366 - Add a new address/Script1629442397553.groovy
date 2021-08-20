@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account/SignIn')
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName (2)'), 'tw3')
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName (2)'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password (2)'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password (2)'), GlobalVariable.tw_input_password1)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (3)'))
 
