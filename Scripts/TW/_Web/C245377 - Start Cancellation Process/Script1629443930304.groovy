@@ -17,23 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('HK/_Web/Log in --tw1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.switchToWindowTitle('Melaleuca: The Wellness Company')
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_ (9)'))
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (12)'))
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB001/Page_/span_ (6)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__1 (1)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'))
 
-WebUI.click(findTestObject('OB001/Page_/a_ (13)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 
-WebUI.click(findTestObject('OB001/Page_/a__1 (3)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span__1'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2'))
 
 WebUI.closeBrowser()
 
-GlobalVariable.test_case = 245377
+'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
+GlobalVariable.test_case = '245377'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

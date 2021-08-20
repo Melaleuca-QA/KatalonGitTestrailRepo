@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>039. My Account -- Cancellation</name>
+   <name>C245377 - Start Cancellation Process</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a39b4283-2970-4d7b-b196-e0a76626077e</testCaseGuid>
