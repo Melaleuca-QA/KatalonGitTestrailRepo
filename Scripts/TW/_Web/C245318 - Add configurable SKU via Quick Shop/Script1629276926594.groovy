@@ -69,3 +69,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.closeBrowser()
 
+'Add configurable SKU via Quick Shop'
+GlobalVariable.test_case = '245318'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
