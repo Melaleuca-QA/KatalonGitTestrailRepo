@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_()_fa fa-caret-down (2)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (1)'), '117.1')
+WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (1)'), '2000.3')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (1)'))
 

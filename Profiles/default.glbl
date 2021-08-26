@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10049'</initValue>
+      <initValue>'10105'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -68,5 +68,20 @@
       <description></description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_newname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_newpswd1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_newaddr1</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

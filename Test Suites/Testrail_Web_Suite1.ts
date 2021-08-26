@@ -48,10 +48,34 @@
       <testCaseId>Test Cases/TW/_Web/C245312 - Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>7581a85e-fa44-4b1b-8d0e-c35c9c67b2a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C245318 - Add configurable SKU via Quick Shop</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6c1f8523-68d1-4363-815f-16807c6607d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/C245322 - Verify the order checkout is secure</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4d639b4c-377a-4afb-a905-a445a5ab9e6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C245357 - Place a quick shop order</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be5f1b06-0ded-4c02-b6c2-4305c1961122</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C245366 - Add a new address</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf075f66-4d77-4e53-86ff-3f0b3787a7c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/C245377 - Start Cancellation Process</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f27f77ee-9a83-484a-952e-2285ceeb1a61</guid>
