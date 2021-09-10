@@ -72,16 +72,36 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newname1</name>
+      <name>hk_input_newname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>hk_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newpswd1</name>
+      <name>hk_input_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newaddr1</name>
+      <name>hk_input_mphone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_citizen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_creditcard</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_oleurl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

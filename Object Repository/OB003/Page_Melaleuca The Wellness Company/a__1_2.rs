@@ -6,12 +6,12 @@
    <elementGuidId>d3322d7e-fc49-4d78-a324-68fae481dda4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.prod-ofr-right-container__skip-link</value>
+         <key>XPATH</key>
+         <value>(//a[@onclick=''])[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2000135,2000134,2000398,2000399,2001821,2001822,2001823,2001824,2001825,2001826,2000139,2000140,2000141,2000300,2005726,2000302,2005727,2000304,2000301,2000303,2000305,2002491,2002492,2002493,2002494,2005535,2005536,2005537,2005538,2005539,2005540,2005633,2005546,2005547,2005548,2005549,2005550,2005551,2005553,2005860,2005861,2005862,2005863,2005864,2005865,2005866,2005680,2005554,2005555,2005556,2005557,2005558,2005559,2005560,2005561,2005566,2005567,2005568,2005569,2005570,2005747,2005748,2005749,2005750,2005751,2005752,2005753,2005754,2005755,2005756,2005757,2005758');return false;&quot;]</value>
+         <key>CSS</key>
+         <value>a.nav-sub-item.is-visible.is-preview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,59 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>prod-ofr-right-container__skip-link</value>
+      <value>nav-sub-item is-visible is-preview</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-self-id</name>
+      <type>Main</type>
+      <value>1899</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-parent-id</name>
+      <type>Main</type>
+      <value>1065</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>肌膚美容保養系列</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                
+                                肌膚美容保養系列
+                            </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,22 +89,36 @@
       <type>Main</type>
       <value>try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2000135,2000134,2000398,2000399,2001821,2001822,2001823,2001824,2001825,2001826,2000139,2000140,2000141,2000300,2005726,2000302,2005727,2000304,2000301,2000303,2000305,2002491,2002492,2002493,2002494,2005535,2005536,2005537,2005538,2005539,2005540,2005633,2005546,2005547,2005548,2005549,2005550,2005551,2005553,2005860,2005861,2005862,2005863,2005864,2005865,2005866,2005680,2005554,2005555,2005556,2005557,2005558,2005559,2005560,2005561,2005566,2005567,2005568,2005569,2005570,2005747,2005748,2005749,2005750,2005751,2005752,2005753,2005754,2005755,2005756,2005757,2005758');return false;</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>不需加購</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;dvOfferAddedSection&quot;)/div[@class=&quot;prod-ofr-right-container__skip txt-bld&quot;]/a[@class=&quot;prod-ofr-right-container__skip-link&quot;]</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=''])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='肌膚美容保養系列']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
