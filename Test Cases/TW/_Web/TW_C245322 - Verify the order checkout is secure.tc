@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TW_C245322 - Verify the order checkout is secure</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba6f483e-7050-4deb-b62d-5e103ef104e4</testCaseGuid>
+</TestCaseEntity>
