@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>2021.08</name>
+   <name>ST HK</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10049'</initValue>
+      <initValue>'10105'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,43 +21,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
       <name>ProductStore_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/Home'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/Home'</initValue>
       <name>BusinessCenter_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/search-results?q=117'</initValue>
       <name>sku117_rul</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/account/SignIn'</initValue>
       <name>url_uatwweb</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'tw3'</initValue>
-      <name>tw_input_username1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
-      <name>tw_input_password1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'high01'</initValue>
-      <name>tw_input_username2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
-      <name>tw_input_password2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -72,16 +52,36 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newname1</name>
+      <name>hk_input_newname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>hk_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newpswd1</name>
+      <name>hk_input_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>hk_input_newaddr1</name>
+      <name>hk_input_mphone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_citizen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_creditcard</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_oleurl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
