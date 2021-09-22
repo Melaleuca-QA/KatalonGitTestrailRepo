@@ -21,6 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (10)'), GlobalVariable.tw_input_username1)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (10)'), GlobalVariable.tw_input_password1)
@@ -52,12 +56,10 @@ WebUI.click(findTestObject('OB001/Page_/a_ (10)'))
 WebUI.closeBrowser()
 
 'Search for SKU by number'
-''
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for SKU by name'
-''
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

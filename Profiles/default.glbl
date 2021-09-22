@@ -41,6 +41,26 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
+      <name>url_melaleucapresentations</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <name>url_FollowUp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/Content.aspx?page=Enrollment_Forms'</initValue>
+      <name>url_Enrollment_Forms</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
+      <name>url_whichproducts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'tw3'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>

@@ -157,13 +157,13 @@ WebUI.clickOffset(findTestObject('OB003/Page_/label_ (1)'), 100, 0)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (7)'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(100)
 
 WebUI.focus(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (3)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (3)'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(100)
 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_/h5_'))
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (3)'))
@@ -201,11 +201,6 @@ WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandlin
 
 'Verify ability to send invite by email'
 GlobalVariable.test_case = '245568'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify Enrollment Tools links work and proceed to expected pages'
-GlobalVariable.test_case = '247191'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

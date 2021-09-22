@@ -21,6 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName (6)'), GlobalVariable.tw_input_username1)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password (6)'), GlobalVariable.tw_input_password1)

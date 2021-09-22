@@ -143,7 +143,9 @@ WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_'), 50, 0)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (7)'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(100)
+
+WebUI.focus(findTestObject('Object Repository/OB003/Page_/button_'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_'))
 
@@ -151,12 +153,15 @@ WebUI.focus(findTestObject('Object Repository/OB003/Page_/button__1'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2'))
 
 WebUI.refresh()
 
+WebUI.refresh()
+
+//WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1'))
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3 (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
@@ -185,18 +190,13 @@ GlobalVariable.test_case = '245567'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Complete an enrollment in every country of the software system'
-GlobalVariable.test_case = '251905'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Verify ability to send invite by email'
 GlobalVariable.test_case = '245568'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify Enrollment Tools links work and proceed to expected pages'
-GlobalVariable.test_case = '247191'
+'Complete an enrollment in every country of the software system'
+GlobalVariable.test_case = '251905'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

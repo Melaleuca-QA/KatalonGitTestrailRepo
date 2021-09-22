@@ -21,6 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('OB001/Page_/a_ (8)'))
 
 WebUI.setText(findTestObject('OB001/Page_/input__EmailAddress (1)'), 'jilllin@melaleuca.com')

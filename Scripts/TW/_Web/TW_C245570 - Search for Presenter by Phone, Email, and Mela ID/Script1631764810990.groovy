@@ -72,5 +72,6 @@ WebUI.closeBrowser()
 
 'Verify being able to search for Presenter by Phone, Email, and Member #'
 GlobalVariable.test_case = '245570'
+
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
