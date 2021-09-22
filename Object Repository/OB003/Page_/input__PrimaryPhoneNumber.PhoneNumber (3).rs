@@ -6,12 +6,12 @@
    <elementGuidId>1e0a8025-4da2-4a96-8851-ca06165019dc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='phone_primaryPhoneNumber']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#phone_primaryPhoneNumber</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='phone_primaryPhoneNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

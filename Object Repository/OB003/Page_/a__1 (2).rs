@@ -6,12 +6,12 @@
    <elementGuidId>db8c4434-3de8-4c99-90b7-f5c93f0494fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'線上入會')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column.clear-border > div.menu-header.double-width > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'線上入會')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>875368df-a25c-4232-b063-cf24016d8370</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='PaymethodViewModel_CreditCardViewModel_ExpirationYear']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#PaymethodViewModel_CreditCardViewModel_ExpirationYear</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PaymethodViewModel_CreditCardViewModel_ExpirationYear']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

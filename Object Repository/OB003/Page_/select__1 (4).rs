@@ -6,12 +6,12 @@
    <elementGuidId>d67b1e36-9373-4a63-80fc-832ec7462e8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='SuburbCtrl']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#SuburbCtrl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='SuburbCtrl']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

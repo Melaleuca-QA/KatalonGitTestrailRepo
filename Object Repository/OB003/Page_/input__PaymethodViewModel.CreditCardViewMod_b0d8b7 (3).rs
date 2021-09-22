@@ -6,12 +6,12 @@
    <elementGuidId>f54e8639-1fe1-4334-9ecf-586b26b918b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PaymethodViewModel_CreditCardViewModel_AccountNumber']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#PaymethodViewModel_CreditCardViewModel_AccountNumber</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='PaymethodViewModel_CreditCardViewModel_AccountNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

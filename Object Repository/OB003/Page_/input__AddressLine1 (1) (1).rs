@@ -6,12 +6,12 @@
    <elementGuidId>9dc57d02-4123-447d-8911-f248770cb718</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='AddressLine1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#AddressLine1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='AddressLine1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

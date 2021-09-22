@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Recording mode'
 if (1 == 2) {
     GlobalVariable.hk_input_newname = 'hk918210'
 
@@ -38,6 +39,7 @@ if (1 == 2) {
     WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
+'Running mode'
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
@@ -80,6 +82,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2 (2)'))
 
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+
 GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
 
@@ -97,7 +101,7 @@ WebUI.navigateToUrl(GlobalVariable.hk_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (4)'))
 
@@ -153,11 +157,13 @@ WebUI.clickOffset(findTestObject('OB003/Page_/label_ (1)'), 100, 0)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (7)'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (3)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (3)'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(30)
 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_/h5_'))
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (3)'))
@@ -178,8 +184,28 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.closeBrowser()
 
-'Place a quick shop order'
+'Start an enrollment, verify enrollment form comes up'
 GlobalVariable.test_case = '245566'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify that OLE is secure (https in the url)'
+GlobalVariable.test_case = '245567'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Complete an enrollment in every country of the software system'
+GlobalVariable.test_case = '251905'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify ability to send invite by email'
+GlobalVariable.test_case = '245568'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify Enrollment Tools links work and proceed to expected pages'
+GlobalVariable.test_case = '247191'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

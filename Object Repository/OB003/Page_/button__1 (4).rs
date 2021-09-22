@@ -6,12 +6,12 @@
    <elementGuidId>6499242b-e489-44ba-9f7a-adce384be492</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@onclick=&quot;$('#submitPreferredForm').submit(); cmCreateElementTag('PreferredMemberSelect', analyticsElementCategory);&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.ole-action.ole-action--button.ole-action--button--green</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick=&quot;$('#submitPreferredForm').submit(); cmCreateElementTag('PreferredMemberSelect', analyticsElementCategory);&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

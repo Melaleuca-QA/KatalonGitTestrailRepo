@@ -6,12 +6,12 @@
    <elementGuidId>e10ed1fc-0e09-40ed-a547-d163ccf2dab6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='btnSendEmail']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnSendEmail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='btnSendEmail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>99db7ddd-cc60-4f2e-a670-3b2d244c7793</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='YearOfBirthEdit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#YearOfBirthEdit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='YearOfBirthEdit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

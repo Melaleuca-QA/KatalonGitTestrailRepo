@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='invitation_1365']/div/div[4]/span[2]/i</value>
+         <value>//div[@id='invitation_1526']/div/div[4]/span[2]/i</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invitation_1365&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData greenText ng-scope&quot;]/span[@class=&quot;removeIcon&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
+      <value>id(&quot;invitation_1526&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData greenText ng-scope&quot;]/span[@class=&quot;removeIcon&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='invitation_1365']/div/div[4]/span[2]/i</value>
+      <value>//div[@id='invitation_1526']/div/div[4]/span[2]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +50,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/span[2]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='invitation_1365']/div/div[4]/span[2]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
