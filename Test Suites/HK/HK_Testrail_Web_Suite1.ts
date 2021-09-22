@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245566 - Start an enrollment</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4aff39e3-2965-4b1e-8359-82001069db96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C245569 - Verify ability to send invite by text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95f10b20-17d6-41dc-b303-0541fed90700</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C247191 - Verify Enrollment Tools links work</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

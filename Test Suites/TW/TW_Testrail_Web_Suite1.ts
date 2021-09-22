@@ -83,4 +83,34 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245426 - Sign up for MORE with customer</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f653d95f-cad9-462c-a21a-5f0ca2c19bbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245566 - Start an enrollment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27e4e4cd-aeaf-496a-a275-982554307717</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245569 - Verify ability to send invite by text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>080132df-d870-4f53-857a-8aec51ca6cfc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245569 - Verify ability to send invite by text - Copy</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c8a98e9-6b62-46c0-acc4-28dfe30e854e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245570 - Search for Presenter by Phone, Email, and Mela ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>36070810-2db8-40c4-82bd-fb53255160df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C247191 - Verify Enrollment Tools links work</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
