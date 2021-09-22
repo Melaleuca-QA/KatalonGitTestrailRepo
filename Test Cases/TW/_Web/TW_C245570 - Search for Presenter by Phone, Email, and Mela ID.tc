@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TW_C245570 - Search for Presenter by Phone, Email, and Mela ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f5bba7a-92fa-4374-a5a1-c60601a39387</testCaseGuid>
+</TestCaseEntity>
