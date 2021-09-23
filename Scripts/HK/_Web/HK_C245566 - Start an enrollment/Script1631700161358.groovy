@@ -129,6 +129,8 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__PrimaryPhoneN
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5)'))
 
+WebUI.focus(findTestObject('Object Repository/OB003/Page_/select__1 (2)'))
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1 (2)'), '852', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2 (1)'), '香港', true)

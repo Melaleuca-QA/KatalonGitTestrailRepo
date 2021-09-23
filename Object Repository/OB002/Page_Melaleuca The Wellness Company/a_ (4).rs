@@ -10,11 +10,15 @@
          <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005731,2005495,2005687,2005688,2005689,2005690,2005691,2005692,2005822,2005693,2005694,2005696,2005697,2005702,2005703,2005704,2005705,2005706,2005707,2005708,2005709,2005710,2005711,2005712,2005713,2005714,2005715,2005716,2005717,2005721');return false;&quot;]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.prod-ofr-right-container__skip-link</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,15 +6,19 @@
    <elementGuidId>7d1fc4a5-e118-424e-bf30-e2d824e25ddd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#pdp_addToCartBtn_7911</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='pdp_addToCartBtn_7911']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'pdp_addToCartBtn_7911' and (text() = '新增至購物車' or . = '新增至購物車')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pdp_addToCartBtn_7911</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

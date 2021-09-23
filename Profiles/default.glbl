@@ -21,23 +21,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
-      <name>ProductStore_url</name>
+      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
+      <name>url_uatwweb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/Home'</initValue>
-      <name>BusinessCenter_url</name>
+      <name>url_BusinessCenter</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
-      <name>sku117_rul</name>
+      <name>url_sku117</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
-      <name>url_uatwweb</name>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <name>url_ProductStore</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

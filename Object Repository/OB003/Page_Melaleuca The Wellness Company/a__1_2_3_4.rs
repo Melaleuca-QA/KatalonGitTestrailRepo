@@ -10,11 +10,21 @@
          <value>(//a[@onclick=''])[5]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                優植生活身體保養系列
+                            ' or . = '
+                                
+                                優植生活身體保養系列
+                            ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.nav-sub-item.is-visible.is-preview</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

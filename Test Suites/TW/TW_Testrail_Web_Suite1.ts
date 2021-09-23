@@ -96,12 +96,6 @@
       <testCaseId>Test Cases/TW/_Web/TW_C245569 - Verify ability to send invite by text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>080132df-d870-4f53-857a-8aec51ca6cfc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TW/_Web/TW_C245569 - Verify ability to send invite by text - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2c8a98e9-6b62-46c0-acc4-28dfe30e854e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

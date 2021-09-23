@@ -50,7 +50,7 @@ def ps_url = WebUI.getUrl()
 
 println(ps_url)
 
-WebUI.verifyEqual(ps_url, GlobalVariable.ProductStore_url)
+WebUI.verifyEqual(ps_url, GlobalVariable.url_ProductStore)
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
@@ -71,7 +71,7 @@ def bc_url = WebUI.getUrl()
 
 println(bc_url)
 
-WebUI.verifyEqual(bc_url, GlobalVariable.BusinessCenter_url)
+WebUI.verifyEqual(bc_url, GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB001/Page_/a__1_2 (1)'))
 

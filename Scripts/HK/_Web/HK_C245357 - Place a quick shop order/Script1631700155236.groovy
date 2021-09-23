@@ -45,6 +45,8 @@ WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2 (4)'))
 
+WebUI.click(findTestObject('Object Repository/OB002/Page_/button_'))
+
 WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/span_ (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_/a_here (1)'))
