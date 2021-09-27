@@ -6,12 +6,12 @@
    <elementGuidId>a72248a3-e5c7-427d-bbd8-45da0338b610</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnAddNewAddress']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnAddNewAddress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnAddNewAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

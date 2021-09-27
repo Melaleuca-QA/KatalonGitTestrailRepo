@@ -25,61 +25,63 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_Email_UserName (1)'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB002/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB002/Page_/input__Password (1)'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB002/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button_ (3)'))
+WebUI.click(findTestObject('OB002/Page_/button_ (3)'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button_(2) (1)'))
+WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button_(2)'))
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (1)'), '2000.2')
+WebUI.setText(findTestObject('OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button_ (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button__1 (2)'))
+WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button__1'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1 (3)'))
+WebUI.click(findTestObject('OB002/Page_/button__1 (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/a_ (2)'))
+WebUI.focus(findTestObject('OB002/Page_Melaleuca The Wellness Company/a_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3 (2)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2'))
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.ShipToName (2)'), 'shiptest')
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB002/Page_/select_ (2)'), '台北市', true)
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.ShipToName'), 'shiptest')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB002/Page_/select__1 (2)'), '大同區', true)
+WebUI.selectOptionByValue(findTestObject('OB002/Page_/select_'), '台北市', true)
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.AddressLine1 (2)'), 'testaddress1')
+WebUI.selectOptionByValue(findTestObject('OB002/Page_/select__1'), '大同區', true)
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.AddressLine2 (2)'), 'testaddress2')
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.AddressLine1'), 'testaddress1')
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.DeliveryInstruction (2)'), 'do not ship')
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.AddressLine2'), 'testaddress2')
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4 (2)'))
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4_5 (2)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.AddressLine1 (2)'), 'testaddress3')
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5'))
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input__AddressToEdit.AddressLine2 (2)'), 'testaddress4')
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.AddressLine1'), 'testaddress3')
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4 (2)'))
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.AddressLine2'), 'testaddress4')
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4 (2)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4_5_6 (2)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4_5_6_7 (1)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_/button__1_2_3_4_5_6_7_8 (1)'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6_7'))
+
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6_7_8'))
 
 Windows.delay(5)
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/a__1 (2)'))
+WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a__1'))
 
 WebUI.closeBrowser()
 

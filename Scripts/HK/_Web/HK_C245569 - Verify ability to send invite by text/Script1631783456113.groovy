@@ -28,9 +28,9 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName (5)'), GlobalVariable.hk_input_username1)
+WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password (5)'), GlobalVariable.hk_input_password1)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
 
@@ -40,36 +40,35 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (6)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
 
 WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
 
 'input new enrollment name'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtNewEnrolleeFirstName (2)'), 
-    GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
 
 'input new enrollment mphone'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtMobilePhone (2)'), GlobalVariable.hk_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input__txtMobilePhone'), GlobalVariable.hk_input_mphone)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_ (3) (1)'))
+WebUI.click(findTestObject('OB003/Page_/label_ (3)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_/label__1'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2 (1)'))
+WebUI.click(findTestObject('OB003/Page_/label__1_2'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (4) (1)'))
+WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
 
 WebUI.delay(2)
 
-WebUI.focus(findTestObject('Object Repository/OB003/Page_/div__1 (1)'))
-
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (1)'))
 
-WebUI.focus(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'), FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
-WebUI.verifyElementText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'), '發送提醒')
+WebUI.focus(findTestObject('OB003/Page_/span_ (2)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'))
+WebUI.verifyElementText(findTestObject('OB003/Page_/span_ (2)'), '發送提醒')
+
+WebUI.click(findTestObject('OB003/Page_/span_ (2)'))
 
 WebUI.delay(3)
 

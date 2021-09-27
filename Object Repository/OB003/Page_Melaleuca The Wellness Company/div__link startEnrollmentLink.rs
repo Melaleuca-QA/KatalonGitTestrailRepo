@@ -6,15 +6,19 @@
    <elementGuidId>65e62932-dce1-4505-8e04-ae94ac951802</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvNewEnrollment']/div[4]/div/div</value>
+         <key>BASIC</key>
+         <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink large&quot;]/div[@class=&quot;link startEnrollmentLink&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.link.startEnrollmentLink</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvNewEnrollment']/div[4]/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

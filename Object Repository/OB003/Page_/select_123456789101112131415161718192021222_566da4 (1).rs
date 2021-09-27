@@ -10,11 +10,79 @@
          <value>#DayOfBirthEdit</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'DayOfBirthEdit' and @name = 'DayOfBirth' and (text() = '日
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+' or . = '日
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='DayOfBirthEdit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>c7f18240-37e7-4e5b-a024-07677745e611</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvStartNewEnrollment']/div/div[6]/div/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.checkboxContainer > label.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvStartNewEnrollment']/div/div[6]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

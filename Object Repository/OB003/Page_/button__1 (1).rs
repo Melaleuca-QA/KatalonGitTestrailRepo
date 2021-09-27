@@ -6,12 +6,12 @@
    <elementGuidId>362882ee-5a05-4b68-9049-3336f7e59736</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnContinueCheckout']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnContinueCheckout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnContinueCheckout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

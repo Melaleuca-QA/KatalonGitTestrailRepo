@@ -10,11 +10,15 @@
          <value>#PaymethodViewModel_CreditCardViewModel_AccountNumber</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'PaymethodViewModel_CreditCardViewModel_AccountNumber' and @name = 'PaymethodViewModel.CreditCardViewModel.AccountNumber' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='PaymethodViewModel_CreditCardViewModel_AccountNumber']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

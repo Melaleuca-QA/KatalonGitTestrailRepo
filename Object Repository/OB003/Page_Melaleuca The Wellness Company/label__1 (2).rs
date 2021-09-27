@@ -6,12 +6,12 @@
    <elementGuidId>d1a78479-7757-49d9-ac54-4d82b693d9a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '我確認上述所列之人為介紹「認識美樂家」手冊者' or . = '我確認上述所列之人為介紹「認識美樂家」手冊者')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.ng-binding</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '我確認上述所列之人為介紹「認識美樂家」手冊者' or . = '我確認上述所列之人為介紹「認識美樂家」手冊者')]</value>
       </entry>
       <entry>
          <key>XPATH</key>

@@ -6,12 +6,12 @@
    <elementGuidId>44e38f09-8d2c-4864-8292-2e62b75b7a1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menuItem_1']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#menuItem_1 > div.nav-root-item-inner-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menuItem_1']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

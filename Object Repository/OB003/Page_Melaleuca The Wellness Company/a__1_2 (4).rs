@@ -6,12 +6,12 @@
    <elementGuidId>935e823d-3951-4f22-ac2f-7183e683f3d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nav-menu-signout-btn']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#nav-menu-signout-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav-menu-signout-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

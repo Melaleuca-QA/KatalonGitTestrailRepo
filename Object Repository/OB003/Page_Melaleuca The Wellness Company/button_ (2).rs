@@ -6,12 +6,12 @@
    <elementGuidId>7f215f2b-a3c1-405c-b641-1025984374d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnQuickshopAdd']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnQuickshopAdd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnQuickshopAdd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

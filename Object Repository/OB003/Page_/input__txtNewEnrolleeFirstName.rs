@@ -6,15 +6,19 @@
    <elementGuidId>03dfb50e-3db6-44e1-b46e-c96ddb1eb930</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='txtNewEnrolleeFirstName']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#txtNewEnrolleeFirstName</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtNewEnrolleeFirstName']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'txtNewEnrolleeFirstName' and @type = 'text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

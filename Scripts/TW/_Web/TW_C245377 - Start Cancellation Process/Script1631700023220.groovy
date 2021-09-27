@@ -29,19 +29,21 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
+WebUI.navigateToUrl('https://uatwweb.melaleuca.com/account')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span__1'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2_3'))
+
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ (3)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
 
 WebUI.closeBrowser()
 

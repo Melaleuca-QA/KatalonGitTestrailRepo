@@ -6,12 +6,12 @@
    <elementGuidId>68a9aed3-0035-49cf-bcf5-fdeffe354678</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick='']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -10,11 +10,41 @@
          <value>#PaymethodViewModel_CreditCardViewModel_Month</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'PaymethodViewModel_CreditCardViewModel_Month' and @name = 'PaymethodViewModel.CreditCardViewModel.Month' and (text() = '月
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+' or . = '月
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='PaymethodViewModel_CreditCardViewModel_Month']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

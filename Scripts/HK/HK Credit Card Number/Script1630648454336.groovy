@@ -18,19 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://cardguru.io/')
+
+WebUI.maximizeWindow()
+
+WebUI.refresh()
+
 WebUI.click(findTestObject('Object Repository/OB003/Page_Credit Card Generator  Validator  Vali_92a702/button_Generate (2)'))
+
 WebUI.waitForElementPresent(findTestObject('OB003/Page_Credit Card Generator  Validator  Valid Visa Numbers - CardGuru/span_4929830184930162'), 
     5)
+
 WebUI.refresh()
+
 WebUI.refresh()
+
 WebUI.refresh()
 
 result1 = WebUI.getText(findTestObject('OB003/Page_Credit Card Generator  Validator  Valid Visa Numbers - CardGuru/span_4929830184930162'))
+
 println(result1)
 
 result2 = result1.replace('"', '')
+
 GlobalVariable.hk_input_creditcard = result2
+
 println(GlobalVariable.hk_input_creditcard)
 
 WebUI.closeBrowser()
+

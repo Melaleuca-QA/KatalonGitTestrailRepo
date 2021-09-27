@@ -6,12 +6,12 @@
    <elementGuidId>7122c70a-cb3f-4437-9995-754f72f1e3ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.cart-close-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

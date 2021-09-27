@@ -6,12 +6,12 @@
    <elementGuidId>3ad95c7a-c5aa-4ca4-b33b-597ae988b36f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='addressShipInstructions']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#addressShipInstructions</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='addressShipInstructions']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

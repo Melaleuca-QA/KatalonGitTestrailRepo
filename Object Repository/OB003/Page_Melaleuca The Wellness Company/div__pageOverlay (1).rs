@@ -6,12 +6,12 @@
    <elementGuidId>6c06365a-1b8d-4582-8016-e93101a729cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pageOverlay']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#pageOverlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageOverlay']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>f492fd2f-d30b-4585-abba-938ae4ee631a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvInviteConfirmation']/div/div[4]/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.button.pure-button-green.ng-scope.ng-binding.copyInvitationLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvInviteConfirmation']/div/div[4]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

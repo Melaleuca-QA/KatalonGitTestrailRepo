@@ -6,12 +6,12 @@
    <elementGuidId>ef03f46f-5b2e-4f92-b47c-04e57696d6c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='simplePageContent']/div/div[2]/div/div/div[5]/div/div/ul/li[3]/div/div/a/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.MyAccount_AddressOptions.myAccountLanding_Buttons > div.infoLeft > div.tdInfoLeft > ul > li.editButtonContainer > div.btn.blue24 > div > a > span.btnTxt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='simplePageContent']/div/div[2]/div/div/div[5]/div/div/ul/li[3]/div/div/a/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

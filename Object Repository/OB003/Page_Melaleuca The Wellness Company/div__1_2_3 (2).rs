@@ -6,12 +6,12 @@
    <elementGuidId>aab1af67-242a-4b77-9e86-cd8bbcb5babf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.closeButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

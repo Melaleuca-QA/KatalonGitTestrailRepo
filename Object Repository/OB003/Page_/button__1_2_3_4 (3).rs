@@ -6,12 +6,12 @@
    <elementGuidId>e2cbc37a-cbda-430e-b4d1-89f9b2e28f54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@onclick=&quot;cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.ole-action.ole-action--button.ole-action--button--white.ole-action--button--wide</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick=&quot;cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

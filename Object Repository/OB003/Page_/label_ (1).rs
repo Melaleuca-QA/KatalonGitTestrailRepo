@@ -6,19 +6,19 @@
    <elementGuidId>84289e3e-0a47-4714-94f8-277444d49194</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*' or . = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*')]</value>
+         <key>CSS</key>
+         <value>#c > label</value>
       </entry>
       <entry>
          <key>IMAGE</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='c']/label</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*' or . = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#c > label</value>
+         <key>XPATH</key>
+         <value>//div[@id='c']/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
