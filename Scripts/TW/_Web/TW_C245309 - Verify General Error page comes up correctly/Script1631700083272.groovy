@@ -35,11 +35,6 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
 WebUI.waitForPageLoad(2)
 
-'Verify General Error page comes up correctly'
-GlobalVariable.test_case = '245309'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
 
 WebUI.waitForPageLoad(2)
@@ -56,11 +51,6 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
 WebUI.waitForPageLoad(2)
 
-'Verify ProductStore link works'
-GlobalVariable.test_case = '245310'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OB001/Page_/a__1 (2)'))
 
 WebUI.waitForPageLoad(2)
@@ -76,6 +66,16 @@ WebUI.verifyEqual(bc_url, GlobalVariable.url_BusinessCenter)
 WebUI.click(findTestObject('OB001/Page_/a__1_2 (1)'))
 
 WebUI.closeBrowser()
+
+'Verify General Error page comes up correctly'
+GlobalVariable.test_case = '245309'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify ProductStore link works'
+GlobalVariable.test_case = '245310'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify BusinessCenter link works'
 GlobalVariable.test_case = '245311'

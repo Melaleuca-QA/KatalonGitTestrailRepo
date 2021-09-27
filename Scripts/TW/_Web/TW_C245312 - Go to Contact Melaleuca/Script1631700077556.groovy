@@ -35,11 +35,6 @@ WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
 
 WebUI.waitForPageLoad(2)
 
-'Go to \'Contact Melaleuca\''
-GlobalVariable.test_case = '245312'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.back()
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (8) (1)'))
@@ -127,6 +122,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1_2_3
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (7) (1) (1)'))
 
 WebUI.closeBrowser()
+
+'Go to \'Contact Melaleuca\''
+GlobalVariable.test_case = '245312'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 '\r\nGo to \'Frequently Asked Questions\''
 GlobalVariable.test_case = '245314'

@@ -31,11 +31,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
-      <name>url_sku117</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
       <name>url_ProductStore</name>
    </GlobalVariableEntity>
@@ -158,5 +153,30 @@
       <description></description>
       <initValue>''</initValue>
       <name>tw_input_oleurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=117'</initValue>
+      <name>url_sku117</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=lemon'</initValue>
+      <name>url_sku2854</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=%E8%A7%80%E9%81%A9%E5%81%A5'</initValue>
+      <name>url_sku2855</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=Safe%20%26'</initValue>
+      <name>url_sku5680</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/search-results?q=___'</initValue>
+      <name>url_sku_notfound</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
