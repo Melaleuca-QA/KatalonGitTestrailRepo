@@ -6,12 +6,12 @@
    <elementGuidId>2bf4ee1c-c35b-499c-ba4c-4fad98e228b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.customerData.greenText.ng-scope</value>
+         <key>XPATH</key>
+         <value>//div[@id='faqWrapper']/div/div/div[2]/ul/li/div/div[2]/div[2]/div[2]/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='invitation_1589']/div/div[4]</value>
+         <key>CSS</key>
+         <value>div.pure-u-7-8.faq-question.faq-question-show</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,30 +26,30 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-if</name>
-      <type>Main</type>
-      <value>enrollee.EnrollmentStatusId == 1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>customerData greenText ng-scope</value>
+      <value>pure-u-7-8 faq-question faq-question-show</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>  發送提醒     </value>
+      <value>我如何設立網路購物帳號？			</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invitation_1589&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData greenText ng-scope&quot;]</value>
+      <value>id(&quot;faqWrapper&quot;)/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;faq-container&quot;]/div[@class=&quot;faq-leftPanel&quot;]/ul[1]/li[1]/div[@class=&quot;faq-category-container&quot;]/div[@class=&quot;faq-subCategory-container-open&quot;]/div[@class=&quot;pure-u-1-1 faq-questionAnswer-container-show&quot;]/div[@class=&quot;pure-g faq-question-container faq-question-container-show&quot;]/div[@class=&quot;pure-u-7-8 faq-question faq-question-show&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>enrollee.EnrollmentStatusId == 1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +67,55 @@
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='faqWrapper']/div/div/div[2]/ul/li/div/div[2]/div[2]/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail訂貨服務: 您可以E-mail傳送您的個人/合併訂單至hkinfo@melaleuca.com，並致電顧客服務熱線(852) 2577-5266 跟服務員確認訂單。'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='傳真訂貨: 您可以簡單填寫美樂家產品訂單（店舖內可以索取），將您的個人/合併訂單傳真至(852) 2577-8669，並致電顧客服務熱線(852) 2577-5266 跟服務員確認訂單。'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我如何取得我的會員編號？'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='您的購物發票右上方即會顯示你的會員編號,也可致電顧客服務熱線(852) 2577-5266 查詢。'])[1]/preceding::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='我如何設立網路購物帳號？']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

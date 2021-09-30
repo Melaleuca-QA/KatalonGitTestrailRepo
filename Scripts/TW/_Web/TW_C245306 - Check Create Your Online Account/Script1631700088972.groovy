@@ -25,13 +25,31 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('OB001/Page_/a_ (8)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (8)'))
 
-WebUI.setText(findTestObject('OB001/Page_/input__EmailAddress (1)'), 'jilllin@melaleuca.com')
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__EmailAddress (1)'), 'jilllin100@melaleuca.com')
 
-WebUI.click(findTestObject('OB001/Page_/button_ (8)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (8)'))
+
+now_url = WebUI.getUrl()
+
+WebUI.verifyEqual(now_url, GlobalVariable.url_EmailSuccess)
+
+WebUI.verifyElementVisible(findTestObject('OB003/Page_/div_jilllin100melaleuca.com'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.back()
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__MobilePhoneNumber'), '0988297237')
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (7)'))
+
+now_url = WebUI.getUrl()
+
+WebUI.verifyEqual(now_url, GlobalVariable.url_MobileSuccess)
 
 WebUI.delay(2)
+
+WebUI.back()
 
 WebUI.closeBrowser()
 

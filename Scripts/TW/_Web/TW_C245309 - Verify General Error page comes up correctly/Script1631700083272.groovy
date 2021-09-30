@@ -31,15 +31,19 @@ WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_ (11) (1) (1) (1)'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
+WebUI.navigateToUrl(GlobalVariable.url_GeneralError)
 
 WebUI.waitForPageLoad(2)
+
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+WebUI.verifyEqual(now_url, GlobalVariable.url_GeneralError)
 
 WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
 
 WebUI.waitForPageLoad(2)
-
-WebUI.getUrl()
 
 def ps_url = WebUI.getUrl()
 
@@ -47,15 +51,11 @@ println(ps_url)
 
 WebUI.verifyEqual(ps_url, GlobalVariable.url_ProductStore)
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/GeneralError.aspx')
-
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('OB001/Page_/a__1 (2)'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.waitForPageLoad(2)
-
-WebUI.getUrl()
 
 def bc_url = WebUI.getUrl()
 

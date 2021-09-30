@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HK_C245309 - Verify General Error page comes up correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbfd07d1-62e9-4f55-8a50-e1a8aec17cf4</testCaseGuid>
+</TestCaseEntity>

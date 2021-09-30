@@ -6,12 +6,16 @@
    <elementGuidId>ec0c440c-79d1-47fc-8203-92119b12d80c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#buttonAccount > span.light-text</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='buttonAccount']/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#buttonAccount > span.light-text</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '我的帳戶' or . = '我的帳戶')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
