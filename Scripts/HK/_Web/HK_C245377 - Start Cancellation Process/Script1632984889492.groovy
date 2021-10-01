@@ -25,23 +25,21 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName (4)'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password (14)'), GlobalVariable.hk_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2) (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (17)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2_3'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3 (2)'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ (3)'))
-
-WebUI.waitForPageLoad(100)
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (3) (1)'))
 
 now_url = WebUI.getUrl()
 
@@ -49,24 +47,12 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1'))
-
-WebUI.waitForPageLoad(100)
-
-WebUI.refresh()
-
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent, false)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (9)'))
 
 WebUI.closeBrowser()
 
 'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
 GlobalVariable.test_case = '245377'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
