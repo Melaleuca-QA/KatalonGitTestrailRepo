@@ -86,6 +86,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'85290945056'</initValue>
+      <name>hk_input_username2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>hk_input_password2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>hk_input_newname</name>
    </GlobalVariableEntity>
@@ -223,5 +233,15 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
       <name>url_CancelEmailSent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/more/OrgViewer.aspx?sid=undefined'</initValue>
+      <name>url_undefined</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
+      <name>url_MORE</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

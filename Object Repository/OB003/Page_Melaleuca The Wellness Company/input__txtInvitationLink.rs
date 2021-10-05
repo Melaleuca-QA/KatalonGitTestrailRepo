@@ -6,19 +6,19 @@
    <elementGuidId>e7a7498d-faa4-47f8-99df-a21205cdac91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtInvitationLink']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'txtInvitationLink']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#txtInvitationLink</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'txtInvitationLink']</value>
+         <key>XPATH</key>
+         <value>//input[@id='txtInvitationLink']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

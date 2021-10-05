@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ (22)</name>
+   <name>button_ (22) (1)</name>
    <tag></tag>
-   <elementGuidId>35a9aa84-e4ee-462b-aa98-e0a099ab596f</elementGuidId>
+   <elementGuidId>87ec06d7-5c24-48a2-928c-ceda682bb809</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -57,13 +57,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnSignin&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>createOnClickAnalytics('Place Order Top', 'Checkout Process', null); Checkout.placeOrder();</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -120,47 +113,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='btnPlaceOrderTop']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='maincontent']/div/div[2]/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='請檢查您的訂單'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='配送:'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='下單']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

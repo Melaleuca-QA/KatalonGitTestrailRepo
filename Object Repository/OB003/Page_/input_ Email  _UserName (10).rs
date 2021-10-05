@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ Email  _UserName</name>
+   <name>input_ Email  _UserName (10)</name>
    <tag></tag>
-   <elementGuidId>eabc4829-6fe8-4346-a330-cf5533912f8c</elementGuidId>
+   <elementGuidId>d87c990f-8d21-43d4-83f4-8dff48141069</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
