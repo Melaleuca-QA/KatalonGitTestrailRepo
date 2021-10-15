@@ -71,11 +71,11 @@ WebUI.click(findTestObject('OB003/Page_/span_ (2)'))
 
 WebUI.delay(3)
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1'), '重新發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), '重新發送提醒')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span__1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'))
 
 WebUI.delay(3)
 

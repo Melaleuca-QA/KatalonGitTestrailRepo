@@ -10,11 +10,15 @@
          <value>//button[@id='btnPlaceOrderTop']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnPlaceOrderTop' and @type = 'button' and (text() = '付款' or . = '付款')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#btnPlaceOrderTop</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

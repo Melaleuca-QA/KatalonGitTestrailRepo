@@ -78,7 +78,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
 GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')

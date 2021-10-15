@@ -4,21 +4,26 @@
    <name>input__txtNewEnrolleeFirstName</name>
    <tag></tag>
    <elementGuidId>03dfb50e-3db6-44e1-b46e-c96ddb1eb930</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtNewEnrolleeFirstName']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#txtNewEnrolleeFirstName</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'txtNewEnrolleeFirstName' and @type = 'text']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtNewEnrolleeFirstName</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

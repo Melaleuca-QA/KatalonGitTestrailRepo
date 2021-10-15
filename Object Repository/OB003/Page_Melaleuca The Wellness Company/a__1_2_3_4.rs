@@ -6,21 +6,15 @@
    <elementGuidId>5e561c87-d834-41bc-ba23-b9de5d501138</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'超值套組')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'javascript:void(0)' and (text() = '
-                                
-                                優植生活身體保養系列
-                            ' or . = '
-                                
-                                優植生活身體保養系列
-                            ')]</value>
+         <value>//*[@href = '/ProductStore/content/category?c=119' and (text() = '超值套組' or . = '超值套組')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'超值套組')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

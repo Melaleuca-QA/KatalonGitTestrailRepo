@@ -10,15 +10,15 @@
          <value>//input[@id='txtInvitationLink']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#txtInvitationLink</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @id = 'txtInvitationLink']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtInvitationLink</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,15 +6,19 @@
    <elementGuidId>b04528ce-4c45-4d6f-9b91-ef48b33a7bd3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.prod-ofr-right-container__skip-link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2000135,2000134,2000398,2000399,2001821,2001822,2001823,2001824,2001825,2001826,2000139,2000140,2000141,2000300,2005726,2000302,2005727,2000304,2000301,2000303,2000305,2002491,2002492,2002493,2002494,2005759,2005760,2005761,2005762,2005763,2005958,2005766,2005767,2005768,2005769,2005770,2005771,2005772,2005773,2005774,2005775,2005776,2005777,2005778,2005960,2005871,2005872,2005873,2005874,2005875,2005876,2005877,2005878,2005879,2005957,2005785,2005786,2005787,2005788,2005789,2005790,2005956,2005791,2005793,2005794,2005795,2005796,2005797,2005798,2005799,2005800,2005801,2005802,2005803,2005804,2005965');return false;&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '不需加購' or . = '不需加購')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.prod-ofr-right-container__skip-link</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

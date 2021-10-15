@@ -80,7 +80,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2 (2)'))
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
 GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
@@ -169,8 +169,6 @@ WebUI.waitForPageLoad(100)
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (3)'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1 (7)'))
 

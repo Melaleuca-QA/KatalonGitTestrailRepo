@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tw3'</initValue>
+      <initValue>'tw7'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -151,7 +151,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https:/uattwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -216,7 +216,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <initValue>'https:/uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
       <name>url_category119</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
