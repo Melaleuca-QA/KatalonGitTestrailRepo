@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HK_C245570 - Search for Presenter by Phone, Email, and Mela ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ef6587a-82d1-454a-b46d-7815632dda68</testCaseGuid>
+</TestCaseEntity>
