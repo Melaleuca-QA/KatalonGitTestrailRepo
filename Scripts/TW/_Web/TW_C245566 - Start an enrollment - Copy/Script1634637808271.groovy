@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
 if (1 == 1) {
-    GlobalVariable.tw_input_newname = 'tw91788893'
+    GlobalVariable.tw_input_newname = 'tw918310'
 
-    GlobalVariable.tw_input_email = ('tw91788893' + '@melaleuca.com')
+    GlobalVariable.tw_input_email = ('tw918310' + '@melaleuca.com')
 
-    GlobalVariable.tw_input_mphone = '0991788893'
+    GlobalVariable.tw_input_mphone = '0922918310'
 
-    GlobalVariable.tw_input_citizen = 'J116855654'
+    GlobalVariable.tw_input_citizen = 'K264932727'
 
-    GlobalVariable.tw_input_creditcard = '4000177033027556'
+    GlobalVariable.tw_input_creditcard = '4054307437022011'
 } else {
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -85,12 +85,6 @@ GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_M
 
 println(GlobalVariable.tw_input_oleurl)
 
-//WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2_3 (2)'))
-
-//WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (4)'))
-
-//WebUI.closeBrowser()
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
@@ -135,6 +129,4 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_0102030405060708091
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_202120222023202420252026202720282029_fb3c11 (1)'), '2040', 
     true)
-
-WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_'), 50, 0)
 

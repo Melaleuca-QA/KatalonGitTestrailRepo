@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TW_C245318 - Add configurable SKU via Quick Shop - Copy</name>
+   <name>HK_C245363 - Edit an existing pay method</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d990961c-1413-474d-ae08-10288badaa27</testCaseGuid>
+   <testCaseGuid>42de63b6-e911-4011-8f80-4fe9e9bb38e9</testCaseGuid>
 </TestCaseEntity>
