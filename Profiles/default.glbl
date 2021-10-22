@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tw7'</initValue>
+      <initValue>'tw3'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,8 +131,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
-      <name>url_uatwweb</name>
+      <initValue>'https://uatwweb.melaleuca.com/account'</initValue>
+      <name>url_account</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -141,18 +141,38 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
-      <name>url_ProductStore</name>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
+      <name>url_CancelEmailConfirm</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
-      <name>url_melaleucapresentations</name>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
+      <name>url_CancelEmailSent</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https:/uattwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
-      <name>url_FollowUp</name>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Cart'</initValue>
+      <name>url_Cart</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https:/uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <name>url_category119</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
+      <name>url_contack_hk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
+      <name>url_contack_tw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
+      <name>url_EmailSuccess</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -161,8 +181,33 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
-      <name>url_whichproducts</name>
+      <initValue>'https:/uattwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <name>url_FollowUp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/GeneralError.aspx'</initValue>
+      <name>url_GeneralError</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
+      <name>url_melaleucapresentations</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Account/Create/MobileSuccess'</initValue>
+      <name>url_MobileSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
+      <name>url_MORE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <name>url_ProductStore</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -191,48 +236,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/Account/Create/MobileSuccess'</initValue>
-      <name>url_MobileSuccess</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
-      <name>url_EmailSuccess</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/GeneralError.aspx'</initValue>
-      <name>url_GeneralError</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
-      <name>url_contack_hk</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
-      <name>url_contack_tw</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https:/uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
-      <name>url_category119</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/account'</initValue>
-      <name>url_account</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
-      <name>url_CancelEmailConfirm</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
-      <name>url_CancelEmailSent</name>
+      <initValue>'https://uatwweb.melaleuca.com/account/SignIn'</initValue>
+      <name>url_uatwweb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -241,7 +246,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
-      <name>url_MORE</name>
+      <initValue>'https://uatwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
+      <name>url_whichproducts</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

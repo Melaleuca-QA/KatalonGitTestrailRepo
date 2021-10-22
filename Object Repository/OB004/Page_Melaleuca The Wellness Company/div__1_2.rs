@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='faqWrapper']/div/div/div[2]/ul/li/div/div[3]/div/div[2]</value>
+         <value>//div[@id='selectGroup1']/div[2]/a[2]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.faq-subCategory-container > div.pure-g.faq-subCategory.faq-subCategory-show > div.pure-u-7-8.faq-subCategory-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,62 +27,57 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pure-u-7-8 faq-subCategory-name</value>
+      <value>itemTitle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>退換貨說明		</value>
+      <value>
+                                                        香草
+                                                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;faqWrapper&quot;)/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;faq-container&quot;]/div[@class=&quot;faq-leftPanel&quot;]/ul[1]/li[1]/div[@class=&quot;faq-category-container&quot;]/div[@class=&quot;faq-subCategory-container&quot;]/div[@class=&quot;pure-g faq-subCategory faq-subCategory-show&quot;]/div[@class=&quot;pure-u-7-8 faq-subCategory-name&quot;]</value>
+      <value>id(&quot;selectGroup1&quot;)/div[@class=&quot;selectionsScrollWindow&quot;]/a[@class=&quot;selectionItemContainer&quot;]/div[@class=&quot;itemTitle&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='faqWrapper']/div/div/div[2]/ul/li/div/div[3]/div/div[2]</value>
+      <value>//div[@id='selectGroup1']/div[2]/a[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何變更預備訂單的內容'])[1]/following::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='鳳椰'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='預備訂單是為了維持您優惠會員權益，當您因工作忙碌或出差等因素，無法於當月完成訂貨，公司會自動協助扣款、訂貨及送貨流程，並保障您持續擁有所有的優惠會員權益。您可自選會員自選組合內容或選取便利禮券。'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='薄荷'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家退貨政策'])[1]/preceding::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='退換貨說明']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='薄荷'])[2]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/div/div[3]/div/div[2]</value>
+      <value>//div[3]/div[2]/a[2]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

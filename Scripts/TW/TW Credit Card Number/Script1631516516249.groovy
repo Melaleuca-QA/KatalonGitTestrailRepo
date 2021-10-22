@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://namso-gen.com/')
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Random Test Credit Card Numbers Genera_e386a8/input_BIN_form-input block w-full'), 
-    '400017')
+    '405430')
 
 WebUI.sendKeys(findTestObject('Object Repository/OB003/Page_Random Test Credit Card Numbers Genera_e386a8/input_QUANTITY_form-input block w-full'), 
     Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))

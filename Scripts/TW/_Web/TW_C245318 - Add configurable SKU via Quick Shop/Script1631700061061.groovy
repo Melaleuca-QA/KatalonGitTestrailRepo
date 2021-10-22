@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3 (1)'))
 //WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 //WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3_4 (3)'))
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/ProductStore/content/category?c=119')
+WebUI.navigateToUrl(GlobalVariable.url_category119)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_'))
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1_2_3'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/ProductStore/Cart')
+WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (1)'))
 
@@ -81,6 +81,11 @@ WebUI.waitForPageLoad(100)
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6'))
 
 WebUI.closeBrowser()
+
+'Add normal SKU via Quick Shop'
+GlobalVariable.test_case = '245317'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Add configurable SKU via Quick Shop'
 GlobalVariable.test_case = '245318'

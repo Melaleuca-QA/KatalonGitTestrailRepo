@@ -67,15 +67,18 @@ WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (8)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (7)'))
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv (2)'), '123')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_here'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (10)'))
 
-WebUI.waitForPageLoad(100)
-
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
 
 WebUI.closeBrowser()
+
+'Add normal SKU via Quick Shop'
+GlobalVariable.test_case = '245317'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Add configurable SKU via Quick Shop'
 GlobalVariable.test_case = '245318'
