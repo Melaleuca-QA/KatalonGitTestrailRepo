@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
+WebUI.click(findTestObject('OB003/Page_/button_ (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca/div_'))
 

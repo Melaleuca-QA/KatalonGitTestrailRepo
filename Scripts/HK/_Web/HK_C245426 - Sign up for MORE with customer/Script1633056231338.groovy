@@ -25,9 +25,9 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_ Email  _UserName (10)'), GlobalVariable.hk_input_username2)
+WebUI.setText(findTestObject('OB003/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password (15)'), GlobalVariable.hk_input_password2)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password2)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (22) (1)'))
 

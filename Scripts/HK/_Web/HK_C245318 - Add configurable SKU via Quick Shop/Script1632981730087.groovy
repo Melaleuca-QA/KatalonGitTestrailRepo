@@ -67,7 +67,7 @@ WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (8)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv (2)'), '123')
+WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (10)'))
 
