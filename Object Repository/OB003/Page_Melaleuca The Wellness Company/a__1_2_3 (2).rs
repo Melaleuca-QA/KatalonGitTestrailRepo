@@ -10,11 +10,22 @@
          <value>//div[@id='navigationContainer']/div/div/ul/li[10]/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/MyAccount/ContentMenu/Other_Options' and @title = '其他選項' and (text() = '
+
+
+						其他選項
+					' or . = '
+
+
+						其他選項
+					')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

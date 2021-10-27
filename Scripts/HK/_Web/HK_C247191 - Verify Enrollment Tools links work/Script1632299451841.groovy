@@ -40,6 +40,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link presentationLink'))
 
 now_url = WebUI.getUrl()
+println (now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
 
@@ -50,6 +51,7 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link followUpLink'))
 
 now_url = WebUI.getUrl()
+println (now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
 
@@ -60,6 +62,7 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link enrollmentFormsLink'))
 
 now_url = WebUI.getUrl()
+println (now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
 
@@ -70,6 +73,7 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link whichProductsLink'))
 
 now_url = WebUI.getUrl()
+println (now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
 

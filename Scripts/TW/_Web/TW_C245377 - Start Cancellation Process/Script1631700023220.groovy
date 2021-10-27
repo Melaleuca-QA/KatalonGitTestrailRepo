@@ -39,6 +39,10 @@ WebUI.navigateToUrl(GlobalVariable.url_account)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2_3'))
 
+WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a_'))
+
+WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
+
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ (3)'))
 
 WebUI.waitForPageLoad(100)

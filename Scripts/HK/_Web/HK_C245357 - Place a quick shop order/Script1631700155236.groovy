@@ -50,23 +50,12 @@ if (WebUI.verifyElementNotVisible(findTestObject('OB003/Page_/div_3535 (  )')) =
     WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ck35'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (8)'))
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'), '123')
 
-WebUI.waitForPageLoad(100)
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (12)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_here (2)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (28)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (19)'))
-
-/*
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (1) (1)'))
-
-WebUI.waitForPageLoad(100)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_here (1) (1)'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (4) (1)'))
-*/
 WebUI.closeBrowser()
 
 'Place a quick shop order'

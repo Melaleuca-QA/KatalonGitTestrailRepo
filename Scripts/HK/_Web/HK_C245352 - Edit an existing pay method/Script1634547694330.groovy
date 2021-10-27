@@ -69,6 +69,10 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/button_'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (6)'))
 
+WebUI.back()
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (6)'))
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_- Melaleuca/select_010203040506070809101112'), '12', 
     true)
 
@@ -83,7 +87,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (6)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (6)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv (3)'), '123')
+WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5 (2)'))
 

@@ -55,7 +55,7 @@ WebUI.verifyMatch(now_text2, '美樂家香港', false)
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a_'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.navigateToUrl(GlobalVariable.url_FAQ)
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/span_'))
 
@@ -134,7 +134,7 @@ GlobalVariable.test_case = '245312'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'\r\nGo to \'Frequently Asked Questions\''
+'Go to \'Frequently Asked Questions\''
 GlobalVariable.test_case = '245314'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)

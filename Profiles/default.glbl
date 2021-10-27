@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10162'</initValue>
+      <initValue>'10216'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>test_case2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'tw3'</initValue>
+      <description>tw1,tw2,tw3,</description>
+      <initValue>'tw1'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,8 +75,8 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'hk3'</initValue>
+      <description>hk1,hk3,hk7</description>
+      <initValue>'hk7'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -176,12 +176,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/HelpCenter/FAQ'</initValue>
+      <name>url_FAQ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/Content.aspx?page=Enrollment_Forms'</initValue>
       <name>url_Enrollment_Forms</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https:/uattwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -203,6 +208,11 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
       <name>url_MORE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
+      <name>url_OtherOptions</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
