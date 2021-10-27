@@ -100,5 +100,5 @@ WebUI.closeBrowser()
 'Open a PDF Presentation in Taiwan'
 GlobalVariable.test_case = '251917'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

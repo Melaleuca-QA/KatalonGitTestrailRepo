@@ -111,7 +111,7 @@
       <guid>b065cf93-784d-4818-8962-abe738a9d93b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HK/_Web/HK_C245566 - Start an enrollment</testCaseId>
+      <testCaseId>Test Cases/HK/_Web/HK_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>68a0f337-0ff7-4a6c-8a39-cebb8f7f36b5</guid>
