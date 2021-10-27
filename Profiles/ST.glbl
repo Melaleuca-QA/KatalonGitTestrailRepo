@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>ST TW</name>
+   <name>ST</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tw7'</initValue>
+      <initValue>'tw3'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hk1'</initValue>
+      <initValue>'hk3'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,8 +131,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/account/SignIn'</initValue>
-      <name>url_uatwweb</name>
+      <initValue>'https://sttwweb.melaleuca.com/account'</initValue>
+      <name>url_account</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -141,18 +141,43 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
-      <name>url_ProductStore</name>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
+      <name>url_CancelEmailConfirm</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
-      <name>url_melaleucapresentations</name>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
+      <name>url_CancelEmailSent</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
-      <name>url_FollowUp</name>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Cart'</initValue>
+      <name>url_Cart</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https:/sttwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <name>url_category119</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
+      <name>url_contack_hk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
+      <name>url_contack_tw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
+      <name>url_EmailSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/HelpCenter/FAQ'</initValue>
+      <name>url_FAQ</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -161,8 +186,38 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
-      <name>url_whichproducts</name>
+      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <name>url_FollowUp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/GeneralError.aspx'</initValue>
+      <name>url_GeneralError</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
+      <name>url_melaleucapresentations</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/Account/Create/MobileSuccess'</initValue>
+      <name>url_MobileSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
+      <name>url_MORE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
+      <name>url_OtherOptions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <name>url_ProductStore</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -191,48 +246,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/Account/Create/MobileSuccess'</initValue>
-      <name>url_MobileSuccess</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
-      <name>url_EmailSuccess</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/GeneralError.aspx'</initValue>
-      <name>url_GeneralError</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
-      <name>url_contack_hk</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
-      <name>url_contack_tw</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
-      <name>url_category119</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/account'</initValue>
-      <name>url_account</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
-      <name>url_CancelEmailConfirm</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
-      <name>url_CancelEmailSent</name>
+      <initValue>'https://sttwweb.melaleuca.com/account/SignIn'</initValue>
+      <name>url_uatwweb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -241,7 +256,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/More.aspx'</initValue>
-      <name>url_MORE</name>
+      <initValue>'https://sttwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
+      <name>url_whichproducts</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
