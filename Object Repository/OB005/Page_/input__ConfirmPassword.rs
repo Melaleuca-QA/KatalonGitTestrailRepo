@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txtMobilePhone</name>
+   <name>input__ConfirmPassword</name>
    <tag></tag>
-   <elementGuidId>72db6baa-551e-421f-9e18-2c4d89b9bddd</elementGuidId>
+   <elementGuidId>8e4f0ccf-eaf9-40d7-a68a-5e515ca6d49f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txtMobilePhone</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'txtMobilePhone']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtMobilePhone']</value>
+         <value>//input[@id='ConfirmPassword']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ConfirmPassword</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -30,71 +26,57 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>text</value>
+      <value>ConfirmPassword</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>txtMobilePhone</value>
+      <value>ConfirmPassword</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
+      <name>onkeyup</name>
       <type>Main</type>
-      <value>formatPhoneNumber(false)</value>
+      <value>if ($(this).val() == '') { $(this).parent().find('.showPassword').css('display', 'none'); $(this).parent().find('.hidePassword').css('display', 'none'); } else if ($(this).attr('type') == 'text') { $(this).parent().find('.hidePassword').css('display', 'block'); } else { $(this).parent().find('.showPassword').css('display', 'block'); }</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>{'invalid': missingInvitePhone}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>enrollee.PhoneNumber</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-pristine ng-valid</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
+      <value>id(&quot;ConfirmPassword&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtMobilePhone']</value>
+      <value>//input[@id='ConfirmPassword']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div[3]/input</value>
+      <value>//form[@id='customerInformationForm']/div/div[3]/div[3]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div[3]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

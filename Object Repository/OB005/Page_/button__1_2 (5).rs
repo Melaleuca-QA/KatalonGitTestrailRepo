@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ (6)</name>
+   <name>button__1_2 (5)</name>
    <tag></tag>
-   <elementGuidId>c3b41b66-b868-4ec4-bc2f-486c9fdd3cf7</elementGuidId>
+   <elementGuidId>5fc074b4-3f65-44c3-8752-3cdd0e78e5a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btnSave</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btnSave' and @type = 'button' and (text() = '地址確認' or . = '地址確認')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnContinue']</value>
+         <value>//button[@id='btnProceed']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnProceed</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnSave</value>
+      <value>btnProceed</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>customerInfo.ToggleSpinner(true); customerInfo.SetAddressOverride().done(function(){customerInfo.ProceedToNextStep(); cmCreateElementTag('BadAddress_Keep_Done', analyticsElementCategory);}).fail(function(){customerInfo.HandleGeneralFailure(); cmCreateElementTag('BadAddress_Keep_Fail', analyticsElementCategory);});</value>
+      <value>customerInfo.SubmitCustomerNames(); cmCreateElementTag('SubmitCustomerName', analyticsElementCategory);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,55 +56,69 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>地址確認</value>
+      <value>繼續</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnSave&quot;)</value>
+      <value>id(&quot;btnProceed&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnContinue']</value>
+      <value>//button[@id='btnProceed']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvAdditionalAccountInfo']/b/b/div[3]/div[6]/button</value>
+      <value>//div[@id='content-wrapper']/div[2]/div[3]/div[4]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員顧客協議書'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話號碼*'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please complete all the required fields.'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話*'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You must consent to all the Customer Agreements to continue.'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們無法儲存您的資料, 請再試一次'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='* 表示必填欄位'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='繼續']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/button</value>
+      <value>//button</value>
    </webElementXpaths>
 </WebElementEntity>

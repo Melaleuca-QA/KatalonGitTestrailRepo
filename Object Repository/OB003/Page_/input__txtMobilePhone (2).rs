@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txtMobilePhone</name>
+   <name>input__txtMobilePhone (2)</name>
    <tag></tag>
-   <elementGuidId>72db6baa-551e-421f-9e18-2c4d89b9bddd</elementGuidId>
+   <elementGuidId>54c98f06-63be-4a41-ac29-0cbb333d9f2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txtMobilePhone</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'txtMobilePhone']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtMobilePhone']</value>
+         <value>(//input[@id='txtMobilePhone'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dvEditContactInfo > div.displayPrompt > div.customerInfoContainer > div.customerInfo.ng-scope > #txtMobilePhone</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -46,21 +42,21 @@
       <matchCondition>equals</matchCondition>
       <name>ng-blur</name>
       <type>Main</type>
-      <value>formatPhoneNumber(false)</value>
+      <value>formatPhoneNumber(true)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
+      <name>ng-change</name>
       <type>Main</type>
-      <value>{'invalid': missingInvitePhone}</value>
+      <value>formatPhoneNumber(true)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>enrollee.PhoneNumber</value>
+      <value>contact.PhoneNumber</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,27 +70,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
+      <value>id(&quot;dvEditContactInfo&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtMobilePhone']</value>
+      <value>(//input[@id='txtMobilePhone'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div[3]/input</value>
+      <value>//div[@id='dvEditContactInfo']/div/div[4]/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div[3]/div/div[4]/div[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

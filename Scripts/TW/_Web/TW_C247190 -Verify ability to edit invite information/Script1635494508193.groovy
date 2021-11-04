@@ -18,16 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (1 == 1) {
-    GlobalVariable.tw_input_newname = 'tw918310'
+if (1 == 2) {
+    GlobalVariable.tw_input_newname = 'tw918211'
 
-    GlobalVariable.tw_input_email = ('tw918310' + '@melaleuca.com')
+    GlobalVariable.tw_input_email = ('tw918211' + '@melaleuca.com')
 
-    GlobalVariable.tw_input_mphone = '0922918310'
+    GlobalVariable.tw_input_mphone = '0922918211'
 
-    GlobalVariable.tw_input_citizen = 'K264932727'
+    GlobalVariable.tw_input_citizen = 'X227185629'
 
-    GlobalVariable.tw_input_creditcard = '4054307437022011'
+    GlobalVariable.tw_input_creditcard = '4000172770045002'
 } else {
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -48,13 +48,13 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_/button_ (9)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -64,27 +64,56 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link startEnrollmentLink'))
 
-'input new enrollment name'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName (1)'), GlobalVariable.tw_input_newname)
 
-'input new enrollment email'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtEmailAddress'), GlobalVariable.tw_input_email)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtEmailAddress (1)'), GlobalVariable.tw_input_email)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_ (3)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label_ (4)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1 (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2 (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (5)'))
 
-WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2 (2)'))
 
-GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
+WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+
+GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
 
 println(GlobalVariable.tw_input_oleurl)
 
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3 (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918211 (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (13)'))
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtMobilePhone (2)'), GlobalVariable.tw_input_mphone)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4_5'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918211 (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (13)'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (9)'), '1', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (13)'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (9)'), '0', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4_5'))
+
+//WebUI.navigateToUrl('https://uatwweb.melaleuca.com/BusinessCenter/Enrollments/NewEnrollment')
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
@@ -118,7 +147,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ 
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1 (4)'), '松山區', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressLine1'), 'testaddress')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressLine1'), '八德路四段760號3樓')
 
 WebUI.setText(findTestObject('OB003/Page_/input_()_PaymethodViewModel.CreditCardViewM_9e70de'), GlobalVariable.tw_input_newname)
 
@@ -129,4 +158,22 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_0102030405060708091
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_202120222023202420252026202720282029_fb3c11 (1)'), '2040', 
     true)
+
+WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_'), 50, 0)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (7)'))
+
+WebUI.waitForPageLoad(100)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OB003/Page_/button_ (6)'))
+
+WebUI.focus(findTestObject('OB003/Page_/button__1'))
+
+WebUI.click(findTestObject('OB003/Page_/button__1'))
+
+WebUI.waitForPageLoad(100)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2'))
 

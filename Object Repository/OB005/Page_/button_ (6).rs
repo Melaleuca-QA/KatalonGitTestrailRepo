@@ -3,19 +3,15 @@
    <description></description>
    <name>button_ (6)</name>
    <tag></tag>
-   <elementGuidId>c3b41b66-b868-4ec4-bc2f-486c9fdd3cf7</elementGuidId>
+   <elementGuidId>27eebc6f-304c-4951-a652-373a14638014</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#btnSave</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btnSave' and @type = 'button' and (text() = '地址確認' or . = '地址確認')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='btnContinue']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnSave</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

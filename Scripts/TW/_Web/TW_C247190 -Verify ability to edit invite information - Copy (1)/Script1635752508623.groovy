@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
 if (1 == 2) {
-    GlobalVariable.tw_input_newname = 'tw918209'
+    GlobalVariable.tw_input_newname = 'tw918211'
 
-    GlobalVariable.tw_input_email = ('tw918209' + '@melaleuca.com')
+    GlobalVariable.tw_input_email = ('tw918211' + '@melaleuca.com')
 
-    GlobalVariable.tw_input_mphone = '0922918209'
+    GlobalVariable.tw_input_mphone = '0922918211'
 
-    GlobalVariable.tw_input_citizen = 'J173624468'
+    GlobalVariable.tw_input_citizen = 'X227185629'
 
-    GlobalVariable.tw_input_creditcard = '4000176233801257'
+    GlobalVariable.tw_input_creditcard = '4000172770045002'
 } else {
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -48,13 +48,13 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_/button_ (9)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -78,18 +78,34 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
 
-WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
-GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
+GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
 
 println(GlobalVariable.tw_input_oleurl)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2_3 (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (4)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918211'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (12)'))
+
+WebUI.setText(findTestObject('OB003/Page_/input__txtMobilePhone (1)'), GlobalVariable.tw_input_mphone)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (12)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (4)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918211'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (12)'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (8)'), '1', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (12)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (4)'))
 
 WebUI.openBrowser('')
 
@@ -153,35 +169,4 @@ WebUI.click(findTestObject('OB003/Page_/button__1'))
 WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2'))
-
-WebUI.refresh()
-
-WebUI.refresh()
-
-//WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1'))
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
-
-WebUI.closeBrowser()
-
-'Start an enrollment, verify enrollment form comes up'
-GlobalVariable.test_case = '245566'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify that OLE is secure (https in the url)'
-GlobalVariable.test_case = '245567'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify ability to send invite by email'
-GlobalVariable.test_case = '245568'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Complete an enrollment in every country of the software system'
-GlobalVariable.test_case = '251905'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

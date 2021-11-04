@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>97857e4e-ba36-40f1-936a-97bb70b0b2c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
    </testCaseLink>
    <testCaseLink>
