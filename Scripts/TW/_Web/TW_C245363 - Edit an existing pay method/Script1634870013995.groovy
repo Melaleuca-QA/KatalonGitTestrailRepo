@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
@@ -36,14 +38,13 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (32)'))
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
-
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (28)'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_PaymethodToEdit.CardHolderName'), 
     'EH 2.2 HK Test')
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__PaymethodToEdit.CardNumber'), 
-    '4054303368018334')
+    GlobalVariable.tw_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
     '1', true)

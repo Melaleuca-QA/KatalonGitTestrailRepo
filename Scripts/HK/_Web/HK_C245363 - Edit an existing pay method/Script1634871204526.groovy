@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'get credit card number'
+WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
@@ -42,7 +45,7 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellnes
     '港島一號')
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__PaymethodToEdit.CardNumber'), 
-    '4054303368018334')
+    GlobalVariable.hk_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
     '1', true)

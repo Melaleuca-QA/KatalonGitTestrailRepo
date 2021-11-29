@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>a.prod-ofr-right-container__skip-link</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '不需加購' or . = '不需加購')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

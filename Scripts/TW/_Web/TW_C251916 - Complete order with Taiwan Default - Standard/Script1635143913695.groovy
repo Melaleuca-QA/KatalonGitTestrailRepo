@@ -45,24 +45,25 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (11)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (7)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (22)'))
+WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Promotion/CheckoutPromo')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (7)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a_ (4)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5 (3)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button_ (1)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1 (3)'), 'testaddress5')
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1 (1)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine2 (3)'), 'testaddress6')
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress5')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5_6 (1)'))
+WebUI.setText(findTestObject('Object Repository/OB004/Page_/input__AddressToEdit.AddressLine2'), 'testaddress6')
 
-//WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5_6 (1)'))
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5_6_7 (1)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2 (2)'))
+
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2_3 (1)'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv (1)'), '123')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4_5_6_7_8 (1)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2_3_4 (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
 

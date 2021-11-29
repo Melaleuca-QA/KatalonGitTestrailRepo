@@ -93,9 +93,11 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img (3)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/img (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1 (6)'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/img_1 (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/button__1 (6) (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6_7_8_9_10_11_12_13'))
 

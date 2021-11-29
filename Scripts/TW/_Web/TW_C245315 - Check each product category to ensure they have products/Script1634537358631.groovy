@@ -97,15 +97,17 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/img_1_2'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div_ (3)'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10_11_12'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10_11_12 (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
+WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a_ (3)'))
 
-WebUI.setText(findTestObject('Object Repository/OB004/Page_/input__paymethodCvv'), '123')
+WebUI.navigateToUrl(GlobalVariable.url_Checkout)
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2_3_4_5_6_7_8'))
+WebUI.setText(findTestObject('Object Repository/OB004/Page_/input__paymethodCvv (1)'), '123')
+
+WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2 (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15'))
 

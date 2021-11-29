@@ -6,15 +6,19 @@
    <elementGuidId>133e4770-9360-4df3-a89c-72dfcc9ba2c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='selectGroup0']/div[2]/a/div/img</value>
+         <key>BASIC</key>
+         <value>//*[@src = '//cdntesttw.melaleuca.com/ProductContent/8992h_01_zhTw_MediumClear.png']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>img</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='selectGroup0']/div[2]/a/div/img</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

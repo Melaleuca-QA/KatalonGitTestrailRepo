@@ -6,15 +6,19 @@
    <elementGuidId>73660b83-317b-4a9c-b436-e237dba1bc8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005970,2005971,2005972,2005973,2005974,2005975,2005976,2005977,2005978,2005979,2005980,2005982,2005984,2005985,2005986,2005987,2005988,2005989,2005990');return false;&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.prod-ofr-right-container__skip-link</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005970,2005971,2005972,2005973,2005974,2005975,2005976,2005977,2005978,2005979,2005980,2005982,2005984,2005985,2005986,2005987,2005988,2005989,2005990');return false;&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

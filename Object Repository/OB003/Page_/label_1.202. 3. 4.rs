@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_1.202. 3. 4</name>
+   <tag></tag>
+   <elementGuidId>63c8ccd8-6415-4e74-aac3-9579372655aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvAdditionalAccountInfo']/b/b/div[3]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.field-label-bottom-margin</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '1.本人已滿20歲2. 若有填寫不實、不完整或應附文件不齊全者，視同無效之協議書。本人同意：若有退出或修改之情事，美樂家公司不必退還本協議書及相關附件。3. 已詳讀本協議書正背面規定之條文，美樂家政策聲明及會員優惠禮遇，並同意遵守。4.個資使用勾選/保護同意本人同意 美樂家公司基於營業之特定目的必要範圍；暨委託第三人進行相關必要業務活動等目的，依法蒐集、處理、利用及傳輸本人之個人資料。本人並同意如蒐集、處理、利用美樂家會員個人資料應遵守個人資料保護法及美樂家政策聲明之規定。' or . = '1.本人已滿20歲2. 若有填寫不實、不完整或應附文件不齊全者，視同無效之協議書。本人同意：若有退出或修改之情事，美樂家公司不必退還本協議書及相關附件。3. 已詳讀本協議書正背面規定之條文，美樂家政策聲明及會員優惠禮遇，並同意遵守。4.個資使用勾選/保護同意本人同意 美樂家公司基於營業之特定目的必要範圍；暨委託第三人進行相關必要業務活動等目的，依法蒐集、處理、利用及傳輸本人之個人資料。本人並同意如蒐集、處理、利用美樂家會員個人資料應遵守個人資料保護法及美樂家政策聲明之規定。')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>chkAgreeToTextMessaging</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>field-label-bottom-margin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1.本人已滿20歲2. 若有填寫不實、不完整或應附文件不齊全者，視同無效之協議書。本人同意：若有退出或修改之情事，美樂家公司不必退還本協議書及相關附件。3. 已詳讀本協議書正背面規定之條文，美樂家政策聲明及會員優惠禮遇，並同意遵守。4.個資使用勾選/保護同意本人同意 美樂家公司基於營業之特定目的必要範圍；暨委託第三人進行相關必要業務活動等目的，依法蒐集、處理、利用及傳輸本人之個人資料。本人並同意如蒐集、處理、利用美樂家會員個人資料應遵守個人資料保護法及美樂家政策聲明之規定。</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dvAdditionalAccountInfo&quot;)/b[1]/b[1]/div[@class=&quot;termsAndConditions&quot;]/div[@class=&quot;inputRow consentToReceiveText&quot;]/label[@class=&quot;field-label-bottom-margin&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dvAdditionalAccountInfo']/b/b/div[3]/div[2]/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='* 表示必填欄位'])[2]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[2]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='必填'])[1]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1.本人已滿20歲']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+   </webElementXpaths>
+</WebElementEntity>

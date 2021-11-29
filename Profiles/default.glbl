@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10162'</initValue>
+      <initValue>'10273'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,7 +75,7 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk1,hk3,hk7</description>
+      <description>hk1,hk3,hk7,</description>
       <initValue>'hk7'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
@@ -161,6 +161,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Checkout'</initValue>
+      <name>url_Checkout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
       <name>url_contack_hk</name>
    </GlobalVariableEntity>
@@ -168,6 +173,11 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
       <name>url_contack_tw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwenrollment.melaleuca.com/CustomerType'</initValue>
+      <name>url_CustomerType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
