@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
 if (1 == 2) {
-    GlobalVariable.tw_input_newname = 'tw918209'
+    GlobalVariable.tw_input_newname = 'tw918219'
 
-    GlobalVariable.tw_input_email = ('tw918209' + '@melaleuca.com')
+    GlobalVariable.tw_input_email = ('tw918219' + '@melaleuca.com')
 
-    GlobalVariable.tw_input_mphone = '0922918209'
+    GlobalVariable.tw_input_mphone = '0922918219'
 
-    GlobalVariable.tw_input_citizen = 'J173624468'
+    GlobalVariable.tw_input_citizen = 'L271440029'
 
-    GlobalVariable.tw_input_creditcard = '4000176233801257'
+    GlobalVariable.tw_input_creditcard = '4000176777723776'
 } else {
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -48,13 +48,13 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_/button_ (9)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -78,18 +78,12 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
 
-WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
-GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
+GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
 
 println(GlobalVariable.tw_input_oleurl)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2_3 (2)'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (4)'))
-
-WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
@@ -101,24 +95,81 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (4)'))
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_newpswd)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), 'P9ET2sDE0SE=')
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__ConfirmPassword'), GlobalVariable.tw_input_newpswd)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__ConfirmPassword'), 'P9ET2sDE0SE=')
 
 'input citizen number'
-WebUI.setText(findTestObject('OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_200120001999199819971996199519941993_9425cf'), 
     '1988', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ (2)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (2)'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_123456789101112131415161718192021222_566da4 (1)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_123456789101112131415161718192021222_566da4 (1)'), 
+    '1', true)
 
 'input phone number'
-WebUI.setText(findTestObject('OB003/Page_/input__PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
 
-WebUI.click(findTestObject('OB003/Page_/button__1_2 (5)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_/div_5'))) {
+    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_newpswd)
+
+    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__ConfirmPassword'), GlobalVariable.tw_input_newpswd)
+}
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash_1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+
+result1 = WebUI.getText(findTestObject('OB003/Page_/span_1.10002.3.3'))
+
+println(result1)
+
+result2 = result1.substring(4, 15)
+
+println(result2)
+
+'1000 fee'
+if (result2 == '入會費新台幣1000元') {
+}
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__disc'))
+
+WebUI.navigateToUrl(GlobalVariable.url_CustomerType)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (19)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (31)'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.hk_input_newpswd)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__ConfirmPassword'), GlobalVariable.hk_input_newpswd)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+
+result1 = WebUI.getText(findTestObject('OB003/Page_/label_1.202. 3. 4'))
+
+println(result1)
+
+result2 = result1.substring(2, 12)
+
+println(result2)
+
+'20 ages'
+if (result2 == '本人已滿20歲') {
+}
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (4)'), '台北市', true)
 
@@ -136,52 +187,69 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_0102030405060708091
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_202120222023202420252026202720282029_fb3c11 (1)'), '2040', 
     true)
 
-WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_'), 50, 0)
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (7)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))
+
+WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_ (5)'), 50, 0)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (15)'))
 
 WebUI.waitForPageLoad(100)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('OB003/Page_/button_ (6)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (13)'))
 
-WebUI.focus(findTestObject('OB003/Page_/button__1'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (8)'))
 
-WebUI.click(findTestObject('OB003/Page_/button__1'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (15)'))
 
-WebUI.waitForPageLoad(100)
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (37)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2'))
+WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
 
-WebUI.refresh()
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (15)'))
 
-WebUI.refresh()
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
+    '12', true)
 
-//WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1'))
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11 (2)'), 
+    '2039', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (8)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 
 WebUI.closeBrowser()
 
-'Start an enrollment, verify enrollment form comes up'
-GlobalVariable.test_case = '245566'
+'Verify password creation is at least 5 characters'
+GlobalVariable.test_case = '247204'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify that OLE is secure (https in the url)'
-GlobalVariable.test_case = '245567'
+'Verify the "Show" feature shows correct password information'
+GlobalVariable.test_case = '247205'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify ability to send invite by email'
-GlobalVariable.test_case = '245568'
+'Verify correct membership fee is displayed (if Preferred)'
+GlobalVariable.test_case = '247206'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Complete an enrollment in every country of the software system'
-GlobalVariable.test_case = '251905'
+'Verify functionality of all fields on the Account Information tab'
+GlobalVariable.test_case = '247207'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Edit CC after info has been entered '
+GlobalVariable.test_case = '247209'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify you can Opt Out of text / email notifications'
+GlobalVariable.test_case = '247210'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

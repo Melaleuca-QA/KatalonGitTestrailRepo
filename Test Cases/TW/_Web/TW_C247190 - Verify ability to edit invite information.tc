@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TW_C247190 -Verify ability to edit invite information</name>
+   <name>TW_C247190 - Verify ability to edit invite information</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7f2ccb0b-d91a-40b9-9917-2c5a897272f2</testCaseGuid>
