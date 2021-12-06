@@ -161,6 +161,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uahkweb.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
+      <name>url_ChangePaymethods</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/ProductStore/Checkout'</initValue>
       <name>url_Checkout</name>
    </GlobalVariableEntity>

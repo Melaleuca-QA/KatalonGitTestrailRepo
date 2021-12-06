@@ -139,7 +139,7 @@ result2 = result1.substring(4, 15)
 
 println(result2)
 
-'1000 fee'
+'TW$1000 fee'
 if (result2 == '入會費新台幣1000元') {
 }
 
