@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__fa fa-times-circle lists__remove-icon_1</name>
+   <tag></tag>
+   <elementGuidId>6ef202d0-ea8d-405b-91a4-fba237119769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopping-list-page-app']/div/div[2]/list-search-dropdown/div[2]/div[2]/form/ul/li/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-times-circle.lists__remove-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-times-circle lists__remove-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>removeTheList(topList.listId)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/list-search-dropdown[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;below-tabs&quot;]/div[@class=&quot;lists-options lists-options-editable js-lists-options-editable active ng-pristine ng-valid&quot;]/form[@class=&quot;ng-pristine ng-valid&quot;]/ul[@class=&quot;lists__ul lists__ul-edit js-ul-edit&quot;]/li[@class=&quot;lists__ul__my-lists-top js-editing-my-lists&quot;]/i[@class=&quot;fa fa-times-circle lists__remove-icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopping-list-page-app']/div/div[2]/list-search-dropdown/div[2]/div[2]/form/ul/li/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__fa fa-times-circle shopping-list-card__r_8668cf</name>
+   <tag></tag>
+   <elementGuidId>b581b5e3-d7e0-4e12-b074-7324f64beb4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-times-circle.shopping-list-card__remove-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-times-circle shopping-list-card__remove-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/ul[@class=&quot;ng-scope&quot;]/product-block[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;shopping-list-card&quot;]/button[@class=&quot;shopping-list-card__remove&quot;]/i[@class=&quot;fa fa-times-circle shopping-list-card__remove-icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//product-block/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

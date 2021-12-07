@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__fa fa-plus-circle lists__add-to-list__plus</name>
+   <tag></tag>
+   <elementGuidId>3243604e-aed5-4bfc-8e81-f43a64290976</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopping-list-page-app']/div/div[2]/list-search-dropdown/div[2]/div[2]/form/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus-circle.lists__add-to-list__plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus-circle lists__add-to-list__plus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/list-search-dropdown[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;below-tabs&quot;]/div[@class=&quot;lists-options lists-options-editable js-lists-options-editable active ng-pristine ng-valid&quot;]/form[@class=&quot;ng-pristine ng-valid&quot;]/button[@class=&quot;edit__create js-edit-create ng-binding&quot;]/i[@class=&quot;fa fa-plus-circle lists__add-to-list__plus&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopping-list-page-app']/div/div[2]/list-search-dropdown/div[2]/div[2]/form/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

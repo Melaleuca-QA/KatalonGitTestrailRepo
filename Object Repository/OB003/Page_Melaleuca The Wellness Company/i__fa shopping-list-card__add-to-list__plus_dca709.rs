@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__fa shopping-list-card__add-to-list__plus_dca709</name>
+   <tag></tag>
+   <elementGuidId>d33c377c-0e81-4b02-83e5-3afe76edc911</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block[4]/div/div[3]/div[2]/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>type === 'shopping'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa shopping-list-card__add-to-list__plus fa-arrow-circle-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/ul[@class=&quot;ng-scope&quot;]/product-block[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;shopping-list-card&quot;]/div[@class=&quot;shopping-list-card__price&quot;]/div[@class=&quot;shopping-list-card__add-to-cart&quot;]/button[@class=&quot;shopping-list-card__add-to-list add-to-list-btn js-add-to-list ng-binding&quot;]/i[@class=&quot;fa shopping-list-card__add-to-list__plus fa-arrow-circle-right&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block[4]/div/div[3]/div[2]/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//product-block[4]/div/div[3]/div[2]/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

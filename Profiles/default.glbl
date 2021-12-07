@@ -211,6 +211,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Home'</initValue>
+      <name>url_Home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
       <name>url_melaleucapresentations</name>
    </GlobalVariableEntity>

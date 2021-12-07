@@ -263,3 +263,8 @@ GlobalVariable.test_case = '247210'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Verify you can Opt Out of text / email notifications'
+GlobalVariable.test_case = '247203'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
