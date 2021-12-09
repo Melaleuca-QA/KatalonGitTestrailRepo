@@ -132,6 +132,18 @@
       <testCaseId>Test Cases/HK/_Web/HK_C247191 - Verify Enrollment Tools links work</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3d71a8d6-b505-4944-83b7-38dd2a6f4d9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C247199 - Try all Membership Pack options</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67e33943-71c3-4f24-9c50-4d973fd6489d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C247204 - Verify password creation is at least 5 characters</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d7e3d058-492e-4762-bc73-ee5b1701bcf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

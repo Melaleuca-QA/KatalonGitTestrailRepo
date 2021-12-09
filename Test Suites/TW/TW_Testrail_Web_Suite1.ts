@@ -132,6 +132,24 @@
       <testCaseId>Test Cases/TW/_Web/TW_C247191 - Verify Enrollment Tools links work</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3844c740-7b88-4144-853c-9932f7cc1bd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C247199 - Try all Membership Pack options</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9b35f3ba-0c4f-4e69-8f36-7a4972cdedd6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f20b598b-53bd-4b49-9fa6-1e288eceef3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>10822333-e2fb-41eb-b28a-e8bbc9449521</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
