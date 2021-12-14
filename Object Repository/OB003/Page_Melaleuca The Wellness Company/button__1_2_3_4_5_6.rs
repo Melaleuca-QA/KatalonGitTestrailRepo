@@ -6,15 +6,19 @@
    <elementGuidId>6bd2884c-1bc4-4fe3-8c57-6ae3c01308af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='pdp_addToCartBtn_4597']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'pdp_addToCartBtn_4172' and (text() = '新增至購物車' or . = '新增至購物車')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#pdp_addToCartBtn_4597</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='pdp_addToCartBtn_4597']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,14 +39,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pdp_addToCartBtn_4597</value>
+      <value>pdp_addToCartBtn_4172</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-sku</name>
       <type>Main</type>
-      <value>4597</value>
+      <value>4172</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pdp_addToCartBtn_4597&quot;)</value>
+      <value>id(&quot;pdp_addToCartBtn_4172&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

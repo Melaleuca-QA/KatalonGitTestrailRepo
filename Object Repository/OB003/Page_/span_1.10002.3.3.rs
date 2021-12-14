@@ -6,22 +6,22 @@
    <elementGuidId>b91e787d-6103-4c46-bb79-8870a8ce0f87</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='preferredMembershipInformation']/div/div/span</value>
+         <key>BASIC</key>
+         <value>//span[(text() = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡' or . = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.membershipFeeAnnualCharge</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡' or . = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡')]</value>
+         <key>XPATH</key>
+         <value>//span[@id='preferredMembershipInformation']/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡</value>
+      <value>1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

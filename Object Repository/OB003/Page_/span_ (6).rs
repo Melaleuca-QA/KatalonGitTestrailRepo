@@ -6,15 +6,23 @@
    <elementGuidId>3739bdf1-9fac-46a0-a756-3fe9e47b26a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@id='btnEdit'])[2]</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnEdit' and (text() = '
+                        編輯
+                    ' or . = '
+                        編輯
+                    ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[@id='btnEdit'])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
