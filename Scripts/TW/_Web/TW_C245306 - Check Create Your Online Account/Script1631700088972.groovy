@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (8)'))
 
 now_url = WebUI.getUrl()
 
+println (now_url)
+
 WebUI.verifyEqual(now_url, GlobalVariable.url_EmailSuccess)
 
 WebUI.verifyElementVisible(findTestObject('OB003/Page_/div_jilllin100melaleuca.com'), FailureHandling.STOP_ON_FAILURE)
@@ -44,6 +46,8 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__MobilePhoneNu
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (7)'))
 
 now_url = WebUI.getUrl()
+
+println (now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_MobileSuccess)
 

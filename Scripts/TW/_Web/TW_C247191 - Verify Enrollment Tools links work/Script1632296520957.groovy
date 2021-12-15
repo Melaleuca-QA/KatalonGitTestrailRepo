@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9) (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4) (2)'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/BusinessCenter/Home')
+WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (4)'))
 

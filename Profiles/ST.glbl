@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10162'</initValue>
+      <initValue>'10216'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>test_case2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'tw3'</initValue>
+      <description>tw1</description>
+      <initValue>'tw1'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -30,8 +30,8 @@
       <name>tw_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'high01'</initValue>
+      <description>twst01</description>
+      <initValue>'twst01'</initValue>
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,7 +75,7 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>hk3</description>
       <initValue>'hk3'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
@@ -85,8 +85,8 @@
       <name>hk_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'85290945056'</initValue>
+      <description>STHawkesHK1</description>
+      <initValue>'STHawkesHK1'</initValue>
       <name>hk_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -156,8 +156,18 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https:/sttwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
       <name>url_category119</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
+      <name>url_ChangePaymethods</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout'</initValue>
+      <name>url_Checkout</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -168,6 +178,11 @@
       <description></description>
       <initValue>'https://sttwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
       <name>url_contack_tw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwenrollment.melaleuca.com/CustomerType'</initValue>
+      <name>url_CustomerType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -193,6 +208,11 @@
       <description></description>
       <initValue>'https://sttwweb.melaleuca.com/GeneralError.aspx'</initValue>
       <name>url_GeneralError</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/Home'</initValue>
+      <name>url_Home</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

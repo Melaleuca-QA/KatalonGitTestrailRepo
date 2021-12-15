@@ -57,7 +57,7 @@ WebUI.click(findTestObject('OB003/Page_/div_EH 2.2 HK Test (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (1)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), '12101235555')
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), '13100015723')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
 

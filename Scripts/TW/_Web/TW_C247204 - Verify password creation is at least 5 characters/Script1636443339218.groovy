@@ -207,7 +207,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (37)'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
+WebUI.navigateToUrl(GlobalVariable.url_ChangePaymethods)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (15)'))
 

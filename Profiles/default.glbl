@@ -156,12 +156,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https:/uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
       <name>url_category119</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uahkweb.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
       <name>url_ChangePaymethods</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

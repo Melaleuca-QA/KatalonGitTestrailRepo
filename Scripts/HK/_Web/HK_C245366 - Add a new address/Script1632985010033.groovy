@@ -57,8 +57,6 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (4) (1)'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangeAddresses')
-
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (5)'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1 (1)'), 'hsipaddress3')
