@@ -64,6 +64,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link startEnrollmentLink'))
 
+WebUI.delay(3)
+
 'input new enrollment name'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
 

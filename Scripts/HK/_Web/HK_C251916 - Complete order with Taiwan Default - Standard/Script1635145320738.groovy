@@ -65,6 +65,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (14)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1 (7)'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'), '123')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (12)'))

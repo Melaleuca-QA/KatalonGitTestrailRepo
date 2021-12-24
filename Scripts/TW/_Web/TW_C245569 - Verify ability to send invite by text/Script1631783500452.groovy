@@ -57,7 +57,7 @@ WebUI.click(findTestObject('OB003/Page_/label__1_2'))
 
 WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (11)'))
 

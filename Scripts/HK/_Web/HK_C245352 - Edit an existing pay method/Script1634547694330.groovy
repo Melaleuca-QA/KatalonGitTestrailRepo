@@ -67,9 +67,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_- Melaleu
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/button_'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (6)'))
-
 WebUI.back()
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/button_'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (6)'))
 

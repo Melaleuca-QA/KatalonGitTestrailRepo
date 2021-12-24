@@ -43,7 +43,6 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
 
 //WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
-
 'input new enrollment name'
 WebUI.setText(findTestObject('OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
 
@@ -58,9 +57,9 @@ WebUI.click(findTestObject('OB003/Page_/label__1_2'))
 
 WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (1)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (11)'))
 
 WebUI.refresh()
 

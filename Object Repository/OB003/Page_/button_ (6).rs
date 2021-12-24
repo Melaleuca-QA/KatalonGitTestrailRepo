@@ -10,15 +10,15 @@
          <value>#btnSave</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btnSave' and @type = 'button' and (text() = '地址確認' or . = '地址確認')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='btnContinue']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnSave' and @type = 'button' and (text() = '地址確認' or . = '地址確認')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10216'</initValue>
+      <initValue>'10317'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>tw1,tw2,tw3,</description>
-      <initValue>'tw2'</initValue>
+      <initValue>'tw1'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk3,hk7,</description>
-      <initValue>'hk3'</initValue>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

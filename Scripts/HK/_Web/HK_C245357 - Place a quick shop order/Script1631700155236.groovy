@@ -50,6 +50,8 @@ if (WebUI.verifyElementNotVisible(findTestObject('OB003/Page_/div_3535 (  )')) =
     WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ck35'))
 }
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'), '123')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (12)'))
