@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 def input_newname    = GlobalVariable.hk_input_newname
 def input_newaddr    = GlobalVariable.hk_input_email
 def input_newphone   = GlobalVariable.hk_input_mphone
+def input_bankno     = GlobalVariable.hk_input_bankno
 
 Random rand = new Random()
 
@@ -46,10 +47,13 @@ public static String addZeroForNum(String str,int strLength) {
 */
 
 request2 = '85251' + String.format("%06d",result)
+request3 = '442'   + String.format("%07d",result)
 println (request2)
+println (request3)
 
 input_newname = ('hk' + request1)
 
 GlobalVariable.hk_input_newname = input_newname
 GlobalVariable.hk_input_email   = input_newname + '@melaleuca.com'
 GlobalVariable.hk_input_mphone  = request2
+GlobalVariable.hk_input_bankno  = request3

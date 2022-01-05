@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (1 == 2) {
+if (false) {
     GlobalVariable.hk_input_newname = 'hk918211'
 
     GlobalVariable.hk_input_email = ('hk918211' + '@melaleuca.com')
@@ -63,7 +63,6 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('OB003/Page_/div__link startEnrollmentLink'))
 
 //WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
-
 'input new enrollment name'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
 
@@ -79,7 +78,6 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1 (2)'))
 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2 (2)'))
-
 WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
 GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
@@ -165,8 +163,32 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (3)'))
 
 WebUI.waitForPageLoad(100)
 
-//WebUI.click(findTestObject('Object Repository/OB003/Page_/h5_'))
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (3)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (21)'))
+
+WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
+
+WebUI.click(findTestObject('OB003/Page_/span_004 HK_SH Banking'))
+
+//WebUI.selectOptionByValue(findTestObject('OB003/Page_/span_004 The Hongkong and Shanghai Banking _f1933e'), '004 香港上海滙豐銀行有限公司The Hongkong and Shanghai Banking Corporation Ltd', 
+//    false)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
+
+WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/label (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/label_,   , 18()1.2.3'))
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hk918212_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (33)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (9)'))
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
 

@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10317'</initValue>
+      <initValue>'10273'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk3,hk7,</description>
-      <initValue>'hk1'</initValue>
+      <initValue>'hk3'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -128,6 +128,11 @@
       <description></description>
       <initValue>''</initValue>
       <name>hk_input_oleurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_bankno</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -213,6 +218,11 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/Home'</initValue>
       <name>url_Home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwenrollment.melaleuca.com/MarketingExecutive'</initValue>
+      <name>url_MarketingExecutive</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

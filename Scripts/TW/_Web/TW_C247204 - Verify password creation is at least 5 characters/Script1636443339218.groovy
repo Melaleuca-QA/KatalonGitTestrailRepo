@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (1 == 2) {
+if (false) {
     GlobalVariable.tw_input_newname = 'tw918219'
 
     GlobalVariable.tw_input_email = ('tw918219' + '@melaleuca.com')
@@ -116,9 +116,9 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__PrimaryPhoneN
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_/div_5'))) {
-    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_newpswd)
+    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.hk_input_newpswd)
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__ConfirmPassword'), GlobalVariable.tw_input_newpswd)
+    WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__ConfirmPassword'), GlobalVariable.hk_input_newpswd)
 }
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash_1'))
@@ -202,6 +202,11 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (13)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (8)'))
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (15)'))
 

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (1 == 1) {
+if (false) {
     GlobalVariable.tw_input_newname = 'tw918215'
 
     GlobalVariable.tw_input_email = ('tw918215' + '@melaleuca.com')

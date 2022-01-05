@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (1 == 2) {
+if (false) {
     GlobalVariable.hk_input_newname = 'hk874616'
 
     GlobalVariable.hk_input_email = ('hk874616' + '@melaleuca.com')
@@ -212,6 +212,11 @@ WebUI.delay(3)
 
 '開始購物'
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (8)'))
+
+'close birthday\'s shopping'
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__stars'))) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (16)'))
 
