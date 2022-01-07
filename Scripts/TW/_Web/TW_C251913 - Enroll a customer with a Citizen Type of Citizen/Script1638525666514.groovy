@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
 if (false) {
-    GlobalVariable.tw_input_newname = 'tw918510'
+    GlobalVariable.tw_input_newname = 'tw918517'
 
-    GlobalVariable.tw_input_email = ('tw918510' + '@melaleuca.com')
+    GlobalVariable.tw_input_email = ('tw918517' + '@melaleuca.com')
 
-    GlobalVariable.tw_input_mphone = '0922918510'
+    GlobalVariable.tw_input_mphone = '0922918517'
 
-    GlobalVariable.tw_input_citizen = 'B213767107'
+    GlobalVariable.tw_input_citizen = 'Q237666501'
 
-    GlobalVariable.tw_input_creditcard = '4000178576566802'
+    GlobalVariable.tw_input_creditcard = '4000171827071375'
 } else {
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -85,6 +85,28 @@ GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_M
 
 println(GlobalVariable.tw_input_oleurl)
 
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2_3 (2)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span__1 (5)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (19)'))
+
+'Change the country to Hong Kong'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (12)'), '1', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3 (2)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (19)'))
+
+'Change the country to Taiwan'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (12)'), '0', true)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3 (2)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4 (1)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (15)'))
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
@@ -102,6 +124,13 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input__ConfirmPassword'), Glo
 'input citizen number'
 WebUI.setText(findTestObject('OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
 
+'Citizen'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '1', true)
+
+'Foreigner'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '2', true)
+
+'Emigrate'
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '4', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_200120001999199819971996199519941993_9425cf'), 
@@ -166,8 +195,28 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.closeBrowser()
 
+'Complete an enrollment in Taiwan'
+GlobalVariable.test_case = '251911'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Complete an enrollment in Hong Kong'
+GlobalVariable.test_case = '251912'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Enroll a customer with a Citizen Type of Citizen'
 GlobalVariable.test_case = '251913'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Enroll a customer with a Citizen Type of Foreigner'
+GlobalVariable.test_case = '251914'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Enroll a customer with a Citizen Type of Emigrate'
+GlobalVariable.test_case = '251915'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

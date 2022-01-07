@@ -51,6 +51,30 @@ WebUI.click(findTestObject('OB001/Page_/span_ (2)'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (1)'))
 
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1 (5) (1)'))
+
+WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (44)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (34)'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link enrollmentFormsLink'))
+
+now_title = WebUI.getWindowTitle()
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a_ (1)'))
+
+WebUI.delay(3)
+
+WebUI.switchToWindowTitle(now_title)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a__1'))
+
+WebUI.delay(3)
+
+WebUI.switchToWindowTitle(now_title)
+
 WebUI.click(findTestObject('OB001/Page_/a_ (6)'))
 
 WebUI.closeBrowser()
@@ -72,6 +96,11 @@ WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandlin
 
 'Log out of Website'
 GlobalVariable.test_case = '245308'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify ability to print paperwork correctly'
+GlobalVariable.test_case = '247216'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

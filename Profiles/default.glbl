@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk3,hk7,</description>
-      <initValue>'hk3'</initValue>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -117,6 +117,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
+      <name>hk_input_mphone2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
       <name>hk_input_citizen</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -133,6 +138,21 @@
       <description></description>
       <initValue>''</initValue>
       <name>hk_input_bankno</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_mphone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

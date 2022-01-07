@@ -192,3 +192,8 @@ GlobalVariable.test_case = '251905'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Verify you can Start Shopping'
+GlobalVariable.test_case = '247197'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+

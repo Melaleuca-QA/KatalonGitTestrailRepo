@@ -181,6 +181,27 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/label_,   , 18()1.2.3'
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hk918212_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 
+'Add spouse information'
+WebUI.click(findTestObject('Object Repository/OB003/Page_/span_()'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/body_iframe srchttpswww.googletagmanager.co_71ec2f (1)'))
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpouseFirstName'), GlobalVariable.hk_input_spouse_name)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_SpouseEnglishName'), GlobalVariable.hk_input_spouse_name)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpouseEmailAddress'), GlobalVariable.hk_input_spouse_email)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2 (2)'), 'HomePhone', true)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpousePrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_spouse_mphone)
+
+WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/label_,   , 18()1.2.3 (1)'))
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hk918216_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hksp918216_SpouseDigitalSignature'), GlobalVariable.hk_input_spouse_name)
+
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (33)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (9)'))
@@ -217,6 +238,31 @@ WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandlin
 
 'Verify ability to send invite by email'
 GlobalVariable.test_case = '245568'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify you can Start Shopping'
+GlobalVariable.test_case = '247197'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify you can continue to the IMEA'
+GlobalVariable.test_case = '247198'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Complete the Earn Commissions and Bonuses section'
+GlobalVariable.test_case = '247183'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Add spouse information'
+GlobalVariable.test_case = '247185'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Digital Signature'
+GlobalVariable.test_case = '247186'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

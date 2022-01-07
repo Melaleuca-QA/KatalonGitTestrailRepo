@@ -18,11 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'get credit card number'
-
-
-if (true) {GlobalVariable.hk_input_creditcard = '4929028234403872'
-} else {WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.openBrowser('')
 
