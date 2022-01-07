@@ -12,147 +12,153 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>df411ff4-9a77-4c46-9305-fd831666979b</testSuiteGuid>
    <testCaseLink>
-      <guid>f430e35d-703a-47ba-80e7-2aa7910fb1ce</guid>
+      <guid>7580169b-80e8-4046-945f-a926308798a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C224083 - Search for SKU by number</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7816a26e-ee50-44db-b5de-5fdba37e8c68</guid>
+      <guid>974a5f78-c565-4f11-a08c-323652efb3d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245298 - Log in page is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bb1321b-7ba8-4f7f-bde2-b06cfcf36041</guid>
+      <guid>19c723db-ac8a-43a1-88d5-87542ae20b0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245304 - Check Cant Access Your Account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c459cadf-91c9-43f6-bd5e-62687207c96f</guid>
+      <guid>838c7b83-0319-44e9-8169-6f4e97154e5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245306 - Check Create Your Online Account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a773c19-6319-4d58-83cc-aa70ac59b9ea</guid>
+      <guid>ed25792b-bb89-415f-9c50-13633b4fcd6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245309 - Verify General Error page comes up correctly</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>86909f52-0755-4966-85fd-9cd8666d89cf</guid>
+      <guid>331dda08-b093-4bb2-aa45-179f8b46ff5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245312 - Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2936bb09-e6e5-4b2a-a56f-49ac17c6b1c2</guid>
+      <guid>5340d439-65cf-4147-badf-e60633406dc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245315 - Check each product category to ensure they have products</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e85993b9-2d7a-4c04-b4b8-17b26c504462</guid>
+      <guid>0df1b527-88a6-4d86-9dae-5674d3c56326</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245318 - Add configurable SKU via Quick Shop</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2a29058-3f0b-4dee-8bea-03f87b82f88e</guid>
+      <guid>04fdb2a2-9c96-4c69-b666-9d3ed1c1112f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245322 - Verify the order checkout is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a550ea1-e763-4600-b9da-332794ac695b</guid>
+      <guid>616da453-d671-42c3-9f0b-4c586840bf94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245352 - Edit an existing pay method</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cfff8ace-9ded-45b3-b947-9625580419a6</guid>
+      <guid>0b662205-6cc3-4a3a-bc80-3e4e2bdf6391</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245357 - Place a quick shop order</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>af51ed31-6f5c-4273-be93-8bce56e49e13</guid>
+      <guid>fc534eb9-3400-4411-b0af-6fc61e7f3d29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245361 - Verify My Account is secure https</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6498213b-1666-4894-8f5d-b8a37e735a55</guid>
+      <guid>7bcd5cc5-413b-45a3-9786-56bcc5f76705</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C245363 - Edit an existing pay method - Copy</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>81437818-33f0-4cf3-a46f-c91df8786a02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245363 - Edit an existing pay method</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>591b6615-b221-4e54-8de1-33ae44a2e150</guid>
+      <guid>9035dd24-ceb7-41b6-af67-43364a30612e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245366 - Add a new address</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fa82073-ba0f-4c34-9557-fdd1e4b8bba3</guid>
+      <guid>52da9b75-8602-44d6-9c55-81f2b89703ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245377 - Start Cancellation Process</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>df88ab65-c881-43b3-915f-b4b6e0997271</guid>
+      <guid>c082c851-9bd8-45da-8abc-41dbc0ba4be8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245426 - Sign up for MORE with customer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b065cf93-784d-4818-8962-abe738a9d93b</guid>
+      <guid>e7783bc3-3b78-4589-884c-45daf8a1c214</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>68a0f337-0ff7-4a6c-8a39-cebb8f7f36b5</guid>
+      <guid>20894d7d-f871-4d30-9cc6-22412aca4b13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245569 - Verify ability to send invite by text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e221b57-6a6f-4833-b1e0-8742e7b784af</guid>
+      <guid>64a96b89-383a-4d1e-8259-971887a018c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245570 - Search for Presenter by Phone, Email, and Mela ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e685e3d3-e0f7-4ca7-a900-639eee99b254</guid>
+      <guid>06167cd7-e3a6-4ab0-8743-7bda0f16cfcb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C247191 - Verify Enrollment Tools links work</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d71a8d6-b505-4944-83b7-38dd2a6f4d9a</guid>
+      <guid>1c4e8442-6782-4256-a7bb-05b4d1778248</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C247199 - Try all Membership Pack options</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>67e33943-71c3-4f24-9c50-4d973fd6489d</guid>
+      <guid>0ac70ebf-3e54-4491-8f62-ac8ab0bb491d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C247204 - Verify password creation is at least 5 characters</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7e3d058-492e-4762-bc73-ee5b1701bcf7</guid>
+      <guid>29829db0-8cd4-40ac-a1f8-3cf2b1461fcd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C251916 - Complete order with Taiwan Default - Standard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>94ed53bf-ec3f-40ff-8460-f667b9d3379b</guid>
+      <guid>3518a934-1d00-46e0-9613-1e1eac95ca85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HK/_Web/HK_C251917 - Open a PDF Presentation in Taiwan</testCaseId>
+      <testCaseId>Test Cases/HK/_Web/HK_C251917 - Open a PDF Presentation in Hong Kong</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

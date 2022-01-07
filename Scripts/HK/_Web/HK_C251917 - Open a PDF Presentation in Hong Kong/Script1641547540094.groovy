@@ -97,7 +97,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.closeBrowser()
 
-'Open a PDF Presentation in Taiwan'
+'Open a PDF Presentation in Hong Kong'
 GlobalVariable.test_case = '251917'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)

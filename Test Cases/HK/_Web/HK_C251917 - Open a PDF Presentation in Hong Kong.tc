@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HK_C251917 - Open a PDF Presentation in Taiwan</name>
+   <name>HK_C251917 - Open a PDF Presentation in Hong Kong</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>810acb41-cb43-44e4-9ad2-b4af9fe5cb8e</testCaseGuid>

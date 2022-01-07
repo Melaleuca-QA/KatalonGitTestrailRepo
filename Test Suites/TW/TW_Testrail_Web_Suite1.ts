@@ -12,151 +12,157 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1c828a90-3672-4430-99ae-f8818a303a7f</testSuiteGuid>
    <testCaseLink>
-      <guid>63f9fe00-75c8-4b0d-8398-9cf1c18ec2df</guid>
+      <guid>f5b762ab-2811-4bca-be9f-56fe50d8de11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C224083 - Search for SKU by number</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e378037f-1050-4f53-9674-bd8c5d746d53</guid>
+      <guid>542e137b-cf66-4311-a951-e2c14b242457</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245298 - Log in page is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b0e2e42-ed53-4f06-a86b-81b5c6fe96e6</guid>
+      <guid>e70bec41-d678-4724-9f8d-5f11971869e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245304 - Check Cant Access Your Account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b50765e-1b1f-493d-9d2e-78eeb3eba982</guid>
+      <guid>8692c5f0-c6f7-4b2d-9bcd-c4f4aad94d76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245306 - Check Create Your Online Account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ecd89d64-ad3b-4bb4-9ed4-30b4cc4aa67d</guid>
+      <guid>e0703458-c20e-44cb-a4e1-c546e8d16b37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245309 - Verify General Error page comes up correctly</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e9f8a8c-1bd0-4bcb-aeac-ccf59ad81b71</guid>
+      <guid>a53d1cc2-e185-4f36-b411-e73b887d13e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245312 - Go to Contact Melaleuca</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b18984c6-5ce5-4dc9-9f6d-4c5d5baf8a46</guid>
+      <guid>7c69d91c-7784-4612-851e-0fffa320a37c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245315 - Check each product category to ensure they have products</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0f4ab5f0-86b3-475e-877f-612ca753b6b1</guid>
+      <guid>d46fe280-8348-4114-b7cc-f8e52d45accd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245318 - Add configurable SKU via Quick Shop</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>df8f42f6-ca52-4a30-a060-a7947731c738</guid>
+      <guid>87c7aec2-b0f1-4094-945d-8b46dd3d524d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245322 - Verify the order checkout is secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5afbfd5-8e15-4cc3-8547-5b34d291e9f3</guid>
+      <guid>fd58ffcb-33ec-4612-8c11-bf70b78cce9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245352 - Edit an existing pay method</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>71d61f0a-5e5b-488d-92ab-ddf792c6bf8e</guid>
+      <guid>79411abc-9173-4477-a6e5-28850df51085</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245357 - Place a quick shop order</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3a10b73c-703b-48dd-a04d-83717984bee0</guid>
+      <guid>135f52f7-e12f-40a3-8eaf-4ef38ca67811</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245361 - Verify My Account is secure https</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d601faea-ed09-4fab-9684-3085c30eff4a</guid>
+      <guid>648d8083-3cb0-44eb-a038-a964db711de1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245363 - Edit an existing pay method</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>612db80f-41bb-4fa5-8611-a61baba31fe6</guid>
+      <guid>f6889599-4466-4d11-a17e-dc86d2e126fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245366 - Add a new address</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>19710a31-bb20-4067-a5e2-05e52eae15e7</guid>
+      <guid>e538cec6-515d-47f6-9b91-38106a39e8fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245377 - Start Cancellation Process</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2b377219-61fb-4a32-8a46-667421890ee3</guid>
+      <guid>63570afa-dce0-47d5-876d-0e4cd9694dfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245426 - Sign up for MORE with customer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>97857e4e-ba36-40f1-936a-97bb70b0b2c0</guid>
+      <guid>92003948-b7e6-4127-98a6-33c2664ff76b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7871cd8-1b1f-4f90-a29c-fa65f174077f</guid>
+      <guid>93fb4f84-e238-4495-971f-2fd0afef4007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245569 - Verify ability to send invite by text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>39c8f4e8-5818-4d40-8c05-df55e8b06173</guid>
+      <guid>aa71baac-8e34-4f46-ae56-cc7f1ec0ea54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245570 - Search for Presenter by Phone, Email, and Mela ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec8e3f0e-aca0-4be3-b9f9-61d0823c5eef</guid>
+      <guid>abcdc335-05f8-4b57-b0b4-37be20d051f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C247190 - Verify ability to edit invite information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59d37bf8-46ec-4fa8-8371-cc08d5517657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C247191 - Verify Enrollment Tools links work</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3844c740-7b88-4144-853c-9932f7cc1bd4</guid>
+      <guid>fd0022f9-52ed-4634-9f22-4888f57dafc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C247199 - Try all Membership Pack options</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b35f3ba-0c4f-4e69-8f36-7a4972cdedd6</guid>
+      <guid>de434107-917e-497d-bece-c0287d2772f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f20b598b-53bd-4b49-9fa6-1e288eceef3b</guid>
+      <guid>103f03cc-810b-426e-bbda-8ea7c61b1bc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>10822333-e2fb-41eb-b28a-e8bbc9449521</guid>
+      <guid>97a5ae02-b9b2-4083-b512-cc63093bf902</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C251916 - Complete order with Taiwan Default - Standard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4110f81e-ec37-4a15-a3f5-6751f311ddf0</guid>
+      <guid>8a9a99d1-3f99-4dae-9657-71bd0526b5fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C251917 - Open a PDF Presentation in Taiwan</testCaseId>
