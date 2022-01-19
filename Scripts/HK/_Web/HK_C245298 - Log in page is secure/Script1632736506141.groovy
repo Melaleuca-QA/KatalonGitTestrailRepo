@@ -31,6 +31,11 @@ WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_ (6)'))
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (4) (5)'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_ (6)'))

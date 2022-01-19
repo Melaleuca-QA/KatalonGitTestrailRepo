@@ -18,10 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'get credit card number'
-
-
-if (true) {GlobalVariable.hk_input_creditcard = '4929028234403872'
-} else {WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+if (true) {
+    GlobalVariable.hk_input_creditcard = '4929028234403872'
+} else {
+    WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.openBrowser('')
@@ -37,6 +37,11 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (14)'))
 

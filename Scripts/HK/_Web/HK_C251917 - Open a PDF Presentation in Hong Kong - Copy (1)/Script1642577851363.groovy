@@ -25,38 +25,23 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
 
-'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
-}
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
-//WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Home')
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (13)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (9)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (31)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (6)'))
 
-now_url = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (3)'))
 
-println(now_url)
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__image-placeholder'))
 
-trim_url = now_url.subSequence(0, 8)
+now_title = WebUI.getUrl()
 
-println(trim_url)
-
-WebUI.verifyMatch(trim_url, 'https://', false)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (14)'))
-
-WebUI.closeBrowser()
-
-'Verify My Account is secure https://'
-GlobalVariable.test_case = '245361'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+println(now_title)
 

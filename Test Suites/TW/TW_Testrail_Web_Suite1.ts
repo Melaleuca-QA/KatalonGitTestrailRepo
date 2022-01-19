@@ -126,12 +126,6 @@
       <testCaseId>Test Cases/TW/_Web/TW_C245570 - Search for Presenter by Phone, Email, and Mela ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>abcdc335-05f8-4b57-b0b4-37be20d051f3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TW/_Web/TW_C247190 - Verify ability to edit invite information</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>59d37bf8-46ec-4fa8-8371-cc08d5517657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

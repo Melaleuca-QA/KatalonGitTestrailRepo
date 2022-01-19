@@ -6,16 +6,17 @@
    <elementGuidId>1e07e822-42cf-4997-9c74-65021346fe13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '線上入會首頁' or . = '線上入會首頁')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;invitation_2100&quot;]/div/div[1]/span</value>
+         <value>//*[@id=&quot;invitation_209&quot;]/div/div[1]/span
+</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.linkText</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '線上入會首頁' or . = '線上入會首頁')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,6 +33,11 @@ WebUI.click(findTestObject('OB001/Page_/button_ (12)'))
 
 WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), '117')
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
 
 now_url = WebUI.getUrl()

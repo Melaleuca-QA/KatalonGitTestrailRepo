@@ -84,12 +84,6 @@
       <testCaseId>Test Cases/HK/_Web/HK_C245361 - Verify My Account is secure https</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7bcd5cc5-413b-45a3-9786-56bcc5f76705</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HK/_Web/HK_C245363 - Edit an existing pay method - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>81437818-33f0-4cf3-a46f-c91df8786a02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -156,7 +150,7 @@
       <testCaseId>Test Cases/HK/_Web/HK_C251916 - Complete order with Taiwan Default - Standard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3518a934-1d00-46e0-9613-1e1eac95ca85</guid>
+      <guid>d432b97a-83bb-4bb1-b776-b94f52611297</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C251917 - Open a PDF Presentation in Hong Kong</testCaseId>

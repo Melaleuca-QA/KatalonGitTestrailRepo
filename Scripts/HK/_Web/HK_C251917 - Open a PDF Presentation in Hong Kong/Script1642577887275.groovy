@@ -31,6 +31,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Pass
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (9)'))
@@ -41,7 +46,11 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (3)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__image-placeholder'))
 
-WebUI.switchToWindowTitle('HK_Overview_0520')
+//now_title = WebUI.getWindowTitle()
+//println(now_title)
+//WebUI.switchToWindowTitle(now_title)
+//WebUI.switchToWindowTitle('HK_Overview_0520')
+WebUI.switchToWindowTitle('HK_Overview_0122')
 
 WebUI.waitForPageLoad(100)
 

@@ -31,6 +31,11 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVari
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (9)'))
@@ -40,7 +45,8 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link presentationLink'))
 
 now_url = WebUI.getUrl()
-println (now_url)
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
 
@@ -51,7 +57,8 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link followUpLink'))
 
 now_url = WebUI.getUrl()
-println (now_url)
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
 
@@ -62,7 +69,8 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link enrollmentFormsLink'))
 
 now_url = WebUI.getUrl()
-println (now_url)
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
 
@@ -73,7 +81,8 @@ WebUI.back()
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link whichProductsLink'))
 
 now_url = WebUI.getUrl()
-println (now_url)
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
 

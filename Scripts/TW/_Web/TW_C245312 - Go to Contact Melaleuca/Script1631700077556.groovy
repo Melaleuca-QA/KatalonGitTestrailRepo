@@ -53,6 +53,11 @@ println(now_text2)
 
 WebUI.verifyMatch(now_text2, '美樂家台灣', false)
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a_ (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1 (1)'))

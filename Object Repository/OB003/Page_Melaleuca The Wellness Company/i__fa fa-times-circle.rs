@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>i.fa.fa-times-circle</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;bd-app&quot;)/div[@class=&quot;popupBox&quot;]/div[@class=&quot;bdCloseBtn&quot;]/i[@class=&quot;fa fa-times-circle&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
