@@ -7,16 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;invitation_209&quot;]/div/div[1]/span
-</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span.linkText</value>
+         <value>//*[@id=&quot;invitation_2126&quot;]/div/div[1]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = '線上入會首頁' or . = '線上入會首頁')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.linkText</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
