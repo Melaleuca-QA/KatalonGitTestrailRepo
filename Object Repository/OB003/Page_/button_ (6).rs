@@ -6,19 +6,19 @@
    <elementGuidId>c3b41b66-b868-4ec4-bc2f-486c9fdd3cf7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btnSave</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnContinue']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'btnSave' and @type = 'button' and (text() = '地址確認' or . = '地址確認')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/form/div/div[4]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnSave</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

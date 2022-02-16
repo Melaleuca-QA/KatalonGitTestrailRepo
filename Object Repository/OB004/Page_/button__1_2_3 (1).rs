@@ -6,12 +6,16 @@
    <elementGuidId>80fa1a72-e4d5-4b79-b2b0-a2c6ba24c5ed</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnReturnToCheckout']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#btnReturnToCheckout</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnReturnToCheckout']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnReturnToCheckout' and @type = 'button' and (text() = '返回結帳' or . = '返回結帳')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -101,7 +101,11 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918211'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (12)'))
 
+'TW'
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (8)'), '1', true)
+
+'HK'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (13)'), '0', true)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (12)'))
 

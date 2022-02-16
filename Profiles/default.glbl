@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>tw1,tw2,tw3,</description>
-      <initValue>'tw1'</initValue>
+      <initValue>'tw3'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -238,6 +238,11 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/Home'</initValue>
       <name>url_Home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/OrderDetails/latest'</initValue>
+      <name>url_latest</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

@@ -219,7 +219,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (8)'))
 
 'close birthday\'s shopping'
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__stars'))) {
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 

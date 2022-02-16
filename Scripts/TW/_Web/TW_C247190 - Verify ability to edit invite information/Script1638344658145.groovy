@@ -74,9 +74,11 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1 (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2 (1)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (5)'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2 (2)'))
+//WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (5)'))
+
+//WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2 (2)'))
 
 WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
