@@ -25,11 +25,11 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (8)'))
+WebUI.click(findTestObject('OB003/Page_/a_ CreateWebAccount'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__EmailAddress (1)'), 'jilllin100@melaleuca.com')
+WebUI.setText(findTestObject('OB003/Page_/input__EmailAddress'), 'jilllin100@melaleuca.com')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (8)'))
+WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_EmailContinue'))
 
 now_url = WebUI.getUrl()
 
@@ -43,7 +43,7 @@ WebUI.back()
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__MobilePhoneNumber'), '0988297237')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (7)'))
+WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_PhoneContinue'))
 
 now_url = WebUI.getUrl()
 

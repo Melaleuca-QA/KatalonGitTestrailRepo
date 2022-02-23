@@ -4,14 +4,25 @@
    <name>button__1 (16)</name>
    <tag></tag>
    <elementGuidId>66a27f95-5b4a-45b4-8452-4e995e8984bc</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@type='submit']
+
+</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.search-submit-button.pure-button.pure-button-green</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = ' ' or . = ' ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

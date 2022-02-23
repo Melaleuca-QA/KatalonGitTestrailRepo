@@ -6,12 +6,12 @@
    <elementGuidId>45bbd34f-0ba3-4287-9f79-5da5bcd9656c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@id='btnContinue_btn'])[8]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnWrapper_8442 > #btnContinue_btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='btnContinue_btn'])[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

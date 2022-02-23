@@ -36,25 +36,25 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (4) (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_ (6)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductCenter'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1 (3)'))
 
-WebUI.click(findTestObject('OB001/Page_/div_ (6)'))
+WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1 (5)'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyAccountShowAll'))
 
-WebUI.click(findTestObject('OB001/Page_/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_BackupOrderSetup'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1 (5) (1)'))
 
@@ -68,13 +68,13 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 now_title = WebUI.getWindowTitle()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a_ (1)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_Form1_Download'))
 
 WebUI.delay(3)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a__1'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_Form2_Download'))
 
 WebUI.delay(3)
 

@@ -88,7 +88,7 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku_notfound)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB001/Page_/a_ (10)'))
+WebUI.click(findTestObject('OB003/Page_/a_ Logout'))
 
 WebUI.closeBrowser()
 

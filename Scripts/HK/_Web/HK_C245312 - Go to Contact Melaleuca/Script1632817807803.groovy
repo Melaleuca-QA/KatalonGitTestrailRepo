@@ -35,19 +35,19 @@ WebUI.navigateToUrl(GlobalVariable.url_contack_hk)
 
 WebUI.waitForPageLoad(2)
 
-now_text0 = WebUI.getAttribute(findTestObject('OB001/Page_Melaleuca The Wellness Company/select_hk'), 'value')
+now_text0 = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_hk'), 'value')
 
 println(now_text0)
 
 WebUI.verifyMatch(now_text0, 'zh-HK', false)
 
-now_text1 = WebUI.getText(findTestObject('OB001/Page_Melaleuca The Wellness Company/select_hk')).trim()
+now_text1 = WebUI.getText(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_hk')).trim()
 
 println(now_text1)
 
 WebUI.verifyMatch(now_text1, '香港', false)
 
-now_text2 = WebUI.getText(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_hk'))
+now_text2 = WebUI.getText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_hk'))
 
 println(now_text2)
 
@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div__1_2_3_4_5_6_7'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a__QandA'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/span__1'))
 
@@ -91,9 +91,9 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div__1_2_3_4_5_6_7_8_9_10_11_12_13'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a__QandA'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/span__1_2'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
 
@@ -123,7 +123,7 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a__QandA'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a__1_2'))
 

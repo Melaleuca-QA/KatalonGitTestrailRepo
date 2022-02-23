@@ -52,7 +52,7 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
+WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -63,9 +63,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (2)'))
+WebUI.click(findTestObject('OB003/Page_/a__BusinessCenter_OLE'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link startEnrollmentLink'))
 

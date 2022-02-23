@@ -25,13 +25,13 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('OB001/Page_/a_ (7)'))
+WebUI.click(findTestObject('OB003/Page_/a_CannotLogin'))
 
-WebUI.setText(findTestObject('OB001/Page_/input__AccountSearchParam'), 'jilllin2@melaleuca.com')
+WebUI.setText(findTestObject('OB003/Page_/input__AccountSearchParam'), 'jilllin2@melaleuca.com')
 
-WebUI.click(findTestObject('OB001/Page_/button_ (7)'))
+WebUI.click(findTestObject('OB003/Page_/button_CannotLogin_Continue'))
 
-WebUI.click(findTestObject('OB001/Page_/span_ (3)'))
+WebUI.click(findTestObject('OB003/Page_/span_ CannotLogin_Resend'))
 
 WebUI.delay(2)
 

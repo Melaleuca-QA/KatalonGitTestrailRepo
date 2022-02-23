@@ -41,7 +41,7 @@ println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_GeneralError)
 
-WebUI.click(findTestObject('OB001/Page_/a_ (9)'))
+WebUI.click(findTestObject('OB003/Page_/a_ GeneralError_StartShopping'))
 
 WebUI.waitForPageLoad(2)
 
@@ -53,7 +53,7 @@ WebUI.verifyEqual(ps_url, GlobalVariable.url_ProductStore)
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.waitForPageLoad(2)
 

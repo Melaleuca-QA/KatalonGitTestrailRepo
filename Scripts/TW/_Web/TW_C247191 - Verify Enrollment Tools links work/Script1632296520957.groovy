@@ -40,9 +40,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (2)'))
+WebUI.click(findTestObject('OB003/Page_/a__BusinessCenter_OLE'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link presentationLink'))
 

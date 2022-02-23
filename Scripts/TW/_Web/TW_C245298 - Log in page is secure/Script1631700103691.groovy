@@ -17,74 +17,60 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('OB001/Page_/button_ (6)'))
+WebUI.callTestCase(findTestCase('_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (4) (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_ (6)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductCenter'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutritionShowAll'))
 
-WebUI.click(findTestObject('OB001/Page_/div_ (6)'))
+WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1 (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB001/Page_/div__1 (4)'))
+WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyAccountShowAll'))
 
-WebUI.click(findTestObject('OB001/Page_/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_BackupOrderSetup'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (2)'))
+WebUI.click(findTestObject('OB003/Page_/a__BusinessCenter_OLE'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link enrollmentFormsLink'))
 
 now_title = WebUI.getWindowTitle()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a_ (1)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_Form1_Download'))
 
 WebUI.delay(3)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a__1'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_Form2_Download'))
 
 WebUI.delay(3)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.click(findTestObject('OB001/Page_/a_ (6)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Log in page is secure (https in the url)'
 GlobalVariable.test_case = '245298'

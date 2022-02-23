@@ -206,7 +206,7 @@ WebUI.setText(findTestObject('Object Repository/OB005/Page_/input_Email_UserName
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB005/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9)'))
+WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
 WebUI.click(findTestObject('Object Repository/OB005/Page_Melaleuca The Wellness Company/div_ (4)'))
 
