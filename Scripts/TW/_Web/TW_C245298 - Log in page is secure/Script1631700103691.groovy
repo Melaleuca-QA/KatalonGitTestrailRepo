@@ -28,9 +28,9 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductCenter'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutrition'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutritionShowAll'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutrition_ShowAll'))
 
 WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
