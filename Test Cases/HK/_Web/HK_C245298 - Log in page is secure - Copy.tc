@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>_Login</name>
+   <name>HK_C245298 - Log in page is secure - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b44d15af-7de2-475f-b338-f899d35a2b8c</testCaseGuid>
+   <testCaseGuid>b9ffa9b0-e336-4d78-825c-fefe11fe33ff</testCaseGuid>
 </TestCaseEntity>

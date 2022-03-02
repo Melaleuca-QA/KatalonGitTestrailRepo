@@ -17,26 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-close'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca'))
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
-
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyAccountShowAll'))
-
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Firefox'
-GlobalVariable.test_case = '245301'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 

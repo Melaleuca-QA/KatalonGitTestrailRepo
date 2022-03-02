@@ -17,6 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Log in page is secure (https in the url)'
+caseId = '245298'
+
+caseId2 = ''
+
+browserType = ''
+
+//culture = ''
+//checkUrl = (GlobalVariable.url_uatwweb + 'search?searchTerm')
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
@@ -80,32 +89,14 @@ WebUI.delay(3)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.click(findTestObject('OB001/Page_/a_ (6)'))
+//url = WebUI.getUrl()
+//assert url == checkUrl
+//if (url.contains('tw')) {culture = 'TW'
+//} else {culture = 'HK'
+//}
+browserType = CustomKeywords.'common.Utilities.driverBrowserType'()
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Log in page is secure (https in the url)'
-GlobalVariable.test_case = '245298'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Chrome 30 and higher'
-GlobalVariable.test_case = '245302'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Log in to Website'
-GlobalVariable.test_case = '245307'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Log out of Website'
-GlobalVariable.test_case = '245308'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify ability to print paperwork correctly'
-GlobalVariable.test_case = '247216'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'common.Utilities.testRailRecorder'(caseId, caseId2, browserType, culture, passFail)
 

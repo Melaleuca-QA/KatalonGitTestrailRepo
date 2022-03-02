@@ -17,40 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB002/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB002/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('OB002/Page_/button_ (3)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button_(2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB002/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Melaleuca The Wellness Company/button_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button__1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__ShoppingCart_Checkout'))
 
-WebUI.click(findTestObject('OB002/Page_/button__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.focus(findTestObject('OB002/Page_Melaleuca The Wellness Company/a_ (2)'))
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ NoMorePurchase'))
 
-WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ NoMorePurchase'))
 
-WebUI.click(findTestObject('OB002/Page_/button__1_2'))
+WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
 WebUI.click(findTestObject('OB002/Page_/button__1_2_3'))
 
@@ -86,9 +74,7 @@ WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6_7_8'))
 
 Windows.delay(5)
 
-WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a__1'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify the order checkout is secure (https in the url)'
 GlobalVariable.test_case = '245322'

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ (26)</name>
+   <name>button__1_2 (10) (1)</name>
    <tag></tag>
-   <elementGuidId>9ce083e1-fcfc-4bd2-9d50-316152852d0e</elementGuidId>
+   <elementGuidId>9103f906-88e3-42fb-9d8d-d1ca548a2cae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnChangePayment']</value>
+         <value>//button[@id='btnAddNewPaymethod']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnChangePayment</value>
+         <value>#btnAddNewPaymethod</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,21 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pure-button pure-button-blue pure-button-24</value>
+      <value>pure-button pure-button-blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnChangePayment</value>
+      <value>btnAddNewPaymethod</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>window.location = '/ProductStore/Checkout/SelectPaymethod';</value>
+      <value>window.location = '/ProductStore/Checkout/EditPaymethod/B6589FC6AB0DC82CF12099D1C2D40AB994E8410C?callback=Checkout';</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,69 +56,62 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>更改付款選項</value>
+      <value>新增信用卡資料</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnChangePayment&quot;)</value>
+      <value>id(&quot;btnAddNewPaymethod&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnChangePayment']</value>
+      <value>//button[@id='btnAddNewPaymethod']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='HongKongPaymethodContentDiv']/div[2]/div[2]/button</value>
+      <value>//div[@id='simplePageContent']/div/div/div[2]/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[12]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇付款方式'])[3]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='安全碼為信用卡背面的編號'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用帳戶上餘額'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='銀行帳號'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='運送及處理費用'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='更改付款選項']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='新增信用卡資料']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/button</value>
+      <value>//div/div/div/div/div/div[2]/div/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

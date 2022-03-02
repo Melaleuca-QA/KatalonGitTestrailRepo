@@ -42,11 +42,11 @@ WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_Melaleuca The Wel
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '1210.2')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (3)'))
 

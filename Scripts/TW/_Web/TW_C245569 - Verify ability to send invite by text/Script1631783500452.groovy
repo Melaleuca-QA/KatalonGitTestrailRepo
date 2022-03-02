@@ -44,7 +44,7 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll'))
 
-WebUI.click(findTestObject('OB003/Page_/a__BusinessCenter_OLE'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
 

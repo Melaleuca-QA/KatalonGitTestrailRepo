@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -83,7 +83,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__Pr
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__HomePage_Checkout'))
 
-WebUI.click(findTestObject('OB003/Page_/button__ProceedtoCheckout'))
+WebUI.click(findTestObject('OB003/Page_/button_BottomProceedtoCheckout'))
 
 //WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
 //WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img_1_2 (2)'))
@@ -94,7 +94,7 @@ WebUI.navigateToUrl(GlobalVariable.url_Checkout)
 
 WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
 
-WebUI.click(findTestObject('OB003/Page_/button__Payment'))
+WebUI.click(findTestObject('OB003/Page_/button_Payment'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

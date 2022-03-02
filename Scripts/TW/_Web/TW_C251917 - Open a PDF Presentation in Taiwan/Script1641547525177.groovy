@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (3)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__image-placeholder'))
 
-WebUI.switchToWindowTitle('TW_Overview_1021')
+WebUI.switchToWindowTitle('TW_Overview_0322')
 
 WebUI.waitForPageLoad(100)
 

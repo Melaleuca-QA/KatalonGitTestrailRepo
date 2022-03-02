@@ -93,7 +93,7 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a__QandA'))
 
-WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation_hk'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/div__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
 

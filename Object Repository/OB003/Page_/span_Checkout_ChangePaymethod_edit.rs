@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span__1 (2)</name>
+   <name>span_Checkout_ChangePaymethod_edit</name>
    <tag></tag>
    <elementGuidId>88bfec5a-24eb-46a6-9d22-db463610f6ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='btnDelete']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnDelete</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div/div/div/div[2]/div/div[3]/div/div[3]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
