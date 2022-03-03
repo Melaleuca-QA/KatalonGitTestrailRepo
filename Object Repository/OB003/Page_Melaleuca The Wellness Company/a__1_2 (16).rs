@@ -4,26 +4,24 @@
    <name>a__1_2 (16)</name>
    <tag></tag>
    <elementGuidId>3ffaf8a1-13ed-4c63-9092-625e147a9293</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.prod-ofr-right-container__skip-link</value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005854,2005855,2005856,2005857,2005858,2005859,2005843,2005844,2005845,2005846,2005847,2005848,2005849,2005850,2005823,2005824,2005825,2005826,2005827,2005828');return false;&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.prod-ofr-right-container__skip-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005854,2005855,2005856,2005857,2005858,2005859,2005843,2005844,2005845,2005846,2005847,2005848,2005849,2005850,2005823,2005824,2005825,2005826,2005827,2005828');return false;&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

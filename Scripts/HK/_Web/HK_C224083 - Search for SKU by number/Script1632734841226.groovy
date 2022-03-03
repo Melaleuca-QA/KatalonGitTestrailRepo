@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB001/Page_/button_ (12)'))
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), '117')
 
@@ -88,9 +76,7 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku_notfound)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB003/Page_/a_ Logout'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for SKU by number'
 GlobalVariable.test_case = '224083'

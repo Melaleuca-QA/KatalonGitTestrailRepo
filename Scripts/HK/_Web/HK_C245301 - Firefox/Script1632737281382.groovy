@@ -17,35 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB001/Page_/button_ (1)'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ (4) (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-close'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
-WebUI.click(findTestObject('OB001/Page_/a_ (1)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Firefox'
 GlobalVariable.test_case = '245301'

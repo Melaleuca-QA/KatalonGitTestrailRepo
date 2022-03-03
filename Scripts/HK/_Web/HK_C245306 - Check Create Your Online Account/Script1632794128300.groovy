@@ -33,6 +33,8 @@ WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_EmailContinue'))
 
 now_url = WebUI.getUrl()
 
+println(now_url)
+
 WebUI.verifyEqual(now_url, GlobalVariable.url_EmailSuccess)
 
 WebUI.verifyElementVisible(findTestObject('OB003/Page_/div_jilllin100melaleuca.com'), FailureHandling.STOP_ON_FAILURE)
@@ -44,6 +46,8 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__MobilePhoneNu
 WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_PhoneContinue'))
 
 now_url = WebUI.getUrl()
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_MobileSuccess)
 

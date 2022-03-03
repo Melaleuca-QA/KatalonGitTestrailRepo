@@ -27,11 +27,11 @@ WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca'))
+WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca_tw'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyAccountShowAll'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

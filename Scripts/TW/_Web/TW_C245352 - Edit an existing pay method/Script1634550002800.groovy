@@ -44,13 +44,13 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
 WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ PromotionDontConsider'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod'))
 

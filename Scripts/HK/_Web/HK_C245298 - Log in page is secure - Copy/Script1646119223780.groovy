@@ -49,7 +49,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutrition'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1 (3)'))
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1 (5)
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyAccountShowAll'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.click(findTestObject('OB003/Page_/span_MyAccount_BackupOrderSetup'))
 
@@ -71,7 +71,7 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (44)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (34)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link enrollmentFormsLink'))
 

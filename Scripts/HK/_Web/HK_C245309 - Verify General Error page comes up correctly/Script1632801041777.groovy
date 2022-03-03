@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB001/Page_/button_ (11) (1) (1) (1)'))
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.url_GeneralError)
 
@@ -53,6 +41,11 @@ WebUI.verifyEqual(ps_url, GlobalVariable.url_ProductStore)
 
 WebUI.waitForPageLoad(2)
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.waitForPageLoad(2)
@@ -63,9 +56,7 @@ println(bc_url)
 
 WebUI.verifyEqual(bc_url, GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('OB001/Page_/a__1_2 (1)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify General Error page comes up correctly'
 GlobalVariable.test_case = '245309'

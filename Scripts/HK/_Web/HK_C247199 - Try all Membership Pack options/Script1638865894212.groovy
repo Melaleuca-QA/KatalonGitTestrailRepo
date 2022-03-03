@@ -39,13 +39,13 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ TrackingList'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_TrackingList'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductPurchaseTemporaryList'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductPurchaseTemporaryList'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__Purchased'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_Purchased'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__MyTrackingList'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyTrackingList'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-chevron-down lists__chevron'))
 
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__lists__focus-input'), 'My Pack')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__ModifyorAddTrackingList_save'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ModifyorAddTrackingList_save'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (42)'))
 
@@ -94,9 +94,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_CV/button_My Pack'))
 
 WebUI.click(findTestObject('OB003/Page_/button_MyPack_Continue'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductValueLiving'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductValueLiving'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductValueLiving_BodyClean'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductValueLiving_BodyClean'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__product-card__img_1_2'))
 
@@ -150,9 +150,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__fa fa-circle-thin lists__default-ci_fb57e6'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__ModifyorAddTrackingList_save'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ModifyorAddTrackingList_save'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__ProductNutrition'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 

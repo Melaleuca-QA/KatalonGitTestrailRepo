@@ -34,12 +34,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Pass
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (14)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (32)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (28)'))
+WebUI.click(findTestObject('OB003/Page_/button_MyAccount_Setup_AddCreditCard'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_PaymethodToEdit.CardHolderName'), 
     '港島一號')
@@ -53,9 +53,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11'), 
     '2040', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (8)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_EditCreditCard'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
     '12', true)
@@ -63,9 +63,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11'), 
     '2039', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (8)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span__1_2'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_DeleteCreditCard'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (12)'))
 
@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (8)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (6)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2 (3)'))
+WebUI.click(findTestObject('OB003/Page_/a_ProductNutrition_VitaminSeries'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (21)'))
 

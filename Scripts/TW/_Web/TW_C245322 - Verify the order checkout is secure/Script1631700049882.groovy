@@ -30,13 +30,13 @@ WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button__ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ NoMorePurchase'))
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ NoMorePurchase'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
 
 WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 

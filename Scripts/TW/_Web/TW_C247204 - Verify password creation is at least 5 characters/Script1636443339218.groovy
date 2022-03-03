@@ -63,9 +63,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_tw'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link startEnrollmentLink'))
 
@@ -227,7 +227,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca
 WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11 (2)'), 
     '2039', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (8)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
 
