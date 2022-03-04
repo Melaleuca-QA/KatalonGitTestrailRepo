@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/OB004/Page_/button_ (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1 (1)'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress5')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress5')
 
 WebUI.setText(findTestObject('Object Repository/OB004/Page_/input__AddressToEdit.AddressLine2'), 'testaddress6')
 

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_PromotionDontConsider2</name>
+   <name>a_PromotionDontConsider_div21</name>
    <tag></tag>
-   <elementGuidId>9a35806c-98ac-41c9-b6db-79ead28024a4</elementGuidId>
+   <elementGuidId>67fa3d59-3b91-4c3d-aba1-840de32638f7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div[1]/div/div[2]/div/div/div[20]/div[3]/a</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.prod-ofr-right-container__skip-link</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div[1]/div/div[2]/div/div/div[21]/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

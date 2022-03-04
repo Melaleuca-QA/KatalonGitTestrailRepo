@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -40,19 +28,19 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_()_fa
 
 WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.3')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div22'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (1)'))
+WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Payment'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Place a quick shop order'
 GlobalVariable.test_case = '245357'

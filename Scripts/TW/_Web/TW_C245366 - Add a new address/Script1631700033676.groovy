@@ -17,52 +17,40 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (3)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_'))
+WebUI.click(findTestObject('OB003/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.ShipToName'), 'hsipaddress')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.ShipToName_tw'), 'hsipaddress')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_'), '基隆市', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1'), '仁愛區', true)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress1')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress2')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress3')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress4')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
 
@@ -70,9 +58,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Add a new address'
 GlobalVariable.test_case = '245366'

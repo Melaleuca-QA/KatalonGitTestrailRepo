@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HK_C245363 - Edit an existing pay method - Copy</name>
+   <name>TW_C245322 - Verify the order checkout is secure - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ada573ed-12f7-4fc6-9a26-d3586db8282c</testCaseGuid>
+   <testCaseGuid>af5abd86-9d31-446a-a8be-896a56126255</testCaseGuid>
 </TestCaseEntity>

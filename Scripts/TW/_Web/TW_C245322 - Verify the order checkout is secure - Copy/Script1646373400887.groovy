@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Recording mode'
-if (false) {
-    GlobalVariable.tw_input_creditcard = '4080198467858103'
-} else {
-    'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
-}
-
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
@@ -34,69 +26,73 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '1210.2')
-
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
 WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.navigateToUrl(GlobalVariable.url_Cart)
-
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div22'))
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_add'))
+WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_- Melaleuca/input_()_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_- Melaleuca/input__PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
+WebUI.setText(findTestObject('OB002/Page_/input__AddressToEdit.ShipToName'), 'shiptest')
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_tw'), '台北市', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_tw'), '大同區', true)
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.setText(findTestObject('null'), 'testaddress1')
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('null'), 'testaddress2')
 
-WebUI.back()
+WebUI.setText(findTestObject('null'), 'do not ship')
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('OB003/Page_/span_Checkout_ChangePaymethod_edit'))
+WebUI.click(findTestObject('null'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '12', true)
+WebUI.setText(findTestObject('null'), 'testaddress3')
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2039', true)
+WebUI.setText(findTestObject('null'), 'testaddress4')
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('OB003/Page_/span_Checkout_ChangePaymethod_delete'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_delete_check'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_return'))
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6_7'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
+WebUI.click(findTestObject('OB002/Page_/button__1_2_3_4_5_6_7_8'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Payment'))
+Windows.delay(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Edit an existing pay method'
-GlobalVariable.test_case = '245352'
+'Verify the order checkout is secure (https in the url)'
+GlobalVariable.test_case = '245322'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Delete a pay method'
-GlobalVariable.test_case = '245355'
+'Add a new address'
+GlobalVariable.test_case = '245323'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Edit an existing address'
+GlobalVariable.test_case = '245324'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Delete an existing address'
+GlobalVariable.test_case = '245325'
 
 WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

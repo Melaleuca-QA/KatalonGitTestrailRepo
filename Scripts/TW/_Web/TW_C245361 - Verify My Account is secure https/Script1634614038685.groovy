@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2) (4)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -37,9 +25,9 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 }
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Home')
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (13)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (31)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 now_url = WebUI.getUrl()
 
@@ -51,9 +39,7 @@ println(trim_url)
 
 WebUI.verifyMatch(trim_url, 'https://', false)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (14)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify My Account is secure https://'
 GlobalVariable.test_case = '245361'

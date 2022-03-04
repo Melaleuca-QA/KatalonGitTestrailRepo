@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__AddressToEdit.ShipToName_1</name>
+   <name>input__AddressToEdit.ShipToName_tw</name>
    <tag></tag>
-   <elementGuidId>1c014d1c-e624-4447-935b-561b49981fd5</elementGuidId>
+   <elementGuidId>4bc14f5f-a540-4179-bcec-14a882e4ac2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='addressShipToName']</value>
+         <key>CSS</key>
+         <value>#addressAttnLine</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#addressShipToName</value>
+         <key>XPATH</key>
+         <value>//input[@id='addressAttnLine']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,11 +24,25 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>txtbox</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>text</value>
+      <value>addressAttnLine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>80</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,57 +54,43 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>addressShipToName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>姓名</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>type</name>
       <type>Main</type>
-      <value>80</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>txtbox</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addressShipToName&quot;)</value>
+      <value>id(&quot;addressAttnLine&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='addressShipToName']</value>
+      <value>//input[@id='addressAttnLine']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div/div[3]/div/input</value>
+      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
+      <value>//div[4]/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

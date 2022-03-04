@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2_3_4 (4)</name>
+   <name>select_Checkout_ChangeAddress_add_suburb_hk</name>
    <tag></tag>
-   <elementGuidId>7f8b2fd7-db1b-43c0-af1b-b947d3450f2e</elementGuidId>
+   <elementGuidId>9133bc9d-6c59-438c-9d6e-76a1e3813fc9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='saveAddressBtn']</value>
+         <key>CSS</key>
+         <value>#suburbDropDownSelectionList</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#saveAddressBtn</value>
+         <key>XPATH</key>
+         <value>//select[@id='suburbDropDownSelectionList']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>saveAndCancel pure-button pure-button-green pure-button-35</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>saveAddressBtn</value>
+      <value>suburbDropDownSelectionList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>AddressToEdit.SuburbName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>儲存</value>
+      <value>請選擇上環中環北角半山堅尼地城壽臣山大坑大潭天后太古寶馬山小西灣山頂杏花邨柴灣深水灣淺水灣渣甸山灣仔炮台山石塘咀石澳筲箕灣舂坎角薄扶林西灣河西營盤西環赤柱跑馬地金鐘銅鑼灣香港仔鰂魚涌鴨脷洲黃竹坑</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;saveAddressBtn&quot;)</value>
+      <value>id(&quot;suburbDropDownSelectionList&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='saveAddressBtn']</value>
+      <value>//select[@id='suburbDropDownSelectionList']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[5]/div/button</value>
+      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div/span/div[2]/div[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話號碼'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='分區'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='地區'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='屋苑/屋村/樓宇名稱/街號及街道名稱'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='單位,樓層,座數(例子:03室,11樓,2座)'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/button</value>
+      <value>//div[2]/div[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

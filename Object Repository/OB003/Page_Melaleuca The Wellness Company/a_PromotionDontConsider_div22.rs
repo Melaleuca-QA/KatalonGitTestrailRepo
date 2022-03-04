@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_PromotionDontConsider2_hk</name>
+   <name>a_PromotionDontConsider_div22</name>
    <tag></tag>
-   <elementGuidId>ddaf68d6-2c54-4a0d-b708-05e18364a255</elementGuidId>
+   <elementGuidId>f823da5a-d31c-4369-9903-4678f7d556b8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.prod-ofr-right-container__skip-link</value>
@@ -39,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005970,2005971,2005972,2005973,2005974,2005975,2005976,2005977,2005978,2005979,2005980,2005982,2005984,2005985,2005986,2005987,2005988,2005989,2005990');return false;</value>
+      <value>try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2006221,2006409,2006488,2006489,2006388,2006389,2006390,2006391,2006392,2006393,2006394,2006395,2006396,2006397,2006398,2006399,2006400,2006401,2006403,2006404,2006405,2006406,2006407,2006408');return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2005852,2005970,2005971,2005972,2005973,2005974,2005975,2005976,2005977,2005978,2005979,2005980,2005982,2005984,2005985,2005986,2005987,2005988,2005989,2005990');return false;&quot;]</value>
+      <value>//a[@onclick=&quot;try{cmCreateElementTag('Promo No Thanks','Checkout Process')}catch(e){};RemovePromotionIDs('2006221,2006409,2006488,2006489,2006388,2006389,2006390,2006391,2006392,2006393,2006394,2006395,2006396,2006397,2006398,2006399,2006400,2006401,2006403,2006404,2006405,2006406,2006407,2006408');return false;&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='HK$30.0'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HK$233.0'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[21]/div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = '暫不考慮，謝謝。' or . = '暫不考慮，謝謝。')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_123456789101112131415161718192021222_566da4 (1) (2)</name>
+   <name>select_Checkout_ChangeAddress_add_suburb_tw</name>
    <tag></tag>
-   <elementGuidId>5cf733a2-6fa2-46c5-a729-33f79a1daacd</elementGuidId>
+   <elementGuidId>2e73b07a-59ca-47ce-b674-9dc4c9c27a4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='DayOfBirthEdit']</value>
+         <key>CSS</key>
+         <value>#addressSuburb</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#DayOfBirthEdit</value>
+         <key>XPATH</key>
+         <value>//select[@id='addressSuburb']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,140 +24,87 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>customerInfo</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-number</name>
-      <type>Main</type>
-      <value>The field DayOfBirth must be a number.</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>DayOfBirthEdit</value>
+      <value>addressSuburb</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>DayOfBirth</value>
+      <value>addressSuburb</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onchange</name>
+      <name>class</name>
       <type>Main</type>
-      <value>customerInfo.UpdateBirthdateField($(this), $('#DayOfBirthDisplay'));</value>
+      <value>selectItem txtbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>日
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-</value>
+      <value>選擇中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DayOfBirthEdit&quot;)</value>
+      <value>id(&quot;addressSuburb&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='DayOfBirthEdit']</value>
+      <value>//select[@id='addressSuburb']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='showBirthdateContainer']/div/div[2]/div/select</value>
+      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div/div[2]/div[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='出生日期*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='區/鄉/鎮'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='國籍*'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='市/縣'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='電郵地址*'])[1]/preceding::select[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='郵遞區號'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話*'])[1]/preceding::select[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='地址'])[2]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div/div/div[2]/div/select</value>
+      <value>//div[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

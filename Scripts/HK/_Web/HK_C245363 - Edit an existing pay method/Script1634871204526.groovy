@@ -64,7 +64,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_DeleteCreditCard'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_delete_DoubleCheck'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 

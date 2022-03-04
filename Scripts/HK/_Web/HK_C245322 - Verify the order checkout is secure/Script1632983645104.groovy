@@ -26,7 +26,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry (2)'), '2000.2')
+WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_()_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
@@ -34,51 +34,49 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div16'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
+WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (8)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (4)'))
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.ShipToName_hk'), 'shiptest')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.ShipToName_1'), 'shiptest')
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2 (1)'), '852', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2_3 (1)'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2_3_4'), '中環', true)
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress1')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1'), 'testaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress2')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_,,(03,11,2)_AddressToEdit.AddressLine2'), 'testaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.DeliveryInstruction_1'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.FormattedPhoneNumber'), '85251654321')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.FormattedPhoneNumber'), '85251654321')
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (4)'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button_ (5)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1'), 'testaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress3')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_,,(03,11,2)_AddressToEdit.AddressLine2'), 'testaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress4')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (4)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1_2_3 (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_return'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'), '123')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (12)'))
+WebUI.click(findTestObject('OB003/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (28)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify the order checkout is secure (https in the url)'
 GlobalVariable.test_case = '245322'

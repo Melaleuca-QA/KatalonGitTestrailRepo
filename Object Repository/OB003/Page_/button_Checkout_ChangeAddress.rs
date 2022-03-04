@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2 (8)</name>
+   <name>button_Checkout_ChangeAddress</name>
    <tag></tag>
    <elementGuidId>d3bd85a1-b090-4c4d-967f-6179d15b46e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.pure-button.pure-button-green</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
