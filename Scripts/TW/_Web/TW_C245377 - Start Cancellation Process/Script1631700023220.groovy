@@ -17,38 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1'))
+WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a_ContactMelaleuca'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1_2_3'))
+WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_TransfeeHistory'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_- Melaleuca/a_'))
+WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ MyAccountShowAll_OtherOption_MoreDetail'))
 
 WebUI.waitForPageLoad(100)
 
@@ -58,7 +46,7 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1'))
+WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_MoreDetail_SendSteps'))
 
 WebUI.waitForPageLoad(100)
 
@@ -70,9 +58,7 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent, false)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
 GlobalVariable.test_case = '245377'

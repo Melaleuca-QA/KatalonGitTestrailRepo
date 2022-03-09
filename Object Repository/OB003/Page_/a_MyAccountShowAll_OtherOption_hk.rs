@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>a_MyAccountShowAll_OtherOption_hk</name>
    <tag></tag>
-   <elementGuidId>3abc2063-83e7-499b-b024-05dddcd21fb0</elementGuidId>
+   <elementGuidId>05e8afb9-3022-4883-9f02-c263ae6e7160</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navigationContainer']/div/div/ul/li[10]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='navigationContainer']/div/div/ul/li[9]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

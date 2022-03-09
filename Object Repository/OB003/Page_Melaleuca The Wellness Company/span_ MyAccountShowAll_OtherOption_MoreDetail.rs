@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ (3)</name>
+   <name>span_ MyAccountShowAll_OtherOption_MoreDetail</name>
    <tag></tag>
    <elementGuidId>fe4f9329-db64-4714-a9a0-8bcacf486ab0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//a[@id='ctl01_btn']/span[2])[3]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = '發送提醒' or . = '發送提醒')]</value>
       </entry>
       <entry>
          <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='ctl01_btn']/span[2])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
