@@ -17,36 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username2)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password2)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (22) (1)'))
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (9)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (17)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (21)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_hk_ReportandTool'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2 (18)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_hk_ReportandTool_ReportandTool'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span__1 (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_tw_ReportandTool_ReportandTool_view'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable'))
 
 WebUI.switchToWindowTitle('MORE')
 
@@ -54,83 +42,83 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a_ (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Dashboard'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Alerts'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Snapshot'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Enrollments'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Cancellations'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Reactivations'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_LeadershipPoints'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Advancements'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Mentoring'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_CoreOrganization'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_KPI'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_StatusGoals'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_PersonalEnrollees'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12_13 (1)'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_SupportTeam'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_NewDirectors'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_NewAdvancements'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_OrgDirectors'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a_2'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_Enrolled2'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a_Back up Order Report'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_BackupOrderReport'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_MORE/a__1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17'))
+WebUI.click(findTestObject('OB003/Page_MORE/a_ShowOrgViewer'))
 
 WebUI.waitForPageLoad(100)
 
@@ -155,9 +143,7 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Sign up for M.O.R.E. with customer who doesn\'t have it'
 GlobalVariable.test_case = '245426'
