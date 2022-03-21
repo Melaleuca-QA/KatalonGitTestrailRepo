@@ -97,7 +97,7 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (4)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_PCselect'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), 'P9ET2sDE0SE=')
 
@@ -106,12 +106,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Conf
 'input citizen number'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.hk_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_200120001999199819971996199519941993_9425cf'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
     '1988', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (2)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_123456789101112131415161718192021222_566da4 (1)'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
     '1', true)
 
 'input phone number'
@@ -196,11 +196,11 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_PaymethodVi
 println(GlobalVariable.hk_input_creditcard)
 
 'input credit card number'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__PaymethodViewModel.CreditCardViewMod_b0d8b7'), GlobalVariable.hk_input_creditcard)
+WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumber'), GlobalVariable.hk_input_creditcard)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_010203040506070809101112 (1)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_202120222023202420252026202720282029_fb3c11 (1)'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), 
     '2040', true)
 
 WebUI.click(findTestObject('OB003/Page_/label_ (6)'))

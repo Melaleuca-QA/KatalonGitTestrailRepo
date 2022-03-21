@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_()_PaymethodViewModel.CreditCardViewM_9e70de</name>
+   <name>input_Paymethod_CreditCard_AccountHolderName</name>
    <tag></tag>
    <elementGuidId>9bd95b26-3888-4080-8412-487c22be4b8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PaymethodViewModel_CreditCardViewModel_AccountHolderName']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#PaymethodViewModel_CreditCardViewModel_AccountHolderName</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='PaymethodViewModel_CreditCardViewModel_AccountHolderName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

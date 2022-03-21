@@ -75,13 +75,13 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolle
 'input new enrollment email'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtEmailAddress'), GlobalVariable.tw_input_email)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_ (3)'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_EditPresenter'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label__1_2'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_chkCommunicationConfirm'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (2)'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_SendEmail'))
 
 WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
@@ -98,7 +98,7 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (4)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_PCselect'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), 'P9ET2sDE0SE=')
 
@@ -107,12 +107,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Conf
 'input citizen number'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_200120001999199819971996199519941993_9425cf'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
     '1988', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (2)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_123456789101112131415161718192021222_566da4 (1)'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
     '1', true)
 
 'input phone number'
@@ -176,20 +176,20 @@ println(result2)
 if (result2 == '本人已滿20歲') {
 }
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (4)'), '台北市', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '台北市', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1 (4)'), '松山區', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_Suburb'), '松山區', true)
 
 WebUI.setText(findTestObject('OB003/Page_/input__AddressLine1'), '八德路四段760號3樓')
 
-WebUI.setText(findTestObject('OB003/Page_/input_()_PaymethodViewModel.CreditCardViewM_9e70de'), GlobalVariable.tw_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountHolderName'), GlobalVariable.tw_input_newname)
 
 'input credit card number'
-WebUI.setText(findTestObject('OB003/Page_/input__PaymethodViewModel.CreditCardViewMod_b0d8b7'), GlobalVariable.tw_input_creditcard)
+WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumber'), GlobalVariable.tw_input_creditcard)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_010203040506070809101112 (1)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_202120222023202420252026202720282029_fb3c11 (1)'), '2040', 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', 
     true)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))

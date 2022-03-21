@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_202120222023202420252026202720282029_fb3c11 (1)</name>
+   <name>select_BusinessCenter_OLE_Suburb</name>
    <tag></tag>
-   <elementGuidId>4892760c-c5a9-4576-8aa3-6cde70783bf6</elementGuidId>
+   <elementGuidId>d67b1e36-9373-4a63-80fc-832ec7462e8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#PaymethodViewModel_CreditCardViewModel_ExpirationYear</value>
+         <value>#SuburbCtrl</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='PaymethodViewModel_CreditCardViewModel_ExpirationYear']</value>
+         <value>//select[@id='SuburbCtrl']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,129 +24,87 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>expirationYear</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-number</name>
-      <type>Main</type>
-      <value>The field ExpirationYear must be a number.</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-required</name>
-      <type>Main</type>
-      <value>The ExpirationYear field is required.</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PaymethodViewModel_CreditCardViewModel_ExpirationYear</value>
+      <value>SuburbCtrl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PaymethodViewModel.CreditCardViewModel.ExpirationYear</value>
+      <value>SuburbCtrl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onchange</name>
+      <name>class</name>
       <type>Main</type>
-      <value>customerInfo.ResetDropDownTextColorByJquerySelector($(this));</value>
+      <value>gray-default-option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>年
-2021
-2022
-2023
-2024
-2025
-2026
-2027
-2028
-2029
-2030
-2031
-2032
-2033
-2034
-2035
-2036
-2037
-2038
-2039
-2040
-</value>
+      <value>選擇中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PaymethodViewModel_CreditCardViewModel_ExpirationYear&quot;)</value>
+      <value>id(&quot;SuburbCtrl&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='PaymethodViewModel_CreditCardViewModel_ExpirationYear']</value>
+      <value>//select[@id='SuburbCtrl']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='savePrimaryCreditCard']/div/div[3]/div[2]/div[2]/select</value>
+      <value>//form[@id='addressForm']/div/div/div[2]/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效日期'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='區鄉鎮村*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效日期*'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='縣市*'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='無效信用卡'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='省市*'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='郵遞區號*'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/select</value>
+      <value>//div[2]/div[2]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

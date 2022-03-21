@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label__1</name>
+   <name>div_BusinessCenter_OLE_OKsent</name>
    <tag></tag>
-   <elementGuidId>61c62b49-f605-4ee1-a62d-690e3f061525</elementGuidId>
+   <elementGuidId>aab1af67-242a-4b77-9e86-cd8bbcb5babf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>label.ng-binding</value>
+         <value>div.closeButton</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dvStartNewEnrollment']/div/div[5]/div/div[2]/div[3]/label</value>
+         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>chkVerifyPresenter</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
-      <type>Main</type>
-      <value>{'invalid': missingPresenterConfirm}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-bind-html</name>
-      <type>Main</type>
-      <value>localizations.verifyPresenter</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-binding</value>
+      <value>closeButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>closePopup()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tracking</name>
+      <type>Main</type>
+      <value>OK-Sent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>我確認是由此位協助推薦人幫助我介紹美樂家相關資訊給新會員</value>
+      <value>明白</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;presenterInfo&quot;]/div[@class=&quot;dataWrapper&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;presenterCheckContainer confirmation&quot;]/label[@class=&quot;ng-binding&quot;]</value>
+      <value>id(&quot;dvInviteConfirmation&quot;)/div[@class=&quot;displayPrompt&quot;]/div[7]/div[@class=&quot;closeButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvStartNewEnrollment']/div/div[5]/div/div[2]/div[3]/label</value>
+      <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='「推薦儀表板」'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='輔導事業代表'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hk4'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EH 2.2 HK Test'])[2]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='嘩，你達到了每日限額！'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='我確認是由此位協助推薦人幫助我介紹美樂家相關資訊給新會員']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='明白']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label</value>
+      <value>//div[4]/div/div[7]/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1 (4)</name>
+   <name>label_BusinessCenter_OLE_chkCommunicationConfirm</name>
    <tag></tag>
-   <elementGuidId>6499242b-e489-44ba-9f7a-adce384be492</elementGuidId>
+   <elementGuidId>db0310ff-1162-41c1-b883-70d7b176462b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.ole-action.ole-action--button.ole-action--button--green</value>
+         <value>div.checkboxContainer > label.ng-binding</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@onclick=&quot;$('#submitPreferredForm').submit(); cmCreateElementTag('PreferredMemberSelect', analyticsElementCategory);&quot;]</value>
+         <value>//div[@id='dvStartNewEnrollment']/div/div[6]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>for</name>
       <type>Main</type>
-      <value>$('#submitPreferredForm').submit(); cmCreateElementTag('PreferredMemberSelect', analyticsElementCategory);</value>
+      <value>chkCommunicationConfirm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'invalid': missingInviteConfirm}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ole-action ole-action--button ole-action--button--green</value>
+      <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>選擇</value>
+      <value>以上我所輸入的電子信箱/手機號碼的個人，同意美樂家使用該電子信箱/手機號碼傳送入會邀請給該個人。</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-HK&quot;]/div[@class=&quot;customer-type&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--customer&quot;]/section[@class=&quot;ole-section ole-section--customer&quot;]/div[@class=&quot;ole-list-wrapper&quot;]/button[@class=&quot;ole-action ole-action--button ole-action--button--green&quot;]</value>
+      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer invitationSendLinks&quot;]/div[@class=&quot;checkboxContainer&quot;]/label[@class=&quot;ng-binding&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@onclick=&quot;$('#submitPreferredForm').submit(); cmCreateElementTag('PreferredMemberSelect', analyticsElementCategory);&quot;]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content-wrapper']/div[2]/div[3]/div[2]/div/section[3]/div/button</value>
+      <value>//div[@id='dvStartNewEnrollment']/div/div[6]/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='優惠顧客才可以專屬享有！'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='新顧客將會被安排到您組織內有空缺的位置，當推薦手續完成時，您會收到一封確認的E-mail,如果有需要，您可以修改他/她的位置'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='基礎顧客'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EH 2.2 HK Test'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='以零售價購買(無折扣)'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='寄送邀請給這個帳號'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='選擇']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電子信箱'])[2]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='以上我所輸入的電子信箱/手機號碼的個人，同意美樂家使用該電子信箱/手機號碼傳送入會邀請給該個人。']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//div[6]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

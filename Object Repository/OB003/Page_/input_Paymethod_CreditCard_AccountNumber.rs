@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__PaymethodViewModel.CreditCardViewMod_b0d8b7</name>
+   <name>input_Paymethod_CreditCard_AccountNumber</name>
    <tag></tag>
    <elementGuidId>7445e359-f149-4458-9695-63c321923c79</elementGuidId>
    <selectorCollection>

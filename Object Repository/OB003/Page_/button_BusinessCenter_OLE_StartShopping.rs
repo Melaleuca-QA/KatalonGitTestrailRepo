@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2</name>
+   <name>button_BusinessCenter_OLE_StartShopping</name>
    <tag></tag>
    <elementGuidId>05862173-d029-4bad-a46c-02fdd18f04fc</elementGuidId>
    <selectorCollection>

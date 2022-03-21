@@ -131,7 +131,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OB005/Page_/input__Conf
 'input citizen number'
 WebUI.setText(findTestObject('Object Repository/OB005/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB005/Page_/select_200120001999199819971996199519941993_9425cf'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
     '1988', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB005/Page_/select_ (2)'), '1', true)

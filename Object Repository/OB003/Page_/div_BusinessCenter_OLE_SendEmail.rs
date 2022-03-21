@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select__1 (4)</name>
+   <name>div_BusinessCenter_OLE_SendEmail</name>
    <tag></tag>
-   <elementGuidId>d67b1e36-9373-4a63-80fc-832ec7462e8d</elementGuidId>
+   <elementGuidId>e10ed1fc-0e09-40ed-a547-d163ccf2dab6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#SuburbCtrl</value>
+         <value>#btnSendEmail</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='SuburbCtrl']</value>
+         <value>//div[@id='btnSendEmail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>SuburbCtrl</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>SuburbCtrl</value>
+      <value>btnSendEmail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>gray-default-option</value>
+      <value>button pure-button-green ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'singleButton': !showMobileNumber}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>!missingInvitePhone &amp;&amp; sendInvitation('email')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tracking</name>
+      <type>Main</type>
+      <value>send-email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>選擇中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區</value>
+      <value>電子信箱</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;SuburbCtrl&quot;)</value>
+      <value>id(&quot;btnSendEmail&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='SuburbCtrl']</value>
+      <value>//div[@id='btnSendEmail']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='addressForm']/div/div/div[2]/div[2]/div/select</value>
+      <value>//div[@id='dvStartNewEnrollment']/div/div[6]/div[3]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='區鄉鎮村*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='寄送邀請給這個帳號'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='縣市*'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='以上我所輸入的電子信箱/手機號碼的個人，同意美樂家使用該電子信箱/手機號碼傳送入會邀請給該個人。'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='省市*'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發送簡訊'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='郵遞區號*'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/select</value>
+      <value>//div[6]/div[3]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

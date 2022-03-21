@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__1_2_3 (2)</name>
+   <name>select_DayOfBirthEdit</name>
    <tag></tag>
-   <elementGuidId>aab1af67-242a-4b77-9e86-cd8bbcb5babf</elementGuidId>
+   <elementGuidId>fcc55972-74a6-49dd-873e-18c272f834a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.closeButton</value>
+         <value>#DayOfBirthEdit</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
+         <value>//select[@id='DayOfBirthEdit']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'DayOfBirthEdit' and @name = 'DayOfBirth' and (text() = '日
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+' or . = '日
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +89,143 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>closeButton</value>
+      <value>customerInfo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
+      <name>data-val</name>
       <type>Main</type>
-      <value>closePopup()</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-tracking</name>
+      <name>data-val-number</name>
       <type>Main</type>
-      <value>OK-Sent</value>
+      <value>The field DayOfBirth must be a number.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>DayOfBirthEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>DayOfBirth</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>customerInfo.UpdateBirthdateField($(this), $('#DayOfBirthDisplay'));</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>明白</value>
+      <value>日
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvInviteConfirmation&quot;)/div[@class=&quot;displayPrompt&quot;]/div[7]/div[@class=&quot;closeButton&quot;]</value>
+      <value>id(&quot;DayOfBirthEdit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='DayOfBirthEdit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
+      <value>//div[@id='showBirthdateContainer']/div/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='「推薦儀表板」'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='出生日期*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hk4'])[2]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='國籍*'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='嘩，你達到了每日限額！'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電郵地址*'])[1]/preceding::select[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='明白']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話*'])[1]/preceding::select[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div[7]/div</value>
+      <value>//div[9]/div/div/div[2]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>
