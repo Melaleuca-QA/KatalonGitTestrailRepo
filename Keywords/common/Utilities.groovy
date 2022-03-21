@@ -41,7 +41,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import java.util.List
 import java.util.ArrayList
 import java.util.HashMap
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+//import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 class Utilities {
 	/**
