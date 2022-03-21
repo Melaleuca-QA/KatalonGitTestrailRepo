@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2_3_4 (4) (1)</name>
+   <name>button_Myaccount_ShowAll_SetupAddress_Edit</name>
    <tag></tag>
-   <elementGuidId>77aac03c-5dd4-4899-b7fc-e07878b6d3f3</elementGuidId>
+   <elementGuidId>ccbb1673-c977-4193-aba6-7a77885abca0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='saveAddressBtn']</value>
+         <value>(//button[@id='btnEdit'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#saveAddressBtn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +27,83 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>saveAndCancel pure-button pure-button-green pure-button-35</value>
+      <value>pure-button pure-button-blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>saveAddressBtn</value>
+      <value>btnEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>window.location = '/MyAccount/EditAddress/85B95695509AC05A1EE5A6E72778EA0987861D9A';</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>儲存</value>
+      <value>編輯</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;saveAddressBtn&quot;)</value>
+      <value>id(&quot;adrList_ReplacementContainer&quot;)/table[@class=&quot;addressListHeader&quot;]/tbody[1]/tr[3]/td[@class=&quot;addressButtonColumn&quot;]/div[1]/button[@id=&quot;btnEdit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='saveAddressBtn']</value>
+      <value>(//button[@id='btnEdit'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[5]/div/button</value>
+      <value>//div[@id='adrList_ReplacementContainer']/table/tbody/tr[3]/td[3]/div/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話號碼'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='刪除'])[3]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='台灣'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/preceding::button[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EH 2.2'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/button</value>
+      <value>//tr[3]/td[3]/div/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>
