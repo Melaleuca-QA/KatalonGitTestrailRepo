@@ -54,11 +54,11 @@ WebUI.setText(findTestObject('OB003/Page_/input__txtNewEnrolleeFirstName'), Glob
 'input new enrollment mphone'
 WebUI.setText(findTestObject('OB003/Page_/input__txtMobilePhone'), GlobalVariable.hk_input_mphone)
 
-WebUI.click(findTestObject('OB003/Page_/label_ (3)'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.click(findTestObject('OB003/Page_/label__1'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_EditPresenter'))
 
-WebUI.click(findTestObject('OB003/Page_/label__1_2'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_chkCommunicationConfirm'))
 
 WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
 

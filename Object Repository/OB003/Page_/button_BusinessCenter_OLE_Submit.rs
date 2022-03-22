@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1</name>
+   <name>button_BusinessCenter_OLE_Submit</name>
    <tag></tag>
    <elementGuidId>59441082-2e7b-47aa-80fa-f3e707732a40</elementGuidId>
    <selectorCollection>

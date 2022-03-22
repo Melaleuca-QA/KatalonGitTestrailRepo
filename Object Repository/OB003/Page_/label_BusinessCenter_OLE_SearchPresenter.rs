@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_ (3)</name>
+   <name>label_BusinessCenter_OLE_SearchPresenter</name>
    <tag></tag>
    <elementGuidId>c25be494-063a-4e1c-b0dd-434ca07376f0</elementGuidId>
    <selectorCollection>
