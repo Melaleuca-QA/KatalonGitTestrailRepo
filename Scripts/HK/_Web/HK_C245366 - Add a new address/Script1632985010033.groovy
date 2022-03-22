@@ -24,13 +24,13 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (3)'))
+WebUI.click(findTestObject('OB003/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (2) (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.ShipToName_1 (1)'), 'hsipaddress')
 
@@ -48,17 +48,17 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.FormattedPhoneNumber (1)'), '85251654321')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (4) (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (5)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1 (1)'), 'hsipaddress3')
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_,,(03,11,2)_AddressToEdit.AddressLine2 (1)'), 'hsipaddress4')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (4) (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4 (5)'))
+WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_Delete'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (3)'))
 
