@@ -32,35 +32,35 @@ WebUI.click(findTestObject('OB003/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.ShipToName_1 (1)'), 'hsipaddress')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_hk'), 'hsipaddress')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2 (1) (1)'), '852', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2_3 (1) (1)'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2_3_4 (1)'), '中環', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1 (1)'), 'hsipaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress1')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_,,(03,11,2)_AddressToEdit.AddressLine2 (1)'), 'hsipaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress2')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.DeliveryInstruction_1 (1)'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.FormattedPhoneNumber (1)'), '85251654321')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__AddressToEdit.AddressLine1_1 (1)'), 'hsipaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress3')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_,,(03,11,2)_AddressToEdit.AddressLine2 (1)'), 'hsipaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress4')
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_Delete'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_/a_ChangeShippingOptions'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__AddressToEdit.ShipToName_hk</name>
+   <name>input_AddressToEdit.ShipToName_hk</name>
    <tag></tag>
    <elementGuidId>1c014d1c-e624-4447-935b-561b49981fd5</elementGuidId>
    <selectorCollection>
