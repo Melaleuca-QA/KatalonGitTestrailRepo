@@ -40,7 +40,7 @@ WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.ShipToName_hk'), 'shiptest')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_hk'), 'shiptest')
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
 
@@ -48,13 +48,13 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddr
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress1')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress2')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.FormattedPhoneNumber'), '85251654321')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
@@ -62,9 +62,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 

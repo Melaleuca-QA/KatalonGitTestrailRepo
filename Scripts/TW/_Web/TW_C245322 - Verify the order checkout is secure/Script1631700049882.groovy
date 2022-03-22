@@ -40,19 +40,19 @@ WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.ShipToName_tw'), 'shiptest')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_tw'), 'shiptest')
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_tw'), '台北市', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_tw'), '大同區', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress1')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress2')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.FormattedPhoneNumber'), '0911111111')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.FormattedPhoneNumber'), '0911111111')
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
@@ -60,9 +60,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'testaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'testaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 

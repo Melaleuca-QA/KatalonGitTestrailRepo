@@ -32,25 +32,25 @@ WebUI.click(findTestObject('OB003/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.ShipToName_tw'), 'hsipaddress')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_tw'), 'hsipaddress')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_'), '基隆市', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1'), '仁愛區', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress1')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress2')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress2')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine1'), 'hsipaddress3')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress3')
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressToEdit.AddressLine2'), 'hsipaddress4')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress4')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
 

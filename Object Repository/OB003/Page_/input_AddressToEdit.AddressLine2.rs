@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__AddressToEdit.DeliveryInstruction</name>
+   <name>input_AddressToEdit.AddressLine2</name>
    <tag></tag>
-   <elementGuidId>3ad95c7a-c5aa-4ca4-b33b-597ae988b36f</elementGuidId>
+   <elementGuidId>0480b2b3-eca3-46bd-8cf2-6971ac8bf0fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#addressShipInstructions</value>
+         <value>#addressLine2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='addressShipInstructions']</value>
+         <value>//input[@id='addressLine2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,28 +35,28 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>addressShipInstructions</value>
+      <value>addressLine2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>60</value>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>AddressToEdit.DeliveryInstruction</value>
+      <value>AddressToEdit.AddressLine2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>寄貨說明</value>
+      <value>地址</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,27 +70,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addressShipInstructions&quot;)</value>
+      <value>id(&quot;addressLine2&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='addressShipInstructions']</value>
+      <value>//input[@id='addressLine2']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div[2]/div[3]/input</value>
+      <value>//div[@id='simplePageContent']/form/div/div[4]/div/div/div[5]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div[5]/input</value>
    </webElementXpaths>
 </WebElementEntity>
