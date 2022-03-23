@@ -19,9 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< master
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
-=======
+
 'Running mode'
 WebUI.openBrowser('')
 
@@ -36,7 +35,6 @@ WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable
 WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB003/Page_/button_ Login'))
->>>>>>> 748dd62 Sort out Object
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -47,15 +45,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_Busine
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
-<<<<<<< master
-<<<<<<< HEAD
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
-=======
-WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
->>>>>>> ea922ad2fbf9dd3522a9268e204e9f2004952951
-=======
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
->>>>>>> bb541ef testing
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
 
