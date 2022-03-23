@@ -39,20 +39,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-'Running mode'
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
@@ -115,8 +102,7 @@ println(GlobalVariable.hk_input_citizen)
 'input citizen number'
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.hk_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
@@ -153,8 +139,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumb
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), 
-    '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
 WebUI.clickOffset(findTestObject('OB003/Page_/label_ (1)'), 50, 0)
 
@@ -222,9 +207,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1 (7)')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2 (5)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start an enrollment, verify enrollment form comes up'
 GlobalVariable.test_case = '245566'
