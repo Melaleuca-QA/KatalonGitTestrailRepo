@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_txtInvitationLink</name>
+   <name>input__txtEmailAddress</name>
    <tag></tag>
-   <elementGuidId>e7a7498d-faa4-47f8-99df-a21205cdac91</elementGuidId>
+   <elementGuidId>6f389620-850f-45fd-a377-913d40fd8dac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtInvitationLink']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#txtInvitationLink</value>
+         <value>#txtEmailAddress</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'txtInvitationLink']</value>
+         <key>XPATH</key>
+         <value>//input[@id='txtEmailAddress']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,41 +35,55 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txtInvitationLink</value>
+      <value>txtEmailAddress</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>ng-class</name>
       <type>Main</type>
-      <value>uatwenrollment.melaleuca.com/?id=D5fpGS</value>
+      <value>{'invalid': missingInviteEmail}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>enrollee.EmailAddress</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtInvitationLink&quot;)</value>
+      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo&quot;]/input[@id=&quot;txtEmailAddress&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtInvitationLink']</value>
+      <value>//input[@id='txtEmailAddress']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvInviteConfirmation']/div/div[4]/input</value>
+      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

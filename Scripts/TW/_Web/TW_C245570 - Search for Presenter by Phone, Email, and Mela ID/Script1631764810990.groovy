@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
 WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/div_link startEnrollmentLink'))
+WebUI.click(findTestObject('OB003/Page_/div__link startEnrollmentLink'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), '0943654646')
 

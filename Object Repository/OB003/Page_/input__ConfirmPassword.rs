@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_txtNewEnrolleeFirstName</name>
+   <name>input__ConfirmPassword</name>
    <tag></tag>
-   <elementGuidId>03dfb50e-3db6-44e1-b46e-c96ddb1eb930</elementGuidId>
+   <elementGuidId>f6a0a771-7a2e-4f98-8160-a1dcd3f1d9e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtNewEnrolleeFirstName']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#txtNewEnrolleeFirstName</value>
+         <value>#ConfirmPassword</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'txtNewEnrolleeFirstName' and @type = 'text']</value>
+         <key>XPATH</key>
+         <value>//input[@id='ConfirmPassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,62 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txtNewEnrolleeFirstName</value>
+      <value>ConfirmPassword</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ConfirmPassword</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>if ($(this).val() == '') { $(this).parent().find('.showPassword').css('display', 'none'); $(this).parent().find('.hidePassword').css('display', 'none'); } else if ($(this).attr('type') == 'text') { $(this).parent().find('.hidePassword').css('display', 'block'); } else { $(this).parent().find('.showPassword').css('display', 'block'); }</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
-      <type>Main</type>
-      <value>{'invalid': missingInviteFirstName}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>enrollee.FirstName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-pristine ng-valid</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtNewEnrolleeFirstName&quot;)</value>
+      <value>id(&quot;ConfirmPassword&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtNewEnrolleeFirstName']</value>
+      <value>//input[@id='ConfirmPassword']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div/input</value>
+      <value>//form[@id='customerInformationForm']/div/div[3]/div[3]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/input</value>
+      <value>//div[3]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -50,7 +50,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/OB003/Page_/input__Password'), GlobalVariable.tw_input_password1)
 
 WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
@@ -62,13 +62,13 @@ WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/div_link startEnrollmentLink'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link startEnrollmentLink'))
 
 'input new enrollment name'
-WebUI.setText(findTestObject('OB003/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
 
 'input new enrollment email'
-WebUI.setText(findTestObject('OB003/Page_/input_txtEmailAddress'), GlobalVariable.tw_input_email)
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtEmailAddress'), GlobalVariable.tw_input_email)
 
 WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_SearchPresenter'))
 
@@ -78,9 +78,9 @@ WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_chkCommunicatio
 
 WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_SendEmail'))
 
-WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
+WebUI.mouseOver(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
 
-GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtInvitationLink'), 
+GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
     'value')
 
 println(GlobalVariable.tw_input_oleurl)
@@ -121,12 +121,12 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_newpswd)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.tw_input_newpswd)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), GlobalVariable.tw_input_newpswd)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__ConfirmPassword'), GlobalVariable.tw_input_newpswd)
 
 'input citizen number'
-WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.tw_input_citizen)
+WebUI.setText(findTestObject('OB003/Page_/input__GovernmentId'), GlobalVariable.tw_input_citizen)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
     '1988', true)
@@ -136,15 +136,15 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'),
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 'input phone number'
-WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input__PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '台北市', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbCtrl'), '松山區', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_Suburb'), '松山區', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressLine1'), '八德路四段760號3樓')
+WebUI.setText(findTestObject('OB003/Page_/input__AddressLine1'), '八德路四段760號3樓')
 
 WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountHolderName'), GlobalVariable.tw_input_newname)
 
@@ -156,7 +156,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCar
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', 
     true)
 
-WebUI.clickOffset(findTestObject('OB003/Page_/label_chkAgree'), 50, 0)
+WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_'), 50, 0)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Continue'))
 

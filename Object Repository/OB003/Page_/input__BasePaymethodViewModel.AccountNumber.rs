@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_AddressLine2</name>
+   <name>input__BasePaymethodViewModel.AccountNumber</name>
    <tag></tag>
-   <elementGuidId>a1223093-e0f0-4714-96b9-c818289ff3a0</elementGuidId>
+   <elementGuidId>5842c64d-686b-4112-b170-43fd937d72af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='AddressLine2']</value>
+         <value>//input[@id='clabe']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#AddressLine2</value>
+         <value>#clabe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,21 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>addressField</value>
+      <value>directDebitAccountNumber</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>AddressLine2</value>
+      <value>clabe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>AddressLine2</value>
+      <value>BasePaymethodViewModel.AccountNumber</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,27 +56,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;AddressLine2&quot;)</value>
+      <value>id(&quot;clabe&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='AddressLine2']</value>
+      <value>//input[@id='clabe']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='addressForm']/div/div[6]/div[2]/input</value>
+      <value>//form[@id='saveDirectDeposit']/div/div[4]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div[2]/input</value>
+      <value>//div[4]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
