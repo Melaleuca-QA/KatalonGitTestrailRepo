@@ -19,7 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+'Running mode'
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
+
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
+
+WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
