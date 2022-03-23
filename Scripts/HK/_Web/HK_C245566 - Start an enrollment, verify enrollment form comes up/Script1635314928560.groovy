@@ -205,6 +205,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1 (7)')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2 (5)'))
 
+'Logout'
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start an enrollment, verify enrollment form comes up'
