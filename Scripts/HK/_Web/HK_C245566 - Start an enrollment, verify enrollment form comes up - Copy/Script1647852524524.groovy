@@ -50,7 +50,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_password1)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
@@ -63,16 +63,16 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (6)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('OB003/Page_/div__link startEnrollmentLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link startEnrollmentLink'))
 
 //WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
 'input new enrollment name'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
 
 'input new enrollment email'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtEmailAddress'), GlobalVariable.hk_input_email)
+WebUI.setText(findTestObject('OB003/Page_/input_txtEmailAddress'), GlobalVariable.hk_input_email)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/label_ (2)'))
 
@@ -83,9 +83,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1 (2)'))
 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1_2 (2)'))
-WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'))
+WebUI.mouseOver(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
 
-GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__txtInvitationLink'), 
+GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtInvitationLink'), 
     'value')
 
 println(GlobalVariable.hk_input_oleurl)
@@ -106,14 +106,14 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__Password'), GlobalVariable.hk_input_newpswd)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input__ConfirmPassword'), GlobalVariable.hk_input_newpswd)
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), GlobalVariable.hk_input_newpswd)
 
 println(GlobalVariable.hk_input_citizen)
 
 'input citizen number'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__GovernmentId'), GlobalVariable.hk_input_citizen)
+WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.hk_input_citizen)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
     '1', true)
@@ -126,7 +126,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_2
 println(GlobalVariable.hk_input_mphone)
 
 'input phone number'
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_mphone)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
@@ -134,15 +134,15 @@ WebUI.focus(findTestObject('OB003/Page_/select__1 (2)'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1 (2)'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ (5)'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ BusinessCenter_OLE_Region'), '香港', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select__1 (5)'), '中環', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbName'), '中環', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input__AddressLine1'), 'testaddress1')
+WebUI.setText(findTestObject('OB003/Page_/input_AddressLine1'), 'testaddress1')
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_(03,11,2)_AddressLine2 (1)'), 'testaddress2')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/textarea__DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB003/Page_/textarea_DeliveryInstruction'), 'do not ship')
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_PaymethodViewModel.CreditCardViewM_9e70de (1)'), GlobalVariable.hk_input_newname)
 
@@ -172,13 +172,13 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (21)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
 
 WebUI.click(findTestObject('OB003/Page_/span_004 HK_SH Banking'))
 
 //WebUI.selectOptionByValue(findTestObject('OB003/Page_/span_004 The Hongkong and Shanghai Banking _f1933e'), '004 香港上海滙豐銀行有限公司The Hongkong and Shanghai Banking Corporation Ltd', 
 //    false)
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
+WebUI.setText(findTestObject('OB003/Page_/input_BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
 
 WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/label (1)'))
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__link startEnrollmentLink</name>
+   <name>div_link startEnrollmentLink</name>
    <tag></tag>
    <elementGuidId>57a082d8-21e2-4a48-b5af-3b2a677bcbe9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.link.startEnrollmentLink</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='dvNewEnrollment']/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.link.startEnrollmentLink</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

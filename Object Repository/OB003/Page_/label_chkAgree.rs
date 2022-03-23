@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_</name>
+   <name>label_chkAgree</name>
    <tag></tag>
    <elementGuidId>e6b2c475-368e-4ea6-814b-0c806190e8fc</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='c']/label</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#c > label</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@for = 'chkAgreeToTerms' and (text() = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*' or . = '我同意並確認我已閱讀 會員顧客協議書 中列出的所有條文聲明。*')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='c']/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

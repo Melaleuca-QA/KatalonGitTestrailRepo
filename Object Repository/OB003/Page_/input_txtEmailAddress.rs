@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea__DeliveryInstruction</name>
+   <name>input_txtEmailAddress</name>
    <tag></tag>
-   <elementGuidId>e45fb574-607c-4ec8-a1be-0fa78bc9b626</elementGuidId>
+   <elementGuidId>6f389620-850f-45fd-a377-913d40fd8dac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#DeliveryInstruction</value>
+         <key>XPATH</key>
+         <value>//input[@id='txtEmailAddress']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='DeliveryInstruction']</value>
+         <key>CSS</key>
+         <value>#txtEmailAddress</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>type</name>
       <type>Main</type>
-      <value>35</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>addressTextAreaField</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cols</name>
-      <type>Main</type>
-      <value>20</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>DeliveryInstruction</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>DeliveryInstruction</value>
+      <value>txtEmailAddress</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>ng-class</name>
       <type>Main</type>
-      <value>2</value>
+      <value>{'invalid': missingInviteEmail}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>enrollee.EmailAddress</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DeliveryInstruction&quot;)</value>
+      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo&quot;]/input[@id=&quot;txtEmailAddress&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='DeliveryInstruction']</value>
+      <value>//input[@id='txtEmailAddress']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='addressForm']/div/div[8]/div/textarea</value>
+      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
