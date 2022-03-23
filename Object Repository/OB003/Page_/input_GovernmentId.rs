@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__GovernmentId</name>
+   <name>input_GovernmentId</name>
    <tag></tag>
    <elementGuidId>a00413e4-d33f-427f-b662-f9bd65c0ca1b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#GovernmentId</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='GovernmentId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#GovernmentId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

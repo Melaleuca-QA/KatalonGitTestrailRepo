@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__AddressLine1</name>
+   <name>textarea_DeliveryInstruction</name>
    <tag></tag>
-   <elementGuidId>213ac0b1-65b4-430c-8e2c-1a11ce134aac</elementGuidId>
+   <elementGuidId>e45fb574-607c-4ec8-a1be-0fa78bc9b626</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#AddressLine1</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='DeliveryInstruction']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='AddressLine1']</value>
+         <key>CSS</key>
+         <value>#DeliveryInstruction</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>35</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>addressField</value>
+      <value>addressTextAreaField</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>AddressLine1</value>
+      <value>DeliveryInstruction</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>AddressLine1</value>
+      <value>DeliveryInstruction</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>text</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;AddressLine1&quot;)</value>
+      <value>id(&quot;DeliveryInstruction&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='AddressLine1']</value>
+      <value>//textarea[@id='DeliveryInstruction']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='addressForm']/div/div[4]/div[2]/input</value>
+      <value>//form[@id='addressForm']/div/div[8]/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/input</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

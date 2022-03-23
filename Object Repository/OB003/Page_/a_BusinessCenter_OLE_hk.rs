@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a__1 (6)</name>
+   <name>a_BusinessCenter_OLE_hk</name>
    <tag></tag>
    <elementGuidId>e630524a-014a-4423-af54-198c11abd3f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column.clear-border > div.menu-header.double-width > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'線上申請會籍')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column.clear-border > div.menu-header.double-width > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

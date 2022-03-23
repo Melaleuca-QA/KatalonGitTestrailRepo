@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__BasePaymethodViewModel.AccountHolderName</name>
+   <name>input_PrimaryPhoneNumber.PhoneNumber</name>
    <tag></tag>
-   <elementGuidId>e1b619ee-60de-44b5-8f8d-f3b7013a2064</elementGuidId>
+   <elementGuidId>1a8c66e8-58c7-4d76-8607-16dab01ee660</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='BasePaymethodViewModel_AccountHolderName']</value>
+         <value>//input[@id='phone_primaryPhoneNumber']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#BasePaymethodViewModel_AccountHolderName</value>
+         <value>#phone_primaryPhoneNumber</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,25 +24,25 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>directDebitAccountName</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>BasePaymethodViewModel_AccountHolderName</value>
+      <value>phone_primaryPhoneNumber</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>BasePaymethodViewModel.AccountHolderName</value>
+      <value>PrimaryPhoneNumber.PhoneNumber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>customerInfo.ValidatePhoneNumber('phone_primaryPhoneNumber', 'phoneType_primaryPhoneNumber');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,27 +56,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;BasePaymethodViewModel_AccountHolderName&quot;)</value>
+      <value>id(&quot;phone_primaryPhoneNumber&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='BasePaymethodViewModel_AccountHolderName']</value>
+      <value>//input[@id='phone_primaryPhoneNumber']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='saveDirectDeposit']/div/div[2]/div[2]/input</value>
+      <value>//form[@id='customerInformationForm']/div/div[11]/div/div[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//div[11]/div/div[2]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
