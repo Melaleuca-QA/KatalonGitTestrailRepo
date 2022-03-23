@@ -47,11 +47,15 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_Busine
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
+<<<<<<< master
 <<<<<<< HEAD
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 =======
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 >>>>>>> ea922ad2fbf9dd3522a9268e204e9f2004952951
+=======
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
+>>>>>>> bb541ef testing
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
 
