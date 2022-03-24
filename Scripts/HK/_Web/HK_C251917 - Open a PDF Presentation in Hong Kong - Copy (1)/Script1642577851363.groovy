@@ -37,7 +37,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__image-placeholder'))
 

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__1 (3)</name>
+   <name>div_BusinessCenter_MelaleucaPresentation</name>
    <tag></tag>
    <elementGuidId>cdf44e60-e38b-4a0e-a2c0-d499f8e5f899</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='dvNewEnrollment']/div[4]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
