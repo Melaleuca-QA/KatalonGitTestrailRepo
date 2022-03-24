@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ (4)</name>
+   <name>div_BusinessCenter_OLE_SendText</name>
    <tag></tag>
    <elementGuidId>b4652463-4465-4534-a2a2-e560640eae41</elementGuidId>
    <selectorCollection>

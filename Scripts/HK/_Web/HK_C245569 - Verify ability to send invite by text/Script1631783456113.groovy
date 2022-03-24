@@ -21,21 +21,6 @@ WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STO
 
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Running mode'
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
-
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
@@ -63,7 +48,7 @@ WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_EditPresenter')
 
 WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_chkCommunicationConfirm'))
 
-WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_SendText'))
 
 WebUI.delay(3)
 
@@ -71,19 +56,20 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (11)'))
 
 WebUI.refresh()
 
-WebUI.focus(findTestObject('OB003/Page_/span_ (2)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_/span_ (2)'), '發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'), '發送提醒')
 
-WebUI.click(findTestObject('OB003/Page_/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'))
 
 WebUI.delay(3)
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), '重新發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), 
+    '重新發送提醒')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
 
 WebUI.delay(3)
 
@@ -115,9 +101,7 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (6)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to send invite by text'
 GlobalVariable.test_case = '245569'

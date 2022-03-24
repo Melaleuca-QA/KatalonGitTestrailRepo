@@ -60,7 +60,7 @@ WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_EditPresenter')
 
 WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_chkCommunicationConfirm'))
 
-WebUI.click(findTestObject('OB003/Page_/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_SendText'))
 
 WebUI.delay(3)
 
@@ -68,19 +68,19 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (11)'))
 
 WebUI.refresh()
 
-WebUI.focus(findTestObject('OB003/Page_/span_ (2)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_/span_ (2)'), '發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'), '發送提醒')
 
-WebUI.click(findTestObject('OB003/Page_/span_ (2)'))
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_SendReminder'))
 
 WebUI.delay(3)
 
-WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'), '重新發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), '重新發送提醒')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__1 (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
 
 WebUI.delay(3)
 
