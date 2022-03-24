@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/form/div/div[5]/div/button[1]</value>
+         <value>//button[@id='saveAddressBtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

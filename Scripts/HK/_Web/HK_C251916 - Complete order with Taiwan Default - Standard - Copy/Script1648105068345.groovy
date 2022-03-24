@@ -17,14 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
+
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_password1)
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('Object Repository/OB003/Page_/button_(0)'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_txtSkuEntry'), '1210.2')
 
@@ -64,7 +76,9 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (12)'))
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (28)'))
+
+WebUI.closeBrowser()
 
 'Complete order with Taiwan Default - Standard'
 GlobalVariable.test_case = '251916'

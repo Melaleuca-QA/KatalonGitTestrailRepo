@@ -17,62 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (2)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_(0)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_txtSkuEntry'), '1210.2')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (13)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (13)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (11)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (7)'))
+WebUI.click(findTestObject('OB003/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Promotion/CheckoutPromo')
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_Melaleuca The Wellness Company/a_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button_ (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1 (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress5')
 
 WebUI.setText(findTestObject('Object Repository/OB004/Page_/input__AddressToEdit.AddressLine2'), 'testaddress6')
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2_3 (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv (1)'), '123')
+WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
 
-WebUI.click(findTestObject('Object Repository/OB004/Page_/button__1_2_3_4 (1)'))
+WebUI.click(findTestObject('OB003/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Complete order with Taiwan Default - Standard'
 GlobalVariable.test_case = '251916'

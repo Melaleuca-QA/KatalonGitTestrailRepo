@@ -6,12 +6,16 @@
    <elementGuidId>43b18f37-e91a-4ddb-a016-a6903c6681fd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnEdit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#btnEdit</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div/div[2]/table/tbody/tr[3]/td[3]/div/button[2]</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnEdit' and @type = 'button' and (text() = '編輯' or . = '編輯')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

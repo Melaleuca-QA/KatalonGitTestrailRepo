@@ -70,7 +70,7 @@ WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_return'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__paymethodCvv'), '123')
 

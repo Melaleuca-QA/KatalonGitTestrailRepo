@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout_ChangeAddress_return</name>
+   <name>button_Checkout_ChangeAddress_ReturnToCheckout</name>
    <tag></tag>
    <elementGuidId>191826d4-401b-4a22-a0de-ace7e722da81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btnReturnToCheckout</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='btnReturnToCheckout']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnReturnToCheckout</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
