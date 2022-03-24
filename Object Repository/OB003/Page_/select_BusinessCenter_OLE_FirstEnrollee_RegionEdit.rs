@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_ (12)</name>
+   <name>select_BusinessCenter_OLE_FirstEnrollee_RegionEdit</name>
    <tag></tag>
    <elementGuidId>09dd37af-5a40-465f-8c9b-c27e9dea36a7</elementGuidId>
    <selectorCollection>

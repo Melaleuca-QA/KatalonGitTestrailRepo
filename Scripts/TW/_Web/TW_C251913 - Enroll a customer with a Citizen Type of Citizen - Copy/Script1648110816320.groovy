@@ -39,14 +39,27 @@ if (false) {
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+'Running mode'
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+
+WebUI.refresh()
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+
+WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
+
+WebUI.click(findTestObject('OB003/Page_/button_ Login'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -125,7 +138,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ 
 'Emigrate'
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '4', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), '1988', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
+    '1988', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
@@ -149,7 +163,8 @@ WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumb
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', 
+    true)
 
 WebUI.clickOffset(findTestObject('OB003/Page_/label_chkAgree'), 50, 0)
 
@@ -181,7 +196,9 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 //WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1'))
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
+
+WebUI.closeBrowser()
 
 'Complete an enrollment in Taiwan'
 GlobalVariable.test_case = '251911'

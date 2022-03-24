@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ (19)</name>
+   <name>div_BusinessCenter_OLE_FirstEnrollee_Save</name>
    <tag></tag>
-   <elementGuidId>1f29361f-a2b5-4ae2-8946-fca665715cca</elementGuidId>
+   <elementGuidId>49cdec0c-629c-4a31-ba6e-69d758051ef7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dvViewContactInfo']/div/div[4]/div[2]/span[2]</value>
+         <value>//div[@id='btnUpdateContact']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#btnUpdateContact</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-if</name>
+      <name>id</name>
       <type>Main</type>
-      <value>contact.EnrollmentStatusId == 1</value>
+      <value>btnUpdateContact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>editIcon ng-scope ng-binding</value>
+      <value>button pure-button-green ng-scope ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>contact.FirstName.length > 0 &amp;&amp; (contact.EmailAddress.length > 0 || contact.PhoneNumber.length > 0)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>editContactInformation()</value>
+      <value>isValidPhone &amp;&amp; !isValidInvitePhone &amp;&amp; updateContactInformation(contact.CustomerContactId)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> 編輯</value>
+      <value>儲存</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvViewContactInfo&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerContactData&quot;]/div[@class=&quot;contactData&quot;]/span[@class=&quot;editIcon ng-scope ng-binding&quot;]</value>
+      <value>id(&quot;btnUpdateContact&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='btnUpdateContact']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvViewContactInfo']/div/div[4]/div[2]/span[2]</value>
+      <value>//div[@id='dvEditContactInfo']/div/div[4]/div[7]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='台灣'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[2]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(邀請連結)'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='地區'])[2]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發送!'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div[4]/div[2]/span[2]</value>
+      <value>//div[3]/div/div[4]/div[7]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
