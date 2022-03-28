@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox_hk</name>
+   <name>div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox</name>
    <tag></tag>
-   <elementGuidId>4461b3ea-5110-46b6-aa80-ec9a9723e093</elementGuidId>
+   <elementGuidId>f2938104-cf2b-4f48-aecc-9242390cb550</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
