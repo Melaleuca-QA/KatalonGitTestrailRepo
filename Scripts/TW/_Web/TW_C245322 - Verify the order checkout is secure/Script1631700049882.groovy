@@ -34,7 +34,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div16'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
 WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
 
@@ -63,8 +63,6 @@ WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
-
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 

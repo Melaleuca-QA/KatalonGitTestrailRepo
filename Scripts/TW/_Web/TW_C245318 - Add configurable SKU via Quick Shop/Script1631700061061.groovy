@@ -61,7 +61,7 @@ WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
 WebUI.waitForPageLoad(100)
 

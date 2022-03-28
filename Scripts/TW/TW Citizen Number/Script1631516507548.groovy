@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://id.ifreesite.com/')
 
+WebUI.refresh()
+
 WebUI.maximizeWindow()
 
 WebUI.refresh()

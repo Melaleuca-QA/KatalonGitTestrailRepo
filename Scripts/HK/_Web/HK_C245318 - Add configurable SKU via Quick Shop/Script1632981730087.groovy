@@ -54,7 +54,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Hom
 
 WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div21'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
 WebUI.waitForPageLoad(100)
 

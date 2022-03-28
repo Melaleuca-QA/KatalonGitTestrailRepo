@@ -10,15 +10,15 @@
          <value>//*[@id = 'pdp_addToCartBtn_4172' and (text() = '新增至購物車' or . = '新增至購物車')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='pdp_addToCartBtn_4597']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#pdp_addToCartBtn_4597</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='pdp_addToCartBtn_4597']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -34,6 +34,8 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_tw_ReportandTool_ReportandTool_view'))
 
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox_hk'))
+
 WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable'))
 
 WebUI.switchToWindowTitle('MORE')

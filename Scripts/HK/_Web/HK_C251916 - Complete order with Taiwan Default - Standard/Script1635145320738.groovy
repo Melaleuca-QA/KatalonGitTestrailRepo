@@ -40,7 +40,7 @@ WebUI.click(findTestObject('OB003/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Promotion/CheckoutPromo')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_PromotionDontConsider_div'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress'))
 

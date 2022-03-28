@@ -19,7 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'http://id.ifreesite.com/'
 WebUI.navigateToUrl('http://id.ifreesite.com/')
+
+WebUI.refresh()
 
 WebUI.maximizeWindow()
 

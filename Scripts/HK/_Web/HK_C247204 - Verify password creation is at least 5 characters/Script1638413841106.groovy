@@ -106,13 +106,11 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), 'P9E
 'input citizen number'
 WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.hk_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
-    '1988', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), '1988', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 'input phone number'
 WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_mphone)
@@ -200,8 +198,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumb
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), 
-    '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
 WebUI.click(findTestObject('OB003/Page_/label_ (6)'))
 
