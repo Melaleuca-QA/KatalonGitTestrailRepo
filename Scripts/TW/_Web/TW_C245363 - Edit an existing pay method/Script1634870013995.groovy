@@ -38,10 +38,10 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccoun
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
 WebUI.click(findTestObject('OB003/Page_/button_MyAccount_Setup_AddCreditCard'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input_()_PaymethodToEdit.CardHolderName'), 
+WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 
     'EH 2.2 HK Test')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/input__PaymethodToEdit.CardNumber'), 
+WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), 
     GlobalVariable.tw_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '1', true)

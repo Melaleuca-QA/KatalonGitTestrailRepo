@@ -39,27 +39,14 @@ if (false) {
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-'Running mode'
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -107,13 +94,11 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), 'P9E
 'input citizen number'
 WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.tw_input_citizen)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
-    '1988', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), '1988', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 'input phone number'
 WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
@@ -189,8 +174,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_Paymethod_CreditCard_AccountNumb
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationMonth'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', 
-    true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))
 
@@ -229,9 +213,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Comp
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify password creation is at least 5 characters'
 GlobalVariable.test_case = '247204'

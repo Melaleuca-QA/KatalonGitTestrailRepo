@@ -6,12 +6,16 @@
    <elementGuidId>0aea6588-9de7-49ed-8be2-193be619d9b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '好的' or . = '好的')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.closeButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvInviteConfirmation']/div/div[7]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

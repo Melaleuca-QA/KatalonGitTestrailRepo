@@ -29,11 +29,11 @@ if (false) {
 
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
-    'get ole variables'
-    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    'get ole variables'
+    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)

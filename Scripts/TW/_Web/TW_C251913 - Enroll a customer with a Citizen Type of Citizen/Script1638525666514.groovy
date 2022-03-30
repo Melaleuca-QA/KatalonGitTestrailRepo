@@ -95,9 +95,9 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_
 
 WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_FirstEnrollee_Save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4 (1)'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_EmailAddress'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (15)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
 WebUI.openBrowser('')
 

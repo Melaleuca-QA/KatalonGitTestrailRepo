@@ -29,11 +29,11 @@ if (false) {
 
     GlobalVariable.hk_input_creditcard = '4929630631717406'
 } else {
-    'get ole variables'
-    WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-
     'get citizen number'
     WebUI.callTestCase(findTestCase('HK/HK Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    'get ole variables'
+    WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
     WebUI.callTestCase(findTestCase('HK/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -25,9 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Credit Card Generator  Validator  Vali_92a702/button_Generate (2)'))
+WebUI.click(findTestObject('OB003/Page_Credit Card Generator Validator/button_Generate (2)'))
 
-WebUI.waitForElementPresent(findTestObject('OB003/Page_Credit Card Generator  Validator  Valid Visa Numbers - CardGuru/span_4929830184930162'), 
+WebUI.waitForElementPresent(findTestObject('OB003/Page_Credit Card Generator Validator/span_4929830184930162'), 
     5)
 
 WebUI.refresh()
@@ -36,7 +36,7 @@ WebUI.refresh()
 
 WebUI.refresh()
 
-result1 = WebUI.getText(findTestObject('OB003/Page_Credit Card Generator  Validator  Valid Visa Numbers - CardGuru/span_4929830184930162'))
+result1 = WebUI.getText(findTestObject('OB003/Page_Credit Card Generator Validator/span_4929830184930162'))
 
 println(result1)
 

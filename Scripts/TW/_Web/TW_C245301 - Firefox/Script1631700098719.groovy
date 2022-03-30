@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-close'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 

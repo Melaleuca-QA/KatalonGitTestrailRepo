@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_SpouseChkAgree</name>
+   <tag></tag>
+   <elementGuidId>4971021f-55d3-4c56-b4b5-69d27e4c7652</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content-wrapper&quot;]/div[2]/div[2]/div[7]/div/div[1]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.terms > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>chkAgreeToTerms</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>*我同意並承認我已閱讀 獨立事業代表協議, 政策聲明 與 獎金制度, 所有這些都包含在本協議中，可以不時修改。申請人已年滿18歲(只適用於申請人是個人)，且依照香港法律具有合法身分可以申請成為美樂家公司的獨立事業代表。申請人瞭解美樂家公司不保證申請人事業必定成功。申請人以此協議書申請為美樂家公司之獨立事業代表，但必須在:1.美樂家公司收到並核准本協議書2.申請人之事業組織中推薦至少一位親自推薦的有效會員顧客3.申請人收到第一次佣金後，才視為獨立事業代表</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-HK&quot;]/div[@class=&quot;imea zh-HK&quot;]/div[@class=&quot;bodyContent termsConditionsBody&quot;]/div[@class=&quot;argreeToTermsContainer&quot;]/div[@class=&quot;terms&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content-wrapper']/div[2]/div[2]/div[7]/div/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請在以下簽名：'])[1]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話號碼*'])[2]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='*我同意並承認我已閱讀']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/label</value>
+   </webElementXpaths>
+</WebElementEntity>

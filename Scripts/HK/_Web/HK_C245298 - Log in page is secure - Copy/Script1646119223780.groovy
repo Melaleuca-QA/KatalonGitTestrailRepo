@@ -34,9 +34,9 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB001/Page_/input_ Email  _UserName'), GlobalVariable.hk_input_username1)
+WebUI.setText(findTestObject('null'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input__Password'), GlobalVariable.hk_input_password1)
+WebUI.setEncryptedText(findTestObject('null'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB001/Page_/button_ (6)'))
 
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a__1 (3)')
 
 WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div__1 (5)'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
 

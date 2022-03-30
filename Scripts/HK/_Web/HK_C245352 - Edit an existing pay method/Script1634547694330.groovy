@@ -54,9 +54,9 @@ WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_add'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_- Melaleuca/input_()_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
+WebUI.setText(findTestObject('OB003/Page_Melaleuca/input_()_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_- Melaleuca/input__PaymethodToEdit.CardNumber'), GlobalVariable.hk_input_creditcard)
+WebUI.setText(findTestObject('OB003/Page_Melaleuca/input__PaymethodToEdit.CardNumber'), GlobalVariable.hk_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '1', true)
 

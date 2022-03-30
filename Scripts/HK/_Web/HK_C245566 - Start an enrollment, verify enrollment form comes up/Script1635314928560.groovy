@@ -151,7 +151,7 @@ WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Submit'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (21)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_Confirm'))
 
 WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
 
@@ -163,47 +163,47 @@ WebUI.click(findTestObject('OB003/Page_/span_004 HK_SH Banking'))
 //    false)
 WebUI.setText(findTestObject('OB003/Page_/input_BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
 
-WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/label (1)'))
+WebUI.doubleClick(findTestObject('OB003/Page_/label_BusinessCenter_OLE_IMEA_ParticipationLevel'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_,   , 18()1.2.3'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_IMEA_ChkAgree'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hk918212_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 
 'Add spouse information'
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_()'))
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_IMEA_AddSpouse'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/body_iframe srchttpswww.googletagmanager.co_71ec2f (1)'))
+WebUI.click(findTestObject('OB003/Page_/body_iframe srchttpswww.googletagmanager.co'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpouseFirstName'), GlobalVariable.hk_input_spouse_name)
+WebUI.setText(findTestObject('OB003/Page_/input_SpouseFirstName'), GlobalVariable.hk_input_spouse_name)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_SpouseEnglishName'), GlobalVariable.hk_input_spouse_name)
+WebUI.setText(findTestObject('OB003/Page_/input_SpouseEnglishName'), GlobalVariable.hk_input_spouse_name)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpouseEmailAddress'), GlobalVariable.hk_input_spouse_email)
+WebUI.setText(findTestObject('OB003/Page_/input_SpouseEmailAddress'), GlobalVariable.hk_input_spouse_email)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1_2 (2)'), 'HomePhone', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_SpousePhoneType'), 'HomePhone', true)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__SpousePrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_spouse_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input_SpousePrimaryPhoneNumber'), GlobalVariable.hk_input_spouse_mphone)
 
-WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/label_,   , 18()1.2.3 (1)'))
+WebUI.doubleClick(findTestObject('OB003/Page_/label_SpouseChkAgree'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hk918216_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB003/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_hksp918216_SpouseDigitalSignature'), GlobalVariable.hk_input_spouse_name)
+WebUI.setText(findTestObject('OB003/Page_/input_SpouseDigitalSignature'), GlobalVariable.hk_input_spouse_name)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (33)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a__1 (9)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_StartShopping'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1 (7)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductBody'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2 (5)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductSkinCare'))
 
 'Logout'
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)

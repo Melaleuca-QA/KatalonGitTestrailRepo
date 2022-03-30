@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), '117')
+WebUI.setText(findTestObject('null'), '117')
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+WebUI.click(findTestObject('null'))
 
 now_url = WebUI.getUrl()
 
@@ -34,11 +34,11 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku117)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), 'lemon')
+WebUI.setText(findTestObject('null'), 'lemon')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img__product-card__img'))
+WebUI.click(findTestObject('null'))
 
 now_url = WebUI.getUrl()
 
@@ -46,9 +46,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku2854)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), '觀適健')
+WebUI.setText(findTestObject('null'), '觀適健')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+WebUI.click(findTestObject('null'))
 
 now_url = WebUI.getUrl()
 
@@ -56,9 +56,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku2855)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), 'Safe &')
+WebUI.setText(findTestObject('null'), 'Safe &')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+WebUI.click(findTestObject('null'))
 
 now_url = WebUI.getUrl()
 
@@ -66,9 +66,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku5680)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input__js-search-input'), '___')
+WebUI.setText(findTestObject('null'), '___')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span__fa fa-search'))
+WebUI.click(findTestObject('null'))
 
 now_url = WebUI.getUrl()
 
