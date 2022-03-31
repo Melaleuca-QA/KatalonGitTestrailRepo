@@ -36,9 +36,9 @@ WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca_tw'))
+WebUI.click(findTestObject('OB003/Page_/div_AboutMelaleuca_tw'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
@@ -54,7 +54,7 @@ WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_link enrollmentFormsLink'))
 
 now_title = WebUI.getWindowTitle()
 

@@ -32,7 +32,7 @@ WebUI.navigateToUrl(GlobalVariable.url_account)
 
 WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_hk'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ MyAccountShowAll_OtherOption_MoreDetail'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
 now_url = WebUI.getUrl()
 

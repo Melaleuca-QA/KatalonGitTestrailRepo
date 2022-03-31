@@ -21,15 +21,15 @@ WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
 WebUI.click(findTestObject('OB003/Page_/div_LVIP_TW'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca_tw'))
+WebUI.click(findTestObject('OB003/Page_/div_AboutMelaleuca_tw'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 

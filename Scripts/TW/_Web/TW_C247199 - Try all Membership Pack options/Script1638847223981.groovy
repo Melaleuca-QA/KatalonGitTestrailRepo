@@ -73,7 +73,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), 'renew')
 
 WebUI.click(findTestObject('OB003/Page_/button_SearchSubmit'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/img'))
 
@@ -87,7 +87,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), '2000')
 
 WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_2000'))
 
 WebUI.click(findTestObject('OB003/Page_/span_fa fa-plus-circle'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductV
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductValueLiving_BodyClean'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_1_2'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_117'))
 
 WebUI.click(findTestObject('OB003/Page_/span_fa fa-plus-circle_1_2'))
 
@@ -111,7 +111,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), '油')
 
 WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_1_2_3'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_5542'))
 
 WebUI.click(findTestObject('OB003/Page_/span_fa fa-plus-circle'))
 

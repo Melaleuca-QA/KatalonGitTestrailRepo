@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB003/Page_/a_ CreateWebAccount'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__EmailAddress'), 'jilllin100@melaleuca.com')
+WebUI.setText(findTestObject('OB003/Page_/input_EmailAddress'), 'jilllin100@melaleuca.com')
 
 WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_EmailContinue'))
 
@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('OB003/Page_/div_jilllin100melaleuca.c
 
 WebUI.back()
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__MobilePhoneNumber'), '0988297237')
+WebUI.setText(findTestObject('OB003/Page_/input_MobilePhoneNumber'), '0988297237')
 
 WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_PhoneContinue'))
 

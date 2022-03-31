@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), '117')
+WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), '117')
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -34,11 +34,11 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku117)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('null'), 'lemon')
+WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), 'lemon')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_2854'))
 
 now_url = WebUI.getUrl()
 
@@ -46,9 +46,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku2854)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('null'), '觀適健')
+WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), '觀適健')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -56,9 +56,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku2855)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('null'), 'Safe &')
+WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), 'Safe &')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -66,9 +66,9 @@ WebUI.verifyEqual(now_url, GlobalVariable.url_sku5680)
 
 WebUI.back()
 
-WebUI.setText(findTestObject('null'), '___')
+WebUI.setText(findTestObject('OB003/Page_/input_js-search-input'), '___')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 

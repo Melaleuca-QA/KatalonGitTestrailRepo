@@ -17,32 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link presentationLink'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
 now_url = WebUI.getUrl()
 
@@ -54,7 +42,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link followUpLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link followUpLink'))
 
 now_url = WebUI.getUrl()
 
@@ -66,7 +54,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB003/Page_/div__link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link enrollmentFormsLink'))
 
 now_url = WebUI.getUrl()
 
@@ -78,7 +66,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link whichProductsLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link whichProductsLink'))
 
 now_url = WebUI.getUrl()
 
@@ -90,9 +78,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify Enrollment Tools links work and proceed to expected pages '
 GlobalVariable.test_case = '247191'

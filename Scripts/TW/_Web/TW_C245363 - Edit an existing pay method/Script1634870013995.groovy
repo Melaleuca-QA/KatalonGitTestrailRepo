@@ -36,7 +36,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAcc
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
-WebUI.click(findTestObject('OB003/Page_/button_MyAccount_Setup_AddCreditCard'))
+WebUI.click(findTestObject('OB003/Page_/button_MyAccount_SetupPaymethod_AddCreditCard'))
 
 WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 
     'EH 2.2 HK Test')
@@ -48,21 +48,21 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2040', true)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_EditCreditCard'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_SetupPaymethod_EditCreditCard'))
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '12', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2039', true)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_DeleteCreditCard'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_SetupPaymethod_DeleteCreditCard'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_delete_check'))
 

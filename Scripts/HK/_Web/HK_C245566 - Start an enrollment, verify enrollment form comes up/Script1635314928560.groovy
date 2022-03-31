@@ -110,7 +110,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), 
 println(GlobalVariable.hk_input_mphone)
 
 'input phone number'
-WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.hk_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber'), GlobalVariable.hk_input_mphone)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 

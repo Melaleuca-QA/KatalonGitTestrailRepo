@@ -34,7 +34,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductN
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span__MyAccount'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
@@ -42,7 +42,7 @@ WebUI.click(findTestObject('OB003/Page_/span_MyAccount_BackupOrderSetup'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
 
-WebUI.click(findTestObject('OB003/Page_/div__AboutMelaleuca_hk'))
+WebUI.click(findTestObject('OB003/Page_/div_AboutMelaleuca_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -52,7 +52,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_link enrollmentFormsLink'))
 
 now_title = WebUI.getWindowTitle()
 

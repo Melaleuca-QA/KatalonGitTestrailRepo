@@ -26,45 +26,43 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4) (1)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (24)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_enroll_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a__1 (22)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (18)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__1 (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), '0943654646')
+WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), '0943654646')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (1)'))
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), 'jilllin@melaleuca.com')
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test (2)'))
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (1)'))
-
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input__txtPresenter'), '13100015723')
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_'))
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_'))
+WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), 'jilllin@melaleuca.com')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+
+WebUI.click(findTestObject('OB003/Page_/div_EH 2.2 HK Test 2'))
+
+WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_EditPresenter'))
+
+WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), '13100015723')
+
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+
+WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test'))
+
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
+
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify being able to search for Presenter by Phone, Email, and Member #'
 GlobalVariable.test_case = '245570'

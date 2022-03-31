@@ -32,7 +32,7 @@ WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_hk'))
 
 WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/img__image-placeholder'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_image-placeholder'))
 
 //now_title = WebUI.getWindowTitle()
 //println(now_title)

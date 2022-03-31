@@ -32,7 +32,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__link startEnrollmentLink'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_link startEnrollmentLink'))
 
 //WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
 'input new enrollment name'
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_SendText'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (11)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
 WebUI.refresh()
 
@@ -72,31 +72,31 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_Busin
 
 WebUI.delay(3)
 
-WebUI.focus(findTestObject('OB003/Page_/i__fa fa-trash_ole'))
+WebUI.focus(findTestObject('OB003/Page_/i_fa fa-trash_ole'))
 
-WebUI.click(findTestObject('OB003/Page_/i__fa fa-trash_ole'))
+WebUI.click(findTestObject('OB003/Page_/i_fa fa-trash_ole'))
 
 WebUI.click(findTestObject('OB003/Page_/div_ole'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort-asc'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort-asc'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort-asc'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort-asc'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-sort'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 
 WebUI.refresh()
 

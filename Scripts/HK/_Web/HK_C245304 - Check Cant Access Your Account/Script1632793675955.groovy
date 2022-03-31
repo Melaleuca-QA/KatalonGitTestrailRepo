@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB003/Page_/a_CannotLogin'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__AccountSearchParam'), 'jilllin2@melaleuca.com')
+WebUI.setText(findTestObject('OB003/Page_/input_AccountSearchParam'), 'jilllin2@melaleuca.com')
 
 WebUI.click(findTestObject('OB003/Page_/button_CannotLogin_Continue'))
 

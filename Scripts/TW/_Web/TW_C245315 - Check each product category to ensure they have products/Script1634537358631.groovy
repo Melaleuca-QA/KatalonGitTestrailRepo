@@ -92,7 +92,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePu
 
 WebUI.navigateToUrl(GlobalVariable.url_Checkout)
 
-WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
+WebUI.setText(findTestObject('OB003/Page_/input_paymethodCvv'), '123')
 
 WebUI.click(findTestObject('OB003/Page_/button_Payment'))
 

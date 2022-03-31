@@ -36,7 +36,7 @@ WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_ MyAccountShowAll_OtherOption_MoreDetail'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
 WebUI.waitForPageLoad(100)
 

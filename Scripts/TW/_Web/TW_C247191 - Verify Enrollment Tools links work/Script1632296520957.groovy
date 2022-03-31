@@ -54,7 +54,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link followUpLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link followUpLink'))
 
 now_url = WebUI.getUrl()
 
@@ -64,7 +64,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB003/Page_/div__link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link enrollmentFormsLink'))
 
 now_url = WebUI.getUrl()
 
@@ -74,7 +74,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link whichProductsLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link whichProductsLink'))
 
 now_url = WebUI.getUrl()
 

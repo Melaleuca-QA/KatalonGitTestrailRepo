@@ -141,7 +141,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'),
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 'input phone number'
-WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 

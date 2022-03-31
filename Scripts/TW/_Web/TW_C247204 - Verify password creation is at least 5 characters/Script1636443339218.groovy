@@ -101,7 +101,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_MonthOfBirthEdit'),
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '1', true)
 
 'input phone number'
-WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
@@ -203,15 +203,15 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccoun
 
 WebUI.navigateToUrl(GlobalVariable.url_ChangePaymethods)
 
-WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_Edit'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_SetupPaymethod_Edit'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Month'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_SetupPaymethod_Edit_Month'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Year'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_SetupPaymethod_Edit_Year'), 
     '2039', true)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

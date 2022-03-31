@@ -26,11 +26,11 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_txtSkuEntry'), '1210.2')
+WebUI.setText(findTestObject('OB003/Page_/input_txtSkuEntry'), '1210.2')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_()_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB003/Page_/input_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
@@ -54,7 +54,7 @@ WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
-WebUI.setText(findTestObject('OB003/Page_/input__paymethodCvv'), '123')
+WebUI.setText(findTestObject('OB003/Page_/input_paymethodCvv'), '123')
 
 WebUI.click(findTestObject('OB003/Page_/button_TopCheckout_PlaceOrder'))
 
