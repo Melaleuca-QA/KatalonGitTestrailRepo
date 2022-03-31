@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__disc</name>
+   <name>div_BusinessCenter_OLE_CustomerType</name>
    <tag></tag>
    <elementGuidId>10ecaf65-34cb-42ba-8984-45e3445baad2</elementGuidId>
    <selectorCollection>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_202120222023202420252026202720282029_fb3c11 (3)</name>
+   <name>select_MyAccount_Setup_Edit_Year</name>
    <tag></tag>
-   <elementGuidId>3bbfb62b-2eb0-4d3f-ac56-1fab38f5f973</elementGuidId>
+   <elementGuidId>49fc9915-0eb8-43c5-979e-49d98ed590ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -98,14 +98,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='到期年份*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期年份*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='到期月份**'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期月份*'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

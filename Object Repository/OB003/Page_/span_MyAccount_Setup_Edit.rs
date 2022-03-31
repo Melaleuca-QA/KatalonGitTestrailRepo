@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_202120222023202420252026202720282029_fb3c11 (2)</name>
+   <name>span_MyAccount_Setup_Edit</name>
    <tag></tag>
-   <elementGuidId>49fc9915-0eb8-43c5-979e-49d98ed590ba</elementGuidId>
+   <elementGuidId>482fd10c-da84-4673-85ff-0058625ae6bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='ddlAddExpirationYear']</value>
+         <value>//span[@id='btnEdit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ddlAddExpirationYear</value>
+         <value>#btnEdit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,99 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ddlAddExpirationYear</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>PaymethodToEdit.ExpirationYear</value>
+      <value>btnEdit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onchange</name>
+      <name>class</name>
       <type>Main</type>
-      <value>ResetDropDownColor(this.id);</value>
+      <value>editLink</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>goToEditPaymethod('C9606F8436AFAAA7DF3107F122EF85B5423683BD')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>年
-2021
-2022
-2023
-2024
-2025
-2026
-2027
-2028
-2029
-2030
-2031
-2032
-2033
-2034
-2035
-2036
-2037
-2038
-2039
-2040
-</value>
+      <value>
+                        編輯
+                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ddlAddExpirationYear&quot;)</value>
+      <value>id(&quot;btnEdit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='ddlAddExpirationYear']</value>
+      <value>//span[@id='btnEdit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='paymethodFormContainer']/div[5]/div/div[3]/div[2]/select</value>
+      <value>//div[@id='rightContainer']/div/div/div/div[4]/div/div[3]/div/div[3]/div/div[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期年份*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxxx-xxxx-xxxx-7027'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期月份*'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='預設付款方式'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please complete all required fields.'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='您只能使用一種付款方式'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='佣金帳戶'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='編輯']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/select</value>
+      <value>//div[3]/div/div[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

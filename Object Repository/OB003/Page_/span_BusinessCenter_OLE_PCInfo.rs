@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_1.10002.3.3</name>
+   <name>span_BusinessCenter_OLE_PCInfo</name>
    <tag></tag>
    <elementGuidId>b91e787d-6103-4c46-bb79-8870a8ce0f87</elementGuidId>
    <selectorCollection>
@@ -10,12 +10,12 @@
          <value>//span[(text() = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡' or . = '1.您的入會費新台幣1000元，將連同您的第一張訂單一併被收取，您隨時可以取消優惠顧客資格，不需任何理由。2.您所提供的信用卡資料，將做為美樂家線上購物及預備訂單扣款使用。3.線上入會僅接受信用卡。3.線上入會僅接受信用卡')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.membershipFeeAnnualCharge</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[@id='preferredMembershipInformation']/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.membershipFeeAnnualCharge</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

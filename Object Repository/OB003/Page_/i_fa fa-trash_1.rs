@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__fa fa-trash</name>
+   <name>i_fa fa-trash_1</name>
    <tag></tag>
-   <elementGuidId>21cee5c1-ebda-4fcb-899e-aad8615cbab2</elementGuidId>
+   <elementGuidId>5da5ce06-37cb-4115-a6f2-f7740810ab92</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='invitation_1493']/div/div[4]/span[2]/i</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>i.fa.fa-trash</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='invitation_1494']/div/div[4]/span[2]/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invitation_1494&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData greenText ng-scope&quot;]/span[@class=&quot;removeIcon&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
+      <value>id(&quot;invitation_1493&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData greenText ng-scope&quot;]/span[@class=&quot;removeIcon&quot;]/i[@class=&quot;fa fa-trash&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='invitation_1494']/div/div[4]/span[2]/i</value>
+      <value>//div[@id='invitation_1493']/div/div[4]/span[2]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

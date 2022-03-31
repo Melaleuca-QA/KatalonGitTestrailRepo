@@ -29,11 +29,11 @@ if (false) {
 
     GlobalVariable.tw_input_creditcard = '4000176777723776'
 } else {
-    'get ole variables'
-    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    'get ole variables'
+    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -103,7 +103,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_DayOfBirthEdit'), '
 'input phone number'
 WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber'), GlobalVariable.tw_input_mphone)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_/div_5'))) {
     WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
@@ -111,17 +111,17 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_/div
     WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), GlobalVariable.hk_input_newpswd)
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash_1'))
+WebUI.click(findTestObject('OB003/Page_/i_fa fa-eye-slash_1'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash'))
+WebUI.click(findTestObject('OB003/Page_/i_fa fa-eye-slash_2'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
-result1 = WebUI.getText(findTestObject('OB003/Page_/span_1.10002.3.3'))
+result1 = WebUI.getText(findTestObject('OB003/Page_/span_BusinessCenter_OLE_PCInfo'))
 
 println(result1)
 
@@ -133,13 +133,13 @@ println(result2)
 if (result2 == '入會費新台幣1000元') {
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__disc'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_CustomerType'))
 
 WebUI.navigateToUrl(GlobalVariable.url_CustomerType)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (19)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_DCSelect'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (31)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_DCSelect'))
 
 WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
@@ -147,9 +147,9 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), Glob
 
 WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.tw_input_citizen)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (5) (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
-result1 = WebUI.getText(findTestObject('OB003/Page_/label_1.202. 3. 4'))
+result1 = WebUI.getText(findTestObject('OB003/Page_/label_BusinessCenter_OLE_DCChkAgree1'))
 
 println(result1)
 
@@ -161,7 +161,7 @@ println(result2)
 if (result2 == '本人已滿20歲') {
 }
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '台北市', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbCtrl'), '松山區', true)
 
@@ -176,39 +176,39 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCar
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_DCChkAgree1'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/label_1.202. 3. 4'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_DCChkAgree1'))
 
-WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_ (5)'), 50, 0)
+WebUI.clickOffset(findTestObject('OB003/Page_/label_BusinessCenter_OLE_DCChkAgree2'), 50, 0)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (15)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Continue'))
 
 WebUI.waitForPageLoad(100)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (13)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_AddressConfirm'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3 (8)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_StartShopping'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span_ (15)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/a_ (37)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
 
 WebUI.navigateToUrl(GlobalVariable.url_ChangePaymethods)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (15)'))
+WebUI.click(findTestObject('OB003/Page_/span_MyAccount_Setup_Edit'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Month'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11 (2)'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Year'), 
     '2039', true)
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_MyAccount_Setup_AddCreditCard_save'))

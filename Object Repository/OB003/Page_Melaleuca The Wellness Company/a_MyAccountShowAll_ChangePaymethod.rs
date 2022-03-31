@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ (31)</name>
+   <name>a_MyAccountShowAll_ChangePaymethod</name>
    <tag></tag>
-   <elementGuidId>b778dc2f-3310-4739-a210-14a930013176</elementGuidId>
+   <elementGuidId>1357a924-c13c-4ce4-b3b0-ee2c03d41f79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@onclick=&quot;$('#submitDirectForm').submit(); cmCreateElementTag('RegularCustomerSelectConfirm', analyticsElementCategory);&quot;]</value>
+         <value>//ul[@id='dropdownAccount']/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,84 +20,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>href</name>
       <type>Main</type>
-      <value>$('#submitDirectForm').submit(); cmCreateElementTag('RegularCustomerSelectConfirm', analyticsElementCategory);</value>
+      <value>/MyAccount/ChangePaymethods</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ole-action ole-action--button</value>
+      <value>medium-text uppercase-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>選擇
-            沒有折扣</value>
+      <value>設定付款方式</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;customer-type&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--customer&quot;]/div[@class=&quot;ole-pop-up-modal is-active&quot;]/section[@class=&quot;ole-section ole-section--button-wrapper cf&quot;]/button[@class=&quot;ole-action ole-action--button&quot;]</value>
+      <value>id(&quot;dropdownAccount&quot;)/li[@class=&quot;header-popup-item&quot;]/a[@class=&quot;medium-text uppercase-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@onclick=&quot;$('#submitDirectForm').submit(); cmCreateElementTag('RegularCustomerSelectConfirm', analyticsElementCategory);&quot;]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content-wrapper']/div[2]/div[3]/div[2]/div/div/section[3]/button[2]</value>
+      <value>//ul[@id='dropdownAccount']/li[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'設定付款方式')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='返回'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單記錄'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='您真的不想在美樂家享受五折到七折的優惠嗎？'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我的追蹤清單'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電子郵件偏好設定'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家刊物'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='瀏覽全部'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='設定付款方式']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/MyAccount/ChangePaymethods')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//li[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -114,9 +114,9 @@ WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber')
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.focus(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'))
+WebUI.focus(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '852', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '852', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ BusinessCenter_OLE_Region'), '香港', true)
 
@@ -139,7 +139,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCar
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
-WebUI.clickOffset(findTestObject('OB003/Page_/label_chkAgree'), 50, 0)
+WebUI.clickOffset(findTestObject('OB003/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Continue'))
 
@@ -165,7 +165,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_BasePaymethodViewModel.AccountNu
 
 WebUI.doubleClick(findTestObject('OB003/Page_/label_BusinessCenter_OLE_IMEA_ParticipationLevel'))
 
-WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_IMEA_ChkAgree'))
+WebUI.click(findTestObject('OB003/Page_/label_BusinessCenter_OLE_IMEA_PCChkAgree'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 

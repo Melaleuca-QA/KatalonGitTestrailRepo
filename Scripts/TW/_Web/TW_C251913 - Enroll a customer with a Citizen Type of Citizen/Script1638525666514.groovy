@@ -29,11 +29,11 @@ if (false) {
 
     GlobalVariable.tw_input_creditcard = '4000171827071375'
 } else {
-    'get ole variables'
-    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    'get ole variables'
+    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -117,13 +117,13 @@ WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), Glob
 WebUI.setText(findTestObject('OB003/Page_/input_GovernmentId'), GlobalVariable.tw_input_citizen)
 
 'Citizen'
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CitizenType'), '1', true)
 
 'Foreigner'
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '2', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CitizenType'), '2', true)
 
 'Emigrate'
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (10)'), '4', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CitizenType'), '4', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_YearOfBirthEdit'), '1988', true)
 
@@ -136,7 +136,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber')
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '台北市', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbCtrl'), '松山區', true)
 
@@ -151,7 +151,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCar
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', true)
 
-WebUI.clickOffset(findTestObject('OB003/Page_/label_chkAgree'), 50, 0)
+WebUI.clickOffset(findTestObject('OB003/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Continue'))
 
@@ -179,7 +179,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellnes
 }
 
 //WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1'))
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a__1_2_3'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

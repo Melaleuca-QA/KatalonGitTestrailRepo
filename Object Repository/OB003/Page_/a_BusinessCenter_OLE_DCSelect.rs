@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_BusinessCenter_OLE_City</name>
+   <name>a_BusinessCenter_OLE_DCSelect</name>
    <tag></tag>
-   <elementGuidId>c3b94c42-f1ec-4c2f-8964-fb988b60a97d</elementGuidId>
+   <elementGuidId>43d66a6b-244c-45d0-ba2a-c9d7f5bbbcfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#CityCtrl</value>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='CityCtrl']</value>
+         <key>CSS</key>
+         <value>a.ole-action.ole-action--button.js-pop-up-fire</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>CityCtrl</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>CityCtrl</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>gray-default-option</value>
+      <value>ole-action ole-action--button js-pop-up-fire</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-modal</name>
+      <type>Main</type>
+      <value>action</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>選擇台北市基隆市新北市連江縣宜蘭縣釣魚台新竹市新竹縣桃園市苗栗縣台中市彰化縣南投縣嘉義市嘉義縣雲林縣台南市高雄市南海島澎湖縣金門縣屏東縣台東縣花蓮縣</value>
+      <value>選擇</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;CityCtrl&quot;)</value>
+      <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;customer-type&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--customer&quot;]/section[@class=&quot;ole-section ole-section--customer&quot;]/div[@class=&quot;ole-list-wrapper&quot;]/a[@class=&quot;ole-action ole-action--button js-pop-up-fire&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='CityCtrl']</value>
+      <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='addressForm']/div/div/div/div[2]/div/select</value>
+      <value>//div[@id='content-wrapper']/div[2]/div[3]/div[2]/div/section[3]/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'選擇')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='縣市*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='無風險，100%客戶滿意保證！'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='戶籍地址'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效的獨特商品'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='區鄉鎮村*'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='省市*'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='您確定嗎?'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div/div[2]/div/select</value>
+      <value>//section[3]/div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

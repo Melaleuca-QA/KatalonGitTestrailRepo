@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__fa fa-eye-slash</name>
+   <name>i_fa fa-eye-slash_1</name>
    <tag></tag>
-   <elementGuidId>fbfe826f-8d1a-4250-b690-5e57bd13c4ce</elementGuidId>
+   <elementGuidId>004f2939-e484-4a5e-b5e3-da1d04ccf791</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='customerInformationForm']/div/div[3]/div[3]/div[2]/span/i</value>
+         <value>//form[@id='customerInformationForm']/div/div[3]/div/div[2]/span/i</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;customerInformationForm&quot;)/div[@class=&quot;enrollee-info&quot;]/div[@class=&quot;inputRow passwordContainer&quot;]/div[@class=&quot;passwordInput&quot;]/div[@class=&quot;input-field-wrapper&quot;]/span[@class=&quot;showPassword&quot;]/i[@class=&quot;fa fa-eye-slash&quot;]</value>
+         <value>i.fa.fa-eye-slash</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -46,20 +42,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customerInformationForm&quot;)/div[@class=&quot;enrollee-info&quot;]/div[@class=&quot;inputRow passwordContainer&quot;]/div[@class=&quot;passwordInput&quot;]/div[@class=&quot;input-field-wrapper&quot;]/span[@class=&quot;showPassword&quot;]/i[@class=&quot;fa fa-eye-slash&quot;]</value>
+      <value>id(&quot;customerInformationForm&quot;)/div[@class=&quot;enrollee-info&quot;]/div[@class=&quot;inputRow passwordContainer&quot;]/div[@class=&quot;passwordInput invalid&quot;]/div[@class=&quot;input-field-wrapper&quot;]/span[@class=&quot;showPassword&quot;]/i[@class=&quot;fa fa-eye-slash&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='customerInformationForm']/div/div[3]/div[3]/div[2]/span/i</value>
+      <value>//form[@id='customerInformationForm']/div/div[3]/div/div[2]/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/span/i</value>
+      <value>//span/i</value>
    </webElementXpaths>
 </WebElementEntity>

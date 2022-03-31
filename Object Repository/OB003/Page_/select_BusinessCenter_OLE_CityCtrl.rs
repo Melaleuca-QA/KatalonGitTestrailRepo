@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_202120222023202420252026202720282029_fb3c11 (1)</name>
+   <name>select_BusinessCenter_OLE_CityCtrl</name>
    <tag></tag>
-   <elementGuidId>aed1e803-22b0-4087-810c-681688af9743</elementGuidId>
+   <elementGuidId>c3b94c42-f1ec-4c2f-8964-fb988b60a97d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='ddlAddExpirationYear']</value>
+         <value>//select[@id='CityCtrl']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ddlAddExpirationYear</value>
+         <value>#CityCtrl</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,104 +28,83 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ddlAddExpirationYear</value>
+      <value>CityCtrl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PaymethodToEdit.ExpirationYear</value>
+      <value>CityCtrl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onchange</name>
+      <name>class</name>
       <type>Main</type>
-      <value>ResetDropDownColor(this.id);</value>
+      <value>gray-default-option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>年
-2021
-2022
-2023
-2024
-2025
-2026
-2027
-2028
-2029
-2030
-2031
-2032
-2033
-2034
-2035
-2036
-2037
-2038
-2039
-2040
-</value>
+      <value>選擇台北市基隆市新北市連江縣宜蘭縣釣魚台新竹市新竹縣桃園市苗栗縣台中市彰化縣南投縣嘉義市嘉義縣雲林縣台南市高雄市南海島澎湖縣金門縣屏東縣台東縣花蓮縣</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ddlAddExpirationYear&quot;)</value>
+      <value>id(&quot;CityCtrl&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='ddlAddExpirationYear']</value>
+      <value>//select[@id='CityCtrl']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='paymethodFormContainer']/div[5]/div/div[3]/div[2]/select</value>
+      <value>//form[@id='addressForm']/div/div/div/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期年份*'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='縣市*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡效期月份*'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='戶籍地址'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please complete all required fields.'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='區鄉鎮村*'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='省市*'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/select</value>
+      <value>//form/div/div/div/div[2]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

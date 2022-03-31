@@ -123,11 +123,11 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OB003/Page_/div
     WebUI.setEncryptedText(findTestObject('OB003/Page_/input_ConfirmPassword'), GlobalVariable.hk_input_newpswd)
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash_1'))
+WebUI.click(findTestObject('OB003/Page_/i_fa fa-eye-slash_1'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/i__fa fa-eye-slash'))
+WebUI.click(findTestObject('OB003/Page_/i_fa fa-eye-slash_2'))
 
 WebUI.delay(3)
 
@@ -147,13 +147,13 @@ if (result2 == '會籍費用HK$250.0') {
     FailureHandling.STOP_ON_FAILURE
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__disc'))
+WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_OLE_CustomerType'))
 
 WebUI.navigateToUrl(GlobalVariable.url_CustomerType)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (19)'))
+WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_DCSelect'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (31)'))
+WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_DCSelect'))
 
 WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
@@ -204,7 +204,7 @@ WebUI.click(findTestObject('OB003/Page_/label_ (6)'))
 
 WebUI.click(findTestObject('OB003/Page_/label_ (6)'))
 
-WebUI.clickOffset(findTestObject('Object Repository/OB003/Page_/label_ (5)'), 50, 0)
+WebUI.clickOffset(findTestObject('OB003/Page_/label_BusinessCenter_OLE_DCChkAgree2'), 50, 0)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1 (15)'))
 
@@ -226,10 +226,10 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness 
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/span__1_2 (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/select_010203040506070809101112'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Month'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_202120222023202420252026202720282029_fb3c11 (2)'), 
+WebUI.selectOptionByValue(findTestObject('OB003/Page_Melaleuca The Wellness Company/select_MyAccount_Setup_Edit_Year'), 
     '2039', true)
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/button__1 (8)'))

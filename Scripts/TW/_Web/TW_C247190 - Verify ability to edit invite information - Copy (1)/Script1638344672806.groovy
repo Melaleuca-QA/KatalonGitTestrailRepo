@@ -140,7 +140,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_PrimaryPhoneNumber.PhoneNumber')
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_City'), '台北市', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbCtrl'), '松山區', true)
 
@@ -156,7 +156,7 @@ WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCar
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Paymethod_CreditCard_ExpirationYear'), '2040', 
     true)
 
-WebUI.clickOffset(findTestObject('OB003/Page_/label_chkAgree'), 50, 0)
+WebUI.clickOffset(findTestObject('OB003/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB003/Page_/button_BusinessCenter_OLE_Continue'))
 
