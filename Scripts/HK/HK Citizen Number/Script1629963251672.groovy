@@ -30,7 +30,7 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('OB003/Page_ID/input'))
 
-GlobalVariable.hk_input_citizen = WebUI.getAttribute(findTestObject('OB003/Page_ID/input__HongKongID'), 'value')
+GlobalVariable.hk_input_citizen = WebUI.getAttribute(findTestObject('OB003/Page_ID/input_HongKongID'), 'value')
 
 println(GlobalVariable.hk_input_citizen)
 

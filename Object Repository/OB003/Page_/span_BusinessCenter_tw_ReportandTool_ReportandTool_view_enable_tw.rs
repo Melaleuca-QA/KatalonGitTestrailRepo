@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox</name>
+   <name>span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw</name>
    <tag></tag>
-   <elementGuidId>f2938104-cf2b-4f48-aecc-9242390cb550</elementGuidId>
+   <elementGuidId>6c616897-ad40-42c0-a22d-44b2b450c681</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-	
-	立即啟用
-	
-		
-		立即啟用		
-	
-	
-' or . = '
-	
-	立即啟用
-	
-		
-		立即啟用		
-	
-	
-')]</value>
+         <key>CSS</key>
+         <value>span.btnTxt</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div/div[3]/div[1]/div[3]/input</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.btn.blue24</value>
+         <value>//a[@id='ctl01_btn']/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -41,86 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn blue24</value>
+      <value>btnTxt</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-	
-	立即啟用
-	
-		
-		立即啟用		
-	
-	
-</value>
+      <value>立即啟用</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;termsAcceptedBtn&quot;)/div[@class=&quot;btn blue24&quot;]</value>
+      <value>id(&quot;ctl01_btn&quot;)/span[@class=&quot;btnTxt&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='termsAcceptedBtn']/div</value>
+      <value>//a[@id='ctl01_btn']/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='經營生動活潑，讓您瀏覽組織各個面向，如：警訊內容、關鍵績效指數、階銜＆目標…等！'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='立即啟用'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用簡易上手，幫助您更了解事業現況，因而拓展規模。'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='經營生動活潑，讓您瀏覽組織各個面向，如：警訊內容、關鍵績效指數、階銜＆目標…等！'])[1]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='一旦勾選即視為同意及接受下載注意事項'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[19]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div[3]/div/div/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = '
-	
-	立即啟用
-	
-		
-		立即啟用		
-	
-	
-' or . = '
-	
-	立即啟用
-	
-		
-		立即啟用		
-	
-	
-')]</value>
+      <value>//a/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>
