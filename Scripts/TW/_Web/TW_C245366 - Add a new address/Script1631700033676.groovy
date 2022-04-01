@@ -34,9 +34,9 @@ WebUI.click(findTestObject('OB003/Page_/button_Myaccount_ShowAll_SetupAddress_ad
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_tw'), 'hsipaddress')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_'), '基隆市', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_tw'), '基隆市', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select__1'), '仁愛區', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_tw'), '仁愛區', true)
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress1')
 
@@ -44,19 +44,19 @@ WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'h
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit2'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress3')
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress4')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2 (2)'))
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button__1_2_3_4'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

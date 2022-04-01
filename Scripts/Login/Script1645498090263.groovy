@@ -29,5 +29,5 @@ WebUI.setText(findTestObject('null'), GlobalVariable.tw_input_username1)
 
 WebUI.setEncryptedText(findTestObject('null'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.click(findTestObject('OB003/Page_/button_Login'))
 

@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('OB003/Page_/input_AccountSearchParam'), 'jilllin2@
 
 WebUI.click(findTestObject('OB003/Page_/button_CannotLogin_Continue'))
 
-WebUI.click(findTestObject('OB003/Page_/span_ CannotLogin_Resend'))
+WebUI.click(findTestObject('OB003/Page_/span_CannotLogin_Resend'))
 
 WebUI.delay(2)
 

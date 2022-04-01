@@ -166,7 +166,7 @@ if (result2 == '我授權美商亞洲美樂家有限公司') {
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ BusinessCenter_OLE_Region'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_Region'), '香港', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbName'), '中環', true)
 

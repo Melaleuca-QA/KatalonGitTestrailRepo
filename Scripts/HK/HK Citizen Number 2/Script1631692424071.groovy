@@ -29,7 +29,7 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('OB003/Page_Hong Kong Identity Card Number/button_Generate'))
 
-GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB003/Page_Hong Kong Identity Card Number/div_YV2992732'))
+GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB003/Page_Hong Kong Identity Card Number/div_RandomHKID'))
 
 println(GlobalVariable.hk_input_citizen)
 

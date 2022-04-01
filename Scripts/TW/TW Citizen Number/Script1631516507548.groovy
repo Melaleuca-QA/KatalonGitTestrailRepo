@@ -27,9 +27,9 @@ WebUI.maximizeWindow()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_-  -/input'))
+WebUI.click(findTestObject('OB003/Page_ID/input'))
 
-GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('OB003/Page_-  -/input__TaiwanID'), 'value')
+GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('OB003/Page_ID/input__TaiwanID'), 'value')
 
 println(GlobalVariable.tw_input_citizen)
 

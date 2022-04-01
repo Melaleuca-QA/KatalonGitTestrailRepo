@@ -29,7 +29,7 @@ println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_GeneralError)
 
-WebUI.click(findTestObject('OB003/Page_/a_ GeneralError_StartShopping'))
+WebUI.click(findTestObject('OB003/Page_/a_GeneralError_StartShopping'))
 
 WebUI.waitForPageLoad(2)
 

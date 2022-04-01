@@ -52,7 +52,7 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_/input_Email_UserName
 
 WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.click(findTestObject('OB003/Page_/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
 

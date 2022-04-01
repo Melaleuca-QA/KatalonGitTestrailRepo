@@ -44,49 +44,49 @@ WebUI.waitForPageLoad(100)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_HK_Overview_0520/button__icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB003/Page_/button_icon-book-next stripe-btn'))
 
 WebUI.switchToWindowTitle('Melaleuca: The Wellness Company')
 

@@ -118,7 +118,7 @@ WebUI.focus(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'))
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_CityCtrl'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_ BusinessCenter_OLE_Region'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_Region'), '香港', true)
 
 WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_BusinessCenter_OLE_SuburbName'), '中環', true)
 
@@ -157,7 +157,7 @@ WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
 
 WebUI.setText(findTestObject('OB003/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
 
-WebUI.click(findTestObject('OB003/Page_/span_004 HK_SH Banking'))
+WebUI.click(findTestObject('OB003/Page_/span_HK_SH Banking'))
 
 //WebUI.selectOptionByValue(findTestObject('OB003/Page_/span_004 The Hongkong and Shanghai Banking _f1933e'), '004 香港上海滙豐銀行有限公司The Hongkong and Shanghai Banking Corporation Ltd', 
 //    false)

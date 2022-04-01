@@ -25,7 +25,7 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('OB003/Page_/a_ CreateWebAccount'))
+WebUI.click(findTestObject('OB003/Page_/a_CreateWebAccount'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_EmailAddress'), 'jilllin100@melaleuca.com')
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_EmailContinue'))
 
 now_url = WebUI.getUrl()
 
-println (now_url)
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_EmailSuccess)
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('OB003/Page_/button_CreateWebAccount_PhoneContinue'))
 
 now_url = WebUI.getUrl()
 
-println (now_url)
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_MobileSuccess)
 

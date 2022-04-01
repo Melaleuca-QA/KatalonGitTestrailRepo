@@ -61,9 +61,9 @@ WebUI.click(findTestObject('OB003/Page_/button_SearchSubmit'))
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_237/img'))
+WebUI.click(findTestObject('OB003/Page_/img_3600'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_237/span__fa fa-plus-circle'))
+WebUI.click(findTestObject('OB003/Page_/span_fa fa-plus-circle'))
 
 WebUI.click(findTestObject('OB003/Page_/button_MyPack'))
 

@@ -17,26 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ (9) (2)'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/div_ (4) (2)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -44,7 +32,7 @@ WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__link presentationLink'))
+WebUI.click(findTestObject('OB003/Page_/div_link presentationLink'))
 
 now_url = WebUI.getUrl()
 
@@ -84,9 +72,7 @@ WebUI.delay(2)
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify Enrollment Tools links work and proceed to expected pages '
 GlobalVariable.test_case = '247191'

@@ -19,26 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -78,7 +66,8 @@ WebUI.delay(3)
 
 WebUI.focus(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), '重新發送提醒')
+WebUI.verifyElementText(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), 
+    '重新發送提醒')
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
 
@@ -112,9 +101,7 @@ WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-so
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (6)'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to send invite by text'
 GlobalVariable.test_case = '245569'

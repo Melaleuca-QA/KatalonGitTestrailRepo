@@ -17,26 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
-
-WebUI.refresh()
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('OB003/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
-
-WebUI.setEncryptedText(findTestObject('OB003/Page_/input_Password'), GlobalVariable.tw_input_password1)
-
-WebUI.click(findTestObject('OB003/Page_/button_ Login'))
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_ (4)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
@@ -48,7 +36,7 @@ WebUI.click(findTestObject('OB003/Page_/div_link startEnrollmentLink'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), '0943654646')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test'))
 
@@ -56,7 +44,7 @@ WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), 'jilllin@melaleuca.com')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
 WebUI.click(findTestObject('OB003/Page_/div_EH 2.2 HK Test 2'))
 
@@ -64,16 +52,13 @@ WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
 WebUI.setText(findTestObject('OB003/Page_/input_txtPresenter'), '13100015723')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (3)'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_/div_EH 2.2 HK Test'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span__1'))
+WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/a_ (5)'))
-
-//WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Home?signedOut=true&culture=zh-TW')
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify being able to search for Presenter by Phone, Email, and Member #'
 GlobalVariable.test_case = '245570'
