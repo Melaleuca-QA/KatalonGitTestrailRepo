@@ -25,6 +25,8 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
+WebUI.enableSmartWait()
+
 WebUI.refresh()
 
 WebUI.click(findTestObject('OB003/Page_ID/input'))

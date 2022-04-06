@@ -6,12 +6,12 @@
    <elementGuidId>ebbcac98-f383-4043-923e-e736dadd66ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='main']/div/div/div[3]/div/form/div/label/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.form-input.block.w-full</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/main/div/div/div[3]/div[1]/form/div[1]/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
