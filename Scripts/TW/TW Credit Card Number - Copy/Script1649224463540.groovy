@@ -19,35 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cardguru.io/')
+WebUI.navigateToUrl('https://namso-gen.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.refresh()
-
 WebUI.enableSmartWait()
 
-WebUI.click(findTestObject('OB003/Page_Credit Card Generator Validator/button_Generate'))
+WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), '405430')
 
-WebUI.waitForElementPresent(findTestObject('OB003/Page_Credit Card Generator Validator/span_CardNumber'), 5)
+WebUI.sendKeys(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
+        Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.refresh()
+WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), '1')
 
-WebUI.refresh()
+WebUI.click(findTestObject('OB003/Page_Random Test Credit Card Numbers/button_Generate'))
 
-WebUI.refresh()
-
-result1 = WebUI.getText(findTestObject('OB003/Page_Credit Card Generator Validator/span_CardNumber'))
-
-WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
+result1 = WebUI.getAttribute(findTestObject('OB003/Page_Random Test Credit Card Numbers/textarea_RESULT_result'), 'value')
 
 println(result1)
 
-result2 = result1.replace('"', '')
+result2 = result1.substring(0, 16)
 
-GlobalVariable.hk_input_creditcard = result2
+GlobalVariable.tw_input_creditcard = result2
 
-println(GlobalVariable.hk_input_creditcard)
+println(GlobalVariable.tw_input_creditcard)
 
 WebUI.closeBrowser()
 

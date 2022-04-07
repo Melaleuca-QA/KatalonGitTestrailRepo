@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILU
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+    WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
 WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
@@ -63,6 +63,8 @@ WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
 WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
+
+WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
 

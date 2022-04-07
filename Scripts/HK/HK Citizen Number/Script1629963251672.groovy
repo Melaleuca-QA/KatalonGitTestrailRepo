@@ -22,15 +22,17 @@ WebUI.openBrowser('')
 'http://id.ifreesite.com/'
 WebUI.navigateToUrl('http://id.ifreesite.com/')
 
-WebUI.refresh()
-
 WebUI.maximizeWindow()
 
 WebUI.refresh()
 
+WebUI.enableSmartWait()
+
 WebUI.click(findTestObject('OB003/Page_ID/input'))
 
 GlobalVariable.hk_input_citizen = WebUI.getAttribute(findTestObject('OB003/Page_ID/input_HongKongID'), 'value')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
 println(GlobalVariable.hk_input_citizen)
 
