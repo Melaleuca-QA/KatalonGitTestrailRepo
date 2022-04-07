@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (13)'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB002/Page_/select_ (13)'), '1', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (16)'))
+WebUI.click(findTestObject('OB002/Page_/div_ (16)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1 (6)'))
+WebUI.click(findTestObject('OB002/Page_/div__1 (6)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2 (3)'))
+WebUI.click(findTestObject('OB002/Page_/div__1_2 (3)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_tw918301'))
+WebUI.click(findTestObject('OB002/Page_/span_tw918301'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/span_ (12) (1)'))
+WebUI.click(findTestObject('OB002/Page_/span_ (12) (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_/select_ (13)'), '0', true)
+WebUI.selectOptionByValue(findTestObject('OB002/Page_/select_ (13)'), '0', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div_ (16)'))
+WebUI.click(findTestObject('OB002/Page_/div_ (16)'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_/div__1_2_3 (3)'))
+WebUI.click(findTestObject('OB002/Page_/div__1_2_3 (3)'))
 
-WebUI.doubleClick(findTestObject('Object Repository/OB003/Page_/div__1_2_3_4 (2)'))
+WebUI.doubleClick(findTestObject('OB002/Page_/div__1_2_3_4 (2)'))
 

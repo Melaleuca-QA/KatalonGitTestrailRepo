@@ -20,32 +20,32 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '117.1')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '117.1')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
+WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-if (WebUI.verifyElementNotVisible(findTestObject('OB003/Page_/div_3535 (  )')) == true) {
+if (WebUI.verifyElementNotVisible(findTestObject('OB002/Page_/div_3535 (  )')) == true) {
 } else {
-    WebUI.click(findTestObject('Object Repository/OB003/Page_/button_ck35'))
+    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
 }
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('OB003/Page_/input_paymethodCvv'), '123')
+WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
-WebUI.click(findTestObject('OB003/Page_/button_Payment'))
+WebUI.click(findTestObject('OB001/Page_/button_Payment'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

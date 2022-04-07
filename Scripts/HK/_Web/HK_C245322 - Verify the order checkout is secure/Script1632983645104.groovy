@@ -20,61 +20,61 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
+WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-WebUI.click(findTestObject('OB003/Page_/button_ChangeShippingOptions'))
+WebUI.click(findTestObject('OB001/Page_/button_ChangeShippingOptions'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_add'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.ShipToName_hk'), 'shiptest')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.ShipToName_hk'), 'shiptest')
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress1')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'testaddress1')
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress2')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'testaddress2')
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_edit'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
-WebUI.setText(findTestObject('OB003/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
+WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangeAddress_save'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
-WebUI.setText(findTestObject('OB003/Page_/input_paymethodCvv'), '123')
+WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
-WebUI.click(findTestObject('OB003/Page_/button_TopCheckout_PlaceOrder'))
+WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

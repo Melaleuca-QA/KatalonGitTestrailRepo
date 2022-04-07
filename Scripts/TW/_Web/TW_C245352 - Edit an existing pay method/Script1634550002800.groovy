@@ -28,65 +28,65 @@ if (false) {
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
 WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
-WebUI.click(findTestObject('OB003/Page_/button_TopProceedtoCheckout'))
+WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_add'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
-WebUI.setText(findTestObject('OB003/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2040', true)
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
 WebUI.delay(5)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.click(findTestObject('OB003/Page_/span_Checkout_ChangePaymethod_edit'))
+WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_edit'))
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_month'), '12', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB003/Page_/select_Chectout_edit_year'), '2039', true)
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2039', true)
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.click(findTestObject('OB003/Page_/span_Checkout_ChangePaymethod_delete'))
+WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_delete'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_delete_check'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
-WebUI.click(findTestObject('OB003/Page_/button_Checkout_ChangePaymethod_return'))
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_return'))
 
-WebUI.setText(findTestObject('OB003/Page_/input_paymethodCvv'), '123')
+WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
-WebUI.click(findTestObject('OB003/Page_/button_Payment'))
+WebUI.click(findTestObject('OB001/Page_/button_Payment'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
