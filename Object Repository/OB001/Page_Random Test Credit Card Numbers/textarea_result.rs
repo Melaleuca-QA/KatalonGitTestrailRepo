@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_RESULT_result</name>
+   <name>textarea_Result</name>
    <tag></tag>
    <elementGuidId>dd2a4741-3f92-48d1-b8c8-7ea212cf7006</elementGuidId>
    <selectorCollection>

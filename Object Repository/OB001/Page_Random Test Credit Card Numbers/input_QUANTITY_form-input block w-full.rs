@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='text']
+         <value>//*[@id=&quot;main&quot;]/div/div/div[3]/div[1]/form/div[3]/div[3]/label/input
 
 </value>
       </entry>

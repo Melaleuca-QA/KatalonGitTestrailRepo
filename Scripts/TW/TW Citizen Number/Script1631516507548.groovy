@@ -25,10 +25,6 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.refresh()
-
-WebUI.enableSmartWait()
-
 WebUI.click(findTestObject('OB001/Page_ID/input'))
 
 GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('OB001/Page_ID/input_TaiwanID'), 'value')

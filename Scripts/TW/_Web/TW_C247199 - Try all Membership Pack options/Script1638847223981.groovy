@@ -101,7 +101,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductV
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_117'))
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle_1_2'))
+WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 

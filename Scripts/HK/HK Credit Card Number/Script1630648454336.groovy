@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cardguru.io/')
 
-WebUI.maximizeWindow()
-
 WebUI.refresh()
 
-WebUI.enableSmartWait()
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB001/Page_Credit Card Generator Validator/button_Generate'))
 

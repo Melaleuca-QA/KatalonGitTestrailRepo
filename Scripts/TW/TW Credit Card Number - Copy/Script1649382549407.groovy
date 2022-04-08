@@ -21,11 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://namso-gen.com/')
 
+WebUI.refresh()
+
 WebUI.maximizeWindow()
 
-WebUI.enableSmartWait()
+WebUI.focus(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'))
 
 WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), '405430')
+
+WebUI.focus(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'))
 
 WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
         Keys.CONTROL, 'a', Keys.DELETE))
@@ -34,7 +38,9 @@ WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_Q
 
 WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate'))
 
-result1 = WebUI.getAttribute(findTestObject('OB001/Page_Random Test Credit Card Numbers/textarea_RESULT_result'), 'value')
+result1 = WebUI.getAttribute(findTestObject('OB001/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
 println(result1)
 

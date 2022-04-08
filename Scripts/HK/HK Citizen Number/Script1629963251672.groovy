@@ -22,11 +22,9 @@ WebUI.openBrowser('')
 'http://id.ifreesite.com/'
 WebUI.navigateToUrl('http://id.ifreesite.com/')
 
-WebUI.maximizeWindow()
-
 WebUI.refresh()
 
-WebUI.enableSmartWait()
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB001/Page_ID/input'))
 

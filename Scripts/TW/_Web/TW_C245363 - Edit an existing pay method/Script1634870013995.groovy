@@ -46,7 +46,11 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2040', true)
 
-WebUI.enableSmartWait()
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
+
+WebUI.delay(3)
+
+WebUI.back()
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 

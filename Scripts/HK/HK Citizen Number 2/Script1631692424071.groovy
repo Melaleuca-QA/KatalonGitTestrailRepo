@@ -19,15 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.refresh()
-
 WebUI.navigateToUrl('https://pinkylam.me/playground/hkid/')
 
-WebUI.maximizeWindow()
-
 WebUI.refresh()
 
-WebUI.enableSmartWait()
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB001/Page_Hong Kong Identity Card Number/button_Generate'))
 
