@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://id.ifreesite.com/')
 
-WebUI.refresh()
-
 WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('OB001/Page_ID/input'))
 

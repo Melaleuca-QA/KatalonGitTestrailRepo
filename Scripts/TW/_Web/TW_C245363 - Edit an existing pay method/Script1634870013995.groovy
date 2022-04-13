@@ -50,12 +50,6 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyA
 
 WebUI.delay(3)
 
-WebUI.back()
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('OB001/Page_/span_MyAccount_SetupPaymethod_EditCreditCard'))
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)

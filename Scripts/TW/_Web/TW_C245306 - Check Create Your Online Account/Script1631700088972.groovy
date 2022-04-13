@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB001/Page_/a_CreateWebAccount'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_EmailAddress'), 'jilllin100@melaleuca.com')
+WebUI.setText(findTestObject('OB001/Page_/input_txtEmail'), 'jilllin100@melaleuca.com')
 
 WebUI.click(findTestObject('OB001/Page_/button_CreateWebAccount_EmailContinue'))
 

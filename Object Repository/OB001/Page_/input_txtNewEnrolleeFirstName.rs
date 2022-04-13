@@ -14,11 +14,11 @@
          <value>#txtNewEnrolleeFirstName</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'txtNewEnrolleeFirstName' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
