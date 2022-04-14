@@ -30,6 +30,9 @@ WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_
 
 WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), '1')
 
+WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
+        Keys.PAGE_DOWN))
+
 WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate'))
 
 WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate'))
@@ -39,6 +42,9 @@ WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Ge
 result1 = WebUI.getAttribute(findTestObject('OB001/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
 
 println(result1)
+
+WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
+        Keys.PAGE_UP))
 
 result2 = result1.substring(0, 16)
 

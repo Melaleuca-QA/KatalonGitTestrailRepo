@@ -64,11 +64,13 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.back()
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_edit'))
 
