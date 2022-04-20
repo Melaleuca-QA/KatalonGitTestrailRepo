@@ -111,6 +111,8 @@ WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
+WebUI.waitForPageLoad(100)
+
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_BusinessCenter_OLE_SuburbCtrl'), '松山區', true)

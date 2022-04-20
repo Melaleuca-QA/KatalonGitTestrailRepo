@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txtMobilePhone (2) (1)</name>
+   <name>input_txtMobilePhone</name>
    <tag></tag>
    <elementGuidId>54c98f06-63be-4a41-ac29-0cbb333d9f2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='txtMobilePhone'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#dvEditContactInfo > div.displayPrompt > div.customerInfoContainer > div.customerInfo.ng-scope > #txtMobilePhone</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='txtMobilePhone'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c06b01bc-1ec9-49ea-b220-d6d687210b38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>fe00e50d-a592-4d5a-a828-4438fbcfa224</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtMobilePhone</value>
+      <webElementGuid>9be0639e-0022-4238-8393-ec88e41454c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>ng-blur</name>
       <type>Main</type>
       <value>formatPhoneNumber(true)</value>
+      <webElementGuid>5a8c724b-009e-4734-aedc-aac039194e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>ng-change</name>
       <type>Main</type>
       <value>formatPhoneNumber(true)</value>
+      <webElementGuid>a7bca374-bb1d-49cf-8979-e9f52d364546</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>contact.PhoneNumber</value>
+      <webElementGuid>e5c73de2-5c5b-4090-90ed-02a00472cc90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-valid</value>
+      <webElementGuid>867d7b64-0a6a-4c1c-945d-ceb8494d5191</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvEditContactInfo&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
+      <webElementGuid>d8490b9b-a5e7-4e10-9b4d-c0476bdf7cae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@id='txtMobilePhone'])[2]</value>
+      <webElementGuid>37018670-0a44-4b55-8a05-780b4e5c6ddf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvEditContactInfo']/div/div[4]/div[3]/input</value>
+      <webElementGuid>7245672c-e89c-47a1-9f54-4a7c4095f2f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[4]/div[3]/input</value>
+      <webElementGuid>d859d334-8038-44ab-b7cb-d197973a8be7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

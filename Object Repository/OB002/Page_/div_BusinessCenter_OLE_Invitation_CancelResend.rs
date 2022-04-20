@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_ (9) (1)</name>
+   <name>div_BusinessCenter_OLE_Invitation_CancelResend</name>
    <tag></tag>
-   <elementGuidId>1ae07793-f97f-44ad-b155-7661a9ec77c6</elementGuidId>
+   <elementGuidId>8f0c5600-9524-4fa8-8abb-79df324fb28a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='contactRegion']</value>
+         <key>CSS</key>
+         <value>#btnCancelResend</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#contactRegion</value>
+         <key>XPATH</key>
+         <value>//div[@id='btnCancelResend']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,104 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>div</value>
+      <webElementGuid>c5c5e76c-4e28-4042-89cb-5a78e30f468e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>contactRegion</value>
+      <value>btnCancelResend</value>
+      <webElementGuid>de1271b6-b624-4f67-8550-cbe94b8161d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>presentationSelection ng-pristine ng-valid</value>
+      <value>button whiteButton ng-binding</value>
+      <webElementGuid>18c7dc64-861d-4d13-b2df-680d11d9b702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>contact.RegionDescription</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-change</name>
-      <type>Main</type>
-      <value>changeRegion()</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-options</name>
-      <type>Main</type>
-      <value>region.RegionDescription as region.RegionDescription for region in regionOptions</value>
+      <value>closePopup()</value>
+      <webElementGuid>c92cbfe3-9451-4d77-813c-3e59b69bab02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>台灣香港</value>
+      <value>關閉</value>
+      <webElementGuid>341cc5cc-f789-4ccd-98f7-4a243cfe7cbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contactRegion&quot;)</value>
+      <value>id(&quot;btnCancelResend&quot;)</value>
+      <webElementGuid>2fc3831f-0dd2-43e8-a8bf-989b2eeb4f60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='contactRegion']</value>
+      <value>//div[@id='btnCancelResend']</value>
+      <webElementGuid>292b7a19-53f5-4820-b6da-b0374d5118cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvEditContactInfo']/div/div[4]/div[5]/select</value>
+      <value>//div[@id='dvViewContactInfo']/div/div[5]/div[2]/div/div</value>
+      <webElementGuid>0126a5be-8acc-4011-869d-9ca31f7f713b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地區'])[2]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tw918211?'])[1]/following::div[3]</value>
+      <webElementGuid>31636cd7-8dba-4e8f-8b7c-08da0f757e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='手機號碼'])[2]/following::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[2]/preceding::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='儲存'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電子信箱'])[1]/preceding::div[1]</value>
+      <webElementGuid>11f8d1b2-d475-440e-b594-2b740b9e4439</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/select</value>
+      <value>//div[5]/div[2]/div/div</value>
+      <webElementGuid>7bb0fab6-6a73-46be-b5fa-6d54a046d1c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

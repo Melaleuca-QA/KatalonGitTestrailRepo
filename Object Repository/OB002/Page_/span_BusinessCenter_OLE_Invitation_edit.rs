@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ (13) (1)</name>
+   <name>span_BusinessCenter_OLE_Invitation_edit</name>
    <tag></tag>
    <elementGuidId>d1723c0e-f2c2-4410-95f9-c0db75e20214</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvViewContactInfo']/div/div[4]/div/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.editIcon.ng-scope.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvViewContactInfo']/div/div[4]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>5ac758e6-f47c-4bbd-aab5-c97663408957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>ng-if</name>
       <type>Main</type>
       <value>contact.EnrollmentStatusId == 1</value>
+      <webElementGuid>128f9ead-bf66-4639-9d15-48e860584276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>editIcon ng-scope ng-binding</value>
+      <webElementGuid>c5449fe4-3a87-4102-abe0-fe17b4d94fec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>editContactInformation()</value>
+      <webElementGuid>b5a3931c-b01b-46fa-9522-20bea7ad96f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 編輯</value>
+      <webElementGuid>16ff43b2-4b94-4a8d-b34f-46229a08afb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvViewContactInfo&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerContactData&quot;]/div[@class=&quot;contactData ng-scope&quot;]/span[@class=&quot;editIcon ng-scope ng-binding&quot;]</value>
+      <webElementGuid>c1be2360-17f1-4d0c-bb90-93eacc9a24d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvViewContactInfo']/div/div[4]/div/span[2]</value>
+      <webElementGuid>52582572-2dd1-4d7f-be47-2a82c29d84bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='tw918211@melaleuca.com'])[1]/following::span[1]</value>
+      <webElementGuid>0ddd731a-29d7-4b87-820a-ba858a7f8eb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='連絡'])[1]/following::span[2]</value>
+      <webElementGuid>118bbf54-2d61-49e8-9c53-3562e6319e67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='台灣'])[1]/preceding::span[2]</value>
+      <webElementGuid>3982cd4f-970e-43b4-b87a-76a1effffa11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div[4]/div/span[2]</value>
+      <webElementGuid>fc97a892-7c68-4d37-8ae6-c555464d9e9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -117,6 +117,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
+      <name>hk_input_mphone2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
       <name>hk_input_citizen</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -128,6 +133,26 @@
       <description></description>
       <initValue>''</initValue>
       <name>hk_input_oleurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_bankno</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>hk_input_spouse_mphone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -213,6 +238,16 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/Home'</initValue>
       <name>url_Home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/OrderDetails/latest'</initValue>
+      <name>url_latest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwenrollment.melaleuca.com/MarketingExecutive'</initValue>
+      <name>url_MarketingExecutive</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
