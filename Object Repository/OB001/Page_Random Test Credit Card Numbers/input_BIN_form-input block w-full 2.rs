@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_BIN_form-input block w-full 2</name>
+   <tag></tag>
+   <elementGuidId>aa50e112-5726-40f7-8725-d14f6ffbae64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div[3]/div/form/div/label/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-input.block.w-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e03ca84c-b1ca-4d64-8935-6711e0d75eaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>453590</value>
+      <webElementGuid>a660f2a0-e75b-4f2f-9bab-b2f0132ff140</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-input block w-full</value>
+      <webElementGuid>a45a175e-f606-4796-8a30-fae7509d6b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container min-h-70-screen&quot;]/div[@class=&quot;min-h-70-screen&quot;]/div[@class=&quot;flex flex-wrap -mx-2 mt-5 text-gray-700&quot;]/div[@class=&quot;w-full sm:w-1/2 px-2&quot;]/form[1]/div[1]/label[@class=&quot;block cursor-pointer relative&quot;]/input[@class=&quot;form-input block w-full&quot;]</value>
+      <webElementGuid>892ee708-61c0-4c66-ba86-fe63114a6c02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div[3]/div/form/div/label/input</value>
+      <webElementGuid>57ae8650-6f29-46eb-81ae-9d09851f439f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/input</value>
+      <webElementGuid>a6ec1ed1-8b7a-4485-aea9-6d3cbf196a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '453590']</value>
+      <webElementGuid>3f1391ef-d462-4978-aefc-5beb80c3ef8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

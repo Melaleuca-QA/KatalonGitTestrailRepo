@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Generate 2</name>
+   <tag></tag>
+   <elementGuidId>8eca34c2-2f8b-4aa1-9109-7b514a31462b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d05962b4-536d-4cc9-93de-0c3bbfd3558e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>94f98215-1432-4239-b478-558e4a11b36f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center shadow-md bg-teal-600 text-white font-medium w-full rounded py-3 hover:bg-teal-500 focus:bg-teal-700 focus:outline-none</value>
+      <webElementGuid>bde514b7-18e8-4f8c-8043-87f6de39256b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 
+            Generate
+        </value>
+      <webElementGuid>1983dc68-bca1-4051-8d93-0cd292986741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container min-h-70-screen&quot;]/div[@class=&quot;min-h-70-screen&quot;]/div[@class=&quot;flex flex-wrap -mx-2 mt-5 text-gray-700&quot;]/div[@class=&quot;w-full sm:w-1/2 px-2&quot;]/form[1]/div[@class=&quot;mt-6&quot;]/button[@class=&quot;flex items-center justify-center shadow-md bg-teal-600 text-white font-medium w-full rounded py-3 hover:bg-teal-500 focus:bg-teal-700 focus:outline-none&quot;]</value>
+      <webElementGuid>9fd88e24-aef7-4553-a644-56e011cd0f04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>fa56276b-ea74-407a-a330-83b8f9f670cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div[3]/div/form/div[5]/button</value>
+      <webElementGuid>9311cc4e-e7df-4cba-bdd9-d564f11b981b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FORMAT'])[1]/following::button[1]</value>
+      <webElementGuid>71ba04f8-e14e-4989-a994-4412ffeb9086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QUANTITY'])[1]/following::button[1]</value>
+      <webElementGuid>517b4a7c-c228-49f2-9e00-8166867c97f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RESULT'])[1]/preceding::button[1]</value>
+      <webElementGuid>bfd62192-0c03-44de-8630-533a553e91b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy to clipboard'])[1]/preceding::button[1]</value>
+      <webElementGuid>7237a480-82d4-4b04-91b3-806fb661c2e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Generate']/parent::*</value>
+      <webElementGuid>478c1e4a-36fb-4275-bb64-e5c5190e7538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>bd62f96c-8394-4062-a2c7-a81f3245a50d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' 
+            Generate
+        ' or . = ' 
+            Generate
+        ')]</value>
+      <webElementGuid>213ae7de-b5cb-41d5-9782-34a704eebc69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -23,13 +23,9 @@ WebUI.navigateToUrl('http://id.ifreesite.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.sendKeys(findTestObject('OB001/Page_ID/input'), Keys.chord(Keys.PAGE_DOWN))
-
 WebUI.click(findTestObject('OB001/Page_ID/input'))
 
 GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('OB001/Page_ID/input_TaiwanID'), 'value')
-
-WebUI.sendKeys(findTestObject('OB001/Page_ID/input'), Keys.chord(Keys.PAGE_UP))
 
 println(GlobalVariable.tw_input_citizen)
 
