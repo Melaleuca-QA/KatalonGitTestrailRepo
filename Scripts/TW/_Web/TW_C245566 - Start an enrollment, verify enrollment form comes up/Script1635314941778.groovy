@@ -30,7 +30,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get citizen number'
-    WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -56,7 +56,7 @@ WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(100)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
@@ -89,7 +89,7 @@ WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
@@ -134,11 +134,9 @@ WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_AddressConfirm'))
 
-WebUI.focus(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
+WebUI.waitForPageLoad(100)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 

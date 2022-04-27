@@ -19,30 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://namso-gen.com/')
+WebUI.navigateToUrl('https://people.debian.org/~paulliu/ROCid.html')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), '405430')
+WebUI.click(findTestObject('Object Repository/OB001/Page_Taiwan ROC ID Generator/input'))
 
-//WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
-//       Keys.CONTROL, 'a', Keys.DELETE))
-//WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), '1')
-//WebUI.sendKeys(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
-//       Keys.PAGE_DOWN))
-WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate'))
+GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('Object Repository/OB001/Page_Taiwan ROC ID Generator/input_ID Num'), 
+    'value')
 
-WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate'))
-
-result1 = WebUI.getAttribute(findTestObject('OB001/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
-
-println(result1)
-
-result2 = result1.substring(0, 16)
-
-GlobalVariable.tw_input_creditcard = result2
-
-println(GlobalVariable.tw_input_creditcard)
+println(GlobalVariable.tw_input_citizen)
 
 WebUI.closeBrowser()
 
