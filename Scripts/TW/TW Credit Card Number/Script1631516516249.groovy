@@ -23,21 +23,20 @@ WebUI.navigateToUrl('https://namso-gen.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), 
-    '405430')
+WebUI.enableSmartWait()
 
-WebUI.sendKeys(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), 
-    Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), '405430')
 
-WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), 
-    '1')
+WebUI.sendKeys(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
+        Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), '1')
 
 WebUI.focus(findTestObject('OB003/Page_Random Test Credit Card Numbers/button_Generate'))
 
 WebUI.click(findTestObject('OB003/Page_Random Test Credit Card Numbers/button_Generate'))
 
-result1 = WebUI.getAttribute(findTestObject('OB003/Page_Random Test Credit Card Numbers/textarea_RESULT_result'), 
-    'value')
+result1 = WebUI.getAttribute(findTestObject('OB003/Page_Random Test Credit Card Numbers/textarea_RESULT_result'), 'value')
 
 println(result1)
 
