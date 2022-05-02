@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1</name>
+   <name>div_BusinessCenter_OLE_ConfirmDetails_SearchSuppleTeam_Cancel</name>
    <tag></tag>
-   <elementGuidId>b67cbd3e-bde5-467a-a241-c304544ab968</elementGuidId>
+   <elementGuidId>09dcb984-5376-4b0a-bb77-fab9bcc6ce45</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnPlaceMyOrder']</value>
+         <value>//div[@id='dvSupportTeamSearch']/div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnPlaceMyOrder</value>
+         <value>div.cancelSearchLink.ng-binding</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,109 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94c3ee1c-3f65-490d-9860-a04b0f210ad9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnPlaceMyOrder</value>
-      <webElementGuid>552393d6-5cb9-4f8c-8392-1355e39e3935</webElementGuid>
+      <value>div</value>
+      <webElementGuid>fb52b750-196a-4148-b4d8-6d847f090840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pure-button pure-button-transparent</value>
-      <webElementGuid>9d25fb54-321d-4da3-b3b3-c2c2d52dfe7e</webElementGuid>
+      <value>cancelSearchLink ng-binding</value>
+      <webElementGuid>6612160a-9253-4258-ad20-642bf42bafd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>processAction(true);</value>
-      <webElementGuid>7280a627-dfcc-4f74-a6e6-2457d598e3e2</webElementGuid>
+      <value>togglePresenterSearch()</value>
+      <webElementGuid>03ea36aa-7c88-469e-8439-55acf988f8c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-		確認訂單
-	</value>
-      <webElementGuid>7e2d0686-2ddc-4476-bb73-844a364a4937</webElementGuid>
+      <value>取消</value>
+      <webElementGuid>fc03a3f0-8395-4c82-acf7-0b316ba5c9bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnPlaceMyOrder&quot;)</value>
-      <webElementGuid>8f3e1ebe-6ad4-48dd-81a6-f237e1f48861</webElementGuid>
+      <value>id(&quot;dvPresenterSearch&quot;)/div[@class=&quot;cancelSearchLink ng-binding&quot;]</value>
+      <webElementGuid>98bf2cd9-260b-4a8a-8a2c-37e2f8ee3bb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='btnPlaceMyOrder']</value>
-      <webElementGuid>b2e954b0-11bf-43bb-a7c5-26613dc2b906</webElementGuid>
+      <value>//div[@id='dvPresenterSearch']/div[4]</value>
+      <webElementGuid>e49759d8-b37c-4dbc-91f0-2c7f71a4fcb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續購物'])[1]/following::button[1]</value>
-      <webElementGuid>0bda68fa-6772-49bb-923e-9504126c13b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TestHK PCR'])[1]/following::div[1]</value>
+      <webElementGuid>d34fb8cb-b35c-4da1-96b9-119dc77a532f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</value>
-      <webElementGuid>b2c9a3ea-ea15-4c53-ad39-3d4005d10af5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='搜尋'])[1]/following::div[5]</value>
+      <webElementGuid>840dc679-8db6-4ec3-93ab-a1d371571920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='跳到主頁'])[1]/preceding::button[1]</value>
-      <webElementGuid>464fccfb-e4dc-4e6e-a60a-bc51ca6f9f69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='輔導事業代表'])[1]/preceding::div[1]</value>
+      <webElementGuid>779b8d7c-3ee2-4e7f-8228-7f0869e21a9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='確認訂單']/parent::*</value>
-      <webElementGuid>da84c1d7-8c9e-4d65-ba58-21e6efbb8b35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tw50550556'])[1]/preceding::div[2]</value>
+      <webElementGuid>7de0893c-8310-4420-920d-97a2142f3685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='取消']/parent::*</value>
+      <webElementGuid>1ea67191-e150-48d4-829e-b72524779407</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>1a90980f-6b45-42b9-9fe9-63480add4c68</webElementGuid>
+      <value>//div[3]/div[2]/div/div[3]/div[4]</value>
+      <webElementGuid>abec97ae-a952-4885-906b-f9b82ddbf62c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btnPlaceMyOrder' and (text() = '
-		確認訂單
-	' or . = '
-		確認訂單
-	')]</value>
-      <webElementGuid>f700a608-8a9d-4e29-9047-cd8e609ce656</webElementGuid>
+      <value>//div[(text() = '取消' or . = '取消')]</value>
+      <webElementGuid>412c5a8a-449f-4837-8bc1-9cc29f116b4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

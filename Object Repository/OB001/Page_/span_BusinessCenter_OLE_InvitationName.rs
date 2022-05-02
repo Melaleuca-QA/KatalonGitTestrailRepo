@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1</name>
+   <name>span_BusinessCenter_OLE_InvitationName</name>
    <tag></tag>
-   <elementGuidId>b67cbd3e-bde5-467a-a241-c304544ab968</elementGuidId>
+   <elementGuidId>87bbd606-8cab-47d2-9c50-0e190600b8bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnPlaceMyOrder']</value>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[7]/div[2]/div[2]/div/div[1]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnPlaceMyOrder</value>
+         <value>div.customerData.name.greenText > span.ng-binding</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'tw918211' or . = 'tw918211')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,109 +25,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94c3ee1c-3f65-490d-9860-a04b0f210ad9</webElementGuid>
+      <value>span</value>
+      <webElementGuid>96bee4eb-fb72-42bd-8f11-c8ad82bfd7cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>btnPlaceMyOrder</value>
-      <webElementGuid>552393d6-5cb9-4f8c-8392-1355e39e3935</webElementGuid>
+      <value>viewContactInformation(enrollee);</value>
+      <webElementGuid>8a11b190-66d7-4d71-be0d-c8f7a01ddf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tracking</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>4376d273-79d2-4280-b5b1-49770cb3d406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pure-button pure-button-transparent</value>
-      <webElementGuid>9d25fb54-321d-4da3-b3b3-c2c2d52dfe7e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>processAction(true);</value>
-      <webElementGuid>7280a627-dfcc-4f74-a6e6-2457d598e3e2</webElementGuid>
+      <value>ng-binding</value>
+      <webElementGuid>0e6da94a-52c0-4ba2-8a62-a8b44cc0eb12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-		確認訂單
-	</value>
-      <webElementGuid>7e2d0686-2ddc-4476-bb73-844a364a4937</webElementGuid>
+      <value>tw918211</value>
+      <webElementGuid>86e1b58b-03af-4221-9e4d-61ee3999b28d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnPlaceMyOrder&quot;)</value>
-      <webElementGuid>8f3e1ebe-6ad4-48dd-81a6-f237e1f48861</webElementGuid>
+      <value>id(&quot;invitation_1796&quot;)/div[@class=&quot;rowWrapper&quot;]/div[@class=&quot;customerData name greenText&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>01c27e6d-7f82-4bca-b66e-14b0c5f17a9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='btnPlaceMyOrder']</value>
-      <webElementGuid>b2e954b0-11bf-43bb-a7c5-26613dc2b906</webElementGuid>
+      <value>//div[@id='invitation_1796']/div/div/span</value>
+      <webElementGuid>82b00e11-fc2d-4000-8dc0-54be76b2bed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續購物'])[1]/following::button[1]</value>
-      <webElementGuid>0bda68fa-6772-49bb-923e-9504126c13b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='下一步'])[1]/following::span[2]</value>
+      <webElementGuid>13b38c28-d3b1-4ae9-bf74-f943fd9fe1dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</value>
-      <webElementGuid>b2c9a3ea-ea15-4c53-ad39-3d4005d10af5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='狀況'])[1]/following::span[4]</value>
+      <webElementGuid>9153c754-1205-4f79-8622-1f167a79d151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='跳到主頁'])[1]/preceding::button[1]</value>
-      <webElementGuid>464fccfb-e4dc-4e6e-a60a-bc51ca6f9f69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='待定'])[1]/preceding::span[1]</value>
+      <webElementGuid>fd0d1704-3c06-4b50-89ce-fa1168bfd030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='確認訂單']/parent::*</value>
-      <webElementGuid>da84c1d7-8c9e-4d65-ba58-21e6efbb8b35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發送提醒'])[1]/preceding::span[1]</value>
+      <webElementGuid>5b435e72-ba43-4533-932b-2c9731576c11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>1a90980f-6b45-42b9-9fe9-63480add4c68</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@id = 'btnPlaceMyOrder' and (text() = '
-		確認訂單
-	' or . = '
-		確認訂單
-	')]</value>
-      <webElementGuid>f700a608-8a9d-4e29-9047-cd8e609ce656</webElementGuid>
+      <value>//div[7]/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>6ae3acae-78ef-4322-acb3-140f90f6b825</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
