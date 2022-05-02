@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.refresh()
-
 WebUI.navigateToUrl('https://pinkylam.me/playground/hkid/')
+
+WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.refresh()
+WebUI.click(findTestObject('OB001/Page_Hong Kong Identity Card Number/button_Generate'))
 
-WebUI.click(findTestObject('OB003/Page_Hong Kong Identity Card Number/button_Generate'))
+GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB001/Page_Hong Kong Identity Card Number/div_RandomHKID'))
 
-GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB003/Page_Hong Kong Identity Card Number/div_RandomHKID'))
+WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
 println(GlobalVariable.hk_input_citizen)
 

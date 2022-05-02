@@ -241,6 +241,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/OrderDetails/latest'</initValue>
+      <name>url_latest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://sttwenrollment.melaleuca.com/MarketingExecutive'</initValue>
       <name>url_MarketingExecutive</name>
    </GlobalVariableEntity>

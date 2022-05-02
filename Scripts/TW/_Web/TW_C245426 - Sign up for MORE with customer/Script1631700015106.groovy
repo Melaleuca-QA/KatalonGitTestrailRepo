@@ -20,20 +20,22 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_tw_ReportandTool'))
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_tw_ReportandTool'))
 
-WebUI.click(findTestObject('OB003/Page_/a_BusinessCenter_tw_ReportandTool_ReportandTool'))
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_tw_ReportandTool_ReportandTool'))
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_BusinessCenter_tw_ReportandTool_ReportandTool_view'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_tw_ReportandTool_ReportandTool_view'))
 
-//WebUI.click(findTestObject('OB003/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox'))
-WebUI.click(findTestObject('OB003/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
+WebUI.click(findTestObject('OB001/Page_/input_BusinessCenter_tw_ReportandTool_ReportandTool_view_checkbox'))
+
+//WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox'))
+WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
 
 WebUI.switchToWindowTitle('MORE')
 
@@ -41,87 +43,87 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Dashboard'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Dashboard'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Alerts'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Alerts'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Snapshot'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Snapshot'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_NewGrowth'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_NewGrowth'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Enrollments'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Enrollments'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Cancellations'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Cancellations'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Reactivations'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Reactivations'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_LeadershipPoints'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_LeadershipPoints'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Advancements'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Advancements'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Mentoring'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Mentoring'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_CoreOrganization'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_CoreOrganization'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_KPI'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_KPI'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_StatusGoals'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_StatusGoals'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_PersonalEnrollees'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_PersonalEnrollees'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_SupportTeam'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_SupportTeam'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_NewDirectors'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_NewDirectors'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_NewAdvancements'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_NewAdvancements'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_OrgDirectors'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_OrgDirectors'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_Enrolled2'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_Enrolled2'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_BackupOrderReport'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_BackupOrderReport'))
 
 WebUI.waitForPageLoad(100)
 
-WebUI.click(findTestObject('OB003/Page_MORE/a_ShowOrgViewer'))
+WebUI.click(findTestObject('OB001/Page_MORE/a_ShowOrgViewer'))
 
 WebUI.waitForPageLoad(100)
 

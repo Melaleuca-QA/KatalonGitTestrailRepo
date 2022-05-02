@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_BusinessCenter_OLE_ConfirmDetails_Presenter_Edit</name>
+   <tag></tag>
+   <elementGuidId>5b0dab8c-e782-45ad-a4de-f1b23378d546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvPresenter']/span[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pencilEditText.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>73cff61e-82ce-4587-beac-7ead1274ebf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pencilEditText ng-binding</value>
+      <webElementGuid>4c833e4b-8dbc-421b-a15f-84af3e4e9331</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>編輯</value>
+      <webElementGuid>85ae115a-3a38-4c89-a6d3-072bff139f3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dvPresenter&quot;)/span[@class=&quot;greenIcon&quot;]/span[@class=&quot;pencilEditText ng-binding&quot;]</value>
+      <webElementGuid>be35a2be-ceaa-45d2-b6a6-c6f09f832d18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dvPresenter']/span[2]/span</value>
+      <webElementGuid>d13f04b2-8d71-4305-a796-3dedfbfa69b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TestHK PCR'])[1]/following::span[2]</value>
+      <webElementGuid>c6ad3d89-916e-4e0f-b17d-75edc7a66cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='協助推薦人'])[1]/following::span[3]</value>
+      <webElementGuid>1d5b6586-58cb-4b62-a9df-e7b9f7fdd27d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='協助說明美樂家會員權益者'])[1]/preceding::span[1]</value>
+      <webElementGuid>a4ccd9f5-f5cf-48a7-8442-bdc0649ba9f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='輔導事業代表'])[1]/preceding::span[1]</value>
+      <webElementGuid>34b99e8b-33e9-40eb-9a25-08c293756c6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='編輯']/parent::*</value>
+      <webElementGuid>0e089f02-7874-4053-8203-082539afaa95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span[2]/span</value>
+      <webElementGuid>4235e8c9-587d-4360-bbf9-80cc902e710a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '編輯' or . = '編輯')]</value>
+      <webElementGuid>35af5756-3f9a-4cf5-944c-e7b787f4b5f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

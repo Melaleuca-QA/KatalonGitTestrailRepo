@@ -21,14 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cardguru.io/')
 
+WebUI.refresh()
+
 WebUI.maximizeWindow()
 
-WebUI.refresh()
+WebUI.click(findTestObject('OB001/Page_Credit Card Generator Validator/button_Generate'))
 
-WebUI.click(findTestObject('OB003/Page_Credit Card Generator Validator/button_Generate'))
-
-WebUI.waitForElementPresent(findTestObject('OB003/Page_Credit Card Generator Validator/span_CardNumber'), 
-    5)
+WebUI.waitForElementPresent(findTestObject('OB001/Page_Credit Card Generator Validator/span_CardNumber'), 5)
 
 WebUI.refresh()
 
@@ -36,7 +35,9 @@ WebUI.refresh()
 
 WebUI.refresh()
 
-result1 = WebUI.getText(findTestObject('OB003/Page_Credit Card Generator Validator/span_CardNumber'))
+result1 = WebUI.getText(findTestObject('OB001/Page_Credit Card Generator Validator/span_CardNumber'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
 println(result1)
 

@@ -20,23 +20,23 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB003/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB003/Page_Melaleuca The Wellness Company/i__fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccount'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('OB004/Page_Melaleuca The Wellness Company/a_ContactMelaleuca'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ContactMelaleuca'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
-WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_TransfeeHistory'))
+WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_TransfeeHistory'))
 
-WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
 
-WebUI.click(findTestObject('OB003/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
 WebUI.waitForPageLoad(100)
 
@@ -46,7 +46,7 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
 
-WebUI.click(findTestObject('OB003/Page_/a_MyAccountShowAll_OtherOption_MoreDetail_SendSteps'))
+WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_MoreDetail_SendSteps'))
 
 WebUI.waitForPageLoad(100)
 
