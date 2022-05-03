@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
@@ -42,13 +42,15 @@ WebUI.click(findTestObject('OB001/Page_/button_Payment'))
 
 WebUI.waitForPageLoad(100)
 
-if (WebUI.verifyElementNotVisible(findTestObject('OB001/Page_/div_3535')) == true) {
-} else {
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
     WebUI.click(findTestObject('OB001/Page_/button_ck35'))
 }
 
-WebUI.delay(3)
-
+//now_text = WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_3535'))
+//println(now_text)
+//if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_3535')) == true) {
+//    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+//}
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Place a quick shop order'

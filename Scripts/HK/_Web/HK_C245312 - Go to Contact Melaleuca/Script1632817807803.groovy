@@ -42,7 +42,7 @@ println(now_text2)
 WebUI.verifyMatch(now_text2, '美樂家香港', false)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__stars'), 3)) {
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
