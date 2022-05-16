@@ -140,13 +140,7 @@ WebUI.delay(3)
 
 WebUI.closeWindowTitle('Org Browser')
 
-WebUI.switchToWindowUrl(GlobalVariable.url_MORE)
-
-WebUI.delay(3)
-
-now_url = WebUI.getUrl()
-
-println(now_url)
+WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

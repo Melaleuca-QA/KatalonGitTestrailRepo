@@ -23,33 +23,15 @@ WebUI.navigateToUrl('https://namso-gen.com/')
 
 WebUI.maximizeWindow()
 
-<<<<<<< HEAD
-WebUI.enableSmartWait()
-=======
-WebUI.setText(findTestObject('Object Repository/OB001/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full 2'), 
-    '405430')
->>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
+WebUI.setText(findTestObject('OB001/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full 2'), '405430')
 
-<<<<<<< HEAD
-WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full'), '405430')
-=======
-WebUI.doubleClick(findTestObject('Object Repository/OB001/Page_Random Test Credit Card Numbers/button_Generate 2'))
->>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
+//WebUI.sendKeys(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
+//        Keys.CONTROL, 'a', Keys.DELETE))
+WebUI.click(findTestObject('OB001/Page_Random Test Credit Card Numbers/button_Generate 2'))
 
-<<<<<<< HEAD
-WebUI.sendKeys(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
-        Keys.CONTROL, 'a', Keys.DELETE))
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('OB003/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), '1')
-
-WebUI.focus(findTestObject('OB003/Page_Random Test Credit Card Numbers/button_Generate'))
-
-WebUI.click(findTestObject('OB003/Page_Random Test Credit Card Numbers/button_Generate'))
-
-result1 = WebUI.getAttribute(findTestObject('OB003/Page_Random Test Credit Card Numbers/textarea_RESULT_result'), 'value')
-=======
 result1 = WebUI.getAttribute(findTestObject('OB001/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
->>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
 
 println(result1)
 

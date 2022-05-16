@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_BusinessCenter_ApplyEnroll_hk</name>
+   <name>a_BusinessCenter_ApplyEnroll_hk - Copy</name>
    <tag></tag>
-   <elementGuidId>cdd32e99-ef2d-4836-bdb7-5710e7cadf58</elementGuidId>
+   <elementGuidId>94b3e47b-0cbc-454e-99f2-bc07046570f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[8]</value>
+         <value>(//a[@onclick=''])[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e8919e67-77b0-44e3-a3ae-dee99234141f</webElementGuid>
+      <webElementGuid>327f8927-8b17-43d0-95bf-f2127ef7a803</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview</value>
-      <webElementGuid>454a1a93-79c5-434a-a8c4-c73b2ef0c5ab</webElementGuid>
+      <webElementGuid>d604a5de-894e-4ce5-910c-f8b3741fddb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>1210</value>
-      <webElementGuid>12fa1dc1-0d13-4962-85db-bb5b83bd35f3</webElementGuid>
+      <webElementGuid>c53d4911-df35-4161-bfbe-54b2d1448f81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>1209</value>
-      <webElementGuid>4a012461-fc0d-4f56-8e34-ee4d0e639129</webElementGuid>
+      <webElementGuid>4c64cda2-42de-4062-b98a-96dc2ae25143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>c39d278d-73b2-48d5-9cae-95cc99039d11</webElementGuid>
+      <webElementGuid>88b408cd-fb1d-4848-9c0d-e2794b672d02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>申請會籍</value>
-      <webElementGuid>555d880a-ed8e-45cc-90b3-0078c7312c2f</webElementGuid>
+      <webElementGuid>42e2aa42-b77e-46c0-9d1a-34eb173930a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>60d932e4-e2f7-473a-8346-e662431d258c</webElementGuid>
+      <webElementGuid>ab43e890-c9af-4022-b8ec-29d6d8783cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
                                 
                                 申請會籍
                             </value>
-      <webElementGuid>7d7bf6de-c470-4031-baae-ab70ed65b0cb</webElementGuid>
+      <webElementGuid>a35244a4-9b0e-4141-9df0-19ed9e838546</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview&quot;]</value>
-      <webElementGuid>767e9f29-04e8-4436-822f-fecd10a23f53</webElementGuid>
+      <webElementGuid>aadc4223-2b18-42e5-a560-baa4a75cfd0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[8]</value>
-      <webElementGuid>d7d49bff-9b4d-4547-800c-57f94e0af57d</webElementGuid>
+      <webElementGuid>93bdb2ed-2483-492b-af2a-3e3228adb434</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='申請會籍']/parent::*</value>
-      <webElementGuid>a31ec040-2dbe-4608-986d-aec8c60c3798</webElementGuid>
+      <webElementGuid>d5d8de41-e5b3-4cb7-935c-7c04b957c01b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[8]</value>
-      <webElementGuid>e305f550-bd9b-48fb-85f4-4d6a4cba842f</webElementGuid>
+      <webElementGuid>f4d806aa-b745-4ff7-96dd-9f29f36b5138</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[8]</value>
-      <webElementGuid>af21563a-dade-4f06-a3f7-f729f358200e</webElementGuid>
+      <webElementGuid>c84e599d-6ec8-4d76-bb37-ac1a6010fc99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

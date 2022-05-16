@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>_HKTEST</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -156,162 +156,162 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/account'</initValue>
+      <initValue>'https://hktest.melaleuca.com/account'</initValue>
       <name>url_account</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/BusinessCenter/Home'</initValue>
+      <initValue>'https://hktest.melaleuca.com/BusinessCenter/Home'</initValue>
       <name>url_BusinessCenter</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
       <name>url_CancelEmailConfirm</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
       <name>url_CancelEmailSent</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/Cart'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/Cart'</initValue>
       <name>url_Cart</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/content/category?c=119'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/content/category?c=119'</initValue>
       <name>url_category119</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
+      <initValue>'https://hktest.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
       <name>url_ChangePaymethods</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/Checkout'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/Checkout'</initValue>
       <name>url_Checkout</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
+      <initValue>'https://hktest.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
       <name>url_contack_hk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
+      <initValue>'https://hktest.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_Taiwan'</initValue>
       <name>url_contack_tw</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://enrollmenttwtest.melaleuca.com/CustomerType'</initValue>
+      <initValue>'https://enrollmenthktest.melaleuca.com/CustomerType'</initValue>
       <name>url_CustomerType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
+      <initValue>'https://hktest.melaleuca.com/Account/Create/ValidateCustomerByEmail'</initValue>
       <name>url_EmailSuccess</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/HelpCenter/FAQ'</initValue>
+      <initValue>'https://hktest.melaleuca.com/HelpCenter/FAQ'</initValue>
       <name>url_FAQ</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/BusinessCenter/Content.aspx?page=Enrollment_Forms'</initValue>
+      <initValue>'https://hktest.melaleuca.com/BusinessCenter/Content.aspx?page=Enrollment_Forms'</initValue>
       <name>url_Enrollment_Forms</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://hktest.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/GeneralError.aspx'</initValue>
+      <initValue>'https://hktest.melaleuca.com/GeneralError.aspx'</initValue>
       <name>url_GeneralError</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/Home'</initValue>
+      <initValue>'https://hktest.melaleuca.com/Home'</initValue>
       <name>url_Home</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/MyAccount/OrderDetails/latest'</initValue>
+      <initValue>'https://hktest.melaleuca.com/MyAccount/OrderDetails/latest'</initValue>
       <name>url_latest</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://enrollmenttwtest.melaleuca.com/MarketingExecutive'</initValue>
+      <initValue>'https://enrollmenthktest.melaleuca.com/MarketingExecutive'</initValue>
       <name>url_MarketingExecutive</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
+      <initValue>'https://hktest.melaleuca.com/BusinessCenter/content/melaleucapresentations'</initValue>
       <name>url_melaleucapresentations</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/Account/Create/MobileSuccess'</initValue>
+      <initValue>'https://hktest.melaleuca.com/Account/Create/MobileSuccess'</initValue>
       <name>url_MobileSuccess</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/BusinessCenter/More.aspx'</initValue>
+      <initValue>'https://hktest.melaleuca.com/BusinessCenter/More.aspx'</initValue>
       <name>url_MORE</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
+      <initValue>'https://hktest.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
       <name>url_OtherOptions</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
+      <initValue>'https://hktest.melaleuca.com/ProductStore/Home/ProductStoreLanding'</initValue>
       <name>url_ProductStore</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/search-results?q=117'</initValue>
+      <initValue>'https://hktest.melaleuca.com/search-results?q=117'</initValue>
       <name>url_sku117</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/search-results?q=lemon'</initValue>
+      <initValue>'https://hktest.melaleuca.com/search-results?q=lemon'</initValue>
       <name>url_sku2854</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/search-results?q=%E8%A7%80%E9%81%A9%E5%81%A5'</initValue>
+      <initValue>'https://hktest.melaleuca.com/search-results?q=%E8%A7%80%E9%81%A9%E5%81%A5'</initValue>
       <name>url_sku2855</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/search-results?q=Safe%20%26'</initValue>
+      <initValue>'https://hktest.melaleuca.com/search-results?q=Safe%20%26'</initValue>
       <name>url_sku5680</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/search-results?q=___'</initValue>
+      <initValue>'https://hktest.melaleuca.com/search-results?q=___'</initValue>
       <name>url_sku_notfound</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/account/SignIn'</initValue>
+      <initValue>'https://hktest.melaleuca.com/account/SignIn'</initValue>
       <name>url_uatwweb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/more/OrgViewer.aspx?sid=undefined'</initValue>
+      <initValue>'https://hktest.melaleuca.com/more/OrgViewer.aspx?sid=undefined'</initValue>
       <name>url_undefined</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://twtest.melaleuca.com/businesscenter/whichproducts'</initValue>
+      <initValue>'https://hktest.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_whichproducts</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

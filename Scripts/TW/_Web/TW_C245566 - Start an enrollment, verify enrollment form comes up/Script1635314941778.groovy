@@ -29,14 +29,14 @@ if (false) {
 
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
+    'get credit card number'
+    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -48,8 +48,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
-
+//WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))

@@ -145,6 +145,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>82207c3a-53cf-48e8-b881-0ff450aae3cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C247190 - Verify ability to edit invite information</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>59d37bf8-46ec-4fa8-8371-cc08d5517657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

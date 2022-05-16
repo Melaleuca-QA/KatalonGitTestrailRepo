@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_CloseShoppingCart</name>
+   <name>div_CloseShoppingCart - Copy</name>
    <tag></tag>
-   <elementGuidId>4d32270b-9599-4600-afb2-55bf9f7059ec</elementGuidId>
+   <elementGuidId>b01d177c-d34e-48d3-8357-19e7e1a4ac95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[2]/div[2]/div[3]/div[5]</value>
+         <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0fef65a8-2cb1-4824-b039-601e72f241e2</webElementGuid>
+      <webElementGuid>5d889483-2eed-4482-bd92-7bc846a82edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cart-close-wrapper</value>
-      <webElementGuid>0a2a4176-8dc7-406c-a552-805c916fd4c5</webElementGuid>
+      <webElementGuid>e397958a-d09a-40f8-aa66-999dc80e5ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7a6b68b6-83d5-4a7e-ae8f-f0c2bb0bb460</webElementGuid>
+      <webElementGuid>fded4a47-df39-46a7-954e-20f1699907ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);</value>
-      <webElementGuid>25444753-091e-4f58-83cc-9caac25d361b</webElementGuid>
+      <webElementGuid>d5fef4b1-5dc6-40a3-874b-eac13ebe65ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);</value>
-      <webElementGuid>9df22677-b16a-4b51-82cf-375814065f8e</webElementGuid>
+      <webElementGuid>ff4ed60b-773f-4012-a17e-127e5ec639ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 關閉</value>
-      <webElementGuid>161aaf9e-009a-4e18-939b-c23f866c3546</webElementGuid>
+      <webElementGuid>e6dd67e5-cdc6-41b7-b765-6b8ec6d3591c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mycart&quot;)/div[@class=&quot;cart-close-wrapper&quot;]</value>
-      <webElementGuid>0b18cd57-7b21-414e-9c94-1c6d897a664e</webElementGuid>
+      <webElementGuid>f52d7520-66a5-4c3e-bc1c-c748b49639fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@onclick=&quot;$('.utility-container.minicart').hide(); cmCreateElementTag('Minicart XClose', 'Checkout Process', standardElementAnalyticsAttributes);&quot;]</value>
-      <webElementGuid>090c8d15-83e7-4d97-b2da-0a2a78a00958</webElementGuid>
+      <webElementGuid>74bc37ac-b8fe-4359-a451-3ceebdd2455b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mycart']/div[5]</value>
-      <webElementGuid>017d9464-edff-4ca7-89fc-c1bdfaa4190c</webElementGuid>
+      <webElementGuid>bd32b1ba-978b-40ed-b6fa-c96851a9068c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='結帳'])[2]/following::div[3]</value>
-      <webElementGuid>b91a9ea2-2611-433c-9b93-36dac2fa31a6</webElementGuid>
+      <webElementGuid>fa4f80c6-d602-4fb7-af83-17f39ff3d6d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$0'])[3]/following::div[4]</value>
-      <webElementGuid>449e57d9-79e8-4172-a672-b152762708c9</webElementGuid>
+      <webElementGuid>c1c36485-2993-45d7-9559-b63dd209ff83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[2]/preceding::div[9]</value>
-      <webElementGuid>8dad04f1-870e-460a-ad7d-d994fdbf21cf</webElementGuid>
+      <webElementGuid>ef26cbf8-196d-4517-adb0-8b11bbab479e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品中心'])[1]/preceding::div[11]</value>
-      <webElementGuid>40ab6f24-ee88-4b8a-b29a-500d6328a33a</webElementGuid>
+      <webElementGuid>e60acc28-0317-44cb-9492-b5727e85dde0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[5]</value>
-      <webElementGuid>f7ae11ee-5108-444d-b617-30e65175d6dc</webElementGuid>
+      <webElementGuid>c8761bef-7e90-41f6-aa1f-1fa07d059945</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
