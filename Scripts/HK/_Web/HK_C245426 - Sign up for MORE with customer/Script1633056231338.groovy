@@ -138,14 +138,15 @@ WebUI.delay(3)
 WebUI.closeWindowTitle('Org Browser')
 
 //WebUI.switchToWindowUrl(GlobalVariable.url_ProductStore)
-
 //WebUI.delay(3)
-
 //now_url = WebUI.getUrl()
-
 //println(now_url)
-
 WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
