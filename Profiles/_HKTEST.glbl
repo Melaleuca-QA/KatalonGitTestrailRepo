@@ -314,4 +314,9 @@
       <initValue>'https://hktest.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_whichproducts</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>run_env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

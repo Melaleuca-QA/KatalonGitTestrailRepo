@@ -6,8 +6,18 @@
    <elementGuidId>455597c0-efb3-495c-98b0-2cfe99da7f64</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                家庭
+                            ' or . = '
+                                
+                                家庭
+                            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=''])[4]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>12e50563-ac3b-4383-8ca1-5fb3e0b4f4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item is-visible is-preview</value>
+      <webElementGuid>bd00f9e7-c9f2-412d-9153-a45f6a45cbf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +48,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>907</value>
+      <webElementGuid>324178b6-140f-4b80-9c99-0abab1ca0b24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +56,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>841</value>
+      <webElementGuid>09f0a770-e224-4a03-803d-ce666cd3eabe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +64,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>adc9706c-6ac9-4c3f-81a7-3708699b6d7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +72,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>家庭</value>
+      <webElementGuid>56f136e7-aa63-4ab8-9d85-a51c87e1055f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +80,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>34ac7a45-480b-4f16-8539-a8d8249662cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +91,7 @@
                                 
                                 家庭
                             </value>
+      <webElementGuid>67dca4e9-8455-480a-9e4e-ac4df7267bce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
+      <webElementGuid>dbdde502-f72b-4c57-a361-cffddf90929c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[4]</value>
+      <webElementGuid>deb4101f-b28c-4c5f-8785-e43c0822d418</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='家庭']/parent::*</value>
+      <webElementGuid>dfb2a820-436c-411b-9b9a-bb8a37994187</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[4]</value>
+      <webElementGuid>4df65462-0af7-4888-842c-c825a97e7712</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
+      <webElementGuid>24f7fb77-e797-463c-83d5-8f9e1d2aacf9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

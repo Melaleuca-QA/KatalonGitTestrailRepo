@@ -53,6 +53,8 @@ WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
+WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
 WebUI.waitForPageLoad(100)
@@ -81,6 +83,18 @@ println(GlobalVariable.tw_input_oleurl)
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+if (GlobalVariable.run_env == 'Test') {
+    result1 = GlobalVariable.tw_input_oleurl.substring(0, 12)
+
+    result2 = GlobalVariable.tw_input_oleurl.substring(12)
+
+    now_oleurl = ((result1 + 'test') + result2)
+
+    GlobalVariable.tw_input_oleurl = now_oleurl
+
+    println(GlobalVariable.tw_input_oleurl)
+}
 
 WebUI.openBrowser('')
 
@@ -147,8 +161,6 @@ WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
-
-WebUI.refresh()
 
 WebUI.refresh()
 

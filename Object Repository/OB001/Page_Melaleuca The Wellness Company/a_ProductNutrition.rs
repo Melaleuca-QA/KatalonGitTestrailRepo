@@ -4,10 +4,25 @@
    <name>a_ProductNutrition</name>
    <tag></tag>
    <elementGuidId>9dc901ff-b0e8-4ce9-94e0-b7556d3f5d68</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                營養
+                            ' or . = '
+                                
+                                營養
+                            ')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[@onclick='']</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>72d03a40-c464-4c3f-aa96-d28ace73b958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview</value>
+      <webElementGuid>899eeb46-6c19-479f-9e23-cd7c5fde23a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +53,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>842</value>
+      <webElementGuid>d2e3e9e3-f7ce-42bd-be4c-9b668a3e3e2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +61,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>841</value>
+      <webElementGuid>8c6c1073-4348-48c5-92e7-bde9063981b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +69,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>74e06b9b-a224-4b1d-9c9b-00c4e18054f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +77,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>營養</value>
+      <webElementGuid>0bb8c38a-e33e-4ba3-80db-493626967672</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>22189667-1cd7-45e2-93c2-c2128ea5468d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +96,7 @@
                                 
                                 營養
                             </value>
+      <webElementGuid>03fa32bc-e073-408e-b3a8-0d851cdac4e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +104,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview&quot;]</value>
+      <webElementGuid>0d37ddc6-d0ea-45d3-aba9-20a08022503b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +112,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='']</value>
+      <webElementGuid>8304b35b-871c-4021-8bd1-72141f840a69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關於美樂家'])[1]/following::a[1]</value>
+      <webElementGuid>ad6c4825-1906-4834-8809-06466bb5fe5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='事業中心'])[1]/following::a[2]</value>
+      <webElementGuid>2b71e37d-e6f7-45f6-9f55-f82cfcabbb96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='營養']/parent::*</value>
+      <webElementGuid>95d1406c-bd58-4602-87c6-7e14c8dee199</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +144,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:void(0)')]</value>
+      <webElementGuid>8b4c0aab-36d7-4a3e-b9aa-eb9a7b11812e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,5 +152,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/a</value>
+      <webElementGuid>792509bc-5b74-4020-8a3c-43b696d64f7b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

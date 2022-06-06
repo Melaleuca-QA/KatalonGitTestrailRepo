@@ -6,6 +6,10 @@
    <elementGuidId>5b0dab8c-e782-45ad-a4de-f1b23378d546</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '編輯' or . = '編輯')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='dvPresenter']/span[2]/span</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>73cff61e-82ce-4587-beac-7ead1274ebf6</webElementGuid>
+      <webElementGuid>0298b96a-c95e-4dcf-8f17-5cf611cab0c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pencilEditText ng-binding</value>
-      <webElementGuid>4c833e4b-8dbc-421b-a15f-84af3e4e9331</webElementGuid>
+      <webElementGuid>3afb9421-82ac-4518-9848-0aae781b2f5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>編輯</value>
-      <webElementGuid>85ae115a-3a38-4c89-a6d3-072bff139f3c</webElementGuid>
+      <webElementGuid>86934a03-815e-47ec-a0ea-045ae04dcc95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvPresenter&quot;)/span[@class=&quot;greenIcon&quot;]/span[@class=&quot;pencilEditText ng-binding&quot;]</value>
-      <webElementGuid>be35a2be-ceaa-45d2-b6a6-c6f09f832d18</webElementGuid>
+      <webElementGuid>8eb833da-46f3-4d96-bf46-9e4ea6c7fa5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvPresenter']/span[2]/span</value>
-      <webElementGuid>d13f04b2-8d71-4305-a796-3dedfbfa69b8</webElementGuid>
+      <webElementGuid>989d5615-09f4-4ba6-99fd-07066a9347e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TestHK PCR'])[1]/following::span[2]</value>
-      <webElementGuid>c6ad3d89-916e-4e0f-b17d-75edc7a66cdf</webElementGuid>
+      <webElementGuid>0131c78d-7307-40d3-abda-12ef8755675b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='協助推薦人'])[1]/following::span[3]</value>
-      <webElementGuid>1d5b6586-58cb-4b62-a9df-e7b9f7fdd27d</webElementGuid>
+      <webElementGuid>244e4575-c817-432e-8b7e-8991c5397ef9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='協助說明美樂家會員權益者'])[1]/preceding::span[1]</value>
-      <webElementGuid>a4ccd9f5-f5cf-48a7-8442-bdc0649ba9f8</webElementGuid>
+      <webElementGuid>7610393b-2f13-4dfe-b22f-e6f75ebe0d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='輔導事業代表'])[1]/preceding::span[1]</value>
-      <webElementGuid>34b99e8b-33e9-40eb-9a25-08c293756c6d</webElementGuid>
+      <webElementGuid>84dc3496-d794-4e62-9eca-36e89e0be70c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='編輯']/parent::*</value>
-      <webElementGuid>0e089f02-7874-4053-8203-082539afaa95</webElementGuid>
+      <webElementGuid>7e5bc01c-c3b5-4aed-aaba-219b9b51805e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span[2]/span</value>
-      <webElementGuid>4235e8c9-587d-4360-bbf9-80cc902e710a</webElementGuid>
+      <webElementGuid>56f16256-b062-4131-912c-f6684cbff7ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '編輯' or . = '編輯')]</value>
-      <webElementGuid>35af5756-3f9a-4cf5-944c-e7b787f4b5f9</webElementGuid>
+      <webElementGuid>66c44601-3a57-448b-ae66-2cdd28c7478e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

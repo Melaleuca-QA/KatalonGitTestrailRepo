@@ -77,6 +77,18 @@ GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB001/Page_M
 
 println(GlobalVariable.tw_input_oleurl)
 
+if (GlobalVariable.run_env == 'Test') {
+    result1 = GlobalVariable.tw_input_oleurl.substring(0, 12)
+
+    result2 = GlobalVariable.tw_input_oleurl.substring(12)
+
+    now_oleurl = ((result1 + 'test') + result2)
+
+    GlobalVariable.tw_input_oleurl = now_oleurl
+
+    println(GlobalVariable.tw_input_oleurl)
+}
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)

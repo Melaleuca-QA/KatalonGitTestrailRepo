@@ -28,9 +28,11 @@ if (false) {
     GlobalVariable.hk_input_citizen = 'O4485476'
 
     GlobalVariable.hk_input_creditcard = '4929630631717406'
+
+    GlobalVariable.hk_input_bankno = '4420874616'
 } else {
     'get citizen number'
-    WebUI.callTestCase(findTestCase('HK/HK Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('HK/HK Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
     WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -195,12 +197,28 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_BusinessCenter_OLE_DCChkAgre
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForPageLoad(30)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/OB001/Page_/button_BusinessCenter_OLE_IMEA_Start'))
+
+WebUI.waitForPageLoad(30)
+
+WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
+
+WebUI.click(findTestObject('OB001/Page_/span_HK_SH Banking'))
+
+WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
+
+WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_IMEA_ParticipationLevel'))
+
+WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_IMEA_PCChkAgree'))
+
+WebUI.setText(findTestObject('OB001/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
+
+WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
 '開始購物'
-WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'))
+WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping_hk'))
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {

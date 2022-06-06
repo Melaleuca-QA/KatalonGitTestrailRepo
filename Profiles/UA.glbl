@@ -339,4 +339,9 @@
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Formal'</initValue>
+      <name>run_env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

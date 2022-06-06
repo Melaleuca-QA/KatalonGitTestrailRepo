@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_BusinessCenter_OLE_StartShopping</name>
+   <name>button_BusinessCenter_OLE_StartShopping_hk</name>
    <tag></tag>
-   <elementGuidId>05862173-d029-4bad-a46c-02fdd18f04fc</elementGuidId>
+   <elementGuidId>fd73fa0a-77d2-445e-b8c9-01c98931208c</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                開始購物
+            ' or . = '
+                開始購物
+            ')]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.ole-action.ole-action--button.ole-action--button--green.ole-action--button--wide</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div/section[3]/div/button</value>
+         <value>/html/body/div[3]/div[2]/div/div/div/section[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>aff87c32-d738-470f-9e17-9a09150ed173</webElementGuid>
+      <webElementGuid>d024bd65-4baa-4e54-b4ab-6bd530f35350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();</value>
-      <webElementGuid>17c95f77-8c5c-4a3e-a47b-20052dba785c</webElementGuid>
+      <webElementGuid>df92b1cf-a8a8-426e-862d-88e0c49d3f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ole-action ole-action--button ole-action--button--green ole-action--button--wide</value>
-      <webElementGuid>67675005-aed9-46fd-84fb-e5b5b7301047</webElementGuid>
+      <webElementGuid>ae7469c1-de0c-485f-9479-59ace8d5d3c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +54,7 @@
       <name>data-mobile</name>
       <type>Main</type>
       <value>close</value>
-      <webElementGuid>e72fd66a-440e-410d-9181-12577ffad3d6</webElementGuid>
+      <webElementGuid>36e13917-6d3d-4510-93ca-7c9196edce4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +64,7 @@
       <value>
                 開始購物
             </value>
-      <webElementGuid>907ec5bf-b116-4896-a2b4-4ac375ee6bb8</webElementGuid>
+      <webElementGuid>3537afc5-928b-4a20-8297-9f50bbe991fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;enrollment-complete&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--congratulations&quot;]/section[@class=&quot;ole-section ole-section--refer-top ole-section--full-width&quot;]/div[@class=&quot;ole-wrapper--refer&quot;]/button[@class=&quot;ole-action ole-action--button ole-action--button--green ole-action--button--wide&quot;]</value>
-      <webElementGuid>5c6402bb-ff91-4317-af06-c0555732b37b</webElementGuid>
+      <webElementGuid>ac4b7a18-53a8-43d2-96df-93c8278c8f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +80,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnPlaceOrderTop</value>
-      <webElementGuid>04b798a6-26c3-4b46-8763-4d7724b9552d</webElementGuid>
+      <webElementGuid>e66e1221-e441-454f-9fa5-c3e022b5e672</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +88,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>140d9670-e4c9-428f-9822-5b617c4a15b2</webElementGuid>
+      <webElementGuid>08611ac1-8ccf-410b-bdae-319a226b1537</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();&quot;]</value>
-      <webElementGuid>95b2424c-bd4d-4b6b-8f7d-8ad9416ce2aa</webElementGuid>
+      <webElementGuid>5184ab33-cf8e-4901-8f19-58bbb6204873</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div[2]/div/div/div/section[3]/div/button</value>
-      <webElementGuid>4108560d-ca0b-4196-9de8-5211eab40374</webElementGuid>
+      <webElementGuid>202408ca-e023-4dbc-bcef-d8e5563aa20c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='立即開始購物！'])[1]/following::button[1]</value>
-      <webElementGuid>de9488f9-93c2-405c-8ba7-4c355a812d8a</webElementGuid>
+      <webElementGuid>76986ffe-e3ec-4b35-a235-0ab5259e6def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='優惠顧客購物帳戶'])[1]/following::button[1]</value>
-      <webElementGuid>872cadf4-4d3f-42a6-8abd-0dbd1bf06df6</webElementGuid>
+      <webElementGuid>c75c7bbc-0642-4245-a176-ae9fbe04974e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[1]/preceding::button[1]</value>
-      <webElementGuid>fb83d157-162c-4087-9ffb-22ec53465d19</webElementGuid>
+      <webElementGuid>5aaee7da-a559-45cb-a663-f0ce01b78bdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家刊物'])[1]/preceding::button[1]</value>
-      <webElementGuid>ab0aaa87-cfcc-4904-b5cd-ec7228de84d5</webElementGuid>
+      <webElementGuid>3aa4724c-3027-4125-9dcc-eb0b2cfdfa03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='開始購物']/parent::*</value>
-      <webElementGuid>48c35185-7454-4d72-9722-fb296d301a44</webElementGuid>
+      <webElementGuid>1fff0781-5e9f-4de6-83e5-e13b988cf919</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +152,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>7543dead-ae8e-4764-bea8-1fb1d0854a10</webElementGuid>
+      <webElementGuid>8cd2ea46-df3b-43f7-9a52-2937019a0ce0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +160,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div[2]/div/div/div/section[4]/div/button</value>
-      <webElementGuid>d44bcf41-44a1-4489-a40f-46ba3e134475</webElementGuid>
+      <webElementGuid>d266a018-f505-4b71-82b8-c69461d16bff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,7 +168,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續'])[1]/following::button[1]</value>
-      <webElementGuid>13d3300c-eb68-4c99-b751-54c5c3b6e4a5</webElementGuid>
+      <webElementGuid>553c65e9-f86f-453f-9682-a9b2adfa5cd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,7 +176,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品目錄/月刊/價目表'])[1]/preceding::button[1]</value>
-      <webElementGuid>9fe208fd-e208-49eb-85e7-e60c0ae1c5c9</webElementGuid>
+      <webElementGuid>f9bde059-4df7-4420-9c39-6dbd9e387c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -176,7 +184,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnPlaceOrderTop']</value>
-      <webElementGuid>6d73f4ab-3884-4820-bbf0-9efd591ee2dd</webElementGuid>
+      <webElementGuid>9c5f7657-cfff-458b-b22f-baf5141dbbf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -184,7 +192,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='maincontent']/div/div[2]/button</value>
-      <webElementGuid>b91638c9-08fb-4588-b3f6-735526a1d4c5</webElementGuid>
+      <webElementGuid>4d3e795a-0316-4cd9-8aed-6cd698657870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -192,7 +200,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='請檢查您的訂單'])[1]/following::button[1]</value>
-      <webElementGuid>4c53fd7e-d08e-42d9-b70c-dedc4eeea4cf</webElementGuid>
+      <webElementGuid>43699b0d-849f-474e-a495-92d78316b9b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -200,7 +208,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='今天已下過的訂單與本此訂單相似'])[1]/preceding::button[1]</value>
-      <webElementGuid>4c9a76fe-0fd0-4a4a-8111-e6367cacf355</webElementGuid>
+      <webElementGuid>15c7f9b4-5b8d-41e6-a456-7c6ae8ddda06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -208,7 +216,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='付款']/parent::*</value>
-      <webElementGuid>4a8cc641-5cb8-46f3-af6b-6146a511faac</webElementGuid>
+      <webElementGuid>ed6371a6-4959-499d-9e55-eca953c85ab7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -216,6 +224,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>94336a66-7cad-403f-8a94-1f0b450528c9</webElementGuid>
+      <webElementGuid>862e02ab-d8c9-455d-ad44-777fee0ab062</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

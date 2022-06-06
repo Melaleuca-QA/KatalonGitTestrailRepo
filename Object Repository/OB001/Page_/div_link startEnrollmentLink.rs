@@ -6,6 +6,10 @@
    <elementGuidId>57a082d8-21e2-4a48-b5af-3b2a677bcbe9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink large&quot;]/div[@class=&quot;link startEnrollmentLink&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='dvNewEnrollment']/div[4]/div/div</value>
       </entry>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>3c6b787c-cf2b-428d-84b1-eef0023539a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>link startEnrollmentLink</value>
+      <webElementGuid>4947b165-7927-470c-9f88-96cd76bce592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink large&quot;]/div[@class=&quot;link startEnrollmentLink&quot;]</value>
+      <webElementGuid>28363f7a-0586-4d02-99b4-658692267eea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div/div</value>
+      <webElementGuid>331e5db7-75f2-458e-8f0e-9c7569069384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div[4]/div/div</value>
+      <webElementGuid>a6e77791-7f75-46dc-a2f6-ee34a19aeba7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

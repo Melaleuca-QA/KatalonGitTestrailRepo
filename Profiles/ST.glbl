@@ -314,4 +314,9 @@
       <initValue>'https://sttwweb.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_whichproducts</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Formal'</initValue>
+      <name>run_env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -6,6 +6,10 @@
    <elementGuidId>43d66a6b-244c-45d0-ba2a-c9d7f5bbbcfe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '選擇' or . = '選擇')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
       </entry>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>2914c190-6779-4ba1-a435-259b48577342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ole-action ole-action--button js-pop-up-fire</value>
+      <webElementGuid>d2e84b7e-5cb9-44d1-8d49-5c3825f5cc8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);</value>
+      <webElementGuid>7a2b7401-b6dd-4180-bc1a-00f3c539982a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>data-modal</name>
       <type>Main</type>
       <value>action</value>
+      <webElementGuid>7d1dd3ff-17da-4c89-a974-37e0aa079be9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>選擇</value>
+      <webElementGuid>6ce10b0e-7ea7-48ab-9959-05d9e6734fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;customer-type&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--customer&quot;]/section[@class=&quot;ole-section ole-section--customer&quot;]/div[@class=&quot;ole-list-wrapper&quot;]/a[@class=&quot;ole-action ole-action--button js-pop-up-fire&quot;]</value>
+      <webElementGuid>9fbf8ac5-bd0c-4b82-969f-bcacc5e829ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
+      <webElementGuid>0d8f2657-f178-4918-8ad5-f5dd95d15d07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div[2]/div[3]/div[2]/div/section[3]/div[2]/a</value>
+      <webElementGuid>08c4e70e-0fdb-4f0c-929c-460bbc727cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'選擇')]</value>
+      <webElementGuid>e71acf02-baa5-4388-9539-2003742aca9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='無風險，100%客戶滿意保證！'])[1]/following::a[1]</value>
+      <webElementGuid>d8c1313a-b8f3-42e0-a56c-b73271059eea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='有效的獨特商品'])[1]/following::a[1]</value>
+      <webElementGuid>177765b1-fbf2-4794-8dc3-b260b473e5fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[1]/preceding::a[1]</value>
+      <webElementGuid>30877362-cfca-48b2-bc90-8fa064e0aebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='您確定嗎?'])[1]/preceding::a[2]</value>
+      <webElementGuid>bf907d19-f4cc-4ba7-88b0-56c0529edb87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[3]/div[2]/a</value>
+      <webElementGuid>e44670df-79dc-4e16-8192-7fe4ea77cf74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

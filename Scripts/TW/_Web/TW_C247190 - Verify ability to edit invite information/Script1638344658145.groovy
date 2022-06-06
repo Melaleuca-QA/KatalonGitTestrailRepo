@@ -33,7 +33,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
     WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -49,7 +49,11 @@ WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
+WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
 
@@ -102,7 +106,21 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save')
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
-//WebUI.navigateToUrl('https://uatwweb.melaleuca.com/BusinessCenter/Enrollments/NewEnrollment')
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// test env //
+if (GlobalVariable.run_env == 'Test') {
+    result1 = GlobalVariable.tw_input_oleurl.substring(0, 12)
+
+    result2 = GlobalVariable.tw_input_oleurl.substring(12)
+
+    now_oleurl = ((result1 + 'test') + result2)
+
+    GlobalVariable.tw_input_oleurl = now_oleurl
+
+    println(GlobalVariable.tw_input_oleurl)
+}
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
@@ -112,6 +130,8 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_newpswd)
 
