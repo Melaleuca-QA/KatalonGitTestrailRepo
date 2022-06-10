@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dvNewEnrollment']/div[4]/div[4]/div</value>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[4]/div[4]/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.link.enrollmentFormsLink</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink&quot;]/div[@class=&quot;link enrollmentFormsLink&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>05154d50-0b11-4262-84e0-473c6a5df9f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>link enrollmentFormsLink</value>
+      <webElementGuid>c34a6608-c76f-48e3-af3d-3fdb122318d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink&quot;]/div[@class=&quot;link enrollmentFormsLink&quot;]</value>
+      <webElementGuid>6c8defd2-b77c-4651-a988-9a294929af8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div[4]/div</value>
+      <webElementGuid>effc3378-a430-4c61-8bf3-fb9830e70062</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div[4]/div</value>
+      <webElementGuid>9fe30837-cf0b-40db-8852-e5a75c7dcba3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -50,7 +50,7 @@ WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test 2'))
 
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '13100015723')
+WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '1264222901')
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_GENERATE</name>
+   <tag></tag>
+   <elementGuidId>3119b061-f4c4-4337-b67a-56cbba122ba7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='namso-atag']/b</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#namso-atag > b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>f6155e97-6f66-458c-aaf0-b231c21e3c62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GENERATE</value>
+      <webElementGuid>f0381753-50f4-4eed-891a-0e5691f63ebc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;namso-atag&quot;)/b[1]</value>
+      <webElementGuid>bc58b9f5-69c5-49cb-9bcb-79be5543582f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='namso-atag']/b</value>
+      <webElementGuid>f7b729dd-b945-4ad4-8295-27e539211d60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FORMAT'])[1]/following::b[1]</value>
+      <webElementGuid>01e83c35-30d6-461b-affe-0a1162b1b3b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QUANTITY'])[1]/following::b[1]</value>
+      <webElementGuid>0c91b559-7fc1-4872-b554-2ee8421a23dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRAND'])[1]/preceding::b[1]</value>
+      <webElementGuid>4fb15d6f-49d6-4197-ad3a-53091c79772d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/preceding::b[1]</value>
+      <webElementGuid>0a7f3f97-0f38-43f2-a60d-27b0cd2105d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GENERATE']/parent::*</value>
+      <webElementGuid>d8a39fe4-7a2f-43bc-8541-9fa19c51b06a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/b</value>
+      <webElementGuid>4fd7e812-a107-4bf3-90e6-4dd9dcda4478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'GENERATE' or . = 'GENERATE')]</value>
+      <webElementGuid>afcb7a6d-d92d-41f2-8ba6-87cddecbdfd6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

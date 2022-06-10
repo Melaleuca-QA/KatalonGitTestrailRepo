@@ -89,6 +89,8 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_2000'))
 
+WebUI.focus(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
+
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack'))

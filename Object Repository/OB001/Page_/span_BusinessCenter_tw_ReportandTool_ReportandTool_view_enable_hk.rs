@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ctl01_btn']/span[2]</value>
+         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div/div[3]/div[1]/div[1]/div/a/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.btnTxt</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '立即啟用' or . = '立即啟用')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>0575a43f-5912-4a90-9698-eda5a401474d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btnTxt</value>
+      <webElementGuid>3260f29e-6b76-4b2b-aeef-f2fa5d78b392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>立即啟用</value>
+      <webElementGuid>546b139a-fc50-4cf3-9a6a-6879a334e832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ctl01_btn&quot;)/span[@class=&quot;btnTxt&quot;]</value>
+      <webElementGuid>4002a77c-afad-49ab-afb2-609676f6c5c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='ctl01_btn']/span[2]</value>
+      <webElementGuid>3c06aa0d-0451-454d-be6a-220bb941b920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='立即啟用'])[1]/following::span[2]</value>
+      <webElementGuid>484fcfc6-0aa0-4ac0-a651-35a6de1a9567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='經營生動活潑，讓您瀏覽組織各個面向，如：警訊內容、關鍵績效指數、階銜＆目標…等！'])[1]/following::span[3]</value>
+      <webElementGuid>8b18937e-a40e-4b7c-8b90-d6856ec0852a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='一旦勾選即視為同意及接受下載注意事項'])[1]/preceding::span[3]</value>
+      <webElementGuid>35513f63-297e-4261-8928-44df2ebbb304</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[19]/preceding::span[4]</value>
+      <webElementGuid>e3b14a04-216e-4f27-b7eb-c3f88a1b1d9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +98,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span[2]</value>
+      <webElementGuid>129b60e3-86ec-4398-a24d-83170403e65a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,21 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=''])[2]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.nav-sub-item.is-visible.is-preview</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                身體防護系列
+                            ' or . = '
+                                
+                                身體防護系列
+                            ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>fa0b8b66-d38a-429b-b6c1-63b3ae925c5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item is-visible is-preview</value>
+      <webElementGuid>b0d89c57-9cda-4426-8cd9-bbf65a40866f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +48,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>875</value>
+      <webElementGuid>ae366cad-4d62-435f-8bc8-c1e032494896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +56,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>841</value>
+      <webElementGuid>6a1c709b-ee53-4670-a907-003d5abf80c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +64,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>86e8e9fc-d6ff-4efb-bac6-5e56c891c813</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +72,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>身體防護系列</value>
+      <webElementGuid>f6440134-3c1d-4e0e-b044-b3aed4a5a23c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +80,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>a113cb12-18f8-49e3-9474-774d6df309a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +91,7 @@
                                 
                                 身體防護系列
                             </value>
+      <webElementGuid>e939ef72-fe95-40e6-82b2-695bf935ae8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
+      <webElementGuid>e3af3a64-6ca0-4672-b25f-7042d812fec3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[2]</value>
+      <webElementGuid>c0abd722-8bc7-4c98-ac78-b5e14e6e2fe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關於美樂家'])[1]/following::a[2]</value>
+      <webElementGuid>986281e0-f2c1-498a-9091-5c92b41956dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='身體防護系列']/parent::*</value>
+      <webElementGuid>bdb19167-dbf4-409e-8c0f-fbeb25c197bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +131,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[2]</value>
+      <webElementGuid>687ddc73-3bd8-4954-a170-4a6cfd49613e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,5 +139,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
+      <webElementGuid>8c3511b0-5aa7-4d9a-8d5c-2592e187aadb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

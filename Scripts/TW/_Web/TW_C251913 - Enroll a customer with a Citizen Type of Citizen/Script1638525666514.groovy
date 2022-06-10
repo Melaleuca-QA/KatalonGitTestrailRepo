@@ -30,7 +30,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000171827071375'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -53,6 +53,8 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
+
+WebUI.focus(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
@@ -185,16 +187,13 @@ WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'
 
 WebUI.refresh()
 
-WebUI.refresh()
-
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
 //WebUI.click(findTestObject('OB002/Page_/div__1'))
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
-
+//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Complete an enrollment in Taiwan'

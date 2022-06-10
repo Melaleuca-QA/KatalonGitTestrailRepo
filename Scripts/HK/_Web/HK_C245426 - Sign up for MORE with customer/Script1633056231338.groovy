@@ -24,8 +24,6 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
-
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_hk_ReportandTool'))
@@ -36,7 +34,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_Busin
 
 WebUI.click(findTestObject('OB001/Page_/input_BusinessCenter_tw_ReportandTool_ReportandTool_view_checkbox'))
 
+WebUI.focus(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_hk'))
+
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_hk'))
+
+WebUI.waitForPageLoad(100)
 
 WebUI.switchToWindowTitle('MORE')
 

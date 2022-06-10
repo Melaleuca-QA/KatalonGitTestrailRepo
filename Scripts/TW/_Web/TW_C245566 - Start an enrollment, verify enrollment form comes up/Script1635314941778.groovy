@@ -30,7 +30,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
     WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -162,8 +162,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.refresh()
-
+//WebUI.refresh()
 //WebUI.click(findTestObject('OB002/Page_/div__1'))
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 

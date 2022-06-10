@@ -7,11 +7,16 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@onclick='resendConfirmation();']</value>
+         <value>/html/body/div[3]/div[2]/div[1]/div[3]/div[2]/span[2]/span[2]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.greenText.bold</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '請重新發送一次確認電子郵件' or . = '請重新發送一次確認電子郵件')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>19e5ee7d-9b9f-44eb-876b-772ad725536f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>greenText bold</value>
+      <webElementGuid>74ba9325-24bd-4bf8-8b70-6321d3ac9e4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +43,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>resendConfirmation();</value>
+      <webElementGuid>053836bf-3c0d-4710-a16f-6ab44208c465</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>請重新發送一次確認電子郵件</value>
+      <webElementGuid>5ff682a0-1122-47d4-b989-e6c3405e5a32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;forgotPassword_resendText&quot;)/span[@class=&quot;greenText bold&quot;]</value>
+      <webElementGuid>6b6cff1a-4675-48b7-937a-5bff240f9503</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@onclick='resendConfirmation();']</value>
+      <webElementGuid>f9de3181-2cec-4bd6-8957-458940594da4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='forgotPassword_resendText']/span[2]</value>
+      <webElementGuid>381120f9-46b4-49c3-b0bd-7afab1487b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='如您於5分鐘內還沒有收到帳戶確認信，請前往『垃圾郵件箱』內查看或'])[1]/following::span[1]</value>
+      <webElementGuid>0780d5bb-5cfb-4607-bce9-c879e7a37ef7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='請查看您的確認電子郵件。電子郵件包含了建立密碼的連結。'])[1]/following::span[3]</value>
+      <webElementGuid>c728c08e-65a3-4b68-bda4-03caaa2fadf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='信息已重新發送！'])[1]/preceding::span[1]</value>
+      <webElementGuid>583695a2-1bb5-4b31-8edd-b8528eae9c50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='需要額外協助請上聊天室聯絡線上工作人員'])[1]/preceding::span[2]</value>
+      <webElementGuid>fb64e0ab-2915-4901-b930-68699f1aea9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='請重新發送一次確認電子郵件']/parent::*</value>
+      <webElementGuid>f71e9f81-10b4-4771-bffc-a7648fd313bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +123,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/span[2]</value>
+      <webElementGuid>4e37dea8-5b02-4b74-b8e2-64dffe89e753</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

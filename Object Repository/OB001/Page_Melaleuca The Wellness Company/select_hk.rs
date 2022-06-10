@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='globalCountryDropdownMobile']</value>
+         <value>/html/body/div[3]/div[3]/div/div/div[1]/div[1]/div[4]/div[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +27,7 @@
          <key>IMAGE</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>8336c924-2213-4115-919b-35df5ebcef62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>globalCountryDropdownMobile</value>
+      <webElementGuid>6fc299d1-4c3a-4c45-af56-73188514f6bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +51,7 @@
       <name>onkeydown</name>
       <type>Main</type>
       <value>preventChange(event);</value>
+      <webElementGuid>6239eb0f-af3e-46f5-ad3d-9c79ca29c2b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +59,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>selectCountryCulture(this.value);return false;</value>
+      <webElementGuid>5a1fc3e3-fa02-4885-aa03-9c8d696c2ab8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,6 +70,7 @@
     
             香港
 </value>
+      <webElementGuid>b355d883-4d93-4877-8526-1b2a0127340c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;globalCountryDropdownMobile&quot;)</value>
+      <webElementGuid>b711243c-8ad7-4103-b960-07b0052dae7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='globalCountryDropdownMobile']</value>
+      <webElementGuid>8cf21d04-9866-45be-93e3-02e6a1b88397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FTCenterContent54']/div[2]/select</value>
+      <webElementGuid>ef61c5e2-4054-4e1c-8c95-365dd70aa00d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇國家或地區語言：'])[1]/following::select[1]</value>
+      <webElementGuid>3d9a129d-3166-4354-b84a-b35a45c12a58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='送貨地址功能更新及分區表'])[1]/following::select[1]</value>
+      <webElementGuid>2fac177a-9df0-4259-8ae1-8a68a4381a12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='私隱政策'])[1]/preceding::select[1]</value>
+      <webElementGuid>317a9c0c-9a98-4747-9dc1-3544964ddfa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
+      <webElementGuid>fa39929b-a827-47ea-8c10-c87bcf9a0ff6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

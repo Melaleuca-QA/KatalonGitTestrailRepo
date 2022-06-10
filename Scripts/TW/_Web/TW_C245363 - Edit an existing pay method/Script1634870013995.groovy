@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 if (false) {
     GlobalVariable.tw_input_creditcard = '4000178712803002'
 } else {
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -7,11 +7,21 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=''])[6]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[6]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.nav-sub-item.is-visible.is-preview</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                美樂家純質精油
+                            ' or . = '
+                                
+                                美樂家純質精油
+                            ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f90956ba-62ef-4082-95a0-81ce40e89218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item is-visible is-preview</value>
+      <webElementGuid>8d0f9f3a-09b1-4026-acbc-4861f6efccd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +48,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>1465</value>
+      <webElementGuid>a47076e2-dd2e-4903-a9a5-c7116ab3973b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +56,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>841</value>
+      <webElementGuid>6dcc0c4a-4916-4250-8129-60ae3bcf94e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +64,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>fc898a4c-44ee-4869-89a7-e30bc2544040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +72,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>美樂家純質精油</value>
+      <webElementGuid>bc8eff38-73e7-42f5-870b-7911b8133b98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +80,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>3f3edb89-e403-4e4b-91c6-5c71ecaf0160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +91,7 @@
                                 
                                 美樂家純質精油
                             </value>
+      <webElementGuid>455bd952-acc0-4767-be2b-a7b8b76508bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
+      <webElementGuid>82cd2d51-7510-44b8-b201-3286f6d1d74e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[6]</value>
+      <webElementGuid>85ef2494-4ce5-444c-bdd3-e9ffcc32b2d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='美樂家純質精油']/parent::*</value>
+      <webElementGuid>dd4ccb23-a73b-4866-bb84-f2ad2d507701</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[6]</value>
+      <webElementGuid>80bbbed3-3308-42dd-94a4-92d8eabdd73c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]</value>
+      <webElementGuid>d1e3d2c9-f13e-4eab-b6ae-e4eb232b01aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

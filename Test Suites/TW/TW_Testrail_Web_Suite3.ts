@@ -26,10 +26,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a0b32ebe-c783-42ef-981c-3b04b7eb0415</guid>
+      <guid>c8beb7df-548d-45c2-b274-fcc6bd1dd00f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74867fae-49c6-420c-8fa4-7d9f84222ed7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df547c57-7ad9-4079-b771-266167a76522</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

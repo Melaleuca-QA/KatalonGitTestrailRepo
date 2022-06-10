@@ -7,11 +7,21 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=''])[3]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.nav-sub-item.is-visible.is-preview</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = '
+                                
+                                肌膚美容保養系列
+                            ' or . = '
+                                
+                                肌膚美容保養系列
+                            ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>93352095-a21f-413e-a737-09f9636b10ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item is-visible is-preview</value>
+      <webElementGuid>20dc2a58-03f5-4e3d-ac09-e9fa78fcb739</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +48,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>1899</value>
+      <webElementGuid>18c87d4f-6d6d-4e96-8578-6bcde5dbda28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +56,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>1065</value>
+      <webElementGuid>ffd0cf6b-b1c4-4010-8345-2bf9a549b5f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +64,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>44b82466-c21b-4372-8f1d-53cb26d33ace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +72,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>肌膚美容保養系列</value>
+      <webElementGuid>0c436678-8b89-4302-b23c-9eac6537cfc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +80,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>86d1a7aa-7a3b-44e1-9ab7-016c49dd6da8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +91,7 @@
                                 
                                 肌膚美容保養系列
                             </value>
+      <webElementGuid>68b5bc63-a194-4fd2-b642-0278624624a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item is-visible is-preview&quot;]</value>
+      <webElementGuid>98760f0b-62a7-44e0-ba45-59a60dde8710</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[3]</value>
+      <webElementGuid>b495872a-68ea-402e-a27c-2668ba125502</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='肌膚美容保養系列']/parent::*</value>
+      <webElementGuid>2ce04c7e-50a8-46c0-9348-06a30c9589be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[3]</value>
+      <webElementGuid>8c278ca5-5346-4113-b458-8576a51268af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
+      <webElementGuid>87e1ae7a-0417-4ceb-90b8-8cc5baf56662</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

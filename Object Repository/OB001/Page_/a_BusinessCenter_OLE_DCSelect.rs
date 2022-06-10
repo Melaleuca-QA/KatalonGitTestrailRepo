@@ -6,16 +6,16 @@
    <elementGuidId>43d66a6b-244c-45d0-ba2a-c9d7f5bbbcfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '選擇' or . = '選擇')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
+         <value>/html/body/div[3]/div[2]/div[3]/div[2]/div/section[3]/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.ole-action.ole-action--button.js-pop-up-fire</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '選擇' or . = '選擇')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2914c190-6779-4ba1-a435-259b48577342</webElementGuid>
+      <webElementGuid>6920bd04-5c03-470c-b2b5-bfbd39532d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ole-action ole-action--button js-pop-up-fire</value>
-      <webElementGuid>d2e84b7e-5cb9-44d1-8d49-5c3825f5cc8f</webElementGuid>
+      <webElementGuid>f7e4791e-a0ee-4090-9beb-f6947855cff1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);</value>
-      <webElementGuid>7a2b7401-b6dd-4180-bc1a-00f3c539982a</webElementGuid>
+      <webElementGuid>dc76c314-17ed-4c47-bfae-d2721a79648b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>data-modal</name>
       <type>Main</type>
       <value>action</value>
-      <webElementGuid>7d1dd3ff-17da-4c89-a974-37e0aa079be9</webElementGuid>
+      <webElementGuid>ea653739-4336-4aab-99d7-a9dc1959f9a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>選擇</value>
-      <webElementGuid>6ce10b0e-7ea7-48ab-9959-05d9e6734fc1</webElementGuid>
+      <webElementGuid>b5cefefa-8c51-4359-b524-7f3f6e4b5182</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;customer-type&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--customer&quot;]/section[@class=&quot;ole-section ole-section--customer&quot;]/div[@class=&quot;ole-list-wrapper&quot;]/a[@class=&quot;ole-action ole-action--button js-pop-up-fire&quot;]</value>
-      <webElementGuid>9fbf8ac5-bd0c-4b82-969f-bcacc5e829ab</webElementGuid>
+      <webElementGuid>5ad80fc2-be41-4e4c-b61f-d1c1b8bcfd52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;cmCreateElementTag('RegularCustomerSelect', analyticsElementCategory);&quot;]</value>
-      <webElementGuid>0d8f2657-f178-4918-8ad5-f5dd95d15d07</webElementGuid>
+      <webElementGuid>86ee4391-96f5-471c-85ed-292a9883667d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div[2]/div[3]/div[2]/div/section[3]/div[2]/a</value>
-      <webElementGuid>08c4e70e-0fdb-4f0c-929c-460bbc727cb3</webElementGuid>
+      <webElementGuid>58cc1eff-c092-4b4d-9c7f-41566b897d3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'選擇')]</value>
-      <webElementGuid>e71acf02-baa5-4388-9539-2003742aca9a</webElementGuid>
+      <webElementGuid>91e078a4-3382-46f6-802c-fae96eda5556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='無風險，100%客戶滿意保證！'])[1]/following::a[1]</value>
-      <webElementGuid>d8c1313a-b8f3-42e0-a56c-b73271059eea</webElementGuid>
+      <webElementGuid>91b9d3d7-1185-477c-83a2-7e4595ab9b1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='有效的獨特商品'])[1]/following::a[1]</value>
-      <webElementGuid>177765b1-fbf2-4794-8dc3-b260b473e5fa</webElementGuid>
+      <webElementGuid>2e66bb62-97c4-409f-adbb-314af738bcd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[1]/preceding::a[1]</value>
-      <webElementGuid>30877362-cfca-48b2-bc90-8fa064e0aebf</webElementGuid>
+      <webElementGuid>5f81c3ac-9e9b-449c-8dba-5e230c65adc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='您確定嗎?'])[1]/preceding::a[2]</value>
-      <webElementGuid>bf907d19-f4cc-4ba7-88b0-56c0529edb87</webElementGuid>
+      <webElementGuid>802a042d-b323-477b-92eb-52829795ab6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[3]/div[2]/a</value>
-      <webElementGuid>e44670df-79dc-4e16-8192-7fe4ea77cf74</webElementGuid>
+      <webElementGuid>b5b109ef-897f-464e-871b-59cec52dfed6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

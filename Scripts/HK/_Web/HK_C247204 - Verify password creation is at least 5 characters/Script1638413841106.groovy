@@ -54,7 +54,13 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
+
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
+
+WebUI.waitForPageLoad(30)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
@@ -77,6 +83,22 @@ GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('OB001/Page_M
     'value')
 
 println(GlobalVariable.hk_input_oleurl)
+
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
+
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+if (GlobalVariable.run_env == 'Test') {
+    result1 = GlobalVariable.hk_input_oleurl.substring(0, 12)
+
+    result2 = GlobalVariable.hk_input_oleurl.substring(12)
+
+    now_oleurl = ((result1 + 'test') + result2)
+
+    GlobalVariable.hk_input_oleurl = now_oleurl
+
+    println(GlobalVariable.hk_input_oleurl)
+}
 
 WebUI.openBrowser('')
 
@@ -205,7 +227,7 @@ WebUI.waitForPageLoad(30)
 
 WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
 
-WebUI.click(findTestObject('OB001/Page_/span_HK_SH Banking'))
+WebUI.click(findTestObject('OB001/Page_/span_HK_HSBC Banking'))
 
 WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
 

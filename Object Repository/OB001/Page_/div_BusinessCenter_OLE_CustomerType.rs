@@ -6,12 +6,12 @@
    <elementGuidId>10ecaf65-34cb-42ba-8984-45e3445baad2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='CustomerType']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.disc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div[1]/div/ol[1]/li[1]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>8c9eba80-cee0-4a38-8ce0-b2c2386816b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>disc</value>
+      <webElementGuid>2d5ddebb-d449-4ef9-83f9-4453487334ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;trackerHeader&quot;)/li[@id=&quot;CustomerType&quot;]/div[@class=&quot;disc&quot;]</value>
+      <webElementGuid>a2f91264-8d20-4551-ad83-584bec3f7c8d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='CustomerType']/div</value>
+      <webElementGuid>d7582372-8287-4b94-8a19-299428dd62a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div</value>
+      <webElementGuid>7e991ea7-89ff-44a8-af2a-e2cffed3a911</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

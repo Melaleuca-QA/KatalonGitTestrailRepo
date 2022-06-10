@@ -36,6 +36,8 @@ WebUI.click(findTestObject('OB001/Page_/div_link presentationLink'))
 
 now_url = WebUI.getUrl()
 
+println(now_url)
+
 WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
 
 WebUI.delay(2)
@@ -45,6 +47,8 @@ WebUI.back()
 WebUI.click(findTestObject('OB001/Page_/div_link followUpLink'))
 
 now_url = WebUI.getUrl()
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
 
@@ -56,6 +60,8 @@ WebUI.click(findTestObject('OB001/Page_/div_link enrollmentFormsLink'))
 
 now_url = WebUI.getUrl()
 
+println(now_url)
+
 WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
 
 WebUI.delay(2)
@@ -65,6 +71,8 @@ WebUI.back()
 WebUI.click(findTestObject('OB001/Page_/div_link whichProductsLink'))
 
 now_url = WebUI.getUrl()
+
+println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
 

@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='dropdownAccount']/li[6]/a</value>
+         <value>/html/body/div[3]/div[1]/div[2]/div[1]/div[2]/div/div/ul/li[6]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/account' and (text() = '瀏覽全部' or . = '瀏覽全部')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>12565fab-ae78-4c2e-8fe4-60640f7385a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +33,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/account</value>
+      <webElementGuid>f11dd93c-bd31-4908-a9eb-47d253e670c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>medium-text uppercase-text</value>
+      <webElementGuid>1fc14c13-6679-494e-9f9b-aba5ff9a09a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>瀏覽全部</value>
+      <webElementGuid>39eb6901-d8f5-448b-88dd-7515d0b10428</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dropdownAccount&quot;)/li[@class=&quot;header-popup-item&quot;]/a[@class=&quot;medium-text uppercase-text&quot;]</value>
+      <webElementGuid>f44bd2b7-a08f-45e3-8f8e-c3fbe398fd7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='dropdownAccount']/li[6]/a</value>
+      <webElementGuid>1a1624b5-dcf0-4115-baef-700394b2a119</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'瀏覽全部')]</value>
+      <webElementGuid>1d2fe2ef-a927-4792-b7e5-500eff6a3ee5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='電子郵件偏好設定'])[1]/following::a[1]</value>
+      <webElementGuid>fb315da6-8a82-4045-80ca-b16b2218e871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='設定付款方式'])[1]/following::a[2]</value>
+      <webElementGuid>5b7fbf9c-66a7-4501-87d6-49e2e91d5edf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='瀏覽全部']/parent::*</value>
+      <webElementGuid>eaad97f8-6499-4807-ac92-db3dc52336e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/account')]</value>
+      <webElementGuid>1cbc46ce-1ffa-48de-b5ff-7922b9a4b0b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a</value>
+      <webElementGuid>26596735-3e2f-4103-94ee-d12bed420d27</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

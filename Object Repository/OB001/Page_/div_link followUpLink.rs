@@ -6,12 +6,12 @@
    <elementGuidId>e885a4b5-1ece-4f35-b57c-d5f4476d4de0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvNewEnrollment']/div[4]/div[3]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.link.followUpLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[4]/div[3]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>9dbe3364-20f0-4d48-a961-61ef11b9524b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>link followUpLink</value>
+      <webElementGuid>812dec32-8e0d-441f-ad00-d3f5e955678c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink&quot;]/div[@class=&quot;link followUpLink&quot;]</value>
+      <webElementGuid>2c27d570-fc43-4534-b9d5-eebd4bb8eb0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div[3]/div</value>
+      <webElementGuid>f09ff58f-02b8-4aff-af16-19cfe4f7b47d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div[4]/div[3]/div</value>
+      <webElementGuid>3930fde4-df71-420a-981c-96cd5ef75b02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='globalCountryDropdownMobile']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#globalCountryDropdownMobile</value>
+         <value>/html/body/div[3]/div[3]/div/div/div[1]/div[1]/div[4]/div[2]/select</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -23,8 +19,12 @@
             台灣
 ')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#globalCountryDropdownMobile</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,6 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>b1f4e80c-aa7d-4c49-add3-b99c8a22947c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +40,7 @@
       <name>id</name>
       <type>Main</type>
       <value>globalCountryDropdownMobile</value>
+      <webElementGuid>e3c74ae0-850f-44bd-a9f0-ccf71ec5cc99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +48,7 @@
       <name>onkeydown</name>
       <type>Main</type>
       <value>preventChange(event);</value>
+      <webElementGuid>218c63f3-b510-4d93-8124-be6e39f804de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +56,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>selectCountryCulture(this.value);return false;</value>
+      <webElementGuid>4d392335-1714-4f1f-b64e-eab3b4485c35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +67,7 @@
     
             台灣
 </value>
+      <webElementGuid>24ef1402-1a97-4519-9d00-5cc704594d96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;globalCountryDropdownMobile&quot;)</value>
+      <webElementGuid>36093977-c15e-4d0d-84dc-d5b5aaf961e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='globalCountryDropdownMobile']</value>
+      <webElementGuid>360f4284-4fe5-43fc-a866-51ba22a7933b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FTCenterContent54']/div[2]/select</value>
+      <webElementGuid>b771e347-a704-4839-bc20-845bfcfaef36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇國家與言語:'])[1]/following::select[1]</value>
+      <webElementGuid>3f697ec3-ee0e-4ff3-b823-ad62bbe24cf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關於台灣分公司'])[1]/following::select[1]</value>
+      <webElementGuid>a65f0d68-15f2-48ac-b2ea-471d25bedbf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='隱私政策'])[1]/preceding::select[1]</value>
+      <webElementGuid>ff3255bb-33d4-405a-b961-4c7ce62bd71a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +123,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
+      <webElementGuid>4b3e68b5-0edb-404c-bffd-2ac5605ce35b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

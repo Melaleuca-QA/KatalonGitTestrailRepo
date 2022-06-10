@@ -6,12 +6,12 @@
    <elementGuidId>32ab065d-5a32-440c-851a-34c8a9b923f1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvNewEnrollment']/div[4]/div[4]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.link.enrollmentFormsLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[4]/div[4]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>51eeecac-787a-4525-80fc-a4cbe7ca6e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>link enrollmentFormsLink</value>
+      <webElementGuid>b8893bb5-7079-4b79-a0b7-e6df05f0874b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink&quot;]/div[@class=&quot;link enrollmentFormsLink&quot;]</value>
+      <webElementGuid>7255427c-588d-4624-981f-e1a0234e166a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div[4]/div</value>
+      <webElementGuid>fa640ebd-fbf7-4f6e-9a81-26600cf51bdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div[4]/div</value>
+      <webElementGuid>100f43f8-334b-4eb3-9e53-6de6c764fe61</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@onclick=&quot;window.location = '/Account';&quot;]</value>
+         <value>/html/body/div[3]/div[2]/div/div/section[2]/div/div[4]/div[1]/button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn-action.btn-action--secondary</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '取消' or . = '取消')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c42d8944-ade7-449b-8249-fa8af0397c5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-action btn-action--secondary</value>
+      <webElementGuid>5257c4d7-8d53-46b2-8647-87a85f1af75a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.location = '/Account';</value>
+      <webElementGuid>d252c299-3767-43fb-b0be-65efd1a1c03f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>取消</value>
+      <webElementGuid>60b66921-477b-427a-a947-983b93da1e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;maincontent&quot;)/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;backuporder preferredPack&quot;]/section[@class=&quot;backup--packs&quot;]/div[@class=&quot;bodyContent&quot;]/div[@class=&quot;submission-section submissionSection&quot;]/div[@class=&quot;btn-container&quot;]/button[@class=&quot;btn-action btn-action--secondary&quot;]</value>
+      <webElementGuid>56b7da78-8de1-44bd-9b40-a2f1a246449d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick=&quot;window.location = '/Account';&quot;]</value>
+      <webElementGuid>95cc38a2-0e7a-478d-ba12-da970162c88a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='maincontent']/div/div/section[2]/div/div[4]/div/button</value>
+      <webElementGuid>d3750ff8-32d4-4681-8e4f-b0fed1228c43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='自選預備訂單'])[4]/following::button[1]</value>
+      <webElementGuid>41fc4bcc-aa62-467a-b8f1-a472a4a07982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='更新您的預備訂單'])[1]/preceding::button[1]</value>
+      <webElementGuid>6e24ffbe-da7f-444d-a4b9-cfc4eb16f5f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我們無法儲存您的訊息，請再試一次。'])[1]/preceding::button[2]</value>
+      <webElementGuid>2c9229ba-caad-4ca6-8ee4-fd6f70af340d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='取消']/parent::*</value>
+      <webElementGuid>03b42769-9f2c-4c1d-a677-bdb5b05bd849</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/button</value>
+      <webElementGuid>f7177621-a6cd-4318-9c5c-50beea43d0bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

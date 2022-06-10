@@ -6,12 +6,12 @@
    <elementGuidId>5de8675b-5e79-4322-a662-ff0b06a73e4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnMiniCartCheckout']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnMiniCartCheckout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[2]/div[2]/div[3]/div[3]/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>57145e92-9c26-4ab3-9c8d-b81b577bddad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pure-button pure-button-green</value>
+      <webElementGuid>b347d0f9-249d-45e7-8085-73c698bc30ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnMiniCartCheckout</value>
+      <webElementGuid>a53428ce-0021-465c-a94a-bbec20f18f54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.location = '/ProductStore/Cart';</value>
+      <webElementGuid>f7a6090a-e19e-4a45-93cf-a792fdbdc5a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c9d8770a-b455-42fc-bca4-b3964ea18cc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>結帳</value>
+      <webElementGuid>ab48aedc-2ca7-40ef-9f7f-325cd097d6c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnMiniCartCheckout&quot;)</value>
+      <webElementGuid>2d94e857-ab6e-4d7f-82ac-feee647ee0b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnMiniCartCheckout']</value>
+      <webElementGuid>1596aa75-ca38-4dad-8e4f-90b994735168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='myCartListv2']/div[3]/button</value>
+      <webElementGuid>65d2d340-df43-41be-a4ce-8a5bf889fac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$2,380'])[2]/following::button[1]</value>
+      <webElementGuid>2ecf3c7a-620c-4237-8d11-483432285f38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$1,020'])[2]/following::button[1]</value>
+      <webElementGuid>83d395c0-812a-4cc7-b9a4-8a8a0148c43a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[1]/preceding::button[1]</value>
+      <webElementGuid>a20efa2d-7a35-4057-bce5-b7133ede9b37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[2]/preceding::button[1]</value>
+      <webElementGuid>2a6ff073-10f9-49aa-bad2-32eda19cd5f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/button</value>
+      <webElementGuid>ffa964bf-3a5b-429d-9113-ece356d42ec1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

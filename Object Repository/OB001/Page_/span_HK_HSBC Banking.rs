@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_HK_SH Banking</name>
+   <name>span_HK_HSBC Banking</name>
    <tag></tag>
    <elementGuidId>15de1c50-8243-4493-85fe-58a11c83efcf</elementGuidId>
    <selectorCollection>

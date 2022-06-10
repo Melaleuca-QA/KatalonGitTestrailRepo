@@ -6,11 +6,11 @@
    <elementGuidId>e1f4941d-3c60-4dba-837e-9303f06dab4e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@id='btnEdit'])[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div[4]/div/div[3]/div/div[3]/div/div[2]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -21,7 +21,7 @@
                     ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>7c113f5f-b0bb-41c5-b96e-4e71edf3bae1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnEdit</value>
+      <webElementGuid>ab538701-2822-476b-92b9-4d3c6cff9a55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>editLink</value>
+      <webElementGuid>0b94a14d-6934-4291-90ce-cfdcd3a5a570</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>goToEditPaymethod('07A8352CEE44D51C292BB773040C0904E9C595D8')</value>
+      <webElementGuid>ead5a5ec-e96b-4cf0-a96d-343744bbc6f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,6 +63,7 @@
       <value>
                         編輯
                     </value>
+      <webElementGuid>1d41fac1-7f7d-4c04-9d86-0a9084776054</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rightContainer&quot;)/div[@class=&quot;payOpsContainer&quot;]/div[@class=&quot;myAccountPaymethodOptions&quot;]/div[@class=&quot;payOpsMain&quot;]/div[@class=&quot;paymethodSelectionContainer&quot;]/div[@class=&quot;payList&quot;]/div[4]/div[@class=&quot;r1&quot;]/div[@class=&quot;c3 c3Outbound&quot;]/div[@class=&quot;c3Rel&quot;]/div[@class=&quot;editAndDeleteButtonContainer&quot;]/span[@id=&quot;btnEdit&quot;]</value>
+      <webElementGuid>43aea0d5-ce49-49b7-a958-568f5d4e1583</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//span[@id='btnEdit'])[2]</value>
+      <webElementGuid>541a625b-69a0-410e-ad34-4b3fef0cadec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rightContainer']/div/div/div/div[4]/div/div[4]/div/div[3]/div/div[2]/span[3]</value>
+      <webElementGuid>465fcc5d-1fa1-4d13-943c-baf6d1888cb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/following::span[1]</value>
+      <webElementGuid>7fe21ebe-32cc-482f-be48-679934adf8ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='刪除'])[4]/following::span[2]</value>
+      <webElementGuid>c18241c1-3fc9-42b7-bfc8-adf037b136e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VISA卡'])[3]/preceding::span[1]</value>
+      <webElementGuid>3c8ce961-214a-4df2-b3fa-732dcbd02998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xxxx-xxxx-xxxx-3394'])[1]/preceding::span[3]</value>
+      <webElementGuid>ec3f0522-5491-4114-a8c5-902faa04d39b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +127,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span[3]</value>
+      <webElementGuid>95b7dcff-54e8-49f2-a7b8-c47745e50205</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

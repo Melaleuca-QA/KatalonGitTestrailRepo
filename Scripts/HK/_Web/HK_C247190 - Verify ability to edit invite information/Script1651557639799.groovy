@@ -105,6 +105,21 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save')
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// test env //
+if (GlobalVariable.run_env == 'Test') {
+    result1 = GlobalVariable.hk_input_oleurl.substring(0, 12)
+
+    result2 = GlobalVariable.hk_input_oleurl.substring(12)
+
+    now_oleurl = ((result1 + 'test') + result2)
+
+    GlobalVariable.hk_input_oleurl = now_oleurl
+
+    println(GlobalVariable.hk_input_oleurl)
+}
+
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/BusinessCenter/Enrollments/NewEnrollment')
 WebUI.openBrowser('')
 
@@ -181,7 +196,7 @@ WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
 
 WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
 
-WebUI.click(findTestObject('OB001/Page_/span_HK_SH Banking'))
+WebUI.click(findTestObject('OB001/Page_/span_HK_HSBC Banking'))
 
 //WebUI.selectOptionByValue(findTestObject('OB001/Page_/span_The Hongkong and Shanghai Banking'), '004 香港上海滙豐銀行有限公司The Hongkong and Shanghai Banking Corporation Ltd', 
 //    false)
@@ -216,7 +231,7 @@ WebUI.setText(findTestObject('OB001/Page_/input_SpouseDigitalSignature'), Global
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
-WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'))
+WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping_hk'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 

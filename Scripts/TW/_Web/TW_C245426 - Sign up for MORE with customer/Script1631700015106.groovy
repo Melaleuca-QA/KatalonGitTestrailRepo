@@ -35,7 +35,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_Busin
 WebUI.click(findTestObject('OB001/Page_/input_BusinessCenter_tw_ReportandTool_ReportandTool_view_checkbox'))
 
 //WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox'))
+WebUI.focus(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
+
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
+
+WebUI.waitForPageLoad(100)
 
 WebUI.switchToWindowTitle('MORE')
 
@@ -141,6 +145,11 @@ WebUI.delay(3)
 WebUI.closeWindowTitle('Org Browser')
 
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
