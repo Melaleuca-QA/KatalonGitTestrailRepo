@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>tw1,tw2,tw3,</description>
-      <initValue>'tw1'</initValue>
+      <initValue>'tw2'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -67,8 +67,6 @@ WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_chkCommunicatio
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_SendEmail'))
 
-//WebUI.click(findTestObject('OB002/Page_/div__1 (5) (1)'))
-//WebUI.click(findTestObject('OB002/Page_/div__1_2 (2) (1)'))
 WebUI.mouseOver(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
 
 GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'), 
@@ -82,7 +80,7 @@ WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_InvitationName')
 
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone1'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
 

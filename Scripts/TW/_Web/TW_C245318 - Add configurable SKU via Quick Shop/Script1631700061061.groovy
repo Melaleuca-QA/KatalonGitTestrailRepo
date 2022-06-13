@@ -42,9 +42,6 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductB
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a__1_2_3 (1)'))
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a_ (1)'))
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/a__1_2_3_4 (3)'))
 WebUI.navigateToUrl(GlobalVariable.url_category119)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_7911'))
@@ -63,13 +60,15 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForPageLoad(30)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_Payment'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForPageLoad(30)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

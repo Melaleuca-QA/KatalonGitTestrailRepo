@@ -68,7 +68,6 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductN
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNewProducts_ShowAll'))
 
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10'))
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
@@ -85,9 +84,6 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Hom
 
 WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/button__1_2_3_4_5_6_7_8_9_10_11_12_13_14'))
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/img_1_2 (2)'))
-//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button__1_2_3_4_--5_6_7_8_9_10_11_12'))
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_Checkout)

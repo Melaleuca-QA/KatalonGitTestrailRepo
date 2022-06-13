@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txtMobilePhone</name>
+   <name>input_txtMobilePhone1</name>
    <tag></tag>
-   <elementGuidId>72db6baa-551e-421f-9e18-2c4d89b9bddd</elementGuidId>
+   <elementGuidId>54c98f06-63be-4a41-ac29-0cbb333d9f2b</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtMobilePhone']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#txtMobilePhone</value>
+         <value>(//input[@id='txtMobilePhone'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @id = 'txtMobilePhone']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dvEditContactInfo > div.displayPrompt > div.customerInfoContainer > div.customerInfo.ng-scope > #txtMobilePhone</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>2c7ab66e-79f2-476a-ba8e-15013ab7f3ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ec327cfe-a95d-4e8d-ae0e-19851569e4f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,27 +47,31 @@
       <name>id</name>
       <type>Main</type>
       <value>txtMobilePhone</value>
+      <webElementGuid>0b52fd94-a8a6-4525-b0e3-9afc2a5a1111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-blur</name>
       <type>Main</type>
-      <value>formatPhoneNumber(false)</value>
+      <value>formatPhoneNumber(true)</value>
+      <webElementGuid>02f31219-abdb-46cd-85db-324d43529851</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
+      <name>ng-change</name>
       <type>Main</type>
-      <value>{'invalid': missingInvitePhone}</value>
+      <value>formatPhoneNumber(true)</value>
+      <webElementGuid>6d41d345-92a2-4b71-aceb-69a834c90520</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>enrollee.PhoneNumber</value>
+      <value>contact.PhoneNumber</value>
+      <webElementGuid>05611423-af02-4450-b010-b2140dccb85d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,33 +79,38 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-valid</value>
+      <webElementGuid>ba4631c1-4482-4390-8c4b-d8663f4844aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dvStartNewEnrollment&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
+      <value>id(&quot;dvEditContactInfo&quot;)/div[@class=&quot;displayPrompt&quot;]/div[@class=&quot;customerInfoContainer&quot;]/div[@class=&quot;customerInfo ng-scope&quot;]/input[@id=&quot;txtMobilePhone&quot;]</value>
+      <webElementGuid>d40258c7-38ba-4693-b1de-70ed7dd1eb3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtMobilePhone']</value>
+      <value>(//input[@id='txtMobilePhone'])[2]</value>
+      <webElementGuid>f703cae3-caf0-4218-83a8-3ef1cdc46b51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvStartNewEnrollment']/div/div[4]/div[3]/input</value>
+      <value>//div[@id='dvEditContactInfo']/div/div[4]/div[3]/input</value>
+      <webElementGuid>c6bd46b5-b846-4415-b930-6871f3acc68b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div[3]/div/div[4]/div[3]/input</value>
+      <webElementGuid>76ceceb1-fe98-48f6-a0dc-c89edfc7580a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

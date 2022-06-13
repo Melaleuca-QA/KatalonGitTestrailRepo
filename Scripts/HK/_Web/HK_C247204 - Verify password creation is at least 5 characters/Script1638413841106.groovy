@@ -76,7 +76,6 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/label_Busi
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_SendEmail'))
 
-//WebUI.click(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__1_2 (2)'))
 WebUI.mouseOver(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
 
 GlobalVariable.hk_input_oleurl = WebUI.getAttribute(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'), 
@@ -128,7 +127,7 @@ WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
-if (WebUI.verifyElementVisible(findTestObject('OB002/Page_/div_5'))) {
+if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_pwd_5'))) {
     WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
     WebUI.setEncryptedText(findTestObject('OB001/Page_/input_ConfirmPassword'), GlobalVariable.hk_input_newpswd)

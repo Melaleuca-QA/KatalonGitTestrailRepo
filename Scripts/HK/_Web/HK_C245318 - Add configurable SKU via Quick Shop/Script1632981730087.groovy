@@ -56,13 +56,17 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

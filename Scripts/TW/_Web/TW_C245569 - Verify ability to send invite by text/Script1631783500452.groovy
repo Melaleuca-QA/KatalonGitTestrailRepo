@@ -40,7 +40,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_link s
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
 
 'input new enrollment mphone'
-WebUI.setText(findTestObject('OB002/Page_/input__txtMobilePhone'), GlobalVariable.tw_input_mphone)
+WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone2'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_SearchPresenter'))
 

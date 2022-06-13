@@ -34,12 +34,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_link startEnrollmentLink'))
 
-//WebUI.doubleClick(findTestObject('OB002/Page_Melaleuca The Wellness Company/div__pageOverlay (1)'))
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
 
 'input new enrollment mphone'
-WebUI.setText(findTestObject('OB002/Page_/input__txtMobilePhone'), GlobalVariable.hk_input_mphone)
+WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone2'), GlobalVariable.hk_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_SearchPresenter'))
 

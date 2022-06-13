@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__1</name>
+   <name>div_pwd_5</name>
    <tag></tag>
-   <elementGuidId>14b8a976-a116-49e4-a81a-52862466fa57</elementGuidId>
+   <elementGuidId>f9120e06-9fc7-4f8c-9083-5c58d6a30d22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='menuItem_2']/div</value>
+         <value>//form[@id='customerInformationForm']/div/div[3]/div/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#menuItem_2 > div.nav-root-item-inner-wrapper</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '事業中心' or . = '事業中心')]</value>
+         <value>div.passwordInput.invalid > div.errorMessage</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,75 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>355d673c-a3c3-4af3-bb0c-974fa172a2e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-root-item-inner-wrapper</value>
+      <value>errorMessage</value>
+      <webElementGuid>ba08a86a-d158-49d4-9254-c8fcf67b21ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>事業中心</value>
+      <value>密碼必須至少為5個字符。</value>
+      <webElementGuid>0b6c6cb7-38b7-4042-94df-ed5f1718a6a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menuItem_2&quot;)/div[@class=&quot;nav-root-item-inner-wrapper&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>copyToClipboard()</value>
+      <value>id(&quot;customerInformationForm&quot;)/div[@class=&quot;enrollee-info&quot;]/div[@class=&quot;inputRow passwordContainer&quot;]/div[@class=&quot;passwordInput invalid&quot;]/div[@class=&quot;errorMessage&quot;]</value>
+      <webElementGuid>6445c62c-e95d-41d9-8824-7263fa8fd33e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dvInviteConfirmation']/div/div[4]/div[2]</value>
+      <value>//form[@id='customerInformationForm']/div/div[3]/div/div[3]</value>
+      <webElementGuid>1f2de4e3-f06b-4e18-8265-9711eaeb7547</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='邀請連結'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='密碼*'])[1]/following::div[3]</value>
+      <webElementGuid>4e287850-02e8-4377-834c-7731b0282f6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tw918210'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='用戶名（輸入您的電子郵件地址或10位數的手機號碼）*'])[1]/following::div[9]</value>
+      <webElementGuid>ca6c9908-9baa-4e88-b903-29ffc10b48ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tw918210'])[2]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確認密碼*'])[1]/preceding::div[2]</value>
+      <webElementGuid>a525b206-aff8-4946-ada1-0f445dc6f0cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='複製']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='名字*'])[1]/preceding::div[8]</value>
+      <webElementGuid>a6b68c54-b7a8-4f53-b27a-7b5aae107e30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='密碼必須至少為5個字符。']/parent::*</value>
+      <webElementGuid>7f044fe0-95e2-45d3-b2c1-2d4c7ac06010</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div[4]/div[2]</value>
+      <value>//form/div/div[3]/div/div[3]</value>
+      <webElementGuid>dfc5efac-2538-471c-8af8-ce50b28af362</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
