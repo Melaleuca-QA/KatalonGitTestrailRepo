@@ -34,6 +34,10 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
 WebUI.waitForPageLoad(30)

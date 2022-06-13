@@ -6,12 +6,12 @@
    <elementGuidId>c956ae69-f970-42b4-b8fe-4c54b0c24074</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dvNewEnrollment']/div[4]/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.linkLabel.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[4]/div[1]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>91b3cee9-59db-493c-9f71-f603f7e99865</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>linkLabel ng-binding</value>
+      <webElementGuid>b62aa7d0-acf8-415a-bf04-f81797597bb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>開始新的推薦</value>
+      <webElementGuid>f29e1bdb-cc4d-498a-be6d-e09ac8426522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink large&quot;]/div[@class=&quot;linkLabel ng-binding&quot;]</value>
+      <webElementGuid>3e65ee14-13d8-4494-8da7-7d430b85ffa3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div/div[2]</value>
+      <webElementGuid>7b7daabd-13b5-4355-8575-378f889bbaa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦工具'])[1]/following::div[4]</value>
+      <webElementGuid>0b314ea3-afa7-479f-b611-00bbbf2d7e19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='線上申請會籍'])[2]/following::div[5]</value>
+      <webElementGuid>58356ee8-4228-4f30-9050-59eadcf02fb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='認識美樂家'])[2]/preceding::div[2]</value>
+      <webElementGuid>7fa79c05-52ff-49c6-abbe-49d5afebfcc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='跟進中心'])[2]/preceding::div[5]</value>
+      <webElementGuid>edea0112-aa63-4a1d-a5b1-7c080300d646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='開始新的推薦']/parent::*</value>
+      <webElementGuid>55fa57cf-5b5b-4fc9-8c98-dbd5dffd9763</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div/div[2]</value>
+      <webElementGuid>3575f1be-4d4e-478d-af51-35ec8ceff745</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
