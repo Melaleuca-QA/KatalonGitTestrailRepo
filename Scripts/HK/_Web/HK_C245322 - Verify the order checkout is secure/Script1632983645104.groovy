@@ -32,11 +32,19 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_ChangeShippingOptions'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_add'))
 
@@ -61,6 +69,10 @@ WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
+
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
+
+WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
 WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 

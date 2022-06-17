@@ -6,12 +6,12 @@
    <elementGuidId>9ce083e1-fcfc-4bd2-9d50-316152852d0e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnChangePayment']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnChangePayment</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div[4]/div[2]/div[1]/div/div[2]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>8b8e889b-668b-4012-8d3c-71f88afaf44c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pure-button pure-button-blue pure-button-24</value>
+      <webElementGuid>f7cebd4f-c757-4810-9ea3-d06c8c5cb1dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnChangePayment</value>
+      <webElementGuid>32f0c0f9-85a5-43bf-a13d-f7ef23004d1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.location = '/ProductStore/Checkout/SelectPaymethod';</value>
+      <webElementGuid>5168dc81-e33a-4486-8b45-e81572d6a5c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>2775951c-55cc-426a-98d8-b60442ddc671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>更改付款選項</value>
+      <webElementGuid>a6d257c3-4a80-4055-a3c4-d5c920906a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnChangePayment&quot;)</value>
+      <webElementGuid>807465cb-d50c-4808-9adf-a8cc70a3230e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnChangePayment']</value>
+      <webElementGuid>dacc5c7b-b1d2-48bb-b402-42d93919b208</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='HongKongPaymethodContentDiv']/div[2]/div[2]/button</value>
+      <webElementGuid>7bb7b908-94f9-48e6-a0b0-3e887795ce26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[12]/following::button[1]</value>
+      <webElementGuid>103d6027-c503-4251-9b79-552d0dff67f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='安全碼為信用卡背面的編號'])[1]/following::button[1]</value>
+      <webElementGuid>32196876-06fa-43bd-8f25-539bbf7da957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='使用帳戶上餘額'])[1]/preceding::button[1]</value>
+      <webElementGuid>31758278-1eea-45a7-b39f-ba35eac45a33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='運送及處理費用'])[1]/preceding::button[1]</value>
+      <webElementGuid>cc1e85dc-f60c-4b45-bbaf-9bdec1774895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='更改付款選項']/parent::*</value>
+      <webElementGuid>230c4c9b-0ca5-4e88-be05-bb30bfbc1d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +134,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button</value>
+      <webElementGuid>5cd30c48-945b-456e-9176-419a0971e847</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

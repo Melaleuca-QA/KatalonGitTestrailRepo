@@ -52,7 +52,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Pro
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_HomePage_Checkout'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 

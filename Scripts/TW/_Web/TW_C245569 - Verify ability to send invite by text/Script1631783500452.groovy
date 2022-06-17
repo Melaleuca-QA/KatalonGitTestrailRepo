@@ -26,6 +26,10 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)

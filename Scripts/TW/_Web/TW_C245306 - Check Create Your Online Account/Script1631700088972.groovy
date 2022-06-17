@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_jilllin100melaleuca.c
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_/input_MobilePhoneNumber'), '0988297237')
+WebUI.setText(findTestObject('OB001/Page_/input_MobilePhoneNumber'), '0906863237')
 
 WebUI.click(findTestObject('OB001/Page_/button_CreateWebAccount_PhoneContinue'))
 

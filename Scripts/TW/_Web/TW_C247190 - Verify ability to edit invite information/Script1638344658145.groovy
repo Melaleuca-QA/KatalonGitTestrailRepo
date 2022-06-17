@@ -41,6 +41,11 @@ if (false) {
 
 WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
@@ -196,23 +201,40 @@ WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForPageLoad(30)
 
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout'))
+if (true) {
+    WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+    WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.click(findTestObject('OB001/Page_/a_Logout'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+    WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+    WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login'))
+    WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+
+    WebUI.click(findTestObject('OB001/Page_/button_Login'))
+}
+
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
+
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 

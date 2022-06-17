@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>05d61c0b-70ed-4640-91c4-cc13c1f8a5dd</webElementGuid>
+      <webElementGuid>67d72c1e-e613-4022-80ae-4845e5cd59d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-plus-circle</value>
-      <webElementGuid>3ea0d4b9-5d23-461e-8b67-c75dc2759b6d</webElementGuid>
+      <webElementGuid>973e3d97-57c9-4ab4-bea4-ab1928024910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shoppingListWrapper&quot;)/div[@class=&quot;contentDisplay&quot;]/button[@class=&quot;add-to-list-btn js-add-to-list&quot;]/span[@class=&quot;fa fa-plus-circle&quot;]</value>
-      <webElementGuid>b6b34858-8c0c-4a83-aee6-9b729f3b7e21</webElementGuid>
+      <webElementGuid>18f050e3-c9f9-4959-8408-a25e0cfaf05a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='shoppingListWrapper']/div/button/span</value>
-      <webElementGuid>d5dd1f9a-35d8-46a2-9f14-bb9c9045d132</webElementGuid>
+      <webElementGuid>069293e0-de7b-474b-8e70-2732cd7ab75b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/button/span</value>
-      <webElementGuid>b668d70e-7d86-408a-ad15-57c949667acd</webElementGuid>
+      <webElementGuid>9d85ebdd-9c3c-4f12-a184-1545f8b2692d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

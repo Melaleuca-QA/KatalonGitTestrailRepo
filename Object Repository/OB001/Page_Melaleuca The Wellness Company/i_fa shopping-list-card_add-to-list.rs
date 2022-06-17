@@ -6,11 +6,15 @@
    <elementGuidId>d33c377c-0e81-4b02-83e5-3afe76edc911</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block[4]/div/div[3]/div[2]/button/i</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div/div/div[2]/ul/product-block/div/div[3]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/ul[@class=&quot;ng-scope&quot;]/product-block[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;shopping-list-card&quot;]/div[@class=&quot;shopping-list-card__price&quot;]/div[@class=&quot;shopping-list-card__add-to-cart&quot;]/button[@class=&quot;shopping-list-card__add-to-list add-to-list-btn js-add-to-list ng-binding&quot;]/i[@class=&quot;fa shopping-list-card__add-to-list__plus fa-arrow-circle-right&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
+      <webElementGuid>ba431e70-19c2-4ea4-ae72-042480a32fd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +33,7 @@
       <name>ng-show</name>
       <type>Main</type>
       <value>type === 'shopping'</value>
+      <webElementGuid>75bf5988-31bb-4e96-b3bc-7fc1049242d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa shopping-list-card__add-to-list__plus fa-arrow-circle-right</value>
+      <webElementGuid>77951c6c-32ab-4998-8664-5b8f63b9f622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +49,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>8694cb77-d42d-4f08-8409-c6f6d1752f39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-container ng-scope&quot;]/ul[@class=&quot;ng-scope&quot;]/product-block[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;shopping-list-card&quot;]/div[@class=&quot;shopping-list-card__price&quot;]/div[@class=&quot;shopping-list-card__add-to-cart&quot;]/button[@class=&quot;shopping-list-card__add-to-list add-to-list-btn js-add-to-list ng-binding&quot;]/i[@class=&quot;fa shopping-list-card__add-to-list__plus fa-arrow-circle-right&quot;]</value>
+      <webElementGuid>419e124e-d415-440a-afea-57c35a7491fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopping-list-page-app']/div/div[2]/ul/product-block[4]/div/div[3]/div[2]/button/i</value>
+      <webElementGuid>1a5fda51-0f86-48dc-891c-ac18a6d6f0ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,5 +73,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//product-block[4]/div/div[3]/div[2]/button/i</value>
+      <webElementGuid>2baadd8d-8b45-46bf-877f-d676b5b6faea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

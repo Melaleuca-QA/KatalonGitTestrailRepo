@@ -36,7 +36,11 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_melaleucapresentations)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
+}
 
 WebUI.delay(2)
 
@@ -48,7 +52,11 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_FollowUp)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
+}
 
 WebUI.delay(2)
 
@@ -60,7 +68,11 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_Enrollment_Forms)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
+}
 
 WebUI.delay(2)
 
@@ -72,7 +84,11 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_whichproducts)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
+}
 
 WebUI.delay(2)
 

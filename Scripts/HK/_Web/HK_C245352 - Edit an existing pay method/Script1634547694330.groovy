@@ -50,9 +50,17 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 

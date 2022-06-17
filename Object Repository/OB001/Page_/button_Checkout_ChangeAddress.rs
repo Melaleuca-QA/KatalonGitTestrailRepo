@@ -6,12 +6,16 @@
    <elementGuidId>d3bd85a1-b090-4c4d-967f-6179d15b46e3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '確認' or . = '確認')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.pure-button.pure-button-green</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>/html/body/div[3]/div[2]/div/div[4]/div[1]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>b4e898b4-4aad-4701-a336-055794907937</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pure-button pure-button-green</value>
+      <webElementGuid>78e4939d-edd5-4388-a611-f7c5928bcfd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>CancelOrder(); return false;</value>
+      <webElementGuid>02ac8dad-1f25-46b4-a902-152d6b51d794</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>1b71c055-1584-4c84-b3a9-8a4b0e7a6b2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>確認</value>
+      <webElementGuid>fb7e3287-ad5d-4423-809d-4e02d9652de8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;mfp-wrap mfp-auto-cursor mfp-ready&quot;]/div[@class=&quot;mfp-container mfp-s-ready mfp-inline-holder&quot;]/div[@class=&quot;mfp-content&quot;]/div[@class=&quot;popupContainer&quot;]/div[@class=&quot;popupContent&quot;]/div[1]/div[2]/button[@class=&quot;pure-button pure-button-green&quot;]</value>
+      <webElementGuid>ba273b25-45a4-49e5-bad0-7927aeeebc80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnChangeAddress</value>
+      <webElementGuid>902f9676-3f0e-4757-8f27-9c10e853b359</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>88e50c72-be6c-4bc0-999e-3a56bdb400ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/following::button[1]</value>
+      <webElementGuid>f9cbf75d-ff5d-429d-a7ba-34b71341e951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續取消訂單?'])[1]/following::button[2]</value>
+      <webElementGuid>4711c549-3629-4a6d-9675-a2e71aecb702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</value>
+      <webElementGuid>6a801f45-353b-4319-8638-d465bc05627c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='跳到主頁'])[1]/preceding::button[1]</value>
+      <webElementGuid>4c25ed18-f9fd-4df8-9fb4-896ad42f4d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='確認']/parent::*</value>
+      <webElementGuid>c95bbc32-83e0-4129-8689-49b64e5d6b53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+      <webElementGuid>83a967a8-e1af-4a44-9dcd-9899aec6b009</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +138,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnChangeAddress']</value>
+      <webElementGuid>fd2d9b3d-fd8a-4656-a909-747a57b116bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +146,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='maincontent']/div/div[4]/div/button</value>
+      <webElementGuid>74e04ddf-62c1-4fe8-a922-af962d377cf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='電話：09-43654646'])[1]/following::button[1]</value>
+      <webElementGuid>c885c4bd-ae73-4461-872a-be1f9a37b05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +162,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EH 2.2'])[1]/following::button[1]</value>
+      <webElementGuid>cccf13a6-be38-4f96-9438-773305d9f2d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,6 +170,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='付款方式'])[1]/preceding::button[1]</value>
+      <webElementGuid>06e88435-3d72-4d3f-9424-6b2c1d37cfd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +178,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='使用原預設付款方式付款'])[1]/preceding::button[1]</value>
+      <webElementGuid>bc866df2-ff88-4fa7-ac7f-8b4873e2bef8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +186,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='更改送貨選項']/parent::*</value>
+      <webElementGuid>32614d6f-e0f6-41b0-9421-7e165b617610</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,5 +194,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/button</value>
+      <webElementGuid>1c2081e4-c0cb-41e9-b094-e721f97faba3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

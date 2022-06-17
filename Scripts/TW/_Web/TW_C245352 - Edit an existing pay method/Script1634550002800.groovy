@@ -50,7 +50,15 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
+
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
 

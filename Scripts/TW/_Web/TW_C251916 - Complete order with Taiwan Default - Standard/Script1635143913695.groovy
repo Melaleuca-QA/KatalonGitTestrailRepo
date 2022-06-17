@@ -34,15 +34,25 @@ WebUI.setText(findTestObject('OB001/Page_/input_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
-WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Promotion/CheckoutPromo')
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
+WebUI.waitForPageLoad(30)
+
+WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 

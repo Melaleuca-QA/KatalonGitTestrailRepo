@@ -6,12 +6,16 @@
    <elementGuidId>782bd36a-6c66-4c06-959d-f4e26d8e0c7e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btnContinueCheckoutBottom']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnContinueCheckoutBottom</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div[2]/div[1]/div/div[7]/ul/li[2]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnContinueCheckoutBottom' and @type = 'button' and (text() = '繼續結帳' or . = '繼續結帳')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>7bf3b10b-9e75-42ab-8d4f-05f173bdae9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pure-button pure-button-green pure-button-35</value>
+      <webElementGuid>532c78d5-f3ab-4102-8b59-eaee043ce7e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnContinueCheckoutBottom</value>
+      <webElementGuid>2c094e8f-3ab9-40e2-afa2-9c7eee340a9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>createOnClickAnalytics('Continue Checkout Bottom', 'Checkout Process', null); Cart.CanContinueCheckout();</value>
+      <webElementGuid>726f205c-2ec5-496f-8ca3-5550fe3b3d1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>663306aa-c24f-41a6-b7a2-d86e71f46666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>繼續結帳</value>
+      <webElementGuid>81998a91-61f1-47a6-a67e-20a4efb7c99a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnContinueCheckoutBottom&quot;)</value>
+      <webElementGuid>0597ee3c-f003-484a-9c12-fe5e95d5f83d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnContinueCheckoutBottom']</value>
+      <webElementGuid>02444aca-a5b6-43bd-9066-94ce3153b769</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cart-container']/div/div/div[7]/ul/li[2]/button</value>
+      <webElementGuid>1c558941-3a04-4272-a2d9-28ceee0b0895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='運費結帳時計算'])[1]/following::button[1]</value>
+      <webElementGuid>90cda47c-036e-4945-a28c-356cc8eee747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='商品選購暫存清單:'])[1]/preceding::button[1]</value>
+      <webElementGuid>2cf4d9c2-3099-45cb-9425-86e0d66e2a2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='清單中無此產品'])[1]/preceding::button[1]</value>
+      <webElementGuid>3a8be7ca-df2a-4efa-9e85-8990ff37b7aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/button</value>
+      <webElementGuid>23020bad-77eb-44c8-ad96-d28884898bb7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
