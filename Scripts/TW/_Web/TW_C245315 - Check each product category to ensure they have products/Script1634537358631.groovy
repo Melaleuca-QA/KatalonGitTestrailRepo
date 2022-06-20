@@ -50,7 +50,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductF
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily_HomeClean'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductFamily_HomeClean_1216'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductFamily_HomeClean_5680'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving'))
 
@@ -80,17 +80,33 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_Produc
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_AddtoCart'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_HomePage_Checkout'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_Checkout)
 
+WebUI.waitForPageLoad(30)
+
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/button_Payment'))
+
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

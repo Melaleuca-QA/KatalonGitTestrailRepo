@@ -32,6 +32,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 
+WebUI.waitForPageLoad(100)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_link startEnrollmentLink'))
 
 'input new enrollment name'

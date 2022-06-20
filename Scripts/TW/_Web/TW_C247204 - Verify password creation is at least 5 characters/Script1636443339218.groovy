@@ -209,6 +209,8 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
+WebUI.waitForPageLoad(100)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))

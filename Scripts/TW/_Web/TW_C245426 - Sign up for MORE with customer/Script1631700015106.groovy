@@ -34,6 +34,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_Busin
 
 WebUI.click(findTestObject('OB001/Page_/input_BusinessCenter_tw_ReportandTool_ReportandTool_view_checkbox'))
 
+WebUI.waitForPageLoad(100)
+
 //WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox'))
 WebUI.focus(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
 
@@ -41,7 +43,11 @@ WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_Rep
 
 WebUI.waitForPageLoad(100)
 
-WebUI.switchToWindowTitle('MORE')
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.switchToWindowUrl('https://tw.melaleuca.com/more/')
+} else {
+    WebUI.switchToWindowTitle('MORE')
+}
 
 WebUI.maximizeWindow()
 
