@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'舒喉保護')]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[2]/div[1]/div/div[1]/div/div[1]/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/ProductStore/content/category?c=64' and (text() = '舒喉保護' or . = '舒喉保護')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>1b85422b-44a8-48e9-8436-923f20fcbf74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +33,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/ProductStore/content/category?c=64</value>
+      <webElementGuid>36fa35d5-1030-45d9-992d-c2efdf430e75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +41,7 @@
       <name>manual_cm_re</name>
       <type>Main</type>
       <value>20190701-_-c64</value>
+      <webElementGuid>f5d1983c-ceab-4b79-a08d-9fcfe3d53e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +49,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20190701|@|c64|@|@</value>
+      <webElementGuid>e70b0a6b-b633-4a18-a045-d4bb82193065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>舒喉保護</value>
+      <webElementGuid>b7faf679-42dd-419b-bebb-40a2ec3c7139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[2]/a[1]</value>
+      <webElementGuid>b4675752-06e3-4515-af14-b4f4de2179f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'舒喉保護')]</value>
+      <webElementGuid>b32daa5e-c1da-4a21-a886-80c523e8e5f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='乾燥肌膚護理'])[1]/following::a[1]</value>
+      <webElementGuid>d0e14014-d4a0-42b8-aae3-8b635101fbcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='身體防護系列'])[1]/following::a[2]</value>
+      <webElementGuid>ad445dfb-7b9e-4dab-8522-227f424519e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='居家即時護理'])[1]/preceding::a[1]</value>
+      <webElementGuid>7ad0907f-73c8-4bd7-972e-6e1fc7dabac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='防曬/曬後護理'])[1]/preceding::a[2]</value>
+      <webElementGuid>f87a7722-b78c-4169-9d9d-41c0d6299270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='舒喉保護']/parent::*</value>
+      <webElementGuid>c3c3972f-8930-4d13-8b74-45191091d0d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +121,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/ProductStore/content/category?c=64')]</value>
+      <webElementGuid>e54f5fb8-7313-4f5b-b6cd-2f48aea318b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +129,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/ul/li[2]/a</value>
+      <webElementGuid>40af61fe-933d-42ad-8380-3a1514c98ecc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

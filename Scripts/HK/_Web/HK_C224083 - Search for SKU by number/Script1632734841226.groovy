@@ -30,7 +30,13 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku117)
+println(now_url)
+
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku117)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_sku117)
+}
 
 WebUI.back()
 
@@ -42,7 +48,13 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_produc
 
 now_url = WebUI.getUrl()
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku2854)
+println(now_url)
+
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku2854)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_sku2854)
+}
 
 WebUI.back()
 
@@ -52,7 +64,13 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku2855)
+println(now_url)
+
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku2855)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_sku2855)
+}
 
 WebUI.back()
 
@@ -62,7 +80,13 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku5680)
+println(now_url)
+
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku5680)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_sku5680)
+}
 
 WebUI.back()
 
@@ -72,7 +96,13 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku_notfound)
+println(now_url)
+
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_hk_sku_notfound)
+} else {
+    WebUI.verifyEqual(now_url, GlobalVariable.url_sku_notfound)
+}
 
 WebUI.back()
 

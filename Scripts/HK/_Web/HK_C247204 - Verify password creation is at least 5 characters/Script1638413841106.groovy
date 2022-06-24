@@ -50,7 +50,11 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
 
@@ -85,6 +89,8 @@ println(GlobalVariable.hk_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.run_env == 'Test') {
@@ -105,9 +111,9 @@ WebUI.navigateToUrl(GlobalVariable.hk_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
-
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), 'P9ET2sDE0SE=')
 
@@ -135,11 +141,11 @@ if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_pwd_5'))) {
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_1'))
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_2'))
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
@@ -164,6 +170,8 @@ WebUI.navigateToUrl(GlobalVariable.url_CustomerType)
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_DCSelect'))
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_DCSelect'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
@@ -238,8 +246,12 @@ WebUI.setText(findTestObject('OB001/Page_/input_EnrolleeDigitalSignature'), Glob
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
+WebUI.waitForPageLoad(30)
+
 '開始購物'
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping_hk'))
+
+WebUI.waitForPageLoad(30)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {

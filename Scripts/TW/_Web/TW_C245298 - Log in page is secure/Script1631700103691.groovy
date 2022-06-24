@@ -32,27 +32,47 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductN
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/div_LVIP_TW'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/div_AboutMelaleuca_tw'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/span_MyAccount_BackupOrderSetup'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_link enrollmentFormsLink'))
 
@@ -60,13 +80,13 @@ now_title = WebUI.getWindowTitle()
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Form1_Download'))
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(30)
 
 WebUI.switchToWindowTitle(now_title)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Form2_Download'))
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(30)
 
 WebUI.switchToWindowTitle(now_title)
 

@@ -46,6 +46,10 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Payment'))
 
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+}
+
 WebUI.waitForAlert(5)
 
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {

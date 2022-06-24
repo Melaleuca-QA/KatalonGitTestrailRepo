@@ -64,7 +64,7 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 

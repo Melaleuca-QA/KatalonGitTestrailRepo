@@ -53,9 +53,15 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.focus(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
+
+WebUI.waitForPageLoad(30)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
@@ -80,6 +86,8 @@ println(GlobalVariable.hk_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.run_env == 'Test') {
@@ -103,6 +111,8 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 

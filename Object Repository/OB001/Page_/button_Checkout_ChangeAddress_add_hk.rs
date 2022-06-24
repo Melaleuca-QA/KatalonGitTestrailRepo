@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ChangeShippingOptions</name>
+   <name>button_Checkout_ChangeAddress_add_hk</name>
    <tag></tag>
-   <elementGuidId>079dfd6e-2336-49ba-8379-14ba5e82df16</elementGuidId>
+   <elementGuidId>fb587a1d-097c-4ec3-8134-46dd485d649c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div[4]/div[1]/button</value>
+         <value>/html/body/div[3]/div[2]/div/div/div/div[2]/div[1]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.pure-button.pure-button-green</value>
+         <value>#btnAddNewAddress</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3a37006a-647c-491e-8ccb-947b6a8ce6c7</webElementGuid>
+      <webElementGuid>41164c75-eb60-4d37-b203-4708d949187e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pure-button pure-button-green</value>
-      <webElementGuid>c15786fb-cb3b-4701-bb61-aff030153378</webElementGuid>
+      <value>pure-button pure-button-blue</value>
+      <webElementGuid>36b077e3-d7e3-4780-8a14-ee25f6c31840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnAddNewAddress</value>
+      <webElementGuid>96703c16-3a41-46de-abc4-43f58512bde6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>CancelOrder(); return false;</value>
-      <webElementGuid>2709b6b2-7c96-4c55-a1da-450a3f56305d</webElementGuid>
+      <value>window.location = '/ProductStore/CheckoutEditAddress/B6589FC6AB0DC82CF12099D1C2D40AB994E8410C';</value>
+      <webElementGuid>6287889a-ddb6-408a-aa49-a5072bc87380</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,78 +54,78 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5a144748-069b-4a76-adae-bedb29a4861c</webElementGuid>
+      <webElementGuid>1cc4bf61-d044-451b-8e6f-9adba1957ada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>確認</value>
-      <webElementGuid>0a40d5dc-f535-45c9-9549-58fc1acb4305</webElementGuid>
+      <value>新增送貨地址</value>
+      <webElementGuid>abfd212c-36dd-42f9-85cb-31a415785b97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;mfp-wrap mfp-auto-cursor mfp-ready&quot;]/div[@class=&quot;mfp-container mfp-s-ready mfp-inline-holder&quot;]/div[@class=&quot;mfp-content&quot;]/div[@class=&quot;popupContainer&quot;]/div[@class=&quot;popupContent&quot;]/div[1]/div[2]/button[@class=&quot;pure-button pure-button-green&quot;]</value>
-      <webElementGuid>a5dafc2e-b943-442f-8000-05a586654039</webElementGuid>
+      <value>id(&quot;btnAddNewAddress&quot;)</value>
+      <webElementGuid>9f180863-6a34-4296-9c24-31d69d6c2642</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>29a3f8f0-9e4f-479a-ac2f-abb0dfe60215</webElementGuid>
+      <value>//button[@id='btnAddNewAddress']</value>
+      <webElementGuid>ea7e1999-df1e-4bde-ab4f-0be9f72f666b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='adrList_ReplacementContainer']/div/button</value>
+      <webElementGuid>f757f4b3-16d0-4a05-811d-bf37e8149dcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/following::button[1]</value>
-      <webElementGuid>228b5109-7894-484c-9152-b20f00d5b668</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇地址及配送方式'])[1]/following::button[1]</value>
+      <webElementGuid>ec614ecb-af7d-4c64-967f-4e74e26958ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續取消訂單?'])[1]/following::button[2]</value>
-      <webElementGuid>59a896bd-25f2-4f6c-8d4c-fc4224cde80a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='姓名'])[1]/preceding::button[1]</value>
+      <webElementGuid>1689d27c-5ab7-402c-8648-42633a9b0681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</value>
-      <webElementGuid>528dc87b-6ce9-449c-84f6-8451601db50b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='詳細地址'])[1]/preceding::button[1]</value>
+      <webElementGuid>85b7baad-cf29-4d20-a91e-5507ac19bbe1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='跳到主頁'])[1]/preceding::button[1]</value>
-      <webElementGuid>3d9ecabd-5780-44cf-aeff-71d3cbeaf483</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='確認']/parent::*</value>
-      <webElementGuid>6c79d57f-f83d-4ac0-b279-574094f5d61c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='新增送貨地址']/parent::*</value>
+      <webElementGuid>8f6dbbfe-cec6-417d-b3de-fb1652582d78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>aa75feb2-ef9a-40a9-a2c9-e8b6d755b8f1</webElementGuid>
+      <value>//div[2]/div/div/div/div[2]/div/button</value>
+      <webElementGuid>2cf68273-6e53-4653-8b8a-8d1b0b619c9c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

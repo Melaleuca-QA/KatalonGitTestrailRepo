@@ -64,74 +64,7 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_SendText'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_CloseButton'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_/div_'))
 
-WebUI.refresh()
-
-WebUI.focus(findTestObject('OB001/Page_/span_BusinessCenter_OLE_SendReminder'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('OB001/Page_/span_BusinessCenter_OLE_SendReminder'), '發送提醒')
-
-WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_SendReminder'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), 
-    '重新發送提醒')
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_/i_fa fa-trash_ole'))
-
-WebUI.click(findTestObject('OB001/Page_/i_fa fa-trash_ole'))
-
-WebUI.click(findTestObject('OB001/Page_/div_ole'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort-asc'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify ability to send invite by text'
-GlobalVariable.test_case = '245569'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify ability to send a reminder '
-GlobalVariable.test_case = '247187'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify you can delete invite'
-GlobalVariable.test_case = '247188'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify you can sort with 2 or more invites'
-GlobalVariable.test_case = '247189'
-
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB002/Page_/div_1'))
 
