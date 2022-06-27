@@ -48,19 +48,21 @@ WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
@@ -72,13 +74,13 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_edit'))
 
@@ -88,11 +90,19 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_delete'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_return'))
+
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 

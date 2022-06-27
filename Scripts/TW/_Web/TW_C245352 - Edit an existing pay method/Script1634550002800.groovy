@@ -48,6 +48,8 @@ WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
 WebUI.waitForPageLoad(30)
@@ -72,7 +74,7 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.delay(5)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 
@@ -98,7 +100,7 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_return'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 

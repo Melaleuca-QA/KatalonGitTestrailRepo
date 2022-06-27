@@ -28,11 +28,19 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_Busine
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
+WebUI.waitForPageLoad(30)
+
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '0943654646')
 
@@ -57,6 +65,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_Busine
 WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

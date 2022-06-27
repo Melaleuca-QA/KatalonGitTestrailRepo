@@ -250,6 +250,8 @@ WebUI.waitForPageLoad(100)
 
 WebUI.refresh()
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ConfirmDetails_Presenter_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/input_txtPresenterSearch'), '0988297237')

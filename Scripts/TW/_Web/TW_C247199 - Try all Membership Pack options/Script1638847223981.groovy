@@ -48,7 +48,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductN
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle_400'))
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductS
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductSellbellaPack'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle_1941'))
 
@@ -81,7 +81,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_produc
 
 WebUI.click(findTestObject('OB001/Page_/img_2217'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
@@ -95,7 +95,7 @@ WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_2000'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
@@ -109,7 +109,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductV
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_117'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
@@ -119,13 +119,13 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '油')
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_5542'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 

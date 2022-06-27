@@ -48,7 +48,7 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.verifyEqual(now_url, GlobalVariable.url_melaleucapresentations)
 }
 
-WebUI.delay(2)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 
@@ -84,7 +84,7 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
 }
 
-WebUI.delay(2)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 
@@ -102,7 +102,7 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
 }
 
-WebUI.delay(2)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 

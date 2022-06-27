@@ -32,7 +32,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Sho
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
@@ -40,13 +40,11 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_/button_ChangeShippingOptions'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_ChangeShippingOptions'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_add'))
 
@@ -68,7 +66,7 @@ WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.FormattedPhoneNumb
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 
@@ -82,9 +80,19 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Che
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
+
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
