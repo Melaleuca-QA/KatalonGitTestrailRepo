@@ -52,13 +52,13 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
 
@@ -80,6 +80,8 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_edit'))
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)
@@ -88,15 +90,15 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_delete'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_return'))
 

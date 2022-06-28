@@ -112,7 +112,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_newpswd)
 
@@ -132,7 +132,7 @@ WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
@@ -153,15 +153,15 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_AddressConfirm'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'))
 

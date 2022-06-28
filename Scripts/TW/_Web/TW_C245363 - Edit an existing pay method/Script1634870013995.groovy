@@ -33,10 +33,16 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
+
+WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
 WebUI.click(findTestObject('OB001/Page_/button_MyAccount_SetupPaymethod_AddCreditCard'))
+
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
@@ -48,9 +54,11 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_MyAccount_SetupPaymethod_EditCreditCard'))
+
+WebUI.waitForAlert(5)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)
 
@@ -58,11 +66,13 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_MyAccount_SetupPaymethod_DeleteCreditCard'))
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
@@ -71,6 +81,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_CloseS
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
 WebUI.click(findTestObject('OB001/Page_/a_ProductNutrition_VitaminSeries'))
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

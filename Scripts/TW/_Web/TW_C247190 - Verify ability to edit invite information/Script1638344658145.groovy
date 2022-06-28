@@ -52,13 +52,15 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)
 
@@ -72,6 +74,8 @@ WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_chkCommunicatio
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_SendEmail'))
 
+WebUI.waitForAlert(5)
+
 WebUI.mouseOver(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
 
 GlobalVariable.tw_input_oleurl = WebUI.getAttribute(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'), 
@@ -81,6 +85,8 @@ println(GlobalVariable.tw_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_InvitationName'))
 
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
@@ -88,6 +94,8 @@ WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'
 WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone1'), GlobalVariable.tw_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
@@ -100,12 +108,16 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_ BusinessCenter_OLE
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_ BusinessCenter_OLE_Invitation_Region'), '0', true)
 
 'Region is HK'
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
@@ -130,11 +142,11 @@ WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_newpswd)
 
@@ -154,7 +166,7 @@ WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVari
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 
@@ -175,17 +187,19 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_AddressConfirm'))
 
-WebUI.focus(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
@@ -201,13 +215,19 @@ WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.waitForPageLoad(30)
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
@@ -232,9 +252,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
@@ -242,11 +260,13 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
+WebUI.waitForAlert(5)
 
-WebUI.waitForPageLoad(100)
+WebUI.click(findTestObject('Object Repository/OB001/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
 
 WebUI.refresh()
 
@@ -272,6 +292,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_Busine
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_ConfirmDetails_Continue'))
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_ConfirmDetails_Return'))
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -53,15 +53,15 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Business
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
@@ -86,7 +86,7 @@ println(GlobalVariable.hk_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -108,11 +108,11 @@ WebUI.navigateToUrl(GlobalVariable.hk_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
@@ -165,13 +165,13 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Confirm'))
 
@@ -214,6 +214,8 @@ WebUI.setText(findTestObject('OB001/Page_/input_SpouseDigitalSignature'), Global
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_StartShopping'))
 
 'close birthday\'s shopping'
@@ -226,6 +228,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductF
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductSkinCare'))
+
+WebUI.waitForAlert(5)
 
 'Logout'
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)

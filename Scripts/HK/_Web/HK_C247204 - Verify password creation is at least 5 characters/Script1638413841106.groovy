@@ -64,7 +64,7 @@ WebUI.focus(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.hk_input_newname)
@@ -89,7 +89,7 @@ println(GlobalVariable.hk_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -113,7 +113,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), 'P9ET2sDE0SE=')
 
@@ -141,11 +141,11 @@ if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_pwd_5'))) {
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_1'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_2'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
@@ -171,7 +171,7 @@ WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_DCSelect'))
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_DCSelect'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_newpswd)
 
@@ -194,6 +194,8 @@ if (result2 == '我授權美商亞洲美樂家有限公司') {
 } else {
     FailureHandling.STOP_ON_FAILURE
 }
+
+WebUI.waitForAlert(5)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'), '852', true)
 
@@ -226,11 +228,11 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_BusinessCenter_OLE_DCChkAgre
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_/button_BusinessCenter_OLE_IMEA_Start'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountHolderName'), GlobalVariable.hk_input_newname)
 
@@ -246,12 +248,12 @@ WebUI.setText(findTestObject('OB001/Page_/input_EnrolleeDigitalSignature'), Glob
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 '開始購物'
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -272,7 +274,7 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_Melaleuca The Wellness Comp
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_save'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

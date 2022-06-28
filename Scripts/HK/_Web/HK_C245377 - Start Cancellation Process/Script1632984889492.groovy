@@ -26,11 +26,15 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
 WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_hk'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
@@ -39,6 +43,8 @@ now_url = WebUI.getUrl()
 println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

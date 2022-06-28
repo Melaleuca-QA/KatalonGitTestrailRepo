@@ -103,7 +103,7 @@ WebUI.navigateToUrl(GlobalVariable.tw_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
@@ -133,11 +133,11 @@ if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_pwd_5'))) {
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_1'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/i_fa fa-eye-slash_2'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
 
@@ -204,9 +204,7 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_BusinessCenter_OLE_DCChkAgre
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
-
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_AddressConfirm'))
 
@@ -217,7 +215,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
@@ -234,6 +232,8 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_Melaleuca The Wellness Comp
     '2039', true)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

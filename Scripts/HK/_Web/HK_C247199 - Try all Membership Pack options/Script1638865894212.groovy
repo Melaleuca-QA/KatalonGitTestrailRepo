@@ -30,6 +30,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Tracking
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPurchaseTemporaryList'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_Purchased'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyTrackingList'))
@@ -154,6 +156,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_fa 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ModifyorAddTrackingList_save'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
