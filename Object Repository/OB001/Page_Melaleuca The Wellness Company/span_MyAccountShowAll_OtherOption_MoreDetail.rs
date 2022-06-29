@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='ctl01_btn']/span[2])[3]</value>
+         <value>/html/body/div[3]/div[2]/div[2]/div[1]/div/div/div[2]/div[2]/div/div/div/a/span[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[(text() = '發送提醒' or . = '發送提醒')]</value>
       </entry>
       <entry>
          <key>IMAGE</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '發送提醒' or . = '發送提醒')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,6 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>8f7ff682-bf3e-49ad-be45-d1263b0b6295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btnTxt</value>
+      <webElementGuid>2cdfa084-3838-4d8a-b2a3-bd116f471815</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>更多詳情</value>
+      <webElementGuid>0900d6e1-4981-4e65-a86d-7e9fb6dfd86d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rightContainer&quot;)/div[@class=&quot;pageContainer contentContainer&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;dmk_main&quot;]/div[@class=&quot;dmk_section_content&quot;]/div[2]/div[@class=&quot;dmk_pod_content&quot;]/div[@class=&quot;btn blue24&quot;]/div[1]/a[@id=&quot;ctl01_btn&quot;]/span[@class=&quot;btnTxt&quot;]</value>
+      <webElementGuid>190a5da8-0cff-4bf7-92b4-a1b05b1fb785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +60,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnRemove</value>
+      <webElementGuid>34f74026-0350-4009-82ff-d864c84a6a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +68,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>RemoveItemFromCart(Item,$event);</value>
+      <webElementGuid>612465b6-f37e-4c84-af2a-5675f5f175bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +76,7 @@
       <name>ng-hide</name>
       <type>Main</type>
       <value>Item.RemoveDeleteButton</value>
+      <webElementGuid>edbeae51-0e78-483c-a7d3-471226f43dc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +84,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
+      <webElementGuid>8e66d628-7dba-4e44-af8a-1f1d2c2ec269</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +92,7 @@
       <name>ng-if</name>
       <type>Main</type>
       <value>enrollee.DailyReminderSentCount == 0</value>
+      <webElementGuid>2ad22d3d-b1db-4774-8dc0-105baf7f0742</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,6 +100,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//a[@id='ctl01_btn']/span[2])[3]</value>
+      <webElementGuid>64aa9454-0bee-4fd1-adc4-e8280607f966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='更多詳情'])[5]/following::span[2]</value>
+      <webElementGuid>ff74e869-b834-4c94-9a57-7d7efc916f4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='取消優惠顧客專屬禮遇'])[1]/following::span[3]</value>
+      <webElementGuid>516a9670-94a4-4253-912d-f91e72643e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[5]/preceding::span[3]</value>
+      <webElementGuid>21daad8e-92f9-46ad-ba6a-23a4c9d3e90b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家刊物'])[1]/preceding::span[3]</value>
+      <webElementGuid>8f7b4def-47b1-41d8-a70f-9d28a000760e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/a/span[2]</value>
+      <webElementGuid>79c44112-a236-43a5-9077-7ac1ee45b1fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +148,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='btnRemove']</value>
+      <webElementGuid>0b3f9a40-61e2-4b47-86c0-60eebc65bec6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +156,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='myCartListv2']/div[2]/table/tbody/tr/td[8]/span</value>
+      <webElementGuid>fbec3308-5c9c-469f-9b2e-68b82a46b62b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +164,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$520'])[1]/following::span[2]</value>
+      <webElementGuid>d254b547-e5b3-42b8-9178-7b07558b1b02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +172,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$220'])[1]/following::span[3]</value>
+      <webElementGuid>cab1015c-9b2c-429a-86d1-0e4d8b9f4072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +180,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='衣物除漬精-4倍濃縮'])[2]/preceding::span[1]</value>
+      <webElementGuid>468e485f-3dcc-4a8b-8d4c-3baa2c3f55fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,6 +188,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='寶維適CV'])[1]/preceding::span[2]</value>
+      <webElementGuid>957d9703-06fb-4570-b84e-77e320432184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -175,6 +196,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]/span</value>
+      <webElementGuid>221c4dae-bc22-4763-b61b-de61247b5567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,6 +204,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='invitation_1514']/div/div[4]/span/span</value>
+      <webElementGuid>7a7d4ac0-7e0b-4aea-a580-c84264ccb943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -189,6 +212,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='等待確認中'])[1]/following::span[2]</value>
+      <webElementGuid>bb25b5c4-fc8e-4271-b0f0-59c423a3b263</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -196,6 +220,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='hk39948'])[3]/following::span[2]</value>
+      <webElementGuid>7f045e8d-319e-4538-adb8-a974e21c852f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -203,6 +228,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='hk417257'])[1]/preceding::span[2]</value>
+      <webElementGuid>4098449d-7370-4791-bf9c-711fc4f920f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -210,6 +236,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='訂購需求'])[1]/preceding::span[3]</value>
+      <webElementGuid>4c16ffac-9659-4b90-9b9c-cdc57f7bb839</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -217,6 +244,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='發送提醒']/parent::*</value>
+      <webElementGuid>10a6223b-abbe-4b5c-aced-a1b52247a447</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -224,6 +252,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/span/span</value>
+      <webElementGuid>b1296d95-572f-495b-a430-72cbdb898589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -231,6 +260,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='buttonAccount']/span</value>
+      <webElementGuid>e2093daf-8529-40bd-8fed-1af037e25cfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -238,6 +268,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', 總監二'])[1]/following::span[1]</value>
+      <webElementGuid>d7fa755e-2799-4e59-87e3-d12b268e6379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -245,6 +276,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EH 2.2 HK Test'])[1]/following::span[2]</value>
+      <webElementGuid>b6c9597d-0232-4a89-9d4b-f68ff41bd62f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -252,6 +284,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我的帳戶'])[2]/preceding::span[2]</value>
+      <webElementGuid>5aabe500-36ee-411f-9ae7-75a5f3186c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -259,6 +292,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[1]/preceding::span[3]</value>
+      <webElementGuid>d222dea9-ff89-4b09-8c04-c9c2479219de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -266,6 +300,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='我的帳戶']/parent::*</value>
+      <webElementGuid>1562faaf-83b2-48d0-94e0-287e699acd4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -273,6 +308,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>8c7cf4f7-216d-4c8d-88a8-79ffe13fea54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -280,6 +316,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//span[@id='btnRemove'])[3]</value>
+      <webElementGuid>6dcbaf26-6bb1-4486-b1b3-4754276c0bfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -287,6 +324,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='myCartListv2']/div[2]/table/tbody/tr[3]/td[8]/span</value>
+      <webElementGuid>ffee7fa8-a4af-4161-9300-221768712d38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -294,6 +332,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$840'])[1]/following::span[2]</value>
+      <webElementGuid>74868d8e-4c6e-46fa-aed5-7c37677cdf68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -301,6 +340,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$360'])[1]/following::span[3]</value>
+      <webElementGuid>c0e624b0-a0c0-4af0-9df4-7de88b17051f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -308,6 +348,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='防曬護唇膏組合 任2'])[2]/preceding::span[1]</value>
+      <webElementGuid>39919e0d-819d-41ad-a019-3de41d13aa1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -315,6 +356,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='小計'])[1]/preceding::span[1]</value>
+      <webElementGuid>29c4a9ba-e2d2-4aa6-84c8-ee82f3f5781f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -322,5 +364,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[8]/span</value>
+      <webElementGuid>b93094a7-4283-4b65-b0d7-a3a9d71b0b85</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

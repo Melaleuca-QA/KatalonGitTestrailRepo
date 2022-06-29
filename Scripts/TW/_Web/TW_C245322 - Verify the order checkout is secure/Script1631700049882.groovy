@@ -70,11 +70,19 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
 
 WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 

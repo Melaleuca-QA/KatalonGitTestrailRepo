@@ -6,7 +6,8 @@
    <elementGuidId>05e8afb9-3022-4883-9f02-c263ae6e7160</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div[1]/div/div/div/div/ul/li[10]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -21,8 +22,7 @@
 					')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div[1]/div/div/div/div/ul/li[9]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>90aa3fe2-0ac3-4e61-9e54-eec0449f58f8</webElementGuid>
+      <webElementGuid>dd9c58ad-d6fc-43d9-abb9-70a16e9a5c18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/MyAccount/ContentMenu/Other_Options</value>
-      <webElementGuid>161281b2-65f2-4535-8e66-87300a76feb5</webElementGuid>
+      <webElementGuid>95a70ccf-e09b-4524-b5f0-8d56fd55c128</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>title</name>
       <type>Main</type>
       <value>其他選項</value>
-      <webElementGuid>585cb18a-5b95-4aa7-90c1-3a6eba113958</webElementGuid>
+      <webElementGuid>b012804d-5afa-4b98-90a7-209047cc31b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>noChild</value>
-      <webElementGuid>fb3e2bb4-4410-47d7-ba6e-b48d17f8869c</webElementGuid>
+      <webElementGuid>12caaafe-3eb7-4a7b-b4c7-f27a59c9e737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
 
 						其他選項
 					</value>
-      <webElementGuid>ab64b8e0-0c88-4c09-a4c4-65a26aec5c69</webElementGuid>
+      <webElementGuid>9aee73b9-2d58-4df3-b47e-98b8e70c710f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navigationContainer&quot;)/div[@class=&quot;menuWrapper v2&quot;]/div[@class=&quot;upperMenu&quot;]/ul[@class=&quot;navMenu&quot;]/li[10]/a[@class=&quot;noChild&quot;]</value>
-      <webElementGuid>d2144d84-62f9-41df-9229-526cd2132080</webElementGuid>
+      <webElementGuid>22d8b1cf-21fe-462e-bc9b-b07f43383b91</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navigationContainer']/div/div/ul/li[10]/a</value>
-      <webElementGuid>4e545a2a-5190-433f-85a1-42ac2d72c0ee</webElementGuid>
+      <webElementGuid>4f4844a4-4b1e-4a49-9875-eab35bd439a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'其他選項')]</value>
-      <webElementGuid>235bf395-a82f-4d9d-a3d4-c1f64a5bb331</webElementGuid>
+      <webElementGuid>ccf518a1-2140-44cc-a2ce-91a4118313cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新入會組織轉換費用歷史記錄'])[1]/following::a[1]</value>
-      <webElementGuid>fc4d32f4-125c-4d05-a556-42dd6b9cafd5</webElementGuid>
+      <webElementGuid>a38d59bb-1fdd-4d20-b5e2-b0e24b14371a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='預備訂單/精選套組'])[1]/following::a[2]</value>
-      <webElementGuid>e031038d-63e1-47b5-a9f9-6fc9a58ae9c6</webElementGuid>
+      <webElementGuid>91d5432a-03df-4339-b3de-6beb96d979e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='會員資料'])[1]/preceding::a[1]</value>
-      <webElementGuid>fb606fce-1af2-4f06-b55c-fc0d2c9b5f41</webElementGuid>
+      <webElementGuid>039170a5-63ea-4a00-a77d-96a3604ae853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='其他選項']/parent::*</value>
-      <webElementGuid>33f75a99-f4a4-4d6c-904b-1aa8c22ad11d</webElementGuid>
+      <webElementGuid>2ce65d27-5d05-4175-8ca2-d93278c88e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/MyAccount/ContentMenu/Other_Options')]</value>
-      <webElementGuid>03072fdb-b846-422c-a61c-6e65853bc654</webElementGuid>
+      <webElementGuid>ab7a8392-d804-4107-95c0-ac9b41643352</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/ul/li[10]/a</value>
-      <webElementGuid>5b46edb9-c050-4e07-a179-cb90909b48d6</webElementGuid>
+      <webElementGuid>3e828a57-2527-45e0-aa53-fc97e68199a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

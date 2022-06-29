@@ -79,19 +79,19 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_fa fa
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_promotion_add'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 

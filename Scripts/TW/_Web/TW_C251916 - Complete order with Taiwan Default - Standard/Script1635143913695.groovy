@@ -62,7 +62,15 @@ WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 't
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
+
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
