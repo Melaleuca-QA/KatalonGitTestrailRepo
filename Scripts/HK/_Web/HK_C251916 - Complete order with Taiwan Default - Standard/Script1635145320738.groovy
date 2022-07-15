@@ -46,13 +46,11 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 

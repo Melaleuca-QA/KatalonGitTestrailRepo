@@ -34,25 +34,25 @@ WebUI.setText(findTestObject('OB001/Page_/input_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_edit'))
 
@@ -60,13 +60,23 @@ WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 't
 
 WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'testaddress6')
 
+now_url_1 = WebUI.getUrl()
+
+println(now_url_1)
+
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+now_url_2 = WebUI.getUrl()
 
-WebUI.waitForAlert(5)
+println(now_url_2)
+
+//if (WebUI.verifyEqual(now_url_1, now_url_2)) {
+//    WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+//    WebUI.waitForAlert(5)
+//} else {
+//}
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 

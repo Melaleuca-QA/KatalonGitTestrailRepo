@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnEdit']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#btnEdit</value>
+         <value>/html/body/div[3]/div[2]/div/div/div/div[2]/table/tbody/tr[2]/td[3]/div/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'btnEdit' and @type = 'button' and (text() = '編輯' or . = '編輯')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnEdit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>2ba1d387-4094-4b5f-837d-88c2c2b64b2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pure-button pure-button-blue</value>
+      <webElementGuid>9dacd20c-328e-4b21-b958-fb94897dc6f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnEdit</value>
+      <webElementGuid>aee74f52-96bf-43ab-9651-8794966e1ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.location = '/ProductStore/CheckoutEditAddress/B52CDF7F7F86BA17137BC121D90AF23567AEAA31';</value>
+      <webElementGuid>1110ba0a-1305-47fe-84ca-5ad1a2cbc0e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>f52f9420-c40c-4092-affa-14a25a75171d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>編輯</value>
+      <webElementGuid>46555bac-d716-4259-8603-b5cefd7042df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;adrList_ReplacementContainer&quot;)/table[@class=&quot;addressListHeader&quot;]/tbody[1]/tr[2]/td[@class=&quot;addressButtonColumn&quot;]/div[1]/button[@id=&quot;btnEdit&quot;]</value>
+      <webElementGuid>ad827783-6136-4b96-94bb-52a2e8d747f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnEdit']</value>
+      <webElementGuid>28d67491-0a86-4621-b5ca-373a679877c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='adrList_ReplacementContainer']/table/tbody/tr[2]/td[3]/div/button[2]</value>
+      <webElementGuid>3972bb01-28e4-4dbe-8a72-9d3e5e70f4ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='刪除'])[3]/following::button[1]</value>
+      <webElementGuid>acacccc2-c570-4a23-a51d-27ea5073cefc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='香港'])[1]/following::button[2]</value>
+      <webElementGuid>f58442b0-2896-46ce-b1c7-e43fd3079d00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='港島一號'])[3]/preceding::button[1]</value>
+      <webElementGuid>f5e1afdf-c834-48b0-a563-8988c143f034</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='編輯']/parent::*</value>
+      <webElementGuid>5b486892-abbf-4dcc-8042-4e42cf8dc590</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+      <webElementGuid>dc7d2c5d-f2de-49fd-9265-c59e60227b1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
