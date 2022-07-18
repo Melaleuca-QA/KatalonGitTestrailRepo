@@ -80,9 +80,8 @@ WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
-
-WebUI.waitForAlert(5)
+//WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+//WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
