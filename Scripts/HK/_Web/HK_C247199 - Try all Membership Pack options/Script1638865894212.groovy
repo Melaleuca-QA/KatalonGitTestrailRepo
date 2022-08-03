@@ -91,6 +91,8 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving_BodyClean'))

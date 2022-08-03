@@ -26,22 +26,30 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_tw_ReportandTool'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_tw_ReportandTool_ReportandTool'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_tw_ReportandTool_ReportandTool_view'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/input_BusinessCenter_tw_ReportandTool_ReportandTool_view_checkbox'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 //WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_ReportandTool_ReportandTool_view_checkbox'))
 WebUI.focus(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_tw_ReportandTool_ReportandTool_view_enable_tw'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 if (GlobalVariable.run_env == 'PD') {
     WebUI.switchToWindowUrl('https://tw.melaleuca.com/more/')
@@ -55,87 +63,87 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Dashboard'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Alerts'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Snapshot'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_NewGrowth'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Enrollments'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Cancellations'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Reactivations'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_LeadershipPoints'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Advancements'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Mentoring'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_CoreOrganization'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_KPI'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_StatusGoals'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_PersonalEnrollees'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_SupportTeam'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_NewDirectors'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_NewAdvancements'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_OrgDirectors'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_Enrolled2'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_BackupOrderReport'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_MORE/a_ShowOrgViewer'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_undefined)
 
@@ -146,7 +154,7 @@ println(now_url)
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/more/OrgViewer.aspx?sid=undefined')
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.closeWindowTitle('Org Browser')
 

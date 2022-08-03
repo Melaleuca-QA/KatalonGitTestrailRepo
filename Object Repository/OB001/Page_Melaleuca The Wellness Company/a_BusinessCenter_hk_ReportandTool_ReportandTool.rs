@@ -6,12 +6,12 @@
    <elementGuidId>309433a6-3370-42c4-a0b8-58d1dec896be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'報表 &amp; 工具')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.nav-item-popup.is-visible > div.menu-popup-container > div.popup-content-wrapper > div > div.menu-area > div.menu-column > div.menu-header.double-width > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[10]/div[1]/div/div[1]/div/div[1]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>646e98ed-d2af-42fc-839c-5d6855eb3c8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/BusinessCenter/SecureContentMenu/reports_tools_landing</value>
+      <webElementGuid>5666de5c-6859-42d3-8218-1e66dd9c8da3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20200419|@|topNav_reports_tools|reports_tools_landing</value>
+      <webElementGuid>41254453-3ca5-4581-9e2b-2fb09aea0899</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>報表 &amp; 工具</value>
+      <webElementGuid>ee5a77a1-ddc0-48e0-8471-b0fb323c22e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column&quot;]/div[@class=&quot;menu-header double-width&quot;]/a[1]</value>
+      <webElementGuid>3408495a-b5ef-4d72-8838-f595523554bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'報表 &amp; 工具')]</value>
+      <webElementGuid>c87c064d-0461-4e9b-b6a7-e510b8278cc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[11]/following::a[1]</value>
+      <webElementGuid>f94719a4-6eda-48eb-87fc-c8f02ba6dcf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='精英誌雙月刊'])[1]/following::a[2]</value>
+      <webElementGuid>26b25cb8-56af-4117-9bba-784d80c703ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='事業管理工具'])[1]/preceding::a[1]</value>
+      <webElementGuid>f22b7045-142d-4407-8189-32c57f5a165e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='佣金報表'])[1]/preceding::a[2]</value>
+      <webElementGuid>3dbedc3a-09eb-44e0-a27a-2c816ccf0560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='報表 &amp; 工具']/parent::*</value>
+      <webElementGuid>3a8ebef7-0a7f-4f5e-92c9-577d695cc09c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/BusinessCenter/SecureContentMenu/reports_tools_landing')]</value>
+      <webElementGuid>bbb83942-f83e-4d72-a40d-6568fb0522f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/div/div/div/div/div/a</value>
+      <webElementGuid>edfad88f-ce9b-4699-a0f7-dc77f44354c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

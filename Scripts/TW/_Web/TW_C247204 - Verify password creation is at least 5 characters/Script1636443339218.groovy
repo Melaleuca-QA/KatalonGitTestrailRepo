@@ -50,19 +50,19 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_Busine
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)

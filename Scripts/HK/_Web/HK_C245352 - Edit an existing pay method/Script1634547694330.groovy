@@ -42,7 +42,11 @@ WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_tx
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_Cart)
 

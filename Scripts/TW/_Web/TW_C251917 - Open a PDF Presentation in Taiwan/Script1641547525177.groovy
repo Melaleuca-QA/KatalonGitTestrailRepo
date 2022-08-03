@@ -26,19 +26,27 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_MelaleucaPresentation'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_image-placeholder'))
 
+WebUI.waitForAlert(5)
+
 WebUI.switchToWindowTitle('TW_Overview_0322')
 
-WebUI.waitForPageLoad(100)
-
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
 
