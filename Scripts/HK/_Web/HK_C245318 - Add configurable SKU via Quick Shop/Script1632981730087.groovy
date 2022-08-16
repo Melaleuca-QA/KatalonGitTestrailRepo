@@ -74,6 +74,8 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
+WebUI.waitForAlert(5)
+
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
     WebUI.click(findTestObject('OB001/Page_/button_ck35'))
 }

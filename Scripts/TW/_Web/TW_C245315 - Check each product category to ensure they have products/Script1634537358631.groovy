@@ -44,14 +44,13 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody_Throat'))
 
-//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductBody_Throat_6608'))
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductSellbella'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductSellbella_Face'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductSellBella_Face_70069'))
+//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductSellBella_Face_70069'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 

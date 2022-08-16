@@ -12,31 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5dab5312-36b9-47fb-9927-3caa9408d4ea</testSuiteGuid>
    <testCaseLink>
-      <guid>6c29fa25-8fb6-4741-90b9-8c9babfea684</guid>
+      <guid>7b62e486-56e6-49ac-9276-7ac525c3a11b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245352 - Edit an existing pay method</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8beb7df-548d-45c2-b274-fcc6bd1dd00f</guid>
+      <guid>44f12dcd-50c2-4a32-b8dd-1715e2d5f67e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C245363 - Edit an existing pay method</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7823c49-3dfe-47ad-a01c-c7067f54eafc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d09c3da0-52ab-474a-b52a-61616d3d4052</guid>
+      <guid>74d359c3-ecc9-4c19-b3c8-2dd6d7d5f8a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TW/_Web/TW_C245570 - Search for Presenter by Phone, Email, and Mela ID</testCaseId>
+      <testCaseId>Test Cases/TW/_Web/TW_C247190 - Verify ability to edit invite information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e46eeaf-4b3f-41f5-b031-b4ec5972a317</guid>
+      <guid>e3f088c3-8d94-4133-b21e-15ceed4677f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TW/_Web/TW_C247199 - Try all Membership Pack options</testCaseId>
+      <testCaseId>Test Cases/TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>793481b3-d59a-4f94-b02d-d01373791179</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

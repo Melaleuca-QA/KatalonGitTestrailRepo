@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'顯示所有產品')]</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[1]/div[1]/div/div[1]/div/div[1]/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>34c6e194-7f5f-445a-9f3a-3a342c5d2972</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/ProductStore/content/category?c=2</value>
+      <webElementGuid>c27a02d9-5fab-4174-ba9d-2ead4e1ddc2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20210410|@|topNav_Nutrition|c2</value>
+      <webElementGuid>108ad42a-1b4a-410c-bc86-c26d76b16137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bold--nav</value>
+      <webElementGuid>dc6623ad-f7ec-4709-878e-5849bf7bf9ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>顯示所有產品</value>
+      <webElementGuid>fc3ead0e-4d22-4989-af40-f920f6715e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[4]/a[@class=&quot;bold--nav&quot;]</value>
+      <webElementGuid>9070b003-96e7-4d39-b195-86d6d36296a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'顯示所有產品')]</value>
+      <webElementGuid>581bc8f6-c61d-47e3-89be-7a01b600c74a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='日常/推薦套組'])[1]/following::a[1]</value>
+      <webElementGuid>c557dd90-2fb1-4df1-80bf-af020819f68e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='機能保健系列'])[1]/following::a[2]</value>
+      <webElementGuid>efbafdc4-a3c1-4c14-b382-31cf2e5ba437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理及食品系列'])[1]/preceding::a[1]</value>
+      <webElementGuid>0f9938e0-d036-4946-be82-737e32256ff0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理'])[1]/preceding::a[2]</value>
+      <webElementGuid>5bd37f4e-1982-4e65-bbc0-09e678d0857c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='顯示所有產品']/parent::*</value>
+      <webElementGuid>e2c0c1dc-bc36-4c0b-94cd-bfc41e0022bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/ProductStore/content/category?c=2')])[2]</value>
+      <webElementGuid>ba5c6179-a8c4-446b-8b79-406fd4418b4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/div/div/ul/li[4]/a</value>
+      <webElementGuid>a444f20d-9e80-4536-ae01-de02f5295e42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
