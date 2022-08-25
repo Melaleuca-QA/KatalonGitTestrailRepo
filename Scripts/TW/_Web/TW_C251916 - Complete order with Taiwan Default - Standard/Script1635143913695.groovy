@@ -68,6 +68,12 @@ WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
+if (GlobalVariable.run_env == 'UA') {
+    WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
+    WebUI.waitForAlert(5)
+}
+
 now_url_2 = WebUI.getUrl()
 
 println(now_url_2)
@@ -77,7 +83,6 @@ println(now_url_2)
 //    WebUI.waitForAlert(5)
 //} else {
 //}
-
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
 WebUI.waitForAlert(5)

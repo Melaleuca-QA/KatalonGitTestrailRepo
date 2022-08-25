@@ -38,7 +38,13 @@ WebUI.focus(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+WebUI.waitForAlert(5)
+
+if (GlobalVariable.run_env == 'UA') {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+} else {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase2_tw_st'))
+}
 
 WebUI.waitForAlert(5)
 
@@ -80,9 +86,14 @@ WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
+if (GlobalVariable.run_env == 'UA') {
+    WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
+    WebUI.waitForAlert(5)
+}
+
 //WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 //WebUI.waitForAlert(5)
-
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
