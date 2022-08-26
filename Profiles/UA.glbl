@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10549'</initValue>
+      <initValue>'10647'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>test_case2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>tw1,tw2,tw3,</description>
-      <initValue>'tw3'</initValue>
+      <description>tw1,tw2,tw3,tw7</description>
+      <initValue>'tw7'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,8 +75,8 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk1,hk3,hk7,</description>
-      <initValue>'hk7'</initValue>
+      <description>hk1,hk3,hk7</description>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -343,5 +343,15 @@
       <description></description>
       <initValue>'UA'</initValue>
       <name>run_env</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
+      <name>url_ChangeAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
+      <name>url_ChangeAddress2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

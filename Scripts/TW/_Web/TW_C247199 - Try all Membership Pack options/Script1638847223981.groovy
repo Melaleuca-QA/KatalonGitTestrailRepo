@@ -141,6 +141,8 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
 WebUI.click(findTestObject('OB001/Page_/a_shopping-list'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/li_MyFavorite'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/li_MyPack'))
@@ -154,6 +156,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/li_MyPack_
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/li_MyFavorite_1'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle shopping-list-card'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/li_MyFavorite'))
 
@@ -172,6 +176,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-ti
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_fa fa-circle-thin lists_default'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ModifyorAddTrackingList_save'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 

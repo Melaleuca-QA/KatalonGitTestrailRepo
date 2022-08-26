@@ -319,4 +319,14 @@
       <initValue>'ST'</initValue>
       <name>run_env</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
+      <name>url_ChangeAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
+      <name>url_ChangeAddress2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

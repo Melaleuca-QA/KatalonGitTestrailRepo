@@ -26,19 +26,19 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.ShipToName_hk'), 'hsipaddress')
 
@@ -70,7 +70,7 @@ WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_De
 
 WebUI.click(findTestObject('OB001/Page_/a_ChangeShippingOptions'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -86,7 +86,11 @@ WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
-if (GlobalVariable.run_env == 'UA') {
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+if (now_url != GlobalVariable.url_ChangeAddress) {
     WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
     WebUI.waitForAlert(5)
