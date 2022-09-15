@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_</name>
+   <tag></tag>
+   <elementGuidId>9b652a73-d624-4f17-8f04-fbc932813fa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick=&quot;cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ole-action.ole-action--button.ole-action--button--green.ole-action--button--wide</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0f7f2ba6-2b93-4e4c-a55c-51eb534419de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();</value>
+      <webElementGuid>a8fbafdc-b011-4206-af1e-662346e1ae46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ole-action ole-action--button ole-action--button--green ole-action--button--wide</value>
+      <webElementGuid>028c2a23-e139-415b-a4ef-3e8e22af806d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mobile</name>
+      <type>Main</type>
+      <value>close</value>
+      <webElementGuid>7da15639-2df1-4102-884f-ca49dd6c7f53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                開始購物
+            </value>
+      <webElementGuid>ec1090eb-c9a9-4b41-bd9b-d916433b43ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-wrapper&quot;)/div[@class=&quot;main-container desktop zh-TW&quot;]/div[@class=&quot;enrollment-complete&quot;]/div[@class=&quot;contentDisplay&quot;]/div[@class=&quot;ole-container ole-container--congratulations&quot;]/section[@class=&quot;ole-section ole-section--refer-top ole-section--full-width&quot;]/div[@class=&quot;ole-wrapper--refer&quot;]/button[@class=&quot;ole-action ole-action--button ole-action--button--green ole-action--button--wide&quot;]</value>
+      <webElementGuid>7a59cef4-9593-4f0d-9d3b-713a9043b186</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick=&quot;cmCreateElementTag('StartShopping', analyticsElementCategory); $('form').submit();&quot;]</value>
+      <webElementGuid>5612683f-736d-4a8d-833e-16d41bac77e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content-wrapper']/div[2]/div/div/div/section[3]/div/button</value>
+      <webElementGuid>1db06943-ad8a-4c1b-be66-2ec26f13770d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='立即開始購物！'])[1]/following::button[1]</value>
+      <webElementGuid>6fe0971e-c500-4ade-a723-1c40ca5dad91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='優惠顧客購物帳戶'])[1]/following::button[1]</value>
+      <webElementGuid>656f67ac-1fdf-43bc-85c9-d6dd49f8eec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[1]/preceding::button[1]</value>
+      <webElementGuid>b08fdb17-5278-4f63-abbd-f7a0016f1046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家刊物'])[1]/preceding::button[1]</value>
+      <webElementGuid>4d5cfbf4-96a3-4bfd-af34-475419bc9037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='開始購物']/parent::*</value>
+      <webElementGuid>22a45033-0268-4752-99a6-7568a782dd1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>1c6e6acf-f663-4f6a-ada4-ff96981d332f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+                開始購物
+            ' or . = '
+                開始購物
+            ')]</value>
+      <webElementGuid>bc3a2177-3a04-4a9c-ad9f-57cb1d0a154e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

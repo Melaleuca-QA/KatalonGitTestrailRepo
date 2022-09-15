@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Paymethod_CreditCard_ExpirationMonth</name>
+   <tag></tag>
+   <elementGuidId>10cd9b39-54cb-4943-bf9e-47cf56c78f0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PaymethodViewModel_CreditCardViewModel_Month']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PaymethodViewModel_CreditCardViewModel_Month</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a080af75-8d68-47bb-8f9d-dcee97d29666</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expirationMonth</value>
+      <webElementGuid>12d0cd53-8e7c-481b-a098-00408da2b3a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8eba7414-4efb-48fb-9106-ce42b66289fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-number</name>
+      <type>Main</type>
+      <value>The field Month must be a number.</value>
+      <webElementGuid>f42ee897-2e52-44c8-928e-1e5e58cfc60d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The Month field is required.</value>
+      <webElementGuid>e72da271-7f7e-4605-9fb7-4316d580bde6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PaymethodViewModel_CreditCardViewModel_Month</value>
+      <webElementGuid>d3e53823-9459-4ae8-8f8f-3af660f7b148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PaymethodViewModel.CreditCardViewModel.Month</value>
+      <webElementGuid>ed66809d-ad24-4e5a-99f7-b4633d962f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>customerInfo.ResetDropDownTextColorByJquerySelector($(this));</value>
+      <webElementGuid>d2b68f10-a594-4966-a0e3-718183b5ca57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>月
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+</value>
+      <webElementGuid>45ff8755-2906-4519-94e6-b63a71a7834b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PaymethodViewModel_CreditCardViewModel_Month&quot;)</value>
+      <webElementGuid>760b29ab-07a5-4322-8f6a-148ed5314542</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='PaymethodViewModel_CreditCardViewModel_Month']</value>
+      <webElementGuid>84cff3ac-4230-455b-9b68-b5fe144f17aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='savePrimaryCreditCard']/div/div[3]/div/div[2]/select</value>
+      <webElementGuid>66ee6318-b723-4bdd-a472-ac90643cbfa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效日期*'])[1]/following::select[1]</value>
+      <webElementGuid>a4f56aec-ec2c-4c74-8263-e679ebc3bca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡號碼*'])[1]/following::select[1]</value>
+      <webElementGuid>3c4a0885-2980-4fd5-b237-b0e60faf51b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效日期'])[1]/preceding::select[1]</value>
+      <webElementGuid>44a7a00e-ea48-48c5-8a9b-1b03a288e83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='無效信用卡'])[1]/preceding::select[2]</value>
+      <webElementGuid>2837afe9-9c1c-4cab-905f-b81efe47a777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/select</value>
+      <webElementGuid>99bcfa84-41d5-48d5-801c-e5bc89cd5e80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fa fa-times-circle</name>
+   <tag></tag>
+   <elementGuidId>71d03958-ead1-4d4e-9078-5a9fc790b982</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='bd-app']/div[2]/div[3]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-times-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>50a2ea8b-75b3-4dab-8aa8-7c9883d8ee9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-times-circle</value>
+      <webElementGuid>b9d7f0ec-f9cf-4218-a8c0-89e57eeeebd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bd-app&quot;)/div[@class=&quot;popupBox&quot;]/div[@class=&quot;bdCloseBtn&quot;]/i[@class=&quot;fa fa-times-circle&quot;]</value>
+      <webElementGuid>7484096b-04c9-4d60-89a7-67a50588c88c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='bd-app']/div[2]/div[3]/i</value>
+      <webElementGuid>8b0a341f-aa09-45d2-97c4-8bf11d0ad768</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/i</value>
+      <webElementGuid>c3310a7c-b353-496f-b889-b961e5dd10dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

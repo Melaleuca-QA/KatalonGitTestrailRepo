@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_MonthOfBirthEdit</name>
+   <tag></tag>
+   <elementGuidId>19973e08-4998-40d2-b827-d5374c22e54d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='MonthOfBirthEdit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#MonthOfBirthEdit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>eef89dd8-dbe9-4f68-83a6-e59e51f652ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customerInfo</value>
+      <webElementGuid>aac5ad06-6918-4c68-b100-0ae91655baa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c30bbf91-632e-4b42-b0c5-98219b2ced4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-number</name>
+      <type>Main</type>
+      <value>The field MonthOfBirth must be a number.</value>
+      <webElementGuid>beab51c0-3a4c-4d06-a53a-2f73e9d36607</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>MonthOfBirthEdit</value>
+      <webElementGuid>a913eabe-6584-48b8-b088-b0bc5d5da30b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>MonthOfBirth</value>
+      <webElementGuid>37631bc6-d907-405f-b706-2659d0b97691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>customerInfo.UpdateBirthdateField($(this), $('#MonthOfBirthDisplay'));</value>
+      <webElementGuid>7aec1abc-2a4f-49b5-8279-1210582f6e7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>月
+一月
+二月
+三月
+四月
+五月
+六月
+七月
+八月
+九月
+十月
+十一月
+十二月
+</value>
+      <webElementGuid>3fdc3aa5-d09a-4f17-b1e7-9f9527f7930b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MonthOfBirthEdit&quot;)</value>
+      <webElementGuid>d8a8fbb2-006f-4aa8-9216-eb61bb9d7936</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='MonthOfBirthEdit']</value>
+      <webElementGuid>ec5abdc9-af52-436d-a1ce-80ab95cdade1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showBirthdateContainer']/div/div[3]/div/select</value>
+      <webElementGuid>3363207e-b15d-46a7-bfc2-1cc5f8792a07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='出生日期*'])[1]/following::select[2]</value>
+      <webElementGuid>9a3dfd71-7ba1-4ccd-8072-1734103fd99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='國籍*'])[1]/following::select[3]</value>
+      <webElementGuid>56ba62a5-c976-4113-9728-562d2e35c54e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電郵地址*'])[1]/preceding::select[2]</value>
+      <webElementGuid>01a8dcc6-e8ee-4c7b-a700-d4cc5711d7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話*'])[1]/preceding::select[2]</value>
+      <webElementGuid>76ab9a3b-51e8-49c6-8175-c810a363961a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>2a777d4c-ee37-4613-b6d5-5158bc70734b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
