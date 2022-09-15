@@ -6,12 +6,12 @@
    <elementGuidId>0f58d0d3-f8d8-4680-99e2-714229d27db5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='toolContainer']/span/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.shopping-list-header-btn.pure-button.pure-button-white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[2]/div[2]/span/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a0a89669-96cd-4801-958c-55e706ec9886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>shopping-list-header-btn pure-button pure-button-white</value>
+      <webElementGuid>1e00b0fb-246b-46eb-bd7d-8fae323d333c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>cm-shopping-list</name>
       <type>Main</type>
       <value>header-shopping-list-button</value>
+      <webElementGuid>136a1dc6-f4d2-47ca-aba7-6d26a0fe6973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/MyAccount/Lists</value>
+      <webElementGuid>278b6ff3-e545-4b04-80ff-228efd0c34c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,6 +57,7 @@
   
   追蹤清單
 </value>
+      <webElementGuid>b6203cda-2d43-4717-b473-738c1c23977a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;toolContainer&quot;)/span[1]/div[@class=&quot;contentDisplay&quot;]/a[@class=&quot;shopping-list-header-btn pure-button pure-button-white&quot;]</value>
+      <webElementGuid>fac967a7-e361-4976-b962-10458b31c37c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='toolContainer']/span/div/a</value>
+      <webElementGuid>953988fb-7a23-4757-ab42-4fe9494442c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::a[1]</value>
+      <webElementGuid>c96a9256-1f6b-43a4-a7df-6336f85ee308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='服務中心'])[1]/following::a[2]</value>
+      <webElementGuid>bf49f199-4825-490a-b96f-377b57ee9b3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='追蹤清單']/parent::*</value>
+      <webElementGuid>6dedb3b9-4675-4be0-9ece-a40a096e87d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/MyAccount/Lists')])[2]</value>
+      <webElementGuid>92a76c7f-0e88-4bb6-b0b3-921cc2d04776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/a</value>
+      <webElementGuid>a7480f20-dab2-4690-a397-cbb33f22c9b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

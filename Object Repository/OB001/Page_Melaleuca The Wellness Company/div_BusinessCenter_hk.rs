@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='menuItem_1']/div</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[1]/ul/li[2]/a/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>58dbd301-dedc-4aa0-b61d-5e1d24c9348c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-root-item-inner-wrapper</value>
+      <webElementGuid>89dc5398-ea4c-49fd-8bef-0067326bfc22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>事業中心</value>
+      <webElementGuid>d48229c4-8cfa-4d02-b4ef-43d585cfc65f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menuItem_1&quot;)/div[@class=&quot;nav-root-item-inner-wrapper&quot;]</value>
+      <webElementGuid>b75bd281-32d0-4c72-a8ca-72e6005b6c17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='menuItem_1']/div</value>
+      <webElementGuid>8101dc7a-27c1-48bd-a9be-3fdd027f4b7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品中心'])[1]/following::div[2]</value>
+      <webElementGuid>6e9d1860-ed49-4e64-b946-8c9a0a91ddbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[2]/following::div[5]</value>
+      <webElementGuid>48f3ee9e-aa46-4b62-ade5-9805a86a2505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關於美樂家'])[1]/preceding::div[2]</value>
+      <webElementGuid>a3f0e5de-31bb-4c14-a786-54d1ea709e34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='事業中心']/parent::*</value>
+      <webElementGuid>30bef74b-3ab0-4039-82e7-cf1a8847d5a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/div</value>
+      <webElementGuid>03ce3b09-3dd2-45a1-9ea9-962b3b1346d7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

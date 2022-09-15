@@ -6,12 +6,12 @@
    <elementGuidId>23ea04df-1063-4fe0-9bba-f3dd489545b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[8]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id=&quot;menuItem_1&quot;]/div[1]</value>
+         <key>CSS</key>
+         <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cee87d8e-f173-4997-a69e-10954e1999e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview</value>
+      <webElementGuid>c90c16bb-d626-494f-925b-def7e4fefc57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>986</value>
+      <webElementGuid>cd8490c8-7754-411b-9bc6-e8dbbac44c03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>985</value>
+      <webElementGuid>f7eb3e3e-9a33-4b76-b84f-5048e4e662fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
+      <webElementGuid>bd1db0b8-4b21-4386-b787-f2455f023837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>入會</value>
+      <webElementGuid>025ed9c1-d63f-4954-b091-768992f678a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
+      <webElementGuid>3b3bc16d-86c3-4a70-b712-51d38b64dbd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +81,7 @@
                                 
                                 入會
                             </value>
+      <webElementGuid>32a72b1c-3148-4795-bcbd-f81a4e0af18f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview&quot;]</value>
+      <webElementGuid>f5e6400d-c41a-4539-8627-9f3e419614db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[11]</value>
+      <webElementGuid>b9c52c02-786e-46ff-8ff3-7fabad2ee3ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='入會']/parent::*</value>
+      <webElementGuid>4348de30-ba81-4dae-b968-d667c0049782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[8]</value>
+      <webElementGuid>0e651f4e-3dc4-49f8-afeb-883dc1e5d977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +121,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[11]</value>
+      <webElementGuid>0c005b69-af8b-4049-9036-cde955c0872c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

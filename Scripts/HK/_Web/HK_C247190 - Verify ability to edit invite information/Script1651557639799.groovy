@@ -48,9 +48,15 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_link startEnrollmentLink'))
 
@@ -75,15 +81,7 @@ println(GlobalVariable.hk_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
-WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_InvitationName'))
-
-WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
-
-WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone1'), GlobalVariable.hk_input_mphone)
-
-WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
-
-WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_InvitationName'))
 
@@ -94,6 +92,8 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_ BusinessCenter_OLE
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
 
 'Region is HK'
@@ -102,6 +102,20 @@ WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_ BusinessCenter_OLE
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_InvitationName'))
+
+WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_Invitation_edit'))
+
+WebUI.setText(findTestObject('OB001/Page_/input_txtMobilePhone1'), GlobalVariable.hk_input_mphone)
+
+WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_save'))
+
+WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
+
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -125,7 +139,7 @@ WebUI.navigateToUrl(GlobalVariable.hk_input_oleurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_PCselect'))
 
@@ -150,6 +164,8 @@ println(GlobalVariable.hk_input_mphone)
 WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVariable.hk_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
+
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'))
 
@@ -180,13 +196,13 @@ WebUI.clickOffset(findTestObject('OB001/Page_/label_PCChkAgree'), 50, 0)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Confirm'))
 
@@ -233,9 +249,13 @@ WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_StartShopping_
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB001/Page_/input_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
@@ -245,11 +265,13 @@ WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 
 WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
@@ -263,17 +285,23 @@ WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVaria
 
 WebUI.click(findTestObject('OB001/Page_/button_Login'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.refresh()
 
@@ -296,6 +324,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_Busine
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_ConfirmDetails_Continue'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_ConfirmDetails_Return'))
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -307,6 +337,16 @@ WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandlin
 
 'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
 GlobalVariable.test_case = '247193'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
+GlobalVariable.test_case = '247184'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
+GlobalVariable.test_case = '247168'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

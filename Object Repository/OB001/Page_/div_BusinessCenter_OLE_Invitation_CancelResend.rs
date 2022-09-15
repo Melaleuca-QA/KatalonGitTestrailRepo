@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='btnCancelResend']</value>
+         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div[1]/div[1]/div/div[5]/div[2]/div/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c5c5e76c-4e28-4042-89cb-5a78e30f468e</webElementGuid>
+      <webElementGuid>cdac5e82-6c60-4e7d-b263-06b0a8853fe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnCancelResend</value>
-      <webElementGuid>de1271b6-b624-4f67-8550-cbe94b8161d5</webElementGuid>
+      <webElementGuid>ee5392bd-7651-4d97-89ba-0983db5488f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button whiteButton ng-binding</value>
-      <webElementGuid>18c7dc64-861d-4d13-b2df-680d11d9b702</webElementGuid>
+      <webElementGuid>ea48d4d2-a940-4f77-a577-2f66c5b78405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>closePopup()</value>
-      <webElementGuid>c92cbfe3-9451-4d77-813c-3e59b69bab02</webElementGuid>
+      <webElementGuid>72a97b61-f42a-4922-8cd6-d7e26bc75042</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>關閉</value>
-      <webElementGuid>341cc5cc-f789-4ccd-98f7-4a243cfe7cbb</webElementGuid>
+      <webElementGuid>de147b96-59b1-45d6-bbf3-e8246500666d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnCancelResend&quot;)</value>
-      <webElementGuid>2fc3831f-0dd2-43e8-a8bf-989b2eeb4f60</webElementGuid>
+      <webElementGuid>4806daf9-40ac-402b-9824-901e3456654d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='btnCancelResend']</value>
-      <webElementGuid>292b7a19-53f5-4820-b6da-b0374d5118cc</webElementGuid>
+      <webElementGuid>d9d53884-cd7f-4c1a-9c51-1a8232a8d573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvViewContactInfo']/div/div[5]/div[2]/div/div</value>
-      <webElementGuid>0126a5be-8acc-4011-869d-9ca31f7f713b</webElementGuid>
+      <webElementGuid>55ecab65-24b1-4094-a4e1-aed3e46799a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='tw918211?'])[1]/following::div[3]</value>
-      <webElementGuid>31636cd7-8dba-4e8f-8b7c-08da0f757e39</webElementGuid>
+      <webElementGuid>2c5c47a0-ea68-4fb8-959d-4840bd3186b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='電子信箱'])[1]/preceding::div[1]</value>
-      <webElementGuid>11f8d1b2-d475-440e-b594-2b740b9e4439</webElementGuid>
+      <webElementGuid>c2fe23ac-1890-4e51-b6d2-e68f2e9c4584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div</value>
-      <webElementGuid>7bb0fab6-6a73-46be-b5fa-6d54a046d1c5</webElementGuid>
+      <webElementGuid>41bf5f28-6d5e-4c78-844d-86b210d8fe79</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

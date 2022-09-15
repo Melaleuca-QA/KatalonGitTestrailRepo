@@ -28,6 +28,8 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_TrackingList'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPurchaseTemporaryList'))
 
 WebUI.waitForAlert(5)
@@ -62,6 +64,8 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), 'renew')
 
 WebUI.click(findTestObject('OB001/Page_/button_SearchSubmit'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
 

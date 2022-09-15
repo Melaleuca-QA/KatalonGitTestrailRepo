@@ -6,21 +6,21 @@
    <elementGuidId>66a27f95-5b4a-45b4-8452-4e995e8984bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = ' ' or . = ' ')]</value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']
-
-</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.search-submit-button.pure-button.pure-button-green</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = ' ' or . = ' ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[2]/div[2]/div[1]/div/div/div/search-controls/search-input/form/button
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,6 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c9f7ee53-cb65-473e-a0f4-1db5c03d35f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,6 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>search-submit-button pure-button pure-button-green</value>
+      <webElementGuid>d1871f1b-4993-4b70-a1bb-0d0018170a46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,6 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>7a66535f-88b6-475a-890c-e4c848aaa6bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,6 +55,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>submitSearch($event)</value>
+      <webElementGuid>d34b9f55-ad56-46a3-9eb9-b279725f739f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,6 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value> </value>
+      <webElementGuid>6b03a422-f661-45c8-a990-394811f9f339</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;amazon-search-bar&quot;)/search-controls[@class=&quot;search-controls&quot;]/search-input[1]/form[@class=&quot;wm-search-form ng-valid ng-dirty&quot;]/button[@class=&quot;search-submit-button pure-button pure-button-green&quot;]</value>
+      <webElementGuid>404dde8b-cb2b-4c4e-91bf-caf2da9af64a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
+      <webElementGuid>1279e84e-b7c8-42b4-8c8b-ec16c2fdda63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='amazon-search-bar']/search-controls/search-input/form/button</value>
+      <webElementGuid>3fa97d73-147c-48e8-868f-eafbf9863e0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::button[1]</value>
+      <webElementGuid>4d213437-b947-44b6-a496-ad35250133f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='服務中心'])[1]/following::button[1]</value>
+      <webElementGuid>82c8422b-718a-4a4e-b7bf-0b842750b479</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='renew'])[1]/preceding::button[1]</value>
+      <webElementGuid>9e8a30fa-dd3f-40d1-8bc7-86208a8e401f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='身體防護系列中含'])[1]/preceding::button[1]</value>
+      <webElementGuid>dc9095d8-ef42-4392-8178-d02ce105b1b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +127,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
+      <webElementGuid>d2a46685-4734-47b6-be56-ac428a8e074a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

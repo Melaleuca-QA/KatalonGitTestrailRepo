@@ -6,11 +6,11 @@
    <elementGuidId>09f2df15-1986-44c2-8b7e-02afbf4c77e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopping-list-page-app']/div/div/div[2]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div/div/div[1]/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>9f3ff6cd-8a01-41b3-83d3-4bab0471a170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>ng-class</name>
       <type>Main</type>
       <value>{'active': location.path().indexOf(page.path) !== -1}</value>
+      <webElementGuid>dc9b44dc-563b-4159-bfed-196a4e92ad11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>cm-shopping-list</name>
       <type>Main</type>
       <value>商品選購暫存清單</value>
+      <webElementGuid>eb1df24e-93c9-4f78-80c6-3928f2db751f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-header ng-binding</value>
+      <webElementGuid>b97a8ffc-6a12-44ca-a76f-7902154ec78c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>changePath(page.path)</value>
+      <webElementGuid>5920ac87-2ec4-4f6e-81e7-5954ce9c1a66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
+      <webElementGuid>ce934461-f6aa-4f39-bacb-c310da9b63c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>商品選購暫存清單</value>
+      <webElementGuid>1f6bc7eb-d917-4949-a317-76a08eba2fa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shopping-list-page-app&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-nav-container ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/a[@class=&quot;list-header ng-binding&quot;]</value>
+      <webElementGuid>806fedba-c94d-4c5f-8ee5-72811beb2a8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopping-list-page-app']/div/div/div[2]/a</value>
+      <webElementGuid>191faaf0-2757-4f84-a9ba-086ac91c417c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'商品選購暫存清單')]</value>
+      <webElementGuid>49dd3186-19f3-4162-ba60-276f422df670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我的追蹤清單'])[2]/following::a[1]</value>
+      <webElementGuid>ea582f1a-ce7a-422d-87a8-ecb00e72826e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[13]/following::a[3]</value>
+      <webElementGuid>bdbf1901-7041-4f13-b480-ad41798a5260</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已購買'])[1]/preceding::a[1]</value>
+      <webElementGuid>75578a85-0c96-41ad-a941-b01fcee68b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我的最愛'])[1]/preceding::a[2]</value>
+      <webElementGuid>d261f77e-83c5-496e-8ddf-0498ff958f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='商品選購暫存清單']/parent::*</value>
+      <webElementGuid>446c8c89-9d5d-4b73-8157-ac0417207df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[161]</value>
+      <webElementGuid>e728a052-7d09-4923-acee-57d1f5d7f9a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div[2]/a</value>
+      <webElementGuid>deeda3bc-0131-4b46-9b61-544a1bb6940c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
