@@ -17,39 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB001/Page_/a_Logout_tw'))
 
-'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
-}
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
-
-WebUI.navigateToUrl(GlobalVariable.url_account)
-
-WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_hk'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
-
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
-
-WebUI.waitForAlert(5)
-
-WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
-GlobalVariable.test_case = '245377'
-
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

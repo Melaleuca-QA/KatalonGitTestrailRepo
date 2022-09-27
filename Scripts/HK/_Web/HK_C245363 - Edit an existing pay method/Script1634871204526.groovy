@@ -38,11 +38,9 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccoun
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
 WebUI.click(findTestObject('OB001/Page_/button_MyAccount_SetupPaymethod_AddCreditCard'))
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 
-    '港島一號')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), '港島一號')
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), 
-    GlobalVariable.hk_input_creditcard)
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.hk_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '1', true)
 
@@ -73,6 +71,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_CloseS
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
 WebUI.click(findTestObject('OB001/Page_/a_ProductNutrition_VitaminSeries'))
+
+WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

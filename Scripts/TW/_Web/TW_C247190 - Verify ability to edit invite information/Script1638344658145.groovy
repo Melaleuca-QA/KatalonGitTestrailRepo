@@ -242,7 +242,7 @@ if (true) {
 
     WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
-    WebUI.click(findTestObject('OB001/Page_/a_Logout'))
+    WebUI.click(findTestObject('OB001/Page_/a_Logout_tw'))
 
     WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 

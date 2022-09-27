@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10702'</initValue>
+      <initValue>'10733'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk2,hk3</description>
-      <initValue>'hk3'</initValue>
+      <initValue>'hk2'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -328,5 +328,10 @@
       <description></description>
       <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
       <name>url_ChangeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
+      <name>url_OtherOption</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

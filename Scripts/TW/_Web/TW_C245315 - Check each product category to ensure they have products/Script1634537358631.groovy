@@ -36,6 +36,8 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition_FunctionalHealth'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductNutrition_FunctionalHealth_8408'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody'))
@@ -51,12 +53,13 @@ WebUI.waitForAlert(5)
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductSellbella_Face'))
 
 //WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductSellBella_Face_70069'))
-
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily_HomeClean'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductFamily_HomeClean_5680'))
 
@@ -66,6 +69,8 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving_FreshBody'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductValueLiving_FreshBody_2468'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPureOil'))
@@ -73,6 +78,8 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductP
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPureOil_CarrierOil'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductPureOil_CarrierOil_51021'))
 
@@ -94,11 +101,15 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_7911'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_ProductBody_ValuePack_7911_phoenix'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_ProductBody_ValuePack_7911_vanilla'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_AddtoCart'))
 

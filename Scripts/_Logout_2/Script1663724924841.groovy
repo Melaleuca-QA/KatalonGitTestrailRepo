@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
 
 WebUI.closeBrowser()
 

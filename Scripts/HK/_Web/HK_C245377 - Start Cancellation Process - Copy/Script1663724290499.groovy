@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -26,19 +26,27 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ContactMelaleuca'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
-WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_TransfeeHistory'))
+WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_tw'))
+now_url = WebUI.getUrl()
 
-WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
+println(now_url)
+
+if (WebUI.verifyMatch(now_url, GlobalVariable.url_OtherOption, false)) {
+    WebUI.back()
+
+    WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption2_hk'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
-
-WebUI.waitForPageLoad(100)
 
 now_url = WebUI.getUrl()
 
@@ -46,22 +54,12 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
 
-WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_MoreDetail_SendSteps'))
-
-WebUI.waitForPageLoad(100)
-
-WebUI.refresh()
-
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent, false)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
 GlobalVariable.test_case = '245377'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

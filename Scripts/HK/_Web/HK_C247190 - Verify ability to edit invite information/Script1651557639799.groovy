@@ -117,7 +117,7 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_Cancel
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // test env //
 if (GlobalVariable.run_env == 'Test') {
@@ -275,7 +275,7 @@ WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
@@ -328,7 +328,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_ConfirmDetails_Return'))
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to edit invite information'
 GlobalVariable.test_case = '247190'

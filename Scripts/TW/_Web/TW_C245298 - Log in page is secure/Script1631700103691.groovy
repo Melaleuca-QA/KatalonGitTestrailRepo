@@ -98,7 +98,9 @@ WebUI.waitForAlert(5)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForAlert(5)
+
+WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Log in page is secure (https in the url)'
 GlobalVariable.test_case = '245298'

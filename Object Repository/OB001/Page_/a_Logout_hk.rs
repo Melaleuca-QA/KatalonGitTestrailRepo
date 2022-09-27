@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_Logout_hk</name>
    <tag></tag>
-   <elementGuidId>dedb3c33-a136-4d4d-a5b8-69f007c46b76</elementGuidId>
+   <elementGuidId>fa78839e-c19a-4450-b878-240e7606af0a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;nav-menu-signout-btn&quot;]
-
-</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '/Shared/SignOut.aspx' and @id = 'nav-menu-signout-btn' and (text() = '登出' or . = '登出')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form[2]/div[8]/div[1]/div[2]/div[1]/div[5]/a
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7ce17402-aefa-4b12-9267-eb946b1aacc0</webElementGuid>
+      <webElementGuid>d446e050-08f0-431a-85b0-437f51e74f67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +35,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/Shared/SignOut.aspx</value>
-      <webElementGuid>771a3df9-2386-4e41-a183-ded72802e2e0</webElementGuid>
+      <webElementGuid>1f48f9db-b264-45b1-ae88-266dd9700378</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nav-menu-signout-btn</value>
-      <webElementGuid>6383f6bb-35d6-45ea-975e-01893716efb6</webElementGuid>
+      <webElementGuid>c026c49e-ac49-40e6-95c9-eb4f3ab9f4c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header-link light-text</value>
-      <webElementGuid>944ef059-289f-49f6-bb89-00227137be7b</webElementGuid>
+      <webElementGuid>727fff7e-c3b9-4f82-a7f5-9cfedcb97524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>登出</value>
-      <webElementGuid>36f3927d-d21a-4d88-ad6e-70a5df6c21b3</webElementGuid>
+      <webElementGuid>18aa5209-03fb-450a-9c1c-9e73c7fe7e53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-menu-signout-btn&quot;)</value>
-      <webElementGuid>7e1ef980-2c3c-49d4-9b1c-d7bbd17f5c84</webElementGuid>
+      <webElementGuid>10085d5e-d44e-4d46-860c-cd8b17588777</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -76,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='nav-menu-signout-btn']</value>
-      <webElementGuid>cbb42f48-de1a-44c5-85ea-60c2c05bb47b</webElementGuid>
+      <webElementGuid>7ec28b78-cfb3-413e-84f6-cb1f17d3edb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menubar1']/div[5]/a</value>
-      <webElementGuid>e30732c4-9186-428c-8584-d0ad6c8ab0ef</webElementGuid>
+      <webElementGuid>26d8bb86-e828-455e-9ae4-7888d76b82ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +91,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'登出')]</value>
-      <webElementGuid>fd956aba-e389-49e3-b791-0a6912bf0add</webElementGuid>
+      <webElementGuid>5b0e5f2d-e464-496c-9c4c-123c1c0560c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='服務中心'])[1]/following::a[1]</value>
-      <webElementGuid>ba790430-2460-4b15-b802-0b6d2a7eaad1</webElementGuid>
+      <webElementGuid>14ef1eb1-6df6-41ec-986c-70f7140ac67d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=': NT$5,292'])[1]/following::a[2]</value>
-      <webElementGuid>ffb11f9a-b1ef-4b39-9250-1058d3d36bd8</webElementGuid>
+      <webElementGuid>536c8c39-7f32-4fae-a258-4ae3d001c842</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='登出']/parent::*</value>
-      <webElementGuid>7a9a05b9-e4ed-418b-9039-530848e96b73</webElementGuid>
+      <webElementGuid>b03519fb-28f6-44f5-ba4c-33932901abf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/Shared/SignOut.aspx')]</value>
-      <webElementGuid>06c705db-1f83-4329-b38b-ffa7e83769f7</webElementGuid>
+      <webElementGuid>7a0d79ce-99db-4d4f-8f0e-c6e11d9b6104</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,6 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/a</value>
-      <webElementGuid>012e9b59-07a7-4ec5-b2a7-df5b365675a4</webElementGuid>
+      <webElementGuid>8a394e23-b1fd-41e9-9902-29b2ed05655e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
