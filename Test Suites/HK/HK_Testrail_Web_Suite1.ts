@@ -110,7 +110,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>52da9b75-8602-44d6-9c55-81f2b89703ad</guid>
+      <guid>bff641d0-ebb0-410f-af2f-581283aba290</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HK/_Web/HK_C245377 - Start Cancellation Process</testCaseId>

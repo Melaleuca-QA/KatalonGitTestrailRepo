@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10733'</initValue>
+      <initValue>'10702'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -353,5 +353,10 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
       <name>url_ChangeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
+      <name>url_OtherOption</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

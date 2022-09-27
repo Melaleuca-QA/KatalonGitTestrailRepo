@@ -34,6 +34,22 @@ WebUI.navigateToUrl(GlobalVariable.url_account)
 
 WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_hk'))
 
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+println(GlobalVariable.url_OtherOption)
+
+if (now_url != GlobalVariable.url_OtherOption) {
+    WebUI.back()
+
+    WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption2_hk'))
+
+    now_url = WebUI.getUrl()
+
+    println(now_url)
+}
+
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
