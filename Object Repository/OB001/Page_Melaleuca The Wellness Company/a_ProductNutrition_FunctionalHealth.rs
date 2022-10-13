@@ -6,11 +6,11 @@
    <elementGuidId>285aab36-9366-4520-a65e-10fffa676e21</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'機能保健系列')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[1]/div[1]/div/div[1]/div/div[1]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7abeac06-3036-49cb-9bad-e39fd6ff53e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/ProductStore/content/category?c=8</value>
+      <webElementGuid>1410b666-13fe-459f-af21-1d13c6448a5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20210410|@|nutrition-menu-c8|c8</value>
+      <webElementGuid>92809d38-0ddd-4bf0-a59e-b017500a7e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>機能保健系列</value>
+      <webElementGuid>aa450a10-56bb-42e2-9584-51c9436467c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[2]/a[1]</value>
+      <webElementGuid>3c598320-8171-4db1-be10-d730c36a8378</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'機能保健系列')]</value>
+      <webElementGuid>fc7ff1f7-66e7-4263-83be-c3f40a31c140</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='活力維他系列'])[1]/following::a[1]</value>
+      <webElementGuid>563cf1da-83fb-4406-a00f-00992630edc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='營養輔助食品系列'])[1]/following::a[2]</value>
+      <webElementGuid>f1c92012-c11c-4833-9cfb-ece779a87550</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='日常/推薦套組'])[1]/preceding::a[1]</value>
+      <webElementGuid>d1ebf5db-dd9d-4dbf-b3e6-342644af49c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='顯示所有產品'])[1]/preceding::a[2]</value>
+      <webElementGuid>3f272a00-2468-4b11-b45b-20ef665a88bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='機能保健系列']/parent::*</value>
+      <webElementGuid>788f53e5-7a1e-45da-a384-2b0bac0d81d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/ProductStore/content/category?c=8')]</value>
+      <webElementGuid>f637f3dd-2ec5-4e3e-baca-1cc8591a2885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/div/div/ul/li[2]/a</value>
+      <webElementGuid>14bb4fd0-4a7b-47d3-be02-a8473aa2e1c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

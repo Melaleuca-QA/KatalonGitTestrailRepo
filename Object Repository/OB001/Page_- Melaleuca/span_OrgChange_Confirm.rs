@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OrgChange_Confirm</name>
+   <tag></tag>
+   <elementGuidId>7e448c03-5a2b-4224-9752-891fb54416ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[2]/div[4]/div/div[5]/div[1]/div/a/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnApproveTab4_btn > span.btnTxt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eb4fe54c-e27c-4590-b900-d11ca6faab98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btnTxt</value>
+      <webElementGuid>0cf37e8f-3ef9-4ea0-b13b-203e27957c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>確認</value>
+      <webElementGuid>604646ed-a3b3-4fa5-9bee-c85f6387ce62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnApproveTab4_btn&quot;)/span[@class=&quot;btnTxt&quot;]</value>
+      <webElementGuid>57456205-b08b-4378-9d0c-103ee7308792</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnApproveTab4_btn']/span[2]</value>
+      <webElementGuid>1f71cbc5-b8a9-418a-9871-2b20f961568c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確認'])[1]/following::span[2]</value>
+      <webElementGuid>eb50bf3c-4347-4aa7-8f3f-0adcba93d180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$0'])[4]/following::span[3]</value>
+      <webElementGuid>ec7178f6-676c-4ee6-8b70-f09f5a937acd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/preceding::span[3]</value>
+      <webElementGuid>a9dcf9a2-0e37-470d-9cca-b7e32cc2087e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[2]/preceding::span[5]</value>
+      <webElementGuid>1006c982-ceaf-4bc3-b894-1f909a6e4c5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/a/span[2]</value>
+      <webElementGuid>a27a3eeb-d520-420e-9ff0-8e9e900d844d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '確認' or . = '確認')]</value>
+      <webElementGuid>7a65c2ed-fed7-442a-949c-e6be0355696b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

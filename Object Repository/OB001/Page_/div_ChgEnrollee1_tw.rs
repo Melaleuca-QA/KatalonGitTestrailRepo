@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ChgEnrollee1_tw</name>
+   <tag></tag>
+   <elementGuidId>8819c302-1610-491a-a928-a1fb88e3c547</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FollowUpNewCustomer']/table/tbody/tr/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.enrollee-name.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f81441f5-ed30-4996-96df-25337f9bc3d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enrollee-name ng-binding</value>
+      <webElementGuid>2ed32250-0f7e-4d3e-aa22-e68dbfddcf80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>tw26844717</value>
+      <webElementGuid>1e5a6294-46f2-474d-aed5-859820fa30a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FollowUpNewCustomer&quot;)/table[@class=&quot;followUpTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;cellBorders enrollerName&quot;]/div[@class=&quot;fc-flex-container&quot;]/div[1]/div[@class=&quot;enrollee-name ng-binding&quot;]</value>
+      <webElementGuid>71e6a535-27f9-4898-8117-facb2efc34af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FollowUpNewCustomer']/table/tbody/tr/td/div/div/div</value>
+      <webElementGuid>dd519ac9-2cd4-4075-860f-561196515a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='已完成聯絡'])[1]/following::div[3]</value>
+      <webElementGuid>34e75123-85a8-414a-a281-485f2d378cb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/following::div[6]</value>
+      <webElementGuid>05af372b-e5fb-4da5-80f4-d4938e138309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='基礎顧客'])[1]/preceding::div[2]</value>
+      <webElementGuid>644f375b-37de-48e0-ad7d-db36e9f339ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='tw26844717']/parent::*</value>
+      <webElementGuid>931c77b7-de57-4b32-adae-d4a5d02f8896</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/div</value>
+      <webElementGuid>0c2e3092-f0f6-434e-8a9b-28f5a76209e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'tw26844717' or . = 'tw26844717')]</value>
+      <webElementGuid>1dfbbfdd-6a48-48d5-b71c-a02a96030c65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -71,13 +71,23 @@ WebUI.setText(findTestObject('OB001/Page_/input_txtNewEnrolleeFirstName'), Globa
 'input new enrollment email'
 WebUI.setText(findTestObject('OB001/Page_/input_txtEmailAddress'), GlobalVariable.hk_input_email)
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_SearchPresenter'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_EditPresenter'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_chkCommunicationConfirm'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_SendEmail'))
+
+WebUI.waitForAlert(5)
 
 WebUI.mouseOver(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtInvitationLink'))
 
@@ -122,6 +132,8 @@ WebUI.setEncryptedText(findTestObject('OB001/Page_/input_ConfirmPassword'), Glob
 
 println(GlobalVariable.hk_input_citizen)
 
+WebUI.waitForAlert(5)
+
 'input citizen number'
 WebUI.setText(findTestObject('OB001/Page_/input_GovernmentId'), GlobalVariable.hk_input_citizen)
 
@@ -137,6 +149,8 @@ println(GlobalVariable.hk_input_mphone)
 WebUI.setText(findTestObject('OB001/Page_/input_PrimaryPhoneNumber'), GlobalVariable.hk_input_mphone)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Proceed'))
+
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB001/Page_/select_BusinessCenter_OLE_CityCtrl'))
 
@@ -169,8 +183,6 @@ WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Continue'))
 
 WebUI.waitForAlert(5)
 
-WebUI.focus(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
-
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_Submit'))
 
 WebUI.waitForAlert(5)
@@ -183,6 +195,8 @@ WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountHo
 
 WebUI.click(findTestObject('OB001/Page_/span_HK_HSBC Banking'))
 
+WebUI.waitForAlert(5)
+
 //WebUI.selectOptionByValue(findTestObject('OB001/Page_/span_The Hongkong and Shanghai Banking'), '004 香港上海滙豐銀行有限公司The Hongkong and Shanghai Banking Corporation Ltd', 
 //    false)
 WebUI.setText(findTestObject('OB001/Page_/input_BasePaymethodViewModel.AccountNumber'), GlobalVariable.hk_input_bankno)
@@ -191,12 +205,18 @@ WebUI.doubleClick(findTestObject('OB001/Page_/label_BusinessCenter_OLE_IMEA_Part
 
 WebUI.click(findTestObject('OB001/Page_/label_BusinessCenter_OLE_IMEA_PCChkAgree'))
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB001/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 
 'Add spouse information'
 WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_IMEA_AddSpouse'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB001/Page_/body_iframe srchttpswww.googletagmanager.co'))
+
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_SpouseFirstName'), GlobalVariable.hk_input_spouse_name)
 
@@ -213,6 +233,8 @@ WebUI.doubleClick(findTestObject('OB001/Page_/label_SpouseChkAgree'))
 WebUI.setText(findTestObject('OB001/Page_/input_EnrolleeDigitalSignature'), GlobalVariable.hk_input_newname)
 
 WebUI.setText(findTestObject('OB001/Page_/input_SpouseDigitalSignature'), GlobalVariable.hk_input_spouse_name)
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_BusinessCenter_OLE_IMEA_Submit'))
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_EnrolleeSearch</name>
+   <tag></tag>
+   <elementGuidId>05413685-0980-4d07-8d72-e549654ae575</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div/a/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnMovePhoneSearch_btn > span.btnTxt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c25e636b-83df-4603-9d82-2cc7ea97336a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btnTxt</value>
+      <webElementGuid>cccb4245-2304-4423-9a55-234551060ee5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>搜尋</value>
+      <webElementGuid>45fc5e62-607e-47ce-9aa3-53a5bbad9ca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnMovePhoneSearch_btn&quot;)/span[@class=&quot;btnTxt&quot;]</value>
+      <webElementGuid>cda1fda4-b63f-4047-ba08-bef3f3d6f319</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_ctl00_ContentPlaceHolderMain_ContentPlaceHolderMain_ctrlNec_btnMovePhoneSearch_btn']/span[2]</value>
+      <webElementGuid>f71f84c5-d23a-439e-8695-67d0967102e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='搜尋'])[1]/following::span[2]</value>
+      <webElementGuid>b13a6d27-ca9a-4e1c-bce4-79034263a105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='入會者電話號碼'])[1]/following::span[5]</value>
+      <webElementGuid>49188512-029a-4893-88b1-81c5c1d1746d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='申請人'])[1]/preceding::span[3]</value>
+      <webElementGuid>39b25b97-ea12-46e1-87de-192888453518</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[尚未選擇]'])[1]/preceding::span[4]</value>
+      <webElementGuid>287e74a6-a60c-4dc5-90ca-2eb46d5ef16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/span[2]</value>
+      <webElementGuid>1d9cdd91-ed13-4ea7-8edc-e20f76ac1f7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '搜尋' or . = '搜尋')]</value>
+      <webElementGuid>06986ef6-3cfb-4b0a-9b91-0689b9d9aef9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
