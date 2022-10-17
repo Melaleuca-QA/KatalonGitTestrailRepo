@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_ChgEnrollee_tw</name>
+   <name>td_ChgEnrollee</name>
    <tag></tag>
    <elementGuidId>87ed468e-a9e9-4624-a170-bdbcffe908ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div/div[1]/div[3]/follow-up-new-enrollment-directive/div/table/tbody/tr[15]/td[1]/div/div/div[2]</value>
+         <value>/html/body/div[3]/div[2]/div/div/div/div[1]/div[3]/follow-up-new-enrollment-directive/div/table/tbody/tr[2]/td[1]/div/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>25b34283-a0a2-457f-ad84-a1aef24662c8</webElementGuid>
+      <webElementGuid>07c04147-2b4a-4462-b859-1e60f261c9b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cellBorders enrollerName</value>
-      <webElementGuid>aa99f9e1-81d4-4fff-be37-50152d2067c0</webElementGuid>
+      <webElementGuid>9fb2ad4c-9fa8-4177-bc8d-25d10209f3fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
                         
                     
                 </value>
-      <webElementGuid>23e9399a-dd64-4cb1-abe5-1aaa786dc7ce</webElementGuid>
+      <webElementGuid>54aaa241-8338-43d2-bda9-075b147a59be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FollowUpNewCustomer&quot;)/table[@class=&quot;followUpTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;cellBorders enrollerName&quot;]</value>
-      <webElementGuid>480ade76-b5f6-45de-ba74-d82519d17c62</webElementGuid>
+      <webElementGuid>0e71e7ce-bdb9-4397-8e76-d74e4d982730</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FollowUpNewCustomer']/table/tbody/tr[9]/td</value>
-      <webElementGuid>a8dc407d-5fa5-4cef-8038-d525b411e895</webElementGuid>
+      <webElementGuid>d2d3fa16-4e08-4a8d-b83c-d0769b4781ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已完成聯絡'])[9]/following::td[1]</value>
-      <webElementGuid>c660d416-2468-46b2-97aa-6efd51173ec8</webElementGuid>
+      <webElementGuid>d2057acd-0ea8-433c-8158-808abaeebd18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已下單'])[9]/following::td[3]</value>
-      <webElementGuid>8b5b270c-6fa7-4e4a-9fcd-c8e7b74968fd</webElementGuid>
+      <webElementGuid>f33ea2ce-668c-488d-83e1-66535956903f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='基礎顧客'])[9]/preceding::td[2]</value>
-      <webElementGuid>e97e7938-f46a-49ee-8edc-6b23e4fe8814</webElementGuid>
+      <webElementGuid>772eed52-6ef8-45f2-a4e9-4ccf713a0ec6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td</value>
-      <webElementGuid>98e71f97-e296-4aba-917b-22ecb4b675c0</webElementGuid>
+      <webElementGuid>7f36f262-59d8-4fff-b82b-71d8d192982d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
                         
                     
                 ')]</value>
-      <webElementGuid>9ecf2617-c301-4006-ae17-d9929559437e</webElementGuid>
+      <webElementGuid>e3ea571c-cbf8-404d-98c7-b388ee4b7092</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

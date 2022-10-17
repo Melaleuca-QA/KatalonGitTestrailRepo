@@ -41,8 +41,6 @@ now_enrollee = WebUI.getText(findTestObject('Object Repository/OB001/Page_/div_C
 
 println(now_enrollee)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
-
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 
 '組織轉換'
@@ -55,20 +53,10 @@ WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgCha
 
 WebUI.waitForAlert(5)
 
-'0955223332'
-if (GlobalVariable.run_country == 'TW') {
-    'TW1'
-    WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
+WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
 
-    '輸入Enrollee手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), '0955223332')
-} else {
-    'HK3'
-    WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
-
-    '輸入Enrollee手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), '85255551471')
-}
+'輸入Enrollee手機號碼(Policy Admin Hold)'
+WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), '0955223332')
 
 '搜尋Enrollee'
 WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_EnrolleeSearch'))
@@ -118,26 +106,14 @@ now_result = now_result.trim()
 
 println(now_result + ' 1st month enrollee (A->B)')
 
-if (GlobalVariable.run_country == 'TW') {
-    WebUI.verifyEqual(now_result, '您組織內的夥伴所提供的電話號碼不存在', FailureHandling.STOP_ON_FAILURE)
-} else {
-    WebUI.verifyEqual(now_result, '根據你所提供的電話號碼，你的組織內沒有此人', FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.verifyEqual(now_result, '您組織內的夥伴所提供的電話號碼不存在', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
-'0955223332'
-if (GlobalVariable.run_country == 'TW') {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 
-    '輸入Enroller手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), '0955223332')
-} else {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
-
-    '輸入Enroller手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), '85255551471')
-}
+'輸入Enroller手機號碼(Policy Admin Hold)'
+WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), '0955223332')
 
 '搜尋Enroller'
 WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_EnrollerSearch'))
@@ -312,8 +288,6 @@ now_enrollee = (now_get_phonenumber.substring(0, 2) + now_get_phonenumber.substr
 println(now_enrollee)
 
 WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
 

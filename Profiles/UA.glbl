@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk3,hk7</description>
-      <initValue>'hk3'</initValue>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -183,6 +183,16 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/ProductStore/content/category?c=119'</initValue>
       <name>url_category119</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
+      <name>url_ChangeAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
+      <name>url_ChangeAddress2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -346,17 +356,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
-      <name>url_ChangeAddress</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
-      <name>url_ChangeAddress2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
-      <name>url_OtherOption</name>
+      <initValue>''</initValue>
+      <name>run_country</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

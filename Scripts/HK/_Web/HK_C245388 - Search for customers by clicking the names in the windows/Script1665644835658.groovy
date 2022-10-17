@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
@@ -25,10 +25,12 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Mel
     WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
+
+WebUI.waitForAlert(5)
 
 'Start - 1st month enrollee'
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 'FollowUpCenter'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_FollowUpCenter'))
@@ -41,9 +43,11 @@ now_enrollee = WebUI.getText(findTestObject('Object Repository/OB001/Page_/div_C
 
 println(now_enrollee)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 '組織轉換'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
@@ -189,15 +193,15 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login'))
 
@@ -209,9 +213,11 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Mel
     WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 '組織轉換'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
@@ -271,15 +277,15 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login'))
 
@@ -291,10 +297,12 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Mel
     WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
+
+WebUI.waitForAlert(5)
 
 'Start - 2nd month enrollee'
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 'FollowUpCenter'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_FollowUpCenter'))
@@ -307,15 +315,17 @@ now_get_phonenumber = WebUI.getText(findTestObject('Object Repository/OB001/Page
 
 println(now_get_phonenumber)
 
-now_enrollee = (now_get_phonenumber.substring(0, 2) + now_get_phonenumber.substring(3, 11))
+now_enrollee = now_get_phonenumber.substring()
 
 println(now_enrollee)
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 '組織轉換'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
@@ -383,15 +393,15 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.hk_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
 WebUI.click(findTestObject('OB001/Page_/button_Login'))
 
@@ -403,9 +413,11 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Mel
     WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_hk'))
 
 '組織轉換'
 WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
@@ -470,35 +482,35 @@ WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILU
 'Search for customers by clicking the names in the windows'
 GlobalVariable.test_case = '245388'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Save a new enrollee change'
 GlobalVariable.test_case = '245400'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move a customer in their 1st month'
 GlobalVariable.test_case = '245389'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Try to move a customer out of enroller\'s organization'
 GlobalVariable.test_case = '245390'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move a customer at least in 2nd month'
 GlobalVariable.test_case = '245391'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move to Marketing Executive with full 1st generation'
 GlobalVariable.test_case = '245402'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move to Marketing Executive on policy hold'
 GlobalVariable.test_case = '245393'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

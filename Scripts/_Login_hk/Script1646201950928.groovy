@@ -29,5 +29,9 @@ WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable
 
 WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.hk_input_password1)
 
+GlobalVariable.run_country = 'HK'
+
+println(GlobalVariable.run_country)
+
 WebUI.click(findTestObject('OB001/Page_/button_Login'))
 
