@@ -117,7 +117,7 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_Cancel
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // test env //
 if (GlobalVariable.run_env == 'Test') {

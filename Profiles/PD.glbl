@@ -186,6 +186,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://tw.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
+      <name>url_ChangeAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tw.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
+      <name>url_ChangeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://tw.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
       <name>url_ChangePaymethods</name>
    </GlobalVariableEntity>
@@ -316,28 +326,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hk.melaleuca.com/search-results?q=117'</initValue>
-      <name>url_hk_sku117</name>
+      <initValue>'PD'</initValue>
+      <name>run_env</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hk.melaleuca.com/search-results?q=lemon'</initValue>
-      <name>url_hk_sku2854</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://hk.melaleuca.com/search-results?q=%E8%A7%80%E9%81%A9%E5%81%A5'</initValue>
-      <name>url_hk_sku2855</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://hk.melaleuca.com/search-results?q=Safe%20%26'</initValue>
-      <name>url_hk_sku5680</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://hk.melaleuca.com/search-results?q=___'</initValue>
-      <name>url_hk_sku_notfound</name>
+      <initValue>''</initValue>
+      <name>run_country</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -366,8 +361,28 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'PD'</initValue>
-      <name>run_env</name>
+      <initValue>'https://hk.melaleuca.com/search-results?q=117'</initValue>
+      <name>url_hk_sku117</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hk.melaleuca.com/search-results?q=lemon'</initValue>
+      <name>url_hk_sku2854</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hk.melaleuca.com/search-results?q=%E8%A7%80%E9%81%A9%E5%81%A5'</initValue>
+      <name>url_hk_sku2855</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hk.melaleuca.com/search-results?q=Safe%20%26'</initValue>
+      <name>url_hk_sku5680</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hk.melaleuca.com/search-results?q=___'</initValue>
+      <name>url_hk_sku_notfound</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -388,20 +403,5 @@
       <description></description>
       <initValue>'https://hk.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_hk_whichproducts</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://tw.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
-      <name>url_ChangeAddress</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://tw.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
-      <name>url_ChangeAddress2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://tw.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
-      <name>url_OtherOption</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

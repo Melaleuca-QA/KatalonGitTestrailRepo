@@ -4,14 +4,23 @@
    <name>img_product-card_img_6317</name>
    <tag></tag>
    <elementGuidId>c53fef32-fc20-41bc-8495-b686869c7781</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//li[@id='_6317']/a/img</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@alt = 'Product Image' and @src = '//cdntesttw.melaleuca.com/ProductContent/6317h_01_zhTw_GridClear.png']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>img.product-card__img</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
+      <webElementGuid>ed45e3bf-7f6b-48a9-b14d-99d41625975f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>product-card__img</value>
+      <webElementGuid>731f63f2-6bf0-4ef3-8cc8-c33b1b7570b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +47,7 @@
       <name>ng-src</name>
       <type>Main</type>
       <value>//cdntesttw.melaleuca.com/ProductContent/6317h_01_zhTw_GridClear.png</value>
+      <webElementGuid>7af01075-0cbf-450a-a5d6-c1f137ae14d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +55,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Product Image</value>
+      <webElementGuid>42f0d272-f469-4dd1-afc0-20f657eb61be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +63,7 @@
       <name>src</name>
       <type>Main</type>
       <value>//cdntesttw.melaleuca.com/ProductContent/6317h_01_zhTw_GridClear.png</value>
+      <webElementGuid>2f4c8769-9c03-49a1-9cf4-2c4e4bb56e47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;_6317&quot;)/a[@class=&quot;product-card__img-link&quot;]/img[@class=&quot;product-card__img&quot;]</value>
+      <webElementGuid>1944cd3b-86b9-442c-856f-c6949729e425</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='_6317']/a/img</value>
+      <webElementGuid>dffa4051-7f98-439e-8113-eabcc85699f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +87,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Product Image']</value>
+      <webElementGuid>12b1b737-3005-46cd-833c-24f028ccce7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a/img</value>
+      <webElementGuid>36b74255-8c70-48f4-b907-40be6b1b2556</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

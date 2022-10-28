@@ -44,7 +44,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_image-
 
 WebUI.waitForAlert(5)
 
-WebUI.switchToWindowTitle('TW_Overview_0322')
+WebUI.switchToWindowTitle('TW_Overview_1022')
 
 WebUI.waitForAlert(5)
 

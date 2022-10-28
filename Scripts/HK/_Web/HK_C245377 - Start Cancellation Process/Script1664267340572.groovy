@@ -38,9 +38,9 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-println(GlobalVariable.url_OtherOption)
+println(GlobalVariable.url_OtherOptions)
 
-if (now_url != GlobalVariable.url_OtherOption) {
+if (now_url != GlobalVariable.url_OtherOptions) {
     WebUI.back()
 
     WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption2_hk'))

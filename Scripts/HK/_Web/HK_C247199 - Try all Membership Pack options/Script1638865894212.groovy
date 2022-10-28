@@ -61,6 +61,7 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
 //WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
+'1'
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), 'renew')
 
 WebUI.click(findTestObject('OB001/Page_/button_SearchSubmit'))
@@ -69,16 +70,24 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
 
-WebUI.click(findTestObject('OB001/Page_/img_3600'))
-
+//WebUI.click(findTestObject('OB001/Page_/img_3600'))
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
+WebUI.click(findTestObject('Object Repository/OB001/Page_/div_offsale'))
 
-WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
+now_text = WebUI.getText(findTestObject('Object Repository/OB001/Page_/div_offsale'))
 
-WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
+println(now_text)
 
+if (now_text != '暫時缺貨') {
+    WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
+
+    WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
+
+    WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
+}
+
+'2'
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '2000')
 
 WebUI.waitForAlert(5)
@@ -111,6 +120,7 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
+'3'
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '油')
 
 WebUI.waitForAlert(5)

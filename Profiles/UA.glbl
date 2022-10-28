@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>10702, 10733</description>
-      <initValue>'10702'</initValue>
+      <description>10733,10766</description>
+      <initValue>'10733'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -326,6 +326,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'UA'</initValue>
+      <name>run_env</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>run_country</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>caseId</name>
    </GlobalVariableEntity>
@@ -348,15 +358,5 @@
       <description></description>
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'UA'</initValue>
-      <name>run_env</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>run_country</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

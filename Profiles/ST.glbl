@@ -75,8 +75,8 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk2,hk3</description>
-      <initValue>'hk2'</initValue>
+      <description>hk1,hk2,hk3</description>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -316,11 +316,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ST'</initValue>
-      <name>run_env</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
       <name>url_ChangeAddress</name>
    </GlobalVariableEntity>
@@ -331,7 +326,37 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ContentMenu/Other_Options'</initValue>
-      <name>url_OtherOption</name>
+      <initValue>'ST'</initValue>
+      <name>run_env</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>run_country</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>caseId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>caseId2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>browserType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>culture</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
+      <name>testrail_Api</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
