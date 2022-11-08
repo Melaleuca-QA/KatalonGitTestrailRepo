@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>df411ff4-9a77-4c46-9305-fd831666979b</testSuiteGuid>
    <testCaseLink>
+      <guid>0037a8a0-0fb5-442b-a065-3b6c76eab4e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HK/_Web/HK_C578796 - Place a backdated order</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7580169b-80e8-4046-945f-a926308798a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

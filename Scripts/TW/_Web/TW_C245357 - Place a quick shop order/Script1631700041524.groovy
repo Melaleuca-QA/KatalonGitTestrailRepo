@@ -26,7 +26,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.1')
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
@@ -40,9 +40,16 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+now_url = WebUI.getUrl()
 
-WebUI.waitForAlert(5)
+println(now_url)
+
+'CheckoutPromo Page'
+if ('now_url' == GlobalVariable.url_CheckoutPromo) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+
+    WebUI.waitForAlert(5)
+}
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
 

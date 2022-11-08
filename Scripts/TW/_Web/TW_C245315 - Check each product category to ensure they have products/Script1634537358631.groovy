@@ -77,17 +77,11 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductP
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPureOil_CarrierOil'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductPureOil_BaseOil'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductPureOil_CarrierOil_51021'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNewProducts'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductPureOil_CarrierOil_51021'))
+WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ProductPureOil_BaseOil_51021'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNewProducts'))
 
@@ -123,7 +117,14 @@ WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+'CheckoutPromo Page'
+if ('now_url' == GlobalVariable.url_CheckoutPromo) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+}
 
 WebUI.navigateToUrl(GlobalVariable.url_Checkout)
 

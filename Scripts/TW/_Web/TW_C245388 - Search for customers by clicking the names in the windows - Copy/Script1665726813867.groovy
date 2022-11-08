@@ -165,7 +165,7 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 
@@ -247,7 +247,7 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 
@@ -357,7 +357,7 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout2_tw'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 

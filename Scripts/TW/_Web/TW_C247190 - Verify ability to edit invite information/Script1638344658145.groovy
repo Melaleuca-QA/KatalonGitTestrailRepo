@@ -303,3 +303,13 @@ WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Verify ability to edit invite information'
+GlobalVariable.test_case = '247190'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
+GlobalVariable.test_case = '247193'
+
+WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+

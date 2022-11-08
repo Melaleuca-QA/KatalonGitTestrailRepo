@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ProductPureOil_CarrierOil</name>
+   <name>td_OrderDate</name>
    <tag></tag>
-   <elementGuidId>bf2ef126-7792-4ba7-9f2d-0424a8776fee</elementGuidId>
+   <elementGuidId>50f2cd84-c7ae-4cca-b72a-39fc22ae54d4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'基底油')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='thankYouWrapper']/div[4]/div[2]/table/tbody/tr[3]/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,97 +20,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/ProductStore/content/category?c=231</value>
+      <value>td</value>
+      <webElementGuid>48b60960-2530-4250-9819-19fb44961ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-aid</name>
+      <name>class</name>
       <type>Main</type>
-      <value>20201201|@|carrier|@|@</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>manual_cm_re</name>
-      <type>Main</type>
-      <value>20201201-_-carrier-oils</value>
+      <value>orderDetailsValues</value>
+      <webElementGuid>60416714-48b6-46a2-8f3b-2806b5bc2711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>基底油</value>
+      <value>2022/10/31</value>
+      <webElementGuid>36af2819-d998-4756-9bed-0edac5fe5f24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[4]/a[1]</value>
+      <value>id(&quot;thankYouWrapper&quot;)/div[@class=&quot;orderDetail&quot;]/div[@class=&quot;orderDetailRight&quot;]/table[1]/tbody[1]/tr[3]/td[@class=&quot;orderDetailsValues&quot;]</value>
+      <webElementGuid>ace2a2e9-9429-4acc-bcfa-303a4025c7f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[contains(text(),'基底油')]</value>
+      <value>//div[@id='thankYouWrapper']/div[4]/div[2]/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>899450b0-5ed2-4e2a-a579-22be55fa223e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='快氛享'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂貨日期:'])[1]/following::td[1]</value>
+      <webElementGuid>4cada20d-8487-40ad-b1ef-5ce88471516b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='複方精油'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單號碼:'])[1]/following::td[3]</value>
+      <webElementGuid>bedf4729-9a3b-4586-ace7-bc7b7ce2cea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='輔銷品'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email信箱:'])[1]/preceding::td[1]</value>
+      <webElementGuid>8aa5233f-af29-4e62-87b5-20cf82fa3cb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='顯示所有產品'])[7]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jilllin@melaleuca.com'])[1]/preceding::td[2]</value>
+      <webElementGuid>0e78be1a-5234-47b2-9db0-27062ba8342b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='基底油']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/ProductStore/content/category?c=231')]</value>
+      <value>//*/text()[normalize-space(.)='2022/10/31']/parent::*</value>
+      <webElementGuid>d36c1fc0-b359-4ba9-bf6a-0c08e3194802</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/div/div/div/div/ul/li[4]/a</value>
+      <value>//tr[3]/td[2]</value>
+      <webElementGuid>6849230b-9dda-43af-b62e-8d63f961e41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '2022/10/31' or . = '2022/10/31')]</value>
+      <webElementGuid>fd445e69-4f02-4e75-9e44-06cd0cdc879f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

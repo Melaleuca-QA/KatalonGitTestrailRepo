@@ -275,7 +275,7 @@ WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout_hk'))
+WebUI.click(findTestObject('OB001/Page_/a_Logout_hk_2'))
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
 
@@ -328,7 +328,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_ConfirmDetails_Return'))
 
-WebUI.callTestCase(findTestCase('_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_Logout_3'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to edit invite information'
 GlobalVariable.test_case = '247190'
@@ -340,13 +340,18 @@ GlobalVariable.test_case = '247193'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
+'Edit Account Information'
 GlobalVariable.test_case = '247184'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify correct link for Confirm Details, Edit Presenter and Support Marketing Executive'
-GlobalVariable.test_case = '247168'
+'Add spouse information'
+GlobalVariable.test_case = '247185'
+
+WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Digital Signature'
+GlobalVariable.test_case = '247186'
 
 WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
