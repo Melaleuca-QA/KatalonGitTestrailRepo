@@ -92,8 +92,6 @@ WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Man
 
 WebUI.navigateToUrl('http://uatwdataentry/#/admin')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/a_ (1)'))
-
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/span__fa fa-user (1)'))
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/button_Save'))
