@@ -45,7 +45,7 @@ WebUI.navigateToUrl('http://uatwdataentry/#/admin')
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/i__left fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/a_'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/ExpressFormFeature'))
 
 WebUI.setText(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__txt_CustomerName'), 'Datetest')
 

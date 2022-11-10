@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>ExpressFormFeature</name>
    <tag></tag>
    <elementGuidId>2c68533f-f831-4a20-b384-e2128cad9fa5</elementGuidId>
    <selectorCollection>
