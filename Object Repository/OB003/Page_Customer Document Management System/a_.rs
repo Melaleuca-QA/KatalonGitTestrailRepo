@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_</name>
+   <tag></tag>
+   <elementGuidId>52515223-914e-42cd-bc54-ffb2e377f101</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.pure-menu-item.ng-scope > a.pure-menu-link.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'會員顧客協議書')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7fc9b5ed-3916-4433-9c6b-c87efd4391a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/enrollmentPage/</value>
+      <webElementGuid>449b2343-c56f-4136-bfd2-bbbb86a8309d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pure-menu-link ng-binding</value>
+      <webElementGuid>75822e10-cf97-4670-b8ca-1945695fe96c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>會員顧客協議書</value>
+      <webElementGuid>da9cebb2-c09b-428b-b50c-dc84bca543f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/header[1]/div[@class=&quot;menu-container pure-menu pure-menu-horizontal&quot;]/ul[@class=&quot;pure-menu-list&quot;]/li[@class=&quot;pure-menu-item pure-menu-has-children pure-menu-allow-hover&quot;]/ul[@class=&quot;pure-menu-children&quot;]/li[@class=&quot;pure-menu-item ng-scope&quot;]/a[@class=&quot;pure-menu-link ng-binding&quot;]</value>
+      <webElementGuid>65b2b49c-973b-480f-8583-1cde75b95e56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'會員顧客協議書')]</value>
+      <webElementGuid>75e921cc-337b-4c3f-bd0d-37a69591ee22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='文件資料夾'])[1]/following::a[1]</value>
+      <webElementGuid>a150297f-dcb9-40b8-8fa9-ca9908329e70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='首頁'])[1]/following::a[2]</value>
+      <webElementGuid>d4f1803d-fdba-4265-8f1e-6c4c35406a8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='文件資料夾'])[2]/preceding::a[2]</value>
+      <webElementGuid>b1969bff-11af-4ec3-af7d-3e91cbe917eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='過濾'])[1]/preceding::a[3]</value>
+      <webElementGuid>a26acf27-d1be-4d6f-a8ef-9c629a29b87f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='會員顧客協議書']/parent::*</value>
+      <webElementGuid>524e7a14-81e2-4554-aed9-47f8c604ccdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/enrollmentPage/')]</value>
+      <webElementGuid>58dd1748-ee12-484c-8d25-23faedb2732a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>fd846fc1-ba8a-4463-a68f-3508023c6b79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/enrollmentPage/' and (text() = '會員顧客協議書' or . = '會員顧客協議書')]</value>
+      <webElementGuid>975b8893-8094-4270-b8e9-b7978aab90c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

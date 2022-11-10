@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Format example 01302050 500 pm</name>
+   <tag></tag>
+   <elementGuidId>6b965e26-a62e-40bf-be51-4242683b60a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='aspnetForm']/table/tbody/tr[2]/td[2]/div/div/div[2]/table/tbody/tr[4]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>224f0ac6-7dfb-4c79-b3ee-2d439576076d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>8da07a79-4436-4059-b148-c114a23dc07b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Format example: 01/30/2050 5:00 pm</value>
+      <webElementGuid>c5b96252-eb13-4969-befc-7e3431ee0236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aspnetForm&quot;)/table[1]/tbody[1]/tr[2]/td[2]/div[1]/div[1]/div[@class=&quot;section&quot;]/table[@class=&quot;itemTable&quot;]/tbody[1]/tr[@class=&quot;oddRow&quot;]/td[1]</value>
+      <webElementGuid>b69a2415-5775-437c-9d56-0dff3bb9052a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/table/tbody/tr[2]/td[2]/div/div/div[2]/table/tbody/tr[4]/td</value>
+      <webElementGuid>caeb4639-dca7-4cae-baf7-efc7b3d8d0a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back Date To'])[2]/following::td[4]</value>
+      <webElementGuid>9d12f7c0-dc08-4206-b633-5c13c8f18d9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Time'])[2]/following::td[4]</value>
+      <webElementGuid>3705e57c-0c0c-49bb-b9f4-7cca9d5853e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TW\TW0067'])[1]/preceding::td[2]</value>
+      <webElementGuid>e9550e82-aed2-4571-8bc3-328cfb7603b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Format example: 01/30/2050 5:00 pm']/parent::*</value>
+      <webElementGuid>e11dfbc1-bedd-4f2e-bb82-6307658bb566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr[4]/td</value>
+      <webElementGuid>a03506e1-a5f1-4328-8076-c42a8d721311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Format example: 01/30/2050 5:00 pm' or . = 'Format example: 01/30/2050 5:00 pm')]</value>
+      <webElementGuid>a45970e6-ca72-4c2e-850f-a331f92b3251</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

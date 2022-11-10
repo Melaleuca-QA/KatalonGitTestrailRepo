@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select PAK35 BP  150 BP  2</name>
+   <tag></tag>
+   <elementGuidId>70058e9f-0234-4656-8470-87b28256bb32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;sel_commitmentLevel&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='sel_commitmentLevel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>28f9d811-e840-40ed-8386-d66f9c4512b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>2041927d-6282-4ff7-9097-c83e72943d17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>sel_commitmentLevel</value>
+      <webElementGuid>42323370-91ae-443d-8763-c938a72c9f74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>changeBackupOrderType(); validateDefaultAddress();</value>
+      <webElementGuid>2132ee8c-94b8-4105-aaf6-f70e3a5d9106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>enrollment.CustomerBackupOrder.BackupOrder.BackupOrderId</value>
+      <webElementGuid>9cbd23bf-e52b-42e4-9396-2a70cd0a84ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>option.id as option.text for option in backupOrderList</value>
+      <webElementGuid>cb44308e-ef0f-4cbe-bd32-b086cdda47b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2</value>
+      <webElementGuid>e36c627f-fd26-4e34-a83e-42dd0b2be5c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/taiwan-backup-order[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ng-pristine ng-valid&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[1]/div[@class=&quot;form-group col-md-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>ac729297-d994-42b6-88fb-59069c426aee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='sel_commitmentLevel']</value>
+      <webElementGuid>cf579c81-ad93-4153-bfa8-ef93994dde2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CMA']/div/div/taiwan-backup-order/div/fieldset/div/div/select</value>
+      <webElementGuid>299e1ac9-552d-48ee-82f3-e48e3c396872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='預備訂單類型'])[1]/following::select[1]</value>
+      <webElementGuid>6c85cfb9-734e-4d04-889b-5cf8d19bcb5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請檢查重複的地址'])[2]/following::select[1]</value>
+      <webElementGuid>949ab615-e163-4d98-80c0-61d3277d6fd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='自選套裝'])[1]/preceding::select[1]</value>
+      <webElementGuid>afa3a3ce-2e8e-43f8-ad9a-46fdaada2b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='貨號'])[1]/preceding::select[1]</value>
+      <webElementGuid>3d239522-b89a-4cf1-939a-d2ce3e6674ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/fieldset/div/div/select</value>
+      <webElementGuid>06bf4460-454e-493d-bcb8-c060fd2721cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'sel_commitmentLevel' and (text() = 'Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2' or . = 'Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2')]</value>
+      <webElementGuid>8c41058c-b2db-4701-9ac2-64529d1f9023</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

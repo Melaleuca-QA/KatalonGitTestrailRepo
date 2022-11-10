@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__fa fa-search</name>
+   <tag></tag>
+   <elementGuidId>6c0e1a8a-071d-47ff-93cb-1f82343fc4ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-search</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div/div[2]/span[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9d475584-9d0c-4dbc-8ef6-3400dca6d928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search</value>
+      <webElementGuid>e46e5a9c-7f31-4d5e-9d5c-944592170262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b85bc9e8-f8b9-499b-905c-fe174ed124b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/taiwan-organization[@class=&quot;ng-isolate-scope&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[@class=&quot;group ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;form-group col-md-6 clearBoth ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-btn&quot;]/button[@class=&quot;btn btn-default&quot;]/span[@class=&quot;fa fa-search&quot;]</value>
+      <webElementGuid>edc558ed-c8ad-424f-a9bd-d885d0ac2543</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div/div[2]/span[2]/button/span</value>
+      <webElementGuid>e23dfb7b-9f65-4fa1-aa37-d5b1d26b4bd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button/span</value>
+      <webElementGuid>8cd4f423-2421-44b3-98f2-f9bdabc48eaf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

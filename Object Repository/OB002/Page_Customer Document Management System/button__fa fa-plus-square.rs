@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__fa fa-plus-square</name>
+   <tag></tag>
+   <elementGuidId>c1d6332e-b7a3-4bf8-8f96-a47c3642b98b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.fa.fa-plus-square</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='paymethodOptionList']/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>356f8cf1-ec47-447c-8853-5290e0a4baf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus-square</value>
+      <webElementGuid>4a59428b-e0dc-4b9e-9aa4-6bae1673969d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9118ba8c-45e9-4cf9-a554-3bc9f7143938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>addNewPaymethod()</value>
+      <webElementGuid>51f66c3e-de41-4696-9a47-086a5ff7ee49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paymethodOptionList&quot;)/div[2]/button[@class=&quot;fa fa-plus-square&quot;]</value>
+      <webElementGuid>8937c615-ecc1-4c53-b548-00b809f6f1c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymethodOptionList']/div[2]/button</value>
+      <webElementGuid>b4247d38-09a7-4d69-b2b8-ed6bf3528ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div/div/div[2]/button</value>
+      <webElementGuid>bf0cd8bf-db3f-4098-bd2a-eab643af2921</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

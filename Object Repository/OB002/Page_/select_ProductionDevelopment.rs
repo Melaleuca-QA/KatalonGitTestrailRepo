@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ProductionDevelopment</name>
+   <tag></tag>
+   <elementGuidId>95e5d6b8-c525-4549-bc4c-b81e887509f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_ddlEnvironment</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ctl00_ContentPlaceHolder1_ddlEnvironment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f9d6e189-e6af-451d-a74a-ffe407cff9af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$ddlEnvironment</value>
+      <webElementGuid>e11ce40b-1cb4-4cc7-889b-53cc21f2c56d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlEnvironment\',\'\')', 0)</value>
+      <webElementGuid>b4bb8631-26d4-4f72-ad61-efa02b3bc90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_ddlEnvironment</value>
+      <webElementGuid>d0774d0b-500e-4de2-8bc9-daeebf10f6f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	Production
+	Development
+
+</value>
+      <webElementGuid>baf5d2c9-f822-4f68-ad21-7877a6c02dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_ddlEnvironment&quot;)</value>
+      <webElementGuid>98344d96-5e21-44fd-8bbf-b2c6c55f5402</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ctl00_ContentPlaceHolder1_ddlEnvironment']</value>
+      <webElementGuid>12d8fbf0-9a31-4036-9e30-140d15b9593c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/table/tbody/tr[2]/td[2]/div/div/div/table/tbody/tr/td/select</value>
+      <webElementGuid>4898b8d8-7c43-4315-981a-27387ab704dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Environment'])[1]/following::select[1]</value>
+      <webElementGuid>3eb951ea-130b-483e-9d48-ed4a07ab144b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your permissions are limited to read-only in the production environment.'])[1]/following::select[1]</value>
+      <webElementGuid>3464b1e4-2461-4be2-b60d-707f5ee45341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back Date Period'])[1]/preceding::select[1]</value>
+      <webElementGuid>dfadddc7-d7e8-4d2e-9c3f-2aa76ea7792a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back Date Window'])[1]/preceding::select[1]</value>
+      <webElementGuid>1764a3f8-ef05-4cc3-8ff0-7422773f4f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d0d2d290-e5e7-4f1f-aafc-f2cb472403c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$ContentPlaceHolder1$ddlEnvironment' and @id = 'ctl00_ContentPlaceHolder1_ddlEnvironment' and (text() = '
+	Production
+	Development
+
+' or . = '
+	Production
+	Development
+
+')]</value>
+      <webElementGuid>0497ab74-65b8-4dec-9f4c-f114966b4a5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
