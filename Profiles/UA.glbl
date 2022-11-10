@@ -364,4 +364,9 @@
       <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
       <name>url_CheckoutPromo</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12101724400'</initValue>
+      <name>tw_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
