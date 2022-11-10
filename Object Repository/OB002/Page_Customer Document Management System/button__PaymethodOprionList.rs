@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__fa fa-plus-square</name>
+   <name>button__PaymethodOprionList</name>
    <tag></tag>
    <elementGuidId>c1d6332e-b7a3-4bf8-8f96-a47c3642b98b</elementGuidId>
    <selectorCollection>

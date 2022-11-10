@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_</name>
+   <name>select_shipping_City</name>
    <tag></tag>
    <elementGuidId>b9becc14-883a-46a8-8d97-5a870b76b2da</elementGuidId>
    <selectorCollection>

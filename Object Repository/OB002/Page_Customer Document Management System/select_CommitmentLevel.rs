@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select__1</name>
+   <name>select_CommitmentLevel</name>
    <tag></tag>
-   <elementGuidId>ff2851ff-2d20-491b-bf37-0624e1e8e534</elementGuidId>
+   <elementGuidId>70058e9f-0234-4656-8470-87b28256bb32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#shipping_Suburb</value>
+         <value>select[name=&quot;sel_commitmentLevel&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='shipping_Suburb']</value>
+         <value>//select[@name='sel_commitmentLevel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,134 +22,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>3daea70f-19c3-42ac-af83-17a9f1cb9b89</webElementGuid>
+      <webElementGuid>28f9d811-e840-40ed-8386-d66f9c4512b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
-      <webElementGuid>cfb0c7a1-d63c-46aa-a5b4-41e4a787345e</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>2041927d-6282-4ff7-9097-c83e72943d17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>shipping_Suburb</value>
-      <webElementGuid>06ff5019-7a66-4655-ad0e-0a737d942dd8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>shipping_Suburb</value>
-      <webElementGuid>a72e0908-431e-4e8b-8f6d-8dcc90ff053a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>address.SuburbName</value>
-      <webElementGuid>9579889f-ecfd-4753-afeb-bac83d9fa607</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-options</name>
-      <type>Main</type>
-      <value>suburb.SuburbName as suburb.SuburbName for suburb in suburbsList</value>
-      <webElementGuid>eaea6c9d-1a2d-4e4a-8ebb-bbe9d65a8fb6</webElementGuid>
+      <value>sel_commitmentLevel</value>
+      <webElementGuid>42323370-91ae-443d-8763-c938a72c9f74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
-      <value>changeSuburb()</value>
-      <webElementGuid>0edac966-26f3-4a18-9c92-b46aeacc45b5</webElementGuid>
+      <value>changeBackupOrderType(); validateDefaultAddress();</value>
+      <webElementGuid>2132ee8c-94b8-4105-aaf6-f70e3a5d9106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>enrollment.CustomerBackupOrder.BackupOrder.BackupOrderId</value>
+      <webElementGuid>9cbd23bf-e52b-42e4-9396-2a70cd0a84ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>option.id as option.text for option in backupOrderList</value>
+      <webElementGuid>cb44308e-ef0f-4cbe-bd32-b086cdda47b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區</value>
-      <webElementGuid>41b77f9e-bf79-42df-b7bf-4b66f5c0d3a4</webElementGuid>
+      <value>Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2</value>
+      <webElementGuid>e36c627f-fd26-4e34-a83e-42dd0b2be5c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;shipping_Suburb&quot;)</value>
-      <webElementGuid>86b0467c-349b-49ed-b5fa-1d5f47f29229</webElementGuid>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/taiwan-backup-order[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ng-pristine ng-valid&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[1]/div[@class=&quot;form-group col-md-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>ac729297-d994-42b6-88fb-59069c426aee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='shipping_Suburb']</value>
-      <webElementGuid>474c150d-5e73-4d70-8c80-8b01f12ee6d6</webElementGuid>
+      <value>//select[@name='sel_commitmentLevel']</value>
+      <webElementGuid>cf579c81-ad93-4153-bfa8-ef93994dde2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='CMA']/div/div/taiwan-addresses/div/taiwan-shipping-address/fieldset/div/div/div[2]/select</value>
-      <webElementGuid>a1196f6c-c5c3-435d-8c71-fed972cd4aaf</webElementGuid>
+      <value>//div[@id='CMA']/div/div/taiwan-backup-order/div/fieldset/div/div/select</value>
+      <webElementGuid>299e1ac9-552d-48ee-82f3-e48e3c396872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='鄉/鎮/市/區'])[1]/following::select[1]</value>
-      <webElementGuid>fda3c70c-f399-4879-ad87-868c2c7a5b5a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='預備訂單類型'])[1]/following::select[1]</value>
+      <webElementGuid>6c85cfb9-734e-4d04-889b-5cf8d19bcb5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='必填'])[5]/following::select[1]</value>
-      <webElementGuid>a6c3be2e-2b44-4b78-ac08-5f2a6db36757</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請檢查重複的地址'])[2]/following::select[1]</value>
+      <webElementGuid>949ab615-e163-4d98-80c0-61d3277d6fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='郵遞區號'])[1]/preceding::select[1]</value>
-      <webElementGuid>247eef1b-5e4a-485c-a461-762850ca69ca</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='自選套裝'])[1]/preceding::select[1]</value>
+      <webElementGuid>afa3a3ce-2e8e-43f8-ad9a-46fdaada2b9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地址1'])[1]/preceding::select[1]</value>
-      <webElementGuid>c9350c09-5a04-4b60-be9d-8f33c34054b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='貨號'])[1]/preceding::select[1]</value>
+      <webElementGuid>3d239522-b89a-4cf1-939a-d2ce3e6674ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/select</value>
-      <webElementGuid>2781007d-62b7-4654-9fec-9db9e4ddc4aa</webElementGuid>
+      <value>//div/fieldset/div/div/select</value>
+      <webElementGuid>06bf4460-454e-493d-bcb8-c060fd2721cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@name = 'shipping_Suburb' and @id = 'shipping_Suburb' and (text() = '中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區' or . = '中正區大同區中山區松山區大安區萬華區信義區士林區北投區內湖區南港區文山區')]</value>
-      <webElementGuid>5bbdfb36-8cbc-4b93-9853-2f96538ed028</webElementGuid>
+      <value>//select[@name = 'sel_commitmentLevel' and (text() = 'Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2' or . = 'Select PAK35 BP 台灣預備訂單 150 BP 台灣預備訂單 2')]</value>
+      <webElementGuid>8c41058c-b2db-4701-9ac2-64529d1f9023</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

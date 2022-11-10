@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__left fa fa-bars (1)</name>
+   <tag></tag>
+   <elementGuidId>9adf4c13-d08d-4ad8-8d76-fcdbecdc8aa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.left.fa.fa-bars</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1d4cd109-9bdd-497b-a44e-47007bd3b434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>left fa fa-bars</value>
+      <webElementGuid>5f526181-5992-4592-9062-df97798074a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/header[1]/div[@class=&quot;menu-container pure-menu pure-menu-horizontal&quot;]/ul[@class=&quot;pure-menu-list&quot;]/li[@class=&quot;pure-menu-item pure-menu-has-children pure-menu-allow-hover&quot;]/a[@class=&quot;pure-menu-link noHoverBackground&quot;]/i[@class=&quot;left fa fa-bars&quot;]</value>
+      <webElementGuid>c0b16227-bea9-4b9b-ae83-87cf6a0639bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>1aa020c6-430c-4b36-a3ab-c41b9395aa48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
