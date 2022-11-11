@@ -39,7 +39,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_TW/_General/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -121,7 +121,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
-WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // test env //
 if (GlobalVariable.run_env == 'Test') {
@@ -238,9 +238,9 @@ WebUI.waitForAlert(5)
 WebUI.navigateToUrl(GlobalVariable.url_latest)
 
 if (true) {
-    WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.click(findTestObject('OB001/Page_/a_Logout_tw'))
 
@@ -301,7 +301,7 @@ WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness 
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to edit invite information'
 GlobalVariable.test_case = '247190'

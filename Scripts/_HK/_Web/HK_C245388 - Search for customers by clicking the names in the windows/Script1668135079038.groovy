@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
@@ -477,7 +477,7 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_General/_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for customers by clicking the names in the windows'
 GlobalVariable.test_case = '245388'

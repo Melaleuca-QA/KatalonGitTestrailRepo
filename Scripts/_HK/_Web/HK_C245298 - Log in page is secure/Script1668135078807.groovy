@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -96,7 +96,7 @@ WebUI.switchToWindowTitle(now_title)
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_General/_Logout_2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Log in page is secure (https in the url)'
 GlobalVariable.test_case = '245298'

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.url_contack_tw)
 
@@ -136,7 +136,7 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_QandA_tw
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_RelatedLinks'))
 
-WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Go to \'Contact Melaleuca\''
 GlobalVariable.test_case = '245312'

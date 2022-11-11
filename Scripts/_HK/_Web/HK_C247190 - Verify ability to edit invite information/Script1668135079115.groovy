@@ -39,7 +39,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -117,7 +117,7 @@ WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_OLE_Invitation_Cancel
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // test env //
 if (GlobalVariable.run_env == 'Test') {
@@ -328,7 +328,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_ConfirmDetails_Return'))
 
-WebUI.callTestCase(findTestCase('_General/_Logout_3'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk_2'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to edit invite information'
 GlobalVariable.test_case = '247190'

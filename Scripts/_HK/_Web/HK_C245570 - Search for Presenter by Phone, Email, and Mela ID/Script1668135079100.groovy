@@ -19,7 +19,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 
 WebUI.callTestCase(findTestCase('_HK/_General/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -72,7 +72,7 @@ WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
 
-WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify being able to search for Presenter by Phone, Email, and Member #'
 GlobalVariable.test_case = '245570'
