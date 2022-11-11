@@ -30,16 +30,16 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('TW/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
-    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -88,7 +88,7 @@ println(GlobalVariable.tw_input_oleurl)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.run_env == 'Test') {
     result1 = GlobalVariable.tw_input_oleurl.substring(0, 12)
@@ -173,30 +173,30 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 //WebUI.refresh()
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductFamily'))
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start an enrollment, verify enrollment form comes up'
 GlobalVariable.test_case = '245566'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify that OLE is secure (https in the url)'
 GlobalVariable.test_case = '245567'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to send invite by email'
 GlobalVariable.test_case = '245568'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Complete an enrollment in every country of the software system'
 GlobalVariable.test_case = '251905'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify you can Start Shopping'
 GlobalVariable.test_case = '247197'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

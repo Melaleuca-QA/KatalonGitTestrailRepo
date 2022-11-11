@@ -30,16 +30,16 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176777723776'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('TW/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
-    WebUI.callTestCase(findTestCase('TW/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -235,40 +235,40 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyA
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify password creation is at least 5 characters'
 GlobalVariable.test_case = '247204'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify the "Show" feature shows correct password information'
 GlobalVariable.test_case = '247205'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify correct membership fee is displayed (if Preferred)'
 GlobalVariable.test_case = '247206'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify functionality of all fields on the Account Information tab'
 GlobalVariable.test_case = '247207'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Edit CC after info has been entered '
 GlobalVariable.test_case = '247209'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify you can Opt Out of text / email notifications'
 GlobalVariable.test_case = '247210'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify you can Opt Out of text / email notifications'
 GlobalVariable.test_case = '247203'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

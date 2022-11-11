@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('HK/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -101,25 +101,25 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-so
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to send invite by text'
 GlobalVariable.test_case = '245569'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify ability to send a reminder '
 GlobalVariable.test_case = '247187'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify you can delete invite'
 GlobalVariable.test_case = '247188'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify you can sort with 2 or more invites'
 GlobalVariable.test_case = '247189'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

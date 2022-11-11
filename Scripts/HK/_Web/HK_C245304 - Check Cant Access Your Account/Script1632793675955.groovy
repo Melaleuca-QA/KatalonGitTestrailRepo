@@ -40,5 +40,5 @@ WebUI.closeBrowser()
 'Check \'Can\'t Access Your Account\''
 GlobalVariable.test_case = '245304'
 
-WebUI.callTestCase(findTestCase('HK/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

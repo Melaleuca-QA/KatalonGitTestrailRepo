@@ -21,10 +21,10 @@ import org.openqa.selenium.Keys as Keys
 if (false) {
     GlobalVariable.tw_input_creditcard = '4000178712803002'
 } else {
-    WebUI.callTestCase(findTestCase('TW/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('TW/_General/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -84,15 +84,15 @@ WebUI.click(findTestObject('OB001/Page_/a_ProductNutrition_VitaminSeries'))
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_General/_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Edit an existing pay method'
 GlobalVariable.test_case = '245363'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Delete an existing pay method'
 GlobalVariable.test_case = '245364'
 
-WebUI.callTestCase(findTestCase('TW/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
