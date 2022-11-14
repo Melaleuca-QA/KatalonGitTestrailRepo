@@ -41,14 +41,16 @@ if (false) {
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://uatwdataentry/#/admin')
+WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/i__left fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/ExpressFormFeature'))
 
 WebUI.setText(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__txt_CustomerName'), 
-    'Datetest')
+    GlobalVariable.tw_input_newname)
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__txt_govermentId'))
 
@@ -90,9 +92,13 @@ WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Manag
 
 WebUI.setText(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.tw_DataEntry_Enroller)
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/span__fa fa-user (1)'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/search_Enroller'))
+
+WebUI.click(findTestObject('OB002/Page_Customer Document Management System/search_Manager'))
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/button_Save'))
+
+WebUI.waitForAlert(20)
 
 WebUI.closeBrowser()
 

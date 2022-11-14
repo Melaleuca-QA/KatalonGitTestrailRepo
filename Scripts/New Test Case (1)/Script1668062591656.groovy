@@ -43,7 +43,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://uatwdataentry/#/admin')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/i__left fa fa-bars (1)'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/ExpressFormFeature'))
 
@@ -90,11 +90,9 @@ WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Manag
 
 WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.tw_DataEntry_Enroller)
 
-WebUI.navigateToUrl('http://uatwdataentry/#/admin')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/span__fa fa-user (1)'))
-
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/button_Save'))
+WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/search_Enroller'))
 
 WebUI.closeBrowser()
 

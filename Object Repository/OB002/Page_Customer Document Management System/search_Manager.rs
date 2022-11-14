@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span__fa fa-user</name>
+   <name>search_Manager</name>
    <tag></tag>
    <elementGuidId>4ea5f020-1995-4edc-9bd9-55f53abd9eaf</elementGuidId>
    <selectorCollection>
