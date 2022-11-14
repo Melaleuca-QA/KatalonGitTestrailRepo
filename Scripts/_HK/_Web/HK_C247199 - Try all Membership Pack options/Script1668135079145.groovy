@@ -68,6 +68,19 @@ WebUI.click(findTestObject('OB001/Page_/button_SearchSubmit'))
 
 WebUI.waitForAlert(5)
 
+WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/img_product-card_img_3604'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
+
+WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
+
+WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
+
+WebUI.waitForAlert(5)
+
+/*
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
 
 //WebUI.click(findTestObject('OB001/Page_/img_3600'))
@@ -86,13 +99,13 @@ if (now_text != '暫時缺貨') {
 
     WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 }
-
+*/
 '2'
 WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '2000')
 
-WebUI.waitForAlert(5)
-
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_2000'))
 
@@ -106,6 +119,7 @@ WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
 WebUI.waitForAlert(5)
 
+'3'
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving'))
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductValueLiving_BodyClean'))
@@ -114,24 +128,26 @@ WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_produc
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle_1_2'))
+WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack_Continue'))
 
-'3'
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '油')
-
 WebUI.waitForAlert(5)
 
+'4'
+WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '油')
+
 WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_5542'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle_1_2'))
+WebUI.click(findTestObject('OB001/Page_/span_fa fa-plus-circle'))
 
 WebUI.click(findTestObject('OB001/Page_/button_MyPack'))
 
