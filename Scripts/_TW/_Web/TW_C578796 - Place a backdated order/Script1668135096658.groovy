@@ -39,7 +39,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_backdating_alert'), 0)) {
+if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_backdating_alert'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_backdating_alert'))
 
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_backdating_confirm'))
