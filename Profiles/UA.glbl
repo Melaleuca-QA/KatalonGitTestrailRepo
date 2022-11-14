@@ -369,4 +369,9 @@
       <initValue>'12101724400'</initValue>
       <name>tw_DataEntry_Enroller</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://uatwdataentry/#/admin'</initValue>
+      <name>url_DataEntry</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

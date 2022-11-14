@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn_Save']</value>
+         <value>/html/body/div/div/div/div/div/div/div/div[2]/div/cma-form-directive/fieldset/div/div[2]/div/div[2]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ff96270-098e-4d63-9361-de8c47a80df2</webElementGuid>
+      <webElementGuid>08524a05-2bad-4e7a-be98-fdd95c4e8018</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8a717372-337b-4bce-8fae-1ffb55321732</webElementGuid>
+      <webElementGuid>17a29a66-c5fc-4813-a3fc-99697d1328cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btn_Save</value>
-      <webElementGuid>0b8a7ce2-d29e-445d-9231-33c61ba0c268</webElementGuid>
+      <webElementGuid>134ec57c-6615-4343-a076-40bea665dd4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-if</name>
       <type>Main</type>
       <value>IsShowCreateButton()</value>
-      <webElementGuid>2c9596c0-5ddd-4ad6-9672-384c0dbb27a6</webElementGuid>
+      <webElementGuid>0087d191-1bef-4f55-8c5a-5fefd65f7b2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger btn-lg ng-binding ng-scope</value>
-      <webElementGuid>04bb2a2f-220e-49c4-8b62-122402f8c461</webElementGuid>
+      <webElementGuid>0478f031-9867-404c-b5ef-501de05ede0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>submitForm()</value>
-      <webElementGuid>321bcf8c-b7d5-4050-b564-0fa569716b0a</webElementGuid>
+      <webElementGuid>0ca7f5cb-d9a2-49d4-8fe8-9f75a1deabf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <value>
                             儲存 
                         </value>
-      <webElementGuid>c6750f27-20fc-4efc-b515-0d24ed31e5a9</webElementGuid>
+      <webElementGuid>bc0f3504-3833-4063-871c-cd7610956c03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btn_Save&quot;)</value>
-      <webElementGuid>b05c20a3-dcf8-4678-ae24-49b943e8c440</webElementGuid>
+      <webElementGuid>aa0ee388-9879-48fb-b7ae-411ba9ddfb02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btn_Save']</value>
-      <webElementGuid>cf43a276-d102-44ca-b9b5-bf8ccfc23042</webElementGuid>
+      <webElementGuid>f0a55597-ee0e-4517-9b01-020181b71984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CMA']/div[2]/div[2]/button</value>
-      <webElementGuid>8c690a1e-0bc8-4487-b803-933e5b27dff1</webElementGuid>
+      <webElementGuid>c0263faa-d5f8-49dd-b2a0-fcdf109b8b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='日期回溯至'])[2]/following::button[1]</value>
-      <webElementGuid>e1ed9c90-948f-4648-b441-43a837e548b3</webElementGuid>
+      <webElementGuid>1f553a60-3d1f-4877-a712-1df49a970d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='電話:'])[4]/following::button[1]</value>
-      <webElementGuid>d44771ce-b1e3-4200-b1f4-efb115d76d6f</webElementGuid>
+      <webElementGuid>eff2362d-8081-4eca-b30a-a79a6073fbc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::button[1]</value>
-      <webElementGuid>36f804b7-20e2-4811-a7ba-de5e3bf472a3</webElementGuid>
+      <webElementGuid>7a662bc4-6d94-40ee-9e4d-fcb3c37e60cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btn_Save', '&quot;', ')')])[1]/preceding::button[3]</value>
-      <webElementGuid>9df3ca01-6c76-49a2-a459-ba7190a8b378</webElementGuid>
+      <webElementGuid>5a1e827d-3372-4cf7-872f-f4ecaf2652c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
-      <webElementGuid>dd773871-b6b7-4aec-919e-c4c6b8477552</webElementGuid>
+      <webElementGuid>a7bcbc32-dc8b-40a0-955a-ce2b5e9ed6d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button</value>
-      <webElementGuid>b85bd0fb-d980-47c1-81c2-53d9e6c5c939</webElementGuid>
+      <webElementGuid>183b8d54-e9de-4750-80f5-e99af38b3df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,6 +156,6 @@
                         ' or . = '
                             儲存 
                         ')]</value>
-      <webElementGuid>08d4b854-82a6-4f66-831d-5a4a4ab66280</webElementGuid>
+      <webElementGuid>3c7988b9-50ac-4095-995f-e0645a213a86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
