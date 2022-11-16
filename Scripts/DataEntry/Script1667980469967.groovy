@@ -62,6 +62,8 @@ WebUI.setText(findTestObject('Object Repository/OB002/Page_Customer Document Man
 WebUI.setText(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__txt_mobileNumber'), 
     GlobalVariable.tw_input_mphone)
 
+WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__chk_TestCustomer'))
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB002/Page_Customer Document Management System/select_shipping_City'), 
     'string:台北市', true)
 
@@ -98,7 +100,7 @@ WebUI.click(findTestObject('OB002/Page_Customer Document Management System/searc
 
 WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/button_Save'))
 
-WebUI.waitForAlert(20)
+WebUI.waitForAlert(10)
 
 WebUI.closeBrowser()
 

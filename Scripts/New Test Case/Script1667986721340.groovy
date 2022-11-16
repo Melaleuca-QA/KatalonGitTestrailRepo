@@ -17,26 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Recording mode'
-if (false) {
-	GlobalVariable.tw_input_newname = 'tw918209'
+WebUI.openBrowser('')
 
-	GlobalVariable.tw_input_email = ('tw918209' + '@melaleuca.com')
+WebUI.navigateToUrl('http://uatwdataentry/#/admin')
 
-	GlobalVariable.tw_input_mphone = '0922918209'
+WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/a_ (2)'))
 
-	GlobalVariable.tw_input_citizen = 'J173624468'
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_zh-TWzh-HK'), 
+    'zh-HK', true)
 
-	GlobalVariable.tw_input_creditcard = '4000176233801257'
-} else {
-	'get credit card number'
-	WebUI.callTestCase(findTestCase('_TW/_General/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_zh-TWzh-HK'), 
+    'zh-TW', true)
 
-	'get citizen number'
-	WebUI.callTestCase(findTestCase('_TW/_General/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__chk_TestCustomer'))
 
-	'get ole variables'
-	WebUI.callTestCase(findTestCase('_TW/_General/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)

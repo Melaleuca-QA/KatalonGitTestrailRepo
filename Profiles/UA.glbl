@@ -366,12 +366,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'12101724400'</initValue>
+      <initValue>'12101736922'</initValue>
       <name>tw_DataEntry_Enroller</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://uatwdataentry/#/admin'</initValue>
       <name>url_DataEntry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13100179333'</initValue>
+      <name>hk_DataEntry_Enroller</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

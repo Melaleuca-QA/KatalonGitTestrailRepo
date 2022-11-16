@@ -404,4 +404,14 @@
       <initValue>'https://hk.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_hk_whichproducts</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12105833040'</initValue>
+      <name>tw_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://dataentrytw/#/admin'</initValue>
+      <name>url_DataEntry</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

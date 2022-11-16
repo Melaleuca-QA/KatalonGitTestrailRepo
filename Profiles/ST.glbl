@@ -359,4 +359,14 @@
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12100715192'</initValue>
+      <name>tw_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://sttwdataentry/#/admin'</initValue>
+      <name>url_DataEntry</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
