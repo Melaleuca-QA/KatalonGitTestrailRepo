@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'10702'</initValue>
+      <initValue>'10766'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk2,hk3</description>
-      <initValue>'hk1'</initValue>
+      <initValue>'hk2'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -193,6 +193,11 @@
       <description></description>
       <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout'</initValue>
       <name>url_Checkout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_CheckoutPromo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -358,15 +363,5 @@
       <description></description>
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'12100715192'</initValue>
-      <name>tw_DataEntry_Enroller</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://sttwdataentry/#/admin'</initValue>
-      <name>url_DataEntry</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

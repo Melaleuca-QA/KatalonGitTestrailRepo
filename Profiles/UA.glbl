@@ -206,6 +206,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_CheckoutPromo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://uatwweb.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
       <name>url_contack_hk</name>
    </GlobalVariableEntity>
@@ -358,11 +363,6 @@
       <description></description>
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
-      <name>url_CheckoutPromo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

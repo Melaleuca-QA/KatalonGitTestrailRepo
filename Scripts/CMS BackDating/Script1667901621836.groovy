@@ -25,9 +25,12 @@ Date b_date = calendar.getTime()
 int b_day = calendar.get(Calendar.DAY_OF_MONTH)
 
 BackDating_Date = (b_date - b_day)
-StartTime = BackDating_Date + 1
-EndTime = b_date +1
-BackDateTo = BackDating_Date 
+
+StartTime = (BackDating_Date + 1)
+
+EndTime = (b_date + 1)
+
+BackDateTo = BackDating_Date
 
 println(b_date)
 
@@ -41,14 +44,13 @@ WebUI.navigateToUrl('http://uatwapincde/CMS/BackdatingAdmin.aspx')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB002/Page_/select_ProductionDevelopment'), 'Development', true)
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_StartTime'),  '11/01/2022 01:00 AM')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_StartTime'), '11/01/2022 01:00 AM')
 
-WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_EndTime'), '11/05/2022 17:00 PM')
+WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_EndTime'), '11/17/2022 17:00 PM')
 
 WebUI.setText(findTestObject('Object Repository/OB002/Page_/input_BackDateTo'), '10/31/2022')
 
 //WebUI.click(findTestObject('Object Repository/OB002/Page_/td_Format example 01302050 500 pm'))
-
 WebUI.click(findTestObject('Object Repository/OB002/Page_/Click_Save'))
 
 WebUI.closeBrowser()

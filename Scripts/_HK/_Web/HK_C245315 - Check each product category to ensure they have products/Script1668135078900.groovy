@@ -101,12 +101,18 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_promotion_add'))
+now_url = WebUI.getUrl()
 
-WebUI.waitForAlert(5)
+println(now_url)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+'CheckoutPromo Page'
+if (now_url == GlobalVariable.url_CheckoutPromo) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+}
 
+//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_promotion_add'))
+//WebUI.waitForAlert(5)
+//WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')

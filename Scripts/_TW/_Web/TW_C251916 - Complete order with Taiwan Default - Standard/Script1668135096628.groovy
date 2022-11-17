@@ -44,7 +44,14 @@ WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+'CheckoutPromo Page'
+if (now_url == GlobalVariable.url_CheckoutPromo) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+}
 
 WebUI.waitForAlert(5)
 
@@ -62,7 +69,6 @@ WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 't
 
 //now_url_1 = WebUI.getUrl()
 //println(now_url_1)
-
 WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
@@ -73,6 +79,7 @@ println(now_url)
 
 if (now_url != GlobalVariable.url_ChangeAddress) {
     WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangeAddress_save'))
+
     WebUI.waitForAlert(5)
 }
 
@@ -83,7 +90,6 @@ if (now_url != GlobalVariable.url_ChangeAddress) {
 //    WebUI.waitForAlert(5)
 //} else {
 //}
-
 WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
 WebUI.waitForAlert(5)

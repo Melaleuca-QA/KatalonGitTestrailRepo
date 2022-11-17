@@ -40,11 +40,20 @@ WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
-if (GlobalVariable.run_env == 'UA') {
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+'CheckoutPromo Page'
+if (now_url == GlobalVariable.url_CheckoutPromo) {
     WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
-} else {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase2_tw_st'))
 }
+
+//if (GlobalVariable.run_env == 'UA') {
+//    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+//} else {
+//    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase2_tw_st'))
+//}
 
 WebUI.waitForAlert(5)
 
