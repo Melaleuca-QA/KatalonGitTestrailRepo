@@ -206,6 +206,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://tw.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_CheckoutPromo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://tw.melaleuca.com/HelpCenter/ContentMenu/Contact_Melaleuca_HongKong'</initValue>
       <name>url_contack_hk</name>
    </GlobalVariableEntity>

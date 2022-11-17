@@ -263,7 +263,16 @@ WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB001/Page_/button_BottomProceedtoCheckout'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+WebUI.waitForAlert(5)
+
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+'CheckoutPromo Page'
+if (now_url == GlobalVariable.url_CheckoutPromo) {
+    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+}
 
 WebUI.waitForAlert(5)
 
