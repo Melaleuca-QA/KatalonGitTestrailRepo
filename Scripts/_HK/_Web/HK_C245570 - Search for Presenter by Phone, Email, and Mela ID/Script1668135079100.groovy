@@ -22,55 +22,55 @@ WebUI.callTestCase(findTestCase('_HK/_General/HK OLE Variables'), [:], FailureHa
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_BusinessCenter_enroll_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_enroll_hk'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_hk'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.focus(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_hk'))
 
 WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+WebUI.focus(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '0943654646')
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_EditPresenter'))
+WebUI.setText(findTestObject('OB_Web/Page_/input_txtPresenter'), '0943654646')
 
-WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), 'jilllin@melaleuca.com')
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+WebUI.click(findTestObject('OB_Web/Page_/div_EH 2.2 HK Test'))
 
-WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test 2'))
+WebUI.click(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
-WebUI.click(findTestObject('OB001/Page_/span_BusinessCenter_OLE_EditPresenter'))
+WebUI.setText(findTestObject('OB_Web/Page_/input_txtPresenter'), 'jilllin@melaleuca.com')
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+
+WebUI.click(findTestObject('OB_Web/Page_/div_EH 2.2 HK Test 2'))
+
+WebUI.click(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_EditPresenter'))
 
 if (GlobalVariable.run_env == 'ST') {
-    WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '1310004477')
+    WebUI.setText(findTestObject('OB_Web/Page_/input_txtPresenter'), '1310004477')
 } else {
-    WebUI.setText(findTestObject('OB001/Page_/input_txtPresenter'), '13100230388')
+    WebUI.setText(findTestObject('OB_Web/Page_/input_txtPresenter'), '13100230388')
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
 
-WebUI.click(findTestObject('OB001/Page_/div_EH 2.2 HK Test'))
+WebUI.click(findTestObject('OB_Web/Page_/div_EH 2.2 HK Test'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_NewEnroll_Cancel'))
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

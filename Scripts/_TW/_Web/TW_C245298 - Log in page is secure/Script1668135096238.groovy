@@ -20,79 +20,79 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/div_LVIP_TW'))
+WebUI.click(findTestObject('OB_Web/Page_/div_LVIP_TW'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/div_AboutMelaleuca_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/div_AboutMelaleuca_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_/span_MyAccount_BackupOrderSetup'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
+WebUI.click(findTestObject('OB_Web/Page_/span_MyAccount_BackupOrderSetup'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_MyAccount_BackupOrderCancel'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_link enrollmentFormsLink'))
 
 now_title = WebUI.getWindowTitle()
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Form1_Download'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_Form1_Download'))
 
 WebUI.waitForAlert(5)
 
 WebUI.switchToWindowTitle(now_title)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_Form2_Download'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_Form2_Download'))
 
 WebUI.waitForAlert(5)
 

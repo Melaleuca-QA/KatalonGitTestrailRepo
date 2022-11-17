@@ -29,7 +29,7 @@ println(now_url)
 
 WebUI.verifyEqual(now_url, GlobalVariable.url_GeneralError)
 
-WebUI.click(findTestObject('OB001/Page_/a_GeneralError_StartShopping'))
+WebUI.click(findTestObject('OB_Web/Page_/a_GeneralError_StartShopping'))
 
 WebUI.waitForPageLoad(2)
 
@@ -42,11 +42,11 @@ WebUI.verifyEqual(ps_url, GlobalVariable.url_ProductStore)
 WebUI.waitForPageLoad(2)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.waitForPageLoad(2)
 

@@ -23,100 +23,100 @@ WebUI.navigateToUrl(GlobalVariable.url_contack_hk)
 
 WebUI.waitForPageLoad(2)
 
-now_text0 = WebUI.getAttribute(findTestObject('OB001/Page_Melaleuca The Wellness Company/select_hk'), 'value')
+now_text0 = WebUI.getAttribute(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/select_hk'), 'value')
 
 println(now_text0)
 
 WebUI.verifyMatch(now_text0, 'zh-HK', false)
 
-now_text1 = WebUI.getText(findTestObject('OB001/Page_Melaleuca The Wellness Company/select_hk')).trim()
+now_text1 = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/select_hk')).trim()
 
 println(now_text1)
 
 WebUI.verifyMatch(now_text1, '香港', false)
 
-now_text2 = WebUI.getText(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_hk'))
+now_text2 = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_hk'))
 
 println(now_text2)
 
 WebUI.verifyMatch(now_text2, '美樂家香港', false)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_QandA_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_hk'))
 
 WebUI.navigateToUrl(GlobalVariable.url_FAQ)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_QandA_CustomerInformation_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_CustomerInformation_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_1_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_1_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_2_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_2_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_3_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_3_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_4_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_4_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_5_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_5_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_6_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_6_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_7_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation_7_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_QandA_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_QandA_MemberInformation_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_MemberInformation_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_1_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_1_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_2_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_2_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_3_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_3_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_4_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_4_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_5_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_5_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_6_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_6_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_QandA_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_1_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_1_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_2_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_2_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_3_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_3_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_4_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_4_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_5_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_5_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_6_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_6_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_7_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_7_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_8_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_8_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_9_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_9_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_10_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_10_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_11_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_11_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_12_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_12_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_13_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_13_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_14_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_14_hk'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_QandA_hk'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_hk'))
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

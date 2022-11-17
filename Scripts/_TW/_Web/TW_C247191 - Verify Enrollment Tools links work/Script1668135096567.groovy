@@ -20,23 +20,23 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
 WebUI.waitForPageLoad(30)
 
-WebUI.click(findTestObject('OB001/Page_/div_link presentationLink'))
+WebUI.click(findTestObject('OB_Web/Page_/div_link presentationLink'))
 
 WebUI.waitForPageLoad(30)
 
@@ -50,7 +50,7 @@ WebUI.waitForAlert(5)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB001/Page_/div_link followUpLink'))
+WebUI.click(findTestObject('OB_Web/Page_/div_link followUpLink'))
 
 WebUI.waitForPageLoad(30)
 
@@ -64,7 +64,7 @@ WebUI.waitForAlert(5)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB001/Page_/div_link enrollmentFormsLink'))
+WebUI.click(findTestObject('OB_Web/Page_/div_link enrollmentFormsLink'))
 
 WebUI.waitForPageLoad(30)
 
@@ -78,7 +78,7 @@ WebUI.waitForAlert(5)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB001/Page_/div_link whichProductsLink'))
+WebUI.click(findTestObject('OB_Web/Page_/div_link whichProductsLink'))
 
 WebUI.waitForPageLoad(30)
 

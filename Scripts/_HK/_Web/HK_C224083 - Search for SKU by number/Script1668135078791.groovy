@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '117')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), '117')
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+WebUI.click(findTestObject('OB_Web/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -40,11 +40,11 @@ if (GlobalVariable.run_env == 'PD') {
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), 'lemon')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), 'lemon')
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+WebUI.click(findTestObject('OB_Web/Page_/span_fa fa-search'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_product-card_img_2854'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_product-card_img_2854'))
 
 now_url = WebUI.getUrl()
 
@@ -58,9 +58,9 @@ if (GlobalVariable.run_env == 'PD') {
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '觀適健')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), '觀適健')
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+WebUI.click(findTestObject('OB_Web/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -74,9 +74,9 @@ if (GlobalVariable.run_env == 'PD') {
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), 'Safe &')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), 'Safe &')
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+WebUI.click(findTestObject('OB_Web/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 
@@ -90,9 +90,9 @@ if (GlobalVariable.run_env == 'PD') {
 
 WebUI.back()
 
-WebUI.setText(findTestObject('OB001/Page_/input_js-search-input'), '___')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), '___')
 
-WebUI.click(findTestObject('OB001/Page_/span_fa fa-search'))
+WebUI.click(findTestObject('OB_Web/Page_/span_fa fa-search'))
 
 now_url = WebUI.getUrl()
 

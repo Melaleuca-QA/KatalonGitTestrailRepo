@@ -20,19 +20,19 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.navigateToUrl(GlobalVariable.url_account)
 
-WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption_hk'))
+WebUI.click(findTestObject('OB_Web/Page_/a_MyAccountShowAll_OtherOption_hk'))
 
 now_url = WebUI.getUrl()
 
@@ -43,7 +43,7 @@ println(GlobalVariable.url_OtherOptions)
 if (now_url != GlobalVariable.url_OtherOptions) {
     WebUI.back()
 
-    WebUI.click(findTestObject('OB001/Page_/a_MyAccountShowAll_OtherOption2_hk'))
+    WebUI.click(findTestObject('OB_Web/Page_/a_MyAccountShowAll_OtherOption2_hk'))
 
     now_url = WebUI.getUrl()
 
@@ -52,7 +52,7 @@ if (now_url != GlobalVariable.url_OtherOptions) {
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
 now_url = WebUI.getUrl()
 

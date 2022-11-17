@@ -27,60 +27,60 @@ if (false) {
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccount'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_MyAccount_SetupPaymethod'))
 
 WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://uatwweb.melaleuca.com/MyAccount/ChangePaymethods')
-WebUI.click(findTestObject('OB001/Page_/button_MyAccount_SetupPaymethod_AddCreditCard'))
+WebUI.click(findTestObject('OB_Web/Page_/button_MyAccount_SetupPaymethod_AddCreditCard'))
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '1', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2040', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2040', true)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_/span_MyAccount_SetupPaymethod_EditCreditCard'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)
-
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2039', true)
-
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
+WebUI.click(findTestObject('OB_Web/Page_/span_MyAccount_SetupPaymethod_EditCreditCard'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_MyAccount_SetupPaymethod_DeleteCreditCard'))
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '12', true)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2039', true)
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('OB_Web/Page_/span_MyAccount_SetupPaymethod_DeleteCreditCard'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
+WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_ProductNutrition_VitaminSeries'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
+
+WebUI.click(findTestObject('OB_Web/Page_/a_ProductNutrition_VitaminSeries'))
 
 WebUI.waitForAlert(5)
 

@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://www.vccgenerator.org/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_VCCGenerator/a_BIN GENERATOR'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/a_BIN GENERATOR'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_VCCGenerator/input_BIN_namso-bin'), '405430')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/input_BIN_namso-bin'), '405430')
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_VCCGenerator/b_GENERATE'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_VCCGenerator/b_GENERATE'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
 
-result1 = WebUI.getText(findTestObject('OB001/Page_VCCGenerator/div_CreditCardNumber'))
+result1 = WebUI.getText(findTestObject('OB_Web/Page_VCCGenerator/div_CreditCardNumber'))
 
 println(result1)
 

@@ -25,9 +25,9 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('OB001/Page_Hong Kong Identity Card Number/button_Generate'))
+WebUI.click(findTestObject('OB_Web/Page_Hong Kong Identity Card Number/button_Generate'))
 
-GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB001/Page_Hong Kong Identity Card Number/div_RandomHKID'))
+GlobalVariable.hk_input_citizen = WebUI.getText(findTestObject('OB_Web/Page_Hong Kong Identity Card Number/div_RandomHKID'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 

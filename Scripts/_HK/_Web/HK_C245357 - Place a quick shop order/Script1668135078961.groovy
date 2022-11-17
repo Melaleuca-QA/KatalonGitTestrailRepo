@@ -20,24 +20,24 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
     3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '117.1')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '117.1')
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
@@ -47,25 +47,25 @@ println(now_url)
 
 'CheckoutPromo Page'
 if (now_url == GlobalVariable.url_CheckoutPromo) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 }
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_/input_paymethodCvv'), '123')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_/input_paymethodCvv'), '123')
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/button_Payment'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/button_Payment'))
 
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_/div_3535'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_/button_ck35'))
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_/button_ck35'))
 }
 
 WebUI.waitForAlert(5)
 
-//now_text = WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_3535'))
+//now_text = WebUI.verifyElementVisible(findTestObject('OB_Web/Page_/div_3535'))
 //println(now_text)
-//if (WebUI.verifyElementVisible(findTestObject('OB001/Page_/div_3535')) == true) {
-//    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+//if (WebUI.verifyElementVisible(findTestObject('OB_Web/Page_/div_3535')) == true) {
+//    WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
 //}
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

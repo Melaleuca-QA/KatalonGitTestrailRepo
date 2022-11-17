@@ -45,73 +45,73 @@ WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/i__left fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/i__left fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/ExpressFormFeature'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_zh-TWzh-HK (1)'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_zh-TWzh-HK (1)'), 
     'zh-HK', true)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_CustomerName'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_CustomerName'), 
     GlobalVariable.hk_input_newname)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_govermentId'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_govermentId'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_govermentId'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_govermentId'), 
     GlobalVariable.hk_input_citizen)
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_birthday'), '1972/06/02')
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_birthday'), '1972/06/02')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_mobileNumber'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_mobileNumber'), 
     GlobalVariable.hk_input_mphone)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__chk_Override'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__chk_Override'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Shipping_Address'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Shipping_Address'), 
     'testaddress')
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Shipping_AddressLine2'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Shipping_AddressLine2'), 
     '12F')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_'), 'string:香港', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_'), 'string:香港', 
     true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select__1'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select__1'), 
     'string:香港', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select__1_2'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select__1_2'), 
     'string:半山', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_VISAMaster'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_VISAMaster'), 
     '2', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/button__fa fa-plus-square'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/button__fa fa-plus-square'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Inbound_Account'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Inbound_Account'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Inbound_Account'), 
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Inbound_Account'), 
     GlobalVariable.hk_input_creditcard)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_010203040506070809101112'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_010203040506070809101112'), 
     'string:7', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_202220232024202520262027202820292030_5caaba'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_202220232024202520262027202820292030_5caaba'), 
     'string:2030', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_Select PAK35 BP  135 PP Convenience _dd13f3'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_Select PAK35 BP  135 PP Convenience _dd13f3'), 
     'number:77', true)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Enroller'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Enroller'))
 
-WebUI.setText(findTestObject('Object Repository/OB003/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.hk_DataEntry_Enroller)
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.hk_DataEntry_Enroller)
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/span__fa fa-search'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/span__fa fa-search'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/button__btn btn-default'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/button__btn btn-default'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/span__fa fa-chevron-right'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/span__fa fa-chevron-right'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/div_'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/div_'))
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/button_'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/button_'))
 

@@ -28,29 +28,29 @@ if (false) {
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
 WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
-WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
+WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
 
@@ -60,69 +60,69 @@ println(now_url)
 
 'CheckoutPromo Page'
 if (now_url == GlobalVariable.url_CheckoutPromo) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 }
 
 WebUI.waitForAlert(5)
 
-WebUI.focus(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
+WebUI.focus(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_add'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_add'))
 
-WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.hk_input_creditcard)
+WebUI.waitForAlert(5)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '1', true)
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2040', true)
+WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.hk_input_creditcard)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '1', true)
+
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2040', true)
+
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
 
 WebUI.waitForAlert(5)
 
 WebUI.back()
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_edit'))
+WebUI.click(findTestObject('OB_Web/Page_/span_Checkout_ChangePaymethod_edit'))
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_month'), '12', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Chectout_edit_year'), '2039', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2039', true)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_save'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB001/Page_/span_Checkout_ChangePaymethod_delete'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_delete_check'))
+WebUI.click(findTestObject('OB_Web/Page_/span_Checkout_ChangePaymethod_delete'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Checkout_ChangePaymethod_return'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_return'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Payment'))
+WebUI.setText(findTestObject('OB_Web/Page_/input_paymethodCvv'), '123')
 
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_/div_3535'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_/button_ck35'))
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_Web/Page_/button_Payment'))
+
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_/div_3535'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
 }
 
 WebUI.waitForAlert(5)

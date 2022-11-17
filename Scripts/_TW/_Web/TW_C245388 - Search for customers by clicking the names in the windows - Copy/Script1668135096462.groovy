@@ -20,53 +20,53 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
     3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 'Start - 1st month enrollee'
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 'FollowUpCenter'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_FollowUpCenter'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_FollowUpCenter'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/div_ChgEnrollee1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/div_ChgEnrollee1'))
 
-now_enrollee = WebUI.getText(findTestObject('Object Repository/OB001/Page_/div_ChgEnrollee1'))
+now_enrollee = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_/div_ChgEnrollee1'))
 
 println(now_enrollee)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 '組織轉換'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_OrgChange'))
 
 WebUI.waitForAlert(5)
 
 '繼續(A->B)'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'))
 
 '輸入Enrollee手機號碼(Policy Admin Hold)'
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), '0955223332')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), '0955223332')
 
 '搜尋Enrollee'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_EnrolleeSearch'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_ChooseEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
 '顯示搜尋結果-會員處於hold的狀態無法移線'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/div_OrgChangeResult0'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult0'))
 
-now_result = WebUI.getText(findTestObject('OB001/Page_- Melaleuca/div_OrgChangeResult0'))
+now_result = WebUI.getText(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult0'))
 
 now_result = now_result.trim()
 
@@ -76,31 +76,31 @@ WebUI.verifyEqual(now_result, '會員處於hold的狀態無法移線', FailureHa
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), now_enrollee)
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), now_enrollee)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_EnrolleeSearch'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_ChooseEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 
 '輸入Enroller手機號碼(Out of enroller\'s Org)'
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), '0966380400')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '0966380400')
 
 '搜尋Enroller'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_EnrollerSearch'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_EnrollerSearch'))
 
 '顯示搜尋結果-您組織內的夥伴所提供的電話號碼不存在'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/td_EnrollerSearchResult'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/td_EnrollerSearchResult'))
 
-now_result = WebUI.getText(findTestObject('Object Repository/OB001/Page_- Melaleuca/td_EnrollerSearchResult'))
+now_result = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/td_EnrollerSearchResult'))
 
 now_result = now_result.trim()
 
@@ -110,20 +110,20 @@ WebUI.verifyEqual(now_result, '您組織內的夥伴所提供的電話號碼不�
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 
 '輸入Enroller手機號碼(Policy Admin Hold)'
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_EnrollerPhone'), '0955223332')
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '0955223332')
 
 '搜尋Enroller'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_EnrollerSearch'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_EnrollerSearch'))
 
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/a_ChooseEnroller'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/a_ChooseEnroller'))
 
 '顯示搜尋結果-此顧客見識無法移動目標'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/div_OrgChangeResult3'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult3'))
 
-now_result = WebUI.getText(findTestObject('OB001/Page_- Melaleuca/div_OrgChangeResult3'))
+now_result = WebUI.getText(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult3'))
 
 now_result = now_result.trim()
 
@@ -132,32 +132,32 @@ println(now_result + ' 1st month enrollee (A->B)')
 WebUI.verifyEqual(now_result, '此顧客見識無法移動目標', FailureHandling.STOP_ON_FAILURE)
 
 '第1代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation1'))
 
 '第2代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation2'))
 
 '第3代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation3_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_3'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
 WebUI.waitForAlert(5)
 
 '查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
 
 '關閉查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/img'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/img'))
 
 '確認'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Confirm'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Confirm'))
 
 '顯示移線結果-您的移線成功'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
-now_result = WebUI.getText(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+now_result = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
 println(now_result + ' 1st month enrollee (A->B)')
 
@@ -165,80 +165,80 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
+WebUI.click(findTestObject('OB_Web/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login2'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login'))
 
 WebUI.waitForAlert(5)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
     3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 '組織轉換'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_OrgChange'))
 
 WebUI.waitForAlert(5)
 
 '繼續(B->A)\r\n'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), now_enrollee)
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), now_enrollee)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_EnrolleeSearch'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_ChooseEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
 WebUI.waitForAlert(5)
 
 '第1代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation1'))
 
 '第2代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation2'))
 
 '第3代'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_enroller_generation3_2'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation3_2'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_3'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
 WebUI.waitForAlert(5)
 
 '查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
 
 '關閉查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/img'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/img'))
 
 '確認'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Confirm'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Confirm'))
 
 '顯示移線結果-您的移線成功'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
-now_result = WebUI.getText(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+now_result = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
 println(now_result + ' 1st month enrollee (B->A)')
 
@@ -247,39 +247,39 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
+WebUI.click(findTestObject('OB_Web/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login2'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login'))
 
 WebUI.waitForAlert(5)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
     3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 'Start - 2nd month enrollee'
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 'FollowUpCenter'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_FollowUpCenter'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_FollowUpCenter'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_/td_ChgEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/td_ChgEnrollee'))
 
-now_get_phonenumber = WebUI.getText(findTestObject('Object Repository/OB001/Page_/td_ChgEnrollee'))
+now_get_phonenumber = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_/td_ChgEnrollee'))
 
 println(now_get_phonenumber)
 
@@ -289,36 +289,36 @@ println(now_enrollee)
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 '組織轉換'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_OrgChange'))
 
 WebUI.waitForAlert(5)
 
 '繼續(A->B)'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), now_enrollee)
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), now_enrollee)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_EnrolleeSearch'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_ChooseEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
 WebUI.waitForAlert(5)
 
 '第1代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation1'))
 
 '顯示搜尋結果-此移動不允許。第一代目標已額滿。'
-now_result = WebUI.getText(findTestObject('OB001/Page_- Melaleuca/div_OrgChangeResult2'))
+now_result = WebUI.getText(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult2'))
 
 now_result = now_result.trim()
 
@@ -327,29 +327,29 @@ println(now_result + ' 1st month enrollee (A->B)')
 WebUI.verifyEqual(now_result, '此移動不允許。第一代目標已額滿。', FailureHandling.STOP_ON_FAILURE)
 
 '第2代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation2'))
 
 '第3代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation3_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_3'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
 WebUI.waitForAlert(5)
 
 '查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
 
 '關閉查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/img'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/img'))
 
 '確認'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Confirm'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Confirm'))
 
 '顯示移線結果-您的移線成功'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
-now_result = WebUI.getText(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+now_result = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
 println(now_result + ' 2nd month enrollee (A->B)')
 
@@ -357,80 +357,80 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_Logout_tw_2'))
+WebUI.click(findTestObject('OB_Web/Page_/a_Logout_tw_2'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login2'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login2'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login'))
 
 WebUI.waitForAlert(5)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/div_stars'), 
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
     3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 '組織轉換'
-WebUI.click(findTestObject('Object Repository/OB001/Page_/a_OrgChange'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_OrgChange'))
 
 WebUI.waitForAlert(5)
 
 '繼續(B->A)\r\n'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'))
 
-WebUI.setText(findTestObject('Object Repository/OB001/Page_- Melaleuca/input_applicant'), now_enrollee)
+WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), now_enrollee)
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_EnrolleeSearch'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_ChooseEnrollee'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
 WebUI.waitForAlert(5)
 
 '第1代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation1'))
 
 '第2代'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_enroller_generation2'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation2'))
 
 '第3代'
-WebUI.click(findTestObject('OB001/Page_- Melaleuca/span_enroller_generation3_2'))
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation3_2'))
 
 '繼續'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Continue_3'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
 WebUI.waitForAlert(5)
 
 '查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_CloseSearchEnrollerDetail'))
 
 '關閉查看細節'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/img'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/img'))
 
 '確認'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/span_OrgChange_Confirm'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Confirm'))
 
 '顯示移線結果-您的移線成功'
-WebUI.click(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
-now_result = WebUI.getText(findTestObject('Object Repository/OB001/Page_- Melaleuca/div_OrgChangeResult1'))
+now_result = WebUI.getText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/div_OrgChangeResult1'))
 
 println(now_result + ' 2nd month enrollee (B->A)')
 

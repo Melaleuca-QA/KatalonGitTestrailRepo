@@ -35,30 +35,30 @@ println(b_day)
 println(BackDating_Date.format('dd/MM/yyyy'))
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_backdating_alert'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/button_backdating_alert'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_backdating_alert'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/button_backdating_alert'))
 
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_backdating_confirm'))
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_backdating_confirm'))
 
     WebUI.navigateToUrl('https://uatwweb.melaleuca.com/Home')
 
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_fa fa-shopping-cart'))
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_fa fa-shopping-cart'))
 
-    WebUI.setText(findTestObject('OB001/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
+    WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
 
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
-    WebUI.waitForAlert(5)
-
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
     WebUI.waitForAlert(5)
 
-    WebUI.click(findTestObject('OB001/Page_/button_TopProceedtoCheckout'))
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+
+    WebUI.waitForAlert(5)
+
+    WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
     WebUI.waitForAlert(5)
 
@@ -68,20 +68,20 @@ if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellnes
 
     'CheckoutPromo Page'
     if (now_url == GlobalVariable.url_CheckoutPromo) {
-        WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+        WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 
         WebUI.waitForAlert(5)
     }
     
-    WebUI.setText(findTestObject('OB001/Page_/input_paymethodCvv'), '123')
+    WebUI.setText(findTestObject('OB_Web/Page_/input_paymethodCvv'), '123')
 
     WebUI.waitForAlert(5)
 
-    WebUI.click(findTestObject('OB001/Page_/button_TopCheckout_PlaceOrder'))
+    WebUI.click(findTestObject('OB_Web/Page_/button_TopCheckout_PlaceOrder'))
 
-    WebUI.click(findTestObject('Object Repository/OB001/Page_Melaleuca The Wellness Company/td_OrderDate'))
+    WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/td_OrderDate'))
 
-    now_OrderDate = WebUI.getText(findTestObject('OB001/Page_Melaleuca The Wellness Company/td_OrderDate'))
+    now_OrderDate = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/td_OrderDate'))
 
     // 取Order Receipt 訂單日期
     println(now_OrderDate)

@@ -20,55 +20,55 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/span_MyAccount'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccount'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_MyAccountShowAll'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/span_Myaccount_ShowAll_SetupAddress'))
+WebUI.click(findTestObject('OB_Web/Page_/span_Myaccount_ShowAll_SetupAddress'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Myaccount_ShowAll_SetupAddress_add'))
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.ShipToName_hk'), 'hsipaddress')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.ShipToName_hk'), 'hsipaddress')
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Checkout_ChangeAddress_add_state_hk'), '852', true)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Checkout_ChangeAddress_add_city_hk'), '香港', true)
 
-WebUI.selectOptionByValue(findTestObject('OB001/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Checkout_ChangeAddress_add_suburb_hk'), '中環', true)
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress1')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress1')
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress2')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress2')
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.FormattedPhoneNumber'), '85251654321')
 
-WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
-WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_Edit'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Myaccount_ShowAll_SetupAddress_Edit'))
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress3')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine1'), 'hsipaddress3')
 
-WebUI.setText(findTestObject('OB001/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress4')
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine2'), 'hsipaddress4')
 
-WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Myaccount_ShowAll_SetupAddress_save'))
 
-WebUI.click(findTestObject('OB001/Page_/button_Myaccount_ShowAll_SetupAddress_Delete'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Myaccount_ShowAll_SetupAddress_Delete'))
 
-WebUI.click(findTestObject('OB001/Page_/a_ChangeShippingOptions'))
+WebUI.click(findTestObject('OB_Web/Page_/a_ChangeShippingOptions'))
 
 WebUI.waitForAlert(5)
 

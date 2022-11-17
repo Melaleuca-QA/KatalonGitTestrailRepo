@@ -25,13 +25,13 @@ WebUI.refresh()
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('OB001/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
+WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 
-WebUI.setEncryptedText(findTestObject('OB001/Page_/input_Password'), GlobalVariable.tw_input_password1)
+WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
 
 GlobalVariable.run_country = 'TW'
 
 println(GlobalVariable.run_country)
 
-WebUI.click(findTestObject('OB001/Page_/button_Login'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Login'))
 

@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://people.debian.org/~paulliu/ROCid.html')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OB001/Page_Taiwan ROC ID Generator/input'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Taiwan ROC ID Generator/input'))
 
-GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('Object Repository/OB001/Page_Taiwan ROC ID Generator/input_ID Num'), 
+GlobalVariable.tw_input_citizen = WebUI.getAttribute(findTestObject('Object Repository/OB_Web/Page_Taiwan ROC ID Generator/input_ID Num'), 
     'value')
 
 println(GlobalVariable.tw_input_citizen)

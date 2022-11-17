@@ -20,27 +20,27 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_enroll_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/a_BusinessCenter_OLE_tw'))
+WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/div_BusinessCenter_MelaleucaPresentation'))
+WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_Melaleuca The Wellness Company/img_image-placeholder'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
 
 WebUI.waitForAlert(5)
 
@@ -48,47 +48,47 @@ WebUI.switchToWindowTitle('TW_Overview_1022')
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
-WebUI.click(findTestObject('OB001/Page_/button_icon-book-next stripe-btn'))
+WebUI.click(findTestObject('OB_Web/Page_/button_icon-book-next stripe-btn'))
 
 WebUI.switchToWindowTitle('Melaleuca: The Wellness Company')
 

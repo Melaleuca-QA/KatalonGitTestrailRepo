@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://uatwdataentry/#/admin')
 
-WebUI.click(findTestObject('Object Repository/OB003/Page_Customer Document Management System/a_ (2)'))
+WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/a_ (2)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_zh-TWzh-HK'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_zh-TWzh-HK'), 
     'zh-HK', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB003/Page_Customer Document Management System/select_zh-TWzh-HK'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_zh-TWzh-HK'), 
     'zh-TW', true)
 
-WebUI.click(findTestObject('Object Repository/OB002/Page_Customer Document Management System/input__chk_TestCustomer'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__chk_TestCustomer'))
 

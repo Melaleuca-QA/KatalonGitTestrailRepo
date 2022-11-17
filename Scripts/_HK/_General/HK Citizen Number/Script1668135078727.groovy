@@ -28,9 +28,9 @@ WebUI.maximizeWindow()
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB001/Page_ID/input'))
+WebUI.click(findTestObject('OB_Web/Page_ID/input'))
 
-GlobalVariable.hk_input_citizen = WebUI.getAttribute(findTestObject('OB001/Page_ID/input_HongKongID'), 'value')
+GlobalVariable.hk_input_citizen = WebUI.getAttribute(findTestObject('OB_Web/Page_ID/input_HongKongID'), 'value')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
