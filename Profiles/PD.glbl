@@ -366,6 +366,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://hk.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_hk_CheckoutPromo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://hk.melaleuca.com/search-results?q=117'</initValue>
       <name>url_hk_sku117</name>
    </GlobalVariableEntity>
