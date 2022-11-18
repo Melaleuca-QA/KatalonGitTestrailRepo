@@ -26,17 +26,17 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -54,7 +54,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link followUpLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -72,7 +72,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link enrollmentFormsLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -90,7 +90,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link whichProductsLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
