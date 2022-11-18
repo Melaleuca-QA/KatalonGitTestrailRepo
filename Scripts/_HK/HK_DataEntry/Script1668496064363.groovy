@@ -60,7 +60,8 @@ WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document
 WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_govermentId'), 
     GlobalVariable.hk_input_citizen)
 
-WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_birthday'), '1972/06/02')
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_birthday'), 
+    '1972/06/02')
 
 WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_mobileNumber'), 
     GlobalVariable.hk_input_mphone)
@@ -73,8 +74,8 @@ WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Docume
 WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Shipping_AddressLine2'), 
     '12F')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_'), 'string:香港', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_'), 
+    'string:香港', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select__1'), 
     'string:香港', true)
@@ -103,7 +104,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Cus
 
 WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Enroller'))
 
-WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.hk_DataEntry_Enroller)
+WebUI.setText(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/input__txt_Enroller'), 
+    GlobalVariable.hk_DataEntry_Enroller)
 
 WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/span__fa fa-search'))
 
@@ -115,3 +117,6 @@ WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document
 
 WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/button_'))
 
+WebUI.waitForAlert(10)
+
+WebUI.closeBrowser()
