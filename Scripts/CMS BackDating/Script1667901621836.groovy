@@ -18,40 +18,51 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // 取上月月底日: BackDating Order Date
-Calendar calendar = new GregorianCalendar()
+if (GlobalVariable.run_env == 'UA') {
+    Calendar calendar = new GregorianCalendar()
 
-Date b_date = calendar.getTime()
+    Date b_date = calendar.getTime()
 
-int b_day = calendar.get(Calendar.DAY_OF_MONTH)
+    int b_day = calendar.get(Calendar.DAY_OF_MONTH)
 
-BackDating_Date = (b_date - b_day)
+    BackDating_Date = (b_date - b_day)
 
-StartTime = (BackDating_Date + 1)
+    StartTime = b_date
 
-EndTime = (b_date + 1)
+    StartTime = StartTime.format('yyyy/MM/dd')
 
-BackDateTo = BackDating_Date
+    EndTime = (b_date + 1)
 
-println(b_date)
+    EndTime = EndTime.format('yyyy/MM/dd')
 
-println(b_day)
+    BackDateTo = BackDating_Date
 
-println(BackDating_Date.format('yyyy/MM/dd'))
+    BackDateTo = BackDateTo.format('yyyy/MM/dd')
 
-WebUI.openBrowser('')
+    println(StartTime)
 
-WebUI.navigateToUrl('http://uatwapincde/CMS/BackdatingAdmin.aspx')
+    println(EndTime)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_/select_ProductionDevelopment'), 'Development', true)
+    println(BackDateTo)
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_StartTime'), '11/01/2022 01:00 AM')
+    WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_EndTime'), '11/17/2022 17:00 PM')
+    WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_BackDateTo'), '10/31/2022')
+    WebUI.navigateToUrl('http://uatwapincde/CMS/BackdatingAdmin.aspx')
 
-//WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_/td_Format example 01302050 500 pm'))
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_/Click_Save'))
+    WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_/select_ProductionDevelopment'), 'Development', 
+        true)
 
-WebUI.closeBrowser()
+    WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_StartTime'), StartTime)
+
+    WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_EndTime'), EndTime)
+
+    WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_/input_BackDateTo'), BackDateTo)
+
+    //WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_/td_Format example 01302050 500 pm'))
+    WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_/Click_Save'))
+
+    WebUI.closeBrowser()
+}
 
