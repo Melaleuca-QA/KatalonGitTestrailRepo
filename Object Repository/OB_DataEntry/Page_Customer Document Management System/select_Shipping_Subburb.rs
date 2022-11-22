@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select__Shipping_Subburb</name>
+   <name>select_Shipping_Subburb</name>
    <tag></tag>
    <elementGuidId>ff2851ff-2d20-491b-bf37-0624e1e8e534</elementGuidId>
    <selectorCollection>

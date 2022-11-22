@@ -45,7 +45,11 @@ WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
 
 WebUI.maximizeWindow()
 
+<<<<<<< HEAD
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i__left fa fa-bars'))
+=======
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i_left fa fa-bars'))
+>>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 

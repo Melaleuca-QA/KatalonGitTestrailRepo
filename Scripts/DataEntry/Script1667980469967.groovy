@@ -41,34 +41,42 @@ if (false) {
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
-
 WebUI.maximizeWindow()
 
+<<<<<<< HEAD
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i__left fa fa-bars'))
+=======
+WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
+
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i_left fa fa-bars'))
+>>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_CustomerName'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_CustomerName'), 
     GlobalVariable.tw_input_newname)
 
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_govermentId'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_govermentId'))
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_govermentId'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_govermentId'), 
     GlobalVariable.tw_input_citizen)
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_birthday'), 
+=======
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_birthday'), 
+>>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
     '1972/02/01')
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_mobileNumber'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_mobileNumber'), 
     GlobalVariable.tw_input_mphone)
 
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__chk_TestCustomer'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_chk_TestCustomer'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_shipping_City'), 
     'string:台北市', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select__Shipping_Subburb'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_Shipping_Subburb'), 
     'string:松山區', true)
 
 WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_Shipping_Address'), 'test address ')
@@ -79,9 +87,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Cu
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_VISAMasterJCB'), 
     '2', true)
 
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button__PaymethodOprionList'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_PaymethodOprionList'))
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Inbound_Account'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_Inbound_Account'), 
     GlobalVariable.tw_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_Exp_Month'), 
@@ -90,9 +98,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Cu
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_Exp_Year'), 
     'string:2030', true)
 
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_Enroller'))
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'), 
+=======
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_Enroller'), 
+>>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
     GlobalVariable.tw_DataEntry_Enroller)
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/search_Enroller_tw'))

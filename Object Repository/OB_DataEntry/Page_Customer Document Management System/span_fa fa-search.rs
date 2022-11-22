@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__PaymethodOprionList</name>
+   <name>span_fa fa-search</name>
    <tag></tag>
-   <elementGuidId>c1d6332e-b7a3-4bf8-8f96-a47c3642b98b</elementGuidId>
+   <elementGuidId>6c0e1a8a-071d-47ff-93cb-1f82343fc4ac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.fa.fa-plus-square</value>
+         <value>span.fa.fa-search</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='paymethodOptionList']/div[2]/button</value>
+         <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div/div[2]/span[2]/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,16 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>356f8cf1-ec47-447c-8853-5290e0a4baf9</webElementGuid>
+      <value>span</value>
+      <webElementGuid>9d475584-9d0c-4dbc-8ef6-3400dca6d928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-plus-square</value>
-      <webElementGuid>4a59428b-e0dc-4b9e-9aa4-6bae1673969d</webElementGuid>
+      <value>fa fa-search</value>
+      <webElementGuid>e46e5a9c-7f31-4d5e-9d5c-944592170262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,38 +38,30 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9118ba8c-45e9-4cf9-a554-3bc9f7143938</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>addNewPaymethod()</value>
-      <webElementGuid>51f66c3e-de41-4696-9a47-086a5ff7ee49</webElementGuid>
+      <webElementGuid>b85bc9e8-f8b9-499b-905c-fe174ed124b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;paymethodOptionList&quot;)/div[2]/button[@class=&quot;fa fa-plus-square&quot;]</value>
-      <webElementGuid>8937c615-ecc1-4c53-b548-00b809f6f1c6</webElementGuid>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/taiwan-organization[@class=&quot;ng-isolate-scope&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[@class=&quot;group ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;form-group col-md-6 clearBoth ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-btn&quot;]/button[@class=&quot;btn btn-default&quot;]/span[@class=&quot;fa fa-search&quot;]</value>
+      <webElementGuid>edc558ed-c8ad-424f-a9bd-d885d0ac2543</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='paymethodOptionList']/div[2]/button</value>
-      <webElementGuid>b4247d38-09a7-4d69-b2b8-ed6bf3528ee5</webElementGuid>
+      <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div/div[2]/span[2]/button/span</value>
+      <webElementGuid>e23dfb7b-9f65-4fa1-aa37-d5b1d26b4bd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/div/div/div[2]/button</value>
-      <webElementGuid>bf0cd8bf-db3f-4098-bd2a-eab643af2921</webElementGuid>
+      <value>//span[2]/button/span</value>
+      <webElementGuid>8cd4f423-2421-44b3-98f2-f9bdabc48eaf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

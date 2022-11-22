@@ -30,15 +30,15 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link presentationLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -52,7 +52,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link followUpLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -66,7 +66,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link enrollmentFormsLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -80,7 +80,7 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link whichProductsLink'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 

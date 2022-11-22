@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__chk_TestCustomer</name>
+   <name>input_chk_TestCustomer</name>
    <tag></tag>
    <elementGuidId>565a05f5-8f06-4055-a50b-30a4f2921bb1</elementGuidId>
    <selectorCollection>
