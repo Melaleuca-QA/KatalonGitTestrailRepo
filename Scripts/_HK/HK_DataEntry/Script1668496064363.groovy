@@ -45,7 +45,7 @@ WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/i__left fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i_left fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__left fa fa-bars</name>
+   <name>i_left fa fa-bars</name>
    <tag></tag>
    <elementGuidId>f2cceea4-96e3-44c8-9527-d212d4148441</elementGuidId>
    <selectorCollection>

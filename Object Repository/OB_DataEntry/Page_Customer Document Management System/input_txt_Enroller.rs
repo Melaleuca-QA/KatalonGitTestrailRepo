@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txt_CustomerName</name>
+   <name>input_txt_Enroller</name>
    <tag></tag>
-   <elementGuidId>081c3cc2-4352-4b87-8d9e-d8af3be09a5d</elementGuidId>
+   <elementGuidId>82d6748e-2760-4361-9ea1-3aff15764282</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;txt_CustomerName&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='txt_CustomerName']</value>
+         <value>(//input[@name='txt_Enroller'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3e37f9c8-6dbc-4ab8-8faa-9f93751ec301</webElementGuid>
+      <webElementGuid>0ccb7c37-3867-4b72-b734-d9d8490555f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +29,86 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
-      <webElementGuid>62acb4ae-c697-468a-a928-74c306ca03a1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>txt_CustomerName</value>
-      <webElementGuid>d5ce61ef-0caf-4119-abcc-62d0c9a6c30d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>name.Name</value>
-      <webElementGuid>e8f143b8-aacd-472f-be01-07e8d1ad1e7d</webElementGuid>
+      <webElementGuid>3370780c-7563-4e49-88f5-eeb1c0fb3d50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>全名</value>
-      <webElementGuid>e4aa944e-e41f-413b-837a-3b5ae6c3fcb2</webElementGuid>
+      <value>搜尋</value>
+      <webElementGuid>1a6ef9b4-a40d-4a0d-ae72-9dcd191665b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>txt_Enroller</value>
+      <webElementGuid>822059e7-3719-48dd-8a8a-b295b8a28e81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-change</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>ChangeApplicationName();copyToTheOtherName(name.Name);</value>
-      <webElementGuid>87086653-d622-4a2f-b526-4a574f39c346</webElementGuid>
+      <value>enrollerMelaId</value>
+      <webElementGuid>9f61b3f0-7010-4f79-bb72-52718cd78d51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>canInputEnroller</value>
+      <webElementGuid>af1ae993-3dd4-49b6-bb3a-ee9850739154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-keypress</name>
+      <type>Main</type>
+      <value>$event.keyCode == 13 &amp;&amp; SearchEnroller()</value>
+      <webElementGuid>e78d86d7-498c-43fa-afb2-f4be9fc28d63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/fieldset[@class=&quot;group&quot;]/taiwan-customer-basic-info[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;col-md-12 clearBoth ng-pristine ng-invalid ng-invalid-required ng-valid-invalid-date-format ng-valid-email&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group col-md-2 clearBoth ng-pristine ng-scope ng-invalid ng-invalid-required&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
-      <webElementGuid>27551dfc-2ee1-4ccc-a2da-4ebb961c5662</webElementGuid>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/taiwan-organization[@class=&quot;ng-isolate-scope&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[@class=&quot;group ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;form-group col-md-6 clearBoth ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>26869c7a-58ba-4252-9cb1-4e97660d74a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='txt_CustomerName']</value>
-      <webElementGuid>cf0693e8-4f80-4619-9aee-1a1acaa241fe</webElementGuid>
+      <value>(//input[@name='txt_Enroller'])[2]</value>
+      <webElementGuid>5fbb5689-3151-45c0-b96f-0eb9aff3c4a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='CMA']/div/div/fieldset/taiwan-customer-basic-info/div/div/div[3]/div/input</value>
-      <webElementGuid>43bce68f-64c0-407a-929d-54decc201d02</webElementGuid>
+      <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div/div[2]/input</value>
+      <webElementGuid>9a75855b-af61-407d-a7a0-9e4d0e2bda89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>82626fb6-34a1-4d69-90cb-a4b9b122bafe</webElementGuid>
+      <value>//fieldset/div/div/div[2]/input</value>
+      <webElementGuid>df23667a-5e99-408d-905c-62b119d16718</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'txt_CustomerName' and @placeholder = '全名']</value>
-      <webElementGuid>c31ab2be-f808-47e6-aca1-b4864bbd7e3a</webElementGuid>
+      <value>//input[@placeholder = '搜尋' and @name = 'txt_Enroller']</value>
+      <webElementGuid>34461119-3583-4b3b-a2b2-59a298d09334</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

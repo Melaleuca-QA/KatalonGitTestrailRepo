@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txt_mobileNumber</name>
+   <name>input_txt_mobileNumber</name>
    <tag></tag>
    <elementGuidId>e891fb4e-ab31-43b6-afe7-8c5b38412c32</elementGuidId>
    <selectorCollection>

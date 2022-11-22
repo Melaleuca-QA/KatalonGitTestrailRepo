@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txt_Inbound_Account</name>
+   <name>input_txt_birthday</name>
    <tag></tag>
-   <elementGuidId>05c37811-cc3b-46cd-ae34-de6c8db9c19b</elementGuidId>
+   <elementGuidId>e018f33b-4eed-4d16-a47e-2ab536a8f1e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;txt_Inbound_Account&quot;]</value>
+         <value>#txt_birthday</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='txt_Inbound_Account']</value>
+         <value>//input[@id='txt_birthday']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ad582a58-defe-4c8e-b4c9-87c29bd882d4</webElementGuid>
+      <webElementGuid>757af743-5524-4672-a556-7689d9d1bcab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-pattern</value>
-      <webElementGuid>634a8ae0-5965-4452-a9ba-c03431fced7b</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-valid-invalid-date-format ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>1706175d-370e-4e99-a413-a13d1dce9a4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>txt_Inbound_Account</value>
-      <webElementGuid>a57dccfc-b8d9-44b5-892c-67450fee234c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>paymethod.AccountNumber</value>
-      <webElementGuid>9ffb5e2c-af53-4de5-ae27-dc68063049c4</webElementGuid>
+      <value>txt_birthday</value>
+      <webElementGuid>ef0acc1d-421e-4157-89b5-27db79aefed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>帳號</value>
-      <webElementGuid>a351be70-0ac2-454a-9d53-623f8e0b1a5b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-pattern</name>
-      <type>Main</type>
-      <value>[object Object]</value>
-      <webElementGuid>e816a7fb-8a61-46ee-ba4b-350b6982aaa1</webElementGuid>
+      <value>txt_birthday</value>
+      <webElementGuid>09a727c5-9212-47e6-8a72-f8f291a7026f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
-      <value>ValidateAccountNumberAndCardIssuer()</value>
-      <webElementGuid>b89fdb9b-4006-4707-ba7f-1970b3702b72</webElementGuid>
+      <value>setupAge();validateAge();</value>
+      <webElementGuid>cdb39151-67e5-4bdc-a117-2efa625cfd48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-disabled</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>isDisablePaymethodInformation()</value>
-      <webElementGuid>1a098cbe-5c64-444e-92f0-4aaee6dfce2a</webElementGuid>
+      <value>enrollment.CustomerData.Birthdate</value>
+      <webElementGuid>24ceec3b-c7c0-432e-9adb-abaf7abafb1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>YYYY/MM/DD</value>
+      <webElementGuid>c856e472-56e4-4800-bb0a-d90cbdc61e80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mask</name>
+      <type>Main</type>
+      <value>9999/19/3?9</value>
+      <webElementGuid>f2811154-f79e-4dc2-939c-5863b5d1bccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dateformat-culture</name>
+      <type>Main</type>
+      <value>zh-TW</value>
+      <webElementGuid>d5d16cc3-b978-43d2-859a-5be89f42d45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;collapseVisa&quot;)/div[@class=&quot;paymethodGroup ng-pristine ng-valid ng-valid-pattern ng-valid-required&quot;]/div[@class=&quot;form-group col-md-4 ng-pristine ng-valid ng-valid-pattern&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-pattern&quot;]</value>
-      <webElementGuid>f79592fd-488e-491f-9361-6cd0cd6a83eb</webElementGuid>
+      <value>id(&quot;txt_birthday&quot;)</value>
+      <webElementGuid>b4a43418-a55e-4ef9-92df-e2ee697f69b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='txt_Inbound_Account']</value>
-      <webElementGuid>c15b7b52-b498-4af1-a75c-83e27bff7367</webElementGuid>
+      <value>//input[@id='txt_birthday']</value>
+      <webElementGuid>e92d9421-cc54-4467-a791-6c7708d05bd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='collapseVisa']/div/div/input</value>
-      <webElementGuid>b7af126f-2ed1-4d75-a31b-b5a0b12426c5</webElementGuid>
+      <value>//div[@id='CMA']/div/div/fieldset/taiwan-customer-basic-info/div/div/div[16]/input</value>
+      <webElementGuid>09eee253-b1aa-4331-8918-b9814871da53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//taiwan-visa/div/div/div[2]/div/div/input</value>
-      <webElementGuid>d82f95d8-4012-4352-8872-5d0e2d95a957</webElementGuid>
+      <value>//div[16]/input</value>
+      <webElementGuid>427a06b6-033d-497d-9912-f3a7cd163735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'txt_Inbound_Account' and @placeholder = '帳號']</value>
-      <webElementGuid>9cb9bb01-1918-4173-afbd-5a588e65d26a</webElementGuid>
+      <value>//input[@name = 'txt_birthday' and @id = 'txt_birthday' and @placeholder = 'YYYY/MM/DD']</value>
+      <webElementGuid>fb4e28a9-83e1-458b-beac-f2ff6e2d5d07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

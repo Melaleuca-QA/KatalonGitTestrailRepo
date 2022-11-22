@@ -186,6 +186,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
+      <name>url_ChangeAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
+      <name>url_ChangeAddress2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangePaymethods'</initValue>
       <name>url_ChangePaymethods</name>
    </GlobalVariableEntity>
@@ -321,16 +331,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/ProductStore/Checkout/ChangeAddress'</initValue>
-      <name>url_ChangeAddress</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/MyAccount/ChangeAddresses'</initValue>
-      <name>url_ChangeAddress2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'ST'</initValue>
       <name>run_env</name>
    </GlobalVariableEntity>
@@ -363,5 +363,20 @@
       <description></description>
       <initValue>'q/Q6cuJARfIhaqOOaHyw-9BzwhuX1fkxhPp4fF9gj'</initValue>
       <name>testrail_Api</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12100712190'</initValue>
+      <name>tw_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://sttwdataentry/#/admin'</initValue>
+      <name>url_DataEntry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13100010041'</initValue>
+      <name>hk_DataEntry_Enroller</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
