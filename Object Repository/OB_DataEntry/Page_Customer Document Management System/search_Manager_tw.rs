@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>search_Manager</name>
+   <name>search_Manager_tw</name>
    <tag></tag>
    <elementGuidId>4ea5f020-1995-4edc-9bd9-55f53abd9eaf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.fa.fa-user</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='CMA']/div/div/taiwan-organization/fieldset/div/div[5]/div[2]/span[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-user</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_Enroller_hk</name>
+   <tag></tag>
+   <elementGuidId>069dfd18-6e55-4590-8269-bb6aed426c60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CMA']/div/div/fieldset[2]/div/hongkong-organization/div/div/div[2]/span[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>117ead6d-7d7b-4406-a88d-0cd87e9d2276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search</value>
+      <webElementGuid>7770fa9f-1ace-4bb4-8fe0-56912acff791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1e549b91-7710-45a0-98d8-81f6a1168379</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA ng-scope&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[@class=&quot;group&quot;]/hongkong-organization[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;form-group col-md-6 clearBoth ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-btn&quot;]/button[@class=&quot;btn btn-default&quot;]/span[@class=&quot;fa fa-search&quot;]</value>
+      <webElementGuid>b0f9e3b9-0568-4597-aa08-e67e4a405f31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CMA']/div/div/fieldset[2]/div/hongkong-organization/div/div/div[2]/span[2]/button/span</value>
+      <webElementGuid>2100ab92-3c59-4efa-89df-3da827aaeda8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button/span</value>
+      <webElementGuid>2a8eddb8-3b6a-41f7-8e11-dd1b044ad6d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

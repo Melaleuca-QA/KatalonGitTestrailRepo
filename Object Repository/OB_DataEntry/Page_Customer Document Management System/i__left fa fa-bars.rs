@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__left fa fa-bars (1)</name>
+   <name>i__left fa fa-bars</name>
    <tag></tag>
-   <elementGuidId>9adf4c13-d08d-4ad8-8d76-fcdbecdc8aa7</elementGuidId>
+   <elementGuidId>f2cceea4-96e3-44c8-9527-d212d4148441</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>i.left.fa.fa-bars</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.left.fa.fa-bars</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>1d4cd109-9bdd-497b-a44e-47007bd3b434</webElementGuid>
+      <webElementGuid>d967202d-7252-4248-9bb4-af4755376014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>left fa fa-bars</value>
-      <webElementGuid>5f526181-5992-4592-9062-df97798074a6</webElementGuid>
+      <webElementGuid>899f0f70-9756-4235-acf4-146a0a9b629f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ng-scope&quot;]/header[1]/div[@class=&quot;menu-container pure-menu pure-menu-horizontal&quot;]/ul[@class=&quot;pure-menu-list&quot;]/li[@class=&quot;pure-menu-item pure-menu-has-children pure-menu-allow-hover&quot;]/a[@class=&quot;pure-menu-link noHoverBackground&quot;]/i[@class=&quot;left fa fa-bars&quot;]</value>
-      <webElementGuid>c0b16227-bea9-4b9b-ae83-87cf6a0639bf</webElementGuid>
+      <webElementGuid>b5459861-fbed-4346-9120-9f83703bb861</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>1aa020c6-430c-4b36-a3ab-c41b9395aa48</webElementGuid>
+      <webElementGuid>b79236e5-cae0-4ced-a574-c968f6cb6569</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

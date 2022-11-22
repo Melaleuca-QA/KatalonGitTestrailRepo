@@ -3,15 +3,15 @@
    <description></description>
    <name>i__left fa fa-bars</name>
    <tag></tag>
-   <elementGuidId>f2cceea4-96e3-44c8-9527-d212d4148441</elementGuidId>
+   <elementGuidId>1d80c028-a445-4841-b6c4-ab566c81bd77</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>i.left.fa.fa-bars</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.left.fa.fa-bars</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>d967202d-7252-4248-9bb4-af4755376014</webElementGuid>
+      <webElementGuid>2ba26f57-cb0f-4cba-a6cf-84f8bb01a3a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>left fa fa-bars</value>
-      <webElementGuid>899f0f70-9756-4235-acf4-146a0a9b629f</webElementGuid>
+      <webElementGuid>5d528efc-a55b-494f-90dc-3fb05b813319</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ng-scope&quot;]/header[1]/div[@class=&quot;menu-container pure-menu pure-menu-horizontal&quot;]/ul[@class=&quot;pure-menu-list&quot;]/li[@class=&quot;pure-menu-item pure-menu-has-children pure-menu-allow-hover&quot;]/a[@class=&quot;pure-menu-link noHoverBackground&quot;]/i[@class=&quot;left fa fa-bars&quot;]</value>
-      <webElementGuid>b5459861-fbed-4346-9120-9f83703bb861</webElementGuid>
+      <webElementGuid>d48d14a1-1465-4764-9f23-5b39e292d500</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>b79236e5-cae0-4ced-a574-c968f6cb6569</webElementGuid>
+      <webElementGuid>2b3f1ce2-7142-4377-a7b7-bc9e76d31f1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

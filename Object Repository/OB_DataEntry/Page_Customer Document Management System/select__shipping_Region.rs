@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select__1</name>
+   <name>select__shipping_Region</name>
    <tag></tag>
    <elementGuidId>dde08818-0ff2-4617-a079-9f53f9e111c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#shipping_Region</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='shipping_Region']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#shipping_Region</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

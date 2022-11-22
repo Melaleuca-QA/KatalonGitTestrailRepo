@@ -6,12 +6,12 @@
    <elementGuidId>55ef86a8-cd7b-4c3b-a131-a6afc721f86e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txt_Shipping_Address</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='txt_Shipping_Address']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txt_Shipping_Address</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

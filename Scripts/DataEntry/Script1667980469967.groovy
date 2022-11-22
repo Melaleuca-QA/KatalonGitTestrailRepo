@@ -45,7 +45,7 @@ WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/i__left fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i__left fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 
@@ -57,7 +57,8 @@ WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Documen
 WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_govermentId'), 
     GlobalVariable.tw_input_citizen)
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_birthday'), '1972/02/01')
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_birthday'), 
+    '1972/02/01')
 
 WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_mobileNumber'), 
     GlobalVariable.tw_input_mphone)
@@ -70,8 +71,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Cu
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select__Shipping_Subburb'), 
     'string:松山區', true)
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_1_txt_Shipping_Address'), 
-    'test address ')
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_Shipping_Address'), 'test address ')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_CommitmentLevel'), 
     'number:7', true)
@@ -92,11 +92,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Cu
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'))
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.tw_DataEntry_Enroller)
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'), 
+    GlobalVariable.tw_DataEntry_Enroller)
 
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/search_Enroller'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/search_Enroller_tw'))
 
-WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/search_Manager'))
+WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/search_Manager_tw'))
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_Save'))
 
