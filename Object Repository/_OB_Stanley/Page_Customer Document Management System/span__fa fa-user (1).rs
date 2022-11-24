@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__fa fa-user (1)</name>
+   <tag></tag>
+   <elementGuidId>50777dc9-18a6-4aff-804d-97e95f27f8cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CMA']/div/div/fieldset[2]/div/hongkong-organization/div/div[4]/div/div[2]/span[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e433981e-1bd6-4d6b-9961-1d97423f9777</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-user</value>
+      <webElementGuid>53e1aaca-13f6-4728-a3e4-76c96b02b733</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA ng-scope&quot;]/fieldset[@class=&quot;col-md-12 clearBoth&quot;]/div[@class=&quot;group&quot;]/hongkong-organization[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;ng-pristine ng-invalid ng-invalid-required&quot;]/div[4]/div[@class=&quot;form-group col-md-6 clearBoth ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-btn&quot;]/button[@class=&quot;btn btn-default&quot;]/span[@class=&quot;fa fa-user&quot;]</value>
+      <webElementGuid>f3097faf-456f-495c-a82c-851ede97375c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CMA']/div/div/fieldset[2]/div/hongkong-organization/div/div[4]/div/div[2]/span[2]/button/span</value>
+      <webElementGuid>6dc0f7f7-d1fa-4b7b-8de4-c02b1e8239ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/span[2]/button/span</value>
+      <webElementGuid>b04d0d50-6151-47a8-ac60-a39d19c04610</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

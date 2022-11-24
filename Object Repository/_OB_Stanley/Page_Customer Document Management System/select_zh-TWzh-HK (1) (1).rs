@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_zh-TWzh-HK (1) (1)</name>
+   <tag></tag>
+   <elementGuidId>c940c86b-3256-4cad-a27d-4ff9f49caf04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CMA']/div/div/culture-select/fieldset/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.ng-pristine.ng-untouched.ng-valid.ng-not-empty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>613ba67c-1a63-4fdb-aebc-d8f8d3da6081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
+      <webElementGuid>1e183559-fe66-4d09-acb0-ec7b9b73dd64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>selectedCulture</value>
+      <webElementGuid>b94e7514-5530-4f7d-8137-997b8e2cacd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>ChangeCulture()</value>
+      <webElementGuid>efc09474-8396-4a7b-bd02-9461c8ec2fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                zh-TWzh-HK
+            </value>
+      <webElementGuid>f70e634e-aaf8-4b83-8e06-8ecd75b51ca6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CMA&quot;)/div[1]/div[@class=&quot;CMA zh-TW ng-scope&quot;]/culture-select[@class=&quot;ng-isolate-scope&quot;]/fieldset[@class=&quot;col-md-12 group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;form-group col-md-2 clearBoth&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
+      <webElementGuid>a8657682-7083-4992-b6fd-8394de042049</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CMA']/div/div/culture-select/fieldset/div/div/select</value>
+      <webElementGuid>5537d999-5944-4c5f-ae98-8afeeb4d295d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇文化'])[1]/following::select[1]</value>
+      <webElementGuid>9a3b2ccc-f464-42e6-85fd-fdcb74b0f840</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='入會日期'])[1]/preceding::select[1]</value>
+      <webElementGuid>75eea5c2-ac86-4c18-8611-b1653b376a95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='測試顧客'])[1]/preceding::select[1]</value>
+      <webElementGuid>1d54ae45-0274-4301-8b4a-6380a5530d22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>1046ace0-33e9-486d-b4d7-f6351e90117c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '
+                zh-TWzh-HK
+            ' or . = '
+                zh-TWzh-HK
+            ')]</value>
+      <webElementGuid>b0bb0875-27e8-439d-be7c-775307250a6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
