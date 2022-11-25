@@ -71,13 +71,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Cu
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_Shipping_Subburb'), 
     'string:松山區', true)
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_1_txt_Shipping_Address'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_Shipping_Address'), 
     'test address ')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_CommitmentLevel'), 
     'number:7', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_VISAMasterJCB'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_paymethodList'), 
     '2', true)
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_PaymethodOprionList'))

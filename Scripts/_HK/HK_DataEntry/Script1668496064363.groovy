@@ -45,52 +45,47 @@ WebUI.navigateToUrl(GlobalVariable.url_DataEntry)
 
 WebUI.maximizeWindow()
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i__left fa fa-bars'))
-=======
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/i_left fa fa-bars'))
->>>>>>> branch 'master' of git@github.com:Melaleuca-QA/KatalonGitTestrailRepo.git
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/ExpressFormFeature'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_zh-TWzh-HK (1)'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_zh-TWzh-HK'), 
     'zh-HK', true)
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_CustomerName'), GlobalVariable.hk_input_newname)
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_CustomerName'), GlobalVariable.hk_input_newname)
 
-WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_govermentId'))
+WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_govermentId'))
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_govermentId'), GlobalVariable.hk_input_citizen)
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_govermentId'), GlobalVariable.hk_input_citizen)
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_birthday'), '1972/06/02')
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_birthday'), '1972/06/02')
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_mobileNumber'), GlobalVariable.hk_input_mphone)
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_mobileNumber'), GlobalVariable.hk_input_mphone)
 
-WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__chk_TestCustomer'))
+WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_chk_TestCustomer'))
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Shipping_Address'), 
-    'testaddress')
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_Shipping_Address'), 'testaddress')
 
-WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input__txt_Shipping_AddressLine2'), 
+WebUI.setText(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/input_txt_Shipping_AddressLine2'), 
     '12F')
 
 WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_shipping_City'), 
     'string:香港', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select__shipping_Region'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/select_shipping_Region'), 
     'string:香港', true)
 
-WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select__Shipping_Subburb'), 
+WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_Shipping_Subburb'), 
     'string:半山', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_VISAMaster'), 
+WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_paymethodList'), 
     '2', true)
 
-WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/button__PaymethodOprionList'))
+WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/button_PaymethodOprionList'))
 
-WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_Inbound_Account'))
+WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_Inbound_Account'))
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_Inbound_Account'), GlobalVariable.hk_input_creditcard)
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_Inbound_Account'), GlobalVariable.hk_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_Exp_Month'), 'string:7', 
     true)
@@ -98,16 +93,16 @@ WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Ma
 WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_Exp_Year'), 'string:2030', 
     true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/select_Select PAK35 BP  135 PP Convenience _dd13f3'), 
+WebUI.selectOptionByValue(findTestObject('OB_DataEntry/Page_Customer Document Management System/select_CommitmentLevel'), 
     'number:77', true)
 
-WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input__txt_Enroller'), GlobalVariable.hk_DataEntry_Enroller)
+WebUI.setText(findTestObject('OB_DataEntry/Page_Customer Document Management System/input_txt_Enroller'), GlobalVariable.hk_DataEntry_Enroller)
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/search_Enroller_hk'))
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/search_Manager_hk'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Stanley/Page_Customer Document Management System/button_ (3)'))
+WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_Save_HK'))
 
 WebUI.waitForAlert(20)
 
