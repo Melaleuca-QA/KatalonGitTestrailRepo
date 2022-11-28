@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_010203040506070809101112</name>
+   <name>select_paymethodList</name>
    <tag></tag>
-   <elementGuidId>da9ae3fc-ac31-4087-8c86-7a6b9ded069f</elementGuidId>
+   <elementGuidId>8ee2ebce-d7d2-438a-a954-1207352dbb74</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;txt_Inbound_Exp_Month&quot;]</value>
+         <key>XPATH</key>
+         <value>//select[@id='paymethodList']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@name='txt_Inbound_Exp_Month']</value>
+         <key>CSS</key>
+         <value>#paymethodList</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,126 +22,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>c7b974da-1169-49f6-b958-ab9f9bd0861c</webElementGuid>
+      <webElementGuid>ac0a55b6-2193-4800-af03-f9ad24a4db32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required</value>
-      <webElementGuid>28b002bc-01b0-4daa-aa5a-83cacead4b00</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
+      <webElementGuid>64632a0f-74e4-4831-91e8-b035e3b184d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>txt_Inbound_Exp_Month</value>
-      <webElementGuid>fa1ca111-52d6-4e8c-9432-9a9ac5b889da</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>txt_Inbound_Exp_Month</value>
-      <webElementGuid>52fba6c8-70f5-4963-b0a9-78f8693daa0e</webElementGuid>
+      <value>paymethodList</value>
+      <webElementGuid>c15d2268-12f3-4bff-b647-3abda5761be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
-      <value>changeMonth()</value>
-      <webElementGuid>9a5a9f97-6f5a-41be-831f-3cd1d678bece</webElementGuid>
+      <value>changePaymethod(true)</value>
+      <webElementGuid>962fc168-26b1-4d94-8b56-495f8b7fc3dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-options</name>
       <type>Main</type>
-      <value>option.value as option.text for option in monthList</value>
-      <webElementGuid>87ad5c9d-0b3a-4358-af11-ae7e689cbe9c</webElementGuid>
+      <value>option.Description for option in paymethodList.filteredAvailablePaymethods track by option.PaymethodTypeID</value>
+      <webElementGuid>ad90b4da-f5c3-42aa-b0ab-b5841c8760a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>sel_paymethodType</value>
+      <webElementGuid>df9eda1d-c8d8-43b8-b353-a01e819a846c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>010203040506070809101112</value>
-      <webElementGuid>21ebd04b-cbab-483e-a694-9869aadf2b2f</webElementGuid>
+      <value>付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券</value>
+      <webElementGuid>f66a61ee-1240-46e4-b0e9-07c29c965ed7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;collapseVisa&quot;)/div[@class=&quot;paymethodGroup ng-valid ng-valid-pattern ng-valid-required ng-dirty ng-valid-parse ng-valid-luhn-check-fail&quot;]/div[@class=&quot;form-group ng-pristine ng-valid col-md-2 ng-valid-required&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;]</value>
-      <webElementGuid>39abd22d-8b0f-45b9-b64c-04b64d6eec29</webElementGuid>
+      <value>id(&quot;paymethodList&quot;)</value>
+      <webElementGuid>4fa0dd0e-1eeb-4e20-b8b0-08a1625224b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@name='txt_Inbound_Exp_Month']</value>
-      <webElementGuid>4c2e3090-2f11-4e5f-aa12-e437da2063e8</webElementGuid>
+      <value>//select[@id='paymethodList']</value>
+      <webElementGuid>61ed99fc-0422-47f1-84e0-e834c5d84fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='collapseVisa']/div/div[4]/select</value>
-      <webElementGuid>f520fc2d-d282-4bcd-be2f-ae7084dbcdf7</webElementGuid>
+      <value>//div[@id='paymethodOptionList']/div/select</value>
+      <webElementGuid>98b61eef-82d2-4b84-9328-4f53b13b2cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='到期月'])[1]/following::select[1]</value>
-      <webElementGuid>e6e842d1-1399-461e-b091-1966f5f83b44</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款資料'])[1]/following::select[1]</value>
+      <webElementGuid>4e8b6801-e134-4583-83ec-20193c3c0d70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='有效銀行'])[1]/following::select[1]</value>
-      <webElementGuid>cc374827-797e-49e1-bb17-3b385fa4e836</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$0'])[1]/following::select[1]</value>
+      <webElementGuid>d918aa6f-9db7-46a2-be9c-d0f4a5afd3cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='到期年份'])[1]/preceding::select[1]</value>
-      <webElementGuid>97ff8512-dcea-49ac-bcf7-ae1cc37b2c87</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='組織資料'])[1]/preceding::select[1]</value>
+      <webElementGuid>2d32b9b0-e135-40cd-8e0e-1f2294078e01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='需要'])[11]/preceding::select[2]</value>
-      <webElementGuid>8faa210c-f926-43f5-bbac-5b2d60783d28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦人'])[1]/preceding::select[1]</value>
+      <webElementGuid>77267497-390a-4f88-b249-333c18f905e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/select</value>
-      <webElementGuid>76db99c2-fb55-4969-9914-2a5511bfd977</webElementGuid>
+      <value>//taiwan-inbound-paymethod/fieldset/div/div/div/select</value>
+      <webElementGuid>0a928317-5baf-4cff-bd51-3d68eb459d37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@name = 'txt_Inbound_Exp_Month' and (text() = '010203040506070809101112' or . = '010203040506070809101112')]</value>
-      <webElementGuid>4ad68591-db6d-4776-8013-4ff4e5017e4a</webElementGuid>
+      <value>//select[@id = 'paymethodList' and (text() = '付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券' or . = '付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券')]</value>
+      <webElementGuid>24d11713-4289-43c8-ae0c-6b731e2e14be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

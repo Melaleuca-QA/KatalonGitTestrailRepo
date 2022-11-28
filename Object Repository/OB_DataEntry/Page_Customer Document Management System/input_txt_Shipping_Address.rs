@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__txt_Shipping_AddressLine2</name>
+   <name>input_txt_Shipping_Address</name>
    <tag></tag>
-   <elementGuidId>7bf38ca2-ef79-46e5-96d4-81bd7db6cdb1</elementGuidId>
+   <elementGuidId>b0b6e760-f377-4461-ae4a-913674eb153a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt_Shipping_AddressLine2']</value>
+         <value>//input[@id='txt_Shipping_Address']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#txt_Shipping_AddressLine2</value>
+         <value>#txt_Shipping_Address</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e3410e32-6c7b-46fe-b32d-fb8b7802a06b</webElementGuid>
+      <webElementGuid>b706c0ea-031f-4bf6-a317-840eb00414f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-empty</value>
-      <webElementGuid>9aed075f-a325-4fa2-b605-12f8dd8b74c2</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>33a26892-ba75-4e74-908d-c9100be7e9cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt_Shipping_AddressLine2</value>
-      <webElementGuid>1591bfd0-7648-4d1a-93f6-5b30751d69b0</webElementGuid>
+      <value>txt_Shipping_Address</value>
+      <webElementGuid>b0e4095f-dba0-4f78-bb38-59362fe58ba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>txt_Shipping_AddressLine2</value>
-      <webElementGuid>1e0824e8-c2be-472d-95fc-43e3dd95b559</webElementGuid>
+      <value>txt_Shipping_Address</value>
+      <webElementGuid>a6fb1d77-dea2-49d7-8e8d-3c9651e51a6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>address.AddressLine2</value>
-      <webElementGuid>a6f9cb82-6848-4a76-85ac-932668bbbe8a</webElementGuid>
+      <value>address.AddressLine1</value>
+      <webElementGuid>79c5692b-b64a-40e7-a0d0-29c343374de8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>單位 / 樓層 / 座數</value>
-      <webElementGuid>6c49746c-28d6-4dda-ac0d-b0dfce27d18b</webElementGuid>
+      <value>地址1</value>
+      <webElementGuid>adb83504-4827-4591-8ffd-610f72de1878</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_Shipping_AddressLine2&quot;)</value>
-      <webElementGuid>fcfd1f35-a00f-45d3-8817-1fd58826276f</webElementGuid>
+      <value>id(&quot;txt_Shipping_Address&quot;)</value>
+      <webElementGuid>62d35f80-149c-441a-9522-6bcfe12113ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt_Shipping_AddressLine2']</value>
-      <webElementGuid>b0c95ebe-fbca-4b02-94c8-ff6fa55b3935</webElementGuid>
+      <value>//input[@id='txt_Shipping_Address']</value>
+      <webElementGuid>a412f55d-7e25-465b-9f07-027877959433</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='CMA']/div/div/hongkong-addresses/div/hongkong-shipping-address/fieldset/div/div[2]/div/input</value>
-      <webElementGuid>97040ba1-0116-46a0-b28d-b8b8c4177bba</webElementGuid>
+      <value>//div[@id='CMA']/div/div/taiwan-addresses/div/taiwan-shipping-address/fieldset/div/div[2]/div/input</value>
+      <webElementGuid>b71dd92d-7568-4b1c-bc98-290840419e48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>79d8cc4c-4675-404b-9f8a-60558aee9fe4</webElementGuid>
+      <value>//taiwan-shipping-address/fieldset/div/div[2]/div/input</value>
+      <webElementGuid>ea205a90-17ac-412b-b129-50df73a3cf6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'txt_Shipping_AddressLine2' and @name = 'txt_Shipping_AddressLine2' and @placeholder = '單位 / 樓層 / 座數']</value>
-      <webElementGuid>1bb92834-7f5b-4c09-b520-ea2f041fedce</webElementGuid>
+      <value>//input[@id = 'txt_Shipping_Address' and @name = 'txt_Shipping_Address' and @placeholder = '地址1']</value>
+      <webElementGuid>5b9b4f0f-5912-4224-818a-dd4e29ca17e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
