@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_VISAMasterJCB</name>
+   <name>button_Save_HK</name>
    <tag></tag>
-   <elementGuidId>8ee2ebce-d7d2-438a-a954-1207352dbb74</elementGuidId>
+   <elementGuidId>3dce3d9c-0a95-49e1-baee-b32cb3b6d631</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#paymethodList</value>
+         <key>XPATH</key>
+         <value>(//button[@id='btn_Save'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='paymethodList']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,127 +20,133 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-      <webElementGuid>ac0a55b6-2193-4800-af03-f9ad24a4db32</webElementGuid>
+      <value>button</value>
+      <webElementGuid>65b09c3a-7fa9-4642-be31-40c4bfd12290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
-      <webElementGuid>64632a0f-74e4-4831-91e8-b035e3b184d2</webElementGuid>
+      <value>button</value>
+      <webElementGuid>9d91ec4f-3c9d-4e6e-9ce4-a2c98a038a3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>paymethodList</value>
-      <webElementGuid>c15d2268-12f3-4bff-b647-3abda5761be8</webElementGuid>
+      <value>btn_Save</value>
+      <webElementGuid>747fdf7c-f460-464b-9ece-7a871b009d48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-change</name>
+      <name>ng-if</name>
       <type>Main</type>
-      <value>changePaymethod(true)</value>
-      <webElementGuid>962fc168-26b1-4d94-8b56-495f8b7fc3dc</webElementGuid>
+      <value>IsShowCreateButton()</value>
+      <webElementGuid>69cf769c-321c-4fda-836c-db2e803c4c69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-options</name>
+      <name>class</name>
       <type>Main</type>
-      <value>option.Description for option in paymethodList.filteredAvailablePaymethods track by option.PaymethodTypeID</value>
-      <webElementGuid>ad90b4da-f5c3-42aa-b0ab-b5841c8760a5</webElementGuid>
+      <value>btn btn-danger btn-lg ng-binding ng-scope</value>
+      <webElementGuid>86630e35-e9f1-43ea-bbfc-000dced51689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>sel_paymethodType</value>
-      <webElementGuid>df9eda1d-c8d8-43b8-b353-a01e819a846c</webElementGuid>
+      <value>submitForm()</value>
+      <webElementGuid>746b67c4-da36-496e-bf59-dff8059ce50d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券</value>
-      <webElementGuid>f66a61ee-1240-46e4-b0e9-07c29c965ed7</webElementGuid>
+      <value>
+                            儲存 
+                        </value>
+      <webElementGuid>7cab4dd2-d170-4792-af18-701d225b72ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;paymethodList&quot;)</value>
-      <webElementGuid>4fa0dd0e-1eeb-4e20-b8b0-08a1625224b9</webElementGuid>
+      <value>id(&quot;CMA&quot;)/div[@class=&quot;bottomContainer&quot;]/div[2]/button[@id=&quot;btn_Save&quot;]</value>
+      <webElementGuid>027dc0db-b6b2-4a5d-98e5-1ceb7bfe99d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='paymethodList']</value>
-      <webElementGuid>61ed99fc-0422-47f1-84e0-e834c5d84fc7</webElementGuid>
+      <value>(//button[@id='btn_Save'])[2]</value>
+      <webElementGuid>81ec3f94-6705-47ff-aea4-da8bdd578b0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='paymethodOptionList']/div/select</value>
-      <webElementGuid>98b61eef-82d2-4b84-9328-4f53b13b2cb0</webElementGuid>
+      <value>//div[@id='CMA']/div[2]/div[2]/button</value>
+      <webElementGuid>5ed10b97-2681-4407-b582-7f8a58b3764a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款資料'])[1]/following::select[1]</value>
-      <webElementGuid>4e8b6801-e134-4583-83ec-20193c3c0d70</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日期追溯至'])[2]/following::button[1]</value>
+      <webElementGuid>c60ece05-283c-4067-8e24-ff4aa3d604bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$0'])[1]/following::select[1]</value>
-      <webElementGuid>d918aa6f-9db7-46a2-be9c-d0f4a5afd3cc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='電話:'])[4]/following::button[1]</value>
+      <webElementGuid>b5d3a340-0d17-4672-8884-58780942992f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='組織資料'])[1]/preceding::select[1]</value>
-      <webElementGuid>2d32b9b0-e135-40cd-8e0e-1f2294078e01</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::button[1]</value>
+      <webElementGuid>b99a1953-9181-4f29-96c2-ea6f67f58224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦人'])[1]/preceding::select[1]</value>
-      <webElementGuid>77267497-390a-4f88-b249-333c18f905e6</webElementGuid>
+      <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
+      <webElementGuid>f6b76826-2c9b-4c68-b201-c3aed6457343</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//taiwan-inbound-paymethod/fieldset/div/div/div/select</value>
-      <webElementGuid>0a928317-5baf-4cff-bd51-3d68eb459d37</webElementGuid>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>1708ec06-c35a-42e3-b389-54955c42f5fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'paymethodList' and (text() = '付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券' or . = '付款資料類型VISA卡Master卡郵局扣款JCB卡華銀扣款振興券')]</value>
-      <webElementGuid>24d11713-4289-43c8-ae0c-6b731e2e14be</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btn_Save' and (text() = '
+                            儲存 
+                        ' or . = '
+                            儲存 
+                        ')]</value>
+      <webElementGuid>7f8433b7-8388-4fa3-af7b-9eb1cf5cfccf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
