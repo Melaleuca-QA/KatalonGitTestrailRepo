@@ -315,7 +315,8 @@ now_get_phonenumber = WebUI.getText(findTestObject('Object Repository/OB_Web/Pag
 
 println(now_get_phonenumber)
 
-now_enrollee = now_get_phonenumber.substring()
+//now_enrollee = now_get_phonenumber.substring()
+now_enrollee = now_get_phonenumber
 
 println(now_enrollee)
 
