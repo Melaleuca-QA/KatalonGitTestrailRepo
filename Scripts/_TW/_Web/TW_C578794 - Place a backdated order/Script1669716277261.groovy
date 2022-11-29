@@ -68,7 +68,7 @@ if (GlobalVariable.run_env == 'UA') {
     '1.End - Turn on Backdating'
     WebUI.closeBrowser()
 
-    WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'close birthday\'s shopping'
     if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
@@ -105,7 +105,7 @@ if (GlobalVariable.run_env == 'UA') {
 
         'CheckoutPromo Page'
         if (now_url == GlobalVariable.url_CheckoutPromo) {
-            WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
+            WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 
             WebUI.waitForAlert(5)
         }
@@ -123,33 +123,34 @@ if (GlobalVariable.run_env == 'UA') {
         // 取Order Receipt 訂單日期
         println(now_OrderDate)
 
-        if (now_OrderDate != BackDating_Date.format('dd/MM/yyyy')) {
-            println(((('...Order Date (' + now_OrderDate) + ') and BackDating (') + BackDating_Date.format('dd/MM/yyyy')) + 
+        //
+        if (now_OrderDate != BackDating_Date.format('yyyy/MM/dd')) {
+            println(((('...Order Date (' + now_OrderDate) + ') and BackDating (') + BackDating_Date.format('yyyy/MM/dd')) + 
                 ') do not match...')
 
             WebUI.acceptAlert()
         } else {
-            println(((('...Order Date (' + now_OrderDate) + ') and BackDating (') + BackDating_Date.format('dd/MM/yyyy')) + 
+            println(((('...Order Date (' + now_OrderDate) + ') and BackDating (') + BackDating_Date.format('yyyy/MM/dd')) + 
                 ') match...')
         }
         
         WebUI.waitForAlert(5)
 
-        WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk_2'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
         'Place a backdated order'
-        GlobalVariable.test_case = '578796'
+        GlobalVariable.test_case = '578793'
 
-        WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
         'Turn on Backdating'
-        GlobalVariable.test_case = '578795'
+        GlobalVariable.test_case = '578794'
 
-        WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
     } else {
         println(('... BackDating (' + BackDating_Date.format('yyyy/MM/dd')) + ') The commitment order has been completed...')
 
-        WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk_2'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
     }
     
     '3.Start - Turn off Backdating'

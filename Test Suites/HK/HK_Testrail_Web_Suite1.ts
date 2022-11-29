@@ -15,7 +15,7 @@
       <guid>0037a8a0-0fb5-442b-a065-3b6c76eab4e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/_HK/_Web/HK_C578796 - Place a backdated order</testCaseId>
+      <testCaseId>Test Cases/_HK/_Web/HK_C578794 - Place a backdated order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
