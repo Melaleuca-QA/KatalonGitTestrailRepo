@@ -40,7 +40,9 @@ WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_MelaleucaPresentatio
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_present-slideshow'))
+
+//WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
 
 WebUI.waitForAlert(5)
 

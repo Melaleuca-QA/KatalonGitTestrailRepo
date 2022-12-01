@@ -38,13 +38,14 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_MelaleucaPresentation'))
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
+//WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_present-slideshow'))
 
 //now_title = WebUI.getWindowTitle()
 //println(now_title)
 //WebUI.switchToWindowTitle(now_title)
 //WebUI.switchToWindowTitle('HK_Overview_0520')
-WebUI.switchToWindowTitle('HK_Overview_0522')
+WebUI.switchToWindowTitle('HK_Overview_1222')
 
 WebUI.waitForAlert(5)
 

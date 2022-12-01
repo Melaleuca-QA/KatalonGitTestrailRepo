@@ -101,6 +101,8 @@ WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_ BusinessCenter_OL
 
 WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_OLE_Invitation_save'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_OLE_Invitation_CancelResend'))
 
 WebUI.waitForAlert(5)
