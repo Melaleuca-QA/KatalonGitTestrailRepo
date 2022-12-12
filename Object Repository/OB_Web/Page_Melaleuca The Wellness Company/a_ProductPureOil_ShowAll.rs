@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[6]/div[1]/div/div[1]/div/div[1]/ul/li[6]/a</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[6]/div[1]/div/div[1]/div/div[1]/ul/li[7]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ad385e12-ae8f-4a4f-8d1d-511d74dda1b8</webElementGuid>
+      <webElementGuid>7fbf6f53-30a9-4959-af28-6ae2628f6c88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/ProductStore/content/category?c=226</value>
-      <webElementGuid>53a81d3a-77d1-477e-8f04-23727dcbc16f</webElementGuid>
+      <webElementGuid>6394f292-b9ab-4d5e-be6a-024acebaba90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20201201|@|topNav_Essential_Oils|@|@</value>
-      <webElementGuid>b5f0ffdd-85f2-4957-a136-5238d8e41ee4</webElementGuid>
+      <webElementGuid>87de7fd8-c474-40b8-a6a2-37a81857a21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>manual_cm_re</name>
       <type>Main</type>
       <value>20201201-_-topNav_Essential_Oils-_-Essential_Oils#/essential-oils</value>
-      <webElementGuid>baa7421a-d19b-4d98-8234-e95f66904ed4</webElementGuid>
+      <webElementGuid>dbad4867-77f4-4081-91ad-98440b52f7b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bold--nav</value>
-      <webElementGuid>27db2e29-579c-4a46-a053-37de074d8434</webElementGuid>
+      <webElementGuid>a44cb029-499d-4568-8972-618152b2e808</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>顯示所有產品</value>
-      <webElementGuid>fc6b45bc-28e6-4716-a619-975c3cac918b</webElementGuid>
+      <webElementGuid>daa6a2bc-ca6a-4fd6-822d-63419dc4018b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[6]/a[@class=&quot;bold--nav&quot;]</value>
-      <webElementGuid>622ab112-dbbf-49f7-9826-07436aef646a</webElementGuid>
+      <webElementGuid>306d3545-21e9-4d3c-91b5-a69d32aaac64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'顯示所有產品')])[7]</value>
-      <webElementGuid>579ed47b-a775-46fb-99c6-587a57b43d4e</webElementGuid>
+      <webElementGuid>bd5c8afb-86b6-4c88-a47e-0d1e92804eaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='輔銷品'])[2]/following::a[1]</value>
-      <webElementGuid>b6aeeb5b-8d65-424c-8a5a-5d5ae98e65b2</webElementGuid>
+      <webElementGuid>65e41e5a-8b56-42a6-b264-269b19a44629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='超值套組'])[2]/following::a[2]</value>
-      <webElementGuid>467f3895-8e56-4f3a-9389-4bb0dce39b7e</webElementGuid>
+      <webElementGuid>a5081f02-ffaf-4855-9454-61cca974d9e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[8]/preceding::a[2]</value>
-      <webElementGuid>4131a941-3b86-4479-80a7-f7d327bf150e</webElementGuid>
+      <webElementGuid>996f83c4-3b6f-4019-b133-81c1e3f295fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新品/特惠專區'])[1]/preceding::a[2]</value>
-      <webElementGuid>39e2c850-cb2e-4533-a6ec-c6873cc1efae</webElementGuid>
+      <webElementGuid>8e4684d7-cb46-48c6-b2d8-4ba1e9a3733f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/ProductStore/content/category?c=226')]</value>
-      <webElementGuid>5afece6a-a62f-4246-8a39-3476d890b7bd</webElementGuid>
+      <webElementGuid>d75edccb-51c7-41e0-a0d5-a53d7bf737d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/div/div/div/ul/li[6]/a</value>
-      <webElementGuid>736fddb9-a308-448a-8ee1-0b37dd490188</webElementGuid>
+      <webElementGuid>640ed970-4864-4b6f-981a-d6f2bfe3ea79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/ProductStore/content/category?c=226' and (text() = '顯示所有產品' or . = '顯示所有產品')]</value>
-      <webElementGuid>27c52ccf-205f-4779-994e-07422f6d35be</webElementGuid>
+      <webElementGuid>eff061d0-7208-48da-ba99-bc5999e86de3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
