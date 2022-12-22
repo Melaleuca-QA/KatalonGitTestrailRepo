@@ -26,8 +26,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_ProductCenter'))
 
-WebUI.navigateToUrl(GlobalVariable.url_ProductStore)
-
+//WebUI.navigateToUrl(GlobalVariable.url_ProductStore)
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
@@ -40,9 +39,11 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
-WebUI.navigateToUrl(GlobalVariable.url_category119)
+//WebUI.navigateToUrl(GlobalVariable.url_category119)
 
 WebUI.waitForAlert(5)
 

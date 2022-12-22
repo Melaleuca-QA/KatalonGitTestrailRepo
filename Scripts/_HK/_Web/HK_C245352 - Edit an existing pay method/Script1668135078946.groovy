@@ -48,7 +48,7 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_Sh
 
 WebUI.waitForAlert(5)
 
-WebUI.navigateToUrl(GlobalVariable.url_Cart)
+//WebUI.navigateToUrl(GlobalVariable.url_Cart)
 
 WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
@@ -72,8 +72,6 @@ if (now_url == promo_url) {
 }
 
 WebUI.waitForAlert(5)
-
-WebUI.focus(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
 
 WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
 

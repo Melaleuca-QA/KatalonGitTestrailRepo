@@ -274,7 +274,7 @@ WebUI.selectOptionByValue(findTestObject('OB_Web/Page_Melaleuca The Wellness Com
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_save'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

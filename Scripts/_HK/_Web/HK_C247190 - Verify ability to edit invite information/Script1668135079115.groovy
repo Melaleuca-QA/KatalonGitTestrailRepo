@@ -200,13 +200,13 @@ WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_Continue'))
 
 WebUI.waitForAlert(5)
 
-WebUI.focus(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_Submit'))
-
 WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_Submit'))
 
 WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_Confirm'))
+
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_MarketingExecutive)
 
@@ -261,8 +261,9 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.navigateToUrl(GlobalVariable.url_Cart)
+WebUI.waitForAlert(5)
 
+//WebUI.navigateToUrl(GlobalVariable.url_Cart)
 WebUI.click(findTestObject('OB_Web/Page_/button_BottomProceedtoCheckout'))
 
 WebUI.waitForAlert(5)
@@ -270,6 +271,8 @@ WebUI.waitForAlert(5)
 now_url = WebUI.getUrl()
 
 println(now_url)
+
+WebUI.waitForAlert(5)
 
 if (GlobalVariable.run_env == 'PD') {
     promo_url = GlobalVariable.url_hk_CheckoutPromo
@@ -292,8 +295,7 @@ WebUI.click(findTestObject('OB_Web/Page_/button_TopCheckout_PlaceOrder'))
 
 WebUI.waitForAlert(5)
 
-WebUI.navigateToUrl(GlobalVariable.url_latest)
-
+//WebUI.navigateToUrl(GlobalVariable.url_latest)
 WebUI.click(findTestObject('OB_Web/Page_/a_Logout_hk_2'))
 
 WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
@@ -308,8 +310,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
-
+//WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_hk'))
 
 WebUI.waitForAlert(5)
@@ -320,7 +321,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.refresh()
 

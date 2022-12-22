@@ -46,7 +46,7 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Product
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
-WebUI.navigateToUrl(GlobalVariable.url_category119)
+//WebUI.navigateToUrl(GlobalVariable.url_category119)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_2004'))
 
