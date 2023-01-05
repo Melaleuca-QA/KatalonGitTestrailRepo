@@ -201,6 +201,11 @@ WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_StartShopping
 
 WebUI.waitForAlert(5)
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.setText(findTestObject('OB_Web/Page_/input_txtSkuEntry'), '2000.2')

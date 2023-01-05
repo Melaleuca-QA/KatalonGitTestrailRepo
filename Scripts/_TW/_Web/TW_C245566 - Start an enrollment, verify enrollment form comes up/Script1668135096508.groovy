@@ -63,7 +63,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link startEnrollmentLink'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 'input new enrollment name'
 WebUI.setText(findTestObject('OB_Web/Page_/input_txtNewEnrolleeFirstName'), GlobalVariable.tw_input_newname)

@@ -26,6 +26,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>5b97956f-a1c2-4302-8378-59cd2fce1a45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245426 - Sign up for MORE with customer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0a48f8be-31ce-43f9-a534-fc07319e816d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
