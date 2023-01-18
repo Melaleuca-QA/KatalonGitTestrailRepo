@@ -43,10 +43,9 @@ WebUI.waitForAlert(5)
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_present-slideshow'))
 
 //WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_image-placeholder'))
-
 WebUI.waitForAlert(5)
 
-WebUI.switchToWindowTitle('TW_Overview_1022')
+WebUI.switchToWindowTitle('TW_Overview_0123')
 
 WebUI.waitForAlert(5)
 

@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness
 //println(now_title)
 //WebUI.switchToWindowTitle(now_title)
 //WebUI.switchToWindowTitle('HK_Overview_0520')
-WebUI.switchToWindowTitle('HK_Overview_1222')
+WebUI.switchToWindowTitle('HK_Overview_0123')
 
 WebUI.waitForAlert(5)
 
