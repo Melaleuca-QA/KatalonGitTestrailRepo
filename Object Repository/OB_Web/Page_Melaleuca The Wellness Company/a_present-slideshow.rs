@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div/div[2]/div/a/img</value>
+         <value>/html/body/div[3]/div[2]/div/div/main/div/section[1]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c28f0d91-442e-4b70-9901-a255cadd09e9</webElementGuid>
+      <webElementGuid>0f06c446-fa0a-4cc9-ac3f-fd17011246c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-present-slideshow js-overview</value>
-      <webElementGuid>4bbf1dd1-a525-4dea-802b-28f74a0313e7</webElementGuid>
+      <webElementGuid>47e831dc-311a-4f9e-8a11-30a1484c7066</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-tag</name>
       <type>Main</type>
       <value>OV Present Slideshow</value>
-      <webElementGuid>1d7ad861-8a17-4e1b-bde0-85e5be557b43</webElementGuid>
+      <webElementGuid>75aa7423-93db-4eb6-9fbb-0051a4cc9d46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>d12fb74f-a1b0-4865-b90f-ffacf8130723</webElementGuid>
+      <webElementGuid>2221ee04-b5d8-455b-8600-384476af5118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://online.flippingbook.com/view/122153/</value>
-      <webElementGuid>ec88b7bc-7259-4876-ae33-8a3ff81e6b8c</webElementGuid>
+      <webElementGuid>c20d447c-daa3-4a97-a59e-d7ddff6cb7de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
                立即開始你的事業分享會
 
             </value>
-      <webElementGuid>9fbf4bc0-3606-4ad6-98fa-6dfb22f83ba3</webElementGuid>
+      <webElementGuid>f9c3e686-2b35-4512-9664-19908f03d21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;preRecordedOverview&quot;)/div[@class=&quot;flex&quot;]/section[@class=&quot;section section1&quot;]/a[@class=&quot;btn btn-present-slideshow js-overview&quot;]</value>
-      <webElementGuid>c7245d1f-21e9-4851-b8a9-0113da4cd84a</webElementGuid>
+      <webElementGuid>5af250c2-1fac-4bd5-99c0-5e1397ab835d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='preRecordedOverview']/div/section/a</value>
-      <webElementGuid>1711380c-f572-4789-8f14-ba265e4f6cd7</webElementGuid>
+      <webElementGuid>4324bee1-de4e-430a-90b3-868ddfdc860c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'立即開始你的事業分享會')]</value>
-      <webElementGuid>d8c8ad22-5724-4b2a-891b-30924f54c943</webElementGuid>
+      <webElementGuid>3e658ae0-d6a6-476d-80c0-f6771dacc9fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='所有成功的美樂家領導人都用此最有效的方式介紹美樂家'])[1]/following::a[1]</value>
-      <webElementGuid>68fd171e-6895-4520-86d8-5145ac38511b</webElementGuid>
+      <webElementGuid>bb82fd8a-f696-45af-b840-10d5cefcb70e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='認識美樂家手冊'])[1]/following::a[1]</value>
-      <webElementGuid>4933e9e7-03e6-4a67-a141-7631ec68d728</webElementGuid>
+      <webElementGuid>f7ef7148-694e-421c-8127-c382376d9c5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='您絕對可以'])[1]/preceding::a[1]</value>
-      <webElementGuid>91333695-260c-4ba3-9d07-e51d8c7c243e</webElementGuid>
+      <webElementGuid>f0065d71-3589-43ff-9fa4-d50a100d2fc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='立即開始你的事業分享會']/parent::*</value>
-      <webElementGuid>cad56323-9d50-4f7a-8f29-a813ccd777ed</webElementGuid>
+      <webElementGuid>2e14a2e2-c908-42c0-8a62-b264943dd4d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://online.flippingbook.com/view/122153/')]</value>
-      <webElementGuid>40244f48-53c3-45ba-9871-2596b36bc4ab</webElementGuid>
+      <webElementGuid>62c9f80a-00b2-482a-9ef4-16fa20b3c676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/a</value>
-      <webElementGuid>22b12486-f779-45b6-85a9-1d67bfa29c5a</webElementGuid>
+      <webElementGuid>6c523c43-bf1c-42b5-945a-105741556d95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +151,6 @@
                立即開始你的事業分享會
 
             ')]</value>
-      <webElementGuid>da2dbaa1-fb6f-4c10-809c-868f2920de69</webElementGuid>
+      <webElementGuid>ba719556-e97e-4542-b980-b4665e33989c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

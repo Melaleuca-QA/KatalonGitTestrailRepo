@@ -22,7 +22,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4080198467858103'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_TW/_General/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_General/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)

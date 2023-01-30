@@ -10,9 +10,9 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>ST</profileName>
+            <profileName>UA</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TW/TW_Testrail_Web_Suite1</testSuiteEntity>
@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>ST</profileName>
+            <profileName>UA</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>

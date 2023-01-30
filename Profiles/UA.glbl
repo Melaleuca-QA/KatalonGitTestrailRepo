@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>10797.10836</description>
-      <initValue>'10836'</initValue>
+      <description>10836,10870</description>
+      <initValue>'10870'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>hk1,hk3,hk7</description>
-      <initValue>'hk3'</initValue>
+      <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

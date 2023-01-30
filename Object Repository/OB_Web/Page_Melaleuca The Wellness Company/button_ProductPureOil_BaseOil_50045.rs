@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ProductPureOil_BaseOil_51021</name>
+   <name>button_ProductPureOil_BaseOil_50045</name>
    <tag></tag>
    <elementGuidId>db0a6bbd-ddfc-4bb9-93ac-b3bb109560c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='pdp_addToCartBtn_51021']</value>
+         <value>//button[@id='pdp_addToCartBtn_50045']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>94ee63fc-6b33-48fe-8b99-f5d5897ab363</webElementGuid>
+      <webElementGuid>13a1096a-2f19-42c9-b22b-f19b0448b722</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>wm-btn wm-btn--primary ng-binding</value>
-      <webElementGuid>add4a5a6-eda9-412d-8ad8-582252e293a5</webElementGuid>
+      <webElementGuid>3c46fa08-3627-4c7e-bc4f-be76be09462f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pdp_addToCartBtn_51021</value>
-      <webElementGuid>9836670e-66fd-4411-86ca-6e8d652cd4b2</webElementGuid>
+      <webElementGuid>3d9ed1d9-84ba-4a82-a06c-608ea940ff41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-sku</name>
       <type>Main</type>
       <value>51021</value>
-      <webElementGuid>ef8fe831-2fe7-4af7-954d-7cc9211693f8</webElementGuid>
+      <webElementGuid>e6d90345-07a6-4742-924c-05544e9683cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>addToCart($event)</value>
-      <webElementGuid>b6b5a3ec-5487-4640-868e-f5c4bc2a5d51</webElementGuid>
+      <webElementGuid>a47a44a9-847d-4e80-998c-0da4752df771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>新增至購物車</value>
-      <webElementGuid>c2761fd3-3bb1-4a86-be5b-aa1cf2ae3496</webElementGuid>
+      <webElementGuid>4b1edc06-1b2b-46b9-98bb-76e5c4cbc8bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,23 +70,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pdp_addToCartBtn_51021&quot;)</value>
-      <webElementGuid>5f2e129e-cc4b-4c34-b6fd-ea8be357f8d0</webElementGuid>
+      <webElementGuid>4cb73ad9-4fe1-4e4d-9688-71fd7465b96b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='pdp_addToCartBtn_51021']</value>
-      <webElementGuid>b8962964-7ebf-4f6b-91a8-e2c4257b085b</webElementGuid>
+      <value>//button[@id='pdp_addToCartBtn_50045']</value>
+      <webElementGuid>7df79786-206d-4519-a927-d9fb056cb0de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='_51021']/div/div/form/button</value>
-      <webElementGuid>133e6855-1a2c-4ef3-a2c2-1ae4e2940d05</webElementGuid>
+      <value>//li[@id='_50045']/div/div/form/button</value>
+      <webElementGuid>f83ad6d8-f8aa-4abe-bd14-e5ea7febc84d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='節省'])[1]/following::button[1]</value>
-      <webElementGuid>c3b8d381-3322-4bd2-9128-e170c1f2d073</webElementGuid>
+      <webElementGuid>3653d7b3-a864-4b8f-87dd-0b0486524757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$325'])[2]/following::button[1]</value>
-      <webElementGuid>a7b1a425-e617-4bb8-b2e9-102fc6294930</webElementGuid>
+      <webElementGuid>ad3e717f-4063-4726-b256-a4e753a18696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='增加至追蹤清單'])[1]/preceding::button[1]</value>
-      <webElementGuid>1d52073d-e02b-4d77-a07c-3b33204da46b</webElementGuid>
+      <webElementGuid>df9acbd7-2e61-490e-8a7b-ca34f2e8aa51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='顯示更多'])[1]/preceding::button[3]</value>
-      <webElementGuid>4f7747d8-97f9-43a0-a71a-e4cfb352ea9c</webElementGuid>
+      <webElementGuid>274d3107-8e40-493a-ab91-786097b96a3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='新增至購物車']/parent::*</value>
-      <webElementGuid>17cb4548-a42a-4af1-ae42-e59658ca0f85</webElementGuid>
+      <webElementGuid>1cf25473-4460-4db0-98ab-b939c62f78eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/form/button</value>
-      <webElementGuid>b739a212-e82b-44ce-a395-9e497e932408</webElementGuid>
+      <webElementGuid>1b725c2f-464f-404b-8cd3-d63eef45a395</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

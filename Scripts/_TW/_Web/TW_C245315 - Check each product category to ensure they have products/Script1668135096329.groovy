@@ -81,7 +81,7 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Product
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductPureOil_BaseOil_51021'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductPureOil_BaseOil_50045'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNewProducts'))
 
