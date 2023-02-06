@@ -4,13 +4,23 @@
    <name>img</name>
    <tag></tag>
    <elementGuidId>75486cd5-326c-4332-8ab8-5fa9039f1ae0</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='detailView']/table/tbody/tr/td[2]/img</value>
       </entry>
       <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/Images/btnPopclose.gif']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>54626254-3bb3-47ee-ae39-58fffc3dde30</webElementGuid>
+      <webElementGuid>482dcda5-17f9-4993-a170-fa7e2f392444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +39,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/Images/btnPopclose.gif</value>
-      <webElementGuid>d7b61ae0-f923-4ea4-9288-f939b78c851b</webElementGuid>
+      <webElementGuid>dcd1a783-5fd9-49dc-9bbd-4efa3d001488</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +47,7 @@
       <name>width</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>908034af-10b1-4425-9e1c-76207ab3a779</webElementGuid>
+      <webElementGuid>146eb29b-c7ed-42bb-ae8c-efc2d79ec2c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +55,7 @@
       <name>height</name>
       <type>Main</type>
       <value>15</value>
-      <webElementGuid>0f59c51d-7267-4acb-81c1-d5ac6f8f11c6</webElementGuid>
+      <webElementGuid>5a42c045-1d51-430b-ab54-5d8dc45a9e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;detailView&quot;)/table[@class=&quot;popupHeader&quot;]/tbody[1]/tr[1]/td[2]/img[1]</value>
-      <webElementGuid>47b4554a-5054-4c76-8254-c77f28701369</webElementGuid>
+      <webElementGuid>6a808296-9f89-476d-8132-6bda91ac8aaa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='detailView']/table/tbody/tr/td[2]/img</value>
-      <webElementGuid>d39a4536-2ad5-42be-9d63-6fc1efa7e06f</webElementGuid>
+      <webElementGuid>e128aa67-3dfe-4091-af3f-d267abed7dab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/table/tbody/tr/td[2]/img</value>
-      <webElementGuid>17a5810b-e8f9-40ad-8b90-84c3dea5c5da</webElementGuid>
+      <webElementGuid>4f7bdd64-1c30-46cc-a24b-32948ded7b29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/Images/btnPopclose.gif']</value>
-      <webElementGuid>4099e289-44fe-49ea-8476-5280a181c2ac</webElementGuid>
+      <webElementGuid>6409ebd7-1f67-410f-aa9a-e184771bbc55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f71c61bc-418f-403d-abf3-2d8ae26322fa</webElementGuid>
+      <webElementGuid>43137770-1842-493e-bc37-0aa9007ccbab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>2050c0b0-5341-45e0-8584-5bed47a3ec92</webElementGuid>
+      <webElementGuid>44ec6570-1e18-4181-ad18-7da44fb53656</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>CloseDropDownPopup();</value>
-      <webElementGuid>ad8117aa-aa33-4989-9138-1d8e546198c3</webElementGuid>
+      <webElementGuid>3e517eb6-9bc1-4855-956d-21d37bb66d33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>關閉</value>
-      <webElementGuid>1a1c2bac-2b25-4b6e-9358-64e7693f41fe</webElementGuid>
+      <webElementGuid>01d82767-98fb-47e8-8cc6-3ed6e0abeab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popMoveUnderEnrollee&quot;)/div[@id=&quot;dropDownPopupWrapper&quot;]/div[@class=&quot;dropDownPopup&quot;]/table[1]/tbody[1]/tr[@class=&quot;ddPopHeader&quot;]/td[2]/div[@class=&quot;bcGrayDark ddPopHeaderD ddPopTopRight&quot;]/a[1]</value>
-      <webElementGuid>6a8fb89b-fd9d-4e9f-80e4-aefec4981b8c</webElementGuid>
+      <webElementGuid>3aa94191-b8c3-4dba-ae95-48e759689d9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='CloseDropDownPopup();']</value>
-      <webElementGuid>2973772b-5b01-4c8e-84e6-beee87768b3a</webElementGuid>
+      <webElementGuid>f5d5e939-3f3d-43df-ba66-d9b236bf344d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dropDownPopupWrapper']/div/table/tbody/tr/td[2]/div/a</value>
-      <webElementGuid>0c2e34a2-3c2d-44b8-8ecf-73b0eb9911bd</webElementGuid>
+      <webElementGuid>0843be51-9465-4307-8d17-d2ab18d00f80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'關閉')]</value>
-      <webElementGuid>cbd35498-0820-4c3e-bf39-13d23b800f2c</webElementGuid>
+      <webElementGuid>8ed71b2b-61f3-46a9-bdb1-9aaaa9e48fa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='查詢結果'])[1]/following::a[1]</value>
-      <webElementGuid>2e7fc629-92bc-42a9-939b-90710b1cf8d1</webElementGuid>
+      <webElementGuid>2e60caf2-f544-49f6-aa56-3ebc8177f3ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='搜尋'])[6]/following::a[1]</value>
-      <webElementGuid>780f50f6-e0d3-4ac8-84be-2a7867a4aa95</webElementGuid>
+      <webElementGuid>53c0e896-518f-4fc8-970f-d2ad54691a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='您組織內的夥伴所提供的電話號碼不存在'])[1]/preceding::a[1]</value>
-      <webElementGuid>6e72c306-602b-4304-ac17-0e625c3801ca</webElementGuid>
+      <webElementGuid>fd6e1281-4b30-4d0c-84bf-0b4c035157ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='申請人'])[2]/preceding::a[2]</value>
-      <webElementGuid>e913dbc6-37f8-4874-9c9a-812beb012a9e</webElementGuid>
+      <webElementGuid>805d02fe-7351-41e0-8786-9656e0b157e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:;')])[6]</value>
-      <webElementGuid>fb336ad9-2d6a-44b7-b812-d5e720561e39</webElementGuid>
+      <webElementGuid>635d7abc-b983-4734-8e6e-4df7c0ee904c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/a</value>
-      <webElementGuid>97e95f15-a1cd-4ff3-920d-42498fdb354b</webElementGuid>
+      <webElementGuid>1c9e8bce-85d5-4882-a312-dcf2beb70d52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:;' and (text() = '關閉' or . = '關閉')]</value>
-      <webElementGuid>66064951-f14b-4512-8b01-c245d6df8ab6</webElementGuid>
+      <webElementGuid>0a018591-6afa-4a16-b35a-3f71f4ab14cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

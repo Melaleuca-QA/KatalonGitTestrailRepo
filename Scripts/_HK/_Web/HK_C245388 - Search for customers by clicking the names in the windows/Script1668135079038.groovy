@@ -100,6 +100,8 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_Enrol
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
+WebUI.waitForAlert(5)
+
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
@@ -167,6 +169,8 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 
 '第3代'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
+
+WebUI.waitForAlert(5)
 
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
@@ -236,6 +240,8 @@ WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_ap
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
+
+WebUI.waitForAlert(5)
 
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
@@ -346,6 +352,8 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_Enrol
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
+WebUI.waitForAlert(5)
+
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))
 
@@ -437,6 +445,8 @@ WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_ap
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
+
+WebUI.waitForAlert(5)
 
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_2'))

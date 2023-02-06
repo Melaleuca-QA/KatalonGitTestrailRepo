@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/input_
 //        Keys.CONTROL, 'a', Keys.DELETE))
 WebUI.click(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/button_Generate 2'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 result1 = WebUI.getAttribute(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
 
