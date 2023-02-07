@@ -27,6 +27,9 @@ WebUI.setText(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/input_
 
 //WebUI.sendKeys(findTestObject('_OB_Stanley/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
 //        Keys.CONTROL, 'a', Keys.DELETE))
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
 WebUI.click(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/button_Generate 2'))
 
 WebUI.waitForAlert(5)
