@@ -25,6 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full 2'), '405430')
 
+WebUI.waitForAlert(5)
+
 //WebUI.sendKeys(findTestObject('_OB_Stanley/Page_Random Test Credit Card Numbers/input_QUANTITY_form-input block w-full'), Keys.chord(
 //        Keys.CONTROL, 'a', Keys.DELETE))
 'Page Down'

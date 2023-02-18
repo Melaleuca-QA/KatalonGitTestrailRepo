@@ -6,14 +6,6 @@
    <elementGuidId>a555140b-7576-4dd4-874e-4671c179c942</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[3]/div/div/div[1]/div[1]/div[4]/div[2]/select</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#globalCountryDropdownMobile</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'globalCountryDropdownMobile' and (text() = '
     
@@ -26,6 +18,14 @@
       <entry>
          <key>IMAGE</key>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#globalCountryDropdownMobile</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[3]/div/div/div[1]/div[1]/div[5]/div[2]/select</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -35,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>8336c924-2213-4115-919b-35df5ebcef62</webElementGuid>
+      <webElementGuid>5a29398d-2be9-4ce1-89c6-b9e74e551884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>globalCountryDropdownMobile</value>
-      <webElementGuid>6fc299d1-4c3a-4c45-af56-73188514f6bc</webElementGuid>
+      <webElementGuid>e117c491-ce0e-4dd0-aa64-b74e4847e90a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>onkeydown</name>
       <type>Main</type>
       <value>preventChange(event);</value>
-      <webElementGuid>6239eb0f-af3e-46f5-ad3d-9c79ca29c2b8</webElementGuid>
+      <webElementGuid>c82b720e-d956-4895-abf5-0b69b2624d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>selectCountryCulture(this.value);return false;</value>
-      <webElementGuid>5a1fc3e3-fa02-4885-aa03-9c8d696c2ab8</webElementGuid>
+      <webElementGuid>83488276-8e31-43a8-831e-61f7eae548f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
     
             香港
 </value>
-      <webElementGuid>b355d883-4d93-4877-8526-1b2a0127340c</webElementGuid>
+      <webElementGuid>2644b47a-9fc3-4fe0-877e-76f98edc65a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;globalCountryDropdownMobile&quot;)</value>
-      <webElementGuid>b711243c-8ad7-4103-b960-07b0052dae7d</webElementGuid>
+      <webElementGuid>bebdf9fc-4d1a-42b6-9fba-8201bf23bd94</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='globalCountryDropdownMobile']</value>
-      <webElementGuid>8cf21d04-9866-45be-93e3-02e6a1b88397</webElementGuid>
+      <webElementGuid>52c5c238-1ee6-4e58-be66-5b3998da7e33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FTCenterContent54']/div[2]/select</value>
-      <webElementGuid>ef61c5e2-4054-4e1c-8c95-365dd70aa00d</webElementGuid>
+      <webElementGuid>79332cc4-30bb-4b9c-81ec-0601e4e31bb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇國家或地區語言：'])[1]/following::select[1]</value>
-      <webElementGuid>3d9a129d-3166-4354-b84a-b35a45c12a58</webElementGuid>
+      <webElementGuid>f7d33d77-c588-4856-a86b-b3cbd024c0ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='送貨地址功能更新及分區表'])[1]/following::select[1]</value>
-      <webElementGuid>2fac177a-9df0-4259-8ae1-8a68a4381a12</webElementGuid>
+      <webElementGuid>7ed90dfd-3eaf-416d-adec-344ab1ede977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='私隱政策'])[1]/preceding::select[1]</value>
-      <webElementGuid>317a9c0c-9a98-4747-9dc1-3544964ddfa2</webElementGuid>
+      <webElementGuid>01fe414b-0e04-40c0-aa6c-3f025f06cbbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>fa39929b-a827-47ea-8c10-c87bcf9a0ff6</webElementGuid>
+      <webElementGuid>be297bf0-86e6-4461-9ae7-183cbca21cb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

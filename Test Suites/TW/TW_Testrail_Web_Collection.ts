@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>UA</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TW/TW_Testrail_Web_Suite1</testSuiteEntity>
