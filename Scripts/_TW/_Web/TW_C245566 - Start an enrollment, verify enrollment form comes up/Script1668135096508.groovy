@@ -132,7 +132,7 @@ WebUI.setText(findTestObject('OB_Web/Page_/input_PrimaryPhoneNumber'), GlobalVar
 
 WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_Proceed'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(15)
 
 WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_BusinessCenter_OLE_CityCtrl'), '台北市', true)
 

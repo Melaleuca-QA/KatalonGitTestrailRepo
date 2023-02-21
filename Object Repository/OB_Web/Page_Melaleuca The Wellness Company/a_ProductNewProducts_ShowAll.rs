@@ -6,11 +6,11 @@
    <elementGuidId>f1034149-411d-417a-9dfd-5026465b320d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'顯示所有產品')])[8]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[7]/div[1]/div/div[1]/div/div[1]/ul/li[8]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>48a7f8c3-5bfd-4962-b04d-69ccb47a6471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/ProductStore/content/category?c=86</value>
+      <webElementGuid>f7b225dd-76d8-432e-9ecb-fd8e72592c51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>manual_cm_re</name>
       <type>Main</type>
       <value>20200615-_-topNav_Extra_Savings-_-86</value>
+      <webElementGuid>dea3a545-4f47-4c08-9088-aa005bca100a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bold--nav</value>
+      <webElementGuid>3c17c161-b777-411c-9b25-d1c9f154863f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>data-aid</name>
       <type>Main</type>
       <value>20200615|@|topNav_Extra_Savings|@|86</value>
+      <webElementGuid>b3ff1255-6178-4963-a15b-62c4b4a85a58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>顯示所有產品</value>
+      <webElementGuid>bd385f3d-b0d0-4bf6-9b2f-e6e8fd9852f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/ul[@class=&quot;menu-sub-column&quot;]/li[7]/a[@class=&quot;bold--nav&quot;]</value>
+      <webElementGuid>24556d05-5a1e-4f70-972c-87f507717ad2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'顯示所有產品')])[8]</value>
+      <webElementGuid>863bc481-c8f7-4c3a-ab7e-49f850846530</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品套裝/美好生活套組'])[1]/following::a[1]</value>
+      <webElementGuid>9cd75846-0e60-40b1-ba7b-2c8c48441f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='健康防護專區'])[1]/following::a[2]</value>
+      <webElementGuid>97cc7eab-9a2b-4073-9cbd-07627de95a84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[2]/preceding::a[1]</value>
+      <webElementGuid>845261d2-cd8b-4307-ac12-11745f3c770f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='生日獻禮'])[1]/preceding::a[2]</value>
+      <webElementGuid>6c2e3b57-d35b-4cbf-8f36-a2f0c0375d56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/ProductStore/content/category?c=86')])[2]</value>
+      <webElementGuid>47553492-82c6-42cc-9340-e1c504b287a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div/div/div/ul/li[7]/a</value>
+      <webElementGuid>5d1265dd-1300-493e-a9fc-947bc2755004</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
