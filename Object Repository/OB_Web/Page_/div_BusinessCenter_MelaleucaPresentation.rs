@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1cb8846d-a536-47aa-b841-f37a4cf86230</webElementGuid>
+      <webElementGuid>a30f72a7-1ca8-44ec-a156-5d92f88fb263</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>linkLabel ng-binding</value>
-      <webElementGuid>57769c74-f384-4b5a-808f-352401247d70</webElementGuid>
+      <webElementGuid>0b0c3ff7-d136-4051-a94b-71edc40eacf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>美樂家介紹</value>
-      <webElementGuid>6209704b-e338-4b27-aed9-3f8882ae1882</webElementGuid>
+      <webElementGuid>a31ef492-9b3d-4f70-8feb-a484ce1fc0bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dvNewEnrollment&quot;)/div[@class=&quot;enrollmentLinks&quot;]/div[@class=&quot;enrollmentLink&quot;]/div[@class=&quot;linkLabel ng-binding&quot;]</value>
-      <webElementGuid>9aec568f-c273-4f03-b2f2-05ea8c488e53</webElementGuid>
+      <webElementGuid>928f7c80-771d-46aa-941c-91e54745e02c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dvNewEnrollment']/div[4]/div[2]/div[2]</value>
-      <webElementGuid>73188c81-3d0d-4338-8254-4a096614752d</webElementGuid>
+      <webElementGuid>00066d4d-e013-44a5-80e1-bad862cbbf8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='開始新的推薦'])[1]/following::div[3]</value>
-      <webElementGuid>8d05e3ab-ba15-45a2-b938-0745a419cbf0</webElementGuid>
+      <webElementGuid>fa323b6b-12c9-45f8-8251-cb00a28470ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦工具'])[1]/following::div[7]</value>
-      <webElementGuid>e25f36eb-850c-45a2-a3cd-f38f70bfba3d</webElementGuid>
+      <webElementGuid>66fb2083-6ecc-44c3-a96c-7bf91d3fc6c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='跟進中心'])[2]/preceding::div[2]</value>
-      <webElementGuid>267a3ee1-59a9-4dec-a977-8c35c64aaa85</webElementGuid>
+      <webElementGuid>6dc1b372-49c8-4c50-904a-57d475a913ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦表格'])[1]/preceding::div[5]</value>
-      <webElementGuid>b77e86ec-e831-49a6-99b2-77156b4609a2</webElementGuid>
+      <webElementGuid>508c5861-919a-4e30-bb7b-76db5537d0ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='美樂家介紹']/parent::*</value>
-      <webElementGuid>f9753858-c8b9-4986-b6d3-4f5a1393c7bd</webElementGuid>
+      <webElementGuid>86547659-2aa9-41c1-bf8f-8da2a3442ae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/div[2]/div[2]</value>
-      <webElementGuid>969fbf9f-7893-473a-aef5-af45e4ee5b20</webElementGuid>
+      <webElementGuid>e19f6c8e-2044-4f6e-9fa1-9ab17ed15297</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

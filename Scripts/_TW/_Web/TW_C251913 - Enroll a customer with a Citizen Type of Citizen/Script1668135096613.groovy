@@ -52,9 +52,11 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.focus(findTestObject('OB_Web/Page_/div_link startEnrollmentLink'))
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/div_link startEnrollmentLink'))
 

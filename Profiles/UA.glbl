@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>10836,10870</description>
-      <initValue>'10836'</initValue>
+      <description>10902,10870</description>
+      <initValue>'10902'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -25,7 +25,7 @@
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>tw_input_password1</name>
    </GlobalVariableEntity>
@@ -35,7 +35,7 @@
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>tw_input_password2</name>
    </GlobalVariableEntity>
@@ -45,8 +45,8 @@
       <name>tw_input_newname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>tw_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -80,7 +80,7 @@
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password1</name>
    </GlobalVariableEntity>
@@ -90,7 +90,7 @@
       <name>hk_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password2</name>
    </GlobalVariableEntity>
@@ -100,8 +100,8 @@
       <name>hk_input_newname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>hk_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
