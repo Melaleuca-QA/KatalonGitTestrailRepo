@@ -12,52 +12,52 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5dab5312-36b9-47fb-9927-3caa9408d4ea</testSuiteGuid>
    <testCaseLink>
-      <guid>8657417f-665a-4824-9ce0-5aa6243981af</guid>
+      <guid>a2585c71-9265-4526-be25-505b9a842e4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245315 - Check each product category to ensure they have products</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f44b50f7-2f1c-4df4-89a6-b11a2bb6afde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245318 - Add configurable SKU via Quick Shop</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2df490b-f59c-4447-879b-47326561af19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245322 - Verify the order checkout is secure</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdef0320-1942-4d8f-98c5-1d819855c334</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_Web/TW_C245352 - Edit an existing pay method</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>70bf4715-3185-4165-8759-9e74aa32fb92</guid>
+      <guid>60a119bf-dd96-4c7a-809d-4872a1419078</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245363 - Edit an existing pay method</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245357 - Place a quick shop order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b97956f-a1c2-4302-8378-59cd2fce1a45</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245426 - Sign up for MORE with customer</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0a48f8be-31ce-43f9-a534-fc07319e816d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ec244d89-ce0c-4b89-9a70-049ecd104464</guid>
+      <guid>d121ac6d-8317-4079-9ffc-b2367b937de3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_Web/TW_C247190 - Verify ability to edit invite information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>707b49ad-40b1-4ad7-89f7-5221a50c69be</guid>
+      <guid>89513fc3-777b-499c-a52b-3df4c7b07760</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f5d26ecd-bbc5-479e-b3d6-ff07c89945d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C251916 - Complete order with Taiwan Default - Standard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
