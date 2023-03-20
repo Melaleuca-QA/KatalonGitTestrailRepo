@@ -19,20 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f44b50f7-2f1c-4df4-89a6-b11a2bb6afde</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245318 - Add configurable SKU via Quick Shop</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e2df490b-f59c-4447-879b-47326561af19</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245322 - Verify the order checkout is secure</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bdef0320-1942-4d8f-98c5-1d819855c334</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -40,10 +26,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60a119bf-dd96-4c7a-809d-4872a1419078</guid>
+      <guid>17fe049e-a5f4-47c6-994c-c2f171f9caeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245357 - Place a quick shop order</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245363 - Edit an existing pay method</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33e5d42d-0bfe-492b-b659-445fc6467306</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -54,10 +47,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>89513fc3-777b-499c-a52b-3df4c7b07760</guid>
+      <guid>b6d17d8c-b9da-4a81-834b-cfbbcf5e5c9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C251916 - Complete order with Taiwan Default - Standard</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C247199 - Try all Membership Pack options</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71614c50-9de2-450a-aab6-952fe93d5842</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C247204 - Verify password creation is at least 5 characters</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a35c5b8b-1901-4899-806c-906196368187</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C251913 - Enroll a customer with a Citizen Type of Citizen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7dd709e7-60b3-44b9-862d-b29b54737fd9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_Web/TW_C251917 - Open a PDF Presentation in Taiwan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
