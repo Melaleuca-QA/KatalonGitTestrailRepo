@@ -50,6 +50,8 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Contact
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_CustomerInformation'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_CustomerInformation'))
@@ -74,6 +76,8 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_tw'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_MemberInformation_tw'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_1_tw'))
@@ -89,6 +93,8 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_MemberInformation_6_tw'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_tw'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_QandA_BusinessInformation_tw'))
 
@@ -133,6 +139,8 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_QandA_BusinessInformation_21_tw'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_QandA_tw'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_RelatedLinks'))
 
