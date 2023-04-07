@@ -34,15 +34,17 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Busines
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(10)
 
 WebUI.focus(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_NewEnroll'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_SearchPresenter'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.setText(findTestObject('OB_Web/Page_/input_txtPresenter'), '0943654646')
 

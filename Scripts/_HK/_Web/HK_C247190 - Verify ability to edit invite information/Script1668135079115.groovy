@@ -308,6 +308,13 @@ WebUI.click(findTestObject('OB_Web/Page_/button_Login'))
 
 WebUI.waitForAlert(5)
 
+'close birthday\'s shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
+    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+}
+
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
 //WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
