@@ -128,12 +128,12 @@ if (GlobalVariable.run_country == 'TW') {
 
 WebUI.waitForAlert(5)
 
-'0955223332'
+'0933509231'
 if (GlobalVariable.run_country == 'TW') {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 
     '輸入Enroller手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '0955223332')
+    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '0933509231')
 } else {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 

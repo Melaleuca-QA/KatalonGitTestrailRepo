@@ -79,13 +79,13 @@ WebUI.click(findTestObject('OB_Web/Page_/button_MyPack'))
 WebUI.click(findTestObject('OB_Web/Page_/button_MyPack_Continue'))
 
 //WebUI.click(findTestObject('OB_Web/Page_/button_MyPack_Continue'))
-WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), 'renew')
+WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), 'lemon')
 
 WebUI.click(findTestObject('OB_Web/Page_/button_SearchSubmit'))
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_product-card_img_2059'))
 
-WebUI.click(findTestObject('OB_Web/Page_/img_2217'))
+//WebUI.click(findTestObject('OB_Web/Page_/img_2217'))
 
 WebUI.waitForAlert(5)
 

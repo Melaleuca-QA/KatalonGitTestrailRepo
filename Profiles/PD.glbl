@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>10902, 10836</description>
-      <initValue>'10902'</initValue>
+      <description>10902,10955</description>
+      <initValue>'10955'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -241,7 +241,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -391,7 +391,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
       <name>url_hk_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>10870, 10836</description>
-      <initValue>'10870'</initValue>
+      <description>10902,10955</description>
+      <initValue>'10955'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -241,7 +241,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://sttwweb.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

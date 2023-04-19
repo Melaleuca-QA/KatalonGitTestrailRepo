@@ -30,7 +30,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_tw_ReportandTool'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_tw_ReportandTool_ReportandTool'))
 

@@ -81,7 +81,7 @@ WebUI.click(findTestObject('OB_Web/Page_/button_MyPack_Continue'))
 WebUI.waitForAlert(5)
 
 /*
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_product-card_img_6317'))
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_product-card_img_2059'))
 
 //WebUI.click(findTestObject('OB_Web/Page_/img_3600'))
 WebUI.waitForAlert(5)
