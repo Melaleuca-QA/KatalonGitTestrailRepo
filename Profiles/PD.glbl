@@ -241,7 +241,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
+      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -391,7 +391,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
+      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
       <name>url_hk_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
