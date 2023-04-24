@@ -131,13 +131,18 @@ println(now_lsd)
 
 switch (true) {
     case (new_now_date >= new_lsd_bdate1) && (new_now_date <= new_lsd_edate1):
-        cal_lsd = ((now_pp.toInteger() * 0.15) * 33) // VIP * 15% * 33
+        cal_lsd = ((now_pp.toInteger() * 0.15) * 33 // VIP * 15% * 33
+        )
+
         break
     case (new_now_date >= new_lsd_bdate2) && (new_now_date <= new_lsd_edate2):
-        cal_lsd = ((now_pp.toInteger() * 0.10) * 33) // VIP * 10% * 33
+        cal_lsd = ((now_pp.toInteger() * 0.10) * 33 // VIP * 10% * 33
+        )
+
         break
     default:
         cal_lsd = 0 // VIP *  0% * 33
+
         break
 }
 
@@ -151,14 +156,4 @@ println(now_cal_lsd)
 WebUI.verifyEqual(now_lsd, now_cal_lsd)
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Add normal SKU via Quick Shop'
-GlobalVariable.test_case = '245317'
-
-WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Add configurable SKU via Quick Shop'
-GlobalVariable.test_case = '245318'
-
-WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
