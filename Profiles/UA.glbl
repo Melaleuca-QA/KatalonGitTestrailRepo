@@ -30,7 +30,7 @@
       <name>tw_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>VIP</description>
       <initValue>'high01'</initValue>
       <name>tw_input_username2</name>
    </GlobalVariableEntity>

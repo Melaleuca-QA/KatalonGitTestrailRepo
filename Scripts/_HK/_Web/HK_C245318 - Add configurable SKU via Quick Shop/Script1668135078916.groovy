@@ -47,7 +47,6 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Product
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
 //WebUI.navigateToUrl(GlobalVariable.url_category119)
-
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_2004'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_ProductBody_ValuePack_2004_2'))
@@ -94,6 +93,73 @@ WebUI.waitForAlert(5)
 if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_/div_3535'), 3)) {
     WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
 }
+
+//抓起訖日期 Earned LSD //
+def sys_date = new Date()
+
+def sys_day = new Date().format('dd')
+
+lsd_bdate1 = ((sys_date - sys_day.toInteger()) + 1)
+
+lsd_edate1 = (lsd_bdate1 + 14)
+
+lsd_bdate2 = (lsd_edate1 + 1)
+
+lsd_edate2 = (lsd_bdate1 + 24)
+
+lsd_bdate1 = lsd_bdate1.format('yyyy/MM/dd 00:00:00')
+
+lsd_bdate2 = lsd_bdate2.format('yyyy/MM/dd 00:00:00')
+
+new_lsd_bdate1 = Date.parse(lsd_bdate1)
+
+new_lsd_bdate2 = Date.parse(lsd_bdate2)
+
+lsd_edate1 = lsd_edate1.format('yyyy/MM/dd 23:59:59')
+
+lsd_edate2 = lsd_edate2.format('yyyy/MM/dd 23:59:59')
+
+new_lsd_edate1 = Date.parse(lsd_edate1)
+
+new_lsd_edate2 = Date.parse(lsd_edate2)
+
+now_date = sys_date.format('yyyy/MM/dd HH:mm:ss')
+
+new_now_date = Date.parse(now_date)
+
+//計算Earned LSD//
+now_pp = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/td_pp'))
+
+println(now_pp)
+
+now_lsd = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/td_hk_lsd'))
+
+println(now_lsd)
+
+now_lsd = now_lsd.substring(7)
+
+println(now_lsd)
+
+switch (true) {
+    case new_now_date >= new_lsd_bdate1 && new_now_date <= new_lsd_edate1:
+	    cal_lsd = now_pp.toInteger() * 0.1 * 7  // PC * 10% * 7
+        break
+    case new_now_date >= new_lsd_bdate2 && new_now_date <= new_lsd_edate2:
+	    cal_lsd = now_pp.toInteger() * 0.1 * 7  // PC * 10% * 7
+        break
+    default:
+	    cal_lsd = 0  // PC * 0% * 7
+        break
+}
+
+now_cal_lsd = Math.floor(cal_lsd)
+
+now_cal_lsd = now_cal_lsd.toString()
+
+println(now_cal_lsd)
+
+'Check Earded LSD Amount in order receipt'
+WebUI.verifyEqual(now_lsd, now_cal_lsd)
 
 WebUI.waitForAlert(5)
 
