@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[8]/div[1]/div/div[1]/div/div[1]/div/a</value>
+         <value>/html/body/div[3]/div[1]/div[3]/div[4]/div[8]/div[1]/div/div[1]/div/div[1]/ul/li[1]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3b9f3517-6b8b-462e-976f-e7c444154e2f</webElementGuid>
+      <webElementGuid>e7751ef2-9483-4781-b523-15a9cbb569d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/BusinessCenter/NewEnrollment.aspx</value>
-      <webElementGuid>4d278fe4-f76c-40b6-9160-0b71ab2a341f</webElementGuid>
+      <webElementGuid>c1da92d7-71c1-44e6-8658-9e67cbb29af1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>線上申請會籍</value>
-      <webElementGuid>3326b46d-f848-4acf-8544-a88362539ea2</webElementGuid>
+      <webElementGuid>698de9b6-00f6-431f-ad44-8072d0051d46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-HK&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-popup-wrapper&quot;]/div[@class=&quot;nav-item-popup is-visible&quot;]/div[@class=&quot;menu-popup-container&quot;]/div[@class=&quot;popup-content-wrapper&quot;]/div[1]/div[@class=&quot;menu-area&quot;]/div[@class=&quot;menu-column clear-border&quot;]/div[@class=&quot;menu-header double-width&quot;]/a[1]</value>
-      <webElementGuid>02ed6a72-5a3e-4622-9fbf-313d7f545944</webElementGuid>
+      <webElementGuid>8373a792-bc5e-4517-bfc6-427c86152ea1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'線上申請會籍')]</value>
-      <webElementGuid>64960b99-4f67-449f-9973-9e7e0bcdd9ab</webElementGuid>
+      <webElementGuid>3eef8759-81d1-4878-8f59-7f8855b55fa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='關閉'])[9]/following::a[1]</value>
-      <webElementGuid>420cc518-f8ab-4b88-9c99-3348b05a4ea6</webElementGuid>
+      <webElementGuid>df517b92-f0b7-484a-a144-98c179783769</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='網路限定優惠'])[1]/following::a[2]</value>
-      <webElementGuid>52fe4aa9-73db-4f37-976a-80cc95a4a7ad</webElementGuid>
+      <webElementGuid>82884bc3-3a49-4222-ba1c-ed74e0bd8f61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='申請會籍'])[1]/preceding::a[1]</value>
-      <webElementGuid>06dfc03a-eedf-4635-963c-e92759147773</webElementGuid>
+      <webElementGuid>b0ee421f-53b0-4209-9f68-528c8ce76a2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車'])[1]/preceding::a[2]</value>
-      <webElementGuid>12ecfdb2-3f56-49a2-b903-2f567675353d</webElementGuid>
+      <webElementGuid>12ae661e-3ead-4feb-ac2f-5019685fab5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='線上申請會籍']/parent::*</value>
-      <webElementGuid>ba11ce85-006e-454e-b91b-e5f866b187cd</webElementGuid>
+      <webElementGuid>9eebf2c3-adbf-4e84-8632-dac208da7ad7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/BusinessCenter/NewEnrollment.aspx')]</value>
-      <webElementGuid>0ef6f58a-2500-44aa-a557-e7257884f441</webElementGuid>
+      <webElementGuid>9847f74c-2809-44f3-bb9e-beaceacc8e29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/div/div/div/a</value>
-      <webElementGuid>8e59befd-410f-4c6a-98f2-ee077b6c9481</webElementGuid>
+      <webElementGuid>849bcdbf-4fd1-4a5b-ba0f-c08f15399bc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
