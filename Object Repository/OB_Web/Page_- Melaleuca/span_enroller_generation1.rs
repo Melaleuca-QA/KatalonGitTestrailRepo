@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/table/tbody/tr/td[1]/div/div/div/div[1]/span[2]</value>
+         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/table/tbody/tr/td[1]/div/div/div/div[2]/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0dc4bace-92c4-48f4-9993-0050fd559878</webElementGuid>
+      <webElementGuid>5d8f0ba0-1b6e-4b58-b6f3-0630bbb0b038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>stanleytest9</value>
-      <webElementGuid>4df87d69-86d1-4f61-928a-09f5e6cbe178</webElementGuid>
+      <webElementGuid>2d08ef86-43aa-4828-a44a-a73251978c20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;myOrg1&quot;)/div[@id=&quot;divRepeater&quot;]/span[2]</value>
-      <webElementGuid>476ab8c1-fc93-4934-ac37-7e66fcfb9f36</webElementGuid>
+      <webElementGuid>7dbb0e64-c0a3-41f1-bda8-744d4a85e51f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='divRepeater']/span[2]</value>
-      <webElementGuid>ee923230-4d01-4c6c-bc5f-a709121f46ea</webElementGuid>
+      <webElementGuid>ed3c7efd-352b-494b-96d0-e2743cdd3d71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='第一代:'])[1]/following::span[2]</value>
-      <webElementGuid>b27f73b0-ffce-46df-87ce-f186d5114e3b</webElementGuid>
+      <webElementGuid>8af72092-c7f3-444e-9fc6-c9e0cd094045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='賺大錢 or YYY'])[1]/preceding::span[2]</value>
-      <webElementGuid>14b2229e-34d0-496a-908d-09ad3e21a446</webElementGuid>
+      <webElementGuid>8e5e8411-b1bf-4b9d-b4c8-a1966cfd4f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='陳盼七二'])[1]/preceding::span[4]</value>
-      <webElementGuid>54fa2a7e-80d9-44ef-9db4-dec22d83ea7d</webElementGuid>
+      <webElementGuid>32b8df10-ea8c-4ff4-a0ff-6a77a6db87f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='stanleytest9']/parent::*</value>
-      <webElementGuid>f97faa2d-7c85-4def-b1fe-02770fd71d78</webElementGuid>
+      <webElementGuid>b907ed37-d74f-4798-8e91-6e4b269c2aa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div/span[2]</value>
-      <webElementGuid>7991c823-7ba0-425d-af30-bb12a9d14b5c</webElementGuid>
+      <webElementGuid>fba56d00-8e2a-4580-9d86-909e9d10f419</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'stanleytest9' or . = 'stanleytest9')]</value>
-      <webElementGuid>428d5ec3-72c5-48bf-a2b3-2eee78e3a543</webElementGuid>
+      <webElementGuid>97cc02a8-8e67-4bbb-a125-f5385b68f8a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -44,6 +44,8 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
 
 //WebUI.navigateToUrl(GlobalVariable.url_category119)
@@ -141,14 +143,17 @@ now_lsd = now_lsd.substring(7)
 println(now_lsd)
 
 switch (true) {
-    case new_now_date >= new_lsd_bdate1 && new_now_date <= new_lsd_edate1:
-	    cal_lsd = now_pp.toInteger() * 0.1 * 7  // PC * 10% * 7
+    case (new_now_date >= new_lsd_bdate1) && (new_now_date <= new_lsd_edate1):
+        cal_lsd = ((now_pp.toInteger() * 0.1) * 7) // PC * 10% * 7
+
         break
-    case new_now_date >= new_lsd_bdate2 && new_now_date <= new_lsd_edate2:
-	    cal_lsd = now_pp.toInteger() * 0.1 * 7  // PC * 10% * 7
+    case (new_now_date >= new_lsd_bdate2) && (new_now_date <= new_lsd_edate2):
+        cal_lsd = ((now_pp.toInteger() * 0.1) * 7) // PC * 10% * 7
+
         break
     default:
-	    cal_lsd = 0  // PC * 0% * 7
+        cal_lsd = 0 // PC * 0% * 7
+
         break
 }
 
