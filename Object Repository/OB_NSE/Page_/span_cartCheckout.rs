@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_cartCheckout</name>
+   <tag></tag>
+   <elementGuidId>bb80eb5e-5a4e-436a-a2c6-be0f43714f0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button.-cartCheckout > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[2]/div[3]/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35ed754b-8948-4b45-979a-807042aa471f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>注文を確定
+</value>
+      <webElementGuid>91e7df30-6e33-4a91-8b12-e90d1071bc47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__side&quot;]/div[3]/div[1]/button[@class=&quot;a-button -cartCheckout&quot;]/span[1]</value>
+      <webElementGuid>0139cc3a-f011-4008-a28b-faf23360d0be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div/div[3]/div[2]/div[3]/div/button/span</value>
+      <webElementGuid>b2932afc-44d8-4325-9488-7e850901242b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ポイント'])[1]/following::span[2]</value>
+      <webElementGuid>7d4c2ade-259e-44fc-b458-b0e39c64acd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¥8,610'])[1]/following::span[4]</value>
+      <webElementGuid>8c58ddb6-d362-44f3-ac54-950dae4dc8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='特別カスタマー割引'])[1]/preceding::span[1]</value>
+      <webElementGuid>b2f00073-4b15-4575-898c-203a95c071dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¥3,790割引'])[1]/preceding::span[3]</value>
+      <webElementGuid>301ef438-c6f4-43ba-92c6-cd8a188ac511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='注文を確定']/parent::*</value>
+      <webElementGuid>ef2777eb-d047-44d6-b195-7bd32327a5ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button/span</value>
+      <webElementGuid>3aca5a57-56c2-4683-8b7c-6a9ac9159dac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '注文を確定
+' or . = '注文を確定
+')]</value>
+      <webElementGuid>ff268c2c-2313-4007-adb0-721817d6e192</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

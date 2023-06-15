@@ -6,12 +6,12 @@
    <elementGuidId>8819c302-1610-491a-a928-a1fb88e3c547</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div/div[1]/div[3]/follow-up-new-enrollment-directive/div/table/tbody/tr[5]/td[1]/div/div/div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.enrollee-name.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div/div/div[1]/div[3]/follow-up-new-enrollment-directive/div/table/tbody/tr[3]/td[1]/div/div/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9f763c47-840f-4a38-9707-03eed1389c92</webElementGuid>
+      <webElementGuid>c71ca39d-e42f-40c3-8bc3-f232a20b20e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>enrollee-name ng-binding</value>
-      <webElementGuid>1a1b5cbf-c076-4050-835d-882954c2a1c8</webElementGuid>
+      <webElementGuid>0c3d2d43-e2fc-4b53-b99d-40d3360155fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>tw26844717</value>
-      <webElementGuid>6f07f1a6-aea2-4a1b-a7b8-145629eda5f4</webElementGuid>
+      <webElementGuid>e36a1e09-13f7-4fbd-82b2-694492aa86d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FollowUpNewCustomer&quot;)/table[@class=&quot;followUpTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;cellBorders enrollerName&quot;]/div[@class=&quot;fc-flex-container&quot;]/div[1]/div[@class=&quot;enrollee-name ng-binding&quot;]</value>
-      <webElementGuid>85553c12-7609-4751-930b-23dcb4ec53f0</webElementGuid>
+      <webElementGuid>88b0772d-a60d-4ce3-9c82-673085aa0ca6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FollowUpNewCustomer']/table/tbody/tr/td/div/div/div</value>
-      <webElementGuid>cf3d1455-2a5c-4a73-9588-1cb6759c5cce</webElementGuid>
+      <webElementGuid>d6194005-a0ff-4a73-beb9-a89cf73fcd1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已完成聯絡'])[1]/following::div[3]</value>
-      <webElementGuid>9f1eca6d-c97d-4bca-8a28-57f6f01bce2e</webElementGuid>
+      <webElementGuid>6d747a6d-0ffa-4d5a-a80f-ba80206f191b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/following::div[6]</value>
-      <webElementGuid>7587ba85-f99f-4807-8685-8a618dbe2e36</webElementGuid>
+      <webElementGuid>0a23d8f6-4280-416f-9577-7a2eb1c75d34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='基礎顧客'])[1]/preceding::div[2]</value>
-      <webElementGuid>da0db218-6f50-4ab6-a13d-b7509045a054</webElementGuid>
+      <webElementGuid>13c51993-8aeb-446e-b49f-a9edd17a2726</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='tw26844717']/parent::*</value>
-      <webElementGuid>cb669343-c994-45bf-9bc8-a1e0e415cc45</webElementGuid>
+      <webElementGuid>30db29e8-5e28-4446-b15a-955f880eca29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div</value>
-      <webElementGuid>83737a93-ac55-4165-8176-4142c903cc65</webElementGuid>
+      <webElementGuid>4d148996-83ad-442e-96f0-937feace7e94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'tw26844717' or . = 'tw26844717')]</value>
-      <webElementGuid>ce49b81b-1121-40f3-a368-fee2ffd7de4c</webElementGuid>
+      <webElementGuid>00368adc-480e-4ee3-89b1-6ae24f1e80bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

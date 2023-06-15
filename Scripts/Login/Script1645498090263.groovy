@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url_uatwweb)
+WebUI.navigateToUrl(GlobalVariable.url_uatsgwweb)
 
 WebUI.refresh()
 

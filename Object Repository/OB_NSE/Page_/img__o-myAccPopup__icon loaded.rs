@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img__o-myAccPopup__icon loaded</name>
+   <tag></tag>
+   <elementGuidId>21c9d43d-567d-4062-a02a-f0ffabee5a30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.o-myAccPopup__icon.loaded</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>90f69e05-a922-4c61-8e2b-481c95d81ab7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>My Account Popup Button</value>
+      <webElementGuid>765cbd68-0c6e-401c-9b0f-ec1e03aad0f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-myAccPopup__icon loaded</value>
+      <webElementGuid>51e198a5-08dc-46a1-9a8f-7df0876884d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cdnsc1.melaleuca.com/cdn-cgi/image/quality=85/jp/images/header/icon-account-2.png</value>
+      <webElementGuid>7d4d8ebc-50da-41ab-8245-a15f16ac91e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ll-status</name>
+      <type>Main</type>
+      <value>loaded</value>
+      <webElementGuid>edeab70e-154c-4cb1-980f-ba90095f893d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;o-myAccPopup&quot;]/button[@class=&quot;o-myAccPopup__btn&quot;]/img[@class=&quot;o-myAccPopup__icon loaded&quot;]</value>
+      <webElementGuid>7699e37a-53ae-46e2-b286-dac5a67d713e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/button/img</value>
+      <webElementGuid>f64b759c-0c6b-4069-909f-257c8f1b69b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='My Account Popup Button']</value>
+      <webElementGuid>6720bec7-9183-4ebd-8f68-e0aec95426ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button/img</value>
+      <webElementGuid>77d64d37-fc2b-4806-b9d5-81ec93f9eb67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'My Account Popup Button' and @src = 'https://cdnsc1.melaleuca.com/cdn-cgi/image/quality=85/jp/images/header/icon-account-2.png']</value>
+      <webElementGuid>089ec969-e6b5-46da-98da-004c6f4cb867</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

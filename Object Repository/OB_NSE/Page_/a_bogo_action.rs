@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_bogo_action</name>
+   <tag></tag>
+   <elementGuidId>ba51010a-2d46-46ab-ab34-c24eedcea978</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.o-bogo__cta</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/div/div/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f165a393-9246-4154-9838-6a5d46e0f0db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/checkout</value>
+      <webElementGuid>4347f98e-31e2-4834-b9bd-de5974f4a92f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-bogo__cta</value>
+      <webElementGuid>8c003cfc-2d48-418a-977b-7d760aee0466</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+                    ご注文手続きへ
+                </value>
+      <webElementGuid>cf892fc3-f414-4a43-954f-7724bc804ba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full  md:max-w-contain md:py-40&quot;]/div[@class=&quot;mb-10 md:mb-40 lg:mb-60&quot;]/div[@class=&quot;o-bogo&quot;]/div[1]/div[@class=&quot;o-bogo__row&quot;]/div[@class=&quot;o-bogo__action&quot;]/a[@class=&quot;o-bogo__cta&quot;]</value>
+      <webElementGuid>ccdf297c-3a43-4506-93d6-100bf5152625</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
+      <webElementGuid>72d5b054-259c-446b-b12a-7d3baf533d1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ご注文手続きへ')]</value>
+      <webElementGuid>22003169-31da-4464-aafc-7cd387355cfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[5]/following::a[1]</value>
+      <webElementGuid>fd3ebb62-4753-491e-849e-294b27a7a8d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[4]/following::a[1]</value>
+      <webElementGuid>d2f8cd72-3dc3-4f57-8045-f24fb5b1e2a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ご意見をお聞かせください'])[1]/preceding::a[1]</value>
+      <webElementGuid>c3be20c5-49db-4e6b-a34b-b25447dfbb9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
+      <webElementGuid>c4889a40-02b9-49b0-85fd-c24e815af518</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ご注文手続きへ']/parent::*</value>
+      <webElementGuid>6b4c8168-7f23-499f-ad13-8718547ab9b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/checkout')]</value>
+      <webElementGuid>372d2001-2d94-4401-bf7f-561afd040e3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/a</value>
+      <webElementGuid>482bb716-6479-49ab-a9a7-3edf257be969</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/checkout' and (text() = '
+
+                    ご注文手続きへ
+                ' or . = '
+
+                    ご注文手続きへ
+                ')]</value>
+      <webElementGuid>bae2dcf8-10b3-4a9d-af13-d8e3d58639ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Login</name>
+   <tag></tag>
+   <elementGuidId>227ad8a7-2185-4f87-9afb-6252aadc8cc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f51fcf9e-76f9-4c9c-aae0-ed230456479f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>8a1e2bec-d705-430a-b7d6-0c0f955f26e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button justify-center leading-tight md:py-15 to-md:py-15 md:max-w-260 text-center w-full</value>
+      <webElementGuid>a7c39942-19fa-48ca-957d-ffa20ca03103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+ログイン
+</value>
+      <webElementGuid>e754198b-3916-4c36-8bb4-90c9b331266b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[@class=&quot;flex mx-auto o-gridLayout to-md:flex-col max-w-contain&quot;]/div[@class=&quot;to-md:mt-10 md:pr-15 md:w-1_2&quot;]/div[1]/div[@class=&quot;bg-white border mb-10 lg:mb-0 px-8 lg:px-40 py-30 border-gray-50 lg:rounded lg:flex-grow w-full&quot;]/form[@class=&quot;o-signInForm&quot;]/div[@class=&quot;w-full lg:flex lg:flex-row mt-10&quot;]/div[@class=&quot;lg:w-1_2 w-full flex items-start md:block relative&quot;]/div[@class=&quot;w-full&quot;]/button[@class=&quot;a-button justify-center leading-tight md:py-15 to-md:py-15 md:max-w-260 text-center w-full&quot;]</value>
+      <webElementGuid>208806ab-ac72-4073-bf1d-c763f365c7bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>3db5472a-f575-49c4-ad10-1320088588e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/form/div[3]/div/div[2]/button</value>
+      <webElementGuid>76e12721-05a5-436c-9aec-b804727112fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='フィリピン'])[2]/following::button[1]</value>
+      <webElementGuid>96728609-49ed-4c96-bd81-bbf4ca69b71d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='香港'])[2]/following::button[1]</value>
+      <webElementGuid>daf4d7b5-03fc-4dc0-aaa9-1d838998f7d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ユーザー名またはパスワードが正しくありません'])[1]/preceding::button[1]</value>
+      <webElementGuid>a08d3864-d0bf-4d62-9915-c91160b850bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/button</value>
+      <webElementGuid>bf2e0195-1f1e-4e45-b925-c2ccb4775eed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = '
+ログイン
+' or . = '
+ログイン
+')]</value>
+      <webElementGuid>1aa6f503-619f-445f-9a7b-99b38efdefac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

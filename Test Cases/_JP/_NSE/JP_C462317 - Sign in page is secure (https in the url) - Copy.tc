@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JP_C462317 - Sign in page is secure (https in the url) - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb2e1c1d-046d-422f-96b4-34118aeb32bd</testCaseGuid>
+</TestCaseEntity>

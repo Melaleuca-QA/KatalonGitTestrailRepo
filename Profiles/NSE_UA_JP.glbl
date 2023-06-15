@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>NSE_UA_JP</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-uatjp.melaleuca.com'</initValue>
+      <name>url_uatjp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'09019990403'</initValue>
+      <name>jp_username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
+      <name>jp_password1</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

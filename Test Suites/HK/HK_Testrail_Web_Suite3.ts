@@ -15,7 +15,7 @@
       <guid>44437a25-6667-4230-98a3-d3ffc75806aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_HK/_Web/HK_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
+      <testCaseId>Test Cases/_HK/_Legacy/HK_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

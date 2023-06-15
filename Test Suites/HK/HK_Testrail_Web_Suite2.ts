@@ -15,7 +15,7 @@
       <guid>31541dda-09e8-41f5-9562-bc428f1c0e5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_HK/_Web/HK_C245301 - Firefox</testCaseId>
+      <testCaseId>Test Cases/_HK/_Legacy/HK_C245301 - Firefox</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

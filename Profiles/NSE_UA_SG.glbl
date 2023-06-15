@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>NSE_UA_SG</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-uatsg.melaleuca.com'</initValue>
+      <name>url_uatsg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mela810249708'</initValue>
+      <name>sg_username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
+      <name>sg_password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-uatsg.melaleuca.com/checkout'</initValue>
+      <name>url_Checkout</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

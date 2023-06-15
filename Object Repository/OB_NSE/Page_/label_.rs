@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_</name>
+   <tag></tag>
+   <elementGuidId>95d0670d-9d6d-46d2-b107-6a487b279610</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='payment-form']/div/div[3]/div[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>df30abd9-c284-4f55-89d5-030fbf033cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__VID__77__MelaId_li8n6wue__inputId</value>
+      <webElementGuid>acd5c142-4cc0-4950-a0b3-2ac0ba880a1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-formField__label -radio  </value>
+      <webElementGuid>7670e1df-b829-4a32-80c9-2457396ee798</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>このクレジットカードはこの注文にのみ使用します。保存しません。</value>
+      <webElementGuid>1f398a04-75ad-447f-ae14-b114d5650174</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payment-form&quot;)/div[@class=&quot;o-payForm__wrapper&quot;]/div[@class=&quot;o-payForm__row mb-15&quot;]/div[@class=&quot;m-formField -radio mb-5&quot;]/label[@class=&quot;m-formField__label -radio&quot;]</value>
+      <webElementGuid>634063fc-324b-4c38-ad28-7597fb12e8ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='payment-form']/div/div[3]/div[2]/label</value>
+      <webElementGuid>1d83cd77-07bb-43ea-8a46-8396b775a51c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='このクレジットカードをマイアカウントに保存'])[1]/following::label[1]</value>
+      <webElementGuid>ebe717ae-df8d-489b-872b-1ff8b05c6f05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ニックネーム（任意）'])[1]/following::label[2]</value>
+      <webElementGuid>79cb6fc0-e24f-4fe6-b623-e1e320e1e95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='優先支払方法に設定する'])[1]/preceding::label[1]</value>
+      <webElementGuid>627f5171-bd81-4a80-a7c3-38df88dcff60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>a5059be9-0ce5-46aa-9209-178426e4cbd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'このクレジットカードはこの注文にのみ使用します。保存しません。' or . = 'このクレジットカードはこの注文にのみ使用します。保存しません。')]</value>
+      <webElementGuid>f3358e87-b640-4098-9079-4a59fb9cce6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

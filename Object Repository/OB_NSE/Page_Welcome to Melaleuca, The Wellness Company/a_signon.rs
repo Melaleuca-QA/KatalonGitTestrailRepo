@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_signon</name>
+   <tag></tag>
+   <elementGuidId>e7d427bf-c7ef-49ed-a624-c4f377d1e274</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-authorBtn.text-center.bg-white.rounded.py-12.text-xs.px-18</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>36f4a43d-ad8e-4790-a200-6e059073b153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/depaccount/singlesignon</value>
+      <webElementGuid>ebb2dd5b-d5be-46d0-bd0a-3006489e482d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-authorBtn text-center bg-white rounded py-12 text-xs  px-18</value>
+      <webElementGuid>ba326ec7-65a6-49a3-8563-88b2374223d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+ログイン
+</value>
+      <webElementGuid>5ddcee3c-a439-438c-821c-ec183468d679</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/a[@class=&quot;a-authorBtn text-center bg-white rounded py-12 text-xs  px-18&quot;]</value>
+      <webElementGuid>f964ab70-cf58-498e-893b-111c3bac0ed6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/a</value>
+      <webElementGuid>5368bf73-9951-4351-9bf5-30d8b81ae875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'ログイン')])[2]</value>
+      <webElementGuid>6f91350b-bd8e-4d52-ad1b-1ef19e1f2d6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[2]/following::a[1]</value>
+      <webElementGuid>e38de759-285a-4058-bdc6-c210099c78c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[1]/following::a[2]</value>
+      <webElementGuid>61e71284-506b-40d6-bf51-49941d3a5ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本'])[3]/preceding::a[1]</value>
+      <webElementGuid>35ee51c2-7273-4ba3-a7e9-a948d7cb3b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='地域・言語'])[2]/preceding::a[1]</value>
+      <webElementGuid>502d629c-7722-4f9d-a382-4e1d759ce841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/depaccount/singlesignon')])[2]</value>
+      <webElementGuid>bbe9c1bb-de4d-4d88-a56d-b89e4736d3b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/a</value>
+      <webElementGuid>10a16fc7-5e8d-4ac5-9981-ae074d69edb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/depaccount/singlesignon' and (text() = '
+ログイン
+' or . = '
+ログイン
+')]</value>
+      <webElementGuid>b69c5604-ccfb-4864-8822-de7a12b9d041</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
