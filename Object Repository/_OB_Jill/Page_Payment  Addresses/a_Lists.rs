@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Lists</name>
+   <tag></tag>
+   <elementGuidId>d28de96c-3384-4d85-b1cf-b1d4d9668f8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='tab-4']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>906cbc57-fb48-49cf-ab62-9f2119ff6c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-track</name>
+      <type>Main</type>
+      <value>{&quot;gtmId&quot;:26,&quot;gtmText&quot;:&quot;Lists&quot;}</value>
+      <webElementGuid>6169884c-f096-46ab-a664-1a50495dccc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/lists</value>
+      <webElementGuid>8975cd17-81c3-4a96-886c-32ef83002c6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-tabs__link </value>
+      <webElementGuid>2f7aba5f-687e-46e7-9617-a1934f26c785</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Lists
+</value>
+      <webElementGuid>8cffe90b-48cd-44fb-8f86-f91c31ce4b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-4&quot;)/a[@class=&quot;m-tabs__link&quot;]</value>
+      <webElementGuid>9ca27361-2d66-4799-9a14-9771d7e74be5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='tab-4']/a</value>
+      <webElementGuid>2d9ed782-640f-4765-88fc-7109780915aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Lists')])[4]</value>
+      <webElementGuid>0656681d-a822-46f0-a9cf-60bc29071339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment &amp; Addresses'])[2]/following::a[1]</value>
+      <webElementGuid>e839ee60-dc4e-4aa3-ad32-d0215a7b1701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[3]/following::a[2]</value>
+      <webElementGuid>c82fe268-ce0b-40b1-ba97-9d471391bbb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Settings'])[1]/preceding::a[1]</value>
+      <webElementGuid>24492005-504c-4381-abc0-e1928fc7b929</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Methods'])[2]/preceding::a[2]</value>
+      <webElementGuid>a9984388-655e-432a-966b-43b99ef6c98f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account/lists')])[4]</value>
+      <webElementGuid>ff729421-43d6-4edd-a5d4-fdb284a29dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[2]/ul/li[4]/a</value>
+      <webElementGuid>3bbeba36-42bf-4498-b4d0-046bba9f839a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/lists' and (text() = '
+Lists
+' or . = '
+Lists
+')]</value>
+      <webElementGuid>c4e98870-f52c-430a-b99e-aacbeb1ef9d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

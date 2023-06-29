@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Overview</name>
+   <tag></tag>
+   <elementGuidId>a8fad750-5ec9-4f7a-8a0c-4dc6bdadcff3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='tab-1']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>70acd417-d344-4cc1-a7bf-e40814047530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-track</name>
+      <type>Main</type>
+      <value>{&quot;gtmId&quot;:26,&quot;gtmText&quot;:&quot;Overview&quot;}</value>
+      <webElementGuid>80a99642-1f32-4ad2-aba0-d2dfd0aaacc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account</value>
+      <webElementGuid>93cc9dcc-76f1-44fe-b0f4-ab714d9060fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-tabs__link </value>
+      <webElementGuid>5558e77d-3e74-4f8d-b0d3-75fb7fc6acc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Overview
+</value>
+      <webElementGuid>b09d0e05-aa67-47e7-aa54-23b2df2d8524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/a[@class=&quot;m-tabs__link&quot;]</value>
+      <webElementGuid>1d2bdc36-2181-4915-9263-8bc2fc7154f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='tab-1']/a</value>
+      <webElementGuid>10d40ed7-8f53-4831-a388-f00c0aefd4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Overview')]</value>
+      <webElementGuid>30896f57-4154-4452-9f80-be798104de8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[5]/following::a[1]</value>
+      <webElementGuid>33605f6a-7d3b-4b29-84b6-f8faa9d368da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[4]/following::a[1]</value>
+      <webElementGuid>40de6d7c-eaae-4db4-af89-45e6737e814c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[6]/preceding::a[1]</value>
+      <webElementGuid>a9c4a208-1f2f-495b-98ea-c7ca4453e5e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment &amp; Addresses'])[1]/preceding::a[2]</value>
+      <webElementGuid>2b6ddb15-362a-4192-b8d5-7191c0b56716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Overview']/parent::*</value>
+      <webElementGuid>a467a041-d0ed-4ca3-8a4d-e921eee7c71a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account')])[17]</value>
+      <webElementGuid>010097c3-107f-4cf1-8de8-1850b2507500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[2]/ul/li/a</value>
+      <webElementGuid>ecd12171-6bec-45de-937a-69d144d5e26f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account' and (text() = '
+Overview
+' or . = '
+Overview
+')]</value>
+      <webElementGuid>1298c749-fb99-47a0-81a6-88513b663d52</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

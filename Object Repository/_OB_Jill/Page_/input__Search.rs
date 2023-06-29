@@ -6,12 +6,12 @@
    <elementGuidId>7dc21cfd-cb00-4351-b87b-c62778ec412c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;Search&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='Search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;Search&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c8b37875-6aba-4523-937d-5bc3c84faf9e</webElementGuid>
+      <webElementGuid>444254d6-006a-4294-9dcd-c59938138b1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>e7a3130c-ace0-4bc4-9210-fc72ecac1b48</webElementGuid>
+      <webElementGuid>dae6b862-8ad1-4245-9f67-67699072324a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>4eef98e4-7797-43a9-9a84-9abf765da5f5</webElementGuid>
+      <webElementGuid>2dcf7de1-bdf8-4a34-8505-917daa1f1b0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>検索</value>
-      <webElementGuid>91b171b9-6caf-4ed4-b5d2-a7ecf5ae7db1</webElementGuid>
+      <webElementGuid>ec9ff42c-4466-4170-b05e-cea6a5e854fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-placeholder</name>
       <type>Main</type>
       <value>ここに必要なものを入力し、次のボタンに進んでください。</value>
-      <webElementGuid>07586b10-5fc3-4980-9f93-8318fa5bc1ed</webElementGuid>
+      <webElementGuid>da045713-8882-459e-8fbf-8df49eaa89bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-searchBar__input</value>
-      <webElementGuid>837eab2b-92d1-4c12-9998-032110b2f2c3</webElementGuid>
+      <webElementGuid>9b4231f0-3946-4f1d-8bf1-cbd89bf095ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
-      <webElementGuid>7b23e8a9-bc60-4ebc-8e06-739da4dc7f99</webElementGuid>
+      <webElementGuid>2a2f171d-e633-42cd-ba96-d4fa7f9aa827</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='Search']</value>
-      <webElementGuid>8d8f6955-f2d6-4a2a-a9cf-cf615791b66d</webElementGuid>
+      <webElementGuid>7faa8443-0414-4e3d-995b-561eca6b3d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='search-bar']/input</value>
-      <webElementGuid>a70a2cc6-5394-49b2-9cf3-d4ccdbd2879c</webElementGuid>
+      <webElementGuid>8b1c91bc-fd81-42ff-8b36-3c3b10f588fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>e3ad89cb-1360-45c8-b968-415de0001e97</webElementGuid>
+      <webElementGuid>2db3cdf5-c4c7-46b5-85b1-dbad6ac657b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '検索']</value>
-      <webElementGuid>50382caf-8a10-487e-9ddc-da91b3929aaa</webElementGuid>
+      <webElementGuid>d905a7fa-1e84-4f8a-ad47-3754e42b89be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

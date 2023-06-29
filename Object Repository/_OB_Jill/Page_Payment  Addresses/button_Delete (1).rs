@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete (1)</name>
+   <tag></tag>
+   <elementGuidId>ad0760cc-a845-4700-be0a-31e0d46cdd54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/section/ul/li[2]/div/div/ul/li[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e6f5dcfb-09a9-495f-a099-d27f93020fe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Delete payment method 2944</value>
+      <webElementGuid>d0e0430f-564a-490e-b994-a5c74764191b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-acctCard__button</value>
+      <webElementGuid>7c9b4231-d526-4bff-aa84-d6ec71b559ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Delete
+                </value>
+      <webElementGuid>fde6327f-02cd-4d2f-9e8e-a5ad93831a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-acctCardSection&quot;]/ul[@class=&quot;o-acctCardSection__list&quot;]/li[@class=&quot;o-acctCardSection__col&quot;]/div[@class=&quot;m-acctCard&quot;]/div[@class=&quot;m-acctCard__card&quot;]/ul[@class=&quot;m-acctCard__actions&quot;]/li[2]/button[@class=&quot;m-acctCard__button&quot;]</value>
+      <webElementGuid>03bb32f7-a880-479a-ac28-1a66723b5a27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/section/ul/li[2]/div/div/ul/li[2]/button</value>
+      <webElementGuid>114da60e-db6a-41ed-951d-4bf022ad76b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::button[1]</value>
+      <webElementGuid>b92f47a7-8512-4055-943f-e718c517687c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Default'])[2]/preceding::button[1]</value>
+      <webElementGuid>08faf09e-d8d7-49b5-b3a5-62572bfc62c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You cannot delete a Default payment method. Edit another method and make default.'])[2]/preceding::button[2]</value>
+      <webElementGuid>4d8ea3e1-619c-4bbe-9632-a7e084338681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/ul/li[2]/button</value>
+      <webElementGuid>0be2e65a-9d78-4e0b-8daa-6d88df44600a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+                    Delete
+                ' or . = '
+                    Delete
+                ')]</value>
+      <webElementGuid>6ee2470c-d824-475b-97b3-1edaefb0c8a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

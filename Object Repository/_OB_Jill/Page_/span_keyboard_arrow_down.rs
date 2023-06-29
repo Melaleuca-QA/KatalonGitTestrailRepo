@@ -6,12 +6,12 @@
    <elementGuidId>a82e2a04-452e-4048-9578-a4504c772fd7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#__VID__48__MelaId_li8n5766__accordionId__toggler > span.o-checkoutAccordion__icon > span.a-icon.material-icons.-inherit.-transition</value>
+         <key>XPATH</key>
+         <value>//button[@id='__VID__49__MelaId_lj2h8dir__accordionId__toggler']/span/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='__VID__48__MelaId_li8n5766__accordionId__toggler']/span/span</value>
+         <key>CSS</key>
+         <value>#__VID__49__MelaId_lj2h8dir__accordionId__toggler > span.o-checkoutAccordion__icon > span.a-icon.material-icons.-inherit.-transition</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7797fb98-cffe-4bec-87d8-5666757c3261</webElementGuid>
+      <webElementGuid>f772c31f-6523-41cb-b2fd-3caa62fdaa80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>311841d3-7ebb-44bd-831d-7d6028c3ee00</webElementGuid>
+      <webElementGuid>ee7f0c55-69f4-40fc-acb4-d92128238227</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-icon material-icons -inherit -transition</value>
-      <webElementGuid>dcd7d1c9-79e2-46cc-bb63-7d2b948effaa</webElementGuid>
+      <webElementGuid>82a459af-7f06-48ef-9933-8c62290167ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,55 +48,55 @@
       <value>
                         keyboard_arrow_down
                     </value>
-      <webElementGuid>d747ce30-9a87-49ff-9b8a-4ca6588e3366</webElementGuid>
+      <webElementGuid>76f9a9a1-de78-426a-b13a-fd0eade8d780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__VID__48__MelaId_li8n5766__accordionId__toggler&quot;)/span[@class=&quot;o-checkoutAccordion__icon&quot;]/span[@class=&quot;a-icon material-icons -inherit -transition&quot;]</value>
-      <webElementGuid>5cbc69f3-f024-4cde-8635-fc51f43e54da</webElementGuid>
+      <value>id(&quot;__VID__49__MelaId_lj2h8dir__accordionId__toggler&quot;)/span[@class=&quot;o-checkoutAccordion__icon&quot;]/span[@class=&quot;a-icon material-icons -inherit -transition&quot;]</value>
+      <webElementGuid>5ac75a0a-ce20-48b2-b826-3487560c78b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='__VID__48__MelaId_li8n5766__accordionId__toggler']/span/span</value>
-      <webElementGuid>2d0487b9-7016-4f52-8422-043f5ed26f5f</webElementGuid>
+      <value>//button[@id='__VID__49__MelaId_lj2h8dir__accordionId__toggler']/span/span</value>
+      <webElementGuid>a2916138-c0bf-4c05-b613-d3c527542ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[1]/following::span[3]</value>
-      <webElementGuid>cb1bd623-3b48-49d5-a130-3e7c8d394cc6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VisaCard'])[1]/following::span[4]</value>
+      <webElementGuid>c2530638-ae94-4be0-9e5b-11b2510c6c0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='VISAカード'])[1]/following::span[5]</value>
-      <webElementGuid>f45bcc77-b08f-4d3e-bd11-8aef5ff69b8f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay With'])[1]/following::span[9]</value>
+      <webElementGuid>77d2736e-7c23-435b-95f1-4b44cbee9fd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='コンビニ払い（前払い）'])[1]/preceding::span[1]</value>
-      <webElementGuid>23c214e3-7765-4c9d-8cf3-9fbdb02655e0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VisaCard'])[2]/preceding::span[1]</value>
+      <webElementGuid>a22cae94-16e8-4280-a591-6f8caa75f88f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[10]</value>
-      <webElementGuid>d74c9d9b-4719-4236-9b16-55568e115efe</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[11]</value>
+      <webElementGuid>0e9b7478-26b8-42a4-9471-b4698e9e8c31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/h2/button/span/span</value>
-      <webElementGuid>3e625166-9022-44ff-89ec-ab4e3c5eaa61</webElementGuid>
+      <webElementGuid>f6d2924c-961d-4bea-ad5b-a62daa39ea2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                     ' or . = '
                         keyboard_arrow_down
                     ')]</value>
-      <webElementGuid>2dfb0289-3b44-4f1f-938f-7252a7e21830</webElementGuid>
+      <webElementGuid>f23aadbb-b847-4575-8b98-73d92c32b6df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

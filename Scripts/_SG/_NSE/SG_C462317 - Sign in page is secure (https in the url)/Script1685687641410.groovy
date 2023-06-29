@@ -19,46 +19,45 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_SG/_General/_Login_sg'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/input__Search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/input__Search'), 
-    '2000')
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), '2000')
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_shopping_cart'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_ContinueShop'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_close'))
-
-WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input__Search'), 'oil')
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_ContinueShop'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_close'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
-WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input__Search'), 'renew')
+WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), 'oil')
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), 'renew')
 
 'prodcut search'
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
 'Return to shopping cart'
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_addQty'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_addQty'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_cartCheckout2'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_cartCheckout2'))
 
 now_url = WebUI.getUrl()
 
@@ -71,7 +70,7 @@ if (now_url != GlobalVariable.url_Checkout) {
     WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_cartCheckout'))
 }
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_keyboard_arrow_down'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down'))
 
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_'))
 

@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_JP/_General/_Login_jp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/input__Search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/input__Search'), 
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), 
     '2000')
 
 WebUI.waitForAlert(5)
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_cartCheckout'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_close'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down'))
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down2'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_'))
 
