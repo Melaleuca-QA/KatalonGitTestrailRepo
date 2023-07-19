@@ -20,23 +20,23 @@
       <name>test_case2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>valenatw</description>
+      <description>12100466253</description>
       <initValue>'valenatw'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>tw_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>gold</description>
+      <description>12102161574</description>
       <initValue>'gold'</initValue>
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>tw_input_password2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -45,8 +45,8 @@
       <name>tw_input_newname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>tw_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,12 +75,12 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk1,hkpdtest</description>
+      <description>hk1(13100408121), hkpdtest(13100052276)</description>
       <initValue>'hkpdtest'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password1</name>
    </GlobalVariableEntity>
@@ -90,7 +90,7 @@
       <name>hk_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password2</name>
    </GlobalVariableEntity>
@@ -100,8 +100,8 @@
       <name>hk_input_newname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>hk_input_newpswd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -241,7 +241,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://tw.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
       <name>url_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -391,7 +391,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/Index'</initValue>
+      <initValue>'https://hk.melaleuca.com/BusinessCenter/FollowUp/index'</initValue>
       <name>url_hk_FollowUp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -428,5 +428,10 @@
       <description></description>
       <initValue>'https://hk.melaleuca.com/businesscenter/whichproducts'</initValue>
       <name>url_hk_whichproducts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hk.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_CheckoutPromo_hk</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

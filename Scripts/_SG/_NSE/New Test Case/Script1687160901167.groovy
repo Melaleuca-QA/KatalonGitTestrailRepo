@@ -19,89 +19,72 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_SG/_General/_Login_sg'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), 
-    '2000')
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2 (1)'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_shopping_cart (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_ContinueShop (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_close (1)'))
-
-WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input__Search (1)'), 'oil')
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2 (1)'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_shopping_cart (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_ContinueShop (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_close (1)'))
-
-WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input__Search (1)'), 'renew')
+WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), '2000')
 
 'prodcut search'
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/input__Search2 (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), 'oil')
+
+'prodcut search'
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), 'renew')
+
+'prodcut search'
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
 'Return to shopping cart'
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_shopping_cart (1)'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_add'))
+WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_add'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_PROCEED TO CHECKOUT'))
+WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_PROCEED TO CHECKOUT'))
 
-//WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
-//WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_keyboard_arrow_down'))
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With (2)'))
+WebUI.click(findTestObject('OB_NSE/Page_/a_Continue To Checkout'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_ADD NEW PAYMENT METHOD (2)'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_Pay With'))
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber (2)'), 
-    '4485198017122944')
+WebUI.click(findTestObject('OB_NSE/Page_/a_ADD NEW PAYMENT METHOD'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/select_Month                    01         _758b39 (2)'), 
-    '01', true)
+WebUI.waitForAlert(5)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/select_Year                    2023        _f8c894 (2)'), 
-    '2040', true)
+WebUI.setText(findTestObject('OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), '4485198017122944')
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/button_Save (2)'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/select_Month'), '01', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/select_Year'), '2040', 
+    true)
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/label_Make this my Default Payment Method'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/button_Save'))
 
 WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
 
-WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input_CVV_cvvCode (2)'), '123')
+WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input_CVV_cvvCode'), '123')
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Place Order (1)'))
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Place Order'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Place Order_1'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_No Thanks (2)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Cancel (2)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Cancel Order (2)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/img_See All_o-myAccPopup__icon loaded (2)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Go To My Account (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_My Account/a_Payment  Addresses (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/button_Delete (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/button_Delete_1 (1)'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/button_ORDERS'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/a_Order History'))
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_No Thanks'))
 

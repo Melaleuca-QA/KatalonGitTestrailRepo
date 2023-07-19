@@ -6,12 +6,12 @@
    <elementGuidId>32bbd8a2-7660-4eaf-8579-a4cebf2c6f7a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.a-button.-cartCheckout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1090df65-a588-4482-9728-765fba249f4f</webElementGuid>
+      <webElementGuid>bfa020cf-80f6-4611-9508-a7585ae50408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f78c3bcf-9369-4bfa-b5a3-ece5e824acfd</webElementGuid>
+      <webElementGuid>5468a4d0-e8bf-4510-b695-0a860a537a94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button -cartCheckout</value>
-      <webElementGuid>d35228ea-9a41-4200-8267-32fe7042a287</webElementGuid>
+      <webElementGuid>b0c80284-d010-4827-a1ab-b45fd35e5371</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
     
     Place Order</value>
-      <webElementGuid>daa24416-cc93-44b0-8531-443e7fde37ab</webElementGuid>
+      <webElementGuid>9b26e9c1-76ff-4c44-b55f-983eb6ab4908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__side&quot;]/div[3]/div[1]/button[@class=&quot;a-button -cartCheckout&quot;]</value>
-      <webElementGuid>da5a8c17-2a17-49a5-9681-a0e2acf0f1d1</webElementGuid>
+      <webElementGuid>c9e02e5a-866f-4c42-805b-6a5dc28a0d0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>f0bb4533-29d9-45cd-aff6-6109502754f8</webElementGuid>
+      <webElementGuid>f1d88e07-a504-4d8f-af64-57894c37045f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div/div[3]/div[2]/div[3]/div/button</value>
-      <webElementGuid>715d97da-318a-47dd-bf95-b11972ca1d88</webElementGuid>
+      <webElementGuid>db8e81cd-5fcf-4b09-9066-fea185bd9681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,15 +80,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Points'])[1]/following::button[1]</value>
-      <webElementGuid>6c5b907d-98c7-4a34-b073-def335dc4ce5</webElementGuid>
+      <webElementGuid>a962a600-5c2d-4cc4-9858-14e44dba7394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$19.61'])[1]/following::button[1]</value>
-      <webElementGuid>8dcb872b-14ca-4eff-90fc-31b817da5b39</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$91.55'])[1]/following::button[1]</value>
+      <webElementGuid>30afaa8c-8947-4646-8d18-e34fd8147b66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='As a Member,'])[1]/preceding::button[1]</value>
-      <webElementGuid>552399b2-0a7e-4fdb-ab12-cc77f0075b5e</webElementGuid>
+      <webElementGuid>d97369dd-7922-47f3-95be-8bb1ffbd7c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/div/button</value>
-      <webElementGuid>097d1edb-4a36-463b-a224-5c4a02690fa4</webElementGuid>
+      <webElementGuid>ec5fab60-7ac7-4303-a4fb-4f501e777f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
     Place Order' or . = '
     
     Place Order')]</value>
-      <webElementGuid>33b715a3-559c-4246-9d7b-62865f1bfe28</webElementGuid>
+      <webElementGuid>27e83237-e620-4c8a-8f6d-6b5b8ec5587d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

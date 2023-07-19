@@ -55,11 +55,13 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), Fail
 WebUI.waitForAlert(5)
 
 'Return to shopping cart'
-WebUI.click(findTestObject('Object Repository/_OB_NSE/Page_/span_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_add'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_PROCEED TO CHECKOUT'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/a_Continue To Checkout'))
 
 //WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
 //WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_keyboard_arrow_down'))

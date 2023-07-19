@@ -159,7 +159,7 @@ if (now_lsd.toInteger() > cal_lsd) {
     }
 }
 
-now_cal_lsd = cal_lsd
+now_cal_lsd = cal_lsd.toInteger()
 
 now_cal_lsd = now_cal_lsd.toString()
 

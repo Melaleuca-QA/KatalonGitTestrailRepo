@@ -46,7 +46,7 @@ now_url = WebUI.getUrl()
 println(now_url)
 
 'CheckoutPromo Page'
-if (now_url == GlobalVariable.url_CheckoutPromo) {
+if (now_url == GlobalVariable.url_CheckoutPromo_hk) {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 }
 

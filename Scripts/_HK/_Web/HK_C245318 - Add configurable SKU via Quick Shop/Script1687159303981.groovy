@@ -144,7 +144,8 @@ println(now_lsd)
 
 switch (true) {
     case (new_now_date >= new_lsd_bdate1) && (new_now_date <= new_lsd_edate2):
-        cal_lsd = ((now_pp.toInteger() * 0.1) * 7) // PC * 10% * 7
+        cal_lsd = now_pp.toInteger() * 0.1 * 7 // PC * 10% * 7
+		cal_lsd = Math.floor(cal_lsd/1.0)
         break
     default:
         cal_lsd = 0 // PC * 0% * 7
@@ -153,17 +154,15 @@ switch (true) {
 
 //計算Earned LSD lock_rate//
 if (now_lsd.toBigDecimal() > cal_lsd) {
-	cal_lsd1 = Math.floor((now_pp.toInteger() * 0.1) * 7) // PC * 10% * 7
+	cal_lsd1 = now_pp.toInteger() * 0.1 * 7 // PC * 10% * 7
+	cal_lsd1 = Math.floor(cal_lsd/1.0)
 	println(cal_lsd1)
 	if (now_lsd.toBigDecimal() == cal_lsd1) {
 		cal_lsd = cal_lsd1
 	}
 }
 
-now_cal_lsd = cal_lsd
-
-now_cal_lsd = now_cal_lsd.toString()
-
+now_cal_lsd = cal_lsd.toString()
 println(now_cal_lsd)
 
 'Check Earded LSD Amount in order receipt'
