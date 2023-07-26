@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>11034,11093</description>
-      <initValue>'11034'</initValue>
+      <description>11093,11141</description>
+      <initValue>'11141'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -378,5 +378,10 @@
       <description></description>
       <initValue>'13100179333'</initValue>
       <name>hk_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_CheckoutPromo_hk</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
