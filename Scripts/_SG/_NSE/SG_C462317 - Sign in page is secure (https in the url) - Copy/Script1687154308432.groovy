@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'get credit card number'
+WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('_SG/_General/_Login_sg'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), FailureHandling.STOP_ON_FAILURE)
@@ -61,6 +64,8 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_add
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_PROCEED TO CHECKOUT'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_NSE/Page_/a_Continue To Checkout'))
 
 //WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
@@ -71,8 +76,9 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_ADD NEW PAYMENT MET
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), '4485198017122944')
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), GlobalVariable.hk_input_creditcard)
 
+'error here'
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Month'), '01', true)
 
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2025', true)
@@ -99,6 +105,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_ORDERS'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_Order History'))
 
+'OB_Jill here'
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Order History/a_Overview'))
 
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_My Account/a_Order History'))

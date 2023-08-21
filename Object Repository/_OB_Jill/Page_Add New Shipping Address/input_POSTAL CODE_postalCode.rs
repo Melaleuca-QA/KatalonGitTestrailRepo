@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__Search (1)</name>
+   <name>input_POSTAL CODE_postalCode</name>
    <tag></tag>
-   <elementGuidId>4571f913-a982-4aca-9ffe-cddc024b169c</elementGuidId>
+   <elementGuidId>1586c77c-e4d4-421c-bf98-db0ebba66547</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='Search']</value>
+         <value>(//input[@id='postalCode'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;Search&quot;]</value>
+         <value>div.o-addressForm__field.-postalCode.-singapore > #postalCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>30dad213-c6ee-44e1-ad2f-f14373903b1d</webElementGuid>
+      <webElementGuid>0d1fb349-c988-424a-b2d8-b0175f78da12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>b13956f1-616b-4aa2-83b3-5e59a9694a75</webElementGuid>
+      <value>postalCode</value>
+      <webElementGuid>381e1337-0759-4327-8440-dd3720316d2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>904b8a75-4e72-4334-9238-9c29c4212634</webElementGuid>
+      <value>postalCode</value>
+      <webElementGuid>a6a6fc7f-1447-46f7-abbc-18d16100f4af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>検索</value>
-      <webElementGuid>ce1f4b55-0642-4347-945d-f35cd9aea387</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-placeholder</name>
-      <type>Main</type>
-      <value>ここに必要なものを入力し、次のボタンに進んでください。</value>
-      <webElementGuid>56906fe9-1f09-4f6f-84c9-cf30fbca8f23</webElementGuid>
+      <value>text</value>
+      <webElementGuid>ae4581d8-8401-40fb-8a3d-e6e541d3a54d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-searchBar__input</value>
-      <webElementGuid>a50cbbfd-4edd-4509-8052-8411958ee0d2</webElementGuid>
+      <value>a-input -text</value>
+      <webElementGuid>f7aad665-830e-441f-a83d-7e29743865db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>vmodel</name>
+      <type>Main</type>
+      <value>postalCodeData</value>
+      <webElementGuid>a545ec9e-e0e5-4617-8ca1-a42d17d9d29d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>postalCodeErrorMsg</value>
+      <webElementGuid>19e6e7cb-7ce5-4ef1-9d63-d002ef27f6a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
-      <webElementGuid>e57bfa11-7681-4bcc-aa31-0520f317965c</webElementGuid>
+      <value>id(&quot;address-form-vue&quot;)/div[@class=&quot;w-full flex flex-col lg:flex-row&quot;]/div[@class=&quot;w-full lg:w-1_2 lg:pr-20&quot;]/div[@class=&quot;o-addressForm__addressContainer items-end&quot;]/div[@class=&quot;o-addressForm__field -postalCode -singapore&quot;]/input[@id=&quot;postalCode&quot;]</value>
+      <webElementGuid>c847ff03-467d-44b5-a8b4-2db7bd4a5d43</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='Search']</value>
-      <webElementGuid>a3af0e0c-b48d-4694-b383-a083cb556282</webElementGuid>
+      <value>(//input[@id='postalCode'])[2]</value>
+      <webElementGuid>cd0bfc7d-1821-430c-b91d-0c60bc4a73b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='search-bar']/input</value>
-      <webElementGuid>725e3296-3099-4ea9-91c6-aeae5d809d66</webElementGuid>
+      <value>//form[@id='address-form-vue']/div/div/div[9]/div[2]/input</value>
+      <webElementGuid>a7b5e418-bd6c-4931-813b-f55d7ea67b6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>d6a154fa-6352-449f-9e32-0e2b5980de60</webElementGuid>
+      <value>//div[9]/div[2]/input</value>
+      <webElementGuid>7d27dc4a-84b1-47bb-b7ca-958e0f8ed8ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '検索']</value>
-      <webElementGuid>f7519671-9c7b-4de9-9249-d29e5e02ccdb</webElementGuid>
+      <value>//input[@id = 'postalCode' and @name = 'postalCode' and @type = 'text']</value>
+      <webElementGuid>731dd3b9-2b1e-497d-b209-9a1782bc0d18</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

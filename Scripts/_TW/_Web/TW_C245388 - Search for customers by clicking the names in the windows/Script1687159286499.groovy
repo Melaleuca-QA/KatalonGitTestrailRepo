@@ -33,7 +33,7 @@ WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 'FollowUpCenter'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_FollowUpCenter'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_/div_ChgEnrollee1'))
 
@@ -165,6 +165,9 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 
 '第3代'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
+
+'第4代'
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation4_1'))
 
 WebUI.waitForAlert(5)
 

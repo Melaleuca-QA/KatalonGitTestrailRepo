@@ -26,23 +26,23 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
     WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_link startEnrollmentLink'))
 
@@ -74,7 +74,7 @@ WebUI.verifyElementText(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_Sen
 
 WebUI.click(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_SendReminder'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
 
@@ -83,7 +83,7 @@ WebUI.verifyElementText(findTestObject('OB_Web/Page_Melaleuca The Wellness Compa
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_/i_fa fa-trash_ole'))
 
@@ -91,7 +91,7 @@ WebUI.click(findTestObject('OB_Web/Page_/i_fa fa-trash_ole'))
 
 WebUI.click(findTestObject('OB_Web/Page_/div_ole'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 

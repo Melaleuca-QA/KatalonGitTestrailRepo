@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_signon</name>
+   <name>a_Add New Shipping Address</name>
    <tag></tag>
-   <elementGuidId>e7d427bf-c7ef-49ed-a624-c4f377d1e274</elementGuidId>
+   <elementGuidId>f2283ae3-adad-4833-9f68-0b5c8f08040b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div/a</value>
+         <value>//main[@id='mainContent']/div/div/section[2]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.a-authorBtn.text-center.bg-white.rounded.py-12.text-xs.px-18</value>
+         <value>a.o-acctCardSection__addNewBtn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,116 +22,105 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e15f4df2-2332-49ac-bab6-a36bbd25392d</webElementGuid>
+      <webElementGuid>28a9c0ec-5bd8-41b1-a7b1-7b213d5af444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/depaccount/singlesignon</value>
-      <webElementGuid>d0e7a88d-fa49-41b9-982d-a88a30cab042</webElementGuid>
+      <value>/my-account/payments-and-addresses/add-new-shipping-address</value>
+      <webElementGuid>a2684bb5-cbdf-4673-b4d0-6c855d296e24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-authorBtn text-center bg-white rounded py-12 text-xs  px-18</value>
-      <webElementGuid>9d152d9d-8e89-4e24-be6c-b1559a003c1d</webElementGuid>
+      <value>o-acctCardSection__addNewBtn</value>
+      <webElementGuid>e9dbbc89-7fa4-4a52-9aa7-f960efeef28b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-ログイン
-</value>
-      <webElementGuid>ee13e133-4ed0-4df5-9a35-c033fad05d6c</webElementGuid>
+      <value>+Add New Shipping Address
+        </value>
+      <webElementGuid>18a309bc-b9f9-44ec-9956-1469a435f13d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[@class=&quot;&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/a[@class=&quot;a-authorBtn text-center bg-white rounded py-12 text-xs  px-18&quot;]</value>
-      <webElementGuid>18f4150e-922e-4ba8-a597-8fc25a573236</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-acctCardSection&quot;]/div[@class=&quot;lg:pr-20 lg:w-1_2&quot;]/a[@class=&quot;o-acctCardSection__addNewBtn&quot;]</value>
+      <webElementGuid>1315eef3-4e8a-45ec-a10a-db4591c753fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/a</value>
-      <webElementGuid>f947c73a-39c2-4dfc-8cbd-264267f8ce29</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'ログイン')])[2]</value>
-      <webElementGuid>a7742428-5295-4fc2-8f28-89aa78b05610</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/section[2]/div/a</value>
+      <webElementGuid>211e857c-7f3c-4480-9fa8-7d3281062470</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[2]/following::a[1]</value>
-      <webElementGuid>4b9f25eb-188b-42b9-9b4e-221d46987356</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You cannot delete a Default Address. Edit another address and make default.'])[1]/following::a[1]</value>
+      <webElementGuid>79ee81e9-9872-4e43-a939-c3dfdd675f23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[1]/following::a[2]</value>
-      <webElementGuid>bdba5c1e-c7f9-4a49-a5ee-9d36d5c2ba46</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::a[1]</value>
+      <webElementGuid>36d6f364-9859-4f89-93dd-459b8c655c2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本'])[3]/preceding::a[1]</value>
-      <webElementGuid>8d8e7e5b-7bd2-4204-a4f6-2c9a847698a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Commission Deposit Account'])[1]/preceding::a[1]</value>
+      <webElementGuid>915ff8ee-d79e-4df8-975d-35c16c7b013d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地域・言語'])[2]/preceding::a[1]</value>
-      <webElementGuid>24e559a8-3f7b-4c2f-b4d7-b8e45e0bd0a8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Add New Shipping Address']/parent::*</value>
+      <webElementGuid>e18db548-972e-4135-91c9-7e82891ab0bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/depaccount/singlesignon')])[2]</value>
-      <webElementGuid>fe8382af-049b-45ed-be11-c9816a3cbc92</webElementGuid>
+      <value>//a[contains(@href, '/my-account/payments-and-addresses/add-new-shipping-address')]</value>
+      <webElementGuid>8511caa2-8c2d-4fc4-8e67-c6274ebe2e67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/a</value>
-      <webElementGuid>581432c1-e4e9-4cb5-8a77-1a0f04993be1</webElementGuid>
+      <value>//section[2]/div/a</value>
+      <webElementGuid>419db554-a0ee-4225-b099-2fd4b8643460</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/depaccount/singlesignon' and (text() = '
-ログイン
-' or . = '
-ログイン
-')]</value>
-      <webElementGuid>adb70715-c5d0-4996-a510-c4c653578a18</webElementGuid>
+      <value>//a[@href = '/my-account/payments-and-addresses/add-new-shipping-address' and (text() = '+Add New Shipping Address
+        ' or . = '+Add New Shipping Address
+        ')]</value>
+      <webElementGuid>53ae7ffc-6c86-4046-bbd2-9030e6828244</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

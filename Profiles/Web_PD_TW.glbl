@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>10999,11034</description>
-      <initValue>'11034'</initValue>
+      <description>11141,11034</description>
+      <initValue>'11141'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>12102161574</description>
-      <initValue>'gold'</initValue>
+      <initValue>'0932926403'</initValue>
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -80,12 +80,12 @@
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>password</description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>hk_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>???</description>
       <initValue>'85290945056'</initValue>
       <name>hk_input_username2</name>
    </GlobalVariableEntity>

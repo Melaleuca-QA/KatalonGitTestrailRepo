@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Make this my Default Shipping Address</name>
+   <tag></tag>
+   <elementGuidId>8e182c9c-23e3-40ac-894c-6a53694be47c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='address-form-vue']/div[2]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.m-formField__label.-checkbox</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f24388d5-3477-4438-a240-3a6050824411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__VID__96__MelaId_lkkw7lbz__inputId</value>
+      <webElementGuid>52796a25-70e7-48ee-882c-e8a8de6157fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-formField__label -checkbox</value>
+      <webElementGuid>566114e8-cc29-4dbc-93a0-35b6cc947da4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Make this my Default Shipping Address </value>
+      <webElementGuid>4c8da352-1612-41e7-83c7-49fd8dfdec24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-form-vue&quot;)/div[@class=&quot;w-full&quot;]/div[@class=&quot;pb-24&quot;]/div[@class=&quot;m-formField -checkbox -center -padding-xs&quot;]/label[@class=&quot;m-formField__label -checkbox&quot;]</value>
+      <webElementGuid>f517184c-d776-4993-bf7f-8f2e188e2b5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='address-form-vue']/div[2]/div/div/label</value>
+      <webElementGuid>b3120521-a68d-427f-90c6-67e31ac185bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Optional)'])[5]/following::label[1]</value>
+      <webElementGuid>e0f9554e-5b48-482f-b277-76dbc314bbd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::label[1]</value>
+      <webElementGuid>94bb7723-37b0-4b39-ab4d-fbd02a8f6642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/label</value>
+      <webElementGuid>12fbd760-bd22-49e8-9981-eff39a760e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Make this my Default Shipping Address ' or . = 'Make this my Default Shipping Address ')]</value>
+      <webElementGuid>eea85a43-4836-4610-8fd8-08e8f55aa3d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_signon</name>
+   <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>e7d427bf-c7ef-49ed-a624-c4f377d1e274</elementGuidId>
+   <elementGuidId>7fcb55b4-78c7-47ac-95f3-584259106a3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div/a</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.a-authorBtn.text-center.bg-white.rounded.py-12.text-xs.px-18</value>
+         <value>button.o-addressForm__button.-save</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,24 +21,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>e15f4df2-2332-49ac-bab6-a36bbd25392d</webElementGuid>
+      <value>button</value>
+      <webElementGuid>d75140b4-86e4-4552-ba5e-f2aafd864ac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/depaccount/singlesignon</value>
-      <webElementGuid>d0e7a88d-fa49-41b9-982d-a88a30cab042</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>745d0539-3252-44b9-afff-521b87cccee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-authorBtn text-center bg-white rounded py-12 text-xs  px-18</value>
-      <webElementGuid>9d152d9d-8e89-4e24-be6c-b1559a003c1d</webElementGuid>
+      <value>o-addressForm__button -save</value>
+      <webElementGuid>843365f1-4755-47b8-93a2-b736d2cd0f9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,92 +46,92 @@
       <name>text</name>
       <type>Main</type>
       <value>
-ログイン
-</value>
-      <webElementGuid>ee13e133-4ed0-4df5-9a35-c033fad05d6c</webElementGuid>
+                    Save
+                </value>
+      <webElementGuid>00d42def-0b9f-44f0-bda8-e71c362ad374</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[@class=&quot;&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/a[@class=&quot;a-authorBtn text-center bg-white rounded py-12 text-xs  px-18&quot;]</value>
-      <webElementGuid>18f4150e-922e-4ba8-a597-8fc25a573236</webElementGuid>
+      <value>id(&quot;address-form-vue&quot;)/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex pb-30 to-xs:justify-between&quot;]/div[@class=&quot;text-center to-xs:w-1_2&quot;]/button[@class=&quot;o-addressForm__button -save&quot;]</value>
+      <webElementGuid>67d0b934-a522-4c1a-9b33-bb637ca3dd79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>5274745a-724f-47ab-9a8e-25bf454b7e56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/a</value>
-      <webElementGuid>f947c73a-39c2-4dfc-8cbd-264267f8ce29</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'ログイン')])[2]</value>
-      <webElementGuid>a7742428-5295-4fc2-8f28-89aa78b05610</webElementGuid>
+      <value>//form[@id='address-form-vue']/div[2]/div[2]/div[2]/button</value>
+      <webElementGuid>61b89db1-e483-43a8-82a2-700cb272fe5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[2]/following::a[1]</value>
-      <webElementGuid>4b9f25eb-188b-42b9-9b4e-221d46987356</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>f02d5048-8514-4910-a48b-482adaf2930a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[1]/following::a[2]</value>
-      <webElementGuid>bdba5c1e-c7f9-4a49-a5ee-9d36d5c2ba46</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make this my Default Shipping Address'])[1]/following::button[2]</value>
+      <webElementGuid>f619926e-b2ac-4fdf-968c-e9faf19db7bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本'])[3]/preceding::a[1]</value>
-      <webElementGuid>8d8e7e5b-7bd2-4204-a4f6-2c9a847698a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHARE YOUR FEEDBACK'])[1]/preceding::button[1]</value>
+      <webElementGuid>1d6c8a07-a9fc-489c-a3fd-05ffb3d74028</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='地域・言語'])[2]/preceding::a[1]</value>
-      <webElementGuid>24e559a8-3f7b-4c2f-b4d7-b8e45e0bd0a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>c07752dd-fa64-42bd-8441-41ac1a7b82a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/depaccount/singlesignon')])[2]</value>
-      <webElementGuid>fe8382af-049b-45ed-be11-c9816a3cbc92</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>a0c94f43-bd86-43b2-b67e-f9503a01c54c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/a</value>
-      <webElementGuid>581432c1-e4e9-4cb5-8a77-1a0f04993be1</webElementGuid>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>a9942b56-085a-4e01-8ffd-66afb68449a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/depaccount/singlesignon' and (text() = '
-ログイン
-' or . = '
-ログイン
-')]</value>
-      <webElementGuid>adb70715-c5d0-4996-a510-c4c653578a18</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = '
+                    Save
+                ' or . = '
+                    Save
+                ')]</value>
+      <webElementGuid>0590c766-df8d-4cce-bd3d-1f192fdcabcc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

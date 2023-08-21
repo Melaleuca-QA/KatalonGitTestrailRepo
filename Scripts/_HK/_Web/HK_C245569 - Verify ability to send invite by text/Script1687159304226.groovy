@@ -34,7 +34,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_link startEnrollmentLink'))
 
@@ -52,7 +52,7 @@ WebUI.click(findTestObject('OB_Web/Page_/label_BusinessCenter_OLE_chkCommunicati
 
 WebUI.click(findTestObject('OB_Web/Page_/div_BusinessCenter_OLE_SendText'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_OLE_OKsent'))
 
@@ -64,7 +64,7 @@ WebUI.verifyElementText(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_Sen
 
 WebUI.click(findTestObject('OB_Web/Page_/span_BusinessCenter_OLE_SendReminder'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'), FailureHandling.STOP_ON_FAILURE)
 
@@ -73,7 +73,7 @@ WebUI.verifyElementText(findTestObject('OB_Web/Page_Melaleuca The Wellness Compa
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ReSendReminder'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_/i_fa fa-trash_ole'))
 
@@ -81,7 +81,7 @@ WebUI.click(findTestObject('OB_Web/Page_/i_fa fa-trash_ole'))
 
 WebUI.click(findTestObject('OB_Web/Page_/div_ole'))
 
-WebUI.delay(3)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-sort'))
 

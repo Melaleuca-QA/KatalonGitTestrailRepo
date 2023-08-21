@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_close (1)</name>
+   <name>button_close</name>
    <tag></tag>
    <elementGuidId>de42885c-92e0-42b7-8d67-4cc71a60c1d8</elementGuidId>
    <selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3f70a35e-51d3-4625-96d6-6a2b4e6760d8</webElementGuid>
+      <webElementGuid>edb37832-88dc-4891-8dee-bbcfd6f5e591</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>検索ワードをクリア</value>
-      <webElementGuid>b17ace61-1f25-4175-8f22-6615e0bd5bc5</webElementGuid>
+      <webElementGuid>cbe5143e-2e06-4280-8c50-02e3164611b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-searchBar__clear</value>
-      <webElementGuid>ab3cf0d7-56e8-4b59-bb6c-a6d2ae62e92b</webElementGuid>
+      <webElementGuid>cf9f59ff-3f79-4284-9569-4e8050563a18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>close</value>
-      <webElementGuid>d4decd82-19f8-4c5e-8826-2eddbd649f86</webElementGuid>
+      <webElementGuid>eae51897-ef18-4979-adc0-b04bf88cfa91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search-bar&quot;)/button[@class=&quot;o-searchBar__clear&quot;]</value>
-      <webElementGuid>76ade812-be4c-409a-b6fe-d72b1a5f1d66</webElementGuid>
+      <webElementGuid>0f81fdf7-bcbf-46a5-9e4f-814967e38229</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='search-bar']/button</value>
-      <webElementGuid>91a61ce0-29a3-485e-9a79-126d3aadbdb2</webElementGuid>
+      <webElementGuid>50eec26c-aaff-47ef-89ae-90baefab351a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ログアウト'])[1]/following::button[4]</value>
-      <webElementGuid>2ea31e38-45d5-4cf6-8032-cb0bf1d0b6e2</webElementGuid>
+      <webElementGuid>e7eeab87-b7ad-4f16-8c80-a0fdc4f9ce7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ヘルプセンター'])[1]/following::button[4]</value>
-      <webElementGuid>7c35cbf7-822e-4684-bac8-200d1c6bfbdf</webElementGuid>
+      <webElementGuid>23a10ac1-0e61-4bcb-b37d-54aa29b646fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='注文状況'])[2]/preceding::button[1]</value>
-      <webElementGuid>8aa6c266-317d-4952-a23c-2c8a7a69bb15</webElementGuid>
+      <webElementGuid>f81a06c2-e7fa-4b99-901a-aaa26deb2442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[3]</value>
-      <webElementGuid>e5246678-5df4-4b15-93cb-261a26b1f8bd</webElementGuid>
+      <webElementGuid>9b94810a-1ef3-4a56-886d-13a6959acbd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>69c9f2b6-dfb7-41f6-955c-0bce2a30678d</webElementGuid>
+      <webElementGuid>21b1948c-cc9d-4bd9-b5e8-592b4b113daf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'close' or . = 'close')]</value>
-      <webElementGuid>51a389aa-afbe-4b8a-b449-3f8bdb72c518</webElementGuid>
+      <webElementGuid>9676cf08-37d8-49ed-a2c5-06dff576b6be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
