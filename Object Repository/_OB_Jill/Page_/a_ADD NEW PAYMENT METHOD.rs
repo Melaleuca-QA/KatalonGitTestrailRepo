@@ -3,7 +3,7 @@
    <description></description>
    <name>a_ADD NEW PAYMENT METHOD</name>
    <tag></tag>
-   <elementGuidId>060c342c-10ec-4190-b32f-9a66b48f1076</elementGuidId>
+   <elementGuidId>272560bb-b576-4153-9767-29eb80339a31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ef9be311-d1c7-4316-91ee-df8860f64a5b</webElementGuid>
+      <webElementGuid>1671de86-84c6-4bb8-8923-9ec854a59ca7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/my-account/payments-and-addresses/add-new-payment-method?backTo=https://productstore2-uatsg.melaleuca.com/checkout&amp;fromCheckout=true&amp;location=checkout</value>
-      <webElementGuid>c849d65f-4398-47d7-92d0-485f9d82d278</webElementGuid>
+      <webElementGuid>b102fe75-aaee-4807-9e9a-db74a83762ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button -white rounded-md py-10 px-15 md:px-20 text-sm md:text-base font-medium tracking-wide mt-6 mb-20 md:mb-0</value>
-      <webElementGuid>9e2ef2d6-eb36-4ffd-9522-46476826e91d</webElementGuid>
+      <webElementGuid>80147a5b-3bc1-40a7-87ea-fb7cd72da1d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
 
                                     + ADD NEW PAYMENT METHOD
                                 </value>
-      <webElementGuid>d5b4ee51-019e-477a-bc26-dd54ffe3c396</webElementGuid>
+      <webElementGuid>d7211d84-d388-4909-8a6a-ae3d6712cf44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__VID__49__MelaId_lj2h8dir__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__action&quot;]/div[@class=&quot;flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center&quot;]/a[@class=&quot;a-button -white rounded-md py-10 px-15 md:px-20 text-sm md:text-base font-medium tracking-wide mt-6 mb-20 md:mb-0&quot;]</value>
-      <webElementGuid>2ca51d7d-8c8e-435f-bea8-868bb38d269c</webElementGuid>
+      <webElementGuid>ccb5e97c-7aab-4aa5-aaa3-1ae88b5814d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__VID__49__MelaId_lj2h8dir__accordionId']/div/div[2]/div/a</value>
-      <webElementGuid>330312ea-9e9b-4849-a199-a1df5a2ff79f</webElementGuid>
+      <webElementGuid>3003a991-b179-4155-9b85-982a89e6ad28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'+ ADD NEW PAYMENT METHOD')]</value>
-      <webElementGuid>8e2fd98f-7d0c-4c35-baa7-551b7773729b</webElementGuid>
+      <webElementGuid>b6f487b0-728e-45f3-ac07-6cb51946cd54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
-      <webElementGuid>742b017f-f6eb-48cc-a868-cb9b6b7471ce</webElementGuid>
+      <webElementGuid>8eb3d496-5d12-4a18-82bd-b7ae6db8cd00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Payment Methods'])[1]/preceding::a[1]</value>
-      <webElementGuid>b6ae9cca-f3be-479b-9c29-422cdacd87f7</webElementGuid>
+      <webElementGuid>1837fd6a-d89e-4e00-a512-184b45765534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Security code'])[1]/preceding::a[2]</value>
-      <webElementGuid>3cc49177-4832-476d-9f51-054796bd9e2d</webElementGuid>
+      <webElementGuid>4f499649-fedf-4ef9-9080-dec7fee86ccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='+ ADD NEW PAYMENT METHOD']/parent::*</value>
-      <webElementGuid>0f27274a-b9d3-4ce4-a30c-78446c0ecc6f</webElementGuid>
+      <webElementGuid>8c4852de-bb3a-43b2-8ab9-c26c825d2640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/my-account/payments-and-addresses/add-new-payment-method?backTo=https://productstore2-uatsg.melaleuca.com/checkout&amp;fromCheckout=true&amp;location=checkout')]</value>
-      <webElementGuid>5f487644-4b83-40cd-b5c2-e2add8f3cd74</webElementGuid>
+      <webElementGuid>c8a16bf2-ad46-46e3-a626-1e62a78bd8ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/div/div/div[2]/div/a</value>
-      <webElementGuid>8c8176dd-1c0b-448f-9731-382f08d3d657</webElementGuid>
+      <webElementGuid>3096e77d-f9f8-4562-aded-2fbb9eb7cb83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
 
                                     + ADD NEW PAYMENT METHOD
                                 ')]</value>
-      <webElementGuid>ba3a2f8f-bfa5-468e-89b8-ed8b45d4f31d</webElementGuid>
+      <webElementGuid>a3e27782-045a-4bd3-bb03-44e6e433b791</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

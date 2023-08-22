@@ -3,7 +3,7 @@
    <description></description>
    <name>button_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>d3bbbd11-1205-48f8-81e1-0b6dcaefde24</elementGuidId>
+   <elementGuidId>a7be210a-e95b-41b9-bdd4-ef0266de9ce3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2fe89eec-15b0-47b3-84f3-41936c497064</webElementGuid>
+      <webElementGuid>71afb360-affc-4c82-9b13-ec5c52f63bf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cc09b0b0-43d4-43cc-97df-51b4a1b129fd</webElementGuid>
+      <webElementGuid>71d39c9e-1aa6-4796-9393-68705af6af1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>プロヴェックス ＣＶボタンを選択</value>
-      <webElementGuid>ce1c77ab-a514-4c86-a1e3-99e21ca023ca</webElementGuid>
+      <webElementGuid>15b860c1-ef92-40e7-a098-a45d670b9413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3e098eb2-431d-43fc-8032-7e10d02a2535</webElementGuid>
+      <webElementGuid>5a7baf2c-2cfe-420b-be34-09d6560d3d59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button justify-center -shelfToggle w-full</value>
-      <webElementGuid>7b99fc7f-3af1-4579-99b0-7e69f7382755</webElementGuid>
+      <webElementGuid>a2a921e1-705d-4545-abf4-8b0aaeaedb29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <value>+ shopping_cart 
                             選択
                          </value>
-      <webElementGuid>c1681300-85fd-4ce9-b777-2403cddafa05</webElementGuid>
+      <webElementGuid>4cecac6e-321d-47a1-9b0f-953648404db1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Product-tab&quot;)/div[@class=&quot;o-searchResults__results&quot;]/ul[@class=&quot;o-searchResults__grid&quot;]/li[@class=&quot;o-searchResults__col -Product&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]</value>
-      <webElementGuid>3cbba781-3bb6-447d-9252-a866ec36afb9</webElementGuid>
+      <webElementGuid>6b3b959c-562a-4aef-b4c8-bde655e679fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>146f190c-f631-4ce0-933e-fa92244c366b</webElementGuid>
+      <webElementGuid>d3304dd7-857d-46db-836f-680ffaf8af2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Product-tab']/div[2]/ul/li/article/div/div/button</value>
-      <webElementGuid>a0c6528f-7e0a-4d88-a391-b2dae35c1fcc</webElementGuid>
+      <webElementGuid>10c2a017-0025-4c5b-91f3-7413fbee6e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='普通'])[1]/following::button[1]</value>
-      <webElementGuid>55d495d9-f5a8-48ec-9d0a-e9ae6ed61f3c</webElementGuid>
+      <webElementGuid>659d8d71-190f-4f71-a9cb-8db7e03b8940</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='￥4,420'])[1]/following::button[1]</value>
-      <webElementGuid>3dc15566-3656-4a9f-9b15-5f569e305372</webElementGuid>
+      <webElementGuid>0dfee7f8-fef5-4ccf-8b0a-0c8b9996812d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//article/div/div/button</value>
-      <webElementGuid>51775722-18db-4b20-bbd7-07e3aca76587</webElementGuid>
+      <webElementGuid>c82fa92b-aceb-4097-a565-bf6b48c88d6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +124,6 @@
                          ' or . = '+ shopping_cart 
                             選択
                          ')]</value>
-      <webElementGuid>5905686f-5277-4ac8-8ca3-fe98f17cfedb</webElementGuid>
+      <webElementGuid>a8aa274d-21d3-447c-b132-3efba79be6d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

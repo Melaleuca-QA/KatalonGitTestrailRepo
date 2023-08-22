@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Delete_1</name>
    <tag></tag>
-   <elementGuidId>eea09e19-f86c-4322-bb1a-c6ea12022c08</elementGuidId>
+   <elementGuidId>e5c03b64-2b6a-42f1-8756-20baf45ea48f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5748fbaf-0281-4d58-b100-b4334f2dc43c</webElementGuid>
+      <webElementGuid>645328eb-138d-4377-adc3-7e6159335e79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1c3e469d-63e9-4d46-94b6-2bd64c278295</webElementGuid>
+      <webElementGuid>3c9b3f43-86c7-43fc-9559-2affb5478f2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button -green -full</value>
-      <webElementGuid>c2e50cba-0fed-4f77-97a2-c391930c5be5</webElementGuid>
+      <webElementGuid>8f4b4c72-59f5-497a-8918-c0ccf3162047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
     
     Delete</value>
-      <webElementGuid>c91bcfb0-59a3-40cb-85b7-8447ddedf6c7</webElementGuid>
+      <webElementGuid>ebf75ceb-1197-43b2-932a-7063c460dcd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vApp&quot;)/div[@class=&quot;o-modal -isVisible&quot;]/div[@class=&quot;o-modal__dialog&quot;]/div[@class=&quot;o-modal__content&quot;]/div[@class=&quot;o-modal__footer&quot;]/div[@class=&quot;flex w-full&quot;]/div[@class=&quot;o-acctCardSection__modalBtn -primary&quot;]/button[@class=&quot;a-button -green -full&quot;]</value>
-      <webElementGuid>45149d46-6f7e-44fe-8d5d-03f992b578fd</webElementGuid>
+      <webElementGuid>e4d7fa89-aec3-42c9-8ee5-384340ac3921</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>c688307a-7555-4fc1-b46e-a9a94cc5c80b</webElementGuid>
+      <webElementGuid>6696ae89-3f97-4c26-8176-366f395f993c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vApp']/div[2]/div/div[2]/div[3]/div/div[2]/button</value>
-      <webElementGuid>913156a5-73ee-49f7-a77b-71e0192c5acf</webElementGuid>
+      <webElementGuid>96bc6996-d85f-42a2-8a02-d18da8dd20bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>e5d5603e-e5f2-462e-9036-5df33ed126ba</webElementGuid>
+      <webElementGuid>de562c70-3f71-4ebe-8be4-80cb37139d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure?'])[1]/following::button[2]</value>
-      <webElementGuid>67f98568-7037-4448-8871-5f511c8ac0f0</webElementGuid>
+      <webElementGuid>ae696dfa-817c-4a54-b5dc-01e554296a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shelf Heading'])[1]/preceding::button[2]</value>
-      <webElementGuid>8f511060-69e4-47f0-bb06-8bc5dd40fccf</webElementGuid>
+      <webElementGuid>0d899b90-ac72-4a6f-a031-f3e3234fdbe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/button</value>
-      <webElementGuid>7100d934-5b1d-4fab-b74f-bd63459a664d</webElementGuid>
+      <webElementGuid>83c177ea-fa40-486b-b608-dc234c23b2ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
     Delete' or . = '
     
     Delete')]</value>
-      <webElementGuid>11462749-dbf5-45a7-bc1d-96ce37e3d633</webElementGuid>
+      <webElementGuid>44af89df-7662-4214-9ef6-101c855fb9a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

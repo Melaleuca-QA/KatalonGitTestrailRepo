@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Search</name>
    <tag></tag>
-   <elementGuidId>4571f913-a982-4aca-9ffe-cddc024b169c</elementGuidId>
+   <elementGuidId>fa953df4-6b0d-4885-a2aa-10de1306d7b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a6c92de0-650d-4231-94aa-931f9aa62f71</webElementGuid>
+      <webElementGuid>c0e11d40-c489-453a-96c6-8ae8c52b2e7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>39c47216-7239-4819-b6a8-c9f574b8bc8c</webElementGuid>
+      <webElementGuid>f35dfdec-9f2d-44ce-bd54-b7bf4dd5c321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>a0c55ae7-f075-4460-872c-5116fbc51cff</webElementGuid>
+      <webElementGuid>b05f41e7-f2ce-4253-9a74-88d8718b0005</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>検索</value>
-      <webElementGuid>becfe72c-ad06-40eb-83ae-196669a9ed1c</webElementGuid>
+      <webElementGuid>cb72aca6-0226-48a8-b912-81f9f5f4533c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-placeholder</name>
       <type>Main</type>
       <value>ここに必要なものを入力し、次のボタンに進んでください。</value>
-      <webElementGuid>0fa3f330-2df8-4e9c-9011-5ac23a24c151</webElementGuid>
+      <webElementGuid>8b039d24-4fbb-44cd-8dd0-a18525afdde6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-searchBar__input</value>
-      <webElementGuid>f933d10c-e2cd-48f7-a4a7-fd144826334b</webElementGuid>
+      <webElementGuid>db0f4068-1cbc-4994-890b-813d4c866837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
-      <webElementGuid>d8279c1a-e1be-48d8-8594-30703d3a42d7</webElementGuid>
+      <webElementGuid>f4bbae9b-4f47-4172-a62b-2509a9dde2ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='Search']</value>
-      <webElementGuid>c19dea38-e9e8-4de5-8b40-481e6086fca3</webElementGuid>
+      <webElementGuid>9dd1a0d6-f70d-45a8-9675-a1c51544bc80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='search-bar']/input</value>
-      <webElementGuid>d8a9891c-67de-49e6-b2fc-0c7ea0c9b53f</webElementGuid>
+      <webElementGuid>f344abd1-53e5-4a6c-b9cd-7560619c5eaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>183467a3-b3da-4eb7-aee8-050d48cc9502</webElementGuid>
+      <webElementGuid>aec6ece9-b443-49fd-9d7c-5cabb6e0fad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '検索']</value>
-      <webElementGuid>fd437e72-bdc5-4dab-9f51-c66ff1da05dc</webElementGuid>
+      <webElementGuid>dcccc3e4-fc83-40bc-b6f6-92285a88560d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

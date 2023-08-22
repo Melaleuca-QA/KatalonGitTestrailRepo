@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>56e9f03b-e326-4663-a9d5-69781756b8c6</webElementGuid>
+      <webElementGuid>dc2e5f4e-c8a5-47b8-8b1c-8f46cedfaf13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>material-icons m-cartIcon__icon</value>
-      <webElementGuid>e5b8f495-47c0-4a4c-a298-d296b26651ff</webElementGuid>
+      <webElementGuid>a4a03126-56a7-431b-a959-404039f01f00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>
         shopping_cart
     </value>
-      <webElementGuid>dff39644-8982-4a6c-be01-625531b7026a</webElementGuid>
+      <webElementGuid>2121fa1a-2892-4df0-9cfc-680c8684e26c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/a[@class=&quot;m-cartIcon&quot;]/span[@class=&quot;material-icons m-cartIcon__icon&quot;]</value>
-      <webElementGuid>a61aae8d-d698-4536-ad9f-752c15182fd2</webElementGuid>
+      <webElementGuid>7ba1f9d5-b8c5-4682-877d-574dcf04ae48</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vApp']/div/header/div[2]/div[5]/a/span</value>
-      <webElementGuid>9eb413a4-e4da-4e8c-8dcb-753e78800b7d</webElementGuid>
+      <webElementGuid>80723597-b782-45bf-97f5-04996de54ea7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ログアウト'])[2]/following::span[1]</value>
-      <webElementGuid>82a6674a-1e6e-4dc7-b385-8f3a58af7161</webElementGuid>
+      <webElementGuid>110aed42-41b3-42ac-b3b9-ed757fa30c77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='マイアカウントへ'])[1]/following::span[1]</value>
-      <webElementGuid>78aad1d7-02f6-40a2-bb5b-7463e338268c</webElementGuid>
+      <webElementGuid>422fabdd-8097-4109-9666-d3b8f8639c31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='サプリメント'])[2]/preceding::span[2]</value>
-      <webElementGuid>57a80ebb-e2a8-4539-bcbf-bc4dc25075c5</webElementGuid>
+      <webElementGuid>a40b0371-0ee6-492e-8341-cb9b2a50ec55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='住居・洗濯・食器用洗剤'])[3]/preceding::span[2]</value>
-      <webElementGuid>d5207660-22f7-4697-b888-9899687bcf9e</webElementGuid>
+      <webElementGuid>a916aed9-93b6-42da-b125-0262a63f3cd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='shopping_cart']/parent::*</value>
-      <webElementGuid>7fec2a70-da72-4d67-ad4f-8571756c29d1</webElementGuid>
+      <webElementGuid>b75ba21e-9f21-4412-84e7-32326ddd0525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/a/span</value>
-      <webElementGuid>b9e86699-1081-4b87-914a-84a01b595a04</webElementGuid>
+      <webElementGuid>287d06cd-280f-4241-b835-cf0ac16871e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
     ' or . = '
         shopping_cart
     ')]</value>
-      <webElementGuid>ae5ba4b7-97ed-4661-a023-80db3a51a75d</webElementGuid>
+      <webElementGuid>88fb0f4a-d0da-423d-b140-e55a453039d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

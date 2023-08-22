@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Card Number_cardNumber</name>
    <tag></tag>
-   <elementGuidId>8aa64559-b23c-4122-8891-f4bf4cbc265a</elementGuidId>
+   <elementGuidId>551a2516-0d5c-495e-8fe8-e5b43f840242</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>981e1742-17d1-42c3-94cb-e1065ab4522d</webElementGuid>
+      <webElementGuid>b31da185-0581-40f7-bd92-0b2354840c16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ccn</value>
-      <webElementGuid>ce3e272a-ce98-446c-868d-167b8f5086ae</webElementGuid>
+      <webElementGuid>b5b2a065-55a5-423f-8c84-cf80c48213e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>cardNumber</value>
-      <webElementGuid>0f9ecd4d-a211-42a0-adcf-6307ee53f658</webElementGuid>
+      <webElementGuid>0427b51f-81d8-47c9-b8f6-a5ea2cbbb219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>16</value>
-      <webElementGuid>20b51c5f-94e3-4563-84a1-293cc8250513</webElementGuid>
+      <webElementGuid>b0d75f7d-0647-4243-915d-7963b6cae1af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>e410995f-0527-4382-8ca4-1324ae666678</webElementGuid>
+      <webElementGuid>b47f07df-cf10-4abf-af27-07a0b41e26a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>89923c38-46cd-4050-bfc4-1bd5375b8cf2</webElementGuid>
+      <webElementGuid>665f51fa-c75d-4fab-85a2-effb6d35ff3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a8ac60c7-31b2-4ee5-bd85-d9263a044d63</webElementGuid>
+      <webElementGuid>cfc6754a-649f-4d50-b01f-71a558ac5f7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-input -creditCard</value>
-      <webElementGuid>03608509-1e49-4060-8381-d969b58a7bb1</webElementGuid>
+      <webElementGuid>9e55fc3a-f490-4609-b668-f507b25b84f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ccn&quot;)</value>
-      <webElementGuid>b47cb9ac-1d63-48a0-b5cc-7bc5221038a7</webElementGuid>
+      <webElementGuid>07d4d215-8500-4c5a-9171-d1e3dfe01bb0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ccn']</value>
-      <webElementGuid>7072ae62-5944-492f-b727-40604b02eb6e</webElementGuid>
+      <webElementGuid>973fb574-1d8c-4e10-a19d-0d7f1fee81bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='payment-form']/div/div/div/div[2]/div/div/input</value>
-      <webElementGuid>f08efeb8-3b79-4b64-8ae2-e855fd44b53a</webElementGuid>
+      <webElementGuid>c3d24784-9f36-4cc5-8eeb-2d4fa741a308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/input</value>
-      <webElementGuid>a50499b8-13ea-441c-a7d4-920b018cd271</webElementGuid>
+      <webElementGuid>562b9551-7df9-4ad6-ba0b-4844175fed57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'ccn' and @name = 'cardNumber' and @type = 'text']</value>
-      <webElementGuid>a40b258c-29c1-4699-aebd-8cf75c9b9f96</webElementGuid>
+      <webElementGuid>df6ad934-e143-4042-8135-b5ce545cf2f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

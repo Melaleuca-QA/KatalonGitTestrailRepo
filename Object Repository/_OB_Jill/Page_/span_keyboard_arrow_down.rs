@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='__VID__49__MelaId_lj2h8dir__accordionId__toggler']/span/span</value>
+         <value>//button[@id='__VID__58__MelaId_llm2q0oa__accordionId__toggler']/span/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#__VID__49__MelaId_lj2h8dir__accordionId__toggler > span.o-checkoutAccordion__icon > span.a-icon.material-icons.-inherit.-transition</value>
+         <value>#__VID__58__MelaId_llm2q0oa__accordionId__toggler > span.o-checkoutAccordion__icon > span.a-icon.material-icons.-inherit.-transition</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f772c31f-6523-41cb-b2fd-3caa62fdaa80</webElementGuid>
+      <webElementGuid>547bc8af-8805-4767-8fb6-0f522d1dda88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ee7f0c55-69f4-40fc-acb4-d92128238227</webElementGuid>
+      <webElementGuid>9e26279a-ec74-447a-9f70-367d59f66a05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-icon material-icons -inherit -transition</value>
-      <webElementGuid>82a459af-7f06-48ef-9933-8c62290167ea</webElementGuid>
+      <webElementGuid>d1aa5ab3-75bc-4850-aebf-b1265e3d1a25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,39 +48,39 @@
       <value>
                         keyboard_arrow_down
                     </value>
-      <webElementGuid>76f9a9a1-de78-426a-b13a-fd0eade8d780</webElementGuid>
+      <webElementGuid>b84f3347-5bf9-41b7-97dd-ef5f22bf3844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__VID__49__MelaId_lj2h8dir__accordionId__toggler&quot;)/span[@class=&quot;o-checkoutAccordion__icon&quot;]/span[@class=&quot;a-icon material-icons -inherit -transition&quot;]</value>
-      <webElementGuid>5ac75a0a-ce20-48b2-b826-3487560c78b1</webElementGuid>
+      <value>id(&quot;__VID__58__MelaId_llm2q0oa__accordionId__toggler&quot;)/span[@class=&quot;o-checkoutAccordion__icon&quot;]/span[@class=&quot;a-icon material-icons -inherit -transition&quot;]</value>
+      <webElementGuid>aa533c1d-d8cb-477d-ba5f-526471063196</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='__VID__49__MelaId_lj2h8dir__accordionId__toggler']/span/span</value>
-      <webElementGuid>a2916138-c0bf-4c05-b613-d3c527542ac3</webElementGuid>
+      <value>//button[@id='__VID__58__MelaId_llm2q0oa__accordionId__toggler']/span/span</value>
+      <webElementGuid>f3aa0f60-c7fc-4954-bc3e-1d61cf567e99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='VisaCard'])[1]/following::span[4]</value>
-      <webElementGuid>c2530638-ae94-4be0-9e5b-11b2510c6c0f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[1]/following::span[3]</value>
+      <webElementGuid>2822b744-dedb-4a9a-ac54-3f9d9cbbc407</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay With'])[1]/following::span[9]</value>
-      <webElementGuid>77d2736e-7c23-435b-95f1-4b44cbee9fd6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VisaCard'])[1]/following::span[5]</value>
+      <webElementGuid>153aeb77-4822-4522-a5e6-53eb4e641982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,15 +88,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VisaCard'])[2]/preceding::span[1]</value>
-      <webElementGuid>a22cae94-16e8-4280-a591-6f8caa75f88f</webElementGuid>
+      <webElementGuid>c2753a6b-6d5e-4f5e-80d4-8df18c9eafa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[11]</value>
-      <webElementGuid>0e9b7478-26b8-42a4-9471-b4698e9e8c31</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[2]/preceding::span[2]</value>
+      <webElementGuid>1621ff80-9fd7-4f99-ad4f-4b96bc2e4399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/h2/button/span/span</value>
-      <webElementGuid>f6d2924c-961d-4bea-ad5b-a62daa39ea2c</webElementGuid>
+      <webElementGuid>600b6eb2-57c1-47e9-958a-ea11f4fa2d30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                     ' or . = '
                         keyboard_arrow_down
                     ')]</value>
-      <webElementGuid>f23aadbb-b847-4575-8b98-73d92c32b6df</webElementGuid>
+      <webElementGuid>78ca82bd-24d6-46b7-b890-49e24556bebf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

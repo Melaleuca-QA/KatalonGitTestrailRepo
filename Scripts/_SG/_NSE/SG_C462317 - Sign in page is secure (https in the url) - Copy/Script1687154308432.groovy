@@ -17,8 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'get credit card number'
-WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+'Recording mode'
+if (false) {
+    GlobalVariable.sg_input_creditcard = '4000176233801257'
+} else {
+    'get credit card number'
+    WebUI.callTestCase(findTestCase('_SG/_General/SG Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('_SG/_General/_Login_sg'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), Failu
 WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), '2000')
 
 'prodcut search'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search_icon'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
@@ -40,7 +45,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_Search'), 'oil')
 
 'prodcut search'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search_icon'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
@@ -53,7 +58,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 WebUI.setText(findTestObject('OB_NSE/Page_/input_Search'), 'renew')
 
 'prodcut search'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/input_Search2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OB_NSE/Page_/input_Search_icon'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(5)
 
@@ -76,14 +81,15 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_ADD NEW PAYMENT MET
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), GlobalVariable.hk_input_creditcard)
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), GlobalVariable.sg_input_creditcard)
 
-'error here'
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Month'), '01', true)
+WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Month'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2025', true)
+WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2028', true)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/button_Save'))
+WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_Save'))
+
+WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
 
 WebUI.waitForAlert(5)
 

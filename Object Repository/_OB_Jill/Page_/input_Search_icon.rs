@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Card Number_cardNumber</name>
+   <name>input_Search_icon</name>
    <tag></tag>
-   <elementGuidId>8aa64559-b23c-4122-8891-f4bf4cbc265a</elementGuidId>
+   <elementGuidId>56be9ba7-2b06-4202-bec1-594edc63037d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/section[1]/form/div[1]/div[1]/div[1]/div[2]/div/div/input</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[4]/div/button/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ccn</value>
+         <value>input[name=&quot;Search&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>981e1742-17d1-42c3-94cb-e1065ab4522d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ccn</value>
-      <webElementGuid>ce3e272a-ce98-446c-868d-167b8f5086ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>cardNumber</value>
-      <webElementGuid>0f9ecd4d-a211-42a0-adcf-6307ee53f658</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>16</value>
-      <webElementGuid>20b51c5f-94e3-4563-84a1-293cc8250513</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>14</value>
-      <webElementGuid>e410995f-0527-4382-8ca4-1324ae666678</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>89923c38-46cd-4050-bfc4-1bd5375b8cf2</webElementGuid>
+      <webElementGuid>917ac628-b1b1-469f-b2dc-0f6305f1805a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>a8ac60c7-31b2-4ee5-bd85-d9263a044d63</webElementGuid>
+      <value>search</value>
+      <webElementGuid>32341591-84e7-4bb8-ab89-bdab2bed063a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>0665d367-1a2a-4536-9877-17b0e51acecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>検索</value>
+      <webElementGuid>c9095ee1-9324-49a3-acf5-372339207c6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-placeholder</name>
+      <type>Main</type>
+      <value>ここに必要なものを入力し、次のボタンに進んでください。</value>
+      <webElementGuid>ff2e2fd5-bae3-4ebe-9811-f11c200a12f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-input -creditCard</value>
-      <webElementGuid>03608509-1e49-4060-8381-d969b58a7bb1</webElementGuid>
+      <value>o-searchBar__input</value>
+      <webElementGuid>a207f2d4-5155-4123-9aed-00f6d3130a86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ccn&quot;)</value>
-      <webElementGuid>b47cb9ac-1d63-48a0-b5cc-7bc5221038a7</webElementGuid>
+      <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
+      <webElementGuid>a86507e3-9ad1-4554-95c1-159f797d9826</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ccn']</value>
-      <webElementGuid>7072ae62-5944-492f-b727-40604b02eb6e</webElementGuid>
+      <value>//input[@name='Search']</value>
+      <webElementGuid>6a484465-404a-40dd-a794-a6651c1757f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='payment-form']/div/div/div/div[2]/div/div/input</value>
-      <webElementGuid>f08efeb8-3b79-4b64-8ae2-e855fd44b53a</webElementGuid>
+      <value>//form[@id='search-bar']/input</value>
+      <webElementGuid>0ac0af36-e9a1-4a1c-8a68-ab0bb5421b1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/input</value>
-      <webElementGuid>a50499b8-13ea-441c-a7d4-920b018cd271</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>0300903f-75db-4084-b963-d245734fbcff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'ccn' and @name = 'cardNumber' and @type = 'text']</value>
-      <webElementGuid>a40b258c-29c1-4699-aebd-8cf75c9b9f96</webElementGuid>
+      <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '検索']</value>
+      <webElementGuid>a77bdabc-00d9-4d39-8f7a-c3212b409793</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

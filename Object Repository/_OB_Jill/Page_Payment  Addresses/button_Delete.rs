@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>f46bf94b-c70c-4b23-8074-b1a3709bd641</elementGuidId>
+   <elementGuidId>9099b97b-92c7-40b5-9402-01a4e477048a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='mainContent']/div/div/section/ul/li[2]/div/div/ul/li[2]/button</value>
+         <value>//main[@id='mainContent']/div/div/section/ul/li[3]/div/div/ul/li[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2676dfee-c8d0-4b20-8699-4433c2cfff12</webElementGuid>
+      <webElementGuid>8ce53b94-dd69-44c5-b4dc-68f7e37390fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Delete payment method 6924</value>
-      <webElementGuid>76c7688f-4b67-4a65-ae51-6593ae452e94</webElementGuid>
+      <value>Delete payment method 1257</value>
+      <webElementGuid>890f2bea-df96-4af0-9a21-17ac11115eb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-acctCard__button</value>
-      <webElementGuid>a7643c48-ec37-4f14-a5e1-d2805e071d03</webElementGuid>
+      <webElementGuid>a63ed99f-ef51-418f-80f1-e499a77dd07c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
                     Delete
                 </value>
-      <webElementGuid>2c038c12-52a8-421d-ac1f-315c6a597534</webElementGuid>
+      <webElementGuid>0aac1fd0-f759-4a5a-af00-710e2e1e6554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,47 +56,47 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-acctCardSection&quot;]/ul[@class=&quot;o-acctCardSection__list&quot;]/li[@class=&quot;o-acctCardSection__col&quot;]/div[@class=&quot;m-acctCard&quot;]/div[@class=&quot;m-acctCard__card&quot;]/ul[@class=&quot;m-acctCard__actions&quot;]/li[2]/button[@class=&quot;m-acctCard__button&quot;]</value>
-      <webElementGuid>24b8d1dd-f042-44ce-8885-bdf60e058a85</webElementGuid>
+      <webElementGuid>8d4cb37c-d5a6-4ff4-9088-6f3d4c924ee3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/div/div/section/ul/li[2]/div/div/ul/li[2]/button</value>
-      <webElementGuid>0633527d-837f-45bb-8cbd-d493dbd5cc5f</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/section/ul/li[3]/div/div/ul/li[2]/button</value>
+      <webElementGuid>ed2a9931-36dd-4f01-8692-29f2a9ca21fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::button[1]</value>
-      <webElementGuid>5da08432-e418-4a51-8fe2-5c21a68af128</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::button[1]</value>
+      <webElementGuid>9d0bc9df-4652-44d2-939d-524435b1d293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Default'])[2]/preceding::button[1]</value>
-      <webElementGuid>6bf97811-1547-4813-900a-54b701fe315e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Default'])[3]/preceding::button[1]</value>
+      <webElementGuid>b3bffec5-d7a9-47c0-8917-66f4c4bec9d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You cannot delete a Default payment method. Edit another method and make default.'])[2]/preceding::button[2]</value>
-      <webElementGuid>12867b05-a4ac-4569-a3bf-fbae4e85d30d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You cannot delete a Default payment method. Edit another method and make default.'])[3]/preceding::button[2]</value>
+      <webElementGuid>15f02d2b-61e3-451c-9add-04edd205e3e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div/div/ul/li[2]/button</value>
-      <webElementGuid>d4ca6f46-ff37-4024-941b-9ad5c0214534</webElementGuid>
+      <value>//li[3]/div/div/ul/li[2]/button</value>
+      <webElementGuid>8b442bef-7730-48af-81da-dcc902740f53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +108,6 @@
                 ' or . = '
                     Delete
                 ')]</value>
-      <webElementGuid>34b70f15-907c-449d-918f-918f9f377027</webElementGuid>
+      <webElementGuid>8abb406c-debb-44e0-b3b0-18847ea30b2f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

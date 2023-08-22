@@ -57,7 +57,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_addQty'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/span_cartCheckout2'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_cartCheckout'))
 
 now_url = WebUI.getUrl()
 

@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>dcd23b3c-423e-40fc-a271-366f73b7ee47</elementGuidId>
+   <elementGuidId>4541d9f7-d3c8-461b-904a-e2fcd0984a66</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.a-button.o-payForm__save.-save</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button.o-payForm__save.-save</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>45dc2d9f-ea19-464b-bb85-ab1e67b013d7</webElementGuid>
+      <webElementGuid>10b6af30-173c-4b29-9bb9-4d5a3bdb7a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>29b4e86b-1795-4d5a-9da1-66b6a8ebc0f8</webElementGuid>
+      <webElementGuid>0410281e-a5d9-4156-bed3-59d39d8d8609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button o-payForm__save -save</value>
-      <webElementGuid>ea9f9f36-b326-41fd-a4e9-cdf7635adf1e</webElementGuid>
+      <webElementGuid>3dc3eeb6-52b7-40e2-8ff0-afa091ec569f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
     Save
     </value>
-      <webElementGuid>0af20668-bfd9-4cdd-9e07-8d56d63b5b16</webElementGuid>
+      <webElementGuid>a7210c85-7694-45c3-bb12-03452c6fa629</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payment-form&quot;)/div[@class=&quot;o-payForm__actions&quot;]/div[@class=&quot;o-payForm__row -actions flex-wrap&quot;]/div[@class=&quot;o-payForm__col -saveBtn to-md:w-full to-md:mr-0&quot;]/button[@class=&quot;a-button o-payForm__save -save&quot;]</value>
-      <webElementGuid>e3dcdd01-eb4c-4ab1-acaa-0ad9eb9bee38</webElementGuid>
+      <webElementGuid>961e419a-9bf5-4788-b445-b8f44886214b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>eb1b97bf-4705-4416-bf35-d05ef228b82d</webElementGuid>
+      <webElementGuid>2a03097e-3499-4870-b12b-c56ab5d0a3dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='payment-form']/div[2]/div/div[2]/button</value>
-      <webElementGuid>f132bcea-a750-473e-8bf8-7e2ab31858c2</webElementGuid>
+      <webElementGuid>41c4cc97-b893-448e-bc82-1c797ae86f01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>8396539d-5ef3-4970-a725-337a66805e7f</webElementGuid>
+      <webElementGuid>1f9e0ee3-d3b0-43f4-9696-5b6a60251fe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make this my Default Payment Method'])[1]/following::button[2]</value>
-      <webElementGuid>49e1c66d-c147-49af-85b0-a478f95735ce</webElementGuid>
+      <webElementGuid>6b7b125c-d419-44a1-8377-0061711af580</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SHARE YOUR FEEDBACK'])[1]/preceding::button[1]</value>
-      <webElementGuid>491d2290-e34f-4290-bb56-7e94ef7f0dce</webElementGuid>
+      <webElementGuid>24881565-4a19-40b5-94b7-da8dc0b3a9cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
-      <webElementGuid>cc9409a3-d27a-4e6e-9746-37fd6a40cefd</webElementGuid>
+      <webElementGuid>84a365c5-b07c-4d67-8cdb-96128efe1226</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>6b8ed42a-f826-4cc4-a6e8-54a7b54c7355</webElementGuid>
+      <webElementGuid>880a806a-ac1c-43b6-99a0-2932eadfdfc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/button</value>
-      <webElementGuid>1fed7a20-8cb4-4e82-806e-f5be4f3617d8</webElementGuid>
+      <webElementGuid>bf43e700-46cb-4a98-bd59-732c3e86b1a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,6 +132,6 @@
     ' or . = '
     Save
     ')]</value>
-      <webElementGuid>1540b6a0-66ac-45fb-af8b-541cdeb147d5</webElementGuid>
+      <webElementGuid>9c1c0cbe-2527-4751-b50e-718ce3458505</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

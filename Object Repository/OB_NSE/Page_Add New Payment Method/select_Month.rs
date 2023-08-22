@@ -3,74 +3,15 @@
    <description></description>
    <name>select_Month</name>
    <tag></tag>
-   <elementGuidId>e24da8dd-e44c-48ed-9b06-cf68a31fd0b5</elementGuidId>
+   <elementGuidId>b968ee8e-71fb-44d8-8234-f9ca6a3d77e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'select-expmonth' and (text() = '
-            Month
-        
-            01
-        
-            02
-        
-            03
-        
-            04
-        
-            05
-        
-            06
-        
-            07
-        
-            08
-        
-            09
-        
-            10
-        
-            11
-        
-            12
-        ' or . = '
-            Month
-        
-            01
-        
-            02
-        
-            03
-        
-            04
-        
-            05
-        
-            06
-        
-            07
-        
-            08
-        
-            09
-        
-            10
-        
-            11
-        
-            12
-        ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/section[1]/form/div[1]/div[1]/div[2]/div/div[1]/div/div/select</value>
+         <value>//select[@id='select-expmonth']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#select-expmonth</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -81,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>1ce90e84-43bb-4dec-abf3-4fa5dc503f9b</webElementGuid>
+      <webElementGuid>0c26cdf2-412d-4b23-95da-b9a924b4816d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select-expmonth</value>
-      <webElementGuid>935bb5a4-9569-4ef9-acb8-c01521a8335b</webElementGuid>
+      <webElementGuid>2643f1e3-57b9-443a-b6bf-37b15e7522cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Expiration Month</value>
-      <webElementGuid>61259e5d-a593-4d34-8561-06d1734c5ee0</webElementGuid>
+      <webElementGuid>f91ea94b-4ab6-486e-b264-c68d557fa103</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-select__field py-10 px-15 </value>
-      <webElementGuid>ed023e5e-bb36-4eb1-b820-6ec7adbf1090</webElementGuid>
+      <webElementGuid>acaf73f7-4fb4-4fae-bafb-34c02b452f08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -139,7 +80,7 @@
         
             12
         </value>
-      <webElementGuid>f9cec86c-994a-40d5-b170-b0535afaa06f</webElementGuid>
+      <webElementGuid>34ecee08-345e-46f3-a062-0d9547366b90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -147,7 +88,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select-expmonth&quot;)</value>
-      <webElementGuid>a8386898-92be-42a2-a4a5-4a555d4bc4dd</webElementGuid>
+      <webElementGuid>50486074-638c-4657-bad4-04b5773d6ea6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -155,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='select-expmonth']</value>
-      <webElementGuid>80e5f2b5-127e-4dee-b00f-a3c3d06692d5</webElementGuid>
+      <webElementGuid>18b109c3-bf89-4f54-a834-ba1f9c90a54f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='payment-form']/div/div/div[2]/div/div/div/div/select</value>
-      <webElementGuid>a860e9e2-f2f8-447c-a4c2-5646cdf098d8</webElementGuid>
+      <webElementGuid>d0ac7139-d7bf-493a-a8ed-517757b50f62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -171,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration'])[1]/following::select[1]</value>
-      <webElementGuid>f5c935ba-4212-4660-bd20-9f8fb0d908b1</webElementGuid>
+      <webElementGuid>84a53a58-a464-4a1b-a2eb-32540911f1d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -179,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Number'])[1]/following::select[1]</value>
-      <webElementGuid>de8f4d52-246b-4356-be3f-1cb1f48d186e</webElementGuid>
+      <webElementGuid>2f656eaa-6deb-4eaf-834c-ec6b54255a37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -187,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration'])[2]/preceding::select[1]</value>
-      <webElementGuid>9d04f49b-06ee-48a8-8dfe-46bcd281c09e</webElementGuid>
+      <webElementGuid>b04e7a6f-8744-4f08-9d18-b6ec083eebde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -195,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save this Credit Card on my account.'])[1]/preceding::select[2]</value>
-      <webElementGuid>429b98ab-7b71-45fc-a446-1fc0eeea5d8e</webElementGuid>
+      <webElementGuid>379ce375-0100-4fde-a786-06b2fac7f4f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -203,7 +144,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>8329132e-976c-485c-8927-96248b79df7c</webElementGuid>
+      <webElementGuid>98d9a384-1ea2-4d09-989d-ab7e7bf3bf1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -263,6 +204,6 @@
         
             12
         ')]</value>
-      <webElementGuid>f93f8dd2-f378-4b6d-9066-4641c136fa77</webElementGuid>
+      <webElementGuid>a3e3e275-126e-45e7-b972-3aff6263458f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

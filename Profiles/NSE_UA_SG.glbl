@@ -24,4 +24,9 @@
       <initValue>'https://productstore2-uatsg.melaleuca.com/checkout'</initValue>
       <name>url_Checkout</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>sg_input_creditcard</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
