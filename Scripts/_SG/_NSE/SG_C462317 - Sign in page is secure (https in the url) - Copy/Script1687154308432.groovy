@@ -85,11 +85,21 @@ WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Meth
 
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Month'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2028', true)
+WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2043', true)
 
 WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_Save'))
 
-WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Manage Payment Methods'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/span_shopping_cart'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Shopping Cart/span_PROCEED TO CHECKOUT'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Continue To Checkout'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With'))
 
 WebUI.waitForAlert(5)
 

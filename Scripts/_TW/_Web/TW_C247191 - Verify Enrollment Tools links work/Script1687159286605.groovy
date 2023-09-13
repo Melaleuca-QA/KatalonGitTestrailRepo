@@ -72,9 +72,9 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
-
 WebUI.waitForAlert(5)
+
+WebUI.verifyEqual(now_url, GlobalVariable.url_Enrollment_Forms)
 
 WebUI.back()
 

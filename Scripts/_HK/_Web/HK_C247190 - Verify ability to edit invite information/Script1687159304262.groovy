@@ -36,7 +36,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_HK/_General/HK Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -330,7 +330,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(15)
 
 WebUI.refresh()
 

@@ -38,7 +38,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_HK/_General/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -50,15 +50,15 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_BusinessCenter_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_hk'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForAlert(5)
 
 WebUI.focus(findTestObject('OB_Web/Page_/div_link startEnrollmentLink'))
 

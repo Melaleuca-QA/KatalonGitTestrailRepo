@@ -489,11 +489,6 @@ GlobalVariable.test_case = '245388'
 
 WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Save a new enrollee change'
-GlobalVariable.test_case = '245400'
-
-WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Move a customer in their 1st month'
 GlobalVariable.test_case = '245389'
 
@@ -509,13 +504,18 @@ GlobalVariable.test_case = '245391'
 
 WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Move to Marketing Executive with full 1st generation'
-GlobalVariable.test_case = '245402'
+'Move to Marketing Executive on policy hold'
+GlobalVariable.test_case = '245393'
 
 WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Move to Marketing Executive on policy hold'
-GlobalVariable.test_case = '245393'
+'Save a new enrollee change'
+GlobalVariable.test_case = '245400'
+
+WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Move to Marketing Executive with full 1st generation'
+GlobalVariable.test_case = '245402'
 
 WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

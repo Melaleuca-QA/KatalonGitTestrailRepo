@@ -6,12 +6,12 @@
    <elementGuidId>db7b3685-031e-458b-a222-bef4377176b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='select-expyear']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select-expyear</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='select-expyear']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>370ed81b-6f57-4f43-816b-e176c12f2246</webElementGuid>
+      <webElementGuid>757054c5-4dbb-468b-94eb-3330fb5dc2cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>select-expyear</value>
-      <webElementGuid>fef93931-15c1-4619-87cd-86333132224d</webElementGuid>
+      <webElementGuid>978f29bf-e561-4337-8d6e-58dee0e521e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Expiration Year</value>
-      <webElementGuid>1900e7eb-03c2-4729-bc4c-ac6c98da4bd3</webElementGuid>
+      <webElementGuid>691e8f84-a7b3-43ab-81e1-a3a56d92980f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-select__field py-10 px-15 null</value>
-      <webElementGuid>a9fa76f8-52a4-466a-8791-08654b65b87d</webElementGuid>
+      <webElementGuid>2940f652-c96a-4655-9a7c-65c82056a871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
         
             2043
         </value>
-      <webElementGuid>0f9dc506-912d-4721-a5d3-0b43d5d46899</webElementGuid>
+      <webElementGuid>45adaa8c-4677-40c1-a2cc-d16a81a1eab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select-expyear&quot;)</value>
-      <webElementGuid>9c8dcba0-fe12-4474-b7ac-281578a995c2</webElementGuid>
+      <webElementGuid>b97c3a79-623e-45d6-877e-05e33a9dc459</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='select-expyear']</value>
-      <webElementGuid>c69f35ce-49e4-4364-866b-c814a8f90abc</webElementGuid>
+      <webElementGuid>715d62bb-1076-4a31-961b-f53b1d41a00c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='payment-form']/div/div/div[2]/div/div[2]/div/div/select</value>
-      <webElementGuid>d0398a90-c8b5-4612-9703-44817d55ab97</webElementGuid>
+      <webElementGuid>83b0b656-9a23-4343-a2d4-d6c7b590ee8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration'])[2]/following::select[1]</value>
-      <webElementGuid>673cb17d-99f2-4533-8068-fbf4c6315f8e</webElementGuid>
+      <webElementGuid>469d3f92-7ed7-4da6-a5cb-0f30a18b898a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration'])[1]/following::select[2]</value>
-      <webElementGuid>dfdef79d-1e88-4920-a05d-cdccbb6ae16e</webElementGuid>
+      <webElementGuid>fe4a7769-39a3-4379-80c4-70a106b0ab34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save this Credit Card on my account.'])[1]/preceding::select[1]</value>
-      <webElementGuid>74468b04-571f-4fd4-a3d4-3b04d48e630f</webElementGuid>
+      <webElementGuid>c6aa5ec5-9123-43a3-8588-2c7d862c08aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use this Credit Card for this order only. Do not save.'])[1]/preceding::select[1]</value>
-      <webElementGuid>caac9cda-b9c2-4e9d-9fce-b2727725f789</webElementGuid>
+      <webElementGuid>b0028368-4511-422f-9bfb-960f28fe189b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/select</value>
-      <webElementGuid>06577e09-eb64-4b40-9501-9d8d2bb183d1</webElementGuid>
+      <webElementGuid>00172867-dc1f-4c2c-a825-74126be2c608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -258,6 +258,6 @@
         
             2043
         ')]</value>
-      <webElementGuid>0b4b5ce0-c54e-44d1-b41f-2b2f3bba11c4</webElementGuid>
+      <webElementGuid>7ba389f9-2aa7-4ef4-843e-2d81f118f63d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

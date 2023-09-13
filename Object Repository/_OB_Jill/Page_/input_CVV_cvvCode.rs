@@ -6,12 +6,12 @@
    <elementGuidId>66eab21b-0b90-4527-bc4d-6ccbd369e3fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='cvvCode']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#cvvCode</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='cvvCode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>aa7d1551-fd4f-4085-ab87-f7783629e043</webElementGuid>
+      <webElementGuid>e165a47d-92f5-4bf5-8f28-29b2df2ff704</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cvvCode</value>
-      <webElementGuid>084a0498-26f5-4bbd-b292-c96aba53ec92</webElementGuid>
+      <webElementGuid>2dbc703f-f633-47b0-994a-f2fc4ee74dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>cvvCode</value>
-      <webElementGuid>9c8b6237-8284-4a1c-be30-a976d948d016</webElementGuid>
+      <webElementGuid>ac986774-0f62-4782-b88e-275a223b22b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>4a52f558-e836-4769-8d13-c958be4bb14f</webElementGuid>
+      <webElementGuid>ceb60391-a8ec-41a0-a892-9b04c9058ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>7d874f5c-2029-4e92-b62d-9c6656862f3c</webElementGuid>
+      <webElementGuid>314aae85-b9e4-4dc3-b651-4f6a1fc30b87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fd5049ed-37b3-41bc-8399-7d36b21bb5ec</webElementGuid>
+      <webElementGuid>659e7aec-5591-44b7-9003-f6b0b72898a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-input bg-clear p-checkout__input -text</value>
-      <webElementGuid>4b441f15-9a89-421a-968b-8418a865020f</webElementGuid>
+      <webElementGuid>2c63a6af-a3a5-4983-9c98-11901a3805cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3616b437-e54c-4952-9357-d3d3fb3c0faf</webElementGuid>
+      <webElementGuid>2bfe5153-d517-42fd-8cc3-12a9cbe4400d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cvvCode&quot;)</value>
-      <webElementGuid>7fc2fd5a-c543-4194-b5c1-35c2c66fcfb4</webElementGuid>
+      <webElementGuid>fe17208a-3529-4201-a764-dfcd784c22bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='cvvCode']</value>
-      <webElementGuid>ee73de06-9474-4ab3-869b-4b1e26ed2292</webElementGuid>
+      <webElementGuid>208bf8fc-ebe5-4024-9f4f-4fc952ac484e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div/div[3]/div/div[4]/div[3]/div/div/input</value>
-      <webElementGuid>90823c09-358f-473d-ad6b-add635b19e61</webElementGuid>
+      <webElementGuid>5893afbe-cada-43cd-b177-b5c7be295702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/input</value>
-      <webElementGuid>aed9cbc5-e0d5-4f6e-b471-af1eb87ac987</webElementGuid>
+      <webElementGuid>47ec7f91-97c1-42cc-a358-1e44d0ea495d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'cvvCode' and @name = 'cvvCode' and @type = 'text']</value>
-      <webElementGuid>74f7288a-1e83-4a96-8bcb-850f267683e5</webElementGuid>
+      <webElementGuid>774760f7-5685-45de-ad96-02a3fe6b5d45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

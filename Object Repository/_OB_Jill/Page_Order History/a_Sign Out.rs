@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continue To Checkout</name>
+   <name>a_Sign Out</name>
    <tag></tag>
-   <elementGuidId>934c37e5-a7b6-4f2c-9f8b-01ddc4a421d0</elementGuidId>
+   <elementGuidId>05135e05-7a75-4339-a281-fd26ca298aae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.o-bogo__cta</value>
+         <value>div.m-popUp.top-40.right-25 > div.m-popUp__content > div.m-popUp__footer.h-auto > a.m-popUp__footerCTA.py-10.pl-24.h-auto.font-bold</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
+         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/div/div/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>16480580-7c8c-4392-a782-d8abc59cee80</webElementGuid>
+      <webElementGuid>2001e0d5-c68f-4c24-8b6b-fb4d04eea97c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/checkout</value>
-      <webElementGuid>90596c3d-4924-4e67-82e8-bd6eb0a21d73</webElementGuid>
+      <value>/depaccount/SignOut</value>
+      <webElementGuid>95e6be4c-f37a-472f-8d08-0053a614a2b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-bogo__cta</value>
-      <webElementGuid>87f52100-6eee-4afa-a530-396153d4e950</webElementGuid>
+      <value>m-popUp__footerCTA py-10 pl-24 h-auto font-bold</value>
+      <webElementGuid>0dfab23c-9e80-46dc-8cf9-72b6af962aad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,102 +47,94 @@
       <type>Main</type>
       <value>
 
-                    Continue To Checkout
+                    Sign Out
                 </value>
-      <webElementGuid>898e9684-7ee8-4515-a4e4-dcf475865730</webElementGuid>
+      <webElementGuid>35d5688c-a6ce-45b4-881d-a3ed9b7ff4c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;mb-10 md:mb-40 lg:mb-60&quot;]/div[@class=&quot;o-bogo&quot;]/div[1]/div[@class=&quot;o-bogo__row&quot;]/div[@class=&quot;o-bogo__action&quot;]/a[@class=&quot;o-bogo__cta&quot;]</value>
-      <webElementGuid>d1aab3f8-e891-492c-b43d-2d6d2e8a237e</webElementGuid>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;o-myAccPopup&quot;]/div[@class=&quot;m-popUp top-40 right-25&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer h-auto&quot;]/a[@class=&quot;m-popUp__footerCTA py-10 pl-24 h-auto font-bold&quot;]</value>
+      <webElementGuid>22a730a1-5425-42c4-be1a-483542b33fd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
-      <webElementGuid>03453a54-7d17-4421-a637-76c915756702</webElementGuid>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/div/div/div[3]/a</value>
+      <webElementGuid>6dbd2571-ac8c-44a1-b9e3-588efe619de0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Continue To Checkout')]</value>
-      <webElementGuid>e0874a5d-7192-4c77-aae5-76b9d8cbfcbd</webElementGuid>
+      <value>(//a[contains(text(),'Sign Out')])[2]</value>
+      <webElementGuid>e4ef2ded-b786-4857-a366-134dcc3cb385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[12]/following::a[1]</value>
-      <webElementGuid>33dc4ad9-c719-4b1e-ade1-a3c6243a3180</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go To My Account'])[1]/following::a[1]</value>
+      <webElementGuid>c5d753ae-7bee-4201-a1af-5b292f6b4aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[11]/following::a[1]</value>
-      <webElementGuid>db5aecab-4509-4cd4-9bac-15501c0dc273</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Backup Order'])[2]/following::a[2]</value>
+      <webElementGuid>f3e0bbb6-a95a-4655-9552-51bfa12f2dba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHARE YOUR FEEDBACK'])[1]/preceding::a[1]</value>
-      <webElementGuid>81eff4dd-db9a-49ce-a52b-5bf62b687f1e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[1]/preceding::a[1]</value>
+      <webElementGuid>75b1b799-961a-43a9-835a-561b57770f10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
-      <webElementGuid>ac786a1a-e87a-43a0-adc6-135103ec482f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue To Checkout']/parent::*</value>
-      <webElementGuid>1063d021-fe88-4437-83fd-0afd315821cd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Store'])[2]/preceding::a[2]</value>
+      <webElementGuid>3fa01bab-bf97-4fea-bbc1-f9b7d2dfdb4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/checkout')]</value>
-      <webElementGuid>dceb0874-f3c9-4b92-9e2f-da931c524515</webElementGuid>
+      <value>(//a[contains(@href, '/depaccount/SignOut')])[2]</value>
+      <webElementGuid>4aeb9ea2-8454-40ae-bba1-aeeb4e83ce5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/a</value>
-      <webElementGuid>011e83de-65d2-49ba-814e-f2328efd0b43</webElementGuid>
+      <value>//div[4]/div/div/div[3]/a</value>
+      <webElementGuid>0ababcc0-01e5-45a8-84ad-871699c1f3dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/checkout' and (text() = '
+      <value>//a[@href = '/depaccount/SignOut' and (text() = '
 
-                    Continue To Checkout
+                    Sign Out
                 ' or . = '
 
-                    Continue To Checkout
+                    Sign Out
                 ')]</value>
-      <webElementGuid>bcbeaf83-ce8c-4ff0-a5bb-7b9dc71ff774</webElementGuid>
+      <webElementGuid>9e1deb8d-02ce-4414-b696-e3e91fb8d876</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

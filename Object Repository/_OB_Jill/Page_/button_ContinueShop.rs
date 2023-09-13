@@ -6,12 +6,12 @@
    <elementGuidId>6535bc71-d6fc-4a69-8a94-fc448f227d24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/div/div[2]/div[1]/div[2]/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.a-button.-center.flex-1.mx-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/div/div[2]/div[1]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7a130e5-45ea-405e-9617-f3ab438a8c78</webElementGuid>
+      <webElementGuid>2b3f30d9-da66-415a-9b2c-02c8b40ba558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button -center flex-1 mx-5</value>
-      <webElementGuid>e50e7ec9-81bb-45f4-b6ac-45d3c515d33f</webElementGuid>
+      <webElementGuid>4cc97dbe-0834-4c65-91ba-cb76ab7375b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>
                     買い物を続ける
                 </value>
-      <webElementGuid>56f07419-f2dc-483a-8390-ebe820cf1148</webElementGuid>
+      <webElementGuid>197bc772-e1d1-4935-a255-f0902d6c22da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vApp&quot;)/div[@class=&quot;o-shelf -isVisible&quot;]/div[@class=&quot;o-shelf__dialog&quot;]/div[@class=&quot;o-shelf__inner&quot;]/div[@class=&quot;o-shelf__content&quot;]/div[@class=&quot;m-shelfConfirm -cart&quot;]/div[@class=&quot;m-shelfConfirm__actions -mx-5&quot;]/button[@class=&quot;a-button -center flex-1 mx-5&quot;]</value>
-      <webElementGuid>626ca056-7a0d-4e55-b2a5-560cce567a61</webElementGuid>
+      <webElementGuid>99238a29-24fa-48d9-ae24-5e98e9a2e086</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vApp']/div[3]/div/div/div[2]/div/div[2]/button</value>
-      <webElementGuid>03c00b53-0e82-4dde-a594-4b1dcb7c095e</webElementGuid>
+      <webElementGuid>1448fdc6-5c79-4fdd-9fb5-ae802f831c04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='カートを見る'])[1]/following::button[1]</value>
-      <webElementGuid>d4f5cf73-4d8d-4934-9dfe-1f4a2f7bcd21</webElementGuid>
+      <webElementGuid>87b3b6a8-0d93-4fb5-8856-0a517aac2485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ポイント'])[2]/following::button[1]</value>
-      <webElementGuid>721b894c-69b2-4f11-b079-c818da7c5a09</webElementGuid>
+      <webElementGuid>14c965ab-a63b-4a40-9704-b23520a10e45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[3]/preceding::button[1]</value>
-      <webElementGuid>93d05bb5-55b1-4d35-ae29-7b1ae8d23954</webElementGuid>
+      <webElementGuid>313ad8da-4434-4c2d-b5e4-122725708d62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='特別カスタマーの特典を維持するために、あと26ポイント必要です。'])[1]/preceding::button[1]</value>
-      <webElementGuid>42ee8ad1-104a-4f5a-8af2-c941293ef6d6</webElementGuid>
+      <webElementGuid>e24b2463-52ce-40cb-9988-d6f66aa4b700</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='買い物を続ける']/parent::*</value>
-      <webElementGuid>d4ee882a-4ae7-46c2-a647-428cb355062f</webElementGuid>
+      <webElementGuid>660d22eb-922c-4c4c-bea1-a0e5b4b65e06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/button</value>
-      <webElementGuid>0e1165fb-44bc-4a71-905a-33c0c41f5295</webElementGuid>
+      <webElementGuid>dd7e5c6c-0217-4dd2-a406-7b1ad1268b3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                 ' or . = '
                     買い物を続ける
                 ')]</value>
-      <webElementGuid>69a8a51e-7bbc-410a-8fc7-898d40b693e3</webElementGuid>
+      <webElementGuid>0a2d545b-0afb-466a-a845-c5d26ff8af7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

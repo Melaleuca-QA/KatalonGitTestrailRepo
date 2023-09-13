@@ -22,7 +22,7 @@ if (false) {
     GlobalVariable.hk_input_creditcard = '4080198467858103'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -49,7 +49,6 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_Sh
 WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl(GlobalVariable.url_Cart)
-
 WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
 WebUI.waitForAlert(5)

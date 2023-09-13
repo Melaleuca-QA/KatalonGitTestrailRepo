@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/table/tbody/tr/td[3]/div/div/div/div[1]/span[2]</value>
+         <value>/html/body/form[2]/div[8]/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/table/tbody/tr/td[3]/div/div/div/div[2]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>72c004ef-df5d-40d9-8601-17b275e5e604</webElementGuid>
+      <webElementGuid>57bb0dd6-9a68-46ec-9b44-c0dddb3bac14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>tw17898602</value>
-      <webElementGuid>c58e5e9f-5e20-4a5b-8918-875867a74d12</webElementGuid>
+      <webElementGuid>1b2cb5a7-ca32-42d6-bef0-1b6a77f92129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;necLevel3&quot;)/div[@id=&quot;divBox1&quot;]/div[@id=&quot;myOrg1&quot;]/div[@id=&quot;divRepeater&quot;]/span[2]</value>
-      <webElementGuid>d2edbc38-35e4-4474-b60f-33ecfdf62c9a</webElementGuid>
+      <webElementGuid>c99a6c34-d777-4f7e-95f0-e3c7862b0339</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//div[@id='divRepeater']/span[2])[11]</value>
-      <webElementGuid>b55092bd-c544-48c8-aa46-4c17e7302235</webElementGuid>
+      <webElementGuid>fbae773d-68ed-4db8-93ae-265fde1b6e27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='第三代:'])[1]/following::span[2]</value>
-      <webElementGuid>d403b4ac-981d-4d28-b793-856847abac0c</webElementGuid>
+      <webElementGuid>ab6fbdff-545a-42b0-a21d-0b8a990d82c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='陳骨折3'])[1]/following::span[3]</value>
-      <webElementGuid>3bee2204-4d1d-4636-bdbb-6e6c5a0ac10d</webElementGuid>
+      <webElementGuid>99029eaa-e6a2-4809-9823-9b6b0a5bcdd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='tw26419247'])[1]/preceding::span[2]</value>
-      <webElementGuid>12b8fc7e-4722-43d8-b097-42b50fb6fb43</webElementGuid>
+      <webElementGuid>ae6053f4-16cc-44c8-9364-f5523e6c8884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='tw43185175'])[1]/preceding::span[4]</value>
-      <webElementGuid>54643a49-f057-4c8f-b4bd-1bb8014dec7d</webElementGuid>
+      <webElementGuid>75f4f330-2556-4871-8461-f141a3aab683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='tw17898602']/parent::*</value>
-      <webElementGuid>b894070d-edb9-4b74-bd9f-5825456e2b45</webElementGuid>
+      <webElementGuid>a3074bfb-9ae4-45c6-b208-3b36971ce28f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div/div/div/div/span[2]</value>
-      <webElementGuid>de2cb9e9-f322-4079-bf06-50ecc7ba3e95</webElementGuid>
+      <webElementGuid>21fad3b7-6787-4c47-a358-b36f54cb2198</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'tw17898602' or . = 'tw17898602')]</value>
-      <webElementGuid>1a637885-3cc4-4d0b-bfe2-5ee1d8e6eb64</webElementGuid>
+      <webElementGuid>ec20c780-8ca3-4f8d-9450-7e73b60c89fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,8 @@ import org.openqa.selenium.Keys as Keys
 if (false) {
     GlobalVariable.hk_input_creditcard = '4929028234403872'
 } else {
-    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    'get credit card number'
+    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -58,25 +59,27 @@ WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_MyAccount_SetupPaymethod_AddCreditCard_save'))
 
-WebUI.delay(5)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/span_MyAccount_SetupPaymethod_DeleteCreditCard'))
 
 WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_delete_check'))
 
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductFamily'))
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
-WebUI.delay(5)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_ProductNutrition_VitaminSeries'))
 
-WebUI.delay(5)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

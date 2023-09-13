@@ -85,21 +85,17 @@ WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Me
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/select_Month'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Year'), '2025', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OB_NSE/Page_Add New Payment Method/select_Year'), '2043', true)
 
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Add New Payment Method/button_Save'))
 
 WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/checkout')
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_keyboard_arrow_down'))
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/svg'))
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Manage Payment Methods'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Choose another pay method'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/button_Delete'))
-
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/button_Delete_1'))
+WebUI.navigateToUrl('https://productstore2-uatsg.melaleuca.com/my-account/payments-and-addresses')
 
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Payment  Addresses/span_shopping_cart'))
 
@@ -107,5 +103,31 @@ WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Shopping Cart/span_P
 
 WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Continue To Checkout'))
 
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_Pay With'))
+
 WebUI.setText(findTestObject('Object Repository/_OB_Jill/Page_/input_CVV_cvvCode'), '123')
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Place Order'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/div_Shelf Heading_smcx-modal-close'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Cancel'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_Cancel Order'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/button_ORDERS'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Order History'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_Order History/a_See Full Order Receipt'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/img_See All_o-myAccPopup__icon loaded'))
+
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_Sign Out'))
+
+WebUI.closeBrowser()
 

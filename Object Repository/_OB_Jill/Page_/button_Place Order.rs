@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_close</name>
+   <name>button_Place Order</name>
    <tag></tag>
-   <elementGuidId>725ca270-0de1-4d39-b49b-4acde1b3bfc4</elementGuidId>
+   <elementGuidId>7f06d8ae-5d5c-4ce3-b403-0f96dd6142e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.o-searchBar__clear</value>
+         <value>button.a-button.-cartCheckout</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='search-bar']/button</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[2]/div[3]/div/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,100 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>030fd199-2509-402f-a090-5cfec7d438fe</webElementGuid>
+      <webElementGuid>1bc1bdff-2213-4a9b-b047-4663dc93739c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>type</name>
       <type>Main</type>
-      <value>検索ワードをクリア</value>
-      <webElementGuid>e9d46d8a-1536-466b-8fc1-b7962a23e5fb</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3bbad856-54c6-40a0-87ef-7e2dca362d11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-searchBar__clear</value>
-      <webElementGuid>9df84c40-d187-43e1-9bd2-7e54416ed41c</webElementGuid>
+      <value>a-button -cartCheckout</value>
+      <webElementGuid>a03f4830-2eea-4e2b-bdad-5294e4242418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>close</value>
-      <webElementGuid>6208c28f-5faf-4bd5-a7c2-d27caa82e7f3</webElementGuid>
+      <value>
+    
+    Place Order</value>
+      <webElementGuid>dde2f038-2b90-418e-8290-ee8ab13989f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-bar&quot;)/button[@class=&quot;o-searchBar__clear&quot;]</value>
-      <webElementGuid>3dede555-f2f4-4117-a10a-44f8b7a89367</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__side&quot;]/div[3]/div[1]/button[@class=&quot;a-button -cartCheckout&quot;]</value>
+      <webElementGuid>90a2f036-443e-48ee-b2a1-1595830b6bdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>da50a8b2-1432-464e-8e72-23ea88f308cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='search-bar']/button</value>
-      <webElementGuid>128219db-707c-4a49-a391-34d693d13df5</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/div/div[3]/div[2]/div[3]/div/button</value>
+      <webElementGuid>61cd963e-dc3e-453e-89a0-2173bef00c71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログアウト'])[1]/following::button[4]</value>
-      <webElementGuid>eb17799f-d1ce-4402-b866-fa871f501336</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Points'])[1]/following::button[1]</value>
+      <webElementGuid>9f627ff0-60d3-4309-9ae0-14a0f5f30f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ヘルプセンター'])[1]/following::button[4]</value>
-      <webElementGuid>d970b5e9-a6ed-4b85-98b2-6bd48cc60d27</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$14.73'])[1]/following::button[1]</value>
+      <webElementGuid>f4d6d1c4-4a73-4595-9f12-dded2d93a50d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='注文状況'])[2]/preceding::button[1]</value>
-      <webElementGuid>1d82eb48-0c82-4504-b97f-28d1cddd53e6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[3]</value>
-      <webElementGuid>97dbbb88-a2e8-4382-adb3-c78e8ab26e22</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='As a Member,'])[1]/preceding::button[1]</value>
+      <webElementGuid>04ef8eef-2c20-4dff-b68a-733fa95f473e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button</value>
-      <webElementGuid>12826296-8d53-4b68-9639-70dc6f2a729e</webElementGuid>
+      <value>//div[2]/div[3]/div/button</value>
+      <webElementGuid>1aca426e-be90-43e5-93e2-b581199e1227</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'close' or . = 'close')]</value>
-      <webElementGuid>bddb5e77-1ce3-4eb0-844b-22b17e731141</webElementGuid>
+      <value>//button[@type = 'button' and (text() = '
+    
+    Place Order' or . = '
+    
+    Place Order')]</value>
+      <webElementGuid>ba9db28e-5336-4db6-94bb-8437bd2ef174</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
