@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_VisaCard   9462</name>
+   <tag></tag>
+   <elementGuidId>55038022-1c04-49eb-978b-4b1200c5c202</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__VID__58__MelaId_llowp8g5__accordionId > div.o-checkoutAccordion__content > div.o-checkoutAccordion__radio > div.m-formField.-radio.w-auto.flex-1 > label.m-formField__label.-radio</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[4]/div[1]/div/div/div/div/div/div[1]/div[1]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7b5fbe61-f085-457c-8540-e8ae34104833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__VID__64__MelaId_llowp8g6__inputId</value>
+      <webElementGuid>0df54c24-5947-40d0-bf79-a8eedb9861ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-formField__label -radio</value>
+      <webElementGuid>72c96616-34f3-42c0-b2d5-4d2b6cecdde6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> VisaCard  ····  9462      </value>
+      <webElementGuid>b1c8b815-f2fa-4745-b563-cb7ab61095eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__58__MelaId_llowp8g5__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__radio&quot;]/div[@class=&quot;m-formField -radio w-auto flex-1&quot;]/label[@class=&quot;m-formField__label -radio&quot;]</value>
+      <webElementGuid>8108cb02-6911-4962-9808-55214a932505</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__VID__58__MelaId_llowp8g5__accordionId']/div/div/div/label</value>
+      <webElementGuid>24036016-04fc-40b9-82c4-69e9929f9703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay With'])[1]/following::label[1]</value>
+      <webElementGuid>7fa175b6-4962-4eeb-b481-10061e0af28f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Addresses'])[1]/following::label[1]</value>
+      <webElementGuid>d21d6f30-9e3b-4093-8623-5966eed94c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div/div/label</value>
+      <webElementGuid>ffce2cb8-ef25-4e5a-966d-92660e1c6991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' VisaCard  ····  9462      ' or . = ' VisaCard  ····  9462      ')]</value>
+      <webElementGuid>efce4dd0-6dff-4ef4-8290-67670fffb1d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My Account</name>
+   <tag></tag>
+   <elementGuidId>d0177e5c-0af9-4085-a7f9-b201deb06dbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.m-navMenu__footer-content > ul.m-navMenu__list.-lvl1 > li.m-navMenu__item.-lvl1.Both > a.m-navMenu__item-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='m-navMenu__lvl1']/div[3]/div/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e2c622f9-0919-4445-8a4e-ca79bb8e8112</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#lvl9D4004E624F348039EC7151FF5BD321C</value>
+      <webElementGuid>4e401fee-d0c9-4b6e-8f2b-c795c6c5d67b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>2c3efe11-243c-4549-9aab-56963f48c1ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>82fa19f3-d315-4a6b-9586-ea7341d10a2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-navMenu__item-btn</value>
+      <webElementGuid>ad6297c9-f88a-4541-9f06-169688cdb1d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>#lvl9D4004E624F348039EC7151FF5BD321C</value>
+      <webElementGuid>537d5048-38b5-405a-864f-ffce97b1765c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+My Account
+</value>
+      <webElementGuid>89ad73e3-30c2-4cfb-9b44-b1213f76f0c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-navMenu&quot;)/div[@class=&quot;m-navMenu__inner&quot;]/div[@class=&quot;m-navMenu__scroll&quot;]/div[@id=&quot;m-navMenu__lvl1&quot;]/div[@class=&quot;m-navMenu__footer&quot;]/div[@class=&quot;m-navMenu__footer-content&quot;]/ul[@class=&quot;m-navMenu__list -lvl1&quot;]/li[@class=&quot;m-navMenu__item -lvl1 Both&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
+      <webElementGuid>3423f03c-ac05-46dc-ac66-6b4184c184ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='m-navMenu__lvl1']/div[3]/div/ul/li/a</value>
+      <webElementGuid>afab742c-f4ed-4aba-9bc7-31bd42b7d5a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'My Account')]</value>
+      <webElementGuid>78eaa025-8c8e-4fca-97ae-0039d42e7a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIP/VIP+ Monthly Promotion'])[1]/following::a[1]</value>
+      <webElementGuid>e6287b0e-f5d3-4d51-9d53-de56babc3b0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIP/VIP+ Birthday Rewards'])[1]/following::a[2]</value>
+      <webElementGuid>9e91c11d-af29-4f08-95b7-aa35200f0918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[7]/preceding::a[1]</value>
+      <webElementGuid>59f8dbea-305c-4eb6-a48b-4b7dda7fe248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[2]/preceding::a[1]</value>
+      <webElementGuid>211b5efc-a8cc-4edf-bd50-7210c3945b3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Account']/parent::*</value>
+      <webElementGuid>8412ed59-9909-4ca9-be27-4b369aaab4e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#lvl9D4004E624F348039EC7151FF5BD321C')]</value>
+      <webElementGuid>2708bb2e-3366-453f-abd5-22d787e9e0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/ul/li/a</value>
+      <webElementGuid>0772f46e-82c2-40a0-a9c9-80fd335f36be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#lvl9D4004E624F348039EC7151FF5BD321C' and (text() = '
+My Account
+' or . = '
+My Account
+')]</value>
+      <webElementGuid>c0326530-179a-4d08-9697-f68462bb7f24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

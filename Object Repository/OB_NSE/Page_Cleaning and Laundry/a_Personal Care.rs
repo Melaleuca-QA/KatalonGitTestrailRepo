@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Personal Care</name>
+   <tag></tag>
+   <elementGuidId>da986fa0-d8e7-4b25-a318-eae4e87cc38c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='m-navMenu__lvl1']/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>affd0d35-dfb2-4085-974e-00b35ea9fccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#lvl66AE5E67203341F283C4A18D7DA0EB9A</value>
+      <webElementGuid>85db1981-9a21-4138-a97d-4487db3255f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>fb213b09-d7f4-4a6b-9110-f6a47180bc81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>#lvl66AE5E67203341F283C4A18D7DA0EB9A</value>
+      <webElementGuid>b25914d2-6ccc-4281-8c2f-ee393984bedd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7d7b42d6-5389-4f5b-8594-e7b1f4a380e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-navMenu__item-btn</value>
+      <webElementGuid>6f4c60cf-5d62-4571-b05d-0dc98be40ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Personal Care
+</value>
+      <webElementGuid>890706bc-2875-43c8-9b60-1606e90ffefe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-navMenu&quot;)/div[@class=&quot;m-navMenu__inner&quot;]/div[@class=&quot;m-navMenu__scroll&quot;]/div[@id=&quot;m-navMenu__lvl1&quot;]/ul[@id=&quot;m-navMenu__lvl1&quot;]/li[@class=&quot;m-navMenu__item -lvl1 Both&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
+      <webElementGuid>778ec5b4-638e-442e-8186-faef6e868b80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='m-navMenu__lvl1']/li[4]/a</value>
+      <webElementGuid>86c630e3-d9cc-4ff3-a9de-83b619555898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Personal Care')]</value>
+      <webElementGuid>68dd2b65-6d5e-4e59-8e03-c567a99ff814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laundry'])[1]/following::a[1]</value>
+      <webElementGuid>abbbc9cf-ac1e-4fed-9d9a-f83045205cf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cleaning'])[1]/following::a[2]</value>
+      <webElementGuid>fc456e27-7fcc-43c2-86e8-0137f33c0011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[3]/preceding::a[1]</value>
+      <webElementGuid>45e3bdf5-0688-43a9-a471-f3b2ba1b8d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Personal Care'])[1]/preceding::a[1]</value>
+      <webElementGuid>966e6c7c-6b54-4156-b5bb-8f973caba355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Personal Care']/parent::*</value>
+      <webElementGuid>71d55890-3c14-4e60-953b-804a14110812</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#lvl66AE5E67203341F283C4A18D7DA0EB9A')]</value>
+      <webElementGuid>6b472a3c-6c0e-42ff-a6ea-9b2c67dd133a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/ul/li[4]/a</value>
+      <webElementGuid>ba06933d-c426-46b6-804b-5ba371753227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#lvl66AE5E67203341F283C4A18D7DA0EB9A' and (text() = '
+Personal Care
+' or . = '
+Personal Care
+')]</value>
+      <webElementGuid>4312704c-4e28-47c6-97a0-e815c74c6ccb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

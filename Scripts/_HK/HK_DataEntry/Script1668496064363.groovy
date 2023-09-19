@@ -30,7 +30,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_General/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
     WebUI.callTestCase(findTestCase('_HK/_General/HK Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)

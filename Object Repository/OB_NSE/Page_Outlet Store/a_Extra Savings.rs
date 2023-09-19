@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Extra Savings</name>
+   <tag></tag>
+   <elementGuidId>a72e9578-e0fd-4994-8671-67645b11c5ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[13]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1119a220-acba-4dda-b910-a1d8b04b11a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#lvlD3D05F37769743A9926AD31BC95D1283</value>
+      <webElementGuid>26c4ecdc-aefd-4a7c-ad91-49276634c2fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b56e0d47-6cd0-46f9-8525-0da8db6f3512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>#lvlD3D05F37769743A9926AD31BC95D1283</value>
+      <webElementGuid>13e68b8e-5068-466c-a110-2a368c097968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>74449a46-fcf6-4580-9048-5d355dae1422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-navMenu__item-btn</value>
+      <webElementGuid>e7859b3c-9fea-45c8-8eeb-aa5faabe937a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Extra Savings
+</value>
+      <webElementGuid>fb2bf5f7-797c-44c8-928f-e1c17029103b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-navMenu&quot;)/div[@class=&quot;m-navMenu__inner&quot;]/div[@class=&quot;m-navMenu__scroll&quot;]/div[@id=&quot;m-navMenu__lvl1&quot;]/ul[@id=&quot;m-navMenu__lvl1&quot;]/li[@class=&quot;m-navMenu__item -lvl1&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
+      <webElementGuid>90ac2f7b-e281-4657-b4b8-6da5fabced17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='m-navMenu__lvl1']/li[12]/a</value>
+      <webElementGuid>ae71eddf-bef5-4ca2-a83f-902134401dfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Extra Savings')]</value>
+      <webElementGuid>e7ce2ffa-2da8-461b-bc27-df9276340604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Aids and Logo Gear'])[1]/following::a[1]</value>
+      <webElementGuid>7286248f-ab32-4d34-8020-1fb4b2ab9c80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Member Savings Packs'])[1]/following::a[2]</value>
+      <webElementGuid>4d1de88e-16ac-416e-bd73-a5d4f9dc9579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[6]/preceding::a[1]</value>
+      <webElementGuid>5e98327b-3c50-4b4b-9db1-ae843d0c2112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extra Savings'])[2]/preceding::a[1]</value>
+      <webElementGuid>817b706d-f922-44f4-9953-247622d44e39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Extra Savings']/parent::*</value>
+      <webElementGuid>10803150-1246-4356-9135-c54721eeda1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#lvlD3D05F37769743A9926AD31BC95D1283')]</value>
+      <webElementGuid>21415440-ca34-401e-b405-8787aeebc443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[12]/a</value>
+      <webElementGuid>f360dd82-3237-444b-8ca7-fa07c07c17f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#lvlD3D05F37769743A9926AD31BC95D1283' and (text() = '
+Extra Savings
+' or . = '
+Extra Savings
+')]</value>
+      <webElementGuid>686658b5-174f-4fa3-8f1d-ace814a70978</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

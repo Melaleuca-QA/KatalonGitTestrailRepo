@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_play_circle_outline</name>
+   <tag></tag>
+   <elementGuidId>82795f49-005d-4533-a6d3-d48b46da60f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-playCircle.-xxl.-white.material-icons</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/div/div[3]/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b269de5f-5b91-44c7-8790-a3a220cad17c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-playCircle -xxl -white material-icons</value>
+      <webElementGuid>f12a6473-0c35-405e-b49d-e5e8b867bb2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>play_circle_outline</value>
+      <webElementGuid>7b69c14b-8a87-432a-b567-14f44721990f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[@class=&quot;m-largeBanner  -bottomContent&quot;]/div[@class=&quot;m-largeBanner__play flex&quot;]/div[@class=&quot;o-vidCurate flex w-full h-full justify-center items-center m-auto&quot;]/button[@class=&quot;o-videoModalButton&quot;]/span[@class=&quot;a-playCircle -xxl -white material-icons&quot;]</value>
+      <webElementGuid>64be25e5-04e8-40e6-b35f-2764099188c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div/div[3]/div/button/span</value>
+      <webElementGuid>5a8055fe-fef4-461a-9035-1775221a9eeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inspired by Nature. Proven by Science.'])[2]/following::span[1]</value>
+      <webElementGuid>4f8a357d-e961-4dca-8b92-b056bf733460</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inspired by Nature. Proven by Science.'])[1]/following::span[1]</value>
+      <webElementGuid>451246ee-e076-4cc8-ba96-58542530df16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wellness Brands'])[1]/preceding::span[1]</value>
+      <webElementGuid>329b936f-0ceb-438d-901f-aa3cfd1475f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='play_circle_outline']/parent::*</value>
+      <webElementGuid>910b11b4-27ae-43a2-873f-f60d59380e1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button/span</value>
+      <webElementGuid>ade499de-8664-4011-89ec-4eaaf745ded3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'play_circle_outline' or . = 'play_circle_outline')]</value>
+      <webElementGuid>ee2236f7-19fd-4cbc-8222-654e446b8a02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

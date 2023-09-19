@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Go To My Account</name>
+   <tag></tag>
+   <elementGuidId>62001c17-747c-4b4d-8ef6-30ef3ec0e27e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/div/div/div[2]/div/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>47576561-2453-46ca-9211-acee8d11dad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account</value>
+      <webElementGuid>bba04c9a-97ee-451e-9d08-938fc5c6ce96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-myAccPopup__link</value>
+      <webElementGuid>fcde5490-e4db-4eef-906e-e43dc81d7271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go To My Account</value>
+      <webElementGuid>06ca85d2-32c2-44ed-a004-832e059074c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;o-myAccPopup&quot;]/div[@class=&quot;m-popUp top-40 right-25&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__body pb-16 pl-24 pr-16&quot;]/div[@class=&quot;m-myAccPopup&quot;]/a[@class=&quot;m-myAccPopup__link&quot;]</value>
+      <webElementGuid>0f44cf13-baf9-47c5-8e15-9ac8dceb3b5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div[4]/div/div/div[2]/div/a[4]</value>
+      <webElementGuid>030234de-c7e6-4f63-9b40-2932036e26ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Go To My Account')]</value>
+      <webElementGuid>fcbb9e7c-ad62-4d21-a799-10119f89ae6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Backup Order'])[2]/following::a[1]</value>
+      <webElementGuid>9b4f4bad-f8d8-4fc5-a64f-cf2d28b223bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message Preferences'])[2]/following::a[2]</value>
+      <webElementGuid>49b0830e-4607-4550-bfd5-e77a11ea2379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[2]/preceding::a[1]</value>
+      <webElementGuid>1e737171-fc4f-421b-828b-d60bbdf7fc8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[1]/preceding::a[2]</value>
+      <webElementGuid>6305fbe3-977a-40e7-bba5-b4d934411f64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Go To My Account']/parent::*</value>
+      <webElementGuid>d2cbe7d7-dbc5-4e7a-86c5-cff758bb47ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account')])[15]</value>
+      <webElementGuid>8c620cee-ec96-4adb-bf42-17db7b5a3e50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]</value>
+      <webElementGuid>b3d1668c-5a43-4331-9c87-6213460dec9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account' and (text() = 'Go To My Account' or . = 'Go To My Account')]</value>
+      <webElementGuid>d16d797d-ba8e-4def-9b2b-7c9bcd13e072</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

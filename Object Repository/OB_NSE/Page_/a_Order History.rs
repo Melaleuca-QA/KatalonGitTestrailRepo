@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div[1]/div/div/div/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>48735185-e49d-4e86-a22b-3beb62ad9330</webElementGuid>
+      <webElementGuid>9ccf21ac-b155-4262-980b-eeb27238cd2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/my-account/order-history</value>
-      <webElementGuid>af06c8cb-491d-4281-b873-3c6dbda788c9</webElementGuid>
+      <webElementGuid>8bcaf68c-284f-4934-a490-56cb069da04a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-popUp__footerCTA</value>
-      <webElementGuid>71d9d9ed-19bd-47c9-8a6f-600cb4207d98</webElementGuid>
+      <webElementGuid>b90b88d1-3252-494b-896a-472a1b148113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 
                     Order History
                 </value>
-      <webElementGuid>3e82f372-b33d-48a0-a7b1-5ab45311b3ad</webElementGuid>
+      <webElementGuid>7ce66a32-dd59-43fc-93cf-fd14b421447b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/div[@class=&quot;m-popUpOrder&quot;]/div[@class=&quot;m-popUp right-0 top-40&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer&quot;]/a[@class=&quot;m-popUp__footerCTA&quot;]</value>
-      <webElementGuid>0019baa2-f194-4680-934e-8aa012a981af</webElementGuid>
+      <webElementGuid>b853f63f-d6d7-4bdc-964e-16bdc9018619</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
-      <webElementGuid>6ec67504-f18c-4fcb-aebd-2d84d949095e</webElementGuid>
+      <webElementGuid>e4548a31-64c7-4aec-9b1e-76caa1ab17c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Order History')])[2]</value>
-      <webElementGuid>30bdf8a1-2817-4ce8-ad87-6551c06ad01b</webElementGuid>
+      <webElementGuid>25e2546e-fcd1-4611-878a-7b6350a887be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='savings packs'])[1]/following::a[1]</value>
-      <webElementGuid>5e518841-dd76-4e8b-a653-0cdeca8d3aac</webElementGuid>
+      <webElementGuid>0931bdcb-c487-4b38-9806-5b3fecf1df98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='most popular products'])[1]/following::a[2]</value>
-      <webElementGuid>67521e83-9fc3-4e52-9c45-88ed68852c1f</webElementGuid>
+      <webElementGuid>29dddbd8-9b0f-484d-a9df-a775e0e8f1e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LISTS'])[1]/preceding::a[1]</value>
-      <webElementGuid>adf6da8f-7b9b-48cd-8e9c-c5e9ab079647</webElementGuid>
+      <webElementGuid>b0c6d61f-6da2-4a37-8fa7-671a8c8023a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lists'])[2]/preceding::a[1]</value>
-      <webElementGuid>1aa1cd8b-2f99-4f91-b944-510fd7488857</webElementGuid>
+      <webElementGuid>b21922ff-390a-410e-ac5e-3e6f31f86309</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/my-account/order-history')])[3]</value>
-      <webElementGuid>78c8e7b1-56fa-439f-8238-a19e73bdcf90</webElementGuid>
+      <webElementGuid>e57f72a2-6997-4bf0-b9ce-2dded228ddcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/a</value>
-      <webElementGuid>f40c68fa-ad8c-4c40-8eee-8de0accbfef5</webElementGuid>
+      <webElementGuid>591a2214-dd5f-4366-841a-9c91ef681455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
 
                     Order History
                 ')]</value>
-      <webElementGuid>a6c8f409-a790-4dcb-b8ee-45afd523b6c8</webElementGuid>
+      <webElementGuid>9ac7eed6-d579-49f2-b875-df68d3fe2aed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

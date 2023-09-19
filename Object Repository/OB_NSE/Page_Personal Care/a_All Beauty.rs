@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_All Beauty</name>
+   <tag></tag>
+   <elementGuidId>864197ac-b8ee-4a83-bd1a-74e608329a72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lvl24C4BACF59E74B178A02FC14DDDF30AD > li.m-navMenu__list.-title > a.block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='lvl24C4BACF59E74B178A02FC14DDDF30AD']/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>72563032-4a5a-4095-b704-b1451b3c8af8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productstore/sei-bella-beauty</value>
+      <webElementGuid>c72968fe-6b88-485d-92fa-139f30ef497f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>3a1d29c2-8fc3-4c4e-a7f5-31190a4dc3b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Beauty</value>
+      <webElementGuid>44defe54-3ead-44b4-b411-5d4f3526761a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lvl24C4BACF59E74B178A02FC14DDDF30AD&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
+      <webElementGuid>0c9d9c3b-b9ea-4f1a-92d5-ae5f9a952081</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='lvl24C4BACF59E74B178A02FC14DDDF30AD']/li[2]/a</value>
+      <webElementGuid>5dcede35-c7cd-460e-bbf9-710c2685940c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'All Beauty')]</value>
+      <webElementGuid>6c90e278-b796-401e-b2e1-1e24fdb5399c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[4]/following::a[1]</value>
+      <webElementGuid>2eea0ee9-efa3-46d5-b27f-1a4ff285fc64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outdoor'])[1]/following::a[2]</value>
+      <webElementGuid>7e12fce0-b3d5-4113-8bc6-d45957cb9380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Color Cosmetics'])[1]/preceding::a[1]</value>
+      <webElementGuid>73485f2b-e855-464d-944a-3a56d6f6c218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Skin Care'])[1]/preceding::a[2]</value>
+      <webElementGuid>36fcc005-e678-4418-b457-ece526cfaa43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All Beauty']/parent::*</value>
+      <webElementGuid>5793a65f-45e6-4899-a89a-def5e096aedd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/productstore/sei-bella-beauty')]</value>
+      <webElementGuid>1b5e5c1b-5237-4082-87fb-f865e533756b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/ul/li[2]/a</value>
+      <webElementGuid>a10e5ba9-58b6-4825-ab13-b149501c3e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/productstore/sei-bella-beauty' and (text() = 'All Beauty' or . = 'All Beauty')]</value>
+      <webElementGuid>0a806ab1-aab5-4522-ba29-65cfd74b05c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

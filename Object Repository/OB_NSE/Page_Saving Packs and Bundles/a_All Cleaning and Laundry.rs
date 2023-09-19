@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_All Cleaning and Laundry</name>
+   <tag></tag>
+   <elementGuidId>1aaaed48-572a-426b-8ee4-fd6384ed7196</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lvl0443C11D41434C00B700BEB2A0B67284 > li.m-navMenu__list.-title > a.block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='lvl0443C11D41434C00B700BEB2A0B67284']/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cf55e59a-8f4b-4e15-9f97-d8bd12276b3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productstore/cleaning-and-laundry</value>
+      <webElementGuid>caef06e1-e2b1-4afc-9ce9-f4f9ef240809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>8c73ccbd-aaad-4d53-a3b7-9efccd63bdd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Cleaning and Laundry</value>
+      <webElementGuid>4a203b60-cfcf-4f25-a7d7-9cb3ec6441e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lvl0443C11D41434C00B700BEB2A0B67284&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
+      <webElementGuid>3e8951fa-13bc-4bd4-bc40-ffe1e1fc0866</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='lvl0443C11D41434C00B700BEB2A0B67284']/li[2]/a</value>
+      <webElementGuid>2bcad533-d6b4-4eb1-8d42-5e92cb9cfe5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'All Cleaning and Laundry')]</value>
+      <webElementGuid>75bd5494-1d59-45a9-9772-252bb199c888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[2]/following::a[1]</value>
+      <webElementGuid>56f57e98-5dd1-4c54-9f2d-da685b6a4618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saving Packs &amp; Bundles'])[1]/following::a[2]</value>
+      <webElementGuid>6f3d0f71-3763-4c17-8ae1-3976d8a20959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cleaning'])[1]/preceding::a[1]</value>
+      <webElementGuid>30eaef27-2fbb-453d-841f-dfebd05e9f33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laundry'])[1]/preceding::a[2]</value>
+      <webElementGuid>65228e6d-a115-442c-99c6-ad4ab6b28d82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All Cleaning and Laundry']/parent::*</value>
+      <webElementGuid>14a504fa-1f4d-458a-bbb2-76655b7bdf1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/productstore/cleaning-and-laundry')]</value>
+      <webElementGuid>b2251d61-64f5-4a9b-b2ab-248cd076b2bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/ul/li[2]/a</value>
+      <webElementGuid>d2e3a927-e315-4586-828d-5820eaa08444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/productstore/cleaning-and-laundry' and (text() = 'All Cleaning and Laundry' or . = 'All Cleaning and Laundry')]</value>
+      <webElementGuid>eb58bbc3-aabf-40bd-9d53-6c1b153eb0fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

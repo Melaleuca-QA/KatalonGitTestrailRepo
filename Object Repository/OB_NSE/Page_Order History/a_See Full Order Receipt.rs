@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_See Full Order Receipt</name>
+   <tag></tag>
+   <elementGuidId>6a6b7f84-507a-4e55-834d-3a2513b6acff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.m-po__third-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='0']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d47a017-5279-415e-a932-f1122b8fe4d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/receipt?orderId=83512361</value>
+      <webElementGuid>9ac7ad1a-d989-42b7-93f1-5991f3a1a350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>See Full Order Receipt for order number 83512361</value>
+      <webElementGuid>141e9c58-8af3-49db-a46b-3482116f8744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-po__third-title</value>
+      <webElementGuid>6ce6f85b-c6cc-4442-b87c-c5bcac5f16ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See Full Order Receipt</value>
+      <webElementGuid>1d274589-8e54-47c0-ba3b-2a81f49c2512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;0&quot;)/a[@class=&quot;m-po__third-title&quot;]</value>
+      <webElementGuid>70f4bda2-621c-4f7a-a801-0ead08e7ffb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='0']/a</value>
+      <webElementGuid>8e32e4a2-3bdc-4f41-b887-194d5f5e27e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'See Full Order Receipt')]</value>
+      <webElementGuid>2c589a16-d3d2-4996-967c-7a6b8e1255c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing'])[1]/following::a[1]</value>
+      <webElementGuid>8779a44b-a6ac-4c11-98a2-2633e75ce878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add order to Cart'])[1]/following::a[1]</value>
+      <webElementGuid>3d4e9352-bd31-40b7-8993-b9bdeadc51d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#14-03'])[1]/preceding::a[1]</value>
+      <webElementGuid>1b7aae98-dc69-4d34-ac03-df8e8c0ad909</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See Full Order Receipt']/parent::*</value>
+      <webElementGuid>beaa1a2e-3f74-44fa-a786-51db90417da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/receipt?orderId=83512361')]</value>
+      <webElementGuid>d76ff583-7397-4ecb-9856-634253adfcb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/a</value>
+      <webElementGuid>b7475481-ba73-4d57-9742-f99830c596dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/receipt?orderId=83512361' and (text() = 'See Full Order Receipt' or . = 'See Full Order Receipt')]</value>
+      <webElementGuid>93e699b3-23c6-48d1-b03b-ffb598304af3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

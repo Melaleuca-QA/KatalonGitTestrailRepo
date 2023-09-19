@@ -35,7 +35,7 @@ WebUI.refresh()
 
 WebUI.refresh()
 
-result1 = WebUI.getText(findTestObject('OB_Web/Page_Credit Card Generator Validator/span_CardNumber'))
+result1 = WebUI.getText(findTestObject('OB_NSE/Page_Credit Card Generator Validator/span_CardNumber'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Sample Visual Test')
 
