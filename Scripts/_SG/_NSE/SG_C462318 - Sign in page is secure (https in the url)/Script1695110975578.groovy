@@ -22,7 +22,7 @@ if (false) {
     GlobalVariable.sg_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_SG/_General/SG Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_SG/_General/SG Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_SG/_General/_Login_sg'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -115,7 +115,14 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_Place Order'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
+
+'close duplicate order alert'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/button_Place Duplicate Order'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/button_Place Duplicate Order'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_No Thanks'))
 
@@ -169,7 +176,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Cleaning and Laundry/a_All Personal Care
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Personal Care/span_Menu'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Personal Care/a_Beauty'))
 
@@ -302,7 +309,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Lists/a_Payment Methods'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/svg'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_My Account'))
 
@@ -310,7 +317,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_Message Preferences
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Account Settings/svg'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_My Account'))
 
@@ -318,7 +325,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_Edit Backup Order'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Account Settings/svg'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_My Account'))
 
@@ -326,11 +333,13 @@ WebUI.click(findTestObject('OB_NSE/Page_Backup Order/a_Loyalty Shopping Dollars'
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Account Settings/svg'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Loyalty Shopping Dollars/a_Our Story'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Our Story/span_play_circle_outline'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Our Story/span_close'))
 
@@ -340,7 +349,7 @@ WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Rewards/a_Which Products Do You Use'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(20)
 
 WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
@@ -351,4 +360,6 @@ WebUI.waitForAlert(5)
 WebUI.click(findTestObject('OB_NSE/Page_My Account/svg'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_Sign Out'))
+
+WebUI.closeBrowser()
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnShowMiniCart']</value>
+         <value>/html/body/div[3]/div[1]/div[2]/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>c8a8c4de-eef6-46dc-bf21-c88442c87371</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>showMiniCart pure-button pure-button-white</value>
+      <webElementGuid>ae436065-9456-4e14-bfb3-bef2c52fc5de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnShowMiniCart</value>
+      <webElementGuid>4c64fb24-0e48-4b8b-9a2d-b6c170cea2f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if ($($('#mycart')[0]).is(':hidden')) { createOnClickAnalytics('MiniCart Open', 'Checkout Process', null); };</value>
+      <webElementGuid>7f105b70-1c2b-40e7-8776-7509e50cb970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>022a399d-df20-4c63-a9c7-c2423f038836</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value> 購物車 (4) </value>
+      <webElementGuid>5f3df579-1b4b-4697-9ddc-62dfc87146af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnShowMiniCart&quot;)</value>
+      <webElementGuid>191ac3ea-c475-4076-839d-7db861819a17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnShowMiniCart']</value>
+      <webElementGuid>c8c784f6-1c95-4653-af8a-8d80b96b3db4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='toolContainer']/button</value>
+      <webElementGuid>4d512287-2fd9-4985-9d0b-40a642c4f8db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::button[2]</value>
+      <webElementGuid>cff05da7-282e-4e1e-9e66-6dfbc7994e7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='結帳'])[1]/preceding::button[1]</value>
+      <webElementGuid>5b46b949-dfae-417f-8e8a-4e99e30fb3d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='購物車']/parent::*</value>
+      <webElementGuid>315b6f41-81d7-4d22-ab82-a14e5bc619da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
+      <webElementGuid>092a5b77-fce8-4579-9b15-05c2cc7c29ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

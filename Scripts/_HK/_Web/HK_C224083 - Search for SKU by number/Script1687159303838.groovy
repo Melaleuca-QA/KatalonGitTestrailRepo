@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('OB_Web/Page_/input_js-search-input'), '117')
 
 'close birthday\'s shopping'

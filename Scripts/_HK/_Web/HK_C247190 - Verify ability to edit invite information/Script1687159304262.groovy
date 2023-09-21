@@ -251,6 +251,8 @@ WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_IMEA_Submit')
 
 WebUI.click(findTestObject('OB_Web/Page_/button_BusinessCenter_OLE_StartShopping_hk'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.waitForAlert(5)

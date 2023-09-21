@@ -24,6 +24,8 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
     WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
 WebUI.doubleClick(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'))
@@ -131,26 +133,37 @@ println(now_lsd)
 
 switch (true) {
     case (new_now_date >= new_lsd_bdate1) && (new_now_date <= new_lsd_edate1):
-        cal_lsd = ((now_pp.toInteger() * 0.1) * 33) // PC * 10% * 33
+        cal_lsd = ((now_pp.toInteger() * 0.1) * 33 // PC * 10% * 33
+        )
+
         break
     case (new_now_date >= new_lsd_bdate2) && (new_now_date <= new_lsd_edate2):
-        cal_lsd = ((now_pp.toInteger() * 0.05) * 33) // PC * 5% * 33
+        cal_lsd = ((now_pp.toInteger() * 0.05) * 33 // PC * 5% * 33
+        )
+
         break
     default:
         cal_lsd = 0 // PC *  0% * 33
+
         break
 }
 
 //計算Earned LSD lock_rate//
 if (now_lsd.toInteger() > cal_lsd) {
-    cal_lsd1 = Math.round(Math.floor((now_pp.toInteger() * 0.1) * 33)) // PC * 10% * 33
+    cal_lsd1 = Math.round(Math.floor((now_pp.toInteger() * 0.1) * 33) // PC * 10% * 33
+        )
+
     println(cal_lsd1)
-    cal_lsd2 = Math.round(Math.floor((now_pp.toInteger() * 0.05) * 33)) // PC * 5% * 33
+
+    cal_lsd2 = Math.round(Math.floor((now_pp.toInteger() * 0.05) * 33) // PC * 5% * 33
+        )
+
     println(cal_lsd2)
+
     if (now_lsd.toInteger() == cal_lsd1) {
         cal_lsd = cal_lsd1
     } else if (now_lsd.toInteger() == cal_lsd2) {
-		cal_lsd = cal_lsd2
+        cal_lsd = cal_lsd2
     }
 }
 

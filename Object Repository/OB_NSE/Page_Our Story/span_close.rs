@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vApp']/div[2]/div/div/button/span</value>
+         <value>/html/body/div[1]/div[2]/div/div[1]/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d142e252-a318-4047-85cd-8a7d04b2a3bf</webElementGuid>
+      <webElementGuid>8709fa2f-5e40-44d5-a8a3-4dbc1ceb0ddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>86a80202-3414-4985-b0d9-9178e72ef163</webElementGuid>
+      <webElementGuid>82628247-d62e-41ce-ae10-ed850919c3a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-icon material-icons -inherit</value>
-      <webElementGuid>d1fc4ff4-062d-4672-81a9-2b2fc3c81710</webElementGuid>
+      <webElementGuid>ed0eaab1-7a72-4b6f-a403-9f633849bb8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>close</value>
-      <webElementGuid>9b6d574d-7354-44ee-be16-b0d48ea519d3</webElementGuid>
+      <webElementGuid>a72e1abf-346e-41f5-9569-961add787603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vApp&quot;)/div[@class=&quot;o-modal -isVisible&quot;]/div[@class=&quot;o-modal__dialog&quot;]/div[@class=&quot;o-modal__close&quot;]/button[@class=&quot;a-closeX&quot;]/span[@class=&quot;a-icon material-icons -inherit&quot;]</value>
-      <webElementGuid>95439b33-dafc-4029-acf7-f183046a658c</webElementGuid>
+      <webElementGuid>2822bdf6-9f98-4de1-a7aa-068ca5083fcd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vApp']/div[2]/div/div/button/span</value>
-      <webElementGuid>7a9d7876-526c-4307-8f59-b352bdc360c7</webElementGuid>
+      <webElementGuid>b7e14416-f535-4bbf-ab95-a670849c44ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Language'])[1]/following::span[3]</value>
-      <webElementGuid>6ab4a1c8-ef5a-432c-b476-6f12471f3cea</webElementGuid>
+      <webElementGuid>27281946-ecee-48d2-a2af-e37ba9e8c3ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Frequently Asked Questions'])[1]/following::span[3]</value>
-      <webElementGuid>c99c8a9e-0dfe-42e1-bb99-ef07e2f4e3a6</webElementGuid>
+      <webElementGuid>d6f86832-285a-4afc-8c9f-ef16a75f5110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Volume 90%'])[1]/preceding::span[3]</value>
-      <webElementGuid>fdc58c93-993e-48a5-b22a-1c9db0a86593</webElementGuid>
+      <webElementGuid>33c7a1d2-24f0-48a4-ae2a-6898999ddfbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Press shift question mark to access a list of keyboard shortcuts'])[1]/preceding::span[4]</value>
-      <webElementGuid>21ad414b-6fbe-4803-9cea-3938889bd938</webElementGuid>
+      <webElementGuid>e8b2c31a-0175-4df9-8553-5946c4e23b14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button/span</value>
-      <webElementGuid>700cc498-ec26-4d9d-91dd-08eaa90d9c90</webElementGuid>
+      <webElementGuid>10bb3fd0-bdb0-43f3-a204-0619d52ef394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'close' or . = 'close')]</value>
-      <webElementGuid>fe998269-823d-4db5-94f6-24ce535413d5</webElementGuid>
+      <webElementGuid>13bc48bb-4a44-49ee-88d4-a48beb2e6111</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

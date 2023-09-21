@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (false) {
+if (true) {
     GlobalVariable.sg_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
@@ -118,7 +118,14 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_Place Order'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
+
+'close duplicate order alert'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/button_Place Duplicate Order'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/button_Place Duplicate Order'))
+}
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_No Thanks'))
 

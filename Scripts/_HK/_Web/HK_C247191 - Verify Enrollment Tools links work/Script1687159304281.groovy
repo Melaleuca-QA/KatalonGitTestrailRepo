@@ -62,13 +62,15 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
+WebUI.waitForAlert(5)
+
 if (GlobalVariable.run_env == 'PD') {
     WebUI.verifyEqual(now_url, GlobalVariable.url_hk_FollowUp)
 } else {
     WebUI.verifyEqual(now_url, GlobalVariable.url_FollowUp)
 }
 
-WebUI.delay(2)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 

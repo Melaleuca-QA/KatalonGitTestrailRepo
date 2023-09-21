@@ -78,7 +78,7 @@
       <guid>46f30301-be6d-4bea-a73f-9fafe66c0bce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C245318 - Add configurable SKU via Quick Shop - VIP</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C24531V - Add configurable SKU via Quick Shop - VIP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

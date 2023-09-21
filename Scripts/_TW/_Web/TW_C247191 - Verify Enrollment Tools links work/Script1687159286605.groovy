@@ -86,6 +86,8 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
+WebUI.waitForAlert(5)
+
 WebUI.verifyEqual(now_url, GlobalVariable.url_whichproducts)
 
 WebUI.waitForAlert(5)
