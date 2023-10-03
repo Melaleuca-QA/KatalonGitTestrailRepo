@@ -60,5 +60,5 @@ WebUI.closeBrowser()
 'Check \'Create Your Online Account\''
 GlobalVariable.test_case = '245306'
 
-WebUI.callTestCase(findTestCase('_TW/_General/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

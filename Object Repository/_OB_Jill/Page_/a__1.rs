@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__1</name>
+   <tag></tag>
+   <elementGuidId>d5c7b434-df45-4930-8289-496bb867df66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__VID__67__MelaId_ln2vgu9m__accordionId']/div/div[3]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>16c44ba0-eda0-4ca2-9406-501d84d1d573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/payments-and-addresses/add-new-payment-method?backTo=https://productstore2-qatw.melaleuca.com/checkout&amp;fromCheckout=true&amp;location=checkout</value>
+      <webElementGuid>93e99053-eb56-49a2-a0c0-ffe09c6615dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -white rounded-md py-10 px-15 md:px-20 text-sm md:text-base font-medium tracking-wide mt-6 mb-20 md:mb-0</value>
+      <webElementGuid>ff670c54-4da5-4ab5-bf0f-7aaa13862b07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+                                    新增付款方式
+                                </value>
+      <webElementGuid>ea214285-ea6c-4a83-b1cf-717af460596d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__67__MelaId_ln2vgu9m__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__action&quot;]/div[@class=&quot;flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center&quot;]/a[@class=&quot;a-button -white rounded-md py-10 px-15 md:px-20 text-sm md:text-base font-medium tracking-wide mt-6 mb-20 md:mb-0&quot;]</value>
+      <webElementGuid>05ee271c-48a8-44b5-aed6-31a0aed622ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__VID__67__MelaId_ln2vgu9m__accordionId']/div/div[3]/div/a</value>
+      <webElementGuid>53ad28d4-0297-4bbb-9d80-a3e6ee00b063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'新增付款方式')]</value>
+      <webElementGuid>2b1c1f10-30fa-4b9d-ab5c-499896bea859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='修改'])[2]/following::a[1]</value>
+      <webElementGuid>f2cdb524-a40d-44a7-98bd-80fe5e0ce9a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='管理您的付款方式'])[1]/preceding::a[1]</value>
+      <webElementGuid>95950762-1874-454f-852f-f1caf0e19a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請輸入驗證碼'])[1]/preceding::a[2]</value>
+      <webElementGuid>969f6d42-d78f-4fca-804c-6df2aca4725b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='新增付款方式']/parent::*</value>
+      <webElementGuid>2214692e-b58f-42b2-8dd3-17701fcf763d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-account/payments-and-addresses/add-new-payment-method?backTo=https://productstore2-qatw.melaleuca.com/checkout&amp;fromCheckout=true&amp;location=checkout')]</value>
+      <webElementGuid>912f1fd4-771d-45b8-970d-3eea4705bb9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div[3]/div/a</value>
+      <webElementGuid>d7d5e941-a0fc-46e5-b0a7-8b905bfc7587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/payments-and-addresses/add-new-payment-method?backTo=https://productstore2-qatw.melaleuca.com/checkout&amp;fromCheckout=true&amp;location=checkout' and (text() = '
+
+                                    新增付款方式
+                                ' or . = '
+
+                                    新增付款方式
+                                ')]</value>
+      <webElementGuid>5e64b7d2-7229-4289-a2e8-fd092e30fbef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

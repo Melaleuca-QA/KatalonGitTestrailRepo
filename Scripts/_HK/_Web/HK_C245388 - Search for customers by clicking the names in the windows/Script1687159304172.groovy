@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Web/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
@@ -170,6 +170,9 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 '第3代'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
 
+'第4代'
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation4_1'))
+
 WebUI.waitForAlert(5)
 
 '繼續'
@@ -256,6 +259,9 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 
 '第3代'
 WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation3_2'))
+
+'第4代'
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation4_2'))
 
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
@@ -377,6 +383,9 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 '第3代'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enroller_generation3_1'))
 
+'第4代'
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation4_1'))
+
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
@@ -462,6 +471,9 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_enrol
 '第3代'
 WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation3_2'))
 
+'第4代'
+WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_enroller_generation4_2'))
+
 '繼續'
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/span_OrgChange_Continue_3'))
 
@@ -488,40 +500,40 @@ WebUI.verifyEqual(now_result, '您的移線成功', FailureHandling.STOP_ON_FAIL
 
 WebUI.waitForAlert(5)
 
-WebUI.callTestCase(findTestCase('_HK/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Web/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for customers by clicking the names in the windows'
 GlobalVariable.test_case = '245388'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Save a new enrollee change'
 GlobalVariable.test_case = '245400'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move a customer in their 1st month'
 GlobalVariable.test_case = '245389'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Try to move a customer out of enroller\'s organization'
 GlobalVariable.test_case = '245390'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move a customer at least in 2nd month'
 GlobalVariable.test_case = '245391'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move to Marketing Executive with full 1st generation'
 GlobalVariable.test_case = '245402'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Move to Marketing Executive on policy hold'
 GlobalVariable.test_case = '245393'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

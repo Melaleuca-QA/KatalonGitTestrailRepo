@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_See All_o-myAccPopup__icon loaded</name>
+   <name>img_See All_o-myAccPopup_icon loaded</name>
    <tag></tag>
    <elementGuidId>b0af15e1-a64e-43aa-9562-aed6174977c0</elementGuidId>
    <selectorCollection>

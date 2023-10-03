@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__username</name>
+   <name>input_cvv</name>
    <tag></tag>
-   <elementGuidId>aa2d52b6-2e2c-4c33-90c5-54fcbe5f7851</elementGuidId>
+   <elementGuidId>53d6a06e-e0e4-4b68-bb2c-a9656d508c86</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#__VID__17__MelaId_lhzyabk9__usernameId</value>
+         <value>#cvv</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/div[1]/div/div/form/div[1]/div/div/input</value>
+         <value>//input[@id='cvv']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,47 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fa3086c8-05a8-4c01-8916-918258a634a6</webElementGuid>
+      <webElementGuid>28ceed2f-50b3-464c-bf25-e4e297f31c73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__VID__17__MelaId_lhzyabk9__usernameId</value>
-      <webElementGuid>d49539eb-4bc9-4669-abac-e8f15f0792d0</webElementGuid>
+      <value>cvv</value>
+      <webElementGuid>eaa1a5fb-700b-4c76-9684-cfd69270870c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cvv</value>
+      <webElementGuid>8a4f80ed-632d-44c6-a653-5e68c9887375</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>required</value>
-      <webElementGuid>b7329fe7-599e-4a0b-bd0e-b0f36ebf3ec0</webElementGuid>
+      <value>4</value>
+      <webElementGuid>49453182-22d2-4866-9e8a-a7737f503fea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
+      <name>minlength</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>d01c8616-669f-4831-8c8b-6522d7ffff82</webElementGuid>
+      <value>3</value>
+      <webElementGuid>0c24cc0e-d31a-413e-b443-37c1ae46f2d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>af54a7ec-3ccb-4adf-b41e-62e140fd56c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,78 +70,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>35e1a513-8f79-4fbd-acca-ef6fd3586ba7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>7742b44e-69e4-46f1-857e-6a931142f482</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>cef11a96-9653-47ec-a0f1-4304ef3a7ea7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>ユーザー名の入力</value>
-      <webElementGuid>20ee4739-aab0-4c8a-8108-8688d97ef701</webElementGuid>
+      <webElementGuid>83650553-f349-4b75-b310-b8f87177a3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-input -text text-sm -isInvalid</value>
-      <webElementGuid>4fdb1ddb-13dd-47cc-9f81-d0875b684795</webElementGuid>
+      <value>a-input -text</value>
+      <webElementGuid>37e654c0-2c27-4613-b01d-52843e97aabd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__VID__17__MelaId_lhzyabk9__usernameId&quot;)</value>
-      <webElementGuid>7d462733-8a33-47b1-9810-ffd556212bcc</webElementGuid>
+      <value>id(&quot;cvv&quot;)</value>
+      <webElementGuid>22dad1e7-9317-480d-ba52-af8b6f318d9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='__VID__17__MelaId_lhzyabk9__usernameId']</value>
-      <webElementGuid>58947e48-1309-49aa-a0cf-e1585091265b</webElementGuid>
+      <value>//input[@id='cvv']</value>
+      <webElementGuid>9daccf93-ce85-4708-b9af-819a9a3360c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/form/div/div/div/input</value>
-      <webElementGuid>e347dd77-a2f9-406c-9e11-87e160f81229</webElementGuid>
+      <value>//form[@id='payment-form']/div/div/div[2]/div[2]/div/input</value>
+      <webElementGuid>1e44ce4d-bc12-4786-9826-96b834577c22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>6da9811b-5e59-4ce3-9918-629b134c8c25</webElementGuid>
+      <value>//div[2]/div[2]/div/input</value>
+      <webElementGuid>45d86de9-848e-4149-a8e5-c8ce65a5cb7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '__VID__17__MelaId_lhzyabk9__usernameId' and @type = 'text' and @name = 'username' and @placeholder = 'ユーザー名の入力']</value>
-      <webElementGuid>3e7ccd31-e05d-4693-b367-9ebe0aa3fa0c</webElementGuid>
+      <value>//input[@id = 'cvv' and @name = 'cvv' and @type = 'text']</value>
+      <webElementGuid>34985ccb-d642-4cbc-9e65-ca8ccdcab746</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

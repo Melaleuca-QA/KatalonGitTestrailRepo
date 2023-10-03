@@ -30,13 +30,13 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_TW/_General/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('_TW/_General/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Citizen Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
-    WebUI.callTestCase(findTestCase('_TW/_General/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.openBrowser('')
@@ -102,7 +102,7 @@ WebUI.click(findTestObject('OB_DataEntry/Page_Customer Document Management Syste
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_Save'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(30)
 
 WebUI.closeBrowser()
 

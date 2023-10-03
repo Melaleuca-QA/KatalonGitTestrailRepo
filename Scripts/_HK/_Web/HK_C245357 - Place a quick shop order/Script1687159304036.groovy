@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_HK/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Web/_General/_Login_hk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 
@@ -50,6 +50,8 @@ if (now_url == GlobalVariable.url_CheckoutPromo_hk) {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_hk'))
 }
 
+WebUI.waitForAlert(5)
+
 WebUI.setText(findTestObject('Object Repository/OB_Web/Page_/input_paymethodCvv'), '123')
 
 WebUI.waitForAlert(5)
@@ -67,10 +69,10 @@ WebUI.waitForAlert(5)
 //if (WebUI.verifyElementVisible(findTestObject('OB_Web/Page_/div_3535')) == true) {
 //    WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
 //}
-WebUI.callTestCase(findTestCase('_TW/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Place a quick shop order'
 GlobalVariable.test_case = '245357'
 
-WebUI.callTestCase(findTestCase('_HK/_General/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_HK/_Globals/HK Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

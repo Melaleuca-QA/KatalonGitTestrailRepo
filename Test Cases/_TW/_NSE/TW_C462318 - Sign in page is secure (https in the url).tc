@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TW_C462318 - Sign in page is secure (https in the url)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a41bc8-4d3f-4956-9236-412d60bf5189</testCaseGuid>
+</TestCaseEntity>

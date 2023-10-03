@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>11192,11141</description>
-      <initValue>'11141'</initValue>
+      <description>11192,11247</description>
+      <initValue>'11192'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -383,5 +383,25 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
       <name>url_CheckoutPromo_hk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-uattw.melaleuca.com'</initValue>
+      <name>nse_url_uattw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tw1'</initValue>
+      <name>nse_tw_username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>password</description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>nse_tw_password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>nse_tw_url_Checkout</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
