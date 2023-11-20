@@ -176,6 +176,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://sttwweb.melaleuca.com/Shared/Content/Cancel_EmailSent'</initValue>
+      <name>url_CancelEmailSent_new</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://sttwweb.melaleuca.com/ProductStore/Cart'</initValue>
       <name>url_Cart</name>
    </GlobalVariableEntity>

@@ -124,6 +124,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/button_Place Duplic
 
 WebUI.waitForAlert(5)
 
+'Error Here, no cancel order button.'
 WebUI.click(findTestObject('OB_NSE/Page_/a_No Thanks'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_Cancel'))

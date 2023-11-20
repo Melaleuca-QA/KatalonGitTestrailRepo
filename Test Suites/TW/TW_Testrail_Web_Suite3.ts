@@ -50,7 +50,7 @@
       <guid>b6d17d8c-b9da-4a81-834b-cfbbcf5e5c9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_Web/TW_C247199 - Try all Membership Pack options</testCaseId>
+      <testCaseId>Test Cases/_TW/_Web/TW_C000000 - Try all Membership Pack options</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

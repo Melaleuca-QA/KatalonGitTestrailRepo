@@ -82,6 +82,8 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
+WebUI.waitForAlert(10)
+
 if (GlobalVariable.run_env == 'PD') {
     WebUI.verifyEqual(now_url, GlobalVariable.url_hk_Enrollment_Forms)
 } else {

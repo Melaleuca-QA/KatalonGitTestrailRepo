@@ -280,7 +280,7 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_enroll_tw'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(15)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_BusinessCenter_OLE_tw'))
 

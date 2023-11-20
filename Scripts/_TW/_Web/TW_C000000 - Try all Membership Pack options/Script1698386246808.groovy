@@ -183,23 +183,22 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_Product
 
 WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Try all Membership Pack options'
-GlobalVariable.test_case = '247199'
+//'Try all Membership Pack options'
+//GlobalVariable.test_case = '247199'
 
-WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Set up Customized Membership Pack'
-GlobalVariable.test_case = '247200'
+//'Set up Customized Membership Pack'
+//GlobalVariable.test_case = '247200'
 
-WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Verify "Most Popular Products"'
-GlobalVariable.test_case = '247201'
+//'Verify "Most Popular Products"'
+//GlobalVariable.test_case = '247201'
 
-WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Search by SKU name and number'
-GlobalVariable.test_case = '247202'
+//'Search by SKU name and number'
+//GlobalVariable.test_case = '247202'
 
-WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)

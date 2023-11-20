@@ -38,7 +38,7 @@ WebUI.navigateToUrl(GlobalVariable.url_OtherOptions)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_MyAccountShowAll_OtherOption_MoreDetail'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 now_url = WebUI.getUrl()
 
@@ -48,7 +48,7 @@ WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailConfirm, false)
 
 WebUI.click(findTestObject('OB_Web/Page_/a_MyAccountShowAll_OtherOption_MoreDetail_SendSteps'))
 
-WebUI.waitForPageLoad(100)
+WebUI.waitForAlert(5)
 
 WebUI.refresh()
 
@@ -56,9 +56,9 @@ now_url = WebUI.getUrl()
 
 println(now_url)
 
-WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent, false)
+WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent_new, false)
 
-WebUI.callTestCase(findTestCase('_HK/_Web/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
 GlobalVariable.test_case = '245377'

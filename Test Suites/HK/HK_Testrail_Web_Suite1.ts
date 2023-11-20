@@ -169,7 +169,7 @@
       <guid>1c4e8442-6782-4256-a7bb-05b4d1778248</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_HK/_Web/HK_C247199 - Try all Membership Pack options</testCaseId>
+      <testCaseId>Test Cases/_HK/_Web/HK_C000000 - Try all Membership Pack options</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

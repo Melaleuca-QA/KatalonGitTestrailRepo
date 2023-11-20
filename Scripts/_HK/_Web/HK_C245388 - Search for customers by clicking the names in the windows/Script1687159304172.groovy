@@ -71,7 +71,7 @@ if (GlobalVariable.run_country == 'TW') {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'))
 
     '輸入Enrollee手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), '85255551471')
+    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_applicant'), '85251093314')
 }
 
 '搜尋Enrollee'
@@ -142,7 +142,7 @@ if (GlobalVariable.run_country == 'TW') {
     WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), FailureHandling.STOP_ON_FAILURE)
 
     '輸入Enroller手機號碼(Policy Admin Hold)'
-    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '85255551471')
+    WebUI.setText(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/input_EnrollerPhone'), '85251379298')
 }
 
 '搜尋Enroller'

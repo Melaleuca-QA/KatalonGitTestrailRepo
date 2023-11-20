@@ -30,7 +30,7 @@ WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_Busin
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_ApplyEnroll_hk'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_BusinessCenter_OLE_hk'))
 

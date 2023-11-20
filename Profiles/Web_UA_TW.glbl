@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>11192,11247</description>
-      <initValue>'11192'</initValue>
+      <description>11283,11247</description>
+      <initValue>'11247'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -168,6 +168,11 @@
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailConfirm'</initValue>
       <name>url_CancelEmailConfirm</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatwweb.melaleuca.com/Shared/Content/Cancel_EmailSent'</initValue>
+      <name>url_CancelEmailSent_new</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

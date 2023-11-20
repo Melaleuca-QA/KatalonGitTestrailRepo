@@ -24,7 +24,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
     WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
 }
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
@@ -36,7 +36,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(15)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
 

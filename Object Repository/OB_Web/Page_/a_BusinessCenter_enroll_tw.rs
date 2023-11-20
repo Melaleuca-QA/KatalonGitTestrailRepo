@@ -10,6 +10,10 @@
          <value>/html/body/div[3]/div[1]/div[3]/div[2]/a[11]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'javascript:void(0)' and (text() = '
                                 
@@ -18,10 +22,6 @@
                                 
                                 入會
                             ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a.nav-sub-item.nav-sub-item-remove-left-border.is-visible.is-preview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>70e9f23b-2742-48eb-b5f8-4024d78a211b</webElementGuid>
+      <webElementGuid>d902c31c-ab6a-433a-8470-ff6e7b1d93ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview</value>
-      <webElementGuid>761b3e06-068f-44c2-90aa-5c9432ee50aa</webElementGuid>
+      <webElementGuid>2db8b33c-6eb6-4b2f-9b8b-4bdf7b8a6902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>data-self-id</name>
       <type>Main</type>
       <value>986</value>
-      <webElementGuid>42af8906-d194-4058-a6a0-6a5b3ab1d020</webElementGuid>
+      <webElementGuid>e3f4f686-ed6d-4115-b41e-3a277b0fd1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>data-parent-id</name>
       <type>Main</type>
       <value>985</value>
-      <webElementGuid>d5b99ac8-7ccd-4d64-a2c6-9f76539a05ef</webElementGuid>
+      <webElementGuid>39ef05df-0d21-48a8-bbbd-ef0bf2e3898f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>177f31dd-16fe-4d78-bce2-22906428ad31</webElementGuid>
+      <webElementGuid>ec0ffdeb-51b5-4783-a8b3-4fd607b4eafc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>入會</value>
-      <webElementGuid>7eb6fb66-3ba9-4a6c-bdc1-a698c75e62e0</webElementGuid>
+      <webElementGuid>a5fa8d33-082e-489e-af04-b6e9ba091dba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>277c5ace-94eb-4e1c-be16-7b6a1a4cf88e</webElementGuid>
+      <webElementGuid>b7a0bf7b-bef3-48ce-8ceb-d3b27d704e11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@
                                 
                                 入會
                             </value>
-      <webElementGuid>bd938123-037f-423a-a92c-c7e508ce6261</webElementGuid>
+      <webElementGuid>c27819db-77e1-4422-b329-539549012868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container zh-TW&quot;]/div[@class=&quot;headerWrapper&quot;]/div[@class=&quot;site-nav&quot;]/div[@class=&quot;nav-sub-item-wrapper&quot;]/a[@class=&quot;nav-sub-item  nav-sub-item-remove-left-border is-visible is-preview&quot;]</value>
-      <webElementGuid>08c81309-0f96-4cfb-97f9-83bef8683aa8</webElementGuid>
+      <webElementGuid>006acf2b-d69d-473d-a2d1-fefea54be196</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=''])[11]</value>
-      <webElementGuid>49ff5ad9-0aa7-4143-aac6-d8bb6a959ed3</webElementGuid>
+      <webElementGuid>cca3ca5d-12e4-4776-9707-2395697cb2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='入會']/parent::*</value>
-      <webElementGuid>79e7caed-afb1-4643-a3a9-c8e0b623c727</webElementGuid>
+      <webElementGuid>c36da444-66fc-4648-893a-11352703b29c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[8]</value>
-      <webElementGuid>74292a3b-55b7-4f7b-b71f-37da555f6334</webElementGuid>
+      <webElementGuid>9fc7522b-3f02-4a2d-8047-6a221600d074</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[11]</value>
-      <webElementGuid>4bd5bb8e-488b-4160-8c31-be6c85e61a20</webElementGuid>
+      <webElementGuid>efbaaf21-8a21-4d0a-ab45-579ff849e320</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
