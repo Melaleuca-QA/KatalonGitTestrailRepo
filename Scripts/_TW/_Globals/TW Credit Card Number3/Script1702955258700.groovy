@@ -23,28 +23,22 @@ WebUI.navigateToUrl('https://namso-gen.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/OB_Web/Page_Random Test Credit Card Numbers/a_Advance'))
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.waitForAlert(5)
+WebUI.setText(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/input_BIN_form-input block w-full 2'), '405430')
 
-WebUI.click(findTestObject('Object Repository/OB_Web/Page_Random Test Credit Card Numbers/div_BIN'))
+WebUI.click(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/button_Generate 2'))
 
-WebUI.setText(findTestObject('Object Repository/OB_Web/Page_Random Test Credit Card Numbers/input_BIN_form.bin'), 
-    '448550')
-
-WebUI.click(findTestObject('Object Repository/OB_Web/Page_Random Test Credit Card Numbers/span_Generate'))
-
-WebUI.click(findTestObject('Object Repository/OB_Web/Page_Random Test Credit Card Numbers/span_Generate'))
-
-result1 = WebUI.getText(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/pre_CreditCard'))
+result1 = WebUI.getAttribute(findTestObject('OB_Web/Page_Random Test Credit Card Numbers/textarea_Result'), 'value')
 
 println(result1)
 
 result2 = result1.substring(0, 16)
 
-GlobalVariable.hk_input_creditcard = result2
+GlobalVariable.tw_input_creditcard = result2
 
-println(GlobalVariable.hk_input_creditcard)
+println(GlobalVariable.tw_input_creditcard)
 
 WebUI.closeBrowser()
 

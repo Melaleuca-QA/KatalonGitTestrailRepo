@@ -33,7 +33,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Citizen Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get ole variables'
     WebUI.callTestCase(findTestCase('_TW/_Globals/TW OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)

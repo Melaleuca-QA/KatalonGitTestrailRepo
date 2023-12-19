@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Generate</name>
+   <tag></tag>
+   <elementGuidId>557f4309-3678-4325-a69d-1fae615e3d03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='BALANCE'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ca199c84-5b4c-4f3e-aec5-34f09b504f3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:loading.class</name>
+      <type>Main</type>
+      <value>hidden</value>
+      <webElementGuid>18327ef9-df58-4caf-881f-60834133aee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:target</name>
+      <type>Main</type>
+      <value>generate</value>
+      <webElementGuid>471f3edd-d260-43f8-9c9f-05347a2c84fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Generate
+          </value>
+      <webElementGuid>9a358ffc-b21a-4425-b031-4273b7114400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-300&quot;]/main[1]/section[1]/div[@class=&quot;mx-auto max-w-7xl p-6 lg:px-8&quot;]/div[3]/div[3]/div[@class=&quot;max-w-6xl mx-auto&quot;]/div[@class=&quot;grid lg:grid-cols-2 gap-5&quot;]/div[@class=&quot;bg-white dark:bg-gray-800/90 shadow ring-1 ring-white/20 rounded sm:rounded-lg overflow-hidden&quot;]/div[@class=&quot;px-4 py-5 sm:p-6&quot;]/form[@class=&quot;space-y-6&quot;]/div[5]/button[@class=&quot;inline-flex items-center gap-x-1.5 rounded-md bg-teal-600 dark:bg-teal-300/80 px-3 py-2 text-sm font-semibold text-white dark:text-gray-800 shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600&quot;]/span[2]</value>
+      <webElementGuid>eab425c0-4946-4744-b57a-f25dd929b46c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BALANCE'])[1]/following::span[2]</value>
+      <webElementGuid>2a28d93d-981c-499f-8500-bd8086d1ace2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURRENCY'])[1]/following::span[2]</value>
+      <webElementGuid>172f3b62-2062-4d9c-a3ef-4a0fe75b8c56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copied to clipboard'])[1]/preceding::span[1]</value>
+      <webElementGuid>161445be-7f0b-4673-9e13-2b8e7b14ef51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/preceding::span[1]</value>
+      <webElementGuid>7c0ac629-9585-415c-aa26-c81dee49fa68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button/span[2]</value>
+      <webElementGuid>ac6eb8ab-0274-4764-8737-06009821c563</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            Generate
+          ' or . = '
+            Generate
+          ')]</value>
+      <webElementGuid>8d1f915e-d58c-46c6-8483-6e80dac7dc05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

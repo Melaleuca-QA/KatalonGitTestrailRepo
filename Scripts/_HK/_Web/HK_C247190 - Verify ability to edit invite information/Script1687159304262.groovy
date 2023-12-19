@@ -33,7 +33,7 @@ if (false) {
     WebUI.callTestCase(findTestCase('_HK/_Globals/HK OLE Variables'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
-    WebUI.callTestCase(findTestCase('_HK/_Globals/HK Citizen Number 2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_Globals/HK Citizen Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get credit card number'
     WebUI.callTestCase(findTestCase('_HK/_Globals/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -332,9 +332,11 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_/a_BusinessCenter_OLE_ConfirmDetails'))
 
-WebUI.waitForAlert(15)
+WebUI.waitForAlert(10)
 
 WebUI.refresh()
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_Melaleuca The Wellness Company/span_BusinessCenter_OLE_ConfirmDetails_Presenter_Edit'))
 

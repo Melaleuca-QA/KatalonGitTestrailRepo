@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>11192,11141</description>
-      <initValue>'11192'</initValue>
+      <description>11283,11330</description>
+      <initValue>'11330'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,7 +20,7 @@
       <name>test_case2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>12100466253</description>
+      <description>1211856580</description>
       <initValue>'valenatw'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
@@ -30,7 +30,7 @@
       <name>tw_input_password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>12102161574</description>
+      <description>1212025657</description>
       <initValue>'0932926403'</initValue>
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
@@ -75,7 +75,7 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk1(13100408121), hkpdtest(13100052276)</description>
+      <description>hk1(1310769096), hkpdtest(1310733613)</description>
       <initValue>'hkpdtest'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
@@ -176,7 +176,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://tw.melaleuca.com/Shared/Content/Cancel_EmailSent'</initValue>
+      <initValue>'https://tw.melaleuca.com/ProductStore/PromoContent.aspx?Page=Cancel_EmailSent'</initValue>
       <name>url_CancelEmailSent_new</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
