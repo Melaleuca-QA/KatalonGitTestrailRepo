@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='lvlABA3802E67CA411F976187D19A456DE5']/li[3]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[2]/div/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>13205cca-762a-41a2-9ead-2885ac57017f</webElementGuid>
+      <webElementGuid>6c099cc5-2f90-417d-91ff-dec1e66aea3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/supplements/saving-packs-and-bundles</value>
-      <webElementGuid>667ce66b-b93d-4d7d-99c3-a013402ef450</webElementGuid>
+      <webElementGuid>ec8f8759-3ba0-4a03-baf5-41bd8f0d8f37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>target</name>
       <type>Main</type>
       <value>|Custom</value>
-      <webElementGuid>c3b363d6-aecc-4c18-8194-e1ecae94f333</webElementGuid>
+      <webElementGuid>4aa439e7-892b-457e-a65a-e6f7104743e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>adc18895-657a-44a1-af61-67f7f5b95ef7</webElementGuid>
+      <webElementGuid>25a69ef7-ef8c-4046-9ae9-03049f1d8b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>8ef13627-f6ee-4a01-9d56-7757e5472549</webElementGuid>
+      <webElementGuid>235ae255-4abb-443a-b1a6-53340fd4c5c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6fcb7946-7fd9-4090-b72c-467fa614af96</webElementGuid>
+      <webElementGuid>2500637c-f5b6-48b0-820c-773a6754aa7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-navMenu__item-btn</value>
-      <webElementGuid>835f122b-dadb-41a7-81f5-027365337f90</webElementGuid>
+      <webElementGuid>985cc9fe-7c7b-4f07-86d5-da1fcaa2e734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>bc906bf0-71ec-4933-9c79-20c191cc5ac7</webElementGuid>
+      <webElementGuid>0ef6d371-4f1d-4d7e-bfcd-d021ab57e71e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Saving Packs &amp; Bundles </value>
-      <webElementGuid>219349d8-8a5c-421d-8404-b07800a80b05</webElementGuid>
+      <webElementGuid>e5402034-0649-4698-bafd-332236b814c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lvlABA3802E67CA411F976187D19A456DE5&quot;)/li[@class=&quot;m-navMenu__item -lvl2 Both&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
-      <webElementGuid>5009690d-edc1-49d4-b059-cf0800cefc1e</webElementGuid>
+      <webElementGuid>35f8f0c7-0d6b-47bb-a707-e33c94e6a1f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='lvlABA3802E67CA411F976187D19A456DE5']/li[3]/a</value>
-      <webElementGuid>858765c1-9921-4e15-9415-e544d46e3a66</webElementGuid>
+      <webElementGuid>7c0fdc05-6123-412d-8744-e5f41af3a0ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Saving Packs &amp; Bundles')]</value>
-      <webElementGuid>27eec8cb-dcc7-4cbe-8bae-09596765c18f</webElementGuid>
+      <webElementGuid>781c3c29-a61b-445d-8bc7-4ee80c18cfca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Supplements'])[1]/following::a[1]</value>
-      <webElementGuid>93421df8-2699-45ae-8b96-863797df7b12</webElementGuid>
+      <webElementGuid>d6788635-4f3b-4591-b7d6-7657bd32e160</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[1]/following::a[2]</value>
-      <webElementGuid>e569cfb5-1227-4e2b-948d-fd737b7046ec</webElementGuid>
+      <webElementGuid>b8c7e604-8d09-4727-a154-a4e7691dd4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cleaning and Laundry'])[1]/preceding::a[1]</value>
-      <webElementGuid>ee40b671-9a53-4f3b-bcf3-f4c2629c91b9</webElementGuid>
+      <webElementGuid>173c7748-f6f1-4878-8cef-234d4e7c862b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[2]/preceding::a[2]</value>
-      <webElementGuid>a6418070-61a9-45f5-a03e-2decc4f000ce</webElementGuid>
+      <webElementGuid>a40d0817-840d-46e3-9aa0-374a11371793</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Saving Packs &amp; Bundles']/parent::*</value>
-      <webElementGuid>bd9d7b91-104f-48e8-8470-8647f8296912</webElementGuid>
+      <webElementGuid>4721aee6-1a77-4d63-a827-6eab6cd50655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/productstore/supplements/saving-packs-and-bundles')]</value>
-      <webElementGuid>1b802eee-ee26-4c68-8d6b-bc68493b1076</webElementGuid>
+      <webElementGuid>af61d02e-253a-486d-a3f2-5983589604f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div/ul/li[3]/a</value>
-      <webElementGuid>ace4f21b-fcd0-417d-98ec-446ce6954360</webElementGuid>
+      <webElementGuid>e986fb36-53e1-4df4-88b8-be95af78db6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/supplements/saving-packs-and-bundles' and (text() = 'Saving Packs &amp; Bundles ' or . = 'Saving Packs &amp; Bundles ')]</value>
-      <webElementGuid>c63554b6-5e0a-4dbd-a4fe-9311be3ca070</webElementGuid>
+      <webElementGuid>4162c816-10eb-446f-b7b3-e6b789e0d6ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -38,7 +38,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
@@ -51,7 +51,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_ContinueShop'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
@@ -81,7 +81,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/a_ADD NEW PAYMENT METHOD'))
 
 WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('OB_NSE/Page_Add New Payment Method/input_Card Number_cardNumber'), GlobalVariable.sg_input_creditcard)
+WebUI.setText(findTestObject('OB_NSE/Page_Add New Payment Method/input_card number'), GlobalVariable.sg_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_Month'), '12', true)
 
@@ -103,13 +103,13 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_Pay With'))
 
-WebUI.click(findTestObject('OB_Web/Page_/icon_delete'))
+WebUI.click(findTestObject('OB_NSE/Page_/icon_delete'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete'))
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_CVV_cvvCode'), '123')
+WebUI.setText(findTestObject('OB_NSE/Page_/input_cvv code'), '123')
 
 WebUI.waitForAlert(5)
 
@@ -130,7 +130,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_Cancel'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_Cancel Order'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_See All_o-myAccPopup_icon loaded'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_See All-myAccPopup_icon loaded'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_ORDERS'))
 
@@ -140,13 +140,13 @@ WebUI.click(findTestObject('OB_NSE/Page_Order History/a_Overview'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_Order History Detail'))
 
-WebUI.click(findTestObject('OB_NSE/Page_Order History/a_Payment  Addresses'))
+WebUI.click(findTestObject('OB_NSE/Page_Order History/a_payment addresses'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_Lists'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Lists/a_Account Settings'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_See All_o-myAccPopup_icon loaded'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_See All-myAccPopup_icon loaded'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_Go To My Account'))
 

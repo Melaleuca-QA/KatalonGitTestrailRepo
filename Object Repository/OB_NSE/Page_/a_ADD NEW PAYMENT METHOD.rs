@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ADD NEW PAYMENT METHOD</name>
+   <name>a_add new payment method</name>
    <tag></tag>
    <elementGuidId>060c342c-10ec-4190-b32f-9a66b48f1076</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[4]/div[1]/div/div/div/div/div/div[4]/div/a[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[4]/div[1]/div/div/div/div/div/div[4]/div/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

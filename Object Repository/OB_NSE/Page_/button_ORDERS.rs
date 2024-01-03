@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ORDERS</name>
+   <name>button_orders</name>
    <tag></tag>
    <elementGuidId>ad0b99cf-4ede-4c7b-9a55-7cdfedaf0940</elementGuidId>
    <selectorCollection>

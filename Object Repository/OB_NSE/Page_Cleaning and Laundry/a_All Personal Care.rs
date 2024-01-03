@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='lvl66AE5E67203341F283C4A18D7DA0EB9A']/li[2]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[3]/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c8dcac90-7903-4ffd-90ed-d73fd5b6358f</webElementGuid>
+      <webElementGuid>1027313b-c30b-497a-a258-8045d3681ccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/personal-care</value>
-      <webElementGuid>e105c806-52dd-4171-8815-eae1decfb189</webElementGuid>
+      <webElementGuid>f4a12b06-0454-4152-8dc5-44a9d2deb0e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>21b0d2e9-887d-4e72-a675-cd39636b0ea6</webElementGuid>
+      <webElementGuid>5a51d8fa-dd23-4e5c-9c62-6ef3cd53a91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>All Personal Care</value>
-      <webElementGuid>13c35b5c-478d-4881-8033-befb18ab7915</webElementGuid>
+      <webElementGuid>e5bc5f1d-ab40-4e9f-8f31-61276fb2cb05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lvl66AE5E67203341F283C4A18D7DA0EB9A&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
-      <webElementGuid>c702be3d-6a51-447b-a0ed-2b7ce4a1704a</webElementGuid>
+      <webElementGuid>1029b90b-27fd-4eac-8581-a1716bb8703e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='lvl66AE5E67203341F283C4A18D7DA0EB9A']/li[2]/a</value>
-      <webElementGuid>9abb25e4-4d6f-412f-99f8-9430156b09cb</webElementGuid>
+      <webElementGuid>2435d99d-cda0-4bac-83fa-4b37c9ea82b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'All Personal Care')]</value>
-      <webElementGuid>32c5fd5d-6e1f-4f32-b19f-b06893dbb96b</webElementGuid>
+      <webElementGuid>5f59cbca-aaaf-47ee-86fc-ff7495f6803b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[3]/following::a[1]</value>
-      <webElementGuid>b1826470-7685-4ad3-a5b2-3e179e9a1fd1</webElementGuid>
+      <webElementGuid>15f221c6-e434-4a7c-b6fd-6b66ac3f2116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laundry'])[1]/following::a[2]</value>
-      <webElementGuid>122fbe50-e1e4-4080-acb0-3be4ec14753e</webElementGuid>
+      <webElementGuid>3603bd03-0f8d-44b1-bdf7-9a68045f8468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bath and Body'])[1]/preceding::a[1]</value>
-      <webElementGuid>7301871e-bfe6-400d-a8c6-a061a1ab554e</webElementGuid>
+      <webElementGuid>b0efad9a-3821-49af-801f-1b53c3426f73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hair Care'])[1]/preceding::a[2]</value>
-      <webElementGuid>b79ede5c-7c86-4d6d-8b4d-bf88ec0e9912</webElementGuid>
+      <webElementGuid>b5336f33-7d9c-4773-9192-f220136a7aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='All Personal Care']/parent::*</value>
-      <webElementGuid>e5849602-e3e0-4358-97e3-4d8efafd1de4</webElementGuid>
+      <webElementGuid>5b211138-8471-4ae6-bca8-72c5c9fa11eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/productstore/personal-care')]</value>
-      <webElementGuid>852a590f-1533-4711-a493-25ec7ce00dca</webElementGuid>
+      <webElementGuid>dd064d15-611e-4951-9cb8-bb37a4ab9998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div/ul/li[2]/a</value>
-      <webElementGuid>a96f0db8-b1da-4ad7-936b-10c933eb77d4</webElementGuid>
+      <webElementGuid>748c56f8-a3aa-44a1-a06d-431fe40d1b48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/personal-care' and (text() = 'All Personal Care' or . = 'All Personal Care')]</value>
-      <webElementGuid>4f0004b2-8ebe-41a9-ada7-4098dde66989</webElementGuid>
+      <webElementGuid>40295007-b2eb-4949-a13d-216a1ccccc50</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

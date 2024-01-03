@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;lvlD3D05F37769743A9926AD31BC95D1283&quot;]/li[9]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[13]/div/ul/li[7]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b8dd6299-b199-4c2f-9496-0fb4ca54dd47</webElementGuid>
+      <webElementGuid>f2c27724-6b04-4e0f-b675-9de77899ac27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/extra-savings/vip</value>
-      <webElementGuid>a5bcdfeb-0539-4fec-b16b-b4376c5dd1e3</webElementGuid>
+      <webElementGuid>65bcd793-3e97-417f-b370-42cda3dab98f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9ae41fd1-9ad6-4a23-9e38-9da06a6e9f75</webElementGuid>
+      <webElementGuid>3491dc34-35e8-43f6-b768-b2702b3204ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>fdc1a144-2e94-4cc6-accb-a12e535c7c5a</webElementGuid>
+      <webElementGuid>d497f151-9d8c-46d4-a3a5-a1818ae93f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3dc3a0f7-bedb-4653-8e3d-63e69d681609</webElementGuid>
+      <webElementGuid>b425743f-d11f-4ad7-bbeb-1fff9813207b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-navMenu__item-btn</value>
-      <webElementGuid>3d47a880-d515-4de1-b227-84b19d8e1260</webElementGuid>
+      <webElementGuid>4fbb8863-5d82-4ed7-9596-9826ddb6b5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>c87f36e7-41fa-4995-8982-a313eaa8d080</webElementGuid>
+      <webElementGuid>94113fdf-9bae-4adf-b917-f161bb4050e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>VIP/VIP+ Monthly Promotion </value>
-      <webElementGuid>ed19f525-6129-47dc-8dd1-91591f940cbc</webElementGuid>
+      <webElementGuid>71b9a699-6528-4601-a776-c910bbd38237</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lvlD3D05F37769743A9926AD31BC95D1283&quot;)/li[@class=&quot;m-navMenu__item -lvl2 Both&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
-      <webElementGuid>ab1856a3-c8aa-4749-a17c-a976711c7df5</webElementGuid>
+      <webElementGuid>4536f5fb-c0c4-43d8-91a1-36ecb3189c59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='lvlD3D05F37769743A9926AD31BC95D1283']/li[10]/a</value>
-      <webElementGuid>f6bbd2f4-2f14-4980-ae9d-84921e297b5b</webElementGuid>
+      <webElementGuid>27883d5f-a6db-4bac-b788-26800ccddd0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'VIP/VIP+ Monthly Promotion')]</value>
-      <webElementGuid>d88efd34-0840-4020-ad2e-8ae95251d3c3</webElementGuid>
+      <webElementGuid>628b4736-2a5c-4392-9bc4-f1b110c2f467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VIP/VIP+ Birthday Rewards'])[1]/following::a[1]</value>
-      <webElementGuid>4a4f93fa-484a-4b32-afe6-9ba7bf3395b3</webElementGuid>
+      <webElementGuid>61458bf9-a58d-4b6e-9db5-81a3c03e0827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Outlet Store'])[1]/following::a[2]</value>
-      <webElementGuid>3d0f10d5-661f-4691-a737-12873096a845</webElementGuid>
+      <webElementGuid>c60afe74-73bf-4c8f-98bf-ae2399fd6e4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>598dc1f8-1dca-4b04-9b6d-f259b85800f5</webElementGuid>
+      <webElementGuid>9410671c-bacf-4161-8437-f87fb3c87b97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[7]/preceding::a[2]</value>
-      <webElementGuid>de1a494e-e95c-44e8-b234-0b7e81e802e9</webElementGuid>
+      <webElementGuid>25620b2a-ff4b-4525-84a1-75687543fbd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='VIP/VIP+ Monthly Promotion']/parent::*</value>
-      <webElementGuid>f41b505f-f543-46ab-aa48-980a6c7e83e2</webElementGuid>
+      <webElementGuid>131d3761-d555-48df-9b6a-41e07be1391f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/productstore/extra-savings/vip')])[2]</value>
-      <webElementGuid>e8a0efc9-9f56-4b05-b808-619b526ee614</webElementGuid>
+      <webElementGuid>2c6dc562-0d87-43a4-a753-346d4e52d2f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[12]/div/ul/li[10]/a</value>
-      <webElementGuid>b77419d2-4d42-4e10-915d-accea43bd393</webElementGuid>
+      <webElementGuid>358bdbd9-9fc0-4ce7-b1b5-e364e40c620b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/extra-savings/vip' and (text() = 'VIP/VIP+ Monthly Promotion ' or . = 'VIP/VIP+ Monthly Promotion ')]</value>
-      <webElementGuid>2e860547-2ae7-4b39-981d-5cfd2df19c50</webElementGuid>
+      <webElementGuid>b6b593cf-eb6c-4c63-b333-80059bff48de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Pay With</name>
+   <name>span_pay with</name>
    <tag></tag>
    <elementGuidId>2a55b44c-c1a1-48f8-8a7b-91a9a8fc5a37</elementGuidId>
    <selectorCollection>

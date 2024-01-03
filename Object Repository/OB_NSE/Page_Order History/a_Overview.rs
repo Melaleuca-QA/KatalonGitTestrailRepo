@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Overview</name>
+   <name>a_overview</name>
    <tag></tag>
    <elementGuidId>2c06fbb8-95f1-480e-ba9b-33b30b35db67</elementGuidId>
    <selectorCollection>
@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/ul/li[1]/a</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/ul/li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a878c9fd-7788-4615-a327-40a94cd473a4</webElementGuid>
+      <webElementGuid>ee397c4e-ba28-42cd-9a95-891ed09af67d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>data-gtm-track</name>
       <type>Main</type>
       <value>{&quot;gtmId&quot;:26,&quot;gtmText&quot;:&quot;Overview&quot;}</value>
-      <webElementGuid>ac85b621-0e7b-4095-8fc6-de3711ee7f78</webElementGuid>
+      <webElementGuid>f9bd74d2-1477-4ce0-aeb2-db4d5131c5a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/my-account</value>
-      <webElementGuid>6c0c8abc-4e84-4fe6-8cb7-5146b431dc50</webElementGuid>
+      <webElementGuid>f959355b-2653-41c1-b12f-6424b46fd638</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-tabs__link </value>
-      <webElementGuid>fb126767-3a03-484f-a244-258ee7f45c00</webElementGuid>
+      <webElementGuid>ba1f8e07-284b-4149-b538-52826e1e6527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
 Overview
 </value>
-      <webElementGuid>cf4b7c48-dac3-4e85-82b0-f4d22a484872</webElementGuid>
+      <webElementGuid>aec0060d-7192-4ab9-911d-1952778bbe98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@ Overview
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tab-1&quot;)/a[@class=&quot;m-tabs__link&quot;]</value>
-      <webElementGuid>285233da-d770-4f36-aff2-413c289624bd</webElementGuid>
+      <webElementGuid>7125b85d-4764-4239-82d8-0cee2d91fab9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@ Overview
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='tab-1']/a</value>
-      <webElementGuid>d890b567-0fe1-4e10-baa8-5b57ddace634</webElementGuid>
+      <webElementGuid>ca89d83c-1103-43b5-987b-7ec24c95eff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@ Overview
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Overview')]</value>
-      <webElementGuid>469a22dd-5085-4284-b8bb-3057b4616af2</webElementGuid>
+      <webElementGuid>c5640fdb-29b0-4e59-93e7-7240a378a699</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@ Overview
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[5]/following::a[1]</value>
-      <webElementGuid>c84d353d-15ff-49dd-b1d3-a77acc022475</webElementGuid>
+      <webElementGuid>b2006ff6-1209-46d8-a262-3b09a49e7107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@ Overview
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[4]/following::a[1]</value>
-      <webElementGuid>e515600c-0587-4566-a670-7e0ee40874ad</webElementGuid>
+      <webElementGuid>262a1677-a241-426c-aa95-a1b30306d82e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@ Overview
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[6]/preceding::a[1]</value>
-      <webElementGuid>9c9e4b8f-4d05-41f8-bc2f-cdb6b956619d</webElementGuid>
+      <webElementGuid>038e8eef-7869-41f8-bafa-a3744418c71f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@ Overview
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment &amp; Addresses'])[1]/preceding::a[2]</value>
-      <webElementGuid>0773a176-2b0c-4c85-9f2c-03eb001ea29b</webElementGuid>
+      <webElementGuid>b754d63d-0522-4508-883d-68676fbf29aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@ Overview
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Overview']/parent::*</value>
-      <webElementGuid>71048493-954e-428b-b5b5-08f5a37d39b9</webElementGuid>
+      <webElementGuid>2a8e1ce5-4b11-4d5f-9358-f88789daf298</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@ Overview
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/my-account')])[17]</value>
-      <webElementGuid>6b9c64ef-e1fe-404b-9960-7f3781218634</webElementGuid>
+      <webElementGuid>9521bf2f-dc88-42fc-bf20-f76ce55a01e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@ Overview
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/div/div[2]/ul/li/a</value>
-      <webElementGuid>9851b693-6dc6-4288-bd5f-8f5cbd3a223f</webElementGuid>
+      <webElementGuid>b4ab7070-14c2-44bc-a3b1-cd474b0c5767</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +147,6 @@ Overview
 ' or . = '
 Overview
 ')]</value>
-      <webElementGuid>65ead3c1-11d7-4a9f-af33-5f6e8c6194bc</webElementGuid>
+      <webElementGuid>9f1c60af-7774-4ac1-9b6d-a301fe6ed4e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

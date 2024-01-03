@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continue To Checkout</name>
+   <name>a_continue to checkout</name>
    <tag></tag>
    <elementGuidId>f7e04a6f-d007-4239-a83b-e105299e11be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.o-bogo__cta</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

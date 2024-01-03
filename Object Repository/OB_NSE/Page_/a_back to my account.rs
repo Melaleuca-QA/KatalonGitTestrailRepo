@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_back to my account</name>
+   <tag></tag>
+   <elementGuidId>a3da7d8d-4de1-409c-b3fa-a567c66e8b12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/section/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d906c9bd-b0a4-4a57-8554-4d56f6b78e9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -backupOrder lg:mr-20 -center -white md:mb-0</value>
+      <webElementGuid>89084086-5dd3-4b0d-93d3-90d85fb8cea1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/account-settings</value>
+      <webElementGuid>7fa16999-5819-4f17-bd94-54a67cf337df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    回到我的帳戶
+    </value>
+      <webElementGuid>762783d7-df67-4060-880f-19e0ea2ff230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-backupOrder&quot;]/div[1]/div[@class=&quot;o-backupOrder__row -actions&quot;]/a[@class=&quot;a-button -backupOrder lg:mr-20 -center -white md:mb-0&quot;]</value>
+      <webElementGuid>db7ed03a-7b68-4695-ad8b-068bc52f9d2f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/section/div/div[2]/a</value>
+      <webElementGuid>95bcfb2a-bfae-4288-8847-13eb012926a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'回到我的帳戶')]</value>
+      <webElementGuid>5ff9de8a-d334-431f-934e-3ed87da859f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$3,640'])[1]/following::a[1]</value>
+      <webElementGuid>2be64cdc-6aed-4b20-8dfc-45886186943d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='包含各種最受歡迎的產品 (*參閱當月網站最新公告預備訂單內容)'])[2]/following::a[1]</value>
+      <webElementGuid>68817458-7f62-40f0-bee0-a85df2a78766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='更新預備訂單內容'])[1]/preceding::a[1]</value>
+      <webElementGuid>90581ee2-521f-4322-b71a-c3fc8608bdc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::a[1]</value>
+      <webElementGuid>e50e1e5c-e09d-4c4c-8619-52f4ddfe66e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='回到我的帳戶']/parent::*</value>
+      <webElementGuid>8b64970f-bec3-4488-9c51-387ff2e6fffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account/account-settings')])[3]</value>
+      <webElementGuid>a735468a-8b9a-40a9-80be-fa1115844c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div[2]/a</value>
+      <webElementGuid>e92cfe8b-9131-424a-9926-4c8b48237461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/account-settings' and (text() = '
+    回到我的帳戶
+    ' or . = '
+    回到我的帳戶
+    ')]</value>
+      <webElementGuid>a146e5a0-5240-4de4-bc92-097c52525bf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

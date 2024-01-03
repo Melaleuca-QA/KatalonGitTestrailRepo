@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_vip_continue shopping</name>
+   <tag></tag>
+   <elementGuidId>73e83f0b-bc2f-46af-8a32-3e3662e86d0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-button.-white.-lvip</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>728fa58b-8d0a-4d84-868f-bed131da46a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>01c3a535-70c0-44f1-a7c2-4fffb8267c99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -white -lvip</value>
+      <webElementGuid>bd22ce71-4ab0-4bd0-b8f8-2b373aab1bf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                繼續購物
+            </value>
+      <webElementGuid>7438b820-aaa3-4e7c-b65c-600712ef5dcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[2]/div[@class=&quot;o-lvipJourney&quot;]/div[@class=&quot;o-lvipJourney__container&quot;]/div[@class=&quot;o-lvipJourney__shoppingLink&quot;]/a[@class=&quot;a-button -white -lvip&quot;]</value>
+      <webElementGuid>551d24bc-2b1e-4113-98e4-c9a538b395d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div[2]/a</value>
+      <webElementGuid>5c142e74-4503-42ee-86e3-542bb93bfe6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'繼續購物')]</value>
+      <webElementGuid>c9edd6bd-ebf9-4803-bcb4-97e8ae29c328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='你在這裡!'])[1]/following::a[1]</value>
+      <webElementGuid>46f9c064-fee9-4701-88e8-373d933f1ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='獨享更多專屬禮遇 開啟您與家人的快意人生'])[2]/following::a[1]</value>
+      <webElementGuid>1a8fd38f-5b8c-4907-91c0-79af2aeeb97c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='盡享8大極致禮遇'])[1]/preceding::a[1]</value>
+      <webElementGuid>7bae97a3-2976-424f-b430-b572f420e146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='盡享8大極致禮遇'])[2]/preceding::a[1]</value>
+      <webElementGuid>0c094f17-7b5f-4001-89ff-fc96e085a090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='繼續購物']/parent::*</value>
+      <webElementGuid>82114912-ceb0-481e-bb9c-bfbdde801434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[92]</value>
+      <webElementGuid>92199edc-ef3c-401c-a188-6178cc169115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/a</value>
+      <webElementGuid>c78475e4-9f3f-4252-b73d-df5623c4374a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = '
+                繼續購物
+            ' or . = '
+                繼續購物
+            ')]</value>
+      <webElementGuid>92639bef-4ef9-4529-93fe-b9bf0d3fdcc5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

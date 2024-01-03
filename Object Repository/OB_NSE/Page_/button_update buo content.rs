@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_update buo content</name>
+   <tag></tag>
+   <elementGuidId>73a231a5-2d39-4f1d-982d-9c210c4c11e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fec79666-d6e0-4c1b-a4f9-9200613ceca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a3a932c0-3862-47f7-aacf-a36907cc787d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -backupOrder -center md:mb-0 lg:mr-20</value>
+      <webElementGuid>f8330fd1-c2ea-44ed-8c50-9531a1559583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    更新預備訂單內容
+    </value>
+      <webElementGuid>b1103f7f-f9fb-4609-8a03-4a1146cb7c53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-backupOrder&quot;]/div[1]/div[@class=&quot;o-backupOrder__row -actions&quot;]/button[@class=&quot;a-button -backupOrder -center md:mb-0 lg:mr-20&quot;]</value>
+      <webElementGuid>e6e20281-ba94-4d87-bdbe-10745d2251af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>99d9141e-d708-43ef-ae1e-f4c1c1e37cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/section/div/div[2]/button</value>
+      <webElementGuid>bfc8c52c-637f-45ad-b12d-8f4b64438be1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='回到我的帳戶'])[1]/following::button[1]</value>
+      <webElementGuid>56ba8eeb-a6d4-4dba-9768-a255f3bb6ba3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$3,640'])[1]/following::button[1]</value>
+      <webElementGuid>80a8ddac-39ad-45b7-a69d-7e22723effc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>63b3c168-b847-4bbc-b11c-b0a307929387</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>7978f4ee-ba5c-4936-9e0d-ed9c70b6b972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='更新預備訂單內容']/parent::*</value>
+      <webElementGuid>2f5e4291-74c9-4455-9fc2-1bcadf7ed26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div[2]/button</value>
+      <webElementGuid>cb5c8e0b-447b-4942-acbe-ed8be463dcd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+    更新預備訂單內容
+    ' or . = '
+    更新預備訂單內容
+    ')]</value>
+      <webElementGuid>bb4f95df-8a0a-4606-ad8a-d2b43d5e421b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_logout'))
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/img_myAcc_icon'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signout'))
 
 WebUI.closeBrowser()
 

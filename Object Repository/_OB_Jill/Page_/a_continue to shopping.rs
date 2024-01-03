@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_continue to shopping</name>
+   <tag></tag>
+   <elementGuidId>3ab5c218-ac78-4190-b25c-72674d486074</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-button.-medium.mt-15</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div[2]/div[3]/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ed9630fc-938a-42e7-8fcc-14d51e31f8bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>5c36ffb7-0e50-404d-a93b-d3425b7ebe42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -medium mt-15</value>
+      <webElementGuid>480a7e2c-de98-400f-8e19-2240f3ecf0dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+開始購物
+</value>
+      <webElementGuid>4eb35cb0-6186-4526-aed7-9b402f370caf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;p-cart&quot;]/div[@class=&quot;p-cart__container&quot;]/div[@class=&quot;p-cart__content&quot;]/div[@class=&quot;p-cart__main&quot;]/div[@class=&quot;o-cartEmpty&quot;]/a[@class=&quot;a-button -medium mt-15&quot;]</value>
+      <webElementGuid>ebee5405-17f2-4068-8a8e-2698c0e62d2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[2]/div[3]/div/div[2]/a</value>
+      <webElementGuid>325510a0-6032-49a5-8c8f-e3323881ba2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'開始購物')]</value>
+      <webElementGuid>5fb2fa6d-bfa2-45a6-85ad-bebd41edea5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='您的購物車是空的'])[1]/following::a[1]</value>
+      <webElementGuid>d50af635-83ae-426f-8f19-fec45a7fce6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='曾買過品項'])[1]/preceding::a[1]</value>
+      <webElementGuid>7e21f613-286d-48bb-ab05-5e010200a30d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家純質 檀香精油'])[1]/preceding::a[1]</value>
+      <webElementGuid>7e22a7a7-2ae6-44d1-9abf-a6799812bdd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='開始購物']/parent::*</value>
+      <webElementGuid>470b2e38-afc1-40e2-9f70-7533257bf764</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[93]</value>
+      <webElementGuid>96077668-a0bd-4545-8fd4-d3368baa6c29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/a</value>
+      <webElementGuid>d46bfe85-9cbd-41e7-a067-444952363fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = '
+開始購物
+' or . = '
+開始購物
+')]</value>
+      <webElementGuid>de98ce3b-e054-4ba7-be87-2ecd7f24f315</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>36364426-da68-4a65-bdd7-79de74e14ece</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/div[3]/div/ul/li[6]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='m-navMenu__lvl1']/div[3]/div/ul/li[5]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b31d541f-54c6-48fe-8e76-2b0e554430f1</webElementGuid>
+      <webElementGuid>bef9e701-0087-4716-a144-7caf5d28ecaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/help-center</value>
-      <webElementGuid>e277562c-d3cd-4803-a3d6-210643525b6b</webElementGuid>
+      <webElementGuid>58f8b116-c03d-4238-9567-8c36a49c75e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fa0e7877-632e-40ca-9cf9-022f052718e3</webElementGuid>
+      <webElementGuid>8df35b07-c4b5-40c7-a87a-a27cabdd2cbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>955f58fa-8e3b-4aba-a1a6-f18ff7ded11a</webElementGuid>
+      <webElementGuid>e498f01c-8537-4016-9074-bf7ac7303b7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fc6950e2-1e7a-4e9c-bbe9-7a77d1b676cf</webElementGuid>
+      <webElementGuid>39656a5e-167d-4f3c-95e1-c59c20f1ed93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-navMenu__item-btn</value>
-      <webElementGuid>1fd1ddff-5cdb-4f26-9671-f6a94d959e78</webElementGuid>
+      <webElementGuid>c32d1078-2f7c-4e81-a7bb-02a0ac103364</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a16f9c14-508e-42fc-92a0-894ec3dfadf1</webElementGuid>
+      <webElementGuid>6fb76657-eebb-4a17-b7ea-29f0293de8e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Help Center </value>
-      <webElementGuid>c6d7b5de-96e3-4a7f-bfb2-8671ba73fa49</webElementGuid>
+      <webElementGuid>c605f2ef-f138-4117-a1d7-e7c32d8dff77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;m-navMenu&quot;)/div[@class=&quot;m-navMenu__inner&quot;]/div[@class=&quot;m-navMenu__scroll&quot;]/div[@id=&quot;m-navMenu__lvl1&quot;]/div[@class=&quot;m-navMenu__footer&quot;]/div[@class=&quot;m-navMenu__footer-content&quot;]/ul[@class=&quot;m-navMenu__list -lvl1&quot;]/li[@class=&quot;m-navMenu__item -lvl1 Both&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
-      <webElementGuid>25a7c7dd-7c86-4513-b4ad-1d563c04bef5</webElementGuid>
+      <webElementGuid>eb9dd7f9-9b74-465f-a7ef-793cc2cff58f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='m-navMenu__lvl1']/div[3]/div/ul/li[6]/a</value>
-      <webElementGuid>06ebbc57-6168-4b9c-8834-2c6082e09bb0</webElementGuid>
+      <webElementGuid>015c9c46-abbd-4fc8-b8b8-b3b646e1e515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Help Center')]</value>
-      <webElementGuid>7328e172-643f-4c74-a0ca-53b746193d9a</webElementGuid>
+      <webElementGuid>237fa409-8e74-4597-bd89-51f67b7f5069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Center'])[2]/following::a[1]</value>
-      <webElementGuid>c2f7d927-f04c-4d81-a72b-40e2d4cb25bb</webElementGuid>
+      <webElementGuid>5f166e78-57e1-4abf-aa34-08931b8dc794</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Which Products Do You Use?'])[1]/following::a[2]</value>
-      <webElementGuid>ce608fc7-934f-4782-acf8-43ef8415c213</webElementGuid>
+      <webElementGuid>288ab82a-b901-4b13-803c-c855b7794848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/preceding::a[1]</value>
-      <webElementGuid>3eadd3ed-eba5-46d3-bb08-397560a3879a</webElementGuid>
+      <webElementGuid>29974f1f-9cdb-43fc-be43-b7bf416ae00c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[2]/preceding::a[3]</value>
-      <webElementGuid>4b7b0a88-d99b-4f7d-aa52-3282b2e87f46</webElementGuid>
+      <webElementGuid>e2df73dc-e71e-422e-80e2-28fdc5e9c81a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Help Center']/parent::*</value>
-      <webElementGuid>e59793e6-97b9-46ec-9552-e73f5fb0fcb8</webElementGuid>
+      <webElementGuid>7c411d23-2475-4ce5-93d5-204473b59d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/help-center')]</value>
-      <webElementGuid>a0c59196-21e1-4738-990e-fa814ae68a1a</webElementGuid>
+      <webElementGuid>8552cc24-de70-4e57-ad1b-168c1e9eaac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/ul/li[6]/a</value>
-      <webElementGuid>90518c73-3fac-4ec6-8cd7-c996bab8ef35</webElementGuid>
+      <webElementGuid>7a70e0c6-cf76-49d3-ae72-d0d2a32e1fbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/help-center' and (text() = 'Help Center ' or . = 'Help Center ')]</value>
-      <webElementGuid>6e72590f-256a-46ce-bfc2-e641b7a72cf5</webElementGuid>
+      <webElementGuid>2b9c8666-e1fe-4b45-9eb9-d8b7386b640d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

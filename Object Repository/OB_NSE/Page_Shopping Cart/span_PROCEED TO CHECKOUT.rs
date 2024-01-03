@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_PROCEED TO CHECKOUT</name>
+   <name>span_proceed to checkout</name>
    <tag></tag>
    <elementGuidId>b711c552-e7e5-478e-b1cc-f2b8de6a2bb4</elementGuidId>
    <selectorCollection>

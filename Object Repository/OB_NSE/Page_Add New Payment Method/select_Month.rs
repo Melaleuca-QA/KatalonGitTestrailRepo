@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Month</name>
+   <name>select_month</name>
    <tag></tag>
    <elementGuidId>b968ee8e-71fb-44d8-8234-f9ca6a3d77e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='select-expmonth']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select-expmonth</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='select-expmonth']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

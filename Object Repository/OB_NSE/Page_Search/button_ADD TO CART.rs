@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ADD TO CART</name>
+   <name>button_add to cart</name>
    <tag></tag>
    <elementGuidId>8332c9f3-96b6-43d7-905d-01b592505b94</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/div/div[2]/div/div[2]/div[3]/div[2]/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.a-button.h-full.w-full.justify-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/div/div[2]/div/div[2]/div[3]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

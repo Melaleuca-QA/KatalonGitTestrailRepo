@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_vegetarian diet</name>
+   <tag></tag>
+   <elementGuidId>0b347fa0-60e0-4b89-904a-29fd146d7393</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lvl36A0705C425F4CB1BA310A2BB22034B9 > li.m-navMenu__list.-title > a.block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='lvl36A0705C425F4CB1BA310A2BB22034B9']/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4488dd88-f376-4ff6-9a8c-8dbc3db005d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productstore/vegetarian</value>
+      <webElementGuid>07dab0ba-079d-414b-8e9a-674df0d85153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>ec7d74da-a528-43a7-84a0-924840e801f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>素食</value>
+      <webElementGuid>e20ec80c-a918-4a19-8411-d7125040ff9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lvl36A0705C425F4CB1BA310A2BB22034B9&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
+      <webElementGuid>ad94a2de-a438-4f91-8b65-90aabe445114</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='lvl36A0705C425F4CB1BA310A2BB22034B9']/li[2]/a</value>
+      <webElementGuid>a484382f-d880-43e0-8607-8f3669b59587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'素食')])[2]</value>
+      <webElementGuid>bb3b45f7-22f2-4e8b-92e2-9191172df17b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='回上一頁'])[3]/following::a[1]</value>
+      <webElementGuid>13a9e021-669c-4f15-a8f8-120226168cb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='膳食纖維'])[2]/following::a[2]</value>
+      <webElementGuid>02563185-bef6-4270-98f0-c6c73465270b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='奶素'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fa5f07a-1bf0-4514-9788-8d0e19cc16db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='五辛素/奶蛋素'])[1]/preceding::a[2]</value>
+      <webElementGuid>fbb86267-9752-4889-89fe-c0cbbe7b7020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/productstore/vegetarian')]</value>
+      <webElementGuid>c845f629-4d26-4306-83c5-5c637385b52b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/ul/li[2]/a</value>
+      <webElementGuid>b20836fd-6a64-4f41-919b-28302c31f35b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/productstore/vegetarian' and (text() = '素食' or . = '素食')]</value>
+      <webElementGuid>7147a363-8edd-409a-b986-15e7bc1b6b9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -58,7 +58,11 @@ println(now_url)
 
 WebUI.verifyMatch(now_url, GlobalVariable.url_CancelEmailSent_new, false)
 
-WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+if (GlobalVariable.run_env == 'PD') {
+    WebUI.callTestCase(findTestCase('_HK/_Web/_General/_Logout_hk'), [:], FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
 'Start Cancellation Process (blocked in UA because emails aren\'t successful)'
 GlobalVariable.test_case = '245377'

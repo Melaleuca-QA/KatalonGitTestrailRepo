@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Order History</name>
+   <name>a_order history</name>
    <tag></tag>
    <elementGuidId>c0627b90-89bc-4e6c-b4e5-7ce62f42f330</elementGuidId>
    <selectorCollection>

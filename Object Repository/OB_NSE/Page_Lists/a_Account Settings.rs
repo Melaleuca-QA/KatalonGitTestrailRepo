@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Account Settings</name>
+   <name>a_account settings</name>
    <tag></tag>
    <elementGuidId>d13b3fa9-da23-4a92-93f6-22820dd57f39</elementGuidId>
    <selectorCollection>

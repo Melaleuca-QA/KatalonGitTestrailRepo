@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Search_icon</name>
+   <name>input_search_icon</name>
    <tag></tag>
    <elementGuidId>001eb6d5-2810-4a8e-b6cc-8430b70ab22a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[2]/div[4]/div/button/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;Search&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[4]/div/button/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

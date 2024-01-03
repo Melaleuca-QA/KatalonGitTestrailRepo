@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_body care</name>
+   <tag></tag>
+   <elementGuidId>ebb3123c-f909-495c-9a87-1e079a72c356</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lvlEB5B1A37DB304D85941AE82428E41EBE > li.m-navMenu__list.-title > a.block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='lvlEB5B1A37DB304D85941AE82428E41EBE']/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a8a365bd-7b84-48ef-8698-dbd074709051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productstore/personal-care</value>
+      <webElementGuid>81e68121-c2b4-43de-a58f-f72e84204a02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>18be2583-8a47-46f0-b4a5-d5e587460aea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>沐浴洗髮美體</value>
+      <webElementGuid>f26f7830-c501-4383-9810-c0c0333f3d4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lvlEB5B1A37DB304D85941AE82428E41EBE&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
+      <webElementGuid>0a42a915-c2af-4ef0-8687-cb164fce15d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='lvlEB5B1A37DB304D85941AE82428E41EBE']/li[2]/a</value>
+      <webElementGuid>f02bf0a7-1946-4374-93d0-18f1cd8949e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'沐浴洗髮美體')])[2]</value>
+      <webElementGuid>1966e9d9-bfb8-42dd-8754-7391efdde9c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='回上一頁'])[5]/following::a[1]</value>
+      <webElementGuid>01f9c2a2-b6cc-43ea-9a5b-1b1d618c6ec3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='衣物清潔'])[2]/following::a[2]</value>
+      <webElementGuid>72426c01-3bba-4a82-86fb-e2e2751c9044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='身體清潔保養'])[1]/preceding::a[1]</value>
+      <webElementGuid>428bf24f-d8a8-4fe3-9fb6-e3f335304fa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='口腔護理'])[1]/preceding::a[2]</value>
+      <webElementGuid>9420a99f-ca55-4dff-afd6-7e6d827ac6bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/productstore/personal-care')]</value>
+      <webElementGuid>a16e7fb9-7550-4a35-a9f9-69cc684c28b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/ul/li[2]/a</value>
+      <webElementGuid>29b71e24-1d0c-4c67-8bfc-8ade037390d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/productstore/personal-care' and (text() = '沐浴洗髮美體' or . = '沐浴洗髮美體')]</value>
+      <webElementGuid>4d78ff6c-ada2-442a-b7ff-78eea6f94253</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Place Order</name>
+   <name>button_place order</name>
    <tag></tag>
    <elementGuidId>92d7f5b8-746f-4a5e-b964-b5b379de1d71</elementGuidId>
    <selectorCollection>

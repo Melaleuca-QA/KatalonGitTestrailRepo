@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Go To My Account</name>
+   <name>a_go to my account</name>
    <tag></tag>
    <elementGuidId>62001c17-747c-4b4d-8ef6-30ef3ec0e27e</elementGuidId>
    <selectorCollection>

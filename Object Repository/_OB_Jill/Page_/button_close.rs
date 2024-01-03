@@ -3,7 +3,7 @@
    <description></description>
    <name>button_close</name>
    <tag></tag>
-   <elementGuidId>206c5a52-ae60-47bb-98ee-f8e0a1b32c9a</elementGuidId>
+   <elementGuidId>f34701dc-7562-4b27-8430-306351b215ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_vip_upgrade</name>
+   <tag></tag>
+   <elementGuidId>822c69e2-c7ad-44e9-b7ab-caea3fb9397e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[2]/div[2]/div/div/div/p[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>938abba4-a69a-40a8-b6c9-e4f3d6fb4dfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/lvip-journey</value>
+      <webElementGuid>87d15f08-ad53-4b2a-9be6-9c6133f6b4fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>開啟您與家人的快意人生 ></value>
+      <webElementGuid>3ddea2ad-1332-4973-a2fb-b358338ded0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;flex mx-auto o-gridLayout to-md:flex-col max-w-contain&quot;]/div[@class=&quot;to-md:mt-10 md:pl-15 md:w-1_2&quot;]/div[1]/div[1]/div[1]/p[3]/a[1]</value>
+      <webElementGuid>91c62dfa-484d-4075-8a78-e4fa8d490176</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div[2]/div[2]/div/div/div/p[3]/a</value>
+      <webElementGuid>f21ef64b-f303-4c81-9cd7-fae435764881</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'開啟您與家人的快意人生 >')]</value>
+      <webElementGuid>0493ef80-c3c2-4523-b31c-49508bbd6b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='升等永恆卡會員'])[1]/following::a[1]</value>
+      <webElementGuid>993c395f-8aed-45f8-bb89-92d422d91765</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='讓明星產品開啟你的美樂家旅程！>'])[1]/following::a[1]</value>
+      <webElementGuid>ac266a1a-6d96-47a0-a985-332693135a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='永恆卡會員每月15日前下單達50點，獨享點數15%消費回饋；16-25日點數10%消費回饋。購物達基本點數後，其之後的當月訂單皆以該百分比計算。'])[1]/preceding::a[1]</value>
+      <webElementGuid>2b6e35de-bc3b-4090-aed5-2749dd027bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='開啟您與家人的快意人生 >']/parent::*</value>
+      <webElementGuid>93ad5d56-b1bd-451c-a10c-bcb072b78b0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/lvip-journey')])[2]</value>
+      <webElementGuid>2b3a6172-2172-4e4c-b52d-0c663dc63652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p[3]/a</value>
+      <webElementGuid>10ec11ac-939e-42b0-9bd1-a82bd138e756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/lvip-journey' and (text() = '開啟您與家人的快意人生 >' or . = '開啟您與家人的快意人生 >')]</value>
+      <webElementGuid>09644ab9-aa1e-43bd-9c96-ff9631e03307</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>57790f28-b7af-45ce-a87d-faf3af74288f</elementGuidId>
+   <elementGuidId>f25a64a0-9f83-4b4a-b012-625a137f9bfc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

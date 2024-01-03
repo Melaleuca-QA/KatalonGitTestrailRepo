@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='lvl24C4BACF59E74B178A02FC14DDDF30AD']/li[2]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[8]/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>72563032-4a5a-4095-b704-b1451b3c8af8</webElementGuid>
+      <webElementGuid>8015c13a-4f74-4c9c-a0d5-38e3ed1a7d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/sei-bella-beauty</value>
-      <webElementGuid>c72968fe-6b88-485d-92fa-139f30ef497f</webElementGuid>
+      <webElementGuid>f455d466-e3ee-4476-84ac-361f3f7e9297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>3a1d29c2-8fc3-4c4e-a7f5-31190a4dc3b4</webElementGuid>
+      <webElementGuid>6950fc7e-be68-4a30-b4d1-45af6fdb755b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>All Beauty</value>
-      <webElementGuid>44defe54-3ead-44b4-b411-5d4f3526761a</webElementGuid>
+      <webElementGuid>7c25f9d4-6577-4570-a93a-b77eff529417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lvl24C4BACF59E74B178A02FC14DDDF30AD&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
-      <webElementGuid>0c9d9c3b-b9ea-4f1a-92d5-ae5f9a952081</webElementGuid>
+      <webElementGuid>28dbe383-ff83-4257-9d2b-226b1e48285c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='lvl24C4BACF59E74B178A02FC14DDDF30AD']/li[2]/a</value>
-      <webElementGuid>5dcede35-c7cd-460e-bbf9-710c2685940c</webElementGuid>
+      <webElementGuid>4683695a-c293-415e-b386-4b347dbcb21b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'All Beauty')]</value>
-      <webElementGuid>6c90e278-b796-401e-b2e1-1e24fdb5399c</webElementGuid>
+      <webElementGuid>eeff16cd-9ad2-4d03-8e2a-5fff06463a96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back To Main'])[4]/following::a[1]</value>
-      <webElementGuid>2eea0ee9-efa3-46d5-b27f-1a4ff285fc64</webElementGuid>
+      <webElementGuid>2425907c-e8a7-4130-a1d0-b2be172c2b7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Outdoor'])[1]/following::a[2]</value>
-      <webElementGuid>7e12fce0-b3d5-4113-8bc6-d45957cb9380</webElementGuid>
+      <webElementGuid>a3bad353-1d35-4301-9430-334c3be0ad46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Color Cosmetics'])[1]/preceding::a[1]</value>
-      <webElementGuid>73485f2b-e855-464d-944a-3a56d6f6c218</webElementGuid>
+      <webElementGuid>d634215e-72c0-4233-837f-bf367d16bbdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Skin Care'])[1]/preceding::a[2]</value>
-      <webElementGuid>36fcc005-e678-4418-b457-ece526cfaa43</webElementGuid>
+      <webElementGuid>525b2394-c703-4d90-962e-b87a06b831a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='All Beauty']/parent::*</value>
-      <webElementGuid>5793a65f-45e6-4899-a89a-def5e096aedd</webElementGuid>
+      <webElementGuid>dc9dd5a1-c154-435b-a06e-f8ff86d7f0a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/productstore/sei-bella-beauty')]</value>
-      <webElementGuid>1b5e5c1b-5237-4082-87fb-f865e533756b</webElementGuid>
+      <webElementGuid>f9e004a4-67dd-4a58-95da-bbf297a35b56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/div/ul/li[2]/a</value>
-      <webElementGuid>a10e5ba9-58b6-4825-ab13-b149501c3e13</webElementGuid>
+      <webElementGuid>88b08e2b-97f6-486d-8013-e00a28ff3174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/sei-bella-beauty' and (text() = 'All Beauty' or . = 'All Beauty')]</value>
-      <webElementGuid>0a806ab1-aab5-4522-ba29-65cfd74b05c6</webElementGuid>
+      <webElementGuid>5df9f24a-48be-4a50-a74a-4828583ecbff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

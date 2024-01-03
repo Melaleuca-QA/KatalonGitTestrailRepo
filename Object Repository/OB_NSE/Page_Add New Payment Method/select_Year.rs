@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Year</name>
+   <name>select_year</name>
    <tag></tag>
    <elementGuidId>db7b3685-031e-458b-a222-bef4377176b1</elementGuidId>
    <selectorCollection>

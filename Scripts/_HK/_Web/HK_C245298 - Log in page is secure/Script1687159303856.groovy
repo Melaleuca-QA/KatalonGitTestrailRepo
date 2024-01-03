@@ -36,7 +36,7 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition'))
 
-WebUI.waitForAlert(15)
+WebUI.waitForAlert(20)
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductNutrition_ShowAll'))
 

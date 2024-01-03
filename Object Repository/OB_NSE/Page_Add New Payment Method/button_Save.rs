@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save</name>
+   <name>button_save</name>
    <tag></tag>
    <elementGuidId>7245add1-9b3d-421b-84d4-6d281eb043b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/section[1]/form/div[2]/div/div[2]/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.a-button.o-payForm__save.-save</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/section[1]/form/div[2]/div/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

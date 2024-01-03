@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_weight management</name>
+   <tag></tag>
+   <elementGuidId>616875fc-54b4-4245-92b8-2547ca325e34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lvlDCD8056EBB664FABBF1B6848B8ED50A8 > li.m-navMenu__list.-title > a.block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='lvlDCD8056EBB664FABBF1B6848B8ED50A8']/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f1f293a4-8455-4bb5-951a-11ed370ff356</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productstore/healthy-foods-and-drinks</value>
+      <webElementGuid>894cb42e-7a03-49d5-81ad-8ab366d2a194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>4f5bfeb9-43b3-478b-a8ce-ee4c581ff2e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>體重管理及食品</value>
+      <webElementGuid>3b116e9d-952b-49d8-bcce-6b312e262146</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lvlDCD8056EBB664FABBF1B6848B8ED50A8&quot;)/li[@class=&quot;m-navMenu__list -title&quot;]/a[@class=&quot;block&quot;]</value>
+      <webElementGuid>996eec58-2e89-4216-a658-8a39a752cd38</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='lvlDCD8056EBB664FABBF1B6848B8ED50A8']/li[2]/a</value>
+      <webElementGuid>e71bbdbf-9ce2-4aee-b343-a6101868f215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'體重管理及食品')])[2]</value>
+      <webElementGuid>a7ac0459-ab5d-4093-a204-252a53922183</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='回上一頁'])[2]/following::a[1]</value>
+      <webElementGuid>e7b34f76-9627-4075-ad72-e8d104721054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='活力巔峰營養隨身包'])[2]/following::a[2]</value>
+      <webElementGuid>46b49b17-6ac7-4144-a8a7-58d52cb74e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理 &amp; 蛋白飲'])[1]/preceding::a[1]</value>
+      <webElementGuid>fcb7c9aa-cc68-4ea0-88eb-bd15934690c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R3減醣計畫'])[1]/preceding::a[2]</value>
+      <webElementGuid>6f899b94-e669-4193-9234-63bd2fbd9d5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/productstore/healthy-foods-and-drinks')]</value>
+      <webElementGuid>5983a8f0-8bc6-40d5-98b3-5dedfff4e1e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/ul/li[2]/a</value>
+      <webElementGuid>7f8ae2b2-bdef-49a5-80dc-64997552e6b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/productstore/healthy-foods-and-drinks' and (text() = '體重管理及食品' or . = '體重管理及食品')]</value>
+      <webElementGuid>a79e42f6-ddcd-4335-9abb-a58d77ad7b16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

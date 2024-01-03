@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_delete item2</name>
+   <tag></tag>
+   <elementGuidId>12a5587b-f9c1-4c31-ab06-25a467e4a0a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Close Box&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='isRemovedButton50047']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>803fcc96-430a-4de8-b23e-32b3cb6896dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>//cdnsc1.melaleuca.com/na/images/header/clear2x.png</value>
+      <webElementGuid>0b6356a2-833d-4c74-86a6-7215bfd90d72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Close Box</value>
+      <webElementGuid>3c26b8ee-f98c-49ba-b1c6-7b17bfe02f78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b6686f33-05e7-4cd7-9d57-4b25cf8d878c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isRemovedButton1216&quot;)/img[1]</value>
+      <webElementGuid>9be39f95-4c00-4e09-9ae2-c4b8949d4d24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='isRemovedButton50047']/img</value>
+      <webElementGuid>6ac96781-0977-4e5a-a9c9-7750952c2cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Close Box']</value>
+      <webElementGuid>889e537b-684d-42dc-b34d-7d76d690b18c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button/img</value>
+      <webElementGuid>1578fc49-b8e3-416b-8182-2c3191cdfea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '//cdnsc1.melaleuca.com/na/images/header/clear2x.png' and @alt = 'Close Box']</value>
+      <webElementGuid>ee831bb3-8af1-4849-b92e-da86563e8636</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
