@@ -75,7 +75,7 @@ WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/span_EnrolleeSearch'))
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_- Melaleuca/a_ChooseEnrollee'))
 
-'顯示搜尋結果-會員處於hold的狀態無法移線'
+'顯示搜尋結果-驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼'
 WebUI.click(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult0'))
 
 now_result = WebUI.getText(findTestObject('OB_Web/Page_- Melaleuca/div_OrgChangeResult0'))

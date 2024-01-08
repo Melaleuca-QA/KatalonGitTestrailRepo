@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_delete item2</name>
+   <name>button_continue</name>
    <tag></tag>
-   <elementGuidId>e592a2ff-8938-48bd-aa4d-f0d3026893b9</elementGuidId>
+   <elementGuidId>4bf978a0-d83f-4a97-aa9c-f03778401e70</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.o-cartItem__link</value>
+         <value>button.a-accountButton.self-start</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>196063e4-1931-4938-8b1d-ed30357251c3</webElementGuid>
+      <webElementGuid>abe0db0d-799b-48ad-92b0-31d4ca0dec58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>857b32d1-49a9-447c-9bb4-674381ae804c</webElementGuid>
+      <webElementGuid>1b7b363d-7700-4721-a82e-2cd3172f29aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-cartItem__link</value>
-      <webElementGuid>01ff1341-d0b4-47df-8d13-8a77175b7793</webElementGuid>
+      <value>a-accountButton self-start</value>
+      <webElementGuid>dde6e2d0-40b7-4087-b5fd-476bcabf26f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,73 +46,74 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                            移除
-                        </value>
-      <webElementGuid>20b286e5-c3ee-434a-8c28-b77469c07918</webElementGuid>
+                    繼續
+
+                </value>
+      <webElementGuid>ec872d77-fef9-4960-a1db-d50993d31907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainContent&quot;)/div[@class=&quot;p-cart&quot;]/div[@class=&quot;p-cart__container&quot;]/div[@class=&quot;p-cart__content&quot;]/div[@class=&quot;p-cart__main&quot;]/div[@class=&quot;o-cartItem&quot;]/div[@class=&quot;o-cartItem__row -product&quot;]/div[@class=&quot;o-cartItem__container&quot;]/div[@class=&quot;o-cartItem__controls&quot;]/div[@class=&quot;o-cartItem__actions&quot;]/button[@class=&quot;o-cartItem__link&quot;]</value>
-      <webElementGuid>86477a62-2b60-46a5-b320-f620729ec400</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[1]/div[@class=&quot;o-access&quot;]/div[@class=&quot;o-access__container&quot;]/div[@class=&quot;o-access__transition&quot;]/div[@class=&quot;o-access__step&quot;]/div[@class=&quot;m-accessStep&quot;]/div[@class=&quot;m-accessStep__content&quot;]/form[@class=&quot;m-accessStep__form&quot;]/div[@class=&quot;m-accessStep__submit&quot;]/div[@class=&quot;m-accessStep__actions&quot;]/button[@class=&quot;a-accountButton self-start&quot;]</value>
+      <webElementGuid>09f531ca-9c30-4e2c-817f-bc107349e34c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[7]</value>
-      <webElementGuid>9c9484bc-fa32-4a28-8ce0-a716cb01baf0</webElementGuid>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>ce24aa80-676e-437b-9f3a-3d171823c4e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div[3]/button</value>
-      <webElementGuid>e89e3636-56be-410a-a98f-d6255fe5ad34</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/div/div/div[2]/div/div/div/div/form/div[2]/div/button</value>
+      <webElementGuid>19898c28-0ffe-4a87-b69b-6d97d50b623a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$480'])[1]/following::button[1]</value>
-      <webElementGuid>bab577ed-d874-4807-b462-02b4f88dd3ef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='輸入您的手機號碼或電子信箱'])[1]/following::button[1]</value>
+      <webElementGuid>459b18de-83e4-4f8b-9484-c867a00756a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='| NT$105 節省'])[1]/following::button[3]</value>
-      <webElementGuid>62099f72-3302-458c-aee9-b19ce9f2538c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='業務諮詢專線'])[1]/following::button[1]</value>
+      <webElementGuid>d6e6ea9c-6ba6-48b2-b191-54954ffdec6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='下次購買'])[1]/preceding::button[1]</value>
-      <webElementGuid>c25bc4d1-c82b-4144-bb14-aa429e499498</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/preceding::button[1]</value>
+      <webElementGuid>865a67bb-5bc1-44c9-8fd6-118dc0849712</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='移除']/parent::*</value>
-      <webElementGuid>7d6a16fa-94e7-4e21-bda9-03234043eb0c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='繼續']/parent::*</value>
+      <webElementGuid>abf4bc48-2227-4cfd-b359-0d603469df2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>60588e0b-642a-4461-965a-68dab5110dfe</webElementGuid>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>bff27ccd-0f88-4215-aec4-db8c7d777c79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,10 +121,12 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '
-                            移除
-                        ' or . = '
-                            移除
-                        ')]</value>
-      <webElementGuid>89c2bcea-8528-464f-9504-8203337f555b</webElementGuid>
+                    繼續
+
+                ' or . = '
+                    繼續
+
+                ')]</value>
+      <webElementGuid>9794ceac-f0d2-42ef-94a6-11c47f19b4a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

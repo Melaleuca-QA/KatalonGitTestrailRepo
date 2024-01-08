@@ -129,11 +129,11 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Shopping Cart/span_add'))
+WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_add'))
 
 WebUI.waitForAlert(5)
 
@@ -150,48 +150,48 @@ WebUI.back()
 
 WebUI.back()
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/span_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
 WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://productstore2-uattw.melaleuca.com/cart')
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
 
-WebUI.click(findTestObject('_OB_Jill/Page_/img_delete item1'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
-
-WebUI.click(findTestObject('_OB_Jill/Page_/img_delete item2'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
 
-WebUI.click(findTestObject('_OB_Jill/Page_/img_delete item3'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
-
-WebUI.click(findTestObject('_OB_Jill/Page_/img_delete item4'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item2'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/img_delete item5'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('_OB_Jill/Page_/button_delete item'))
-
-WebUI.click(findTestObject('_OB_Jill/Page_/img_delete item6'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item3'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_continue to shopping'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item4'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item5'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item6'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/a_continue to shopping'))
 
 WebUI.waitForAlert(5)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_search</name>
+   <name>input_identificationString</name>
    <tag></tag>
-   <elementGuidId>282eb81d-881c-4435-8c9e-3649bc0da913</elementGuidId>
+   <elementGuidId>42b2a6bd-736a-4388-8219-de741324a6ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;Search&quot;]</value>
+         <value>#__VID__60__MelaId_lqykuo9k__emailPhoneInputId</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[2]/div[4]/div/form/input</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[1]/div[2]/div[1]/div[1]/div/div/form/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8822cc6b-15db-414f-9166-5ac431c5bfb8</webElementGuid>
+      <webElementGuid>7368693e-77e5-415e-acef-143b0c2889f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__VID__60__MelaId_lqykuo9k__emailPhoneInputId</value>
+      <webElementGuid>fec55747-1c6a-4df7-a302-dfde6d1e1733</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>6f5da34e-8a8c-47d8-af97-00b437cc2d11</webElementGuid>
+      <value>text</value>
+      <webElementGuid>804fd711-f61b-4706-86f1-359622224e0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>629b704b-3ee5-46a2-8ca9-4d193dc18dfd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>検索</value>
-      <webElementGuid>effea472-86a3-4a19-8cf9-a19bef7333c7</webElementGuid>
+      <value>identificationString</value>
+      <webElementGuid>45b36b0c-4d07-4b73-869e-40b329adea8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-placeholder</name>
+      <name>aria-required</name>
       <type>Main</type>
-      <value>ここに必要なものを入力し、次のボタンに進んでください。</value>
-      <webElementGuid>fae508e5-f850-45f8-88ee-7f219891d9e2</webElementGuid>
+      <value>true</value>
+      <webElementGuid>1bd2dfd2-88b0-442a-bd8a-9c690128d83c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-searchBar__input</value>
-      <webElementGuid>ee9281dd-dcf4-499f-9578-ded70d93112b</webElementGuid>
+      <value>a-input -text</value>
+      <webElementGuid>1e1a2c6c-8e4b-4c88-953c-e00a630afbeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
-      <webElementGuid>c3ca9a4b-1019-4445-ac19-8ea3651855b0</webElementGuid>
+      <value>id(&quot;__VID__60__MelaId_lqykuo9k__emailPhoneInputId&quot;)</value>
+      <webElementGuid>1fbb1672-7f3c-44b5-81c6-f2a89d408961</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='Search']</value>
-      <webElementGuid>ab319ccf-412e-4ecc-9901-d5f59100fc09</webElementGuid>
+      <value>//input[@id='__VID__60__MelaId_lqykuo9k__emailPhoneInputId']</value>
+      <webElementGuid>857198c3-d5ad-4a6e-83d1-84706b2ae628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='search-bar']/input</value>
-      <webElementGuid>1ea3a417-8cbc-495e-a01d-30016d32db4a</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/div/div/div[2]/div/div/div/div/form/div/div/input</value>
+      <webElementGuid>d1ae9c68-7326-4396-9a4a-2d95f256be89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>ed41595f-070d-491c-acb0-da0c4e957c09</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>c8ddcfe3-2046-4c39-8c59-35284c65b331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '検索']</value>
-      <webElementGuid>a576e537-6640-45d7-be66-6f141007c605</webElementGuid>
+      <value>//input[@id = '__VID__60__MelaId_lqykuo9k__emailPhoneInputId' and @type = 'text' and @name = 'identificationString']</value>
+      <webElementGuid>425438c6-9b9e-4fa6-9800-4c2205f4ba0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
