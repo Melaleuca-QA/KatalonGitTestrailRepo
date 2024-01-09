@@ -29,6 +29,29 @@ WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signon'))
 
+'tw1'
+WebUI.setText(findTestObject('OB_NSE/Page_/input_username'), GlobalVariable.nse_tw_username1)
+
+'Password1(error pw testing)'
+WebUI.setEncryptedText(findTestObject('OB_NSE/Page_/input_password'), GlobalVariable.nse_tw_newpswd)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_Login'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/span_IdentificationMessage'))
+
+'顯示搜尋結果-帳戶名稱或密碼錯誤'
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/span_IdentificationMessage'))
+
+now_result = now_result.trim()
+
+println(now_result)
+
+WebUI.verifyEqual(now_result, '帳戶名稱或密碼錯誤', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
 //WebUI.navigateToUrl('https://productstore2-uattw.melaleuca.com/account/signin?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dmelaleuca-sitecore-dev%26culture%3den-US%26nonce%3d85a9a43c-a202-4f32-9b74-6b21eb534178%26redirect_uri%3dhttps%253A%252F%252Fproductstore2-uattw.melaleuca.com%252Fdepaccount%252FLoadProfile%26response_mode%3dform_post%26response_type%3dcode%2520id_token%26scope%3dopenid%2520offline_access%2520DEPInterface.API.Full%2520CustomerAccount.API.Full%2520Order.API.Full%2520Product.API.Full%2520Communication.API.Full%2520Address.API.Full%2520Organization.API.Full%2520SubscribedServices.API.Full%2520PayMethod.API.Full%2520Document.API.Full%2520BackupOrder.API.Full%2520Promotion.API.Full%2520LSD.API.Full%26state%3dhttps%253A%252F%252Fproductstore2-uattw.melaleuca.com%252F')
 'Forgot Password'
 WebUI.click(findTestObject('OB_NSE/Page_/a_forgot password'))
