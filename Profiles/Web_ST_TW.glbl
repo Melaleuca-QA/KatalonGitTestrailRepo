@@ -35,8 +35,8 @@
       <name>tw_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>tw_input_password2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -75,7 +75,7 @@
       <name>tw_input_oleurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>hk1(1310728985), hk2(1310729871), hk3(1310729873)</description>
+      <description>hk1(1310729871), hk3(1310729873)</description>
       <initValue>'hk1'</initValue>
       <name>hk_input_username1</name>
    </GlobalVariableEntity>
@@ -90,7 +90,7 @@
       <name>hk_input_username2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password</description>
       <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
       <name>hk_input_password2</name>
    </GlobalVariableEntity>

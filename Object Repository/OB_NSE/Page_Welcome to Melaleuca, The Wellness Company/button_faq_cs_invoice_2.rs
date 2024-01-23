@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_invoice_2</name>
+   <tag></tag>
+   <elementGuidId>a24006d2-04ab-4331-84a0-211f81b4b467</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>479650e3-05d0-4acd-b612-a98180dba52e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}</value>
+      <webElementGuid>bfb5bb90-bd8d-4e3f-9cb7-fe1adc548d53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}</value>
+      <webElementGuid>6c854926-db28-468e-b0f8-99f113d5b3c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ac26653a-b4c3-4a1b-9e39-a4a862f7bf1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>79b082c2-6241-4c47-b076-7e5ef11e0229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+選擇美樂家會員載具的好處？
+</value>
+      <webElementGuid>ac1fbf5e-cf05-46b2-808e-b8221c3c8f58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}&quot;)</value>
+      <webElementGuid>3b8551fa-8a7e-49e7-b6a7-ca4ab5b1c548</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}']</value>
+      <webElementGuid>9df74f4d-74a7-4d30-a4b1-86ca4b1e1456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
+      <webElementGuid>c0a9eab8-eda7-477a-978a-f76d0769f1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='什麼是載具?'])[1]/following::button[1]</value>
+      <webElementGuid>9f841bc3-55ea-4490-b3e3-0c4e22aa81db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發票載具說明'])[5]/following::button[2]</value>
+      <webElementGuid>17fc5c19-6a4a-4488-b4e3-0ec75b14f93f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='什麼是歸戶？有什麼好處？如何辨理？'])[1]/preceding::button[1]</value>
+      <webElementGuid>c02909a4-beeb-4272-aa1d-56ab575963af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家會員載具歸戶好處?'])[1]/preceding::button[2]</value>
+      <webElementGuid>e26f13b4-28ef-43cb-96ec-b8ec5cb4522c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='選擇美樂家會員載具的好處？']/parent::*</value>
+      <webElementGuid>4dd18ff6-3f6b-4eaa-b7f1-bc33e8841ab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2/button</value>
+      <webElementGuid>33bbd955-5c0f-4faf-8330-86acfd248d4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{CDC2B28A-4D96-4BAA-AE13-A8EE2407EB61}' and (text() = '
+選擇美樂家會員載具的好處？
+' or . = '
+選擇美樂家會員載具的好處？
+')]</value>
+      <webElementGuid>5b0cc36f-cde7-49dd-a33e-4c231a4ec4e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

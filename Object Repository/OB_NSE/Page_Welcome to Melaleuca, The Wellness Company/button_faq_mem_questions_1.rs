@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_questions_1</name>
+   <tag></tag>
+   <elementGuidId>a2f3c83c-b5ac-4ca8-b6cd-f09f61ac0f38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd4de780-5f1a-4f8e-9d08-7324f2e31e9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}</value>
+      <webElementGuid>98971523-8174-456b-afa1-8ae8a54993c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}</value>
+      <webElementGuid>398e95a7-af8e-4538-84c2-2a19d19f84e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>08b0d38c-1622-4f34-a051-d81c2ffa581a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>edc08b4a-f5e6-4c68-bc97-8d75e2d3bf25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何終止會員資格?
+</value>
+      <webElementGuid>40ddf972-9c60-4a47-bb54-27642595ccb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}&quot;)</value>
+      <webElementGuid>30f99820-f901-471d-bf0a-2a89787f13dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}']</value>
+      <webElementGuid>74447543-bf4a-4a72-a706-a1855ee6033a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>c8a1d6e7-d24b-4d1f-b0f0-2450a2201532</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員常見問題'])[5]/following::button[1]</value>
+      <webElementGuid>f814e0d3-df9d-420c-a238-5a674223907c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>22b3ab05-6222-4ae7-a45f-7e1d9ec2e545</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何將優惠顧客資格轉為基礎顧客資格?'])[1]/preceding::button[1]</value>
+      <webElementGuid>484f05eb-1ead-441e-81c2-02e75c713a31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何辦理恢復優惠顧客資格?'])[1]/preceding::button[2]</value>
+      <webElementGuid>2f136c5b-09d1-4270-917a-fdb33aaf87e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何終止會員資格?']/parent::*</value>
+      <webElementGuid>96b15b1e-22cc-4a9a-9b29-04c7a79b0e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>1ae2bcf0-ab5c-4621-8e10-c10ff624dd82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{03D7EA42-347B-4B50-8F52-A3289D4D271F}' and (text() = '
+如何終止會員資格?
+' or . = '
+如何終止會員資格?
+')]</value>
+      <webElementGuid>a519066e-7932-4d65-a6d8-4bb02512f823</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

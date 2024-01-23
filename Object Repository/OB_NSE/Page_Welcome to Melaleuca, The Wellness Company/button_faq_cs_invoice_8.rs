@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_invoice_8</name>
+   <tag></tag>
+   <elementGuidId>e01e4aed-d831-4e32-8fb9-259fe06231dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>80ec385c-5c92-4fd9-9330-41ad5888c213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}</value>
+      <webElementGuid>e689adf2-b7a6-4dd4-8608-ea50ed3dea87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}</value>
+      <webElementGuid>a972d321-7f5c-4cb5-9104-ec343134de89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>53d653ab-b3e4-4043-b425-e1a08efdaa97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>a6c088d6-34ce-4d84-bbce-ccabbb4716c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+中獎後的兌領獎程序有無改變?
+</value>
+      <webElementGuid>86ee4966-8a09-48ef-8ff3-1e53dc87985d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}&quot;)</value>
+      <webElementGuid>9220897b-2a79-4de7-ad15-2ef77a57e9f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}']</value>
+      <webElementGuid>3aea6fc7-3f32-47e7-8f69-ee24d7d3058c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[8]/h2/button</value>
+      <webElementGuid>78eb9f0f-3e36-4ffc-98e5-f97f49d3e8ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家開立之電子發票如果收到公司通知中獎了，該如何領獎?'])[1]/following::button[1]</value>
+      <webElementGuid>fd2ae944-49c9-4960-baeb-fe76756ae542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何知道電子發票已中獎?'])[1]/following::button[2]</value>
+      <webElementGuid>4fff875e-7bf2-4a30-b892-31d9faec5a70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發票如果捐贈後，是否就不能進行退換貨了呢?'])[1]/preceding::button[1]</value>
+      <webElementGuid>97dff2e1-7ccc-4127-ae1c-cac8a04dd5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='在美樂家消費之發票號碼，是否可以查詢到?'])[1]/preceding::button[2]</value>
+      <webElementGuid>68795b6d-b00b-4d2c-952e-731fd6c26c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='中獎後的兌領獎程序有無改變?']/parent::*</value>
+      <webElementGuid>33b32ee1-68dd-44d0-8360-f32c5ac5d09e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/h2/button</value>
+      <webElementGuid>3f0a2354-728d-4a25-952a-3ca9d982cf2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{EDFF5A81-A0AF-4DF8-BF16-8DDC9BAA8CD4}' and (text() = '
+中獎後的兌領獎程序有無改變?
+' or . = '
+中獎後的兌領獎程序有無改變?
+')]</value>
+      <webElementGuid>958ca636-53dd-44fa-b32d-e31bae7e6a76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

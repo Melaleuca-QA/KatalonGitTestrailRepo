@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_orders_3</name>
+   <tag></tag>
+   <elementGuidId>e20d619a-bf11-4bbc-bd27-05f42c9bdac8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5dfd895c-052f-4c0a-859a-54daf460c054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}</value>
+      <webElementGuid>8cc1d3a9-cf0e-4212-a8e1-afc7dace0b82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}</value>
+      <webElementGuid>8140e896-dfa1-4340-bd98-28dcb34e12c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bae60064-ee08-4796-b1b6-f48bc30ffacb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>8c3516cc-ffd5-428c-9c6d-884af9945556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+我如何取得我的會員編號？
+</value>
+      <webElementGuid>54484653-b70e-4bbf-9e1a-33c1387978d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}&quot;)</value>
+      <webElementGuid>0b9e84d2-a330-48e0-a9d4-11a0f1b0c95a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}']</value>
+      <webElementGuid>9772a6ca-e3ed-439c-b3cf-a62f796c168e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[3]/h2/button</value>
+      <webElementGuid>730aadb6-d232-49f6-9b27-2b0d056d9031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='建立您的網路帳戶'])[1]/following::button[1]</value>
+      <webElementGuid>583824ed-b153-48f1-a8d4-4676502ea7ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我如何設立網路購物帳戶?'])[1]/following::button[1]</value>
+      <webElementGuid>a661cfd4-9e5a-45e1-bd83-563fa40a2d66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我的帳戶'])[4]/preceding::button[1]</value>
+      <webElementGuid>b8664088-b7b8-41e0-9895-dd9fadf0d3b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何變更網路密碼與變更電子郵件信箱?'])[1]/preceding::button[1]</value>
+      <webElementGuid>0245c9db-a707-42f3-bb70-dbe2a251d47b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='我如何取得我的會員編號？']/parent::*</value>
+      <webElementGuid>81bdfc85-5b66-498d-b783-f1a19c93df2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2/button</value>
+      <webElementGuid>f0738f8c-25a3-425f-87ae-587c877e05b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{77669C7F-668B-4D94-9F26-DBCE1B170C1D}' and (text() = '
+我如何取得我的會員編號？
+' or . = '
+我如何取得我的會員編號？
+')]</value>
+      <webElementGuid>46f526cb-dcc5-4160-9642-cfd11d7660a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

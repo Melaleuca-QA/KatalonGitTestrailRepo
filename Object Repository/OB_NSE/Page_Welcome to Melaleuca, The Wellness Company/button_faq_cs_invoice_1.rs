@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_invoice_1</name>
+   <tag></tag>
+   <elementGuidId>4d31c015-6431-4116-bff1-c6bb89c4c2f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a6259c00-543d-4c96-bce5-c15502a7caaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}</value>
+      <webElementGuid>9adcfae6-ffb0-4aef-9a91-87b24282031a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}</value>
+      <webElementGuid>0f331da2-babf-409d-ae6d-aca2dfd3df9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>40f57313-98af-40f7-93aa-e45f402c6587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>39469efc-6888-4cff-b5e9-8adfed3247de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+什麼是載具?
+</value>
+      <webElementGuid>cfe3dfab-9d1c-4951-b9c3-72a1e40b4092</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}&quot;)</value>
+      <webElementGuid>d55a48ab-cd57-43c5-9511-a2071befce8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}']</value>
+      <webElementGuid>94094aa9-7a10-4aa1-ba0e-3484e1cca7ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>35b7671c-390b-4c55-938c-89808c22f475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發票載具說明'])[5]/following::button[1]</value>
+      <webElementGuid>594ccde0-b192-47a4-af99-2253f897bcb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>892f280c-9526-46d8-b6d8-fc7500e891f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='選擇美樂家會員載具的好處？'])[1]/preceding::button[1]</value>
+      <webElementGuid>206269ef-c439-400c-8cbb-b026f5f52fcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='什麼是歸戶？有什麼好處？如何辨理？'])[1]/preceding::button[2]</value>
+      <webElementGuid>350fb5e6-c837-4f45-8bae-b871f43b53b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='什麼是載具?']/parent::*</value>
+      <webElementGuid>6e1dd416-09e9-42fc-abcf-4d70379c4358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>256779ef-b9c0-49a2-9335-eb56db88a0f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{46FC396B-9EA3-4CED-8EBD-0F8DBED96C51}' and (text() = '
+什麼是載具?
+' or . = '
+什麼是載具?
+')]</value>
+      <webElementGuid>2cdf3065-af6c-43c3-abd1-30aae9658f59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_change_6</name>
+   <tag></tag>
+   <elementGuidId>2e2a520e-d685-4d6f-b53a-3d3670c8d980</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ebcd27ef-e0cc-4df8-8a27-b8a56ee772e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}</value>
+      <webElementGuid>3befb447-eac3-4766-ae37-a060bbbbd9a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}</value>
+      <webElementGuid>141d46ee-094d-4fea-9368-e0d026c390e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>2e3b9e79-2b3a-4d55-97f3-0542fd8adc23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>26b93bd6-142d-4645-91b2-325e88ec64fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如果有會員連續二個月未活動，但又訂購了35點以上的產品，那會如何?
+</value>
+      <webElementGuid>82be1fa7-d775-4368-8101-9c28fc8fa618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}&quot;)</value>
+      <webElementGuid>d13c4ff1-d4fb-4c67-8e7f-bd18d0c28cf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}']</value>
+      <webElementGuid>06600f7e-6242-4e2e-aac1-c49588ee6a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[6]/h2/button</value>
+      <webElementGuid>319d2e8f-fb52-415b-865f-a0b491ecaa79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>bad82959-9ca2-4243-a61b-44a94de1bd4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果組織內有未達業績標準的會員，我的組織結構會如何?'])[1]/following::button[2]</value>
+      <webElementGuid>c54a55ad-439e-4735-9e23-1d25bfb1a1aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='組織內的事業代表暫停優惠顧客資格，他是否還要繼續購物?'])[1]/preceding::button[1]</value>
+      <webElementGuid>a3a2ef9c-7b35-47e4-ac1d-4ec2de88b133</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家事業是否可繼承給他人?'])[1]/preceding::button[2]</value>
+      <webElementGuid>c4e209f6-c30d-46dd-adb2-be0b4caecfc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如果有會員連續二個月未活動，但又訂購了35點以上的產品，那會如何?']/parent::*</value>
+      <webElementGuid>b1fe83ff-0f26-4829-8f71-f2773693e7d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/h2/button</value>
+      <webElementGuid>04848f1d-6e3b-4289-895f-791efd5a16ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{691E52AF-4006-4D0B-8097-CEDCA0D8C7FC}' and (text() = '
+如果有會員連續二個月未活動，但又訂購了35點以上的產品，那會如何?
+' or . = '
+如果有會員連續二個月未活動，但又訂購了35點以上的產品，那會如何?
+')]</value>
+      <webElementGuid>fc90614b-5a8f-404f-899d-62c2d5c792c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

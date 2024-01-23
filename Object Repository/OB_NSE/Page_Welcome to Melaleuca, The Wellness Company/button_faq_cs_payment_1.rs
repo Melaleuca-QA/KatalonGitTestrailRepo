@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_payment_1</name>
+   <tag></tag>
+   <elementGuidId>0f00d179-6363-49e4-9496-b93a48a810b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6ef48dab-5553-40de-9a83-64cfb7c26a8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}</value>
+      <webElementGuid>9e01bc1c-5512-4ca4-90ca-cc98636bd4a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}</value>
+      <webElementGuid>8f81d624-03e9-44d4-abc5-ba45c75f33e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1c8da3fe-ddac-4107-ad61-764aedc35118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>137060d6-bf1e-48fc-bdc2-5b7d102624f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+訂單提供那些付款方式?
+</value>
+      <webElementGuid>9cdf33ca-52be-4c7e-bb40-47c584e82c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}&quot;)</value>
+      <webElementGuid>7052cc04-45f4-4789-95fe-76294a048043</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}']</value>
+      <webElementGuid>6e8cc6ff-ceca-40e6-9119-2411dd044dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>f6b2e508-86b2-4aef-8098-1ffda312253e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款說明'])[5]/following::button[1]</value>
+      <webElementGuid>f2a923d0-2223-40b2-8548-29bf0e6f6758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>01aaa744-4107-4248-a50a-021e97d31f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何變更我的信用卡扣款資料'])[1]/preceding::button[1]</value>
+      <webElementGuid>4f027cc4-ad11-4739-84dc-6497f3cbdfe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='信用卡扣帳授權協議書'])[1]/preceding::button[2]</value>
+      <webElementGuid>72bad1a1-583c-4562-a0c0-94f999635608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='訂單提供那些付款方式?']/parent::*</value>
+      <webElementGuid>e120e0e0-54b1-4e1f-8455-5f2d15aba454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>bb153139-4b1e-41b1-91d0-5b810723e671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{7A88B444-0531-44BA-8B77-C1749EE99AD4}' and (text() = '
+訂單提供那些付款方式?
+' or . = '
+訂單提供那些付款方式?
+')]</value>
+      <webElementGuid>5daa0a26-5ab6-412a-ba3a-8d809cfa0b12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_refunds_2</name>
+   <tag></tag>
+   <elementGuidId>ce691071-8778-4878-9d1e-af18dfe6a5e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2442162f-cf15-41d7-a488-8d07b697acb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}</value>
+      <webElementGuid>15ec7685-6549-4a88-b515-d70e692b512e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}</value>
+      <webElementGuid>7ad69827-e038-4aff-9667-6142250189fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bd568149-7dfc-4897-9f28-1bedd2b01a70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>62ac07cc-ef1f-4098-b0ff-8f1277fb26be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+產品使用不滿意，可以辦理退/換貨嗎?
+</value>
+      <webElementGuid>736677e1-6e8f-4284-8c18-83905c7a3952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}&quot;)</value>
+      <webElementGuid>b1b04d95-eea8-492b-b188-f63e8f07c05f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}']</value>
+      <webElementGuid>a7ee8b35-0aee-4ec5-a6de-00cc0c129463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
+      <webElementGuid>8141333d-8c04-4025-b3bc-56443cf316e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='獨立事業代表退貨政策'])[1]/following::button[1]</value>
+      <webElementGuid>9be07164-db1f-462e-8dd3-8ce09f363e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='退換貨說明'])[5]/following::button[2]</value>
+      <webElementGuid>990ef713-1b1a-4224-b0e4-cbeabb54a300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家政策聲明'])[1]/preceding::button[1]</value>
+      <webElementGuid>955b3591-ca08-40f1-93c7-bd7915995e12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用消費回饋兌換的商品可以辦理退/換貨嗎?'])[1]/preceding::button[1]</value>
+      <webElementGuid>0bb091d8-e95b-45eb-b5b6-2da2c0436aa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='產品使用不滿意，可以辦理退/換貨嗎?']/parent::*</value>
+      <webElementGuid>0c5a58c2-c5f0-4cc4-83aa-d4b21e228f65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2/button</value>
+      <webElementGuid>ef8d6882-e96f-4593-8701-22abc932918d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{84ACE068-8DAC-4921-B82C-27DC1D4996E4}' and (text() = '
+產品使用不滿意，可以辦理退/換貨嗎?
+' or . = '
+產品使用不滿意，可以辦理退/換貨嗎?
+')]</value>
+      <webElementGuid>ac73d044-e38c-40db-b5d2-a3b20db785b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

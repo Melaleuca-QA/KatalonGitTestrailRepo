@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_questions_5</name>
+   <tag></tag>
+   <elementGuidId>d19cbb4e-5ada-4907-b502-783c54d07679</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{379C1C80-147F-49AE-985B-3F1D429606A2}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fa60350a-f049-40f6-ae50-ac61d6e3ddcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{379C1C80-147F-49AE-985B-3F1D429606A2}</value>
+      <webElementGuid>eef43372-7b3b-4577-8b64-c3a60e250872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{379C1C80-147F-49AE-985B-3F1D429606A2}</value>
+      <webElementGuid>c3e8f349-4a3b-4f7d-bda6-b15b5256283d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f30f7ef2-cb7d-4199-a7f1-51bea4c7497b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>78b5f3ec-5412-4ddd-83af-1bd6627031a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何設定或變更電話訂貨密碼?
+</value>
+      <webElementGuid>4d7ef07d-ba65-42d4-9658-e8eba3135ff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{379C1C80-147F-49AE-985B-3F1D429606A2}&quot;)</value>
+      <webElementGuid>d50d504d-35e1-4b24-b503-5c0836fa2d74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{379C1C80-147F-49AE-985B-3F1D429606A2}']</value>
+      <webElementGuid>1617b84f-a9fb-475a-831e-93a80a6cdbd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[5]/h2/button</value>
+      <webElementGuid>aa4d6075-4f93-4702-b7df-9c14addc1dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯預備訂單'])[3]/following::button[1]</value>
+      <webElementGuid>94b62a76-bad5-46c1-8e3a-88961ebebee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何變更優惠顧客承諾點數?'])[1]/following::button[1]</value>
+      <webElementGuid>ed873405-618c-40cb-a4a4-fc22e22bd40c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>2196f4dd-3661-4cf6-b92e-4058596af3a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>2cbc144d-36b8-4986-8388-1d1496a17936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何設定或變更電話訂貨密碼?']/parent::*</value>
+      <webElementGuid>b8634638-4d3a-4105-a804-1ac1f86c400a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/h2/button</value>
+      <webElementGuid>115d98df-0b06-4c78-b018-d958ca540c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{379C1C80-147F-49AE-985B-3F1D429606A2}' and (text() = '
+如何設定或變更電話訂貨密碼?
+' or . = '
+如何設定或變更電話訂貨密碼?
+')]</value>
+      <webElementGuid>ede69f85-e13b-42b1-84d9-b7bdc316bd1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

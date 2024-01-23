@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_orders_b</name>
+   <tag></tag>
+   <elementGuidId>b7603737-f645-4340-90a3-4d2aead03ee1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{E8F48E15-36FD-4585-9754-85940D05911C}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ee5662b5-d951-4cbf-ad85-ce0363b3d58b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{E8F48E15-36FD-4585-9754-85940D05911C}</value>
+      <webElementGuid>ef4b6d19-8d66-4be9-9070-8661ffebdf31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{E8F48E15-36FD-4585-9754-85940D05911C}</value>
+      <webElementGuid>6ad4180d-cfc1-4d2e-aa09-c9180d9ca193</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>fe8c042d-12fa-4cb7-b221-82df19de39a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>011d8b92-2d14-4ab7-9992-42d3196a2097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何變更或取消已下的網路訂單?
+</value>
+      <webElementGuid>c120de84-1bac-4d33-8076-a5433eb42398</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{E8F48E15-36FD-4585-9754-85940D05911C}&quot;)</value>
+      <webElementGuid>a8b1e971-3d7a-4849-8560-8ea013d62712</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{E8F48E15-36FD-4585-9754-85940D05911C}']</value>
+      <webElementGuid>84a2bafe-c408-45c9-a6db-5ad097f93c30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[11]/h2/button</value>
+      <webElementGuid>a6eee0ee-8909-46b7-85d9-4cd3670f487c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單記錄'])[3]/following::button[1]</value>
+      <webElementGuid>d458ec64-503c-428e-b84f-5bc22e4be49a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='網路可以查詢歷史訂單嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>d9e931e8-bfb5-46a5-91ad-f59a08f337ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果忘了購物怎麼辦呢?'])[1]/preceding::button[1]</value>
+      <webElementGuid>ba7e1e38-2b09-4d53-b105-e54b7548316d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何謂預備訂單服務?'])[1]/preceding::button[2]</value>
+      <webElementGuid>10bbdb93-1a5e-49a2-8900-bc3f2c67830f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何變更或取消已下的網路訂單?']/parent::*</value>
+      <webElementGuid>0e714e2d-1f9a-410c-ba47-8b25395e4021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/h2/button</value>
+      <webElementGuid>828a2031-51fa-4243-aab4-96a3bce30cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{E8F48E15-36FD-4585-9754-85940D05911C}' and (text() = '
+如何變更或取消已下的網路訂單?
+' or . = '
+如何變更或取消已下的網路訂單?
+')]</value>
+      <webElementGuid>df798785-9c95-4ee0-9bdb-e80220176ad8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

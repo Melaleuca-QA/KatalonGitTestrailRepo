@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_melaleuca_1</name>
+   <tag></tag>
+   <elementGuidId>61abd86e-5e0c-4297-a635-b41ec88ddb40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{88688659-786C-42C7-A476-F3CEA41DEB50}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4921782b-466b-42cc-a743-1e93df362541</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{88688659-786C-42C7-A476-F3CEA41DEB50}</value>
+      <webElementGuid>c22ada43-6833-4d4a-b0f8-ccf82a52bb69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{88688659-786C-42C7-A476-F3CEA41DEB50}</value>
+      <webElementGuid>bb71b038-3a1a-4363-bd61-c652ceb30082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3ce7c0a1-4da1-40b6-9849-d1c60aa5c652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>12abe548-3742-44d3-9244-da2e20e1e8fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+認識美樂家手冊有電子檔嗎？
+</value>
+      <webElementGuid>44765c46-a5b9-41e0-9a52-55e00b80180f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{88688659-786C-42C7-A476-F3CEA41DEB50}&quot;)</value>
+      <webElementGuid>9f3cf256-4e19-4315-ad28-d27d9adc5086</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{88688659-786C-42C7-A476-F3CEA41DEB50}']</value>
+      <webElementGuid>b36f5be2-d87d-4573-8bd5-975861b2a583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>27df273f-060a-4378-923d-06409b477551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='認識美樂家'])[5]/following::button[1]</value>
+      <webElementGuid>ccbf754f-dfd0-40f7-8e5a-fb39595674a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>97edce6d-3dbb-424a-b7bd-66113b8d4c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://tw.melaleuca.com/BusinessCenter/content/melaleucapresentations'])[1]/preceding::button[1]</value>
+      <webElementGuid>b6f471de-8dac-4256-a4d7-f737f15db972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>7e237085-cb38-4dac-b06e-b4a9d4a7394b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='認識美樂家手冊有電子檔嗎？']/parent::*</value>
+      <webElementGuid>e4b9de70-810c-46a9-9ebc-1e09ca63689c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>8ffea8fc-2b70-4b20-a449-614c73b0c388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{88688659-786C-42C7-A476-F3CEA41DEB50}' and (text() = '
+認識美樂家手冊有電子檔嗎？
+' or . = '
+認識美樂家手冊有電子檔嗎？
+')]</value>
+      <webElementGuid>4548f26f-9b55-41da-b4be-65ce810895e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

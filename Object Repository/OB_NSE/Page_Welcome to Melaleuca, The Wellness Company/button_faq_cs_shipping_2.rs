@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_shipping_2</name>
+   <tag></tag>
+   <elementGuidId>0377d3aa-bfb0-45ac-8407-1347d1516f41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6d4bcae6-35f7-4c8b-9d52-c7bfeddb5735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
+      <webElementGuid>4ac30f50-35d2-48f7-bb75-74d2d943c4e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
+      <webElementGuid>5ff8fda6-8f76-4d5c-ab77-e57837979823</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d18ab1e0-8394-4e6f-8f32-fd6dc39234dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>59fc46be-2c2c-4cac-8864-a3a7263bf506</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+訂單完成後，多久可以收到產品呢?
+</value>
+      <webElementGuid>1186d762-66ce-4395-9e41-2e45862aca93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}&quot;)</value>
+      <webElementGuid>2b7fba32-df27-47f0-b558-c19433c3a23a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}']</value>
+      <webElementGuid>0c51a173-0947-4c5e-9087-d0fb94dbe9d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
+      <webElementGuid>fdda57cb-3d25-4a8d-965d-1ad0aad918e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='運費如何計算?'])[1]/following::button[1]</value>
+      <webElementGuid>4dda35ec-b891-4615-a5cc-198d1ac855be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='物流與運費'])[5]/following::button[2]</value>
+      <webElementGuid>2e154a7c-e490-419f-b560-bbfd29f727b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>9e1eed6d-9af7-44b6-9984-d5443ce715b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>ade75e2e-1185-4855-bd12-c7bd8a2b3383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='訂單完成後，多久可以收到產品呢?']/parent::*</value>
+      <webElementGuid>b89c5a73-8fcb-423d-be88-386a41bbf660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2/button</value>
+      <webElementGuid>ab63c15d-d3b7-4ae8-9e8e-2c198452013f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}' and (text() = '
+訂單完成後，多久可以收到產品呢?
+' or . = '
+訂單完成後，多久可以收到產品呢?
+')]</value>
+      <webElementGuid>25095152-20f9-4369-b263-04b52eb71cd7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

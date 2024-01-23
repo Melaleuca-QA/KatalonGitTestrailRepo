@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_refunds_9</name>
+   <tag></tag>
+   <elementGuidId>83b900fd-3bbb-4e19-b1f9-0920354b753c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>617c7d18-3f08-4acc-8a80-09870477512f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}</value>
+      <webElementGuid>380dccde-4448-413b-8c30-28d5a9c727ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}</value>
+      <webElementGuid>69df4d47-5a38-4045-b32d-6473aac9c6b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4db35f9e-cd68-4f86-9440-06ca3d4ec0aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>5d3a13f9-95c4-4037-93e0-c50f18a2f7f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+何謂帳上留抵金額?
+</value>
+      <webElementGuid>23a29ff7-2fcc-4c5e-936a-322b34a28a64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}&quot;)</value>
+      <webElementGuid>6466cb21-ba57-4b50-be44-afee623318b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}']</value>
+      <webElementGuid>dacb76df-b108-4df4-b096-60790fb0ea9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[9]/h2/button</value>
+      <webElementGuid>13efb889-6fdc-47c3-abdf-006dcec11fb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='政策聲明'])[2]/following::button[1]</value>
+      <webElementGuid>dff45940-af75-42b4-89c8-fff03a326a5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我如何收到退貨款項?'])[1]/following::button[1]</value>
+      <webElementGuid>9a160e15-5c5c-4c18-b75e-cbe4d9280694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>0ba8723e-ea9b-4e01-ba87-03712b76adf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>9b0f8939-9768-4ce5-923c-1139fa8ab103</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='何謂帳上留抵金額?']/parent::*</value>
+      <webElementGuid>1f6f85d9-67d0-4904-9cd4-a6fd69863491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/h2/button</value>
+      <webElementGuid>ef4f76ac-1e06-41f4-89de-9930601c2e29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{4C62449B-D3E6-4C28-B72E-7DE86873D915}' and (text() = '
+何謂帳上留抵金額?
+' or . = '
+何謂帳上留抵金額?
+')]</value>
+      <webElementGuid>4ec4ff33-4da0-4c4e-a638-ddf8bce1859c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

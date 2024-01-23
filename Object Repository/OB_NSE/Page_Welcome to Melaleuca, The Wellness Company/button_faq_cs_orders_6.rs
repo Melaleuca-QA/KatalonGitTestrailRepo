@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_orders_6</name>
+   <tag></tag>
+   <elementGuidId>ebd9f89e-a0c3-4b70-b561-68243d9be4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{F9031540-1883-4EE6-9E51-32A23DA395CB}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>543fcc85-4735-4b9c-bf7a-1bc55f635b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{F9031540-1883-4EE6-9E51-32A23DA395CB}</value>
+      <webElementGuid>462000bb-0c0a-4561-b6ad-ce27120f0329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{F9031540-1883-4EE6-9E51-32A23DA395CB}</value>
+      <webElementGuid>e30388ef-7dbc-4deb-92f6-d1006f3945ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>24dd47a5-791a-421f-b288-7ccb90f4dc89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>7744aa1f-5d82-4169-b0ed-1e499bd00df0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何從網路查看購貨狀況?
+</value>
+      <webElementGuid>92d44354-c944-4b7a-9639-af0f739729da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{F9031540-1883-4EE6-9E51-32A23DA395CB}&quot;)</value>
+      <webElementGuid>675bcf77-fcb5-4d77-9d0d-11c5bec3a7bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{F9031540-1883-4EE6-9E51-32A23DA395CB}']</value>
+      <webElementGuid>1a5cffd9-9e42-41e9-8766-de4c4f312354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[6]/h2/button</value>
+      <webElementGuid>e1bbaaaa-1d61-430b-bfbd-a1a8ddccad0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='最新消息'])[1]/following::button[1]</value>
+      <webElementGuid>f34fb475-4346-4179-adc6-d72794a608b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='每月訂貨的截止日期?'])[1]/following::button[1]</value>
+      <webElementGuid>8fa979c1-1943-45dd-b357-37bfa1a10e3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單記錄'])[1]/preceding::button[1]</value>
+      <webElementGuid>391fc4a4-f955-41c4-aeb5-c599ed8d58c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何查看我的消費回饋餘額?'])[1]/preceding::button[1]</value>
+      <webElementGuid>570edbd8-3a5d-40a6-a0a3-0850d669acbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何從網路查看購貨狀況?']/parent::*</value>
+      <webElementGuid>66b3215e-3675-44a8-a9a7-8e761b62832e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/h2/button</value>
+      <webElementGuid>4ca84454-519a-4546-9569-5f5c369fdc9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{F9031540-1883-4EE6-9E51-32A23DA395CB}' and (text() = '
+如何從網路查看購貨狀況?
+' or . = '
+如何從網路查看購貨狀況?
+')]</value>
+      <webElementGuid>b270ac3c-6967-46d7-bd4d-1ac8fa5cbda5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

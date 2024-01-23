@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_benefits_2</name>
+   <tag></tag>
+   <elementGuidId>38b3ac06-6dda-4915-b0a9-dc20e3012524</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>593169d9-d68a-42cc-aaa7-5b97ed8b2503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}</value>
+      <webElementGuid>5c18713b-06e4-4877-a064-ff4c1dd3617c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}</value>
+      <webElementGuid>e579d46e-e42d-4d00-b544-2d2bd12c4a19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4d4a6125-3ef6-4422-83bb-79a2348fc018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>62d71033-c149-4db2-b832-6b1c6a10c6cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+何謂消費回饋?
+</value>
+      <webElementGuid>c18774cb-afe0-482c-be5f-87d499b45e35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}&quot;)</value>
+      <webElementGuid>abca1d4e-62fc-43a4-abb0-004ee4b7c138</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}']</value>
+      <webElementGuid>d3768a6f-1c0b-414c-9ff3-17e5282d1170</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
+      <webElementGuid>f3e43d3e-6cc6-4b80-9fae-eb56e722336a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='成為會員有什麼優惠?'])[1]/following::button[1]</value>
+      <webElementGuid>d8913b87-efb9-41d1-b225-63f0ad37096a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員優惠'])[5]/following::button[2]</value>
+      <webElementGuid>ad9f008e-4197-4383-90af-38d161359e92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://tw.melaleuca.com/loyalty-shopping-dollars'])[1]/preceding::button[1]</value>
+      <webElementGuid>4771efe7-ab55-41b6-882e-3fa9d59345a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋如何計算?'])[1]/preceding::button[1]</value>
+      <webElementGuid>60df0bee-e3a9-4589-a571-9bd7bb97c03a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='何謂消費回饋?']/parent::*</value>
+      <webElementGuid>bc876fd4-da13-4ed2-a2b7-4c4172f37c1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2/button</value>
+      <webElementGuid>d9194e45-79a5-415f-ad92-f01827e6b8cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{053E1A5C-B46F-48F2-AEC0-978F031F34DC}' and (text() = '
+何謂消費回饋?
+' or . = '
+何謂消費回饋?
+')]</value>
+      <webElementGuid>1fb4ce8b-34db-4c67-b633-b6ac2657e999</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

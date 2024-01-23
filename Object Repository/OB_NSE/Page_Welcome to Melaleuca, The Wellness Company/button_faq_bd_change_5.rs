@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_change_5</name>
+   <tag></tag>
+   <elementGuidId>5bc7c6e2-bdf3-4287-a162-7afd32946f28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>83dfb02d-edd0-49b9-b338-df2295de7f76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}</value>
+      <webElementGuid>ae07b19d-0efd-406e-b3cb-8d29b60bbb38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}</value>
+      <webElementGuid>a83e8480-9d93-4f31-a4d3-5abc55c9b61c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e291c59d-20f5-42a7-b3d6-5ca7754682a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>286e4eda-7aaa-4ea2-a806-aa61f3c656aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?
+</value>
+      <webElementGuid>2c658a14-1f02-45e8-a230-fe7d72eae022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}&quot;)</value>
+      <webElementGuid>b3ebd26f-8f27-4f9f-9377-5dc07412e484</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}']</value>
+      <webElementGuid>076bbfc1-dd4a-4a40-8dd9-c2ebf6f16ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[5]/h2/button</value>
+      <webElementGuid>2f8e0138-5a21-42fb-9e7a-ec04f10a7303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果組織內有未達業績標準的會員，我的組織結構會如何?'])[1]/following::button[1]</value>
+      <webElementGuid>a8b744e5-0fd6-485b-98eb-2e1ea51d145b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員入會當月是否可變更輔導事業代表?'])[1]/following::button[2]</value>
+      <webElementGuid>f078835a-0a15-43e4-9c36-fc186bf6d3f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果有會員連續二個月未活動，但又訂購了35點以上的產品，那會如何?'])[1]/preceding::button[1]</value>
+      <webElementGuid>6921c104-ca57-4aae-9e4e-20f2c580bdc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='組織內的事業代表暫停優惠顧客資格，他是否還要繼續購物?'])[1]/preceding::button[2]</value>
+      <webElementGuid>7cf9fa4d-6cc2-42bf-84e4-6e9569a40561</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?']/parent::*</value>
+      <webElementGuid>31710c57-8684-4caf-b67d-975518263390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/h2/button</value>
+      <webElementGuid>ab32162c-dfda-45b5-b32a-9d113e33e0c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{DBC93322-A49B-432D-8EBF-4CDD17593B23}' and (text() = '
+我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?
+' or . = '
+我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?
+')]</value>
+      <webElementGuid>fe5f34b8-966e-43b3-abad-543ad7445261</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

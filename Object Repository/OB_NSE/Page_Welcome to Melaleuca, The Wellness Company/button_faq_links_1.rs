@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_links_1</name>
+   <tag></tag>
+   <elementGuidId>d36b716b-09ba-4c30-b167-001e66942d4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>afbb4abc-d95b-4cb9-b635-b3262d087fe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}</value>
+      <webElementGuid>e234e289-2809-4854-afbf-b1b6204d88c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}</value>
+      <webElementGuid>f466551e-b7e4-4242-a2d1-18f51d64e986</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ad5c881a-f454-4e61-8cb2-514b51e548fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>54ec0670-3b7d-4aad-ab6c-4d97bb3dcf8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+其他相關網站
+</value>
+      <webElementGuid>14b6d130-a4cd-49aa-9ef3-cece239dfd20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}&quot;)</value>
+      <webElementGuid>559ac580-9297-4119-8ef7-bd0c697712f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}']</value>
+      <webElementGuid>ee911f69-703e-43b5-ac09-ca067021553c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>84dd4aa1-cef5-400f-8421-b9f05ecaea1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='其他相關網站'])[5]/following::button[1]</value>
+      <webElementGuid>cd09073a-75b4-4c0a-81a1-914b1e46fe9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='其他相關網站'])[4]/following::button[1]</value>
+      <webElementGuid>7b0fcc41-df94-481a-9f00-8c7b9ade7b7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家Facebook粉絲頁'])[1]/preceding::button[1]</value>
+      <webElementGuid>0e01d405-a235-485a-8a9f-d1e64f08785e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家Instagram'])[1]/preceding::button[1]</value>
+      <webElementGuid>cbc8e92f-07f4-4c0e-8b04-bebd74b332be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>9f20f9a9-2116-481c-82cf-f44fef05d305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{5FBD40AF-425A-4005-B112-C351BD4DBA58}' and (text() = '
+其他相關網站
+' or . = '
+其他相關網站
+')]</value>
+      <webElementGuid>8c481cf2-84d8-465b-b6aa-3351d3b75323</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG_C462317 - Sign in page is secure (https in the url)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3e9ab28e-78c1-41ce-ac48-c6831cf36ec1</testCaseGuid>
-</TestCaseEntity>

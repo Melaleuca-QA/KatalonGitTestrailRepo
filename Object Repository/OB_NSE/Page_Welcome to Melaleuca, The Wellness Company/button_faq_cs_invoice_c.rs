@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_invoice_c</name>
+   <tag></tag>
+   <elementGuidId>10ee826e-29a8-4926-98b1-348bafe9bc82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6f1dbb3b-f05d-44be-8e9f-03f078feb329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}</value>
+      <webElementGuid>5884976f-d875-4aae-bc76-4bdde494d194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}</value>
+      <webElementGuid>9457699c-27bc-400a-b70c-7ee767df5975</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>12735d28-6c6c-4de7-835e-7e2e1c132938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>0a6cc385-de9e-4a9c-b0a6-c8c873624525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何將美樂家載具歸戶至財政部電子發票整合服務平台?
+</value>
+      <webElementGuid>5e5f7e55-7710-4a33-87ef-3d2af7f4ab7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}&quot;)</value>
+      <webElementGuid>0d720062-56a6-4a81-be33-cd88cca450a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}']</value>
+      <webElementGuid>6c79623b-6098-4ee2-b8f9-c8de1e787820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[12]/h2/button</value>
+      <webElementGuid>2c9a74e0-c27d-4e37-b720-33cb9bba7218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我收到預備訂單，為什麼沒有發票?'])[1]/following::button[1]</value>
+      <webElementGuid>f91765b4-2530-410a-b2c5-d72b38cbafaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='在美樂家消費之發票號碼，是否可以查詢到?'])[1]/following::button[2]</value>
+      <webElementGuid>5e29b51e-575b-49f9-84a1-de68ea54ad93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>dc918353-25b6-4574-9c6c-1beeee50e595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>391da978-1a81-462d-b2ac-9896377fa91b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何將美樂家載具歸戶至財政部電子發票整合服務平台?']/parent::*</value>
+      <webElementGuid>f2ac79e4-067e-49c5-b158-2a94e01f044b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/h2/button</value>
+      <webElementGuid>55baed6b-1cdf-4250-aa1f-d99f3f28dc3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{547E5AD7-8425-4090-A78B-F64083FDF1EC}' and (text() = '
+如何將美樂家載具歸戶至財政部電子發票整合服務平台?
+' or . = '
+如何將美樂家載具歸戶至財政部電子發票整合服務平台?
+')]</value>
+      <webElementGuid>38da5c8b-eaf4-4a4f-b8f7-5ca96fc1389b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

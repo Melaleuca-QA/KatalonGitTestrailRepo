@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_orders_c</name>
+   <tag></tag>
+   <elementGuidId>7bd57936-b666-47a4-a972-31aacc70a862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>28a20763-f867-4a15-a88f-5a233b7d737a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}</value>
+      <webElementGuid>db2149a4-a8b2-405a-b6c9-dea40f80b0e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}</value>
+      <webElementGuid>8971164b-b731-4c7b-a0a6-ab9f5baada8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b758f174-9708-42ca-ac64-b5d439dc4e1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>8963f2f4-298b-4864-9ee1-e4a753d3a78f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如果忘了購物怎麼辦呢?
+</value>
+      <webElementGuid>22139ea2-bd38-4679-b225-595d3e55080b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}&quot;)</value>
+      <webElementGuid>ac8f71be-9296-4c2a-b3a1-e7ea22b05948</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}']</value>
+      <webElementGuid>08e95c36-d576-4979-9867-baab3445a5ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[12]/h2/button</value>
+      <webElementGuid>2fb39b8a-cbb9-457d-a04f-4264133faa95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何變更或取消已下的網路訂單?'])[1]/following::button[1]</value>
+      <webElementGuid>b0385bfd-6440-4faf-a144-e9c8eba17b5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單記錄'])[3]/following::button[2]</value>
+      <webElementGuid>4da0ef26-d46f-45cf-be65-48e45a71aa38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何謂預備訂單服務?'])[1]/preceding::button[1]</value>
+      <webElementGuid>2219f600-fe0f-4827-a68a-2b52f438e123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯您的預備訂單'])[1]/preceding::button[2]</value>
+      <webElementGuid>04cb8f28-4d6b-407e-a857-cf80f9f61e3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如果忘了購物怎麼辦呢?']/parent::*</value>
+      <webElementGuid>05167aa3-d6ae-4c0e-9785-1530159382c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/h2/button</value>
+      <webElementGuid>e27bf90f-ca00-4152-a385-727d72aa4338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{5C02C567-0CCF-4EDF-A8D0-412BF6731AAB}' and (text() = '
+如果忘了購物怎麼辦呢?
+' or . = '
+如果忘了購物怎麼辦呢?
+')]</value>
+      <webElementGuid>68397f11-8e07-43c9-9a03-007b4c169611</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

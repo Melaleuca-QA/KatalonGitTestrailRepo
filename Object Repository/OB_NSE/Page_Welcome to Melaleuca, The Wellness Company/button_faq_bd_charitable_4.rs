@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_charitable_4</name>
+   <tag></tag>
+   <elementGuidId>a13f3a99-0497-4007-b3d4-05e23595eba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>070516bc-25dd-4288-a4bb-5d9f70f28d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}</value>
+      <webElementGuid>28d3f7e7-80a4-4c55-b013-53f11ce0af0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}</value>
+      <webElementGuid>78143b6d-b5a2-4284-a9fb-01509bf2f49b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d3c51b81-4a69-4f7f-9d06-1d111aadd50f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>32172c82-5b15-4360-b36c-8d90a31260b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+慈善協會的收據可以扣抵所得稅嗎?
+</value>
+      <webElementGuid>00579a28-d92f-41ab-9cba-fa893707cd54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}&quot;)</value>
+      <webElementGuid>861de52b-4ad8-4da4-8f5b-d35d74562df8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}']</value>
+      <webElementGuid>4eb3b3ff-2386-4960-b4be-1a3f69cb6aa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[4]/h2/button</value>
+      <webElementGuid>9ddf4cdc-91b3-4544-939b-167537a00f8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='成為慈善協會會員會收到富足錦囊嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>4c5f061e-8841-4c5b-b232-0b6ad40fd619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何申請成為慈善協會會員?'])[1]/following::button[2]</value>
+      <webElementGuid>b76fb24a-1392-4517-8e60-f84d84ff8ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>512670fa-3f74-47d2-b708-4a3a80344741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>61c21f56-e4c6-4a1c-8907-b410f13a3c17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='慈善協會的收據可以扣抵所得稅嗎?']/parent::*</value>
+      <webElementGuid>212cfcb0-a1ca-4c62-8edc-671d1158037f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/h2/button</value>
+      <webElementGuid>2e843138-5990-4c0c-9ed2-672b715f3cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{C32DF80B-9573-43CB-95DF-4AC60C23AA58}' and (text() = '
+慈善協會的收據可以扣抵所得稅嗎?
+' or . = '
+慈善協會的收據可以扣抵所得稅嗎?
+')]</value>
+      <webElementGuid>727faba7-f316-4b49-af9b-23c29797a438</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

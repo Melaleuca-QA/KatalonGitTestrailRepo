@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_ftt_1</name>
+   <tag></tag>
+   <elementGuidId>84f9808f-7d22-407a-ac2d-18791c8068f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0bb554f3-c7d3-4fc5-9149-6607f3138969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}</value>
+      <webElementGuid>1736fd6c-bb28-4997-bc44-631340138c6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}</value>
+      <webElementGuid>9f58404f-ba2b-432c-bb6d-d4a3dd5981a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7647755e-4bec-4e72-8040-99e54887ad23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>283fdf34-71a2-4192-8ff0-e99aaab6dee5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+什麼是快速列車?
+</value>
+      <webElementGuid>267b9fe2-c3f6-42a7-b2e8-cc81bf07353e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}&quot;)</value>
+      <webElementGuid>cc15b382-87b8-4f02-ac7a-fdfb0c21f61a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}']</value>
+      <webElementGuid>aa5bb429-b180-47bc-ab13-d8c528de0897</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>b0d80a55-9bb7-4a95-b0a8-adda8cce2bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車'])[5]/following::button[1]</value>
+      <webElementGuid>93fc32aa-cbe8-471b-ab08-030587cbe804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>6de5aa99-e26b-4e68-a963-f247af261135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車如何幫助我成長事業?'])[1]/preceding::button[1]</value>
+      <webElementGuid>662480cf-a464-4406-ac8a-e666714b74d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何組成快速列車?'])[1]/preceding::button[2]</value>
+      <webElementGuid>f841607c-5758-4dcf-b4fb-7b8630aac27c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='什麼是快速列車?']/parent::*</value>
+      <webElementGuid>8ce428bb-325b-4d03-af4a-b84ba6f88ed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>6a57f941-c762-4ef7-9d65-6c8fdded890c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{A8715308-28DA-4AA2-9D2C-C5D4ACA4A3BF}' and (text() = '
+什麼是快速列車?
+' or . = '
+什麼是快速列車?
+')]</value>
+      <webElementGuid>739ee884-143f-41b4-af0f-f7a31c79c4de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

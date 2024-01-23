@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_questions_2</name>
+   <tag></tag>
+   <elementGuidId>e9601b02-eda8-42e6-9c23-2da3fa8b8c16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>39b8703d-ca2a-48f5-a7df-8436c77b4df0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}</value>
+      <webElementGuid>d9a56cf4-6b82-4008-aaf2-6426e418e757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}</value>
+      <webElementGuid>2611e736-5347-43ce-8888-6bc88c0fc012</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b4abb94a-494e-4697-98eb-e9d7f542f902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>e046b0d7-1e3d-457f-bfa3-c20bf377de4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何將優惠顧客資格轉為基礎顧客資格?
+</value>
+      <webElementGuid>34b7003c-e875-4228-a46a-f6b4c70e61e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}&quot;)</value>
+      <webElementGuid>356a0e79-a31e-4cc5-bf8a-8472a0ca92fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}']</value>
+      <webElementGuid>69522d86-a1fc-46c8-bca4-522d516f615a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
+      <webElementGuid>a7e211a2-49f5-4fa6-810a-2d44dc7b863c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何終止會員資格?'])[1]/following::button[1]</value>
+      <webElementGuid>660b5de2-9338-4596-87ad-441cd1d87076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='會員常見問題'])[5]/following::button[2]</value>
+      <webElementGuid>d4372c33-9151-4929-ab4d-74de3400ccaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何辦理恢復優惠顧客資格?'])[1]/preceding::button[1]</value>
+      <webElementGuid>3e069c70-ad7e-4e01-894b-bf5d20ae41d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='資料上傳'])[1]/preceding::button[2]</value>
+      <webElementGuid>f27a4815-8b7f-43ed-af53-f38c58c59bfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何將優惠顧客資格轉為基礎顧客資格?']/parent::*</value>
+      <webElementGuid>8a8bbfae-25c3-4778-93a5-23af821d8522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h2/button</value>
+      <webElementGuid>38536d45-8a5e-4284-8d64-68394ee8bf1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{E00FC314-B6F5-42B1-BADD-68AC7C40966A}' and (text() = '
+如何將優惠顧客資格轉為基礎顧客資格?
+' or . = '
+如何將優惠顧客資格轉為基礎顧客資格?
+')]</value>
+      <webElementGuid>4ef848e9-5e30-458e-9271-2f2be13aa125</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

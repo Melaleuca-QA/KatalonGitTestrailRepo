@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_change_3</name>
+   <tag></tag>
+   <elementGuidId>3e14304b-e15e-4a3f-af25-b1657b66ae6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c53aec5f-1e77-4bab-80ba-2275cecdb03a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}</value>
+      <webElementGuid>8aed90da-7c78-4b7c-9071-5cd4090acd75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}</value>
+      <webElementGuid>5fab2dd0-626c-4cd7-86da-f2cf2f325ca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>400b64aa-4422-4676-bc56-3b541f2312be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>1bd0c324-b9d9-4838-8bea-2e6b28464772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+會員入會當月是否可變更輔導事業代表?
+</value>
+      <webElementGuid>5c7b976c-4131-402f-b9e4-efc20044c8ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}&quot;)</value>
+      <webElementGuid>705390fe-feec-4eb2-a0e0-80b04d9a1fba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}']</value>
+      <webElementGuid>ee1a6d7d-120f-4c33-8b67-84442b98952e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[3]/h2/button</value>
+      <webElementGuid>f1049990-4e15-4cf1-ab7c-b3e1f1562eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我能否申請變更組織夥伴的輔導事業代表?'])[1]/following::button[1]</value>
+      <webElementGuid>35410c54-9d92-4ba7-9a32-5f626d6eec66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何申請更改會員基本資料？'])[1]/following::button[2]</value>
+      <webElementGuid>a6a75baa-0543-498d-b560-637277ab5d70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果組織內有未達業績標準的會員，我的組織結構會如何?'])[1]/preceding::button[1]</value>
+      <webElementGuid>c524516c-9853-482e-8c3d-d073ba70d277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我組織的一位事業代表在過去二個月都未達業績標準，有任何方法能避免他失去事業組織嗎?'])[1]/preceding::button[2]</value>
+      <webElementGuid>32fb7ead-42e6-4f58-a0dc-6846271c8e99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='會員入會當月是否可變更輔導事業代表?']/parent::*</value>
+      <webElementGuid>467aa814-098f-4adb-b654-4cbd29822384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2/button</value>
+      <webElementGuid>dddde8d0-628e-427b-91ed-8fa81a16cff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{5BE3EEB6-D0C6-4CB6-8416-DC3C7DB891EE}' and (text() = '
+會員入會當月是否可變更輔導事業代表?
+' or . = '
+會員入會當月是否可變更輔導事業代表?
+')]</value>
+      <webElementGuid>12d3bd6d-3cec-4522-8f80-899fdaef5069</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

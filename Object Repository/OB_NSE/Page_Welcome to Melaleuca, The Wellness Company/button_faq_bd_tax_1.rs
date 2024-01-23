@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_tax_1</name>
+   <tag></tag>
+   <elementGuidId>32989006-2281-4dac-bb50-63b4afd43ba3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b525b6b4-ae99-4718-8396-a069d31f87f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}</value>
+      <webElementGuid>0e22e9eb-a089-4aa4-aece-c09b9bdd73fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}</value>
+      <webElementGuid>3ecefd28-637d-48e5-93f3-62a6183c6de9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d2801017-f72c-4cc4-9eab-cbffbd705a99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>76b0ba13-3f9f-4530-9360-e11d74e92ba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何查詢佣金報表?
+</value>
+      <webElementGuid>690bc22b-cae9-454c-b08b-491f9a673f31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}&quot;)</value>
+      <webElementGuid>5b9d9472-09e2-4af2-9226-e71130857fb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}']</value>
+      <webElementGuid>dfcdcdd1-72a4-4900-b4b3-8c2593e18880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div/h2/button</value>
+      <webElementGuid>ad5e7654-9419-4a10-8bf9-74add969f7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='佣金＆稅'])[5]/following::button[1]</value>
+      <webElementGuid>dcd18f8d-a217-4a5a-9544-8d8c87b06144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相關連結'])[1]/following::button[1]</value>
+      <webElementGuid>72f497c7-fad4-4e64-85e1-c762dda0210d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='佣金結算期間為何?'])[1]/preceding::button[1]</value>
+      <webElementGuid>5d04dcd5-4c2e-48b9-9f89-5a4558709014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何時能收到佣金?'])[1]/preceding::button[2]</value>
+      <webElementGuid>71e7c9e6-3c4b-41bf-824c-5c227c8c17dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何查詢佣金報表?']/parent::*</value>
+      <webElementGuid>9fa09242-3d90-4697-b436-8e8d964f59da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2/button</value>
+      <webElementGuid>17f30d8f-aa8f-4fd8-9ea7-3e11b299c626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{48E84603-1FD6-401C-8CC5-4DB9E27651B1}' and (text() = '
+如何查詢佣金報表?
+' or . = '
+如何查詢佣金報表?
+')]</value>
+      <webElementGuid>1cc91c1e-3e21-496d-82e1-eecb1b06520e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_ftt_3</name>
+   <tag></tag>
+   <elementGuidId>bbcf57ea-d6ac-466e-a978-4c1680796870</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dd8855aa-f3df-4317-bbe1-aefcd0a20ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}</value>
+      <webElementGuid>6acee78e-5fd6-43b1-bfb8-cefad1659eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}</value>
+      <webElementGuid>14d7b5d6-7594-4e8a-9f5f-e20ffaa5a7e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>00abc765-e7f1-4a6f-a1f0-5f4b74886609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>e43bf311-e846-42cf-a1b1-9b4b83fd3a7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何組成快速列車?
+</value>
+      <webElementGuid>f53a41a0-6acd-4663-9e96-98cecef3bf19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}&quot;)</value>
+      <webElementGuid>d406b1e5-32d6-4c60-bf1c-42348ea7bd91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}']</value>
+      <webElementGuid>194f2636-6ee3-480a-a8a2-81973db20f56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[3]/h2/button</value>
+      <webElementGuid>f5342f28-ce90-4512-bf1c-5e61b0343756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車如何幫助我成長事業?'])[1]/following::button[1]</value>
+      <webElementGuid>07505ab5-d595-4bec-91c2-effdf47a447c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='什麼是快速列車?'])[1]/following::button[2]</value>
+      <webElementGuid>f8497219-f519-4e58-a950-e4411e138abe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='在快速列車裡，你所聚焦的活動種類為何?'])[1]/preceding::button[1]</value>
+      <webElementGuid>b735d4ed-4d88-4caa-b198-4c73568c36cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='快速列車應該會於何處舉辦?'])[1]/preceding::button[2]</value>
+      <webElementGuid>faea5549-2075-4f06-bf4e-5a60ddd2be80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何組成快速列車?']/parent::*</value>
+      <webElementGuid>4cff7606-99b7-477e-8d61-bcc036ff8205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2/button</value>
+      <webElementGuid>38df00ef-79e7-477e-affc-4a7d47843fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{A244B87B-3589-4499-AF22-8F519C2DDCCC}' and (text() = '
+如何組成快速列車?
+' or . = '
+如何組成快速列車?
+')]</value>
+      <webElementGuid>eaac712b-bc69-4b5f-8f45-f6fd33116976</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

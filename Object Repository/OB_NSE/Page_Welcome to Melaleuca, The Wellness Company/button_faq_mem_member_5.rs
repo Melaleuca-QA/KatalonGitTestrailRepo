@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_member_5</name>
+   <tag></tag>
+   <elementGuidId>bd9a461a-5d8d-4f8a-9fae-3c480d76fd7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{EE140883-0EDE-481F-9056-2A4507399C27}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>df6cea50-51c5-42d3-8e85-c1c23f6bd5ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{EE140883-0EDE-481F-9056-2A4507399C27}</value>
+      <webElementGuid>d2ec554f-3561-4f1a-9ae9-86b95aa544f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{EE140883-0EDE-481F-9056-2A4507399C27}</value>
+      <webElementGuid>a75bfabb-f10c-41a3-943c-7dd303e09b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d39219bb-18cd-4fe2-897e-8cba4387292c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>8cd720ab-01c9-47b8-bcda-d7666a6e1ab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如果沒有提供扣款及銀行帳戶，能成為優惠顧客嗎?
+</value>
+      <webElementGuid>626469d1-e9a2-4d4c-ab48-6252dee5448f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{EE140883-0EDE-481F-9056-2A4507399C27}&quot;)</value>
+      <webElementGuid>6698823d-ad12-4b41-9057-029afa1d27fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{EE140883-0EDE-481F-9056-2A4507399C27}']</value>
+      <webElementGuid>8d21bcce-d359-456c-8133-4e3055d048c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[5]/h2/button</value>
+      <webElementGuid>1443eee7-1df1-4dc0-a5f2-973af5180d58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='優惠顧客購物是否有基本點數要求?其權益為何？'])[1]/following::button[1]</value>
+      <webElementGuid>a17db1b4-412f-4301-8ab2-a2f278486217</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='入會費用多少?'])[1]/following::button[2]</value>
+      <webElementGuid>5005a9c4-2c51-4b2b-938b-ab90f3d3cc4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>a0d69b81-3583-47aa-b8a3-b04e2441d826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>18fb35f4-b697-4399-b2f2-5575a51d3b3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如果沒有提供扣款及銀行帳戶，能成為優惠顧客嗎?']/parent::*</value>
+      <webElementGuid>bd7ca9a2-e5a3-436b-8240-d006100bd3ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/h2/button</value>
+      <webElementGuid>54a46f42-0932-4dd1-a680-31e8093eff92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{EE140883-0EDE-481F-9056-2A4507399C27}' and (text() = '
+如果沒有提供扣款及銀行帳戶，能成為優惠顧客嗎?
+' or . = '
+如果沒有提供扣款及銀行帳戶，能成為優惠顧客嗎?
+')]</value>
+      <webElementGuid>9729d2ad-fcdb-4612-86e7-f268fb1509a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

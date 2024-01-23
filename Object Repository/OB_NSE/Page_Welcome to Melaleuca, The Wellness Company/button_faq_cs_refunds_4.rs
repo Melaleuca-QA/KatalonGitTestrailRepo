@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_refunds_4</name>
+   <tag></tag>
+   <elementGuidId>9d102103-c153-47d8-8ae2-54f2d1ff8eac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{2DDDA22A-DB40-40A0-99C5-861136732C54}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c1108bca-0bcb-4e30-9d13-211372e18ac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{2DDDA22A-DB40-40A0-99C5-861136732C54}</value>
+      <webElementGuid>3bb669cb-dae3-4e0e-aadd-53de13c21b65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{2DDDA22A-DB40-40A0-99C5-861136732C54}</value>
+      <webElementGuid>919af4d2-2fea-447c-ab6b-5fd580e6623a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ab27eb74-2331-4fb8-aeaf-83caa189e0fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>1b4d0cf3-8190-4da8-9738-e75fbb1284c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+富足必備套裝、精選超值套裝裡的產品，可以做部份退/換貨嗎?
+</value>
+      <webElementGuid>50373553-7202-47f6-8607-c79834fbb85a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{2DDDA22A-DB40-40A0-99C5-861136732C54}&quot;)</value>
+      <webElementGuid>8f8c72b8-f678-40cc-9378-e1e38de44329</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{2DDDA22A-DB40-40A0-99C5-861136732C54}']</value>
+      <webElementGuid>37964eec-1e7c-4d24-aa77-69cb6558c3ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[4]/h2/button</value>
+      <webElementGuid>d297a6b2-faee-479b-8a38-07a00dc88109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用消費回饋兌換的商品可以辦理退/換貨嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>ebb9a451-22b7-4a2a-b858-a186986f837f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家政策聲明'])[1]/following::button[2]</value>
+      <webElementGuid>cd811a33-4f23-45f5-ada4-6836df56bc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='退貨有何限制?'])[1]/preceding::button[1]</value>
+      <webElementGuid>f5446682-b626-40d3-9a0c-ddc80894f837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='政策聲明'])[1]/preceding::button[2]</value>
+      <webElementGuid>afa21152-5a0a-4418-b4ba-788ceeb98054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='富足必備套裝、精選超值套裝裡的產品，可以做部份退/換貨嗎?']/parent::*</value>
+      <webElementGuid>c8a03a03-7b97-4200-8c74-40a595b1726e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/h2/button</value>
+      <webElementGuid>0844696e-d676-45ff-9eef-39e42cdeb5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{2DDDA22A-DB40-40A0-99C5-861136732C54}' and (text() = '
+富足必備套裝、精選超值套裝裡的產品，可以做部份退/換貨嗎?
+' or . = '
+富足必備套裝、精選超值套裝裡的產品，可以做部份退/換貨嗎?
+')]</value>
+      <webElementGuid>5ed87f91-2aab-40a3-8274-576753e061ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

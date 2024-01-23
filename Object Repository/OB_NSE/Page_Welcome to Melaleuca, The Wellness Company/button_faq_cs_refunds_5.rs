@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_refunds_5</name>
+   <tag></tag>
+   <elementGuidId>69942a39-bf33-4b8c-9869-f11c86c280aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0f755e42-639d-483f-b716-25e2a2d49e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}</value>
+      <webElementGuid>506dbd60-6cfb-46db-93e4-c1e3931815b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}</value>
+      <webElementGuid>44f268e8-877a-4c8d-a255-58af2312a476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5a8ca9a9-432e-4164-96e4-b979cae67390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>f8abb4ee-5564-445d-9898-fcfea0472882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+退貨有何限制?
+</value>
+      <webElementGuid>a5f5d615-ce88-42bd-8cda-c9b9955f7198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}&quot;)</value>
+      <webElementGuid>8f989112-23ef-4e47-89fb-0a74b7a2290d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}']</value>
+      <webElementGuid>8035bdbe-316b-406f-a25b-d95b67d00039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[5]/h2/button</value>
+      <webElementGuid>8053280b-73d3-48c4-9601-36f540b9f1e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='富足必備套裝、精選超值套裝裡的產品，可以做部份退/換貨嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>cd896508-2670-4361-9206-c0a14ff0147b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='使用消費回饋兌換的商品可以辦理退/換貨嗎?'])[1]/following::button[2]</value>
+      <webElementGuid>306cef3a-03e2-4f55-a3c5-ef2ec8c4a4ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='政策聲明'])[1]/preceding::button[1]</value>
+      <webElementGuid>cad1fbb7-f12a-4b3a-a362-9a93ca4fe14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='退貨產品要寄到哪裡辦理?'])[1]/preceding::button[1]</value>
+      <webElementGuid>6930dd95-58db-4a1e-8cee-8b0c3fb00a6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='退貨有何限制?']/parent::*</value>
+      <webElementGuid>b35b992b-643c-440f-abde-2f9f6ac08d02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/h2/button</value>
+      <webElementGuid>9107de4d-cda8-42ad-8b44-c4d8ce7d1ac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{C2B186A2-F3E1-44FE-B107-5919CFAF39DF}' and (text() = '
+退貨有何限制?
+' or . = '
+退貨有何限制?
+')]</value>
+      <webElementGuid>92076006-8495-4301-9640-aedd51382836</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

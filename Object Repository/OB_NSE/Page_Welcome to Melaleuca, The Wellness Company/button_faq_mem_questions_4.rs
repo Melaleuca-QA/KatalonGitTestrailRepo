@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_mem_questions_4</name>
+   <tag></tag>
+   <elementGuidId>7bbca743-50ee-4fe0-8dc0-dcf219c13678</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5c48834b-6c2b-4205-ab52-f96ff6d57ce9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}</value>
+      <webElementGuid>401f9500-8482-4b4f-a765-01f3df492782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}</value>
+      <webElementGuid>b3171557-cff0-4a20-88af-b70a4d2bebca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7472f226-6272-443b-8aec-e628b853efe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>8f899abb-5814-469f-bb5a-aaccc12056cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何變更優惠顧客承諾點數?
+</value>
+      <webElementGuid>c4733440-cd36-4fca-8e9e-ce218e5aad2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}&quot;)</value>
+      <webElementGuid>81c760bf-e15c-4f8c-862e-6cb6f1f64974</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}']</value>
+      <webElementGuid>07ee6127-7440-4d45-b38d-382c2424460f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[4]/h2/button</value>
+      <webElementGuid>af015c32-21c2-4da6-b1dc-ba41239a1eba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='資料上傳'])[1]/following::button[1]</value>
+      <webElementGuid>86e78165-d42d-4c94-a01c-5bd9d98d9dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何辦理恢復優惠顧客資格?'])[1]/following::button[1]</value>
+      <webElementGuid>adb724cf-2cf4-41b3-b88a-fe21a02c9f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯預備訂單'])[3]/preceding::button[1]</value>
+      <webElementGuid>c515ff19-f02f-48d7-8403-2b2897302445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='如何設定或變更電話訂貨密碼?'])[1]/preceding::button[1]</value>
+      <webElementGuid>0390538e-11f8-47cf-996a-020198ea28c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何變更優惠顧客承諾點數?']/parent::*</value>
+      <webElementGuid>0c3ed633-97a9-4b8e-b810-2b69746fbb62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/h2/button</value>
+      <webElementGuid>49a0dc0d-cfce-4d87-b3f6-d74ce159e74d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{B7E15177-FA5C-4981-B7B1-02A119CFAF85}' and (text() = '
+如何變更優惠顧客承諾點數?
+' or . = '
+如何變更優惠顧客承諾點數?
+')]</value>
+      <webElementGuid>e1e8c963-6aa8-411a-97b1-5c043552d2ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

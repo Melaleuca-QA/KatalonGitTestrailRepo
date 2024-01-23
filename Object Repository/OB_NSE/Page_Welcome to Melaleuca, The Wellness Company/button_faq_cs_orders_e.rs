@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_cs_orders_e</name>
+   <tag></tag>
+   <elementGuidId>04bd30fb-2130-4d88-9bff-73d32d47fd32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2f4d35e2-94ec-4ba2-a02a-ad46005b6dc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}</value>
+      <webElementGuid>80a53aea-f5c9-4a38-b762-39877076cbf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}</value>
+      <webElementGuid>66e014f3-02a3-4464-8c43-74e85bc569ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cb476713-b31d-4ea3-ac30-6b2ca80d063d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>f29d1e6b-7349-4a83-ae29-17073254e463</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何變更預備訂單的內容?
+</value>
+      <webElementGuid>8e24e5d5-1a33-4df7-ad6a-29915debf1f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}&quot;)</value>
+      <webElementGuid>a9df0a62-19ab-4fe5-80dc-4386576be252</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}']</value>
+      <webElementGuid>1c2d0325-4971-45c9-9087-d787dd78671c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[14]/h2/button</value>
+      <webElementGuid>e2d2baed-a141-4fec-9038-9cca99a41d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯您的預備訂單'])[1]/following::button[1]</value>
+      <webElementGuid>0e1ec0a6-9cb7-4fe4-9ab2-c297f13b60b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何謂預備訂單服務?'])[1]/following::button[1]</value>
+      <webElementGuid>df806025-2120-4a88-a684-07d59835085e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='編輯預備訂單'])[3]/preceding::button[1]</value>
+      <webElementGuid>113aa494-9a0e-45e4-9e85-c6189d76bd00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>96c22813-189f-4883-b151-76108b6fa3b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何變更預備訂單的內容?']/parent::*</value>
+      <webElementGuid>c6c4ec76-aa63-4872-9bf0-23cd99ae1a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/h2/button</value>
+      <webElementGuid>398d7942-3c9a-4a63-9b2f-4c0a5a113c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{813AB349-1BA3-432B-B3BE-78F1921A11FD}' and (text() = '
+如何變更預備訂單的內容?
+' or . = '
+如何變更預備訂單的內容?
+')]</value>
+      <webElementGuid>baf09f86-ca14-4ded-a127-bfd6b1ed8cf1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

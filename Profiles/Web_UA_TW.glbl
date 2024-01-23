@@ -434,4 +434,9 @@
       <initValue>'https://tw.melaleuca.com/BusinessCenter/Home'</initValue>
       <name>nse_BusinessCenter</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-uattw.melaleuca.com/help-center/contactustaiwan'</initValue>
+      <name>nse_contactus</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

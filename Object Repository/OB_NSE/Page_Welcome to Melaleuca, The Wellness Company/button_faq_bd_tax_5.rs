@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_tax_5</name>
+   <tag></tag>
+   <elementGuidId>53eba97a-f300-44ef-805b-7d2272dfdd96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9198a83a-6155-47e0-9b41-43bef306aa89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}</value>
+      <webElementGuid>2c09c2cf-7c13-4c8b-b60b-82cbeed8ffdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}</value>
+      <webElementGuid>97b34023-ce62-4734-9c66-539012947010</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b7708957-3e90-4051-91f3-73c163355b1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>cc7502b2-c6d2-467f-a8f7-524a4f72abec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+請問我在美樂家的所得收入，會預扣多少稅額?年底又如何報稅?
+</value>
+      <webElementGuid>a51ee8f3-40e1-4903-bdf5-b677d277558a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}&quot;)</value>
+      <webElementGuid>21a5a4bd-c4c1-4447-952d-a117b8ad88cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}']</value>
+      <webElementGuid>410fa696-0498-459d-8533-ddccc6497add</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[5]/h2/button</value>
+      <webElementGuid>ae3c651b-42d8-4764-97e8-1778cf91c930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='聽說參加直銷公司會員，只要進貨就要繳稅，是真的嗎?'])[1]/following::button[1]</value>
+      <webElementGuid>04ea2faa-4f14-4d53-9d6c-535feff033f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何時能收到佣金?'])[1]/following::button[2]</value>
+      <webElementGuid>d6f6b649-9a49-44f1-9245-0ab75369ec58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
+      <webElementGuid>1503cbec-8326-4c64-bb5b-3e2e303d8cbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
+      <webElementGuid>71f391f3-0e03-4757-8037-69c95a1877bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='請問我在美樂家的所得收入，會預扣多少稅額?年底又如何報稅?']/parent::*</value>
+      <webElementGuid>3d53657b-52ab-432f-a440-4c844f7c5d9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/h2/button</value>
+      <webElementGuid>28a67b4e-feff-47e4-a5eb-33a96e305969</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{C075F573-12ED-4D5A-A81E-6C29CD83CAAA}' and (text() = '
+請問我在美樂家的所得收入，會預扣多少稅額?年底又如何報稅?
+' or . = '
+請問我在美樂家的所得收入，會預扣多少稅額?年底又如何報稅?
+')]</value>
+      <webElementGuid>04eaf015-c193-495c-a4ce-32b4bd02abe1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

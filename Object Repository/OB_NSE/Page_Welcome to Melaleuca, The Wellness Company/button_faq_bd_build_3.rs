@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_faq_bd_build_3</name>
+   <tag></tag>
+   <elementGuidId>9303db58-c4aa-4945-af2f-031e2e294fa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='ID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>79b5fb6d-df9a-4e1e-82d7-079d7541d9e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}</value>
+      <webElementGuid>208982f6-3dab-411d-bd2f-76cc7b6f8f74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>SID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}</value>
+      <webElementGuid>e5f72c9d-d743-47e8-aaed-5d092b50c1c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a3e16792-0608-402d-8b4a-ac98c93799db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-accordion__toggler</value>
+      <webElementGuid>d2f7f7cf-ccfc-4019-a849-e429c4f46869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+如何在我的組織內放置新的會員
+</value>
+      <webElementGuid>2f7a6f62-84fe-4a78-9369-e4c059b1187a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}&quot;)</value>
+      <webElementGuid>67731660-9d13-4373-8be8-34b458cc683c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='ID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}']</value>
+      <webElementGuid>70eb10d9-2e60-4bec-86e1-677690b1fbbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/section/div/div/div[2]/div[3]/h2/button</value>
+      <webElementGuid>3c8ce128-3bb1-4e14-9dec-d2f406f0e7d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='什麼是成功七要素?'])[1]/following::button[1]</value>
+      <webElementGuid>e26ae4f6-09f4-4dac-a348-eff735e8bade</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='哪裡可以得知當月業務獎勵方案?'])[1]/following::button[2]</value>
+      <webElementGuid>e29deeae-e643-4ee4-b1ef-7d805fc809ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='誰是我的輔導事業代表'])[1]/preceding::button[1]</value>
+      <webElementGuid>b94f93bc-283d-4348-b9ea-f548f6d9a720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我能否擁有一個以上的美樂家事業'])[1]/preceding::button[2]</value>
+      <webElementGuid>ba1a65cd-afeb-42e3-aa06-55ee24556598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='如何在我的組織內放置新的會員']/parent::*</value>
+      <webElementGuid>73d59904-3836-41fe-9198-88aa20ddff22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2/button</value>
+      <webElementGuid>4b6d4ee7-07a2-4070-9454-655cc7011c44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'ID_{8E6D6E10-3A1E-4B2E-A528-9A0552D0578B}' and (text() = '
+如何在我的組織內放置新的會員
+' or . = '
+如何在我的組織內放置新的會員
+')]</value>
+      <webElementGuid>bf7b6b29-344b-478e-8f3c-7482d16b7c47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
