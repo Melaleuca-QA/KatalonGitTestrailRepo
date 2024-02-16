@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_business center</name>
+   <name>a_healthy-foods-and-drinks_all</name>
    <tag></tag>
-   <elementGuidId>bf29662e-c69a-4dff-b35a-c4f0346c1dd6</elementGuidId>
+   <elementGuidId>68ffa907-e47b-4706-9ebc-38c57d0ad13b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[1]/div/div/ul/li[4]/a</value>
+         <key>CSS</key>
+         <value>a.m-catListMenu__link</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[1]/div[1]/div/nav/ul/li[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,118 +22,121 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c151ae8c-fbdf-4d33-92e9-bc8fd9f72297</webElementGuid>
+      <webElementGuid>b68aa8d4-4bee-4313-a606-290e3e0e7711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tw.melaleuca.com/BusinessCenter/Home</value>
-      <webElementGuid>b2b355a5-92d6-42b8-b107-cdaff3895e3d</webElementGuid>
+      <value>/productstore/healthy-foods-and-drinks</value>
+      <webElementGuid>7c59b59b-500c-4da8-80af-15d420476533</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-eyebrowNav__link</value>
-      <webElementGuid>63b047e9-7469-47d5-b16f-82368b4a6619</webElementGuid>
+      <value>m-catListMenu__link</value>
+      <webElementGuid>cc6d924f-8429-4c2d-ab5d-c1413945e902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>事業中心</value>
-      <webElementGuid>dfc45466-a06d-4ef5-a605-9c3b7c5d2f24</webElementGuid>
+      <value>所有產品
+</value>
+      <webElementGuid>194ddeb1-a39d-40bf-8e07-58389e86c376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[1]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -eyebrow&quot;]/div[@class=&quot;m-eyebrowNav&quot;]/div[@class=&quot;max-w-contain mx-auto flex w-full&quot;]/ul[@class=&quot;m-eyebrowNav__col -left&quot;]/li[@class=&quot;m-eyebrowNav__item&quot;]/a[@class=&quot;m-eyebrowNav__link&quot;]</value>
-      <webElementGuid>bb07ead6-5831-46c1-97ea-763ceee3b82d</webElementGuid>
+      <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__side&quot;]/div[@class=&quot;p-catListing__menu&quot;]/div[@class=&quot;m-catListMenu&quot;]/nav[@class=&quot;m-catListMenu__nav&quot;]/ul[@class=&quot;m-catListMenu__list&quot;]/li[@class=&quot;m-catListMenu__item&quot;]/a[@class=&quot;m-catListMenu__link&quot;]</value>
+      <webElementGuid>2477d254-9756-4a1c-b82c-b74161b64b34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div/div/div/ul/li[4]/a</value>
-      <webElementGuid>9a7076aa-7b8f-4a58-a957-c57b703c55cc</webElementGuid>
+      <value>//div[@id='CategoryListingComponent']/div/div/div/nav/ul/li/a</value>
+      <webElementGuid>1413deab-f625-43f7-8450-24ad804f7643</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'事業中心')]</value>
-      <webElementGuid>a97a987c-6212-410b-8353-490583f48c5d</webElementGuid>
+      <value>//a[contains(text(),'所有產品')]</value>
+      <webElementGuid>cbc773db-ee79-4133-b538-337b28c5fef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='永恆卡方案'])[1]/following::a[1]</value>
-      <webElementGuid>70202cb9-f4fd-4407-938b-9195a88a02d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品分類'])[1]/following::a[1]</value>
+      <webElementGuid>e18b9960-be43-4a19-993e-bdf1eb829c36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們的故事'])[1]/following::a[2]</value>
-      <webElementGuid>fd53f30e-613d-4dc3-8d35-504248efcfea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='體重管理及食品'])[5]/following::a[1]</value>
+      <webElementGuid>4adf1a73-487a-4b73-b20a-517b516cc7e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='陳盼'])[1]/preceding::a[1]</value>
-      <webElementGuid>dc4f9eab-1e0d-44e6-bed4-4a48b023e53a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R3減醣計畫'])[4]/preceding::a[1]</value>
+      <webElementGuid>1aeb68a2-433b-439c-8bda-e324fa8ce7ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', 優惠顧客'])[1]/preceding::a[1]</value>
-      <webElementGuid>02a7104c-3d5c-4f76-864f-210b0f0c6325</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理 &amp; 蛋白飲'])[2]/preceding::a[2]</value>
+      <webElementGuid>3097caef-0a51-472a-a7ad-63ea043fec30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='事業中心']/parent::*</value>
-      <webElementGuid>c83acc60-121f-4689-b36c-f5a501df4f4a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='所有產品']/parent::*</value>
+      <webElementGuid>bd550266-e986-4d6d-a20b-28d7ad2d9589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://tw.melaleuca.com/BusinessCenter/Home')]</value>
-      <webElementGuid>c6763e80-d76e-4034-9b12-93b87a66f332</webElementGuid>
+      <value>(//a[contains(@href, '/productstore/healthy-foods-and-drinks')])[9]</value>
+      <webElementGuid>72cd9d4e-bdef-48a6-a6be-9dc3d8c9e548</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
-      <webElementGuid>3f9ef6c0-dbcf-4231-a4a9-dcdc72419aa4</webElementGuid>
+      <value>//nav/ul/li/a</value>
+      <webElementGuid>5fe18b72-ec1d-440d-81dc-52258f6e959c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://tw.melaleuca.com/BusinessCenter/Home' and (text() = '事業中心' or . = '事業中心')]</value>
-      <webElementGuid>af1b237f-901d-4ff2-af25-0272ca056c9c</webElementGuid>
+      <value>//a[@href = '/productstore/healthy-foods-and-drinks' and (text() = '所有產品
+' or . = '所有產品
+')]</value>
+      <webElementGuid>99b300d2-eaff-41c0-8daa-5418fa38cce7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

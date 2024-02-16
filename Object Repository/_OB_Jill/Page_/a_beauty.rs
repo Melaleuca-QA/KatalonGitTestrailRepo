@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_business center</name>
+   <name>a_beauty</name>
    <tag></tag>
-   <elementGuidId>bf29662e-c69a-4dff-b35a-c4f0346c1dd6</elementGuidId>
+   <elementGuidId>18dcf4fc-e634-4552-b974-080b934e5516</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[1]/div/div/ul/li[4]/a</value>
+         <key>CSS</key>
+         <value>a.a-authorBtn.text-center.rounded.-lg.px-40.text-white</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[2]/div/div[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,118 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c151ae8c-fbdf-4d33-92e9-bc8fd9f72297</webElementGuid>
+      <webElementGuid>4b167a0e-a5a1-40e7-9ae8-f81f44b6666e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tw.melaleuca.com/BusinessCenter/Home</value>
-      <webElementGuid>b2b355a5-92d6-42b8-b107-cdaff3895e3d</webElementGuid>
+      <value>/productstore/beauty</value>
+      <webElementGuid>5f9b978d-c767-4f54-96f0-45449fe86768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-eyebrowNav__link</value>
-      <webElementGuid>63b047e9-7469-47d5-b16f-82368b4a6619</webElementGuid>
+      <value>a-authorBtn text-center rounded -lg px-40 text-white</value>
+      <webElementGuid>101ac98e-57ae-4f24-81f6-999c7f1d4e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>事業中心</value>
-      <webElementGuid>dfc45466-a06d-4ef5-a605-9c3b7c5d2f24</webElementGuid>
+      <value>查看水‧貝娜美容保養系列 </value>
+      <webElementGuid>996133ff-c3e5-4c98-9508-4a10cda73435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[1]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -eyebrow&quot;]/div[@class=&quot;m-eyebrowNav&quot;]/div[@class=&quot;max-w-contain mx-auto flex w-full&quot;]/ul[@class=&quot;m-eyebrowNav__col -left&quot;]/li[@class=&quot;m-eyebrowNav__item&quot;]/a[@class=&quot;m-eyebrowNav__link&quot;]</value>
-      <webElementGuid>bb07ead6-5831-46c1-97ea-763ceee3b82d</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[2]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;flex justify-center text-xl&quot;]/a[@class=&quot;a-authorBtn text-center rounded -lg px-40 text-white&quot;]</value>
+      <webElementGuid>7a0fc91e-0da3-4d87-97c5-620131cac216</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div/div/div/ul/li[4]/a</value>
-      <webElementGuid>9a7076aa-7b8f-4a58-a957-c57b703c55cc</webElementGuid>
+      <value>//main[@id='mainContent']/div[2]/div/div[5]/a</value>
+      <webElementGuid>1bc059c8-1fa7-4d00-ad70-869aae3feedb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'事業中心')]</value>
-      <webElementGuid>a97a987c-6212-410b-8353-490583f48c5d</webElementGuid>
+      <value>//a[contains(text(),'查看水‧貝娜美容保養系列')]</value>
+      <webElementGuid>aec9bf38-757f-47da-b813-843a9d65bb28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='永恆卡方案'])[1]/following::a[1]</value>
-      <webElementGuid>70202cb9-f4fd-4407-938b-9195a88a02d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@台灣美樂家'])[1]/following::a[1]</value>
+      <webElementGuid>2ecc9f2e-386c-4f7d-a5b4-eee224e00410</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們的故事'])[1]/following::a[2]</value>
-      <webElementGuid>fd53f30e-613d-4dc3-8d35-504248efcfea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_right'])[8]/following::a[2]</value>
+      <webElementGuid>131901d1-02b7-4b9c-8be2-1bb8f6ab29e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='陳盼'])[1]/preceding::a[1]</value>
-      <webElementGuid>dc4f9eab-1e0d-44e6-bed4-4a48b023e53a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::a[1]</value>
+      <webElementGuid>20ffb030-1fce-4a18-af04-d547420eca3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', 優惠顧客'])[1]/preceding::a[1]</value>
-      <webElementGuid>02a7104c-3d5c-4f76-864f-210b0f0c6325</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
+      <webElementGuid>2cf2b5e7-73b5-4706-bed8-a5bb6c536a0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='事業中心']/parent::*</value>
-      <webElementGuid>c83acc60-121f-4689-b36c-f5a501df4f4a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='查看水‧貝娜美容保養系列']/parent::*</value>
+      <webElementGuid>96433a2e-f3d4-4b0f-8cf1-96e2da004b3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://tw.melaleuca.com/BusinessCenter/Home')]</value>
-      <webElementGuid>c6763e80-d76e-4034-9b12-93b87a66f332</webElementGuid>
+      <value>(//a[contains(@href, '/productstore/beauty')])[12]</value>
+      <webElementGuid>6a4c10a0-8799-4d79-b9b7-de95bc1c204a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
-      <webElementGuid>3f9ef6c0-dbcf-4231-a4a9-dcdc72419aa4</webElementGuid>
+      <value>//div[2]/div/div[5]/a</value>
+      <webElementGuid>2b4bbfd1-54a1-4fcb-9bc1-6162936a7465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://tw.melaleuca.com/BusinessCenter/Home' and (text() = '事業中心' or . = '事業中心')]</value>
-      <webElementGuid>af1b237f-901d-4ff2-af25-0272ca056c9c</webElementGuid>
+      <value>//a[@href = '/productstore/beauty' and (text() = '查看水‧貝娜美容保養系列 ' or . = '查看水‧貝娜美容保養系列 ')]</value>
+      <webElementGuid>10b73ce7-4c56-48f9-bb2c-64dd5a940906</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

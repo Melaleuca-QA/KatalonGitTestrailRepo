@@ -30,7 +30,7 @@ if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_HK/_Globals/HK Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_HK/_Globals/HK Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
     'get citizen number'
     WebUI.callTestCase(findTestCase('_HK/_Globals/HK Citizen Number2'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -104,7 +104,7 @@ WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Documen
 
 WebUI.click(findTestObject('Object Repository/OB_DataEntry/Page_Customer Document Management System/button_Save_HK'))
 
-WebUI.waitForAlert(30)
+WebUI.waitForAlert(50)
 
 WebUI.closeBrowser()
 

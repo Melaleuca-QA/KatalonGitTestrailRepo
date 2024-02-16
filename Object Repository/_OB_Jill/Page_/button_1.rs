@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_1</name>
+   <tag></tag>
+   <elementGuidId>5ec84db2-d811-4e7a-b025-8987d6993e7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>06402b36-1f7c-4fae-89ed-f082f5dc84ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2f110f80-39ca-40ee-b5b4-e0040d129360</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -backupOrder -center -white md:mb-0</value>
+      <webElementGuid>b9d2ed3a-c203-4512-995f-e7878b24d1f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    列印我的交易明細
+
+    </value>
+      <webElementGuid>974d45c1-8aea-4e52-a316-2b7ca0f7734f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-receipt&quot;]/div[@class=&quot;p-receipt__wrapper&quot;]/div[@class=&quot;p-receipt__content&quot;]/div[@class=&quot;p-receipt__main&quot;]/div[@class=&quot;p-receipt__actions&quot;]/button[@class=&quot;a-button -backupOrder -center -white md:mb-0&quot;]</value>
+      <webElementGuid>f67eb9b4-23d5-4cc7-bc6e-0b4cba15443e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>ee553c34-3fd4-41a4-9cb2-5b6ed8e653af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div/div[4]/div/div[7]/button</value>
+      <webElementGuid>b58c59d1-af74-4ee2-b625-60b236a7a26f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續購物'])[1]/following::button[1]</value>
+      <webElementGuid>375414d3-6591-4cc8-90f1-aedf529e4659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$125'])[1]/following::button[1]</value>
+      <webElementGuid>a06cb775-7174-4263-ac3c-a623cf649904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單明細'])[1]/preceding::button[1]</value>
+      <webElementGuid>f626002c-1cb7-4ef5-9a98-a72968569762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品小計'])[1]/preceding::button[1]</value>
+      <webElementGuid>46087391-91bf-4e0a-9314-0772ab97b950</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='列印我的交易明細']/parent::*</value>
+      <webElementGuid>d75e3cc2-d75d-4e91-b9d8-ec09ad8eb3d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/button</value>
+      <webElementGuid>a52c72df-953a-4a73-b2d6-ede5b668e6c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+    列印我的交易明細
+
+    ' or . = '
+    列印我的交易明細
+
+    ')]</value>
+      <webElementGuid>d3db63bc-506a-4c30-a921-961a3a88d341</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

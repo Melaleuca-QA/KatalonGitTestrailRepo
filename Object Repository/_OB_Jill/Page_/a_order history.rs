@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_business center</name>
+   <name>a_order history</name>
    <tag></tag>
-   <elementGuidId>bf29662e-c69a-4dff-b35a-c4f0346c1dd6</elementGuidId>
+   <elementGuidId>1483f577-bdea-4351-a4c3-b9c96bffcc8c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[1]/div/div/ul/li[4]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div[1]/div/div/div/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>div.m-popUp.right-0.top-40 > div.m-popUp__content > div.m-popUp__footer > a.m-popUp__footerCTA</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,118 +22,119 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c151ae8c-fbdf-4d33-92e9-bc8fd9f72297</webElementGuid>
+      <webElementGuid>7a6f16b1-742a-48ed-9f95-3173ed3b3738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tw.melaleuca.com/BusinessCenter/Home</value>
-      <webElementGuid>b2b355a5-92d6-42b8-b107-cdaff3895e3d</webElementGuid>
+      <value>/my-account/order-history</value>
+      <webElementGuid>6fda8725-895d-4c1e-9adf-1172cbc861ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-eyebrowNav__link</value>
-      <webElementGuid>63b047e9-7469-47d5-b16f-82368b4a6619</webElementGuid>
+      <value>m-popUp__footerCTA</value>
+      <webElementGuid>7dcad4a4-4421-4edd-ba19-18adb9a9b1dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>事業中心</value>
-      <webElementGuid>dfc45466-a06d-4ef5-a605-9c3b7c5d2f24</webElementGuid>
+      <value>
+
+                    訂單紀錄
+                </value>
+      <webElementGuid>f3b06bf7-c9c0-4ab5-84db-b0babc8f51a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[1]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -eyebrow&quot;]/div[@class=&quot;m-eyebrowNav&quot;]/div[@class=&quot;max-w-contain mx-auto flex w-full&quot;]/ul[@class=&quot;m-eyebrowNav__col -left&quot;]/li[@class=&quot;m-eyebrowNav__item&quot;]/a[@class=&quot;m-eyebrowNav__link&quot;]</value>
-      <webElementGuid>bb07ead6-5831-46c1-97ea-763ceee3b82d</webElementGuid>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/div[@class=&quot;m-popUpOrder&quot;]/div[@class=&quot;m-popUp right-0 top-40&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer&quot;]/a[@class=&quot;m-popUp__footerCTA&quot;]</value>
+      <webElementGuid>5bbee36c-e3bc-495c-ac18-14b379c42213</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div/div/div/ul/li[4]/a</value>
-      <webElementGuid>9a7076aa-7b8f-4a58-a957-c57b703c55cc</webElementGuid>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
+      <webElementGuid>bb33cae4-6c16-4846-80c8-d1429e536963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'事業中心')]</value>
-      <webElementGuid>a97a987c-6212-410b-8353-490583f48c5d</webElementGuid>
+      <value>(//a[contains(text(),'訂單紀錄')])[3]</value>
+      <webElementGuid>b0aeb536-459c-4f5c-93f4-d14634842221</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='永恆卡方案'])[1]/following::a[1]</value>
-      <webElementGuid>70202cb9-f4fd-4407-938b-9195a88a02d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='處理中'])[1]/following::a[1]</value>
+      <webElementGuid>43d4f0dc-c7f4-468d-b6da-1b5f0a278107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們的故事'])[1]/following::a[2]</value>
-      <webElementGuid>fd53f30e-613d-4dc3-8d35-504248efcfea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單'])[1]/following::a[1]</value>
+      <webElementGuid>8cc2ccb2-08b8-4357-9bb3-98b1019678a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='陳盼'])[1]/preceding::a[1]</value>
-      <webElementGuid>dc4f9eab-1e0d-44e6-bed4-4a48b023e53a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[2]/preceding::a[1]</value>
+      <webElementGuid>5b3a7ddc-68a7-471e-859a-b9ca0b70792a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', 優惠顧客'])[1]/preceding::a[1]</value>
-      <webElementGuid>02a7104c-3d5c-4f76-864f-210b0f0c6325</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='事業中心']/parent::*</value>
-      <webElementGuid>c83acc60-121f-4689-b36c-f5a501df4f4a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[3]/preceding::a[1]</value>
+      <webElementGuid>894ad2a0-3b64-41bc-899b-5886c680d676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://tw.melaleuca.com/BusinessCenter/Home')]</value>
-      <webElementGuid>c6763e80-d76e-4034-9b12-93b87a66f332</webElementGuid>
+      <value>(//a[contains(@href, '/my-account/order-history')])[3]</value>
+      <webElementGuid>e1dbb885-e05f-4969-ab64-818f6e0e47bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
-      <webElementGuid>3f9ef6c0-dbcf-4231-a4a9-dcdc72419aa4</webElementGuid>
+      <value>//div/div/div[3]/a</value>
+      <webElementGuid>e32f16c9-b77c-409b-80fc-057bce83ad94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://tw.melaleuca.com/BusinessCenter/Home' and (text() = '事業中心' or . = '事業中心')]</value>
-      <webElementGuid>af1b237f-901d-4ff2-af25-0272ca056c9c</webElementGuid>
+      <value>//a[@href = '/my-account/order-history' and (text() = '
+
+                    訂單紀錄
+                ' or . = '
+
+                    訂單紀錄
+                ')]</value>
+      <webElementGuid>4dd5524f-3a08-4938-9c65-524b78f32b0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

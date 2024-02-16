@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_delete item6</name>
+   <name>img</name>
    <tag></tag>
-   <elementGuidId>d56dfd47-427e-4b4e-badb-800844316e21</elementGuidId>
+   <elementGuidId>4b36fbd1-aeb9-48e6-873d-c83abcca3051</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[1]/div[3]/div/div/button/img</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>img[alt=&quot;Close Box&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='isRemovedButton4848']/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>3e9a27ab-b212-4d24-b5e0-b44fd946b5ee</webElementGuid>
+      <webElementGuid>b14828c0-f3e6-47f4-8343-cd860ad6593d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>//cdnsc1.melaleuca.com/na/images/header/clear2x.png</value>
-      <webElementGuid>2cb346b1-48d8-446d-a23a-d0d5d233a980</webElementGuid>
+      <webElementGuid>9497a72b-ea45-4f70-9203-3b65ce0e00fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Close Box</value>
-      <webElementGuid>8e1d96cb-998e-485f-a2c2-7d24a08a01b9</webElementGuid>
+      <webElementGuid>796f9b7e-f30c-4bdc-be37-08f9ffe0d4d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +46,23 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>6d63d8dd-1f35-4b83-a68b-b633fa8ca38f</webElementGuid>
+      <webElementGuid>ed9e4531-5f09-4934-9a89-fdec3764fbe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isRemovedButton1216&quot;)/img[1]</value>
-      <webElementGuid>b2bab9e7-e73b-41f6-825a-f9b88a0aaf0f</webElementGuid>
+      <value>id(&quot;isRemovedButton4848&quot;)/img[1]</value>
+      <webElementGuid>97f84805-0324-4278-9cdc-acf2a377b10e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='isRemovedButton6969']/img</value>
-      <webElementGuid>89cb0e05-f0a7-4a89-8b45-f727f90afa02</webElementGuid>
+      <value>//button[@id='isRemovedButton4848']/img</value>
+      <webElementGuid>673debf5-9d04-44de-9f2f-f0987ac72f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Close Box']</value>
-      <webElementGuid>64f0c340-18ba-4608-bdf9-daabeebccbb3</webElementGuid>
+      <webElementGuid>75b5a253-a7e8-4f29-aa2d-4af196cc42f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/button/img</value>
-      <webElementGuid>b7fefbdf-0921-4508-8494-39c354be92c9</webElementGuid>
+      <webElementGuid>0a21f7ea-24e8-4dad-b317-2d3bad5035d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '//cdnsc1.melaleuca.com/na/images/header/clear2x.png' and @alt = 'Close Box']</value>
-      <webElementGuid>c22e0bce-f478-4dab-8d8b-2d84a9d916ca</webElementGuid>
+      <webElementGuid>5d060e0c-5378-401f-bb3f-c4e7e785dae4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

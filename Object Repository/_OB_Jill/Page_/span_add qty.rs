@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_add qty</name>
+   <tag></tag>
+   <elementGuidId>32e8562d-4d4f-49f9-9e06-06cab7bac056</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-icon.material-icons.-inherit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div[2]/div[1]/div/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>685ec14a-4600-4ee6-aff2-e00835e5fba3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>333a55dd-6e71-4555-852c-b3764cb3c892</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon material-icons -inherit</value>
+      <webElementGuid>a2dcfeb3-a029-46cc-a72b-03fb2bf8bf18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>remove</value>
+      <webElementGuid>0619781a-1046-4309-8db1-c61913a375f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;p-cart&quot;]/div[@class=&quot;p-cart__container&quot;]/div[@class=&quot;p-cart__content&quot;]/div[@class=&quot;p-cart__main&quot;]/div[@class=&quot;o-cartItem&quot;]/div[@class=&quot;o-cartItem__row -product -upsell&quot;]/div[@class=&quot;o-cartItem__container&quot;]/div[@class=&quot;o-cartItem__controls&quot;]/div[@class=&quot;o-cartItem__quantity&quot;]/div[@class=&quot;a-quantity&quot;]/button[@class=&quot;a-quantity__btn&quot;]/span[@class=&quot;a-icon material-icons -inherit&quot;]</value>
+      <webElementGuid>3b51cc9f-a807-43a0-b840-ce39641eddb3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div/div/button/span</value>
+      <webElementGuid>58a2dbcc-af40-4c55-aecf-c278a7d1c738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| NT$210 節省'])[1]/following::span[1]</value>
+      <webElementGuid>865befb2-de35-418a-9a83-8b374922e078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$980'])[1]/preceding::span[2]</value>
+      <webElementGuid>f035b5f5-d4ae-4057-b817-47e4486833d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='增加'])[1]/preceding::span[4]</value>
+      <webElementGuid>da20d984-af0b-4a67-b893-355011c606d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='add']/parent::*</value>
+      <webElementGuid>a3fdf0f3-5432-4056-91a0-8c7545fdc199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/button/span</value>
+      <webElementGuid>1c54bd54-a30a-40e7-b117-9a4ad88a57aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'add' or . = 'add')]</value>
+      <webElementGuid>d2ccbba7-c521-4407-917a-8b063aa35d0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

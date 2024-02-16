@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_remove qty</name>
+   <tag></tag>
+   <elementGuidId>fb48e043-cb2f-4c15-a8fa-fcac9792f700</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div[2]/div[1]/div/button[1]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-icon.material-icons.-inherit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>33e1d008-13ed-48a2-946d-4e8df43c9ac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>0e19fea5-d0d2-4a59-a63b-a419f7f2ca96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon material-icons -inherit</value>
+      <webElementGuid>ae43bb07-42f2-4a85-8f55-d5e92fac8ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>remove</value>
+      <webElementGuid>2b4a3560-1bf5-4c28-80e6-50a36f0471c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;p-cart&quot;]/div[@class=&quot;p-cart__container&quot;]/div[@class=&quot;p-cart__content&quot;]/div[@class=&quot;p-cart__main&quot;]/div[@class=&quot;o-cartItem&quot;]/div[@class=&quot;o-cartItem__row -product -upsell&quot;]/div[@class=&quot;o-cartItem__container&quot;]/div[@class=&quot;o-cartItem__controls&quot;]/div[@class=&quot;o-cartItem__quantity&quot;]/div[@class=&quot;a-quantity&quot;]/button[@class=&quot;a-quantity__btn&quot;]/span[@class=&quot;a-icon material-icons -inherit&quot;]</value>
+      <webElementGuid>a23078be-6556-426c-b3f0-ef4f54150ec5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[2]/div[3]/div/div[3]/div/div/div[2]/div/div/button/span</value>
+      <webElementGuid>dbd0df90-303c-42b6-b437-3303a4976054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| NT$210 節省'])[1]/following::span[1]</value>
+      <webElementGuid>f766b421-661b-4d23-b80f-f506dd72c013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$980'])[1]/preceding::span[2]</value>
+      <webElementGuid>f455f7fd-c71d-497b-97fc-b0fa54dd9e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='移除'])[1]/preceding::span[4]</value>
+      <webElementGuid>852b8822-4888-4cb9-a085-9465b46a68b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='remove']/parent::*</value>
+      <webElementGuid>d8f2db06-b80f-429a-a0d2-8f0f3072bbaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/button/span</value>
+      <webElementGuid>6a3ae499-1cf6-4bbd-8e75-4983b1039c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'remove' or . = 'remove')]</value>
+      <webElementGuid>f9880d20-5eaa-4ab9-a692-e34ec26d55ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

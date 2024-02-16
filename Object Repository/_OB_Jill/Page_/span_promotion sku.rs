@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_promotion sku</name>
+   <tag></tag>
+   <elementGuidId>1c9f1482-e99d-4688-879b-6f79c89332d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/div/div/div/div[1]/article[12]/div[2]/div/button/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>15182d21-5ab6-4a5c-8fd7-e8d24ab96a07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>0440af78-ffe4-40cc-83ad-86c87cd0d44a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hidden md:block</value>
+      <webElementGuid>ef55a16d-6c6b-480a-97f1-825ce01604f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>加入購物車</value>
+      <webElementGuid>2d9d33b7-c576-421e-9b17-65e40076e49c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;mb-10 md:mb-40 lg:mb-60&quot;]/div[@class=&quot;o-bogo&quot;]/div[1]/div[@class=&quot;o-bogo__row&quot;]/div[@class=&quot;o-bogo__cards&quot;]/article[@class=&quot;m-prodCard -bogo&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center w-full&quot;]/span[@class=&quot;hidden md:block&quot;]</value>
+      <webElementGuid>e02f66c9-f6cd-466d-a456-4078c21e9784</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div/article[5]/div[2]/div/button/span[2]</value>
+      <webElementGuid>ba501049-b824-449b-9083-f90147d2f515</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[6]/following::span[1]</value>
+      <webElementGuid>2687148b-db2a-4d62-b505-ec1810ff0fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[5]/following::span[2]</value>
+      <webElementGuid>46ca2d67-b2f1-4740-a03e-fe12827d49bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[個人專屬] 顧衛能 雙瓶組'])[1]/preceding::span[1]</value>
+      <webElementGuid>49eb592a-69de-4f21-92fc-92174ef9e735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='省下 NT$455'])[1]/preceding::span[1]</value>
+      <webElementGuid>2f6ba17c-0719-4b62-8f0a-c22c3385ec0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[5]/div[2]/div/button/span[2]</value>
+      <webElementGuid>2fe98c75-33eb-4be6-b4d1-66eeca3f3987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '加入購物車' or . = '加入購物車')]</value>
+      <webElementGuid>67d2adb9-6ac0-4c44-afb3-ef2e8f18ddf5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

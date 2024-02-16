@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_business center</name>
+   <name>a_R3</name>
    <tag></tag>
-   <elementGuidId>bf29662e-c69a-4dff-b35a-c4f0346c1dd6</elementGuidId>
+   <elementGuidId>5c320e3c-76ba-439a-bdba-6538afee3c22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[1]/div/div/ul/li[4]/a</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[1]/div[1]/div/nav/ul/li[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,118 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c151ae8c-fbdf-4d33-92e9-bc8fd9f72297</webElementGuid>
+      <webElementGuid>357818f6-cbe2-49b6-b7f8-2277f1f48dd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tw.melaleuca.com/BusinessCenter/Home</value>
-      <webElementGuid>b2b355a5-92d6-42b8-b107-cdaff3895e3d</webElementGuid>
+      <value>/productstore/healthy-foods-and-drinks/r3-weight-loss-plan</value>
+      <webElementGuid>0ea11bbc-9abb-4404-96d7-f9280c75fc48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-eyebrowNav__link</value>
-      <webElementGuid>63b047e9-7469-47d5-b16f-82368b4a6619</webElementGuid>
+      <value>m-catListMenu__link</value>
+      <webElementGuid>d4eee287-c399-4708-81f9-c063562427ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>事業中心</value>
-      <webElementGuid>dfc45466-a06d-4ef5-a605-9c3b7c5d2f24</webElementGuid>
+      <value>R3減醣計畫</value>
+      <webElementGuid>0bf93387-1712-4e03-8964-53d18ff078bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[1]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -eyebrow&quot;]/div[@class=&quot;m-eyebrowNav&quot;]/div[@class=&quot;max-w-contain mx-auto flex w-full&quot;]/ul[@class=&quot;m-eyebrowNav__col -left&quot;]/li[@class=&quot;m-eyebrowNav__item&quot;]/a[@class=&quot;m-eyebrowNav__link&quot;]</value>
-      <webElementGuid>bb07ead6-5831-46c1-97ea-763ceee3b82d</webElementGuid>
+      <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__side&quot;]/div[@class=&quot;p-catListing__menu&quot;]/div[@class=&quot;m-catListMenu&quot;]/nav[@class=&quot;m-catListMenu__nav&quot;]/ul[@class=&quot;m-catListMenu__list&quot;]/li[@class=&quot;m-catListMenu__item&quot;]/a[@class=&quot;m-catListMenu__link&quot;]</value>
+      <webElementGuid>a696142c-e93d-4ffc-a80f-70b16b3c123a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div/div/div/ul/li[4]/a</value>
-      <webElementGuid>9a7076aa-7b8f-4a58-a957-c57b703c55cc</webElementGuid>
+      <value>//div[@id='CategoryListingComponent']/div/div/div/nav/ul/li[2]/a</value>
+      <webElementGuid>9c6d78d4-cf5b-48b8-bbb8-4f1bf3da6340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'事業中心')]</value>
-      <webElementGuid>a97a987c-6212-410b-8353-490583f48c5d</webElementGuid>
+      <value>(//a[contains(text(),'R3減醣計畫')])[2]</value>
+      <webElementGuid>b91bfc86-a8a8-4008-99ab-28ceef8aed94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='永恆卡方案'])[1]/following::a[1]</value>
-      <webElementGuid>70202cb9-f4fd-4407-938b-9195a88a02d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='所有產品'])[1]/following::a[1]</value>
+      <webElementGuid>6082605f-697c-49c8-8f1d-af2ac27a63a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們的故事'])[1]/following::a[2]</value>
-      <webElementGuid>fd53f30e-613d-4dc3-8d35-504248efcfea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品分類'])[1]/following::a[2]</value>
+      <webElementGuid>dd449cee-93de-47e8-ac88-78eebda15a6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='陳盼'])[1]/preceding::a[1]</value>
-      <webElementGuid>dc4f9eab-1e0d-44e6-bed4-4a48b023e53a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理 &amp; 蛋白飲'])[2]/preceding::a[1]</value>
+      <webElementGuid>8857b15a-59e0-4303-ad35-7189ab2078e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', 優惠顧客'])[1]/preceding::a[1]</value>
-      <webElementGuid>02a7104c-3d5c-4f76-864f-210b0f0c6325</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='事業中心']/parent::*</value>
-      <webElementGuid>c83acc60-121f-4689-b36c-f5a501df4f4a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康零食'])[2]/preceding::a[2]</value>
+      <webElementGuid>a9332302-3fa4-4d72-931c-4476cd9c5654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://tw.melaleuca.com/BusinessCenter/Home')]</value>
-      <webElementGuid>c6763e80-d76e-4034-9b12-93b87a66f332</webElementGuid>
+      <value>(//a[contains(@href, '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan')])[2]</value>
+      <webElementGuid>2fd64d86-e2a3-44fc-b473-af063e6b1189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
-      <webElementGuid>3f9ef6c0-dbcf-4231-a4a9-dcdc72419aa4</webElementGuid>
+      <value>//nav/ul/li[2]/a</value>
+      <webElementGuid>2e8859ac-2601-46a7-a27d-150ae338f139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://tw.melaleuca.com/BusinessCenter/Home' and (text() = '事業中心' or . = '事業中心')]</value>
-      <webElementGuid>af1b237f-901d-4ff2-af25-0272ca056c9c</webElementGuid>
+      <value>//a[@href = '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan' and (text() = 'R3減醣計畫' or . = 'R3減醣計畫')]</value>
+      <webElementGuid>c51ad00a-dc9e-45d2-9b7f-3a5f36588d20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

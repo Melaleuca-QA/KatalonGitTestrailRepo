@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_69984</name>
+   <tag></tag>
+   <elementGuidId>bd53a6e6-6607-413f-9e54-260281fd9e93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[1]/article/div/div/button/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>011747c8-5cbd-4a8b-8eb6-d544674c2955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sr-only md:not-sr-only md:block</value>
+      <webElementGuid>6a2338ec-5d7b-46ec-bd3e-b8d8ea0388b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            選擇
+                        </value>
+      <webElementGuid>cd245072-bf3c-478a-8dc4-e441f3d76a47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__main&quot;]/div[2]/div[@class=&quot;p-catListing__results&quot;]/ul[@class=&quot;p-catListing__grid&quot;]/li[@class=&quot;p-catListing__col&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]/span[@class=&quot;sr-only md:not-sr-only md:block&quot;]</value>
+      <webElementGuid>4702d832-3a03-4f8e-922c-d30cd6379005</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CategoryListingComponent']/div[2]/div[2]/div[3]/ul/li[4]/article/div/div/button/span[2]</value>
+      <webElementGuid>4ba87cdb-b735-441a-8180-c1f1813cbf4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[5]/following::span[1]</value>
+      <webElementGuid>d983c3eb-fba4-4321-ad20-24d164179f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[4]/following::span[2]</value>
+      <webElementGuid>b50226a1-12da-43ea-a9e3-0a74480ce1e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to List:'])[4]/preceding::span[4]</value>
+      <webElementGuid>5af39896-86fe-46ce-9936-1a20265e6d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New List Name'])[4]/preceding::span[4]</value>
+      <webElementGuid>869625c6-753a-46da-8717-38e07eb87da6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/article/div/div/button/span[2]</value>
+      <webElementGuid>be7a005a-3cd5-4941-8751-105132ef4060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                            選擇
+                        ' or . = '
+                            選擇
+                        ')]</value>
+      <webElementGuid>050e4cdd-ad25-44ba-899f-558b50883348</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

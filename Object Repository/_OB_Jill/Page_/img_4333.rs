@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_delete item6</name>
+   <name>img_4333</name>
    <tag></tag>
-   <elementGuidId>d56dfd47-427e-4b4e-badb-800844316e21</elementGuidId>
+   <elementGuidId>5d8bbfc6-9625-4136-80ff-5e34906e074d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[1]/div[3]/div/div/button/img</value>
+         <value>/html/body/div[1]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div/ul/li[1]/button/div[1]/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img[alt=&quot;Close Box&quot;]</value>
+         <value>img.m-refinerImage__img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>3e9a27ab-b212-4d24-b5e0-b44fd946b5ee</webElementGuid>
+      <webElementGuid>7b6b23e2-2bb6-466a-bc63-90649ef6e02b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>//cdnsc1.melaleuca.com/na/images/header/clear2x.png</value>
-      <webElementGuid>2cb346b1-48d8-446d-a23a-d0d5d233a980</webElementGuid>
+      <value>//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/4333h-01-zhtw.png</value>
+      <webElementGuid>4ab3508f-6d40-435f-bacd-81cc0ec5dad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
-      <value>Close Box</value>
-      <webElementGuid>8e1d96cb-998e-485f-a2c2-7d24a08a01b9</webElementGuid>
+      <value>經典清香</value>
+      <webElementGuid>767bfcf4-799f-4851-b207-d3c3d6cbc6f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>class</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>6d63d8dd-1f35-4b83-a68b-b633fa8ca38f</webElementGuid>
+      <value>m-refinerImage__img</value>
+      <webElementGuid>45255009-055a-4eb5-981a-aef9e727639c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isRemovedButton1216&quot;)/img[1]</value>
-      <webElementGuid>b2bab9e7-e73b-41f6-825a-f9b88a0aaf0f</webElementGuid>
+      <value>id(&quot;__VID__515__MelaId_ls2vo1x1__contentId&quot;)/div[@class=&quot;o-configuratorAcc__content&quot;]/div[@class=&quot;ps&quot;]/ul[@class=&quot;o-configuratorAcc__list&quot;]/li[@class=&quot;o-configuratorAcc__item&quot;]/button[@class=&quot;m-refinerImage&quot;]/div[@class=&quot;m-refinerImage__media&quot;]/img[@class=&quot;m-refinerImage__img&quot;]</value>
+      <webElementGuid>6338dbb0-a7e7-429d-bad3-2a3c609d596e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='isRemovedButton6969']/img</value>
-      <webElementGuid>89cb0e05-f0a7-4a89-8b45-f727f90afa02</webElementGuid>
+      <value>//div[@id='__VID__515__MelaId_ls2vo1x1__contentId']/div/div/ul/li/button/div/img</value>
+      <webElementGuid>421b84f0-0b8c-458a-b1e8-3893b0994ca1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>//img[@alt='Close Box']</value>
-      <webElementGuid>64f0c340-18ba-4608-bdf9-daabeebccbb3</webElementGuid>
+      <value>//img[@alt='經典清香']</value>
+      <webElementGuid>9481c82a-297a-4ee9-9111-4fad9ab5d933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/button/img</value>
-      <webElementGuid>b7fefbdf-0921-4508-8494-39c354be92c9</webElementGuid>
+      <value>//button/div/img</value>
+      <webElementGuid>e576c6e8-c7ef-4b33-a120-f75e280da4ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '//cdnsc1.melaleuca.com/na/images/header/clear2x.png' and @alt = 'Close Box']</value>
-      <webElementGuid>c22e0bce-f478-4dab-8d8b-2d84a9d916ca</webElementGuid>
+      <value>//img[@src = '//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/4333h-01-zhtw.png' and @alt = '經典清香']</value>
+      <webElementGuid>14930868-1f24-443c-ae19-7a25f1106bcd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

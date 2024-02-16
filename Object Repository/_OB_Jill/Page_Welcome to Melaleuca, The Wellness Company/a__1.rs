@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__1</name>
+   <tag></tag>
+   <elementGuidId>4236fbc5-3fa7-4b01-9762-d2ec74fc40b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.m-popUp.right-0.top-40 > div.m-popUp__content > div.m-popUp__footer > a.m-popUp__footerCTA</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d96e916e-4516-4f04-a6c7-708f4a4b188f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/order-history</value>
+      <webElementGuid>aa9fb56b-35c9-4b7c-94c0-8c3f0fafdbb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-popUp__footerCTA</value>
+      <webElementGuid>3481f80a-41ee-4a05-8155-83d3d0a4b927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+                    訂單紀錄
+                </value>
+      <webElementGuid>de75db4c-a05a-4e32-a3e7-b7ed1dd659a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[1]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/div[@class=&quot;m-popUpOrder&quot;]/div[@class=&quot;m-popUp right-0 top-40&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer&quot;]/a[@class=&quot;m-popUp__footerCTA&quot;]</value>
+      <webElementGuid>4017c5fd-386f-46ad-ac9d-2879deffa896</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
+      <webElementGuid>ce339a3b-02ef-45bf-aa02-2fd4164450e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'訂單紀錄')])[3]</value>
+      <webElementGuid>e2c4e538-a3b5-43a6-a65d-670ce3481b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='處理中'])[1]/following::a[1]</value>
+      <webElementGuid>0a571f61-808c-4491-8bb4-f40a32c32a7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單'])[1]/following::a[1]</value>
+      <webElementGuid>8b85d528-b1ee-49f6-aa0d-0d3963812fc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[2]/preceding::a[1]</value>
+      <webElementGuid>290a414f-1adc-441d-9ff8-e118c0c5141e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[3]/preceding::a[1]</value>
+      <webElementGuid>e3f737ef-ae13-4528-bcf1-9539ac93b519</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account/order-history')])[3]</value>
+      <webElementGuid>10b1f55a-d32d-42fe-a35d-ccf8c4ee0ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/a</value>
+      <webElementGuid>8e648442-b88d-4e48-b0df-17645a83c85f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/order-history' and (text() = '
+
+                    訂單紀錄
+                ' or . = '
+
+                    訂單紀錄
+                ')]</value>
+      <webElementGuid>9162defa-f6bb-4d0a-b7b2-344b93291a36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

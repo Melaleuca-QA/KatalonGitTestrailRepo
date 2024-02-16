@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_pay button</name>
+   <tag></tag>
+   <elementGuidId>c9fe4758-5f4d-4fba-b21c-61a5323cd336</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/div[3]/section/div[2]/div/ul/li[6]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-button.flex.justify-center.w-120.h-30</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f1512230-54e6-4e36-8d6b-94a6a0bc69e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button flex justify-center w-120 h-30</value>
+      <webElementGuid>41e60358-3880-446a-8cc0-c6e42f48ad4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/owing-balance?orderNumber=124090597</value>
+      <webElementGuid>9c6fc79f-0b4b-41a0-9fe7-6724cd9990ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    付款
+    </value>
+      <webElementGuid>f9675d0c-a2d3-4923-b7de-0d77c7b0fb92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[3]/section[@class=&quot;o-po&quot;]/div[@class=&quot;o-po__orders -list&quot;]/div[@class=&quot;m-po__wrapper&quot;]/ul[@class=&quot;m-po__header&quot;]/li[@class=&quot;m-po__track -col-md-2&quot;]/div[@class=&quot;m-po__track-inner -payBtn&quot;]/a[@class=&quot;a-button flex justify-center w-120 h-30&quot;]</value>
+      <webElementGuid>d19f7c26-2141-48cb-82fb-a1ccfb1558dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div[3]/section/div[2]/div/ul/li[6]/div/a</value>
+      <webElementGuid>8225b776-8c2f-447f-a730-5689cf60319f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'付款')])[4]</value>
+      <webElementGuid>91d933bd-f091-4b44-a9b2-090b54e76038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$1,835'])[1]/following::a[1]</value>
+      <webElementGuid>797f2bc0-165b-49b6-a42b-8e856426ebd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='優惠總額節省:'])[1]/following::a[1]</value>
+      <webElementGuid>77b7455c-9921-457f-b8a2-0427fe1db072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⋮'])[1]/preceding::a[1]</value>
+      <webElementGuid>86bc8269-813b-4e04-a965-8cebc033c1d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='列印我的收據'])[1]/preceding::a[1]</value>
+      <webElementGuid>c2890da4-5f51-437a-89e3-465a45ffc5db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='付款']/parent::*</value>
+      <webElementGuid>9a6d45f9-e1cc-41aa-804d-3fc1f9d2c827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-account/owing-balance?orderNumber=124090597')]</value>
+      <webElementGuid>d85431c3-7200-4014-8667-82351545fdbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/a</value>
+      <webElementGuid>fb91831a-39e7-4ccb-8ac2-9acdef6374ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/owing-balance?orderNumber=124090597' and (text() = '
+    付款
+    ' or . = '
+    付款
+    ')]</value>
+      <webElementGuid>7fff6e38-4e4c-4e79-b1a4-1b088371917d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

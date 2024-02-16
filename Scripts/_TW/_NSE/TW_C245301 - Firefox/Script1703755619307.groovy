@@ -121,9 +121,9 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+//WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
 
-WebUI.waitForAlert(5)
+//WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
