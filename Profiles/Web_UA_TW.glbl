@@ -396,7 +396,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tw2'</initValue>
+      <initValue>'tw1'</initValue>
       <name>nse_tw_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

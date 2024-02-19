@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_view cart</name>
+   <name>a_beauty</name>
    <tag></tag>
-   <elementGuidId>7797873e-e84c-4974-9787-af18fbc9e489</elementGuidId>
+   <elementGuidId>18dcf4fc-e634-4552-b974-080b934e5516</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.a-button.-white.-center.flex-1.mx-5</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[2]/div/div[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vApp']/div[3]/div/div/div[2]/div/div[2]/a</value>
+         <key>CSS</key>
+         <value>a.a-authorBtn.text-center.rounded.-lg.px-40.text-white</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,124 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3ef5b1f6-29ed-4043-9546-30d31d63a6d3</webElementGuid>
+      <webElementGuid>4b167a0e-a5a1-40e7-9ae8-f81f44b6666e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/cart</value>
-      <webElementGuid>8062f2f6-3cc0-4f0d-b297-72b952a364cd</webElementGuid>
+      <value>/productstore/beauty</value>
+      <webElementGuid>5f9b978d-c767-4f54-96f0-45449fe86768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-button -white -center flex-1 mx-5</value>
-      <webElementGuid>0813c48a-ef4d-4896-9b42-2d81e1bd9e71</webElementGuid>
+      <value>a-authorBtn text-center rounded -lg px-40 text-white</value>
+      <webElementGuid>101ac98e-57ae-4f24-81f6-999c7f1d4e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                View Cart
-            </value>
-      <webElementGuid>1113f67d-fc7b-474f-83ea-12047a49e7d8</webElementGuid>
+      <value>查看水‧貝娜美容保養系列 </value>
+      <webElementGuid>996133ff-c3e5-4c98-9508-4a10cda73435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[@class=&quot;o-shelf -isVisible&quot;]/div[@class=&quot;o-shelf__dialog&quot;]/div[@class=&quot;o-shelf__inner&quot;]/div[@class=&quot;o-shelf__content&quot;]/div[@class=&quot;m-shelfConfirm -cart&quot;]/div[@class=&quot;m-shelfConfirm__actions -mx-5&quot;]/a[@class=&quot;a-button -white -center flex-1 mx-5&quot;]</value>
-      <webElementGuid>037bd93b-56b1-4176-8c83-e5308d9ed501</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[2]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;flex justify-center text-xl&quot;]/a[@class=&quot;a-authorBtn text-center rounded -lg px-40 text-white&quot;]</value>
+      <webElementGuid>7a0fc91e-0da3-4d87-97c5-620131cac216</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div[3]/div/div/div[2]/div/div[2]/a</value>
-      <webElementGuid>9209dffb-f7fb-4edb-99a5-88030bf9a88f</webElementGuid>
+      <value>//main[@id='mainContent']/div[2]/div/div[5]/a</value>
+      <webElementGuid>1bc059c8-1fa7-4d00-ad70-869aae3feedb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'View Cart')]</value>
-      <webElementGuid>909dea55-8d5a-47fe-84f1-ce1e69e72297</webElementGuid>
+      <value>//a[contains(text(),'查看水‧貝娜美容保養系列')]</value>
+      <webElementGuid>aec9bf38-757f-47da-b813-843a9d65bb28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Points'])[2]/following::a[1]</value>
-      <webElementGuid>18f4a7fb-c5d5-4826-a586-e564edeae200</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@台灣美樂家'])[1]/following::a[1]</value>
+      <webElementGuid>2ecc9f2e-386c-4f7d-a5b4-eee224e00410</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart Points'])[1]/following::a[1]</value>
-      <webElementGuid>676f954f-1dab-4f9f-a4f2-b7c3dad47f72</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_right'])[8]/following::a[2]</value>
+      <webElementGuid>131901d1-02b7-4b9c-8be2-1bb8f6ab29e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keep Shopping'])[1]/preceding::a[1]</value>
-      <webElementGuid>4f7252f7-41c8-4bb1-8db7-f43786c77a86</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::a[1]</value>
+      <webElementGuid>20ffb030-1fce-4a18-af04-d547420eca3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY OUR BEST SELLERS'])[2]/preceding::a[1]</value>
-      <webElementGuid>7cd210c8-8061-4df6-9c59-61f9c6d1138b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
+      <webElementGuid>2cf2b5e7-73b5-4706-bed8-a5bb6c536a0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='View Cart']/parent::*</value>
-      <webElementGuid>bef8d6cc-48ab-49ef-ac35-43b60bd56401</webElementGuid>
+      <value>//*/text()[normalize-space(.)='查看水‧貝娜美容保養系列']/parent::*</value>
+      <webElementGuid>96433a2e-f3d4-4b0f-8cf1-96e2da004b3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/cart')])[2]</value>
-      <webElementGuid>74ff6409-ce0b-4a48-8f67-3f52dcd6cb57</webElementGuid>
+      <value>(//a[contains(@href, '/productstore/beauty')])[12]</value>
+      <webElementGuid>6a4c10a0-8799-4d79-b9b7-de95bc1c204a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/div/div[2]/a</value>
-      <webElementGuid>448e324a-0827-4bff-b524-6fc185ea2ee5</webElementGuid>
+      <value>//div[2]/div/div[5]/a</value>
+      <webElementGuid>2b4bbfd1-54a1-4fcb-9bc1-6162936a7465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/cart' and (text() = '
-                View Cart
-            ' or . = '
-                View Cart
-            ')]</value>
-      <webElementGuid>a7f5461b-0058-4b60-806e-1f01280a647f</webElementGuid>
+      <value>//a[@href = '/productstore/beauty' and (text() = '查看水‧貝娜美容保養系列 ' or . = '查看水‧貝娜美容保養系列 ')]</value>
+      <webElementGuid>10b73ce7-4c56-48f9-bb2c-64dd5a940906</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_order history</name>
+   <name>a_add promotion to cart</name>
    <tag></tag>
-   <elementGuidId>c0627b90-89bc-4e6c-b4e5-7ce62f42f330</elementGuidId>
+   <elementGuidId>eba2d088-7c97-4943-b75f-946f26f73954</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div[1]/div/div/div/div[3]/a</value>
+         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.m-popUp.right-0.top-40 > div.m-popUp__content > div.m-popUp__footer > a.m-popUp__footerCTA</value>
+         <value>a.o-bogo__cta</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9ccf21ac-b155-4262-980b-eeb27238cd2a</webElementGuid>
+      <webElementGuid>6a1a4e04-d28c-4ff8-b8fa-7544bd2117e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/my-account/order-history</value>
-      <webElementGuid>8bcaf68c-284f-4934-a490-56cb069da04a</webElementGuid>
+      <value>/checkout</value>
+      <webElementGuid>a0e25c98-812c-4914-8767-cbed8398b615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-popUp__footerCTA</value>
-      <webElementGuid>b90b88d1-3252-494b-896a-472a1b148113</webElementGuid>
+      <value>o-bogo__cta</value>
+      <webElementGuid>5cb8be13-689f-4882-a7c1-f656388604e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,94 +47,105 @@
       <type>Main</type>
       <value>
 
-                    Order History
+                    已加購特惠及贈品，繼續結帳
+
                 </value>
-      <webElementGuid>7ce66a32-dd59-43fc-93cf-fd14b421447b</webElementGuid>
+      <webElementGuid>d45ad7ee-0004-4cbc-9342-f125c5e52e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/div[@class=&quot;m-popUpOrder&quot;]/div[@class=&quot;m-popUp right-0 top-40&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer&quot;]/a[@class=&quot;m-popUp__footerCTA&quot;]</value>
-      <webElementGuid>b853f63f-d6d7-4bdc-964e-16bdc9018619</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;mb-10 md:mb-40 lg:mb-60&quot;]/div[@class=&quot;o-bogo&quot;]/div[1]/div[@class=&quot;o-bogo__row&quot;]/div[@class=&quot;o-bogo__action&quot;]/a[@class=&quot;o-bogo__cta&quot;]</value>
+      <webElementGuid>3beb76fa-6e5c-46f4-b7e6-73ded9b159c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
-      <webElementGuid>e4548a31-64c7-4aec-9b1e-76caa1ab17c7</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
+      <webElementGuid>f22ba5db-ef00-4488-b006-7d48151aa81f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Order History')])[2]</value>
-      <webElementGuid>25e2546e-fcd1-4611-878a-7b6350a887be</webElementGuid>
+      <value>//a[contains(text(),'已加購特惠及贈品，繼續結帳')]</value>
+      <webElementGuid>59c0dabc-2c08-4cd1-b5ef-3bfcadabc073</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='savings packs'])[1]/following::a[1]</value>
-      <webElementGuid>0931bdcb-c487-4b38-9806-5b3fecf1df98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[9]/following::a[1]</value>
+      <webElementGuid>82783c5a-6786-4dd0-b018-4d42edb16d64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='most popular products'])[1]/following::a[2]</value>
-      <webElementGuid>29dddbd8-9b0f-484d-a9df-a775e0e8f1e7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[8]/following::a[1]</value>
+      <webElementGuid>40653e8e-1ae8-445d-a293-4e4aad25c651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LISTS'])[1]/preceding::a[1]</value>
-      <webElementGuid>b0c6d61f-6da2-4a37-8fa7-671a8c8023a5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::a[1]</value>
+      <webElementGuid>fa86e80c-23c8-4d2f-ab5e-919d7a066e2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lists'])[2]/preceding::a[1]</value>
-      <webElementGuid>b21922ff-390a-410e-ac5e-3e6f31f86309</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
+      <webElementGuid>49d5312e-c83b-408b-8139-37b4308c44da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='已加購特惠及贈品，繼續結帳']/parent::*</value>
+      <webElementGuid>f546662e-8afb-4298-b972-de8ecbb06e76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/my-account/order-history')])[3]</value>
-      <webElementGuid>e57f72a2-6997-4bf0-b9ce-2dded228ddcc</webElementGuid>
+      <value>(//a[contains(@href, '/checkout')])[2]</value>
+      <webElementGuid>087cd309-88f6-4806-8480-eb6bb2f2698f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[3]/a</value>
-      <webElementGuid>591a2214-dd5f-4366-841a-9c91ef681455</webElementGuid>
+      <value>//div[2]/div/div/div/div[2]/a</value>
+      <webElementGuid>7aa34bd2-113c-4a3d-b202-d27c0f2149b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/my-account/order-history' and (text() = '
+      <value>//a[@href = '/checkout' and (text() = '
 
-                    Order History
+                    已加購特惠及贈品，繼續結帳
+
                 ' or . = '
 
-                    Order History
+                    已加購特惠及贈品，繼續結帳
+
                 ')]</value>
-      <webElementGuid>9ac7eed6-d579-49f2-b875-df68d3fe2aed</webElementGuid>
+      <webElementGuid>ffd3a4f8-57cc-4c61-96a6-10bd02a1ffd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

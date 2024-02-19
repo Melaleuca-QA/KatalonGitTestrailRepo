@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_now pp</name>
+   <tag></tag>
+   <elementGuidId>5384313c-bab0-4d90-b186-8c7d41704b83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul:nth-of-type(2) > li.m-cartSummary__item > span.m-cartSummary__desc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[4]/div[2]/div[1]/ul[2]/li[2]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>098def85-f216-410d-98f4-140e48a7d4f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-cartSummary__desc</value>
+      <webElementGuid>86af0c6f-272d-4c10-a240-a8cf48194534</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                50
+            </value>
+      <webElementGuid>3f6d2e45-ce4d-4aaf-a42a-a181f63affac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__side&quot;]/div[@class=&quot;m-cartSummary&quot;]/ul[2]/li[@class=&quot;m-cartSummary__item&quot;]/span[@class=&quot;m-cartSummary__desc&quot;]</value>
+      <webElementGuid>2f9d53da-5e09-4c74-a02d-6f3658a7300b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div/div[3]/div[2]/div[2]/ul[2]/li[2]/span[2]</value>
+      <webElementGuid>1e98e82a-3b24-4692-9da7-b91e0195b22f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='總點數'])[1]/following::span[1]</value>
+      <webElementGuid>8f848639-a06a-440c-b3a0-2d8abe53324e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$4,939'])[1]/following::span[3]</value>
+      <webElementGuid>7362bfc4-f71e-4d68-b33b-932a537b4794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款'])[1]/preceding::span[1]</value>
+      <webElementGuid>0aec8ff9-b0e7-41f2-89ea-bcbaac861a6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='身為優惠顧客'])[1]/preceding::span[2]</value>
+      <webElementGuid>312efd5b-7a5b-4db4-9ddd-8a07b907e191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='50']/parent::*</value>
+      <webElementGuid>a76fe018-db21-4d73-92fa-1859bf0d53c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li[2]/span[2]</value>
+      <webElementGuid>e175d990-6cee-4ad5-85f2-27e721179680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                50
+            ' or . = '
+                50
+            ')]</value>
+      <webElementGuid>9ea75306-fd99-4844-8997-b20e921b5149</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

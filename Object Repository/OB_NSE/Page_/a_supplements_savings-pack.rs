@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_R3</name>
+   <name>a_supplements_savings-pack</name>
    <tag></tag>
-   <elementGuidId>5c320e3c-76ba-439a-bdba-6538afee3c22</elementGuidId>
+   <elementGuidId>88962b87-4a98-47b5-8f7d-2ece5b1c6574</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -21,15 +21,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>357818f6-cbe2-49b6-b7f8-2277f1f48dd4</webElementGuid>
+      <webElementGuid>41f3bcc7-798f-40ce-98ca-5c12f7dcc717</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/productstore/healthy-foods-and-drinks/r3-weight-loss-plan</value>
-      <webElementGuid>0ea11bbc-9abb-4404-96d7-f9280c75fc48</webElementGuid>
+      <value>/productstore/supplements/savings-pack</value>
+      <webElementGuid>e28b377e-8117-4c3f-9439-a6aea4d9424d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>m-catListMenu__link</value>
-      <webElementGuid>d4eee287-c399-4708-81f9-c063562427ac</webElementGuid>
+      <webElementGuid>1e6991b2-2a88-4cd8-a015-817b420cbce5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>R3減醣計畫</value>
-      <webElementGuid>0bf93387-1712-4e03-8964-53d18ff078bf</webElementGuid>
+      <value>日常/推薦套組</value>
+      <webElementGuid>5c93bbd8-3258-41f9-9395-c604b1613697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__side&quot;]/div[@class=&quot;p-catListing__menu&quot;]/div[@class=&quot;m-catListMenu&quot;]/nav[@class=&quot;m-catListMenu__nav&quot;]/ul[@class=&quot;m-catListMenu__list&quot;]/li[@class=&quot;m-catListMenu__item&quot;]/a[@class=&quot;m-catListMenu__link&quot;]</value>
-      <webElementGuid>a696142c-e93d-4ffc-a80f-70b16b3c123a</webElementGuid>
+      <webElementGuid>869ef925-9429-422f-937e-9c1407beb270</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CategoryListingComponent']/div/div/div/nav/ul/li[2]/a</value>
-      <webElementGuid>9c6d78d4-cf5b-48b8-bbb8-4f1bf3da6340</webElementGuid>
+      <webElementGuid>4342e4ef-8fac-4f64-9e77-ba329edcf154</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'R3減醣計畫')])[2]</value>
-      <webElementGuid>b91bfc86-a8a8-4008-99ab-28ceef8aed94</webElementGuid>
+      <value>(//a[contains(text(),'日常/推薦套組')])[2]</value>
+      <webElementGuid>f6359ee8-f882-4b29-a8ca-4e2bcf5481e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='所有產品'])[1]/following::a[1]</value>
-      <webElementGuid>6082605f-697c-49c8-8f1d-af2ac27a63a2</webElementGuid>
+      <webElementGuid>be71b4d8-2d43-4554-9723-280c3ce8578c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,31 +85,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品分類'])[1]/following::a[2]</value>
-      <webElementGuid>dd449cee-93de-47e8-ac88-78eebda15a6f</webElementGuid>
+      <webElementGuid>0503e0b9-e858-4861-bd83-74c14259995d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理 &amp; 蛋白飲'])[2]/preceding::a[1]</value>
-      <webElementGuid>8857b15a-59e0-4303-ad35-7189ab2078e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='活力巔峰營養隨身包'])[2]/preceding::a[1]</value>
+      <webElementGuid>f2bc1827-ed71-4a53-98c5-9c8512392d1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康零食'])[2]/preceding::a[2]</value>
-      <webElementGuid>a9332302-3fa4-4d72-931c-4476cd9c5654</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='篩選'])[1]/preceding::a[2]</value>
+      <webElementGuid>fc312b4d-e734-47bb-abfe-b5dfeb8ff2c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan')])[2]</value>
-      <webElementGuid>2fd64d86-e2a3-44fc-b473-af063e6b1189</webElementGuid>
+      <value>(//a[contains(@href, '/productstore/supplements/savings-pack')])[2]</value>
+      <webElementGuid>c16c12c2-0ecf-406d-a990-0b94331925d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,14 +117,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>2e8859ac-2601-46a7-a27d-150ae338f139</webElementGuid>
+      <webElementGuid>19e48fd1-35ea-489c-ac69-9901f0967b0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan' and (text() = 'R3減醣計畫' or . = 'R3減醣計畫')]</value>
-      <webElementGuid>c51ad00a-dc9e-45d2-9b7f-3a5f36588d20</webElementGuid>
+      <value>//a[@href = '/productstore/supplements/savings-pack' and (text() = '日常/推薦套組' or . = '日常/推薦套組')]</value>
+      <webElementGuid>f0608c02-e97d-4899-b37d-b77fd6c474e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

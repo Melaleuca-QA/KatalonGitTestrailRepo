@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_check shopping cart</name>
+   <tag></tag>
+   <elementGuidId>11eee514-4c74-4d7a-a1d8-3bdf49f0454d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button.-white.-center.flex-1.mx-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/div/div[2]/div[1]/div[2]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd4a7d4b-fa66-4dd8-a2f7-903e90ceafcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -white -center flex-1 mx-5</value>
+      <webElementGuid>ec41a482-dc78-4c31-b7da-4534fac6faaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                檢查購物車
+            </value>
+      <webElementGuid>d5f684ed-719f-4f7e-8af7-ee6c5a60f8e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;o-shelf -isVisible&quot;]/div[@class=&quot;o-shelf__dialog&quot;]/div[@class=&quot;o-shelf__inner&quot;]/div[@class=&quot;o-shelf__content&quot;]/div[@class=&quot;m-shelfConfirm -cart&quot;]/div[@class=&quot;m-shelfConfirm__actions -mx-5&quot;]/button[@class=&quot;a-button -white -center flex-1 mx-5&quot;]</value>
+      <webElementGuid>7ca9efcb-9c95-4f0c-b3a2-7de702984428</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div[3]/div/div/div[2]/div/div[2]/button</value>
+      <webElementGuid>806bff60-3ef4-40f5-b493-54dc6f98d096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='點'])[1]/following::button[1]</value>
+      <webElementGuid>f019c112-cdc0-43b3-8991-f646b61637cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='購物車點數'])[1]/following::button[1]</value>
+      <webElementGuid>eb765007-985b-456f-b06c-5dffe2e3c148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='繼續購物'])[1]/preceding::button[1]</value>
+      <webElementGuid>3800b3ac-50c3-42b0-ac0c-28c2aec3b337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='大家都在買...'])[1]/preceding::button[2]</value>
+      <webElementGuid>cc46db3e-d5ce-43a3-865e-725c11aed50a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='檢查購物車']/parent::*</value>
+      <webElementGuid>1a156447-3d0a-4593-89ab-a0d20f216671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button</value>
+      <webElementGuid>aac50c10-80fa-457d-a6f6-a6ccec0dc34c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+                檢查購物車
+            ' or . = '
+                檢查購物車
+            ')]</value>
+      <webElementGuid>a6693e6b-3e24-4af0-a42d-1925848e9f8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_R3</name>
+   <name>a_order history</name>
    <tag></tag>
-   <elementGuidId>5c320e3c-76ba-439a-bdba-6538afee3c22</elementGuidId>
+   <elementGuidId>1483f577-bdea-4351-a4c3-b9c96bffcc8c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[1]/div[1]/div/nav/ul/li[2]/a</value>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[5]/div[1]/div/div/div/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>div.m-popUp.right-0.top-40 > div.m-popUp__content > div.m-popUp__footer > a.m-popUp__footerCTA</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,110 +22,119 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>357818f6-cbe2-49b6-b7f8-2277f1f48dd4</webElementGuid>
+      <webElementGuid>7a6f16b1-742a-48ed-9f95-3173ed3b3738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/productstore/healthy-foods-and-drinks/r3-weight-loss-plan</value>
-      <webElementGuid>0ea11bbc-9abb-4404-96d7-f9280c75fc48</webElementGuid>
+      <value>/my-account/order-history</value>
+      <webElementGuid>6fda8725-895d-4c1e-9adf-1172cbc861ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-catListMenu__link</value>
-      <webElementGuid>d4eee287-c399-4708-81f9-c063562427ac</webElementGuid>
+      <value>m-popUp__footerCTA</value>
+      <webElementGuid>7dcad4a4-4421-4edd-ba19-18adb9a9b1dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>R3減醣計畫</value>
-      <webElementGuid>0bf93387-1712-4e03-8964-53d18ff078bf</webElementGuid>
+      <value>
+
+                    訂單紀錄
+                </value>
+      <webElementGuid>f3b06bf7-c9c0-4ab5-84db-b0babc8f51a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__side&quot;]/div[@class=&quot;p-catListing__menu&quot;]/div[@class=&quot;m-catListMenu&quot;]/nav[@class=&quot;m-catListMenu__nav&quot;]/ul[@class=&quot;m-catListMenu__list&quot;]/li[@class=&quot;m-catListMenu__item&quot;]/a[@class=&quot;m-catListMenu__link&quot;]</value>
-      <webElementGuid>a696142c-e93d-4ffc-a80f-70b16b3c123a</webElementGuid>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;bg-gray-25&quot;]/header[@class=&quot;o-siteHeader&quot;]/div[@class=&quot;o-siteHeader__row -main&quot;]/div[@class=&quot;o-siteHeader__col -actions&quot;]/div[@class=&quot;relative md:flex hidden&quot;]/div[@class=&quot;m-popUpOrder&quot;]/div[@class=&quot;m-popUp right-0 top-40&quot;]/div[@class=&quot;m-popUp__content&quot;]/div[@class=&quot;m-popUp__footer&quot;]/a[@class=&quot;m-popUp__footerCTA&quot;]</value>
+      <webElementGuid>5bbee36c-e3bc-495c-ac18-14b379c42213</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='CategoryListingComponent']/div/div/div/nav/ul/li[2]/a</value>
-      <webElementGuid>9c6d78d4-cf5b-48b8-bbb8-4f1bf3da6340</webElementGuid>
+      <value>//div[@id='vApp']/div/header/div[2]/div[5]/div/div/div/div/div[3]/a</value>
+      <webElementGuid>bb33cae4-6c16-4846-80c8-d1429e536963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'R3減醣計畫')])[2]</value>
-      <webElementGuid>b91bfc86-a8a8-4008-99ab-28ceef8aed94</webElementGuid>
+      <value>(//a[contains(text(),'訂單紀錄')])[3]</value>
+      <webElementGuid>b0aeb536-459c-4f5c-93f4-d14634842221</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='所有產品'])[1]/following::a[1]</value>
-      <webElementGuid>6082605f-697c-49c8-8f1d-af2ac27a63a2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='處理中'])[1]/following::a[1]</value>
+      <webElementGuid>43d4f0dc-c7f4-468d-b6da-1b5f0a278107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='產品分類'])[1]/following::a[2]</value>
-      <webElementGuid>dd449cee-93de-47e8-ac88-78eebda15a6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單'])[1]/following::a[1]</value>
+      <webElementGuid>8cc2ccb2-08b8-4357-9bb3-98b1019678a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康管理 &amp; 蛋白飲'])[2]/preceding::a[1]</value>
-      <webElementGuid>8857b15a-59e0-4303-ad35-7189ab2078e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[2]/preceding::a[1]</value>
+      <webElementGuid>5b3a7ddc-68a7-471e-859a-b9ca0b70792a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='健康零食'])[2]/preceding::a[2]</value>
-      <webElementGuid>a9332302-3fa4-4d72-931c-4476cd9c5654</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追蹤清單'])[3]/preceding::a[1]</value>
+      <webElementGuid>894ad2a0-3b64-41bc-899b-5886c680d676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan')])[2]</value>
-      <webElementGuid>2fd64d86-e2a3-44fc-b473-af063e6b1189</webElementGuid>
+      <value>(//a[contains(@href, '/my-account/order-history')])[3]</value>
+      <webElementGuid>e1dbb885-e05f-4969-ab64-818f6e0e47bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>2e8859ac-2601-46a7-a27d-150ae338f139</webElementGuid>
+      <value>//div/div/div[3]/a</value>
+      <webElementGuid>e32f16c9-b77c-409b-80fc-057bce83ad94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/productstore/healthy-foods-and-drinks/r3-weight-loss-plan' and (text() = 'R3減醣計畫' or . = 'R3減醣計畫')]</value>
-      <webElementGuid>c51ad00a-dc9e-45d2-9b7f-3a5f36588d20</webElementGuid>
+      <value>//a[@href = '/my-account/order-history' and (text() = '
+
+                    訂單紀錄
+                ' or . = '
+
+                    訂單紀錄
+                ')]</value>
+      <webElementGuid>4dd5524f-3a08-4938-9c65-524b78f32b0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

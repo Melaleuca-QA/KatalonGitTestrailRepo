@@ -161,7 +161,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_orders'))
 WebUI.waitForAlert(10)
 
 '訂單紀錄'
-WebUI.click(findTestObject('OB_NSE/Page_/a_order history'))
+WebUI.click(findTestObject('_OB_Jill/Page_/a_order history'))
 
 WebUI.waitForAlert(10)
 
@@ -264,7 +264,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/svg'))
 WebUI.click(findTestObject('OB_NSE/Page_/a_menu_item-lvl2'))
 
 'R3減醣計畫'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_R3'))
+WebUI.click(findTestObject('Object Repository/_OB_Jill/Page_/a_R3'))
 
 WebUI.waitForAlert(10)
 

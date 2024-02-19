@@ -19,83 +19,121 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '6608')
+
+'prodcut search'
+WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
+
+WebUI.waitForAlert(10)
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '7911')
+
+'prodcut search'
+WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_choice sku'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_7911-sku1'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_7911-sku2'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down1'))
+
+'60138'
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_shopping_cart sku1'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping1'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down1'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
+
+WebUI.scrollToElement(findTestObject('OB_NSE/Page_/span_shopping_cart sku2'), 5, FailureHandling.STOP_ON_FAILURE)
+
+'4467'
+WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart sku3'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img1'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img2'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img3'))
+
+WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_next step'))
+
+WebUI.waitForAlert(10)
+
+'本月加購&贈品專區'
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+
+WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
+
+'close similar shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/span_pay-close'))
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_pay'))
 }
 
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
-
-WebUI.doubleClick(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'))
-
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_CloseShoppingCart'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_ProductBody_ValuePack'))
-
-WebUI.navigateToUrl(GlobalVariable.url_category119)
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_7911'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_ProductBody_ValuePack_7911_phoenix'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/img_ProductBody_ValuePack_7911_vanilla'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ProductBody_ValuePack_AddtoCart'))
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_HomePage_Checkout'))
-
-WebUI.waitForAlert(5)
-
-WebUI.navigateToUrl(GlobalVariable.url_Cart)
-
-WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
-
-WebUI.waitForAlert(5)
-
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-'CheckoutPromo Page'
-if (now_url == GlobalVariable.url_CheckoutPromo) {
-    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
-}
-
-WebUI.waitForAlert(5)
-
-WebUI.setText(findTestObject('OB_Web/Page_/input_paymethodCvv'), '123')
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Payment'))
-
-if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_/div_3535'), 3)) {
-    WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
-}
+WebUI.waitForAlert(10)
 
 //抓起訖日期 Earned LSD //
 def sys_date = new Date()
 
 def sys_day = new Date().format('dd')
 
+'每月1日'
 lsd_bdate1 = ((sys_date - sys_day.toInteger()) + 1)
 
+'每月15日'
 lsd_edate1 = (lsd_bdate1 + 14)
 
+'每月16日'
 lsd_bdate2 = (lsd_edate1 + 1)
 
+'每月25日'
 lsd_edate2 = (lsd_bdate1 + 24)
 
 lsd_bdate1 = lsd_bdate1.format('yyyy/MM/dd 00:00:00')
@@ -119,25 +157,27 @@ now_date = sys_date.format('yyyy/MM/dd HH:mm:ss')
 new_now_date = Date.parse(now_date)
 
 //計算Earned LSD//
-now_pp = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/td_pp'))
+now_pp = WebUI.getText(findTestObject('OB_NSE/Page_/span_now pp'))
 
 println(now_pp)
 
-now_lsd = WebUI.getText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/td_tw_lsd'))
+now_lsd = WebUI.getText(findTestObject('OB_NSE/Page_/span_now lsd'))
 
 println(now_lsd)
 
-now_lsd = now_lsd.substring(7)
+now_lsd = now_lsd.substring(3)
 
 println(now_lsd)
 
 switch (true) {
     case (new_now_date >= new_lsd_bdate1) && (new_now_date <= new_lsd_edate1):
+        'VIP'
         cal_lsd = ((now_pp.toInteger() * 0.1) * 33 // PC * 10% * 33
         )
 
         break
     case (new_now_date >= new_lsd_bdate2) && (new_now_date <= new_lsd_edate2):
+        'PC'
         cal_lsd = ((now_pp.toInteger() * 0.05) * 33 // PC * 5% * 33
         )
 
@@ -149,6 +189,7 @@ switch (true) {
 }
 
 //計算Earned LSD lock_rate//
+'lock rate'
 if (now_lsd.toInteger() > cal_lsd) {
     cal_lsd1 = Math.round(Math.floor((now_pp.toInteger() * 0.1) * 33 // PC * 10% * 33
             ))
@@ -171,8 +212,46 @@ now_cal_lsd = cal_lsd.toInteger()
 
 now_cal_lsd = now_cal_lsd.toString()
 
+'final now_cal_lsd'
 println(now_cal_lsd)
 
 'Check Earded LSD Amount in order receipt'
 WebUI.verifyEqual(now_lsd, now_cal_lsd)
+
+WebUI.waitForAlert(10)
+
+'進order history再次付款, 訂單即收款成功.'
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pay button'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_owing balance'), '123')
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
+
+WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_check order detail'))
+
+WebUI.waitForAlert(10)
+
+WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Add normal SKU via Quick Shop'
+GlobalVariable.test_case = '245317'
+
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Add configurable SKU via Quick Shop'
+GlobalVariable.test_case = '245318'
+
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

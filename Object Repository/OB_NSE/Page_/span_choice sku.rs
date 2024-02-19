@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_choice sku</name>
+   <tag></tag>
+   <elementGuidId>12b7196e-14bb-42f6-b9d2-c5eb08a68d9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Product-tab']/div[2]/ul/li/article/div/div/button/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>92d1523c-bb2a-4788-b2c6-1c19c1a436f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sr-only md:not-sr-only md:block</value>
+      <webElementGuid>03a314c0-ec1c-46ee-93e8-cb6db8f2aa27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            選擇
+                        </value>
+      <webElementGuid>43ce1ef3-a852-47fc-aa7c-276ae46e5bab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Product-tab&quot;)/div[@class=&quot;o-searchResults__results&quot;]/ul[@class=&quot;o-searchResults__grid&quot;]/li[@class=&quot;o-searchResults__col -Product&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]/span[@class=&quot;sr-only md:not-sr-only md:block&quot;]</value>
+      <webElementGuid>d3dbf2eb-2f6a-4eee-8a30-41f5bf94a8ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Product-tab']/div[2]/ul/li/article/div/div/button/span[2]</value>
+      <webElementGuid>7606c6fa-3e73-4c8c-95ba-f9166dc53300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[2]/following::span[1]</value>
+      <webElementGuid>ac9f32e8-5581-4044-8acd-4019cb7fa544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::span[2]</value>
+      <webElementGuid>35d574a8-ea92-4f1c-b928-8ac79b8a90c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to List:'])[1]/preceding::span[4]</value>
+      <webElementGuid>48be0eaf-6fe6-41a9-8a60-3d215a6ac4ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New List Name'])[1]/preceding::span[4]</value>
+      <webElementGuid>82116389-0c2a-4b16-a444-820de37281fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='選擇']/parent::*</value>
+      <webElementGuid>7d9c93f4-ff91-467e-af91-0086d1c9a50a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/button/span[2]</value>
+      <webElementGuid>d35c95bb-3471-4d30-831d-72f22d81e787</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                            選擇
+                        ' or . = '
+                            選擇
+                        ')]</value>
+      <webElementGuid>cb75cd7e-88c7-4df9-88c0-10b000a9e1c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

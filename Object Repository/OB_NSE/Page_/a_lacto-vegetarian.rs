@@ -6,12 +6,12 @@
    <elementGuidId>72a12965-8bf1-406c-bce9-033804df12f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#lvl36A0705C425F4CB1BA310A2BB22034B9 > li.m-navMenu__item.-lvl2 > a.m-navMenu__item-btn</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/header/div[2]/div[2]/nav/div/div[1]/div/div/div/ul/li[4]/div/ul/li[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='lvl36A0705C425F4CB1BA310A2BB22034B9']/li[3]/a</value>
+         <key>CSS</key>
+         <value>#lvl36A0705C425F4CB1BA310A2BB22034B9 > li.m-navMenu__item.-lvl2 > a.m-navMenu__item-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cb5a0501-53cf-4ef5-a0e5-d0faf913a9a0</webElementGuid>
+      <webElementGuid>37be9ba9-3cd9-49c0-90d2-24c2c193a75e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/vegetarian/lacto-vegetarian</value>
-      <webElementGuid>ffb75c7c-097b-4228-8a8e-b1ffc2367722</webElementGuid>
+      <webElementGuid>b1074a73-49b9-44cc-894e-04ef0afe56b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>321f6f86-e628-462d-9eed-e29fb973ece6</webElementGuid>
+      <webElementGuid>7ae4bbf3-5b5a-4ca4-a663-b37503c3450c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>122b0307-5cf9-4c54-a0c4-e50b4165c514</webElementGuid>
+      <webElementGuid>9b1d1ac7-a886-4903-bcc0-91b083ced6ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d7054002-ddbb-4654-a946-bfc6d0340098</webElementGuid>
+      <webElementGuid>6d7f51c1-6d2d-4a05-960c-835c0fdb0fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-navMenu__item-btn</value>
-      <webElementGuid>7f0990f9-7fba-4916-aef5-b7ae3efc3dfa</webElementGuid>
+      <webElementGuid>88396047-35ca-47fa-a815-26dd729f1065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>18c07fdc-de7c-4b60-86f5-c5e95d53c9c1</webElementGuid>
+      <webElementGuid>a2861539-8fd4-4a8c-a0b5-66a210e8591a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>奶素 </value>
-      <webElementGuid>bf2f350b-9548-420c-ac0c-3d7945ea71cd</webElementGuid>
+      <webElementGuid>0e6225c2-ec38-43a9-a4d4-918a0eb51f3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lvl36A0705C425F4CB1BA310A2BB22034B9&quot;)/li[@class=&quot;m-navMenu__item -lvl2&quot;]/a[@class=&quot;m-navMenu__item-btn&quot;]</value>
-      <webElementGuid>f247a2e5-f5b5-4521-bfcd-66fc57cc3a0a</webElementGuid>
+      <webElementGuid>34b6e109-2187-4e77-b2ce-01d9c4fd3a87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='lvl36A0705C425F4CB1BA310A2BB22034B9']/li[3]/a</value>
-      <webElementGuid>2d0f95b6-8b01-404f-bb07-26b215879dac</webElementGuid>
+      <webElementGuid>985477cb-e2c3-4417-af39-afdabaf3b4fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'奶素')]</value>
-      <webElementGuid>14721b5d-c518-481f-ba46-20cfc96a5aee</webElementGuid>
+      <webElementGuid>6a699a01-05ff-4ab7-9464-a046cf81873f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='素食'])[3]/following::a[1]</value>
-      <webElementGuid>b6a46af2-c331-49e5-a65c-8357447d4e24</webElementGuid>
+      <webElementGuid>3718d5e9-44d2-4182-85ee-bd882d81aca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='回上一頁'])[3]/following::a[2]</value>
-      <webElementGuid>97aec224-262f-49b8-b315-abccb7e33957</webElementGuid>
+      <webElementGuid>e3258918-fe72-43a1-ac87-7f34c9336588</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='五辛素/奶蛋素'])[1]/preceding::a[1]</value>
-      <webElementGuid>55cde380-5123-4936-809d-cfecc20fbe9d</webElementGuid>
+      <webElementGuid>2976740b-ab32-4608-bb5a-de64c142b478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='全素'])[1]/preceding::a[2]</value>
-      <webElementGuid>916c89c1-493f-49ac-b3f6-1051042fe6d3</webElementGuid>
+      <webElementGuid>dc1bb5ae-3b26-47d4-a67f-8368e4d516ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='奶素']/parent::*</value>
-      <webElementGuid>7037bcb5-c82e-4360-850a-c7f2c0d57692</webElementGuid>
+      <webElementGuid>0cffc3de-d6d3-442c-ac9c-88c8635b7f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/productstore/vegetarian/lacto-vegetarian')]</value>
-      <webElementGuid>3a4aa2bc-13ed-4ebc-ae63-13a5cdc45600</webElementGuid>
+      <webElementGuid>4462af39-03a7-482f-80db-5468ab4abc53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div/ul/li[3]/a</value>
-      <webElementGuid>68dd4b35-3f9a-4a1e-9f38-ad5218f4bd62</webElementGuid>
+      <webElementGuid>d661d230-8701-4001-afc6-3005aa348601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +166,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/vegetarian/lacto-vegetarian' and (text() = '奶素 ' or . = '奶素 ')]</value>
-      <webElementGuid>70eebd29-9d85-4e66-8755-8ab6cf33bf26</webElementGuid>
+      <webElementGuid>839353a6-0ecd-4ded-a217-8db7c256a71b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
