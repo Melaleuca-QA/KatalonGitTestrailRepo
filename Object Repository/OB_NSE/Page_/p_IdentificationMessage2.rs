@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_IdentificationMessage</name>
+   <name>p_IdentificationMessage2</name>
    <tag></tag>
    <elementGuidId>1321de38-6594-4185-aa7c-1c9fbf6934d7</elementGuidId>
    <selectorCollection>

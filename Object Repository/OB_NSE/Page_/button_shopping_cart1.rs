@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_shopping_cart (1)</name>
+   <name>button_shopping_cart1</name>
    <tag></tag>
    <elementGuidId>02cd2f14-6e11-4453-821d-0d777c77e6c7</elementGuidId>
    <selectorCollection>

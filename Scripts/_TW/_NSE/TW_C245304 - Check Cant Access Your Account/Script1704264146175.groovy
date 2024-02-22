@@ -53,14 +53,14 @@ WebUI.verifyEqual(now_result, '帳戶名稱或密碼錯誤', FailureHandling.STO
 WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://productstore2-uattw.melaleuca.com/account/signin?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dmelaleuca-sitecore-dev%26culture%3den-US%26nonce%3d85a9a43c-a202-4f32-9b74-6b21eb534178%26redirect_uri%3dhttps%253A%252F%252Fproductstore2-uattw.melaleuca.com%252Fdepaccount%252FLoadProfile%26response_mode%3dform_post%26response_type%3dcode%2520id_token%26scope%3dopenid%2520offline_access%2520DEPInterface.API.Full%2520CustomerAccount.API.Full%2520Order.API.Full%2520Product.API.Full%2520Communication.API.Full%2520Address.API.Full%2520Organization.API.Full%2520SubscribedServices.API.Full%2520PayMethod.API.Full%2520Document.API.Full%2520BackupOrder.API.Full%2520Promotion.API.Full%2520LSD.API.Full%26state%3dhttps%253A%252F%252Fproductstore2-uattw.melaleuca.com%252F')
-'Forgot Password'
+'忘記網路帳號或密碼'
 WebUI.click(findTestObject('OB_NSE/Page_/a_forgot password'))
 
 WebUI.waitForAlert(5)
 
 WebUI.switchToWindowTitle('登入')
 
-WebUI.switchToWindowTitle('建立您的網路帳戶')
+WebUI.switchToWindowTitle('重設網路帳戶密碼')
 
 WebUI.waitForAlert(5)
 
@@ -72,6 +72,19 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_continue'))
 
 WebUI.waitForAlert(5)
 
+WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage1'))
+
+'我們已傳送驗證碼 jilllin2@melaleuca.com'
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage1'))
+
+now_result = now_result.trim()
+
+println(now_result)
+
+WebUI.verifyEqual(now_result, '我們已傳送驗證碼 jilllin2@melaleuca.com', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_NSE/Page_/input_IdentificationPin'))
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_IdentificationPin'), '123456')
@@ -80,10 +93,10 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_next'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 '顯示搜尋結果-驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.'
-now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 now_result = now_result.trim()
 
@@ -114,6 +127,19 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_continue'))
 
 WebUI.waitForAlert(5)
 
+WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage1'))
+
+'我們已傳送驗證碼 jilllin100@melaleuca.com'
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage1'))
+
+now_result = now_result.trim()
+
+println(now_result)
+
+WebUI.verifyEqual(now_result, '我們已傳送驗證碼 jilllin100@melaleuca.com', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_NSE/Page_/input_IdentificationPin'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_IdentificationPin'), '123456')
@@ -122,10 +148,10 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_next'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 '顯示搜尋結果-驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.'
-now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 now_result = now_result.trim()
 
@@ -145,10 +171,10 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_continue'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+WebUI.click(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 '顯示搜尋結果-驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.'
-now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage'))
+now_result = WebUI.getText(findTestObject('OB_NSE/Page_/p_IdentificationMessage2'))
 
 now_result = now_result.trim()
 

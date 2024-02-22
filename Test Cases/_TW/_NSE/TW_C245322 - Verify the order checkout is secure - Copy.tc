@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TW Credit Card Number</name>
+   <name>TW_C245322 - Verify the order checkout is secure - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>13a3a239-f4c5-4848-a631-f37658bad568</testCaseGuid>
+   <testCaseGuid>6b6b8498-175f-4dcb-a89a-deec2945b955</testCaseGuid>
 </TestCaseEntity>

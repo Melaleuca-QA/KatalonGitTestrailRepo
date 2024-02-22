@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div[2]/div/div/div/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6a1a4e04-d28c-4ff8-b8fa-7544bd2117e1</webElementGuid>
+      <webElementGuid>4bbdadd1-3a14-448e-b418-c83e1f835d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/checkout</value>
-      <webElementGuid>a0e25c98-812c-4914-8767-cbed8398b615</webElementGuid>
+      <webElementGuid>8a6f7f10-ba19-4582-84ad-bfa7599bc06d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-bogo__cta</value>
-      <webElementGuid>5cb8be13-689f-4882-a7c1-f656388604e6</webElementGuid>
+      <webElementGuid>9de41c8a-9f40-4996-ad52-4b69c8a8eb1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
                     已加購特惠及贈品，繼續結帳
 
                 </value>
-      <webElementGuid>d45ad7ee-0004-4cbc-9342-f125c5e52e4e</webElementGuid>
+      <webElementGuid>a8602cfe-c3df-4f10-a943-2b39c4b9b9c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full md:max-w-contain md:py-40&quot;]/div[@class=&quot;mb-10 md:mb-40 lg:mb-60&quot;]/div[@class=&quot;o-bogo&quot;]/div[1]/div[@class=&quot;o-bogo__row&quot;]/div[@class=&quot;o-bogo__action&quot;]/a[@class=&quot;o-bogo__cta&quot;]</value>
-      <webElementGuid>3beb76fa-6e5c-46f4-b7e6-73ded9b159c5</webElementGuid>
+      <webElementGuid>aeddbff5-521c-412f-b481-8753fe98a5f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div[2]/div/div/div/div[2]/a</value>
-      <webElementGuid>f22ba5db-ef00-4488-b006-7d48151aa81f</webElementGuid>
+      <webElementGuid>e3d3f65b-6773-4b1f-b404-4fd03e0c363f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'已加購特惠及贈品，繼續結帳')]</value>
-      <webElementGuid>59c0dabc-2c08-4cd1-b5ef-3bfcadabc073</webElementGuid>
+      <webElementGuid>b133dd98-377f-4a87-8bab-5416e61b68c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[9]/following::a[1]</value>
-      <webElementGuid>82783c5a-6786-4dd0-b018-4d42edb16d64</webElementGuid>
+      <webElementGuid>35c88543-387c-4cfb-8e8c-487e653e6157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[8]/following::a[1]</value>
-      <webElementGuid>40653e8e-1ae8-445d-a293-4e4aad25c651</webElementGuid>
+      <webElementGuid>a3e87eee-2672-41af-afeb-e4f18445f36b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::a[1]</value>
-      <webElementGuid>fa86e80c-23c8-4d2f-ab5e-919d7a066e2f</webElementGuid>
+      <webElementGuid>f332174c-2dea-49b9-b438-b25d68cbe11b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::a[2]</value>
-      <webElementGuid>49d5312e-c83b-408b-8139-37b4308c44da</webElementGuid>
+      <webElementGuid>7ffcb4b9-f23d-432e-a6e1-ee196982b10e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='已加購特惠及贈品，繼續結帳']/parent::*</value>
-      <webElementGuid>f546662e-8afb-4298-b972-de8ecbb06e76</webElementGuid>
+      <webElementGuid>815727dd-03c5-41b7-bbae-eeba72705ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/checkout')])[2]</value>
-      <webElementGuid>087cd309-88f6-4806-8480-eb6bb2f2698f</webElementGuid>
+      <webElementGuid>4c789848-3ac9-4886-89be-480a39fcb306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/a</value>
-      <webElementGuid>7aa34bd2-113c-4a3d-b202-d27c0f2149b2</webElementGuid>
+      <webElementGuid>da89916b-83b7-4ff7-bcaa-3d8c32fb138f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
                     已加購特惠及贈品，繼續結帳
 
                 ')]</value>
-      <webElementGuid>ffd3a4f8-57cc-4c61-96a6-10bd02a1ffd6</webElementGuid>
+      <webElementGuid>8b49bcce-9783-4e9a-9345-6d7b0d00f074</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

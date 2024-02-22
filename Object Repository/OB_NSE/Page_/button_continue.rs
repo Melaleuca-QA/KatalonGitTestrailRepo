@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[1]/div[2]/div[1]/div[1]/div/div/form/div[2]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>abe0db0d-799b-48ad-92b0-31d4ca0dec58</webElementGuid>
+      <webElementGuid>ed3553f4-4390-4bdc-8896-47091ac04c89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1b7b363d-7700-4721-a82e-2cd3172f29aa</webElementGuid>
+      <webElementGuid>0774720a-e458-409b-9cf2-f0e21d635dd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-accountButton self-start</value>
-      <webElementGuid>dde6e2d0-40b7-4087-b5fd-476bcabf26f1</webElementGuid>
+      <webElementGuid>ee78727a-f3dc-4100-8447-649a1bdf6ade</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
                     繼續
 
                 </value>
-      <webElementGuid>ec872d77-fef9-4960-a1db-d50993d31907</webElementGuid>
+      <webElementGuid>dbf52c83-0696-468f-aafd-5553f661bd42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/div[1]/div[@class=&quot;o-access&quot;]/div[@class=&quot;o-access__container&quot;]/div[@class=&quot;o-access__transition&quot;]/div[@class=&quot;o-access__step&quot;]/div[@class=&quot;m-accessStep&quot;]/div[@class=&quot;m-accessStep__content&quot;]/form[@class=&quot;m-accessStep__form&quot;]/div[@class=&quot;m-accessStep__submit&quot;]/div[@class=&quot;m-accessStep__actions&quot;]/button[@class=&quot;a-accountButton self-start&quot;]</value>
-      <webElementGuid>09f531ca-9c30-4e2c-817f-bc107349e34c</webElementGuid>
+      <webElementGuid>9d690c1b-b704-43f9-a9b2-c18b36afd094</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>ce24aa80-676e-437b-9f3a-3d171823c4e2</webElementGuid>
+      <webElementGuid>0243c5d4-3032-41f9-a01b-7c1e6cadc785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div/div/div[2]/div/div/div/div/form/div[2]/div/button</value>
-      <webElementGuid>19898c28-0ffe-4a87-b69b-6d97d50b623a</webElementGuid>
+      <webElementGuid>cdafebf7-15ca-4edf-a732-c2fab507733d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='輸入您的手機號碼或電子信箱'])[1]/following::button[1]</value>
-      <webElementGuid>459b18de-83e4-4f8b-9484-c867a00756a3</webElementGuid>
+      <webElementGuid>720fa143-7a53-4d65-9a61-a5a0ca52fa14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='業務諮詢專線'])[1]/following::button[1]</value>
-      <webElementGuid>d6e6ea9c-6ba6-48b2-b191-54954ffdec6b</webElementGuid>
+      <webElementGuid>c9efec18-acab-4571-999e-bb73628167fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/preceding::button[1]</value>
-      <webElementGuid>865a67bb-5bc1-44c9-8fd6-118dc0849712</webElementGuid>
+      <webElementGuid>166aa7a0-2e72-4ba0-8977-f57f1190a6e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='繼續']/parent::*</value>
-      <webElementGuid>abf4bc48-2227-4cfd-b359-0d603469df2f</webElementGuid>
+      <webElementGuid>1214a2c3-dae0-4847-a822-d449cb402465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>bff27ccd-0f88-4215-aec4-db8c7d777c79</webElementGuid>
+      <webElementGuid>18cb9698-e5e2-4480-ac43-f0cc5edc0c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
                     繼續
 
                 ')]</value>
-      <webElementGuid>9794ceac-f0d2-42ef-94a6-11c47f19b4a3</webElementGuid>
+      <webElementGuid>f38b4a80-fdc5-4ef0-8fe9-d529c814d96d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

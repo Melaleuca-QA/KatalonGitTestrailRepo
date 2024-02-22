@@ -28,7 +28,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(10)
 

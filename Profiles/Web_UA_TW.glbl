@@ -387,7 +387,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://uatwweb.melaleuca.com/Promotion/CheckoutPromo'</initValue>
-      <name>url_CheckoutPromo_hk</name>
+      <name>url_hk_CheckoutPromo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

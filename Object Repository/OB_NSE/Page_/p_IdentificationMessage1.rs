@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_IdentificationMessage1</name>
+   <tag></tag>
+   <elementGuidId>35805e47-0172-45c2-ad66-6885dadf10f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[1]/div[2]/div[1]/div[2]/div/div[1]/h2/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>71e5a866-bbd1-4fd2-b86e-3e58ace5561e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.</value>
+      <webElementGuid>b8f841aa-cdc4-4e9a-af76-151b028f824b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__64__MelaId_lr4ipk6v__inputErrorId&quot;)/div[2]/span[1]/p[1]</value>
+      <webElementGuid>08152b04-0241-4694-abeb-73b1410024d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__VID__64__MelaId_lr4ipk6v__inputErrorId']/div[2]/span/p</value>
+      <webElementGuid>cf4231c0-ad70-451d-bd7f-818c5be53b9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='下一步'])[1]/following::p[1]</value>
+      <webElementGuid>a4f9ed3a-c6a6-4859-a722-7f2d7997d87e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請輸入驗證碼'])[1]/following::p[1]</value>
+      <webElementGuid>f008746c-e016-4656-873c-ff724b9bc944</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='業務諮詢專線'])[2]/preceding::p[1]</value>
+      <webElementGuid>d21a8f42-e078-4214-a786-e826be0a9f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='我們已傳送驗證碼'])[1]/preceding::p[2]</value>
+      <webElementGuid>9457d4de-86f6-46de-953a-1a1614f0600a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='驗證碼無效，請輸入正確驗證碼或']/parent::*</value>
+      <webElementGuid>6b2742c6-9ee0-4165-818e-c1c54a3e421e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/p</value>
+      <webElementGuid>e87f05d9-2765-44a6-afb4-99d9fc57f6d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.' or . = '驗證碼無效，請輸入正確驗證碼或 申請新的驗證碼.')]</value>
+      <webElementGuid>aec2b3f5-a61f-4b0d-b6b3-be5aa54308e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

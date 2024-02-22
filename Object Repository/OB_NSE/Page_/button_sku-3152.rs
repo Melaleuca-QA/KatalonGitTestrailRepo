@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_sku-5832</name>
+   <name>button_sku-3152</name>
    <tag></tag>
-   <elementGuidId>f997dd99-228b-4867-93c8-a8afed42d9b8</elementGuidId>
+   <elementGuidId>df5179f2-b307-418a-bc67-38b22b98df38</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[5]/article/div/div/button/span[2]</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[6]/article/div/div/button/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ad58b8cc-50e9-4791-a9cc-dae6e6af0ca3</webElementGuid>
+      <webElementGuid>942c35c0-a0bb-4426-bb01-9beecbfd4d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>561bdf0b-b4d6-4183-add4-baf0e4b425de</webElementGuid>
+      <webElementGuid>a5af6c3a-e4d4-464d-af52-19f2db21d4e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>選擇活力寶鈣錠</value>
-      <webElementGuid>5e8da270-0d59-4b23-928c-1677cbaeef07</webElementGuid>
+      <webElementGuid>56db9636-7848-48a8-9b00-7774206e9971</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>36029e5f-5d3e-4fc9-af98-d74739ff8a62</webElementGuid>
+      <webElementGuid>c63fce5f-61d5-40c8-9431-cd6f7532ad6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button justify-center -shelfToggle w-full</value>
-      <webElementGuid>8f8cefb5-a107-4d9d-a673-74ce1aa72f80</webElementGuid>
+      <webElementGuid>d2c63a28-f6fc-4227-824d-3b9767936df5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>+ shopping_cart 
                             選擇
                          </value>
-      <webElementGuid>79851e90-4ea8-42ae-b64e-b215cb5abe01</webElementGuid>
+      <webElementGuid>7a4ef84e-282f-4dce-9093-47bd70377d6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__main&quot;]/div[2]/div[@class=&quot;p-catListing__results&quot;]/ul[@class=&quot;p-catListing__grid&quot;]/li[@class=&quot;p-catListing__col&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]</value>
-      <webElementGuid>e1a2d781-0c55-4a8f-a4c8-19c3ac259aa0</webElementGuid>
+      <webElementGuid>380efdbe-b2da-4126-8d0d-53980a7c37c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
-      <webElementGuid>55e4dcbc-a164-4220-8da3-f4cc6c79646a</webElementGuid>
+      <webElementGuid>1ee2357f-f308-4f48-98f3-1dd078f8e994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CategoryListingComponent']/div[2]/div[2]/div[3]/ul/li[5]/article/div/div/button</value>
-      <webElementGuid>b2c4777d-1010-49e0-a166-f2104d0da237</webElementGuid>
+      <webElementGuid>cecca9b4-9bc2-4a80-a2a2-0cb615dfcabe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='售價'])[5]/following::button[1]</value>
-      <webElementGuid>33e07d0a-1c5b-4033-bc86-093adc604af2</webElementGuid>
+      <webElementGuid>f395ed56-b042-4b7d-9c7a-54c485100950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/article/div/div/button</value>
-      <webElementGuid>204d7290-9be7-46ca-94eb-d74c0d06a085</webElementGuid>
+      <webElementGuid>3e2484df-05e6-40c5-a0d2-5be8a45ff7c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                          ' or . = '+ shopping_cart 
                             選擇
                          ')]</value>
-      <webElementGuid>6d23425a-e16a-42a5-828e-8dea28c18b84</webElementGuid>
+      <webElementGuid>8cf476a9-f3f0-4242-b6f6-ddc853b57604</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

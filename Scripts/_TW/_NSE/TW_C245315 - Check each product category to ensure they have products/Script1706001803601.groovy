@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForAlert(5)
+
 '營養輔助食品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements'))
 
@@ -28,10 +30,17 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements_savings
 '所有產品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements_all'))
 
-'活力寶鈣錠'
-WebUI.click(findTestObject('OB_NSE/Page_/button_sku-2000'))
+if (GlobalVariable.run_env == 'ST') {
+    '寶維適CV'
+    WebUI.click(findTestObject('OB_NSE/Page_/button_sku-2000'))
+} else {
+    '活力寶鈣錠'
+    WebUI.click(findTestObject('OB_NSE/Page_/button_sku-405'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
+
+WebUI.waitForAlert(10)
 
 '體重管理及食品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_healthy-foods-and-drinks'))
@@ -47,6 +56,8 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_sku-7449'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(10)
+
 '素食'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_vegetarian'))
 
@@ -60,6 +71,8 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_sku-3918'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(10)
+
 '家用清潔'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_cleaning-and-laundry'))
 
@@ -71,12 +84,20 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_add to cart'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(10)
+
 '沐浴洗髮美體'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_personal-care'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_sku-5832'))
+if (GlobalVariable.run_env == 'ST') {
+    WebUI.click(findTestObject('OB_NSE/Page_/button_sku-3152'))
+} else {
+    WebUI.click(findTestObject('OB_NSE/Page_/button_sku-5832'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
+
+WebUI.waitForAlert(10)
 
 '專業護理'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pharmacy'))
@@ -85,10 +106,12 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_3847'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(20)
+
 '美妝保養'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_sei-bella-beauty'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(20)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'))
 
@@ -98,12 +121,16 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_70191'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(10)
+
 '精油'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_essential-oils'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_50059'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
+
+WebUI.waitForAlert(10)
 
 '新品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_new-products'))
@@ -112,10 +139,23 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_sku-8089'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
+WebUI.waitForAlert(10)
+
 '特惠專區'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_extra-savings'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_69984'))
+
+WebUI.waitForAlert(5)
+
+'choice sku to shopping cart'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to cart'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/img_4333'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+    WebUI.waitForAlert(5)
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_check shopping cart'))
 
@@ -125,32 +165,54 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_add qty'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku2'))
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku3'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_delete cart sku4'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku5'))
+WebUI.waitForAlert(5)
 
+//WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku5'))
+//WebUI.waitForAlert(5)
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku6'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku7'))
+WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku8'))
-
+//WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku7'))
+//WebUI.waitForAlert(5)
+//WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku8'))
+//WebUI.waitForAlert(5)
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_next step'))
 
+WebUI.waitForAlert(5)
+
 '本月加購&贈品專區'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+    WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+    WebUI.waitForAlert(5)
 
-WebUI.waitForAlert(10)
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+
+    WebUI.waitForAlert(5)
+}
+
+if (GlobalVariable.run_env != 'PD') {
+    WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_owing balance'), '123')
+
+    WebUI.waitForAlert(5)
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_pay'))
 
@@ -169,7 +231,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pay button'))
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_owing balance'), '123')
+WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
 

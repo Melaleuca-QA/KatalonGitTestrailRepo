@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.nse_GeneralError)
-
 WebUI.waitForAlert(5)
+
+WebUI.navigateToUrl(GlobalVariable.nse_GeneralError)
 
 'General Error Page'
 now_url = WebUI.getUrl()

@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Recording mode'
-if (false) {
-    GlobalVariable.tw_input_creditcard = '4080198467858103'
-} else {
-    'get credit card number'
-    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number1'), [:], FailureHandling.STOP_ON_FAILURE)
-}
-
 WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'close birthday\'s shopping'
@@ -34,17 +26,15 @@ if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellne
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart'))
 
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '1210.2')
-
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
-
 WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.2')
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
 
 WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
 
-WebUI.navigateToUrl(GlobalVariable.url_Cart)
+WebUI.waitForAlert(5)
+
+WebUI.focus(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
 WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
 
@@ -59,55 +49,67 @@ if (now_url == GlobalVariable.url_CheckoutPromo) {
     WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
 }
 
-WebUI.waitForAlert(5)
-
-WebUI.focus(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod'))
-
-WebUI.waitForAlert(5)
-
-WebUI.focus(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_add'))
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_add'))
-
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardHolderName'), 'EH 2.2 HK Test')
-
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_PaymethodToEdit.CardNumber'), GlobalVariable.tw_input_creditcard)
-
-WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '1', true)
-
-WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2040', true)
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
+//if (GlobalVariable.run_env == 'UA') {
+//    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
+//} else {
+//    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase2_tw_st'))
+//}
 
 WebUI.waitForAlert(5)
 
-WebUI.back()
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.click(findTestObject('OB_Web/Page_/button_ChangeShippingOptions'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_/span_Checkout_ChangePaymethod_edit'))
+WebUI.focus(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_month'), '12', true)
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_add'))
 
-WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Chectout_edit_year'), '2039', true)
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.ShipToName_tw'), 'shiptest')
 
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_save'))
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Checkout_ChangeAddress_add_city_tw'), '台北市', true)
+
+WebUI.selectOptionByValue(findTestObject('OB_Web/Page_/select_Checkout_ChangeAddress_add_suburb_tw'), '大同區', true)
+
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine1'), 'testaddress1')
+
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine2'), 'testaddress2')
+
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.DeliveryInstruction'), 'do not ship')
+
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.FormattedPhoneNumber'), '0911111111')
+
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_/span_Checkout_ChangePaymethod_delete'))
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_edit'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_delete_check'))
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine1'), 'testaddress3')
+
+WebUI.setText(findTestObject('OB_Web/Page_/input_AddressToEdit.AddressLine2'), 'testaddress4')
+
+WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_save'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangePaymethod_return'))
+now_url = WebUI.getUrl()
+
+println(now_url)
+
+if (now_url != GlobalVariable.url_ChangeAddress) {
+    WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_save'))
+
+    WebUI.waitForAlert(5)
+}
+
+//WebUI.click(findTestObject('OB_Web/Page_/button_Checkout_ChangeAddress_save'))
+//WebUI.waitForAlert(5)
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_delete'))
+
+WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_Checkout_ChangeAddress_ReturnToCheckout'))
 
 WebUI.waitForAlert(5)
 
@@ -115,7 +117,7 @@ WebUI.setText(findTestObject('OB_Web/Page_/input_paymethodCvv'), '123')
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_Web/Page_/button_Payment'))
+WebUI.click(findTestObject('OB_Web/Page_/button_TopCheckout_PlaceOrder'))
 
 if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_/div_3535'), 3)) {
     WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
@@ -125,13 +127,23 @@ WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Edit an existing pay method'
-GlobalVariable.test_case = '245352'
+'Verify the order checkout is secure (https in the url)'
+GlobalVariable.test_case = '245322'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Delete a pay method'
-GlobalVariable.test_case = '245355'
+'Add a new address'
+GlobalVariable.test_case = '245323'
+
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Edit an existing address'
+GlobalVariable.test_case = '245324'
+
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Delete an existing address'
+GlobalVariable.test_case = '245325'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

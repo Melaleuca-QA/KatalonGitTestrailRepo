@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[1]/article/div/div/button/span[2]</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[2]/article/div/div/button/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>011747c8-5cbd-4a8b-8eb6-d544674c2955</webElementGuid>
+      <webElementGuid>a3b0a068-7897-4cf6-b62c-8bf2876d3ebe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sr-only md:not-sr-only md:block</value>
-      <webElementGuid>6a2338ec-5d7b-46ec-bd3e-b8d8ea0388b6</webElementGuid>
+      <webElementGuid>ec9ddf0d-b1cb-4ec3-80fd-1f45e64e46c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
                             選擇
                         </value>
-      <webElementGuid>cd245072-bf3c-478a-8dc4-e441f3d76a47</webElementGuid>
+      <webElementGuid>772a65cd-1b45-43fc-a3a7-fdd58aa9154b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__main&quot;]/div[2]/div[@class=&quot;p-catListing__results&quot;]/ul[@class=&quot;p-catListing__grid&quot;]/li[@class=&quot;p-catListing__col&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]/span[@class=&quot;sr-only md:not-sr-only md:block&quot;]</value>
-      <webElementGuid>4702d832-3a03-4f8e-922c-d30cd6379005</webElementGuid>
+      <webElementGuid>9c47a395-69fd-4ad5-befc-c3b27ba57736</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CategoryListingComponent']/div[2]/div[2]/div[3]/ul/li[4]/article/div/div/button/span[2]</value>
-      <webElementGuid>4ba87cdb-b735-441a-8180-c1f1813cbf4c</webElementGuid>
+      <webElementGuid>c3d08713-81c1-450d-b504-b08747749d65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[5]/following::span[1]</value>
-      <webElementGuid>d983c3eb-fba4-4321-ad20-24d164179f68</webElementGuid>
+      <webElementGuid>023b7909-09a9-41a0-8035-ff2a52b4763d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[4]/following::span[2]</value>
-      <webElementGuid>b50226a1-12da-43ea-a9e3-0a74480ce1e9</webElementGuid>
+      <webElementGuid>069cc3dd-d3b8-4ccf-856f-528f4e3b2f1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to List:'])[4]/preceding::span[4]</value>
-      <webElementGuid>5af39896-86fe-46ce-9936-1a20265e6d08</webElementGuid>
+      <webElementGuid>965ef9e7-fb61-4e59-9a5a-8d28cb33acb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New List Name'])[4]/preceding::span[4]</value>
-      <webElementGuid>869625c6-753a-46da-8717-38e07eb87da6</webElementGuid>
+      <webElementGuid>d7130e07-3eff-4645-8933-08e1285ad859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/article/div/div/button/span[2]</value>
-      <webElementGuid>be7a005a-3cd5-4941-8751-105132ef4060</webElementGuid>
+      <webElementGuid>cc6b87d1-b144-4193-a914-a9181cac0448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
                         ' or . = '
                             選擇
                         ')]</value>
-      <webElementGuid>050e4cdd-ad25-44ba-899f-558b50883348</webElementGuid>
+      <webElementGuid>bdc6e3a1-05f2-48e2-86b2-8c63099461e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

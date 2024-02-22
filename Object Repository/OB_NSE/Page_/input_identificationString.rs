@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7368693e-77e5-415e-acef-143b0c2889f6</webElementGuid>
+      <webElementGuid>1ad43ca1-1eb3-4395-8a3f-d3112250fe98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>__VID__60__MelaId_lqykuo9k__emailPhoneInputId</value>
-      <webElementGuid>fec55747-1c6a-4df7-a302-dfde6d1e1733</webElementGuid>
+      <webElementGuid>305853d2-05d5-46a5-bead-31ff20e19e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>804fd711-f61b-4706-86f1-359622224e0f</webElementGuid>
+      <webElementGuid>dd034dba-6ea8-461b-be88-05c0ae0cd841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>identificationString</value>
-      <webElementGuid>45b36b0c-4d07-4b73-869e-40b329adea8e</webElementGuid>
+      <webElementGuid>d761b655-81e8-4e31-b917-c0ad31baccf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1bd2dfd2-88b0-442a-bd8a-9c690128d83c</webElementGuid>
+      <webElementGuid>db972582-25a0-4b9a-abff-e59aaf5df2a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-input -text</value>
-      <webElementGuid>1e1a2c6c-8e4b-4c88-953c-e00a630afbeb</webElementGuid>
+      <webElementGuid>cee28a9b-d108-48fa-9388-162901232378</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__VID__60__MelaId_lqykuo9k__emailPhoneInputId&quot;)</value>
-      <webElementGuid>1fbb1672-7f3c-44b5-81c6-f2a89d408961</webElementGuid>
+      <webElementGuid>44d26a3b-5df3-450b-8cfc-ad4ffe121073</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='__VID__60__MelaId_lqykuo9k__emailPhoneInputId']</value>
-      <webElementGuid>857198c3-d5ad-4a6e-83d1-84706b2ae628</webElementGuid>
+      <webElementGuid>01faeb89-dbd6-43c9-bd9d-1963a1d693ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div/div/div[2]/div/div/div/div/form/div/div/input</value>
-      <webElementGuid>d1ae9c68-7326-4396-9a4a-2d95f256be89</webElementGuid>
+      <webElementGuid>50b51e60-3001-4e6d-9fe4-6f0a408abe45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>c8ddcfe3-2046-4c39-8c59-35284c65b331</webElementGuid>
+      <webElementGuid>a3e2a5f1-8373-4824-aa31-63604df2fccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = '__VID__60__MelaId_lqykuo9k__emailPhoneInputId' and @type = 'text' and @name = 'identificationString']</value>
-      <webElementGuid>425438c6-9b9e-4fa6-9800-4c2205f4ba0d</webElementGuid>
+      <webElementGuid>90038b71-476a-4ada-aec6-126866399cf4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

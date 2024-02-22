@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>11283,11330</description>
-      <initValue>'11283'</initValue>
+      <description>11407,11598</description>
+      <initValue>'11598'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -383,5 +383,60 @@
       <description></description>
       <initValue>'13100010041'</initValue>
       <name>hk_DataEntry_Enroller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com/Promotion/CheckoutPromo'</initValue>
+      <name>url_hk_CheckoutPromo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com'</initValue>
+      <name>nse_url_uattw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tw1'</initValue>
+      <name>nse_tw_username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>password</description>
+      <initValue>'8SQVv/p9jVScEs4/2CZsLw=='</initValue>
+      <name>nse_tw_password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password1</description>
+      <initValue>'p4y+y39Ir5O\r\ny1MY8jPt0uQ=='</initValue>
+      <name>nse_tw_newpswd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>nse_tw_url_Checkout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com/roadblock'</initValue>
+      <name>nse_roadblock</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com/generalerror.aspx'</initValue>
+      <name>nse_GeneralError</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com/'</initValue>
+      <name>nse_ProductStore</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tw.melaleuca.com/BusinessCenter/Home'</initValue>
+      <name>nse_BusinessCenter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://productstore2-tw-preview.melaleuca.com/help-center/contactustaiwan'</initValue>
+      <name>nse_contactus</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

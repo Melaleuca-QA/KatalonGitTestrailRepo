@@ -22,7 +22,7 @@ if (true) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number1'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -36,7 +36,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
@@ -53,7 +53,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
@@ -68,11 +68,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
@@ -87,7 +83,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
@@ -102,7 +98,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
@@ -117,14 +113,18 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_shopping_cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
+if (GlobalVariable.run_env != 'PD') {
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+    WebUI.waitForAlert(5)
+}
+
 //WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
-
 //WebUI.waitForAlert(5)
-
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
 WebUI.waitForAlert(5)
@@ -142,10 +142,6 @@ WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_proceed to checkout')
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
-
-WebUI.waitForAlert(5)
-
 WebUI.back()
 
 WebUI.back()
@@ -155,39 +151,39 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://productstore2-uattw.melaleuca.com/cart')
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_delete item2'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/img_delete item3'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_delete item4'))
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/img_delete item5'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete item'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_delete item6'))
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
+
+WebUI.waitForAlert(5)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
