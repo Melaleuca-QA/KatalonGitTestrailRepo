@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2494e590-7a92-475d-9660-9ea221bd7b73</webElementGuid>
+      <webElementGuid>ed50438b-8ffd-464a-a81c-7df1ac51ab56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/60138h-01-zhtw.png</value>
-      <webElementGuid>cd436736-e9f6-4f01-8f09-81cffb86d2f1</webElementGuid>
+      <webElementGuid>0cc7c406-040d-4735-9fd6-d332892139d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>柳橙口味</value>
-      <webElementGuid>241d97e1-bc23-4248-8b2f-af584ecb2834</webElementGuid>
+      <webElementGuid>dde68aaf-4751-462d-9d72-c908b3d8cfc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-refinerImage__img</value>
-      <webElementGuid>90d70ac3-6244-43d0-976d-2d35c5c5a6f1</webElementGuid>
+      <webElementGuid>123c70cc-504c-4b69-99fb-e9e3d8de30c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__VID__564__MelaId_lsogrevx__contentId&quot;)/div[@class=&quot;o-configuratorAcc__content&quot;]/div[@class=&quot;ps&quot;]/ul[@class=&quot;o-configuratorAcc__list&quot;]/li[@class=&quot;o-configuratorAcc__item&quot;]/button[@class=&quot;m-refinerImage&quot;]/div[@class=&quot;m-refinerImage__media&quot;]/img[@class=&quot;m-refinerImage__img&quot;]</value>
-      <webElementGuid>9c5c844a-e28b-434b-bc29-35f172c4e913</webElementGuid>
+      <webElementGuid>36e7405e-611c-4c21-8777-150ccf3c2525</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__VID__564__MelaId_lsogrevx__contentId']/div/div/ul/li/button/div/img</value>
-      <webElementGuid>cfda9815-cb89-45a5-b069-d7d3efcb773c</webElementGuid>
+      <webElementGuid>d48551de-20de-4641-901e-68db4709e068</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='柳橙口味']</value>
-      <webElementGuid>8c1d0ede-d3c5-4004-a380-0cda0bbc2cb0</webElementGuid>
+      <webElementGuid>696ec8a2-74f0-461b-af0e-de35e63c715d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div/img</value>
-      <webElementGuid>5b5cad03-b142-40ba-9a15-33429d2fd880</webElementGuid>
+      <webElementGuid>54db39dc-f38c-4d23-be2d-ba76175e06dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/60138h-01-zhtw.png' and @alt = '柳橙口味']</value>
-      <webElementGuid>cb78d6d9-63f4-4721-b1d0-692e8d8abbde</webElementGuid>
+      <webElementGuid>c10239a1-ad59-4e88-af24-a43fac7860ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

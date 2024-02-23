@@ -231,13 +231,21 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pay button'))
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+if (GlobalVariable.run_env == 'PD') {
+    '取消訂單'
+    WebUI.click(findTestObject('OB_NSE/Page_/a_cancel-order'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+    '確定取消訂單?'
+    WebUI.click(findTestObject('OB_NSE/Page_/button_cancel-order'))
+} else {
+    WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
+}
 
 WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
 

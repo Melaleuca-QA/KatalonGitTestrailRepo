@@ -27,6 +27,8 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signon'))
 
+WebUI.waitForAlert(5)
+
 //WebUI.navigateToUrl('https://productstore2-uatjp.melaleuca.com/account/signin?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dmelaleuca-sitecore-dev%26culture%3den-US%26nonce%3d7cfaa58d-515c-4bf8-b6d1-5334d47e8b67%26redirect_uri%3dhttps%253A%252F%252Fproductstore2-uatjp.melaleuca.com%252Fdepaccount%252FLoadProfile%26response_mode%3dform_post%26response_type%3dcode%2520id_token%26scope%3dopenid%2520offline_access%2520DEPInterface.API.Full%2520CustomerAccount.API.Full%2520Order.API.Full%2520Product.API.Full%2520Communication.API.Full%2520Address.API.Full%2520Organization.API.Full%2520SubscribedServices.API.Full%2520PayMethod.API.Full%2520Document.API.Full%2520BackupOrder.API.Full%2520Promotion.API.Full%2520LSD.API.Full%26state%3dhttps%253A%252F%252Fproductstore2-uatjp.melaleuca.com%252F')
 WebUI.setText(findTestObject('OB_NSE/Page_/input_username'), GlobalVariable.nse_tw_username1)
 

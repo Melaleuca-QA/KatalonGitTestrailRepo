@@ -21,5 +21,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signout'))
 
+WebUI.waitForAlert(5)
+
 WebUI.closeBrowser()
 

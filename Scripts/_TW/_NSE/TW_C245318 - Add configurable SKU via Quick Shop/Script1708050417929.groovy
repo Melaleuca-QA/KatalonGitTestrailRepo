@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHand
 
 WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '6608')
+WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '1008')
 
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
@@ -46,6 +46,8 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_choice sku'))
+
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_7911-sku1'))
 
@@ -72,10 +74,17 @@ WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
 
-WebUI.scrollToElement(findTestObject('OB_NSE/Page_/span_shopping_cart sku2'), 5, FailureHandling.STOP_ON_FAILURE)
+if (GlobalVariable.run_env == 'ST') {
+    WebUI.scrollToElement(findTestObject('OB_NSE/Page_/span_shopping_cart sku4'), 5, FailureHandling.STOP_ON_FAILURE)
 
-'4467'
-WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart sku3'))
+    '4467'
+    WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart sku5'))
+} else {
+    WebUI.scrollToElement(findTestObject('OB_NSE/Page_/span_shopping_cart sku2'), 5, FailureHandling.STOP_ON_FAILURE)
+
+    '4467'
+    WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart sku3'))
+}
 
 WebUI.waitForAlert(10)
 
@@ -98,15 +107,25 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_next step'))
 WebUI.waitForAlert(10)
 
 '本月加購&贈品專區'
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+    WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+
+    WebUI.waitForAlert(5)
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+}
 
 WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+if (GlobalVariable.run_env != 'PD') {
+    WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+
+    WebUI.waitForAlert(5)
+}
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
 
@@ -227,13 +246,21 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pay button'))
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_owing balance'), '123')
+if (GlobalVariable.run_env == 'PD') {
+    '取消訂單'
+    WebUI.click(findTestObject('OB_NSE/Page_/a_cancel-order'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+    '確定取消訂單?'
+    WebUI.click(findTestObject('OB_NSE/Page_/button_cancel-order'))
+} else {
+    WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
+}
 
 WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
 
