@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>11407,11598</description>
-      <initValue>'11407'</initValue>
+      <description>12237,12461</description>
+      <initValue>'12461'</initValue>
       <name>run_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>tw1(1211982403), tw2(1211982588) ,tw3(1211933277), tw7(1211983275)</description>
-      <initValue>'tw2'</initValue>
+      <initValue>'tw1'</initValue>
       <name>tw_input_username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

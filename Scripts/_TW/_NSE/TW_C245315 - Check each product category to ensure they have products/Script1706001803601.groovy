@@ -106,14 +106,20 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_3847'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(20)
+WebUI.waitForAlert(10)
 
 '美妝保養'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_sei-bella-beauty'))
 
-WebUI.waitForAlert(20)
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'))
+
+WebUI.waitForAlert(10)
+
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'))
+}
 
 WebUI.waitForAlert(10)
 
@@ -195,16 +201,20 @@ WebUI.waitForAlert(5)
 
 '本月加購&贈品專區'
 if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
+    if (false) {
+        WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
 
-    WebUI.waitForAlert(5)
+        WebUI.waitForAlert(5)
 
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+        WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
 
-    WebUI.waitForAlert(5)
+        WebUI.waitForAlert(5)
 
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
-
+        WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
+    } else {
+        WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
+    }
+    
     WebUI.waitForAlert(5)
 }
 
@@ -236,16 +246,20 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.click(findTestObject('OB_NSE/Page_/a_cancel-order'))
 
     '確定取消訂單?'
-    WebUI.click(findTestObject('OB_NSE/Page_/button_cancel-order'))
+    WebUI.click(findTestObject('OB_NSE/Page_/button_cancel-order' //  WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
+            ))
 } else {
     WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
-
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
 }
 
 WebUI.waitForAlert(10)
+
+'close continue shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/button_continue shopping2'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping2'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
 

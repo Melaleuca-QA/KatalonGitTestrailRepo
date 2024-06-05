@@ -49,15 +49,21 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_choice sku'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_7911-sku1'))
+'Single SKU'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/a_view cart'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
+} else {
+    'Multiple SKUs'
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_7911-sku1'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_7911-sku2'))
+    WebUI.click(findTestObject('OB_NSE/Page_/img_7911-sku2'))
 
-WebUI.waitForAlert(10)
+    WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
 
-WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
+    WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
+}
 
 WebUI.waitForAlert(10)
 
@@ -88,17 +94,23 @@ if (GlobalVariable.run_env == 'ST') {
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img1'))
+'Single SKU'
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'), 3)) {
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'))
+} else {
+    'Three SKUs'
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img1'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img2'))
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img2'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img3'))
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_refinerImage_img3'))
 
-WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'))
+}
 
 WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
 
@@ -108,18 +120,14 @@ WebUI.waitForAlert(10)
 
 '本月加購&贈品專區'
 if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'), 3)) {
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
-
-    WebUI.waitForAlert(5)
-
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
-
-    WebUI.waitForAlert(5)
-
+    //WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_promotion sku'))
+    //WebUI.waitForAlert(5)
+    //WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_add promotion to cart'))
+    //WebUI.waitForAlert(5)
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
-}
 
-WebUI.waitForAlert(10)
+    WebUI.waitForAlert(10)
+}
 
 if (GlobalVariable.run_env != 'PD') {
     WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')

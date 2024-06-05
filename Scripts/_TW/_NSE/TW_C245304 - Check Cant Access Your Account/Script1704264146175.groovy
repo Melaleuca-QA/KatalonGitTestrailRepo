@@ -89,7 +89,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_IdentificationPin'))
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_IdentificationPin'), '123456')
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_next'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_headicon'))
 
 WebUI.waitForAlert(5)
 
@@ -144,7 +144,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_IdentificationPin'), FailureHandl
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_IdentificationPin'), '123456')
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_next'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_headicon'))
 
 WebUI.waitForAlert(5)
 

@@ -27,9 +27,15 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/a_BIN GEN
 
 WebUI.setText(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/input_BIN_namso-bin'), '405430')
 
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
+
+'Page Up'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 
 result1 = WebUI.getText(findTestObject('OB_Web/Page_VCCGenerator/div_CreditCardNumber'))
 

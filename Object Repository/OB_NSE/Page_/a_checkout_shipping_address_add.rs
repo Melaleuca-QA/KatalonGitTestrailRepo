@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_checkout_shipping_address_add</name>
+   <tag></tag>
+   <elementGuidId>cd4665f6-1d2d-46d3-b997-dc3e7c596bbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[3]/div/div/div/div/div/div/div[4]/div/a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f802a738-aa8b-4dab-be19-9c6fe1014f46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/payments-and-addresses/add-new-shipping-address?backTo=https://productstore2-uattw.melaleuca.com/checkout</value>
+      <webElementGuid>9b34fc27-e3a1-4ef5-8243-d74f7d3d3985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -white rounded px-15 md:py-10 md:px-30 md:text-base mb-20 md:mb-0</value>
+      <webElementGuid>d66131c8-5730-4082-9cbe-06fdd65e3ad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+                                    新增配送地址
+                                </value>
+      <webElementGuid>10d50714-d8c4-495a-a4cc-2e90aca5426d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__52__MelaId_lwsxeo8d__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__action&quot;]/div[@class=&quot;flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center&quot;]/a[@class=&quot;a-button -white rounded px-15 md:py-10 md:px-30 md:text-base mb-20 md:mb-0&quot;]</value>
+      <webElementGuid>678a763b-e783-4889-9de4-2adda717526a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__VID__52__MelaId_lwsxeo8d__accordionId']/div/div[5]/div/a</value>
+      <webElementGuid>7b04dc21-d438-424c-8040-f06e058db57e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'新增配送地址')]</value>
+      <webElementGuid>a0c318f8-05e5-465a-b92e-e8c9039c82b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='林慧芬'])[2]/following::a[1]</value>
+      <webElementGuid>0b57e267-ddaa-4b5a-9bbf-87f52d625d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='管理您的配送地址'])[1]/preceding::a[1]</value>
+      <webElementGuid>f8f24b0b-eae1-40bf-8d81-1ac22f8db320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款方式'])[1]/preceding::a[2]</value>
+      <webElementGuid>7f0852e5-428a-400b-8dc0-5596682f58c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='新增配送地址']/parent::*</value>
+      <webElementGuid>cdba33d9-0f42-4ef6-a266-8340396f04a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-account/payments-and-addresses/add-new-shipping-address?backTo=https://productstore2-uattw.melaleuca.com/checkout')]</value>
+      <webElementGuid>6f6825cc-6019-458d-b36d-3cffdd039c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/a</value>
+      <webElementGuid>abbce557-c1f1-483f-96a7-82a0557f0f29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/payments-and-addresses/add-new-shipping-address?backTo=https://productstore2-uattw.melaleuca.com/checkout' and (text() = '
+
+                                    新增配送地址
+                                ' or . = '
+
+                                    新增配送地址
+                                ')]</value>
+      <webElementGuid>94a8eee5-6ff2-4232-8605-cde29dfb1cfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_next</name>
+   <name>button_headicon</name>
    <tag></tag>
    <elementGuidId>d0afd230-0ab6-43f6-aadb-16bc2e6e3567</elementGuidId>
    <selectorCollection>

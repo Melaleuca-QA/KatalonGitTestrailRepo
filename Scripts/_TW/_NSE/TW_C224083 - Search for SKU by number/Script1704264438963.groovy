@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Recording mode'
-if (true) {
+if (false) {
     GlobalVariable.tw_input_creditcard = '4000176233801257'
 } else {
     'get credit card number'
-    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number1'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -117,7 +117,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
 WebUI.waitForAlert(5)
 
-if (GlobalVariable.run_env != 'PD') {
+if (false) { //(GlobalVariable.run_env != 'PD') {
     WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
 
     WebUI.waitForAlert(5)
@@ -187,10 +187,8 @@ WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_continue to shopping'))
-
-WebUI.waitForAlert(5)
-
+//WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
+//WebUI.waitForAlert(5)
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Search for SKU by number'

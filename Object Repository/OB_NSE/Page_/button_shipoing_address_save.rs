@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_faq_cs_shipping_2</name>
+   <name>button_shipoing_address_save</name>
    <tag></tag>
-   <elementGuidId>0377d3aa-bfb0-45ac-8407-1347d1516f41</elementGuidId>
+   <elementGuidId>e13d6533-50fb-4f93-8487-08ffdd1a39d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/section[1]/div/div/div[2]/div[2]/h2/button</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>button.o-addressForm__button.-save</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,39 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c5c49dda-6890-4faa-93d2-e2ccfa4db57e</webElementGuid>
+      <webElementGuid>87fba18e-499e-47ab-a8fe-4471d465a55e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
-      <webElementGuid>bf914dc1-1b5e-4b8d-b4de-a665dc43b330</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>SID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
-      <webElementGuid>a130506c-3b71-4774-a97c-cb3d716fe14e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>e7168978-460a-44b9-a9c7-a23034f61a5a</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>30331c95-6cb5-44bc-b885-4f0cd9821756</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-accordion__toggler</value>
-      <webElementGuid>45380606-b24f-444c-872a-a94ad97401fe</webElementGuid>
+      <value>o-addressForm__button -save</value>
+      <webElementGuid>184af0c3-ab89-4c5b-a34c-9cf50dea34e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,49 +46,49 @@
       <name>text</name>
       <type>Main</type>
       <value>
-訂單完成後，多久可以收到產品呢?
-</value>
-      <webElementGuid>9292b776-97a2-421f-b50b-e05bca70cc02</webElementGuid>
+                    儲存
+                </value>
+      <webElementGuid>40dc911a-f97a-42aa-80c1-46c829923ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}&quot;)</value>
-      <webElementGuid>1b309671-422b-4174-a048-4d7248fa7dda</webElementGuid>
+      <value>id(&quot;address-form-vue&quot;)/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex pb-30 to-xs:justify-between&quot;]/div[@class=&quot;text-center to-xs:w-1_2&quot;]/button[@class=&quot;o-addressForm__button -save&quot;]</value>
+      <webElementGuid>43f74454-8d5a-412d-9df3-9bd1c525e408</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}']</value>
-      <webElementGuid>f69e734b-1d18-471f-b73c-44f17ac71c37</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>bcf3362b-2c22-4f03-8859-345da7f0a336</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
-      <webElementGuid>4b843478-06e3-4011-9252-f2d9fa8426e9</webElementGuid>
+      <value>//form[@id='address-form-vue']/div[2]/div[2]/div[2]/button</value>
+      <webElementGuid>1eb47043-409c-4262-9796-abbbcbaf2e55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='運費如何計算?'])[1]/following::button[1]</value>
-      <webElementGuid>9303da59-09da-4d77-8738-617f564e21a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/following::button[1]</value>
+      <webElementGuid>44b3efc6-d690-4c00-8062-b6eb47f96711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='物流與運費'])[5]/following::button[2]</value>
-      <webElementGuid>9b105b01-cdde-4a38-8605-e65ab2fc53cf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='設定為我的預設送貨地址'])[1]/following::button[2]</value>
+      <webElementGuid>00888cb3-745d-4a37-9b2d-2d9260dc958f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,42 +96,42 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
-      <webElementGuid>3b6cdf59-a3ca-4e06-934b-3ad1275e229c</webElementGuid>
+      <webElementGuid>f416b2ab-d32b-4a09-b950-ddfe8100793f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
-      <webElementGuid>8af753fb-55f9-4e33-aaa9-4d567458dffb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[2]/preceding::button[1]</value>
+      <webElementGuid>9a873aba-e776-4b5a-90a6-f6fc2ce4c902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='訂單完成後，多久可以收到產品呢?']/parent::*</value>
-      <webElementGuid>4210ca60-ba6e-4b22-9a0d-210439ef7a58</webElementGuid>
+      <value>//*/text()[normalize-space(.)='儲存']/parent::*</value>
+      <webElementGuid>cab3d0fe-3145-454f-b376-23b5bb2473cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/h2/button</value>
-      <webElementGuid>62ed0879-1942-4398-8c92-2be73d363649</webElementGuid>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>ed815f38-8b1c-4d1e-b812-0f083296fd43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}' and (text() = '
-訂單完成後，多久可以收到產品呢?
-' or . = '
-訂單完成後，多久可以收到產品呢?
-')]</value>
-      <webElementGuid>46994076-db12-405c-badc-63d89e667033</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = '
+                    儲存
+                ' or . = '
+                    儲存
+                ')]</value>
+      <webElementGuid>ceaa7fc1-97b8-4234-ae7a-c06b601d24b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

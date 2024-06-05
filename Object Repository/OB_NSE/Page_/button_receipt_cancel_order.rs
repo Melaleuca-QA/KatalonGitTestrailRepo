@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_faq_cs_shipping_2</name>
+   <name>button_receipt_cancel_order</name>
    <tag></tag>
-   <elementGuidId>0377d3aa-bfb0-45ac-8407-1347d1516f41</elementGuidId>
+   <elementGuidId>78750f3f-6256-4f6e-b3a3-3e96217e953a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/section[1]/div/div/div[2]/div[2]/h2/button</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[4]/div[2]/div[2]/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,39 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c5c49dda-6890-4faa-93d2-e2ccfa4db57e</webElementGuid>
+      <webElementGuid>50782d5c-beaf-4cdd-85be-9e5b191bf321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
-      <webElementGuid>bf914dc1-1b5e-4b8d-b4de-a665dc43b330</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>SID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}</value>
-      <webElementGuid>a130506c-3b71-4774-a97c-cb3d716fe14e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>e7168978-460a-44b9-a9c7-a23034f61a5a</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c5a59260-a39f-441a-8925-8d9463fa4bbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-accordion__toggler</value>
-      <webElementGuid>45380606-b24f-444c-872a-a94ad97401fe</webElementGuid>
+      <value>a-button -backupOrder w-full -center -white md:mb-0</value>
+      <webElementGuid>c951ea87-64b3-4a54-9308-066603a74f62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,49 +46,49 @@
       <name>text</name>
       <type>Main</type>
       <value>
-訂單完成後，多久可以收到產品呢?
-</value>
-      <webElementGuid>9292b776-97a2-421f-b50b-e05bca70cc02</webElementGuid>
+    取消訂單
+    </value>
+      <webElementGuid>13c20ab0-a058-4db8-a45d-1683c51c1f3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}&quot;)</value>
-      <webElementGuid>1b309671-422b-4174-a048-4d7248fa7dda</webElementGuid>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-receipt&quot;]/div[@class=&quot;p-receipt__wrapper&quot;]/div[@class=&quot;p-receipt__content&quot;]/div[@class=&quot;p-receipt__side&quot;]/div[@class=&quot;p-receipt__actions&quot;]/div[@class=&quot;mb-20&quot;]/button[@class=&quot;a-button -backupOrder w-full -center -white md:mb-0&quot;]</value>
+      <webElementGuid>d07f9aee-dcc4-4cb0-bb94-5b1b38e36ab0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}']</value>
-      <webElementGuid>f69e734b-1d18-471f-b73c-44f17ac71c37</webElementGuid>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>4d863ea2-4510-4ef2-9031-087c9d0ad3e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='mainContent']/section/div/div/div[2]/div[2]/h2/button</value>
-      <webElementGuid>4b843478-06e3-4011-9252-f2d9fa8426e9</webElementGuid>
+      <value>//main[@id='mainContent']/div/div/div/div[4]/div[2]/div[2]/div[2]/button</value>
+      <webElementGuid>93d6d82c-f7be-41f5-8466-add9e6555733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='運費如何計算?'])[1]/following::button[1]</value>
-      <webElementGuid>9303da59-09da-4d77-8738-617f564e21a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款'])[1]/following::button[1]</value>
+      <webElementGuid>06c9dc47-d60b-47ac-9481-57d708aafad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='物流與運費'])[5]/following::button[2]</value>
-      <webElementGuid>9b105b01-cdde-4a38-8605-e65ab2fc53cf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='本次訂單為您節省NT$1,110元'])[1]/following::button[1]</value>
+      <webElementGuid>c3d280d5-23ab-4052-9607-a97f0d9d9932</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,42 +96,42 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[1]/preceding::button[1]</value>
-      <webElementGuid>3b6cdf59-a3ca-4e06-934b-3ad1275e229c</webElementGuid>
+      <webElementGuid>ddc5d694-2cd2-4392-b8a5-0b9033301ae6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Content Loading'])[1]/preceding::button[1]</value>
-      <webElementGuid>8af753fb-55f9-4e33-aaa9-4d567458dffb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全新網站使用體驗問卷'])[2]/preceding::button[1]</value>
+      <webElementGuid>0b591b4a-438c-45b6-bd3e-418d341a6eb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='訂單完成後，多久可以收到產品呢?']/parent::*</value>
-      <webElementGuid>4210ca60-ba6e-4b22-9a0d-210439ef7a58</webElementGuid>
+      <value>//*/text()[normalize-space(.)='取消訂單']/parent::*</value>
+      <webElementGuid>cb5afd89-8566-44d2-9595-518d166e6480</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/h2/button</value>
-      <webElementGuid>62ed0879-1942-4398-8c92-2be73d363649</webElementGuid>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>402457cd-58c3-47f5-ae83-98b9bd0581c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'ID_{EAC02AC1-B9B8-4C57-A9C6-E86743CD7478}' and (text() = '
-訂單完成後，多久可以收到產品呢?
-' or . = '
-訂單完成後，多久可以收到產品呢?
-')]</value>
-      <webElementGuid>46994076-db12-405c-badc-63d89e667033</webElementGuid>
+      <value>//button[@type = 'button' and (text() = '
+    取消訂單
+    ' or . = '
+    取消訂單
+    ')]</value>
+      <webElementGuid>e1ac182a-99db-4cff-820d-5b02795794e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

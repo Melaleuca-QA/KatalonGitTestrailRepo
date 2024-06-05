@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[5]/article/div/div/button/span[2]</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[2]/div[3]/ul/li[16]/article/div/div/button/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7c7b375-ec5a-4512-920d-fab75e5a791b</webElementGuid>
+      <webElementGuid>326b2cea-3a5b-4fcf-a4ed-6c312f35e91c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4169a31b-cb4f-44bd-94b7-4d94a83f61db</webElementGuid>
+      <webElementGuid>14c8ab50-f0bb-4440-801f-3d43182be3a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>選擇活力寶鈣錠</value>
-      <webElementGuid>148552ea-bebe-493a-96a5-6afdeb5fc2d9</webElementGuid>
+      <webElementGuid>30c7cf6e-48f7-49cb-9870-9aecd44681f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3910421b-df84-46e9-867f-b5a7f0ace614</webElementGuid>
+      <webElementGuid>3a883773-0876-4ded-b3df-37df2b4ddb0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-button justify-center -shelfToggle w-full</value>
-      <webElementGuid>68ed5943-8e6a-4ddb-aaf6-2c39ef7bb9e8</webElementGuid>
+      <webElementGuid>48f71b9b-51b7-42fc-8038-b5649d954a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>+ shopping_cart 
                             選擇
                          </value>
-      <webElementGuid>6b549d87-ace4-488e-bc6b-e8f27faf9ed0</webElementGuid>
+      <webElementGuid>c2676cb2-3157-4dec-b4fd-8ecc85db9947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__main&quot;]/div[2]/div[@class=&quot;p-catListing__results&quot;]/ul[@class=&quot;p-catListing__grid&quot;]/li[@class=&quot;p-catListing__col&quot;]/article[@class=&quot;m-prodCard -grid&quot;]/div[@class=&quot;m-prodCard__row -actions&quot;]/div[@class=&quot;m-prodCard__button -shelfToggle&quot;]/button[@class=&quot;a-button justify-center -shelfToggle w-full&quot;]</value>
-      <webElementGuid>66a9c873-25c3-4ee0-8b7d-95349470415b</webElementGuid>
+      <webElementGuid>69784127-ccf2-4635-b5d8-c322dcd748da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
-      <webElementGuid>3838fdc6-edf7-46ff-bbfa-6c487b3ed381</webElementGuid>
+      <webElementGuid>d8ab0a4d-c73a-4953-b2e1-e9ac0b59b1c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CategoryListingComponent']/div[2]/div[2]/div[3]/ul/li[5]/article/div/div/button</value>
-      <webElementGuid>4cfe513d-c57f-4143-8f94-eb22c3958531</webElementGuid>
+      <webElementGuid>bb8065ad-be4f-40f2-a345-037ae4e368af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='售價'])[5]/following::button[1]</value>
-      <webElementGuid>bb3d2635-93e6-4356-9334-b0149d790163</webElementGuid>
+      <webElementGuid>c6f406d4-6133-4b6c-860c-e80b9d20d511</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/article/div/div/button</value>
-      <webElementGuid>adafb763-88b2-4bc5-8be3-76a25dcbf35d</webElementGuid>
+      <webElementGuid>36e4c258-ecb8-46d0-b0dc-9cd4122af5a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                          ' or . = '+ shopping_cart 
                             選擇
                          ')]</value>
-      <webElementGuid>c81191d7-c4d4-4ba8-a831-0bb2644f7952</webElementGuid>
+      <webElementGuid>d1a0fcdb-3f55-4e72-8567-268a7ae8da8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

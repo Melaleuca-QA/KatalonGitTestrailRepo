@@ -6,11 +6,11 @@
    <elementGuidId>cec41bb9-6783-478f-bb2f-355383580132</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[4]/div[1]/div[6]/p[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[4]/div[1]/div[6]/div/p[2]/span</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>44dbdfc3-5e64-4e73-bd52-1ea52e567118</webElementGuid>
+      <webElementGuid>69ae80bf-9b6c-46d1-a059-bb54955e10b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-checkoutLSD__amount</value>
-      <webElementGuid>7f03bd23-61fb-4ce8-a1c4-ef67b09f8ec2</webElementGuid>
+      <webElementGuid>707c1c96-ec8e-45b6-879b-aefcbb8253bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NT$165</value>
-      <webElementGuid>81651315-5562-43f7-80f0-26e4ec954e10</webElementGuid>
+      <webElementGuid>7f9d26be-6cd8-476f-9cfd-dac0cc479c57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__main&quot;]/div[8]/div[@class=&quot;m-checkoutLSD&quot;]/p[@class=&quot;m-checkoutLSD__text&quot;]/span[@class=&quot;m-checkoutLSD__amount&quot;]</value>
-      <webElementGuid>76391782-ce44-47ff-b830-5ef06cb02316</webElementGuid>
+      <webElementGuid>c834bcf1-7ed0-4016-8b2a-f226457c0e6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='mainContent']/div/div/div/div[3]/div/div[8]/div/p[2]/span</value>
-      <webElementGuid>c32857b9-3096-498a-946c-6fab9ee60389</webElementGuid>
+      <webElementGuid>bfe98b85-9fbb-46f4-91c3-a0c33318fce4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$165'])[1]/following::span[1]</value>
-      <webElementGuid>088323d3-322c-4b76-83cc-de1ccc0c09c0</webElementGuid>
+      <webElementGuid>85b4aa0f-621c-4f5e-9fb5-9e540a466078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[2]/following::span[2]</value>
-      <webElementGuid>973865ae-6264-43be-b2ec-0ad3c805ceda</webElementGuid>
+      <webElementGuid>0a5734d4-3b63-4a68-be8f-9642c3f643b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='結帳明細'])[1]/preceding::span[1]</value>
-      <webElementGuid>11a117bb-5017-4e3f-bed7-64ffbb7faf3d</webElementGuid>
+      <webElementGuid>92570d5a-2fd3-4456-bd97-e54083d21a21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品小計'])[1]/preceding::span[2]</value>
-      <webElementGuid>d21a9229-64d7-470b-9d5f-8245f2267a89</webElementGuid>
+      <webElementGuid>41280059-037e-40eb-aa99-0e7a6ffc196a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]/span</value>
-      <webElementGuid>4e80dc35-398c-4628-a9f0-84733f32a3d5</webElementGuid>
+      <webElementGuid>859df0dd-4e9a-40e4-8063-c73bf26fc7cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'NT$165' or . = 'NT$165')]</value>
-      <webElementGuid>4272a231-3942-4c38-a770-979bb456ac2b</webElementGuid>
+      <webElementGuid>2de2076e-dcbd-4d6d-aee5-c0b74cdae009</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_shipping_address_delete_icon</name>
+   <tag></tag>
+   <elementGuidId>ceee07fb-cbd5-48a2-a65c-62b9943b878d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[3]/div/div/div/div/div/div/div[4]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>579bdb2a-3979-472b-8c7b-067aab117388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M16.9 3.1c.3 0 .6.3.6.6v.6c0 .3-.2.6-.6.6h-.6v12.5c0 1.4-1.1 2.5-2.5 2.5h-10c-1.4 0-2.5-1.1-2.5-2.5V5H.6C.3 5 0 4.8 0 4.4v-.6c0-.3.3-.6.6-.6h3.2L5.1 1c.4-.6 1-1 1.7-1h4c.6 0 1.2.4 1.6.9l1.3 2.2h3.2zm-3.2 15c.3 0 .6-.2.6-.6V5H3.1v12.5c0 .3.2.6.6.6h10zm-8.1-1.9c-.3.1-.6-.2-.6-.5V7.5c0-.3.4-.6.7-.5.3 0 .5.2.5.5v8.1c.1.4-.2.6-.6.6.1.1 0 .1 0 0zM6.7 2 6 3.1h5.5L10.8 2c0-.1-.1-.1-.2-.1H6.9c-.1 0-.1 0-.2.1zm2 14.3c-.3 0-.6-.3-.6-.6V7.5c0-.3.3-.6.6-.6s.6.3.6.6v8.1c.1.4-.2.6-.6.7.1-.1.1-.1 0 0zm3.1 0c-.3 0-.6-.2-.6-.6V7.5c0-.3.4-.6.7-.5.3 0 .5.3.5.5v8.1c.1.4-.2.6-.6.7.1-.1.1-.1 0 0z</value>
+      <webElementGuid>b3dd7757-1a94-47f6-83cf-f8dcf8056a99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__52__MelaId_lx05x8gf__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__radio&quot;]/div[@class=&quot;o-checkoutAccordion__editDeleteGroup&quot;]/button[@class=&quot;o-checkoutAccordion__delete&quot;]/span[1]/svg[1]/g[1]/path[1]</value>
+      <webElementGuid>f6c843c4-99d7-4e2e-b592-dfcc570ec86a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

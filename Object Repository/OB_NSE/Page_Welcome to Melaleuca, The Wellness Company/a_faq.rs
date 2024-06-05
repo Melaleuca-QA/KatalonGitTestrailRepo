@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//footer[@id='footer']/div[2]/div[2]/nav/div[2]/div[2]/ul/li[3]/a</value>
+         <value>/html/body/div[1]/div[1]/footer/div[2]/div[2]/nav/div[3]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6dc9fc9f-200a-4c6d-ba84-8b833b392f61</webElementGuid>
+      <webElementGuid>4adbffe6-294a-402f-9b6f-cebb2c469b6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/help-center/faq/customer-service/orders</value>
-      <webElementGuid>4a2553dc-66e7-400f-b861-d8bb17742a1c</webElementGuid>
+      <webElementGuid>3cf9d660-b24d-4a6d-871f-988c006fb887</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>o-siteFooter__link</value>
-      <webElementGuid>8f149328-c028-4452-b920-fbe67c7435eb</webElementGuid>
+      <webElementGuid>88893b24-7fca-4c8c-8740-be4c8c79fd55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>常見問與答</value>
-      <webElementGuid>50cf7d52-9d68-4345-989d-f8400d3f5fef</webElementGuid>
+      <webElementGuid>874fd005-b8bd-427c-835a-ac9583c43ffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;footer&quot;)/div[@class=&quot;o-siteFooter__section -content&quot;]/div[@class=&quot;o-siteFooter__row -content -signedIn&quot;]/nav[@class=&quot;o-siteFooter__col -nav&quot;]/div[@class=&quot;o-siteFooter__nav -right&quot;]/div[@class=&quot;o-siteFooter__navList&quot;]/ul[1]/li[@class=&quot;o-siteFooter__item&quot;]/a[@class=&quot;o-siteFooter__link&quot;]</value>
-      <webElementGuid>e69614e1-9585-44d1-95ce-e730cdc39526</webElementGuid>
+      <webElementGuid>e4a69f8d-fc8f-407b-8270-9d83a825feb3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='footer']/div[2]/div[2]/nav/div[2]/div[2]/ul/li[3]/a</value>
-      <webElementGuid>01532f9b-bf3e-4d87-8eaa-10dc1de4cf37</webElementGuid>
+      <webElementGuid>be60f0b4-e0b6-466c-9453-aa44bdb0b51b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'常見問與答')]</value>
-      <webElementGuid>459d3792-66d9-49bb-a6d0-2528c201e8b4</webElementGuid>
+      <webElementGuid>b6d39291-1867-40fa-9bb7-17836b9f5267</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='聯絡美樂家'])[4]/following::a[1]</value>
-      <webElementGuid>5a488197-fd8c-4ffc-9486-356c4ad1ebe0</webElementGuid>
+      <webElementGuid>9e0e5423-1fdb-4665-b234-942c23e9ce25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='事業中心'])[3]/following::a[2]</value>
-      <webElementGuid>9e32b3a5-3cd8-4931-aada-42e3bd3efa2a</webElementGuid>
+      <webElementGuid>e9c41c37-f72d-4bea-b728-8b85e7b648c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='公告事項'])[1]/preceding::a[1]</value>
-      <webElementGuid>17666eea-e61f-43a5-8ffc-2ae38eddd68d</webElementGuid>
+      <webElementGuid>f743b93a-4023-44fe-a9c9-95e72529767c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tooltip:'])[1]/preceding::a[5]</value>
-      <webElementGuid>403b5a69-71b7-4bc9-a9be-bf288cfc70f6</webElementGuid>
+      <webElementGuid>754ac8b1-8e67-4fd3-8c9d-d352b87c7fed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='常見問與答']/parent::*</value>
-      <webElementGuid>1270d9aa-f468-49a9-8078-e0f24a87f269</webElementGuid>
+      <webElementGuid>6a569dde-e501-4f77-82fd-ff500e7a79db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/help-center/faq/customer-service/orders')]</value>
-      <webElementGuid>97fec1f1-26a5-49c0-85d9-6541c8f21ded</webElementGuid>
+      <webElementGuid>25a24f35-42ce-4110-b1f9-0179857d9214</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/ul/li[3]/a</value>
-      <webElementGuid>4f96af7d-fdf5-46b8-b085-0936d1caa8c7</webElementGuid>
+      <webElementGuid>9d703949-2567-4f93-bbca-d41898e6349f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/help-center/faq/customer-service/orders' and (text() = '常見問與答' or . = '常見問與答')]</value>
-      <webElementGuid>52a657c2-7d54-4f60-93eb-b4e1747b70e8</webElementGuid>
+      <webElementGuid>9bcf922b-e883-42ed-a498-87323c096d38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
