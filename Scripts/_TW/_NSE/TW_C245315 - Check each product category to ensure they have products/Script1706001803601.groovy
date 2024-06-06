@@ -251,7 +251,7 @@ if (GlobalVariable.run_env == 'PD') {
 } else {
     WebUI.setText(findTestObject('Object Repository/OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
-    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment confirmation'))
+    WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment_owing-balance'))
 }
 
 WebUI.waitForAlert(10)

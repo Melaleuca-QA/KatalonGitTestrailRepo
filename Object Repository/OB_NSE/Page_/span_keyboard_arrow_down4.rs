@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_keyboard_arrow_down4</name>
+   <tag></tag>
+   <elementGuidId>1825ac88-d271-423c-b0c1-58bfe14f8e76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div/div/div[3]/div[1]/div[4]/div[1]/div/div/div/h2/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__VID__66__MelaId_lx2vr4q8__accordionId__toggler > span.o-checkoutAccordion__icon > span.a-icon.material-icons.-inherit.-transition</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8c641208-df36-46e5-a9ac-1fdb474c7c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7f37ceb9-e58a-4a94-8e6c-d9e1de58ef30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon material-icons -inherit -transition</value>
+      <webElementGuid>7d81f7a3-4033-4397-b6da-465748d5918d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        keyboard_arrow_down
+                    </value>
+      <webElementGuid>915f192b-0a7e-409a-8c2e-47b2facfd7e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__66__MelaId_lx2vr4q8__accordionId__toggler&quot;)/span[@class=&quot;o-checkoutAccordion__icon&quot;]/span[@class=&quot;a-icon material-icons -inherit -transition&quot;]</value>
+      <webElementGuid>47f59729-45ca-4ac6-92ed-c4a9d9c78b24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='__VID__66__MelaId_lx2vr4q8__accordionId__toggler']/span/span</value>
+      <webElementGuid>7bab1072-4ffb-4355-9683-b1b37bc8822f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[1]/following::span[3]</value>
+      <webElementGuid>9c20189c-316c-4f85-a10f-42d3e2a3fd63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visa'])[1]/following::span[5]</value>
+      <webElementGuid>318bcfed-4ffe-4dbc-b423-331675d9b732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visa'])[2]/preceding::span[1]</value>
+      <webElementGuid>4297c85f-d948-45d2-b0fa-5f69c3c52d91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[2]/preceding::span[2]</value>
+      <webElementGuid>53c277f4-aabd-40b9-8f38-b64d62062a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/h2/button/span/span</value>
+      <webElementGuid>87d14f93-598a-4a9c-9bcb-10f8077d2524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                        keyboard_arrow_down
+                    ' or . = '
+                        keyboard_arrow_down
+                    ')]</value>
+      <webElementGuid>52952586-eecb-4235-8a94-4797f058a92e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

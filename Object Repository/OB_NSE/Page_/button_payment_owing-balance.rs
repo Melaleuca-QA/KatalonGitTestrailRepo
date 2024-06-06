@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_payment confirmation</name>
+   <name>button_payment_owing-balance</name>
    <tag></tag>
    <elementGuidId>e7ece01b-aafb-4e2d-a5d1-63377ff2c954</elementGuidId>
    <selectorCollection>

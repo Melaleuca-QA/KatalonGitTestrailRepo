@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_CC_modification</name>
+   <tag></tag>
+   <elementGuidId>027fcab1-bedd-4b02-90d7-5ec7cb6ba85c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='修改'])[2]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__VID__66__MelaId_lx2vu90e__accordionId > div.o-checkoutAccordion__content > div.o-checkoutAccordion__radio > div.o-checkoutAccordion__editDeleteGroup > button.o-checkoutAccordion__delete > span > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>f833f472-9e04-4c42-8e52-7287fef30200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>277600fb-6862-40cb-a00b-cd49b553277c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+      <webElementGuid>67a0a610-4511-49a9-95d7-4962e1ae3c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xml:space</name>
+      <type>Main</type>
+      <value>preserve</value>
+      <webElementGuid>08083bea-4fac-4cf8-a2fd-954257f64e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__VID__66__MelaId_lx2vu90e__accordionId&quot;)/div[@class=&quot;o-checkoutAccordion__content&quot;]/div[@class=&quot;o-checkoutAccordion__radio&quot;]/div[@class=&quot;o-checkoutAccordion__editDeleteGroup&quot;]/button[@class=&quot;o-checkoutAccordion__delete&quot;]/span[1]/svg[1]</value>
+      <webElementGuid>625a9c39-c46d-4c64-890c-adec25ed7603</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='修改'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>87bdb9bd-d2eb-49b2-a363-2135a537b193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='····'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f89e9494-b8b7-46e2-8a00-645081758677</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='新增付款方式'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>93f6f4f0-4c77-477c-a0b2-db4dfae75f98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
