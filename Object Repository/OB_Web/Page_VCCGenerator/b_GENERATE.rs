@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='namso-atag']/b</value>
+         <value>/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[1]/form/div[5]/div/div[2]/a/b</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>f6155e97-6f66-458c-aaf0-b231c21e3c62</webElementGuid>
+      <webElementGuid>8dfc193e-66d7-4ada-926a-1399983a4990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GENERATE</value>
-      <webElementGuid>f0381753-50f4-4eed-891a-0e5691f63ebc</webElementGuid>
+      <webElementGuid>7fc0807c-98f6-4728-abb4-7718e795e24c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;namso-atag&quot;)/b[1]</value>
-      <webElementGuid>bc58b9f5-69c5-49cb-9bcb-79be5543582f</webElementGuid>
+      <webElementGuid>ae4cf42d-a0ca-43cc-8212-e915a4269618</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='namso-atag']/b</value>
-      <webElementGuid>f7b729dd-b945-4ad4-8295-27e539211d60</webElementGuid>
+      <webElementGuid>35e8b2ee-869c-4cc6-b58c-0cc6a84e942f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FORMAT'])[1]/following::b[1]</value>
-      <webElementGuid>01e83c35-30d6-461b-affe-0a1162b1b3b1</webElementGuid>
+      <webElementGuid>04e820f4-1f06-40d0-8bb6-e3acf78e64bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QUANTITY'])[1]/following::b[1]</value>
-      <webElementGuid>0c91b559-7fc1-4872-b554-2ee8421a23dc</webElementGuid>
+      <webElementGuid>3207fc1c-0287-42ce-bf9f-53d11ceac465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BRAND'])[1]/preceding::b[1]</value>
-      <webElementGuid>4fb15d6f-49d6-4197-ad3a-53091c79772d</webElementGuid>
+      <webElementGuid>7f504270-54f1-4323-832e-404d3168b3c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/preceding::b[1]</value>
-      <webElementGuid>0a7f3f97-0f38-43f2-a60d-27b0cd2105d9</webElementGuid>
+      <webElementGuid>ecc8e1eb-2f3f-4cea-8161-37edf39396ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GENERATE']/parent::*</value>
-      <webElementGuid>d8a39fe4-7a2f-43bc-8541-9fa19c51b06a</webElementGuid>
+      <webElementGuid>7236f26f-1e37-42f2-8fe8-a8975afedc5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/b</value>
-      <webElementGuid>4fd7e812-a107-4bf3-90e6-4dd9dcda4478</webElementGuid>
+      <webElementGuid>1ec5ee07-c94e-4eb1-bef2-dd26898c28b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'GENERATE' or . = 'GENERATE')]</value>
-      <webElementGuid>afcb7a6d-d92d-41f2-8ba6-87cddecbdfd6</webElementGuid>
+      <webElementGuid>57bb2574-7238-4cc7-8f71-f1cdbf448b60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

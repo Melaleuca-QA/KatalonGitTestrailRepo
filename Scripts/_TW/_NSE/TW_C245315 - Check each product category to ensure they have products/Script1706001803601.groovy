@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 '營養輔助食品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements'))
@@ -30,7 +30,8 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements_savings
 '所有產品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements_all'))
 
-if (GlobalVariable.run_env == 'ST') {
+//if (GlobalVariable.run_env == 'ST') {
+if (true) {
     '寶維適CV'
     WebUI.click(findTestObject('OB_NSE/Page_/button_sku-2000'))
 } else {

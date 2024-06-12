@@ -6,12 +6,12 @@
    <elementGuidId>c26bb66b-ca15-4bfc-b009-4b59be7bf275</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.m-refinerImage__img</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div[3]/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/ul/li[2]/button/div[1]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.m-refinerImage__img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>ed50438b-8ffd-464a-a81c-7df1ac51ab56</webElementGuid>
+      <webElementGuid>edf34505-4791-4d05-862e-3b3adeb79b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/60138h-01-zhtw.png</value>
-      <webElementGuid>0cc7c406-040d-4735-9fd6-d332892139d9</webElementGuid>
+      <webElementGuid>cc1c6e27-1caa-4ae7-b0c2-7f7b7fb88a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>柳橙口味</value>
-      <webElementGuid>dde68aaf-4751-462d-9d72-c908b3d8cfc0</webElementGuid>
+      <webElementGuid>c3d31d46-c0d0-468f-8aec-35f0daf3e8c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-refinerImage__img</value>
-      <webElementGuid>123c70cc-504c-4b69-99fb-e9e3d8de30c8</webElementGuid>
+      <webElementGuid>2316b431-5d18-43be-8580-bac0483789dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__VID__564__MelaId_lsogrevx__contentId&quot;)/div[@class=&quot;o-configuratorAcc__content&quot;]/div[@class=&quot;ps&quot;]/ul[@class=&quot;o-configuratorAcc__list&quot;]/li[@class=&quot;o-configuratorAcc__item&quot;]/button[@class=&quot;m-refinerImage&quot;]/div[@class=&quot;m-refinerImage__media&quot;]/img[@class=&quot;m-refinerImage__img&quot;]</value>
-      <webElementGuid>36e7405e-611c-4c21-8777-150ccf3c2525</webElementGuid>
+      <webElementGuid>709e223b-01b7-495c-8b29-dedcf34266f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__VID__564__MelaId_lsogrevx__contentId']/div/div/ul/li/button/div/img</value>
-      <webElementGuid>d48551de-20de-4641-901e-68db4709e068</webElementGuid>
+      <webElementGuid>1ecdd37f-7f1d-446e-ab93-101e4e14412d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='柳橙口味']</value>
-      <webElementGuid>696ec8a2-74f0-461b-af0e-de35e63c715d</webElementGuid>
+      <webElementGuid>d7f1739e-16cf-4bef-94da-12c4a542ca12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div/img</value>
-      <webElementGuid>54db39dc-f38c-4d23-be2d-ba76175e06dd</webElementGuid>
+      <webElementGuid>bbc13e31-fc36-450c-acf4-e142bbd04c66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '//cdnsc1.melaleuca.com/cdn-cgi/image/width=64height=64,quality=85/global/products/60138h-01-zhtw.png' and @alt = '柳橙口味']</value>
-      <webElementGuid>c10239a1-ad59-4e88-af24-a43fac7860ed</webElementGuid>
+      <webElementGuid>d0b3589e-4bdd-4ec7-8b53-40749086dc4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

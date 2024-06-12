@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[1]/div[1]/div/nav/ul/li[2]/a</value>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[1]/div[1]/div/nav/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>41f3bcc7-798f-40ce-98ca-5c12f7dcc717</webElementGuid>
+      <webElementGuid>8d11e12e-5d1c-4378-842a-3c1d9ac2de62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/productstore/supplements/savings-pack</value>
-      <webElementGuid>e28b377e-8117-4c3f-9439-a6aea4d9424d</webElementGuid>
+      <webElementGuid>301ec690-8d3c-4e5f-abfe-f7015a177b2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>m-catListMenu__link</value>
-      <webElementGuid>1e6991b2-2a88-4cd8-a015-817b420cbce5</webElementGuid>
+      <webElementGuid>bf7b3ad0-3389-4e6c-afa8-abcb1c08f25e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>日常/推薦套組</value>
-      <webElementGuid>5c93bbd8-3258-41f9-9395-c604b1613697</webElementGuid>
+      <webElementGuid>c541867a-61fc-4d6f-a0b3-3a86308dbb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CategoryListingComponent&quot;)/div[@class=&quot;p-catListing__side&quot;]/div[@class=&quot;p-catListing__menu&quot;]/div[@class=&quot;m-catListMenu&quot;]/nav[@class=&quot;m-catListMenu__nav&quot;]/ul[@class=&quot;m-catListMenu__list&quot;]/li[@class=&quot;m-catListMenu__item&quot;]/a[@class=&quot;m-catListMenu__link&quot;]</value>
-      <webElementGuid>869ef925-9429-422f-937e-9c1407beb270</webElementGuid>
+      <webElementGuid>9526cc52-6e7d-4f60-a056-b688895aa70b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CategoryListingComponent']/div/div/div/nav/ul/li[2]/a</value>
-      <webElementGuid>4342e4ef-8fac-4f64-9e77-ba329edcf154</webElementGuid>
+      <webElementGuid>a76538d6-a76c-47d4-9c57-6bff98de4b8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'日常/推薦套組')])[2]</value>
-      <webElementGuid>f6359ee8-f882-4b29-a8ca-4e2bcf5481e7</webElementGuid>
+      <webElementGuid>fa3d76f4-bca7-499c-a8a1-a56bf5bd6223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='所有產品'])[1]/following::a[1]</value>
-      <webElementGuid>be71b4d8-2d43-4554-9723-280c3ce8578c</webElementGuid>
+      <webElementGuid>a84ed767-4d6f-4d1d-a4d7-4aea3be70ab7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='產品分類'])[1]/following::a[2]</value>
-      <webElementGuid>0503e0b9-e858-4861-bd83-74c14259995d</webElementGuid>
+      <webElementGuid>fd1a2ad5-d161-42da-96e8-b1a56cbbe380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='活力巔峰營養隨身包'])[2]/preceding::a[1]</value>
-      <webElementGuid>f2bc1827-ed71-4a53-98c5-9c8512392d1a</webElementGuid>
+      <webElementGuid>6b8b6f05-b986-4d22-9246-69a65fcdbe31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='篩選'])[1]/preceding::a[2]</value>
-      <webElementGuid>fc312b4d-e734-47bb-abfe-b5dfeb8ff2c8</webElementGuid>
+      <webElementGuid>2b4d72be-79f5-4b3f-94a3-6dd3e8ee9982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/productstore/supplements/savings-pack')])[2]</value>
-      <webElementGuid>c16c12c2-0ecf-406d-a990-0b94331925d6</webElementGuid>
+      <webElementGuid>19285bee-80c3-48fb-b9e4-cfc523de13e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>19e48fd1-35ea-489c-ac69-9901f0967b0a</webElementGuid>
+      <webElementGuid>3bc2739f-2055-4ccf-b722-12a42af4c249</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/productstore/supplements/savings-pack' and (text() = '日常/推薦套組' or . = '日常/推薦套組')]</value>
-      <webElementGuid>f0608c02-e97d-4899-b37d-b77fd6c474e8</webElementGuid>
+      <webElementGuid>1c02e3e3-b711-4396-b1f0-0555e674c384</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

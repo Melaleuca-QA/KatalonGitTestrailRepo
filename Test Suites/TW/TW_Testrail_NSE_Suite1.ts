@@ -50,7 +50,21 @@
       <guid>2b5a1607-5c52-4898-8500-ba87f3516a69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/_TW/_NSE/TW_C245318 - Add configurable SKU via Quick Shop</testCaseId>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C24531V - Add configurable SKU via Quick Shop - VIP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c603fb65-7d9e-4a9c-9f67-1095ab12a672</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245322 - Verify the order checkout is secure</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90882fea-ceeb-4ee5-9729-a87bf4784ae6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245352 - Edit an existing pay method</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

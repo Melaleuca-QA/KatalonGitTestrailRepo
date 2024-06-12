@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERAT
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
 
+WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/b_GENERATE'))
+
 'Page Up'
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 

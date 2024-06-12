@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TW_C245318 - Add configurable SKU via Quick Shop</name>
+   <name>TW_C24531V - Add configurable SKU via Quick Shop - VIP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7d282392-2109-465a-8192-f6c6ee2490f7</testCaseGuid>
+   <testCaseGuid>82417a65-606f-413f-a842-ec8a9cd62103</testCaseGuid>
 </TestCaseEntity>

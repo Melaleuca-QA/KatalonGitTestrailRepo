@@ -6,11 +6,11 @@
    <elementGuidId>f075ba6d-dc91-437a-9fd9-4542bd3103b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[2]/div[1]/div/div[2]/div/div/div/div/div/div[1]/div[1]/ul/li[27]/article/div[3]/div/button/span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/main/div[1]/div[2]/div[3]/div[2]/div[1]/div/div[2]/div/div/div/div/div/div[1]/div[1]/ul/li[23]/article/div[3]/div/button/span[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f70a9ee3-5e4e-44e8-9c0b-40ce7a14c1cd</webElementGuid>
+      <webElementGuid>052b7319-04ee-42bb-bca4-de9765d84618</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e6c70541-7838-4175-8bec-7341d97c444e</webElementGuid>
+      <webElementGuid>c17cb4a8-ca02-447c-aacc-13efc3558cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-icon material-icons -inherit</value>
-      <webElementGuid>42364513-52c0-40f1-a9df-e25a1c7c7dff</webElementGuid>
+      <webElementGuid>552260f1-9e6a-432d-8577-c4778d5017fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>shopping_cart</value>
-      <webElementGuid>46e50b7e-593d-44dc-b7e8-450aecaafbf3</webElementGuid>
+      <webElementGuid>4cea5f7a-7dbe-4679-b23b-106c23746842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__VID__110__MelaId_lsogroa7__contentId&quot;)/div[@class=&quot;o-cartAccordion__content&quot;]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;o-cartAccordion__scroll&quot;]/ul[@class=&quot;o-recentlyPurchased&quot;]/li[@class=&quot;o-recentlyPurchased__item&quot;]/article[@class=&quot;m-recentProduct -buyAgain&quot;]/div[@class=&quot;m-recentProduct__add&quot;]/button[@class=&quot;m-recentProduct__cart&quot;]/span[@class=&quot;a-icon material-icons -inherit&quot;]</value>
-      <webElementGuid>f7b0aee5-a07e-446e-a0ac-64df38dde6c4</webElementGuid>
+      <webElementGuid>8df37374-def5-4b3f-96f2-87a991b61760</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__VID__110__MelaId_lsogroa7__contentId']/div/div/div/ul/li/article/div[3]/button/span[2]</value>
-      <webElementGuid>4bfabc44-338d-42d9-bc12-40bea70b17a8</webElementGuid>
+      <webElementGuid>f8027bee-a54f-42d2-b2ef-1bf60c45a8df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$219'])[1]/following::span[2]</value>
-      <webElementGuid>55b37c88-badc-434c-ad0c-a64b0150161a</webElementGuid>
+      <webElementGuid>2bd841ec-13aa-4dc7-9e3a-902d9beab0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='活力隨行杯'])[1]/following::span[2]</value>
-      <webElementGuid>f25e52f7-d235-4fb0-a2f3-6868915c2e83</webElementGuid>
+      <webElementGuid>4f3fa12b-fe0d-4f24-ba1e-9b480e692ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='美樂家活力核酸機能果凍_四盒組'])[1]/preceding::span[1]</value>
-      <webElementGuid>db2e1b62-d1c5-4cb5-b670-09ddd686985d</webElementGuid>
+      <webElementGuid>75c507b1-f69c-47a2-8e62-f6946743a8a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$3,590'])[1]/preceding::span[1]</value>
-      <webElementGuid>d494ea40-2784-4d44-bdc1-04360e08f722</webElementGuid>
+      <webElementGuid>6849401c-da60-4c10-9a14-2a6b34167dd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button/span[2]</value>
-      <webElementGuid>7f004743-4a0e-4cec-852c-33be7f51bb44</webElementGuid>
+      <webElementGuid>c0a510fd-70d1-4bbc-916e-ce317068263c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'shopping_cart' or . = 'shopping_cart')]</value>
-      <webElementGuid>03289007-ceb5-466b-b396-d2257dbaad67</webElementGuid>
+      <webElementGuid>c27a1155-7ded-4331-bdbc-1407fd783de7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

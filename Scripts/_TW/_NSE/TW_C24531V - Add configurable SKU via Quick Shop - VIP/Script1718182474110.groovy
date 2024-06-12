@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw_vip'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
 
@@ -38,7 +40,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
 WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '7911')
+WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '24074')
 
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
@@ -71,6 +73,8 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_d
 
 '60138'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_shopping_cart sku1'))
+
+WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping1'))
 
@@ -205,7 +209,7 @@ switch (true) {
         break
     case (new_now_date >= new_lsd_bdate2) && (new_now_date <= new_lsd_edate2):
         'PC'
-        cal_lsd = ((now_pp.toInteger() * 0.05) * 33 // PC * 5% * 33
+        cal_lsd = ((now_pp.toInteger() * 0.1) * 33 // PC * 10% * 33
         )
 
         break
@@ -223,7 +227,7 @@ if (now_lsd.toInteger() > cal_lsd) {
 
     println(cal_lsd1)
 
-    cal_lsd2 = Math.round(Math.floor((now_pp.toInteger() * 0.05) * 33 // PC * 5% * 33
+    cal_lsd2 = Math.round(Math.floor((now_pp.toInteger() * 0.1) * 33 // PC * 10% * 33
             ))
 
     println(cal_lsd2)
