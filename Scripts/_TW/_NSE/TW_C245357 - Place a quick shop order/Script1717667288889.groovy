@@ -17,53 +17,78 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'close birthday\'s shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/div_stars'), 3)) {
-    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/i_fa fa-times-circle'))
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '2000')
+
+'prodcut search'
+WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/button_change quantity'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_quantity'), '0')
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/a_check shopping cart'))
+
+WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
+
+WebUI.waitForAlert(10)
+
+WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
+
+'Payment'
+WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
+
+WebUI.waitForAlert(10)
+
+'close similar shopping'
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/span_pay-close'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
 }
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/span_fa fa-caret-down'))
+WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/input_txtSkuEntry'), '2000.1')
+'cancel order'
+WebUI.click(findTestObject('OB_NSE/Page_/button_receipt_cancel_order'))
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_AddtoCart'))
+WebUI.waitForAlert(10)
 
-WebUI.waitForAlert(5)
+'cancel order confirmation'
+WebUI.click(findTestObject('OB_NSE/Page_/button_receipt_cancel_order_confirmation'))
 
-WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/button_ShoppingCart_Checkout'))
+WebUI.waitForAlert(10)
 
-WebUI.waitForAlert(5)
+'order button'
+WebUI.click(findTestObject('OB_NSE/Page_/button_orders'))
 
-WebUI.click(findTestObject('OB_Web/Page_/button_TopProceedtoCheckout'))
+'order history'
+WebUI.click(findTestObject('OB_NSE/Page_/a_order history'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-'CheckoutPromo Page'
-if (now_url == GlobalVariable.url_CheckoutPromo) {
-    WebUI.click(findTestObject('OB_Web/Page_Melaleuca The Wellness Company/a_NoMorePurchase_tw'))
-
-    WebUI.waitForAlert(5)
-}
-
-WebUI.setText(findTestObject('OB_Web/Page_/input_paymethodCvv'), '123')
-
-WebUI.waitForAlert(5)
-
-WebUI.click(findTestObject('OB_Web/Page_/button_Payment'))
-
-if (WebUI.waitForElementVisible(findTestObject('OB_Web/Page_/div_3535'), 3)) {
-    WebUI.click(findTestObject('OB_Web/Page_/button_ck35'))
-}
-
-WebUI.waitForAlert(5)
-
-WebUI.callTestCase(findTestCase('_TW/_Web/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Place a quick shop order'
 GlobalVariable.test_case = '245357'

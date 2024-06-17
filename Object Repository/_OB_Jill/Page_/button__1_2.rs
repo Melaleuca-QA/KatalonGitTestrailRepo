@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1_2</name>
+   <tag></tag>
+   <elementGuidId>9305fa69-44d5-4605-a64f-46db07b84f52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button.-cartCheckout</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b59db041-64ed-4293-9b92-e541efb5a92c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>70b7dcb1-64dc-4a7f-8121-538817b7187e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -cartCheckout</value>
+      <webElementGuid>1b98c701-8d60-4b19-8636-b2d59cec350c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    
+    付款</value>
+      <webElementGuid>7af4c68b-6552-4c50-9320-4984e8d66cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;bg-gray-25&quot;]/div[@class=&quot;p-checkout&quot;]/div[@class=&quot;p-checkout__wrapper&quot;]/div[@class=&quot;p-checkout__content&quot;]/div[@class=&quot;p-checkout__side&quot;]/div[3]/div[1]/button[@class=&quot;a-button -cartCheckout&quot;]</value>
+      <webElementGuid>35f8f6d4-848d-4cf4-b0b1-e95226ed1b56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>9502a577-b160-4568-a339-91244488fc59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/div/div[3]/div[2]/div[3]/div/button</value>
+      <webElementGuid>b1854113-cf41-4b9d-b466-ccd53ade26d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='總點數'])[1]/following::button[1]</value>
+      <webElementGuid>e5db62e6-6502-40ad-a6b4-a09ea72f2701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT$2,725'])[1]/following::button[1]</value>
+      <webElementGuid>88226885-3d65-4289-b1da-41ad9d26d0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='身為優惠顧客'])[1]/preceding::button[1]</value>
+      <webElementGuid>c2d8efc7-3500-4072-81e3-d4c49ba2e4d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/button</value>
+      <webElementGuid>5e185610-390c-4238-b329-3c3da70bd10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+    
+    付款' or . = '
+    
+    付款')]</value>
+      <webElementGuid>4f431e6f-6eb5-4250-9507-4862e86dfde4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
