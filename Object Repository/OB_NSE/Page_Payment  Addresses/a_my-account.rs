@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_my-account</name>
+   <tag></tag>
+   <elementGuidId>2a5af124-c5bf-4cdd-914b-e58bb34eff85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='tab-1']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.m-tabs__link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ee28a606-8f48-4a63-a274-b5f6b81fab56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-track</name>
+      <type>Main</type>
+      <value>{&quot;gtmId&quot;:26,&quot;gtmText&quot;:&quot;我的帳戶&quot;}</value>
+      <webElementGuid>5719318c-97cd-4fa6-91f4-ccb6e7593be1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account</value>
+      <webElementGuid>a2e5b06d-a458-48e2-b0c7-51ae317b6391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-tabs__link</value>
+      <webElementGuid>5580c46f-03f2-4733-af7d-45f18c217cc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+我的帳戶
+</value>
+      <webElementGuid>cbe11bd9-f18b-41f3-afcc-a5231e39aa91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/a[@class=&quot;m-tabs__link&quot;]</value>
+      <webElementGuid>5a2526a1-6d69-44d7-8990-a1c5c2f323af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='tab-1']/a</value>
+      <webElementGuid>5488ed10-1298-4aa7-81c3-eba8e2c526de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'我的帳戶')])[6]</value>
+      <webElementGuid>656d0993-c2d7-4f40-bb6b-bebc4efdbfc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單紀錄'])[6]/following::a[1]</value>
+      <webElementGuid>52094ef6-4d06-429f-91eb-2b5b68d3bf0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單紀錄'])[5]/following::a[1]</value>
+      <webElementGuid>180863cb-ec20-4a65-9237-20b6f3890050</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='訂單紀錄'])[7]/preceding::a[1]</value>
+      <webElementGuid>53cd2d09-542a-4f62-b3c0-dd3cd737eb73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款及地址管理'])[3]/preceding::a[2]</value>
+      <webElementGuid>410eacb4-b5cd-4305-bfee-7f7b303e1917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/my-account')])[17]</value>
+      <webElementGuid>bace7985-bb2c-46e9-bfef-08c1c0b17588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[2]/ul/li/a</value>
+      <webElementGuid>c792040f-52bb-439d-8a1b-d86d88f89e45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account' and (text() = '
+我的帳戶
+' or . = '
+我的帳戶
+')]</value>
+      <webElementGuid>d4cb2947-c1ce-4253-8891-74c04ad72e0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

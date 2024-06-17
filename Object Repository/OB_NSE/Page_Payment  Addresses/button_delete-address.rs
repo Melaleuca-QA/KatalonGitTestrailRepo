@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Delete</name>
+   <name>button_delete-address</name>
    <tag></tag>
    <elementGuidId>44fbb826-9b49-49eb-82dd-1b01f4f0dbc5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//main[@id='mainContent']/div/div/section/ul/li[3]/div/div/ul/li[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

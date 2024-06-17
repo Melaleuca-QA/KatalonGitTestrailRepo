@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_delete-payment-method-confirmation</name>
+   <tag></tag>
+   <elementGuidId>96a8adcc-207f-4ae1-ab28-5bd41ee48fe1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button.-green.-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dbf33257-48f9-4271-9446-68a1abe21ac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fde02e61-5df5-405d-89c6-8ec5d83ef96f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button -green -full</value>
+      <webElementGuid>b38af977-1378-4464-9cc6-65cf6d2390a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    
+    刪除</value>
+      <webElementGuid>1d05fdfa-1933-4978-b2bf-2a6f2e72573c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vApp&quot;)/div[@class=&quot;o-modal -isVisible&quot;]/div[@class=&quot;o-modal__dialog&quot;]/div[@class=&quot;o-modal__content&quot;]/div[@class=&quot;o-modal__footer&quot;]/div[@class=&quot;flex w-full&quot;]/div[@class=&quot;o-acctCardSection__modalBtn -primary&quot;]/button[@class=&quot;a-button -green -full&quot;]</value>
+      <webElementGuid>aaba2108-4f62-465a-84cb-56ef88e3806a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>d9727422-4053-4098-add4-cc4689934f15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vApp']/div[2]/div/div[2]/div[3]/div/div[2]/button</value>
+      <webElementGuid>974f305c-48da-477a-b7c1-f43ee7694409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/following::button[1]</value>
+      <webElementGuid>853139c7-652c-4d54-88b3-d041a9254ff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='確認刪除?'])[1]/following::button[2]</value>
+      <webElementGuid>0605487e-0daf-42bf-a727-7902fad207b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shelf Heading'])[1]/preceding::button[2]</value>
+      <webElementGuid>5ff6b080-29b3-42c4-bead-9ccda0c3c742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/button</value>
+      <webElementGuid>e5f06a9f-c5a6-4c5b-bd84-ea3737553c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+    
+    刪除' or . = '
+    
+    刪除')]</value>
+      <webElementGuid>dc74970c-5ff9-47ee-8911-d8029b44a4a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

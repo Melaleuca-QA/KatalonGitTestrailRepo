@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Recording mode'
+'get credit card number'
 if (false) {
-    GlobalVariable.tw_input_creditcard = '4080198467858103'
+    GlobalVariable.tw_input_creditcard = '4000178712803002'
 } else {
-    'get credit card number'
     WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
@@ -29,42 +28,21 @@ WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '860')
-
-'prodcut search'
-WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
+'myAccPopup_icon'
+WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/img_myAcc_icon'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
+'my-account'
+WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_go to my account'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/img_m-refinerImage_img_861'))
+WebUI.click(findTestObject('OB_NSE/Page_Order History/a_payment addresses'))
 
-WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/a_add-new-payment-method'))
 
-WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
-
-WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
-
-WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/a_add new payment method'))
-
-WebUI.waitForAlert(10)
-
-WebUI.setText(findTestObject('OB_NSE/Page_Add New Payment Method/input_card number'), GlobalVariable.tw_input_creditcard)
+WebUI.setText(findTestObject('OB_NSE/Page_/input_cardNumber'), GlobalVariable.tw_input_creditcard)
 
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_month'), '12', true)
 
@@ -74,9 +52,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/a_add new payment method'))
+WebUI.click(findTestObject('OB_NSE/Page_/a_edit-payment-method'))
 
 WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_month'), '12', true)
 
@@ -86,56 +62,37 @@ WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/svg_CC_modification'))
-
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method-confirmation'))
 
 WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
-
-WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
-
-'close similar shopping'
-if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3)) {
-    WebUI.click(findTestObject('OB_NSE/Page_/span_pay-close'))
-
-    WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
-}
+WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_Lists'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_pay_button2'))
+WebUI.click(findTestObject('OB_NSE/Page_Lists/a_account settings'))
 
 WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
-
-WebUI.click(findTestObject('OB_NSE/Page_/button_payment_owing-balance'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/a_Order History'))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping2'))
-
-'order button'
-WebUI.click(findTestObject('OB_NSE/Page_/button_orders'))
-
-'order history'
-WebUI.click(findTestObject('OB_NSE/Page_/a_order history'))
+WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_my-account'))
 
 WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Edit an existing pay method'
-GlobalVariable.test_case = '245352'
+GlobalVariable.test_case = '245363'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Delete a pay method'
-GlobalVariable.test_case = '245355'
+'Delete an existing pay method'
+GlobalVariable.test_case = '245364'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
