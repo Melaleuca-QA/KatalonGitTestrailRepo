@@ -121,8 +121,6 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_orders'))
 'order history'
 WebUI.click(findTestObject('OB_NSE/Page_/a_order history'))
 
-WebUI.waitForAlert(10)
-
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Verify the order checkout is secure (https in the url)'

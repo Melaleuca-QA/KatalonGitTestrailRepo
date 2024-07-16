@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_edit-shipping-addr</name>
+   <tag></tag>
+   <elementGuidId>de5cd2b7-bb03-4195-9f37-dd309e7b54fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/section[2]/ul/li[4]/div/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>41566547-4c29-434f-a3ce-b3a5e220b0b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/payments-and-addresses/edit-shipping-address?addressid=6525717</value>
+      <webElementGuid>41b6e86f-01cb-4971-abef-cc5e5fd415de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>編輯付款方式 hsipaddress</value>
+      <webElementGuid>f6d8505d-b343-40cc-b3e4-ef2052fa1d9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    編輯
+                </value>
+      <webElementGuid>7f2fd618-e3fe-4a1b-991d-38b81712e390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-acctCardSection&quot;]/ul[@class=&quot;o-acctCardSection__list&quot;]/li[@class=&quot;o-acctCardSection__col&quot;]/div[@class=&quot;m-acctCard&quot;]/div[@class=&quot;m-acctCard__card&quot;]/ul[@class=&quot;m-acctCard__actions&quot;]/li[@class=&quot;m-acctCard__button&quot;]/a[1]</value>
+      <webElementGuid>803a2057-7b56-4622-92a0-c0db0621129c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/section[2]/ul/li[4]/div/div/ul/li/a</value>
+      <webElementGuid>43db6fa2-d646-4415-8b42-471f6ae5b249</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'編輯')])[7]</value>
+      <webElementGuid>0624cc24-8021-43b1-85e3-d4ac6af28cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hsipaddress'])[2]/following::a[1]</value>
+      <webElementGuid>38e6fca4-0da9-4114-a287-60a4276ef1c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='你不能刪除預設收貨地址，請先將任一地址改為預設。'])[3]/following::a[1]</value>
+      <webElementGuid>a0073945-5d2b-472f-a67f-ca9d67f67d40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='刪除'])[4]/preceding::a[1]</value>
+      <webElementGuid>de1ff315-8836-4e4f-b4c8-7a6c5b7c7dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='設為預設'])[6]/preceding::a[1]</value>
+      <webElementGuid>52db3e0f-90bd-42f6-afb6-6627357e342f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-account/payments-and-addresses/edit-shipping-address?addressid=6525717')]</value>
+      <webElementGuid>4a9f3395-0355-47db-94d0-e1e350dec6aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/ul/li/a</value>
+      <webElementGuid>750daec8-db13-4d2b-9889-5fd0934e3647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/payments-and-addresses/edit-shipping-address?addressid=6525717' and (text() = '
+                    編輯
+                ' or . = '
+                    編輯
+                ')]</value>
+      <webElementGuid>9a8114d1-1f87-427a-ac17-2513dcc81feb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

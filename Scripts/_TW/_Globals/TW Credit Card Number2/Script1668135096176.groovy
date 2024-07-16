@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.enableSmartWait()
+
 WebUI.navigateToUrl('https://www.vccgenerator.org/')
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/a_BIN GENERATOR'))
+
+WebUI.waitForAlert(10)
 
 WebUI.setText(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/input_BIN_namso-bin'), '405430')
 
@@ -48,6 +52,8 @@ result2 = result1.substring(0, 16)
 GlobalVariable.tw_input_creditcard = result2
 
 println(GlobalVariable.tw_input_creditcard)
+
+WebUI.disableSmartWait()
 
 WebUI.closeBrowser()
 

@@ -190,8 +190,6 @@ WebUI.waitForAlert(10)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_continue to shopping'))
 
-WebUI.waitForAlert(10)
-
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Firefox'

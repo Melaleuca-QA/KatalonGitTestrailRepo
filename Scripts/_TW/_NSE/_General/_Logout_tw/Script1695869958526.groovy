@@ -23,5 +23,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.waitForAlert(5)
 
+WebUI.disableSmartWait()
+
 WebUI.closeBrowser()
 

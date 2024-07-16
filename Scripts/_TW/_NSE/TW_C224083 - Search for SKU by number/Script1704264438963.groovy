@@ -83,7 +83,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.ST
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
+WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart2'))
 
 WebUI.waitForAlert(10)
 
@@ -185,8 +185,6 @@ WebUI.waitForAlert(10)
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
-
-WebUI.waitForAlert(10)
 
 //WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
 //WebUI.waitForAlert(5)

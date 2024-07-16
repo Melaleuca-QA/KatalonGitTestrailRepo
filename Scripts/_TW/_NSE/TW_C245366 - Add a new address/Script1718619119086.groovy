@@ -17,78 +17,79 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'get credit card number'
-if (false) {
-    GlobalVariable.tw_input_creditcard = '4000178712803002'
-} else {
-    WebUI.callTestCase(findTestCase('_TW/_Globals/TW Credit Card Number2'), [:], FailureHandling.STOP_ON_FAILURE)
-}
-
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'myAccPopup_icon'
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/img_myAcc_icon'))
 
-WebUI.waitForAlert(10)
-
 'my-account'
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_go to my account'))
 
-WebUI.waitForAlert(10)
-
 WebUI.click(findTestObject('OB_NSE/Page_Order History/a_payment addresses'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_add-new-payment-method'))
-
-WebUI.setText(findTestObject('OB_NSE/Page_/input_cardNumber'), GlobalVariable.tw_input_creditcard)
-
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_month'), '12', true)
-
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_year'), '2044', true)
-
-WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_/a_edit-payment-method'))
+WebUI.click(findTestObject('OB_NSE/Page_/a_myaccount_shipping_address_add'))
 
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_month'), '12', true)
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_name'), 'hsipaddress')
 
-WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/select_year'), '2044', true)
+WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_My Account/select_shipping_city'), '高雄市', true)
 
-WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
+WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_My Account/select_shipping_suburb'), '鼓山區', true)
 
-WebUI.waitForAlert(10)
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_addr1'), 'hsipaddress1')
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method'))
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_addr2'), 'hsipaddress2')
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method-confirmation'))
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_phone'), '0922222222')
 
-WebUI.waitForAlert(10)
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/textarea_deliveryInstructions'), 'do not ship')
 
-WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_Lists'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/button_shipping-addr_save'))
 
-WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('OB_NSE/Page_Lists/a_account settings'))
-
-WebUI.waitForAlert(10)
-
-WebUI.click(findTestObject('OB_NSE/Page_My Account/a_Order History'))
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
 WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_my-account'))
+WebUI.click(findTestObject('OB_NSE/Page_My Account/a_edit-shipping-addr'))
+
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_addr1'), 'hsipaddress3')
+
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_addr2'), 'hsipaddress4')
+
+WebUI.setText(findTestObject('OB_NSE/Page_My Account/input_shipping_phone'), '0933333333')
+
+WebUI.click(findTestObject('OB_NSE/Page_My Account/button_shipping-addr_save'))
+
+'Page Down'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForAlert(10)
+
+WebUI.click(findTestObject('OB_NSE/Page_My Account/button_delete-shipping-addr'))
+
+WebUI.click(findTestObject('OB_NSE/Page_My Account/button_delete-shipping-addr_confirm'))
+
+WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Edit an existing pay method'
-GlobalVariable.test_case = '245363'
+'Add a new address'
+GlobalVariable.test_case = '245366'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Delete an existing pay method'
-GlobalVariable.test_case = '245364'
+'Edit an existing'
+GlobalVariable.test_case = '245367'
+
+WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Delete an exisiting address'
+GlobalVariable.test_case = '245368'
 
 WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
 

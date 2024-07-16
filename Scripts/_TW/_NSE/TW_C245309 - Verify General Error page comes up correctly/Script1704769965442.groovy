@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(5)
+WebUI.navigateToUrl(GlobalVariable.nse_GeneralError)
 
 WebUI.navigateToUrl(GlobalVariable.nse_GeneralError)
 
@@ -32,7 +32,7 @@ WebUI.verifyEqual(now_url, GlobalVariable.nse_GeneralError)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_back to home'))
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 'Product Store Page'
 def ps_url = WebUI.getUrl()
@@ -41,14 +41,16 @@ println(ps_url)
 
 WebUI.verifyEqual(ps_url, GlobalVariable.nse_ProductStore)
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 'back to legacy PD env  Business Center Page'
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_business center'))
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.waitForAlert(5)
+WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
+
+WebUI.waitForAlert(10)
 
 //WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 //WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
@@ -61,7 +63,7 @@ println(bc_url)
 
 WebUI.verifyEqual(bc_url, GlobalVariable.url_BusinessCenter)
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(10)
 
 WebUI.back()
 

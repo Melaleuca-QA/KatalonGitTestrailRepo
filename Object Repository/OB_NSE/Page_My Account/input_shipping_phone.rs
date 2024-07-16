@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__Search</name>
+   <name>input_shipping_phone</name>
    <tag></tag>
-   <elementGuidId>5fd2ecb3-9320-4719-bf9b-4709e6cb00dd</elementGuidId>
+   <elementGuidId>6aaa6524-914c-4f31-87b9-8d0a6b0dd668</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='Search']</value>
+         <value>//input[@id='phoneNumber']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;Search&quot;]</value>
+         <value>#phoneNumber</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0a1b2101-6045-44a5-84bd-997979551d12</webElementGuid>
+      <webElementGuid>90389d7e-adbb-483a-aa8d-7327b34e2744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>4878f1d7-73d6-48e1-8d35-22b7652b8f89</webElementGuid>
+      <value>phoneNumber</value>
+      <webElementGuid>217c084f-a89f-4275-86bd-941447f8774f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>4b3d4b89-bca7-4e2c-8180-596ee19c7ea2</webElementGuid>
+      <value>phoneNumber</value>
+      <webElementGuid>45443c4f-0c68-4ebb-81ee-407462940f88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>搜尋</value>
-      <webElementGuid>30770919-4ec1-4670-9bab-db2f28244c39</webElementGuid>
+      <value>0911 111 111</value>
+      <webElementGuid>ad6536f6-a15d-4241-af3b-ff77da6da1ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-placeholder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Type in here what you need and proceed to the following button</value>
-      <webElementGuid>43f04224-a4ce-413e-8e70-bc724c1efc91</webElementGuid>
+      <value>text</value>
+      <webElementGuid>e6343090-23e5-4fb4-b76e-0c8d88ddb463</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>o-searchBar__input</value>
-      <webElementGuid>54a22346-2459-49f6-8157-52734b01db5a</webElementGuid>
+      <value>a-input -text</value>
+      <webElementGuid>f1698772-431d-4c48-b4b6-a5ab277a1ce0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>vmodel</name>
+      <type>Main</type>
+      <value>phoneNumberData</value>
+      <webElementGuid>4e093619-41d2-4d05-a614-063ba5c497f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>phoneNumberErrorMsg</value>
+      <webElementGuid>d1f43237-9425-4911-b5ed-bc2368e2d180</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search-bar&quot;)/input[@class=&quot;o-searchBar__input&quot;]</value>
-      <webElementGuid>f7fa9088-32a9-4e79-bbbf-dee3d96c1731</webElementGuid>
+      <value>id(&quot;phoneNumber&quot;)</value>
+      <webElementGuid>7bc90fcf-83ca-4da3-882f-7cd145444e63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='Search']</value>
-      <webElementGuid>e679ce72-569b-47a7-a062-342959233bc9</webElementGuid>
+      <value>//input[@id='phoneNumber']</value>
+      <webElementGuid>59464386-9d0d-44ee-a71d-883a2f5a8d4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='search-bar']/input</value>
-      <webElementGuid>d05f2dba-074b-46b7-90a2-8880b6d2a2e4</webElementGuid>
+      <value>//form[@id='address-form-vue']/div/div/div[10]/div/div[6]/input</value>
+      <webElementGuid>099ffd61-0121-4b8a-b845-fc190c98652a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>87688393-e714-48ef-9a02-e526483425f0</webElementGuid>
+      <value>//div[10]/div/div[6]/input</value>
+      <webElementGuid>ac676699-f829-41fb-b864-de316082f5bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'search' and @name = 'Search' and @placeholder = '搜尋']</value>
-      <webElementGuid>2d93289d-b706-4e7d-bf46-9726a54abcfa</webElementGuid>
+      <value>//input[@id = 'phoneNumber' and @name = 'phoneNumber' and @placeholder = '0911 111 111' and @type = 'text']</value>
+      <webElementGuid>d0a40f19-d4ea-4e4d-8f67-140435b2eb0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -12,59 +12,94 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2c1f36be-8849-4d17-9da3-901bca482817</testSuiteGuid>
    <testCaseLink>
-      <guid>aeec3c3b-2144-467f-ab97-dca1d7a1b5bd</guid>
+      <guid>350c2370-4717-46da-a4a9-813bf4ac55c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C224083 - Search for SKU by number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3391af5-f497-4876-b70b-87d162d47561</guid>
+      <guid>701b0946-eb06-4f83-be04-7deeb61ad2dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245304 - Check Cant Access Your Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>de447ed2-5d63-4ebc-b32f-bd5c61c6fd30</guid>
+      <guid>899abe6e-4f98-416a-b3c7-674486cc17a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245309 - Verify General Error page comes up correctly</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c2c47d7c-05f9-4d6d-ac6a-978623bba67a</guid>
+      <guid>3c21ab05-a191-4acd-bcfb-744cc8f932c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245312 - Go to Contact Melaleuca</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec3a17c4-22a3-4782-944e-f826a4838b54</guid>
+      <guid>7da17a7f-1d0c-4f5e-9836-bfde1ed425aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245315 - Check each product category to ensure they have products</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2b5a1607-5c52-4898-8500-ba87f3516a69</guid>
+      <guid>750f11bd-aaf8-4b2b-99f2-8ce539ce4653</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245318 - Add configurable SKU via Quick Shop</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5075bf09-e13e-4ac6-91bd-6ca1309aa41b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C24531V - Add configurable SKU via Quick Shop - VIP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c603fb65-7d9e-4a9c-9f67-1095ab12a672</guid>
+      <guid>657673d3-eba9-4c58-bcb5-3a0104c938a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245322 - Verify the order checkout is secure</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>90882fea-ceeb-4ee5-9729-a87bf4784ae6</guid>
+      <guid>178a0a82-71ea-4889-94e2-6a47d589e187</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/_TW/_NSE/TW_C245352 - Edit an existing pay method</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44b9d83a-d3e6-48a5-abd7-d756eb913d71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245357 - Place a quick shop order</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c735697-a8f7-446f-9411-094d36fe2b83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245361 - Verify My Account is secure https</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2e10aa8-73a7-4e97-9276-dbb73423a13a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245363 - Edit an existing pay method</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1961264c-7e5b-4d52-a2ba-01dd9bacb67f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245366 - Add a new address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

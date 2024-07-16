@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
-
 '營養輔助食品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_supplements'))
 
@@ -55,6 +53,12 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_healthy-foods-and-d
 '諾麗複合果汁'
 WebUI.click(findTestObject('OB_NSE/Page_/button_sku-7449'))
 
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to cart'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/img_refinerImage_img1'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+}
+
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
 WebUI.waitForAlert(10)
@@ -79,9 +83,11 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_cleaning-and-laundr
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_4333'))
 
-WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/img_4333'))
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to cart'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/img_refinerImage_img1'))
 
-WebUI.click(findTestObject('OB_NSE/Page_/button_add to cart'))
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
@@ -104,6 +110,16 @@ WebUI.waitForAlert(10)
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pharmacy'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_3847'))
+
+if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to cart'), 3)) {
+    WebUI.click(findTestObject('OB_NSE/Page_/img_refinerImage_img1'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_/img_refinerImage_img2'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_/img_refinerImage_img3'))
+
+    WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
+}
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
@@ -267,8 +283,6 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_check order detail'))
-
-WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

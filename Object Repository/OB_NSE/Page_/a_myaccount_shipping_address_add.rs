@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_myaccount_shipping_address_add</name>
+   <tag></tag>
+   <elementGuidId>ce0773ea-5fe2-4f23-bd10-bc1643f96dcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.o-acctCardSection__addNewBtn.a-button.-outline.-large</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div/section[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7b7dad88-92fc-47f6-a61c-d84f1bb1f32b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/my-account/payments-and-addresses/add-new-shipping-address</value>
+      <webElementGuid>405360f2-ee4e-408b-9441-6c6432bbb799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-acctCardSection__addNewBtn a-button -outline -large</value>
+      <webElementGuid>c7b23117-6ad2-410e-b2cb-a4a12de536c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+新增收貨地址
+
+        </value>
+      <webElementGuid>cd82fdef-6afd-4b21-8926-c152725aa73f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[1]/div[@class=&quot;o-widthControl mx-auto w-full max-w-full to-md:px-10 md:max-w-contain md:py-40&quot;]/section[@class=&quot;o-acctCardSection&quot;]/div[@class=&quot;lg:pr-20 lg:w-1_2&quot;]/a[@class=&quot;o-acctCardSection__addNewBtn a-button -outline -large&quot;]</value>
+      <webElementGuid>9b38adce-b5f3-4212-b0e7-0ee3d0176068</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div/section[2]/div/a</value>
+      <webElementGuid>c8138f45-19d8-4413-83eb-f6948e442da2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='你不能刪除預設收貨地址，請先將任一地址改為預設。'])[3]/following::a[1]</value>
+      <webElementGuid>9c412d34-e587-4b5b-b024-b13a69acf3b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='設為預設'])[5]/following::a[1]</value>
+      <webElementGuid>badab24c-c537-4ca9-a47d-576ab54288eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='佣金帳戶'])[1]/preceding::a[1]</value>
+      <webElementGuid>1673fc6d-c12e-4622-8d34-cee957b6f281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='新增收貨地址']/parent::*</value>
+      <webElementGuid>a1f60cef-bc9f-497f-8bac-2d45ecae4d1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/my-account/payments-and-addresses/add-new-shipping-address')]</value>
+      <webElementGuid>278239eb-e288-472e-a52e-70816b01374e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/a</value>
+      <webElementGuid>a2a19568-d090-4843-be43-9d721702ae5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/my-account/payments-and-addresses/add-new-shipping-address' and (text() = '+新增收貨地址
+
+        ' or . = '+新增收貨地址
+
+        ')]</value>
+      <webElementGuid>17cae9bf-1052-47a2-969d-d794c01236fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

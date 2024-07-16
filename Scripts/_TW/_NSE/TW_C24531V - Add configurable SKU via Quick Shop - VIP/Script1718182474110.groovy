@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw_vip'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
-
 WebUI.click(findTestObject('OB_NSE/Page_/input_search'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '1008')
@@ -279,8 +277,6 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_order history'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_check order detail'))
-
-WebUI.waitForAlert(10)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

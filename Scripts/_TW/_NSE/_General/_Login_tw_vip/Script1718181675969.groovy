@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.enableSmartWait()
+
 WebUI.navigateToUrl(GlobalVariable.nse_url_uattw)
 
 WebUI.refresh()
