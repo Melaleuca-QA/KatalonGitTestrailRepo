@@ -23,9 +23,11 @@ WebUI.enableSmartWait()
 
 WebUI.navigateToUrl(GlobalVariable.nse_url_uattw)
 
+WebUI.maximizeWindow()
+
 WebUI.refresh()
 
-WebUI.maximizeWindow()
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signon'))
 

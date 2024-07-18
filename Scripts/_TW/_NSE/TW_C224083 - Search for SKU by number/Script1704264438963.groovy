@@ -34,15 +34,15 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '2000')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
@@ -51,11 +51,11 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), 'oil')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
@@ -66,11 +66,11 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '蛋白質')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
@@ -81,11 +81,11 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '5點')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart2'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
@@ -96,11 +96,11 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), 'Tub & Tile')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
@@ -111,11 +111,11 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), 'renew')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 if (false) {
     //(GlobalVariable.run_env != 'PD') {
@@ -128,20 +128,20 @@ if (false) {
 //WebUI.waitForAlert(5)
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_add'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '下一步'
 WebUI.click(findTestObject('OB_NSE/Page_Shopping Cart/span_proceed to checkout'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 
@@ -149,38 +149,38 @@ WebUI.back()
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 //WebUI.navigateToUrl('https://productstore2-uattw.melaleuca.com/cart')
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_delete item1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete cart sku1'))
 

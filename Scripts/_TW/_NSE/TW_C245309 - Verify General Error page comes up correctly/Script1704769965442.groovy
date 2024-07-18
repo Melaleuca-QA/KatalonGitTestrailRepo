@@ -32,7 +32,7 @@ WebUI.verifyEqual(now_url, GlobalVariable.nse_GeneralError)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_back to home'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'Product Store Page'
 def ps_url = WebUI.getUrl()
@@ -41,7 +41,7 @@ println(ps_url)
 
 WebUI.verifyEqual(ps_url, GlobalVariable.nse_ProductStore)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'back to legacy PD env  Business Center Page'
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_business center'))
@@ -50,7 +50,7 @@ WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
 WebUI.navigateToUrl(GlobalVariable.url_BusinessCenter)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 //WebUI.setText(findTestObject('OB_Web/Page_/input_Email_UserName'), GlobalVariable.tw_input_username1)
 //WebUI.setEncryptedText(findTestObject('OB_Web/Page_/input_Password'), GlobalVariable.tw_input_password1)
@@ -63,7 +63,7 @@ println(bc_url)
 
 WebUI.verifyEqual(bc_url, GlobalVariable.url_BusinessCenter)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.back()
 

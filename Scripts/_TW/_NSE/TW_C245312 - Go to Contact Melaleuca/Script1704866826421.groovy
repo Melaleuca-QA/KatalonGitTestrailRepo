@@ -24,7 +24,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Compa
 
 def ps_url = WebUI.getUrl()
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 println(ps_url)
 
@@ -35,7 +35,7 @@ WebUI.waitForPageLoad(10)
 'Frequently Asked Questions'
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_cs'))
 
@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_cs_orders_e'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_cs_refunds'))
 
@@ -91,7 +91,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_cs_refunds_9'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_cs_shipping'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_cs_shipping_2'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_cs_payment'))
 
@@ -107,7 +107,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_cs_payment_2'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_cs_invoice'))
 
@@ -135,7 +135,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_cs_invoice_c'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_mem_member'))
 
@@ -149,7 +149,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_mem_member_5'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_mem_benefits'))
 
@@ -161,7 +161,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_mem_benefits_4'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_mem_questions'))
 
@@ -175,7 +175,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_mem_questions_5'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_bd'))
 
@@ -285,7 +285,7 @@ WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, 
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/button_faq_bd_policy_2'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_faq_links'))
 

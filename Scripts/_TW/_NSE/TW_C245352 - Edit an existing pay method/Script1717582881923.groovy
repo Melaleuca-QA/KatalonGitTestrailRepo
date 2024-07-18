@@ -34,25 +34,25 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '860')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/img_m-refinerImage_img_861'))
 
 WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
 
@@ -60,7 +60,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_add new payment method'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB_NSE/Page_Add New Payment Method/input_card number'), GlobalVariable.tw_input_creditcard)
 
@@ -70,7 +70,7 @@ WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/sel
 
 WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
 
@@ -82,7 +82,7 @@ WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/sel
 
 WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down4'))
 
@@ -90,7 +90,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/svg_CC_modification'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
@@ -103,17 +103,17 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3
     WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_pay_button2'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_payment_owing-balance'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping2'))
 

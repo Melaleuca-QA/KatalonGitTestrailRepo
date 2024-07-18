@@ -26,28 +26,28 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '1008')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '24074')
 
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_choice sku'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'Single SKU'
 if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/a_view cart'), 3)) {
@@ -58,27 +58,27 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/a_view cart')
 
     WebUI.click(findTestObject('OB_NSE/Page_/img_7911-sku2'))
 
-    WebUI.waitForAlert(10)
+    WebUI.waitForAlert(5)
 
     WebUI.click(findTestObject('OB_NSE/Page_Search/button_add to cart'))
 
     WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down1'))
 
 '60138'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_shopping_cart sku1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shopping1'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_keyboard_arrow_down1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
 
@@ -94,7 +94,7 @@ if (GlobalVariable.run_env == 'ST') {
     WebUI.click(findTestObject('OB_NSE/Page_/span_shopping_cart sku3'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'Single SKU'
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'), 3)) {
@@ -112,13 +112,13 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_NSE/Page_/b
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_check shopping cart'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_keyboard_arrow_down2'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_next step'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '本月加購&贈品專區'
 if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'), 3)) {
@@ -128,7 +128,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_promotion sku'
     //WebUI.waitForAlert(5)
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_add promotion to cart'))
 
-    WebUI.waitForAlert(10)
+    WebUI.waitForAlert(5)
 }
 
 if (GlobalVariable.run_env != 'PD') {
@@ -146,7 +146,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_pay'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 //抓起訖日期 Earned LSD //
 def sys_date = new Date()
@@ -247,7 +247,7 @@ println(now_cal_lsd)
 'Check Earded LSD Amount in order receipt'
 WebUI.verifyEqual(now_lsd, now_cal_lsd)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '進order history再次付款, 訂單即收款成功.'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
@@ -270,7 +270,7 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping2'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
 

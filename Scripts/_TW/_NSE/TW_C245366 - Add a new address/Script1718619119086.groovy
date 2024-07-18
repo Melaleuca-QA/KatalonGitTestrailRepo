@@ -30,7 +30,7 @@ WebUI.click(findTestObject('OB_NSE/Page_Order History/a_payment addresses'))
 'Page Down'
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_myaccount_shipping_address_add'))
 
@@ -53,7 +53,7 @@ WebUI.click(findTestObject('OB_NSE/Page_My Account/button_shipping-addr_save'))
 'Page Down'
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_My Account/a_edit-shipping-addr'))
 
@@ -68,13 +68,13 @@ WebUI.click(findTestObject('OB_NSE/Page_My Account/button_shipping-addr_save'))
 'Page Down'
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_My Account/button_delete-shipping-addr'))
 
 WebUI.click(findTestObject('OB_NSE/Page_My Account/button_delete-shipping-addr_confirm'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
 

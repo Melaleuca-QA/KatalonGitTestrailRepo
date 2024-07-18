@@ -29,12 +29,12 @@ WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHand
 'myAccPopup_icon'
 WebUI.click(findTestObject('OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/img_myAcc_icon'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'my-account'
 WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_go to my account'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Order History/a_payment addresses'))
 
@@ -48,7 +48,7 @@ WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/sel
 
 WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_edit-payment-method'))
 
@@ -58,25 +58,25 @@ WebUI.selectOptionByValue(findTestObject('OB_NSE/Page_Add New Payment Method/sel
 
 WebUI.click(findTestObject('OB_NSE/Page_Add New Payment Method/button_save'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_delete-payment-method-confirmation'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_Lists'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Lists/a_account settings'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_My Account/a_Order History'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Payment  Addresses/a_my-account'))
 

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/img_myAcc_icon'))
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_Welcome to Melaleuca, The Wellness Company/a_signout'))
 
 WebUI.waitForAlert(5)

@@ -17,32 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Login_tw'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForAlert(5)
 
-'myAccPopup_icon'
-WebUI.click(findTestObject('OB_NSE/Page_/img_See All-myAccPopup_icon loaded'))
+WebUI.click(findTestObject('OB_NSE/Page_/a_Logout_tw'))
 
 WebUI.waitForAlert(5)
 
-'my-account'
-WebUI.click(findTestObject('OB_NSE/Page_Account Settings/a_go to my account'))
+WebUI.disableSmartWait()
 
-WebUI.waitForAlert(5)
-
-now_url = WebUI.getUrl()
-
-println(now_url)
-
-trim_url = now_url.subSequence(0, 8)
-
-println(trim_url)
-
-WebUI.verifyMatch(trim_url, 'https://', false)
-
-WebUI.callTestCase(findTestCase('_TW/_NSE/_General/_Logout_tw'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Verify My Account is secure https://'
-GlobalVariable.test_case = '245361'
-
-WebUI.callTestCase(findTestCase('_TW/_Globals/TW Testrail reporting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

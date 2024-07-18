@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>74672a70-a1e9-4c3a-9e1b-45ce9b297d5b</webElementGuid>
+      <webElementGuid>e27d0e31-6839-4eed-8c09-c5993ae39533</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>enrollee-name ng-binding</value>
-      <webElementGuid>ff0d9b5c-e3a9-411a-934d-9046c3735884</webElementGuid>
+      <webElementGuid>08066a17-6d22-44db-85b0-14272391affc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>tw26844717</value>
-      <webElementGuid>4fff8ece-b063-47ba-9e8f-5a6b8de6ae48</webElementGuid>
+      <webElementGuid>0b5363ab-006f-4eea-8bc2-f4d260a83a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FollowUpNewCustomer&quot;)/table[@class=&quot;followUpTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;cellBorders enrollerName&quot;]/div[@class=&quot;fc-flex-container&quot;]/div[1]/div[@class=&quot;enrollee-name ng-binding&quot;]</value>
-      <webElementGuid>18da545c-d645-4090-9399-96b0de0525c2</webElementGuid>
+      <webElementGuid>8b7c767a-9b0c-4b7d-90a8-c670b75607ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='FollowUpNewCustomer']/table/tbody/tr/td/div/div/div</value>
-      <webElementGuid>90c295a1-c816-48a3-a494-cc0b01003e63</webElementGuid>
+      <webElementGuid>a64ba84f-d57f-42bb-ae14-4c0003581bcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已完成聯絡'])[1]/following::div[3]</value>
-      <webElementGuid>d4978add-1d28-4148-aea6-6cebea54dd7e</webElementGuid>
+      <webElementGuid>88d64b66-7981-4528-b598-966a45331a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='消費回饋'])[3]/following::div[6]</value>
-      <webElementGuid>5a65c8a6-012d-4962-a059-f04e8a25ce46</webElementGuid>
+      <webElementGuid>3e9cc929-0bdd-43e9-816a-521e46d8810a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='基礎顧客'])[1]/preceding::div[2]</value>
-      <webElementGuid>cd6a375c-c26d-49ca-9967-e0273a3f7805</webElementGuid>
+      <webElementGuid>cd2b538f-0074-486e-8f3c-65489cc71aed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='tw26844717']/parent::*</value>
-      <webElementGuid>d098bfa8-17b9-4cc9-8c15-0d1847dae312</webElementGuid>
+      <webElementGuid>10f25d97-d44d-494c-9670-ff0e7c5b6584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div</value>
-      <webElementGuid>15cf45b0-8109-45e2-9eb4-6793a2d9d991</webElementGuid>
+      <webElementGuid>50e72787-730c-4a4d-b4a5-3a2dd3d191bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'tw26844717' or . = 'tw26844717')]</value>
-      <webElementGuid>a93cfd20-84ec-4c8c-a977-00b11583407d</webElementGuid>
+      <webElementGuid>0c02254d-1ba5-4147-a070-045f7e653af6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

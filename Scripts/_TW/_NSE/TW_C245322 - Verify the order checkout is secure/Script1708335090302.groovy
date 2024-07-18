@@ -26,15 +26,15 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '2000')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_continue shop'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_close'))
 
@@ -43,19 +43,19 @@ WebUI.setText(findTestObject('OB_NSE/Page_/input_search'), '2000')
 'prodcut search'
 WebUI.click(findTestObject('OB_NSE/Page_/input_search_icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_choice to cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_Search/a_view cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_next step'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/a_continue to checkout'))
 
@@ -89,7 +89,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/path_shipping_address_delete_icon'))
 
 WebUI.click(findTestObject('OB_NSE/Page_/button_shipping_address_delete_confirmation'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('OB_NSE/Page_/input_cvvCode_checkout'), '123')
 
@@ -103,17 +103,17 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3
     WebUI.click(findTestObject('OB_NSE/Page_/span_pay'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'cancel order'
 WebUI.click(findTestObject('OB_NSE/Page_/button_receipt_cancel_order'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'cancel order confirmation'
 WebUI.click(findTestObject('OB_NSE/Page_/button_receipt_cancel_order_confirmation'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'order button'
 WebUI.click(findTestObject('OB_NSE/Page_/button_orders'))

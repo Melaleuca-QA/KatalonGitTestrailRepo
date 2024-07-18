@@ -102,4 +102,11 @@
       <testCaseId>Test Cases/_TW/_NSE/TW_C245366 - Add a new address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>94e1da44-3710-44a1-b4ae-7261c985f472</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_TW/_NSE/TW_C245566 - Start an enrollment, verify enrollment form comes up</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

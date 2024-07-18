@@ -39,7 +39,7 @@ if (true) {
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '體重管理及食品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_healthy-foods-and-drinks'))
@@ -61,7 +61,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '素食'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_vegetarian'))
@@ -76,7 +76,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_sku-3918'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '家用清潔'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_cleaning-and-laundry'))
@@ -91,7 +91,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '沐浴洗髮美體'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_personal-care'))
@@ -104,7 +104,7 @@ if (GlobalVariable.run_env == 'ST') {
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '專業護理'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_pharmacy'))
@@ -123,28 +123,28 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '美妝保養'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_sei-bella-beauty'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'), 3)) {
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_beauty'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_70191'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '精油'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_essential-oils'))
@@ -153,7 +153,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/span_50059'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '新品'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_new-products'))
@@ -162,7 +162,7 @@ WebUI.click(findTestObject('OB_NSE/Page_/button_sku-8089'))
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_continue shopping1'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 '特惠專區'
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_extra-savings'))
@@ -182,7 +182,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_Search/button_add to
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/a_check shopping cart'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('OB_NSE/Page_/span_add qty'))
 
@@ -250,7 +250,7 @@ if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/span_pay-close'), 3
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/span_pay'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_order history'))
 
@@ -271,7 +271,7 @@ if (GlobalVariable.run_env == 'PD') {
     WebUI.click(findTestObject('Object Repository/OB_NSE/Page_/button_payment_owing-balance'))
 }
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 'close continue shopping'
 if (WebUI.waitForElementVisible(findTestObject('OB_NSE/Page_/button_continue shopping2'), 3)) {

@@ -27,9 +27,11 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/a_BIN GENERATOR'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(5)
 
 WebUI.setText(findTestObject('Object Repository/OB_Web/Page_VCCGenerator/input_BIN_namso-bin'), '405430')
+
+WebUI.waitForAlert(5)
 
 'Page Down'
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
